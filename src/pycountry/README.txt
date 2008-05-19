@@ -120,3 +120,20 @@ The languages database is similar too:
   >>> aragonese.name
   'Aragonese'
 
+
+Locales
+=======
+
+Locales are available in the `pycountry.LOCALES_DIR` subdirectory of this
+package. The translation domains are called `isoXXX` according to the standard
+they provide translations for. The directory is structured in a way compatible
+to Python's gettext module.
+
+Here is an example translating language names:
+
+  >>> import gettext
+  >>> german = gettext.translation('iso3166', pycountry.LOCALES_DIR,
+  ...                              languages=['de'])
+  >>> german.install()
+  >>> _('Germany')
+  'Deutschland'

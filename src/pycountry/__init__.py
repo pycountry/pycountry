@@ -9,6 +9,10 @@ import os.path
 import pycountry.db
 
 
+LOCALES_DIR = os.path.join(os.path.dirname(__file__), 'locales')
+DATABASE_DIR = os.path.join(os.path.dirname(__file__), 'databases')
+
+
 class Countries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
@@ -52,9 +56,8 @@ class Languages(pycountry.db.Database):
     data_class_name = 'Language'
     xml_tag = 'iso_639_entry'
 
-database_dir = os.path.join(os.path.dirname(__file__), 'databases')
 
-countries = Countries(os.path.join(database_dir, 'iso3166.xml'))
-scripts = Scripts(os.path.join(database_dir, 'iso15924.xml'))
-currencies  = Currencies(os.path.join(database_dir, 'iso4217.xml'))
-languages = Languages(os.path.join(database_dir, 'iso639.xml'))
+countries = Countries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
+scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
+currencies  = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
+languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))
