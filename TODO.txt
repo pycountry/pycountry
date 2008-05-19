@@ -1,0 +1,8 @@
+- Define APIs for the various standards
+
+- Include .po structure in correct format to match gettext expectations (see
+  zope.i18n etc)
+
+- Compile .po files automatically.
+
+- Provide `update`-script to include data from the `data` directory.
