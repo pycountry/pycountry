@@ -4,7 +4,10 @@
 # $Id$
 """Generic database code."""
 
+import logging
 import lxml.etree
+
+logger = logging.getLogger('pycountry.db')
 
 
 class Data(object):
@@ -43,8 +46,11 @@ class Database(object):
                 value = getattr(obj, key, None)
                 if value is None:
                     continue
-                assert value not in self.indices[key], (
-                    'Entry %r already taken in index %r' % (value, key))
+                if value in self.indices[key]:
+                    logger.error(
+                        '%s %r already taken in index %r and will be '
+                        'ignored. This is an error in the XML databases.' %
+                        (self.data_class_name, value, key))
                 self.indices[key][value] = obj
 
     def __iter__(self):

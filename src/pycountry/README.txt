@@ -25,11 +25,11 @@ through a Python API.
 Translation files for the various strings are included as well.
 
 
-Accessing country data
-======================
+Countries (ISO 3166)
+====================
 
-You can retrieve an iterable of all current countries using the
-`list_countries` function:
+Countries are accessible through a database object that is already configured
+upon import of pycountry and works as an iterable:
 
   >>> import pycountry
   >>> len(pycountry.countries)
@@ -53,6 +53,28 @@ information included in the standard as attributes:
   'Germany'
   >>> germany.official_name
   'Federal Republic of Germany'
+
+
+Scripts (ISO 15924)
+===================
+
+Scripts are available from a database similar to the countries:
+
+  >>> len(pycountry.scripts)
+  131
+  >>> list(pycountry.scripts)[0]
+  <pycountry.db.Script object at 0x...>
+
+  >>> latin = pycountry.scripts.get(name='Latin')
+  >>> latin
+  <pycountry.db.Script object at 0x...>
+  >>> latin.alpha4
+  'Latn'
+  >>> latin.name
+  'Latin'
+  >>> latin.numeric
+  '215'
+
 
 Note that historic countries, defined by the ISO 3166-3 sub-standard are not
 included in this list.
