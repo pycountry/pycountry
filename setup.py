@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version='1.0dev',
+    version='0.9dev',
     author='Christian Theune',
     author_email='ct@gocept.com',
     description='ISO country, subdivision, language, currency and script '
