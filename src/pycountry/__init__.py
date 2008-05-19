@@ -41,8 +41,20 @@ class Currencies(pycountry.db.Database):
     data_class_name = 'Currency'
     xml_tag = 'iso_4217_entry'
 
+
+class Languages(pycountry.db.Database):
+    """Providess access to an ISO 639-1/2 database (Languages)."""
+
+    field_map = dict(iso_639_2B_code='bibliographic',
+                     iso_639_2T_code='terminology',
+                     iso_639_1_code='alpha2',
+                     name='name')
+    data_class_name = 'Language'
+    xml_tag = 'iso_639_entry'
+
 database_dir = os.path.join(os.path.dirname(__file__), 'databases')
 
 countries = Countries(os.path.join(database_dir, 'iso3166.xml'))
 scripts = Scripts(os.path.join(database_dir, 'iso15924.xml'))
 currencies  = Currencies(os.path.join(database_dir, 'iso4217.xml'))
+languages = Languages(os.path.join(database_dir, 'iso639.xml'))

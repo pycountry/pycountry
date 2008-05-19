@@ -54,6 +54,9 @@ information included in the standard as attributes:
   >>> germany.official_name
   'Federal Republic of Germany'
 
+Note that historic countries, defined by the ISO 3166-3 sub-standard are not
+included in this list.
+
 
 Scripts (ISO 15924)
 ===================
@@ -75,6 +78,7 @@ Scripts are available from a database similar to the countries:
   >>> latin.numeric
   '215'
 
+
 Currencies (ISO 4217)
 =====================
 
@@ -95,5 +99,24 @@ The currencies database is, again, similar to the ones before:
   >>> argentine_peso.numeric
   '032'
 
-Note that historic countries, defined by the ISO 3166-3 sub-standard are not
-included in this list.
+
+Languages (ISO 639)
+===================
+
+The languages database is similar too:
+
+  >>> len(pycountry.languages)
+  486
+  >>> list(pycountry.languages)[0]
+  <pycountry.db.Language object at 0x...>
+
+  >>> aragonese = pycountry.languages.get(alpha2='an')
+  >>> aragonese.alpha2
+  'an'
+  >>> aragonese.bibliographic
+  'arg'
+  >>> aragonese.terminology
+  'arg'
+  >>> aragonese.name
+  'Aragonese'
+
