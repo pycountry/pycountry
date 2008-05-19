@@ -5,16 +5,12 @@
 """pycountry"""
 
 import os.path
-import lxml.etree
 
-database_dir = os.path.join(os.path.dirname(__file__), 'databases')
-
-
-class Data(object):
-    pass
+import pycountry.db
 
 
-class Countries(object):
+class Countries(pycountry.db.Database):
+    """Provides access to an ISO 3166 database."""
 
     field_map = dict(alpha_2_code='alpha2',
                      alpha_3_code='alpha3',
@@ -22,46 +18,10 @@ class Countries(object):
                      name='name',
                      official_name='official_name',
                      common_name='common_name')
+    data_class_name = 'Country'
+    xml_tag = 'iso_3166_entry'
 
-    def __init__(self, filename):
-        self.objects = []
-        self.indices = {}
 
-        self.data_class = type('Country', (Data,), {})
-
-        f = open(filename, 'rb')
-        etree = lxml.etree.parse(f)
-
-        for entry in etree.xpath('//iso_3166_entry'):
-            entry_obj = self.data_class()
-            for key in entry.keys():
-                setattr(entry_obj, self.field_map[key], entry.get(key))
-            self.objects.append(entry_obj)
-
-        # Create indices
-        for key in self.field_map.values():
-            self.indices[key] = {}
-
-        # Update indices
-        for obj in self.objects:
-            for key in self.field_map.values():
-                value = getattr(obj, key, None)
-                if value is None:
-                    continue
-                assert value not in self.indices[key], (
-                    'Entry %r already taken in index %r' % (value, key))
-                self.indices[key][value] = obj
-
-    def __iter__(self):
-        return iter(self.objects)
-
-    def __len__(self):
-        return len(self.objects)
-
-    def get(self, **kw):
-        assert len(kw) == 1, 'Only one criteria may be given.'
-        field, value = kw.items()[0]
-        return self.indices[field][value]
-
+database_dir = os.path.join(os.path.dirname(__file__), 'databases')
 
 countries = Countries(os.path.join(database_dir, 'iso3166.xml'))
