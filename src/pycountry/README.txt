@@ -75,6 +75,25 @@ Scripts are available from a database similar to the countries:
   >>> latin.numeric
   '215'
 
+Currencies (ISO 4217)
+=====================
+
+The currencies database is, again, similar to the ones before:
+
+  >>> len(pycountry.currencies)
+  183
+  >>> list(pycountry.currencies)[0]
+  <pycountry.db.Currency object at 0x...>
+
+  >>> argentine_peso = pycountry.currencies.get(letter='ARS')
+  >>> argentine_peso
+  <pycountry.db.Currency object at 0x...>
+  >>> argentine_peso.letter
+  'ARS'
+  >>> argentine_peso.name
+  'Argentine Peso'
+  >>> argentine_peso.numeric
+  '032'
 
 Note that historic countries, defined by the ISO 3166-3 sub-standard are not
 included in this list.
