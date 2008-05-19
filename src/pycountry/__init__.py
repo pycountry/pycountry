@@ -10,7 +10,7 @@ import pycountry.db
 
 
 class Countries(pycountry.db.Database):
-    """Provides access to an ISO 3166 database."""
+    """Provides access to an ISO 3166 database (Countries)."""
 
     field_map = dict(alpha_2_code='alpha2',
                      alpha_3_code='alpha3',
@@ -22,6 +22,17 @@ class Countries(pycountry.db.Database):
     xml_tag = 'iso_3166_entry'
 
 
+class Scripts(pycountry.db.Database):
+    """Providess access to an ISO 15924 database (Scripts)."""
+
+    field_map = dict(alpha_4_code='alpha4',
+                     numeric_code='numeric',
+                     name='name')
+    data_class_name = 'Script'
+    xml_tag = 'iso_15924_entry'
+
+
 database_dir = os.path.join(os.path.dirname(__file__), 'databases')
 
 countries = Countries(os.path.join(database_dir, 'iso3166.xml'))
+scripts = Scripts(os.path.join(database_dir, 'iso15924.xml'))
