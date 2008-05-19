@@ -26,4 +26,5 @@ setup(
     packages=find_packages('src'),
     include_package_data=True,
     package_dir={'':'src'},
+    install_requires=['lxml'],
     )
