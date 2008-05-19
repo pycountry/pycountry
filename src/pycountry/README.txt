@@ -32,21 +32,23 @@ You can retrieve an iterable of all current countries using the
 `list_countries` function:
 
   >>> import pycountry
-  >>> list(pycountry.list_countries())[0]
-  <Country object at 0x...>
+  >>> len(pycountry.countries)
+  246
+  >>> list(pycountry.countries)[0]
+  <pycountry.Country object at 0x...>
 
 Specific countries can be looked up by their various codes and provide the
 information included in the standard as attributes:
 
-  >>> germany = pycountry.get_country(alpha2='DE')
+  >>> germany = pycountry.countries.get(alpha2='DE')
   >>> germany
-  <Country object at 0x...>
+  <pycountry.Country object at 0x...>
   >>> germany.alpha2
   'DE'
   >>> germany.alpha3
   'DEU'
   >>> germany.numeric
-  276
+  '276'
   >>> germany.name
   'Germany'
   >>> germany.official_name
