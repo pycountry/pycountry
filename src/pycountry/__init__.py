@@ -32,7 +32,17 @@ class Scripts(pycountry.db.Database):
     xml_tag = 'iso_15924_entry'
 
 
+class Currencies(pycountry.db.Database):
+    """Providess access to an ISO 4217 database (Currencies)."""
+
+    field_map = dict(letter_code='letter',
+                     numeric_code='numeric',
+                     currency_name='name')
+    data_class_name = 'Currency'
+    xml_tag = 'iso_4217_entry'
+
 database_dir = os.path.join(os.path.dirname(__file__), 'databases')
 
 countries = Countries(os.path.join(database_dir, 'iso3166.xml'))
 scripts = Scripts(os.path.join(database_dir, 'iso15924.xml'))
+currencies  = Currencies(os.path.join(database_dir, 'iso4217.xml'))
