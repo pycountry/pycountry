@@ -1,8 +1,3 @@
-- Include .po structure in correct format to match gettext expectations (see
-  zope.i18n etc)
-
-- Compile .po files automatically.
-
 - Check unicode compatibility
 
 - Add support for country subdivisions.
