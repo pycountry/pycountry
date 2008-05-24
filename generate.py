@@ -10,7 +10,6 @@ import os.path
 import shutil
 import subprocess
 
-STANDARDS = ['639', '3166', '4217', '15924']
 
 
 data_dir = 'data'
@@ -22,21 +21,24 @@ assert os.path.exists(data_dir), 'pkg-isocodes data directory not found'
 database_dir = os.path.join(base_dir, 'databases')
 locales_dir = os.path.join(base_dir, 'locales')
 
+STANDARDS = {'639': os.path.join(data_dir, 'iso_639'),
+             '3166': os.path.join(data_dir, 'iso_3166'),
+             '4217': os.path.join(data_dir, 'iso_4217'),
+             '15924': os.path.join(data_dir, 'iso_15924')}
 
 # Put the database files in place
 if not os.path.exists(database_dir):
     os.mkdir(database_dir)
 
-for standard in STANDARDS:
-    src = os.path.join('data', 'iso_%s' % standard, 'iso_%s.xml' % standard)
+for standard, standard_dir in STANDARDS.items():
+    src = os.path.join(standard_dir, 'iso_%s.xml' % standard)
     dst = os.path.join(database_dir, 'iso%s.xml' % standard)
     shutil.copyfile(src, dst)
 
 
 # Put the PO files in place and compile them
-for standard in STANDARDS:
-    locale_dir = os.path.join(data_dir, 'iso_%s' % standard)
-    for src in glob.glob(os.path.join(locale_dir, '*.po')):
+for standard, standard_dir in STANDARDS.items():
+    for src in glob.glob(os.path.join(standard_dir, '*.po')):
         dir, locale = os.path.split(src)
         locale = locale.replace('.po', '')
 
