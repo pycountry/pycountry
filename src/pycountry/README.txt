@@ -19,8 +19,8 @@ pycountry provides the ISO databases for the standards:
 15924
   Scripts
 
-The databases are imported from Debian's `pkg-isocodes` and made accessible
-through a Python API.
+The databases are imported from Debian's `pkg-isocodes`, packaged into
+pycountry and made accessible through a Python API.
 
 Translation files for the various strings are included as well.
 
@@ -56,6 +56,56 @@ information included in the standard as attributes:
 
 Note that historic countries, defined by the ISO 3166-3 sub-standard are not
 included in this list.
+
+Country subdivisions (ISO 3166-2)
+=================================
+
+The country subdivisions are a little more complex than the countries itself
+because they provide a nested and typed structure.
+
+All subdivions can be accessed directly:
+
+  >>> len(pycountry.subdivisions)
+  4548
+  >>> list(pycountry.subdivisions)[0]
+  <pycountry.db.Subdivision object at 0x...>
+
+Subdivisions can be accessed using their unique code and provide at least
+their code, name and type:
+
+  >>> de_st= pycountry.subdivisions.get(code='DE-ST')
+  >>> de_st.code
+  'DE-ST'
+  >>> de_st.name
+  'Sachsen-Anhalt'
+  >>> de_st.type
+  'State'
+  >>> de_st.country
+  <pycountry.db.Country object at 0x...>
+
+Some subdivisions specify another subdivision as a parent:
+
+  >>> al_br = pycountry.subdivisions.get(code='AL-BU')
+  >>> al_br.code
+  'AL-BU'
+  >>> al_br.name
+  u'Bulqiz\xeb'
+  >>> al_br.type
+  'District'
+  >>> al_br.parent_code
+  'AL 9'
+  >>> al_br.parent
+  <pycountry.db.Subdivision object at 0x...>
+  >>> al_br.parent.name
+  u'Dib\xebr'
+
+The divisions of a single country can be queried using the country_code index:
+
+  >>> len(pycountry.subdivisions.get(country_code='DE'))
+  16
+
+  >>> len(pycountry.subdivisions.get(country_code='US'))
+  57
 
 
 Scripts (ISO 15924)
@@ -119,7 +169,6 @@ The languages database is similar too:
   'arg'
   >>> aragonese.name
   'Aragonese'
-
 
 Locales
 =======
