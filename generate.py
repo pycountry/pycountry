@@ -21,10 +21,13 @@ assert os.path.exists(data_dir), 'pkg-isocodes data directory not found'
 database_dir = os.path.join(base_dir, 'databases')
 locales_dir = os.path.join(base_dir, 'locales')
 
+
 STANDARDS = {'639': os.path.join(data_dir, 'iso_639'),
              '3166': os.path.join(data_dir, 'iso_3166'),
+             '3166_2': os.path.join(data_dir, 'iso_3166', 'iso_3166_2'),
              '4217': os.path.join(data_dir, 'iso_4217'),
              '15924': os.path.join(data_dir, 'iso_15924')}
+
 
 # Put the database files in place
 if not os.path.exists(database_dir):
@@ -39,6 +42,7 @@ for standard, standard_dir in STANDARDS.items():
 # Put the PO files in place and compile them
 for standard, standard_dir in STANDARDS.items():
     for src in glob.glob(os.path.join(standard_dir, '*.po')):
+        print src
         dir, locale = os.path.split(src)
         locale = locale.replace('.po', '')
 
@@ -50,6 +54,7 @@ for standard, standard_dir in STANDARDS.items():
         dst_mo = dst.replace('.po', '.mo')
 
         shutil.copyfile(src, dst)
+        print src, " -> ", dst
 
         subprocess.check_call(['msgfmt', dst, '-o', dst_mo])
 

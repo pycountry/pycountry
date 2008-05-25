@@ -57,7 +57,48 @@ class Languages(pycountry.db.Database):
     xml_tag = 'iso_639_entry'
 
 
+class Subdivision(pycountry.db.Data):
+
+    parent_code = None
+
+    def __init__(self, element, **kw):
+        super(Subdivision, self).__init__(element, **kw)
+        self.type = element.getparent().get('type')
+        self.country_code = self.code.split('-')[0]
+        if self.parent_code is not None:
+            self.parent_code = '%s %s' % (self.country_code, self.parent_code)
+
+    @property
+    def country(self):
+        return countries.get(alpha2=self.country_code)
+
+    @property
+    def parent(self):
+        return subdivisions.get(code=self.parent_code)
+
+
+class Subdivisions(pycountry.db.Database):
+
+    xml_tag = 'iso_3166_2_entry'
+    data_class_base = Subdivision
+    data_class_name = 'Subdivision'
+    field_map = dict(code='code',
+                     name='name',
+                     parent='parent_code')
+
+    def __init__(self, *args, **kw):
+        super(Subdivisions, self).__init__(*args, **kw)
+
+        self.indices['country_code'] = {}
+        # Add the country code to the index:
+        for subdivision in self:
+            divs = self.indices['country_code'].setdefault(
+                subdivision.country_code, set())
+            divs.add(subdivision)
+
+
 countries = Countries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
 currencies  = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
 languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))
+subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166_2.xml'))
