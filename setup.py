@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version='0.10dev',
+    version='0.11dev',
     author='Christian Theune',
     author_email='ct@gocept.com',
     description='ISO country, subdivision, language, currency and script '
