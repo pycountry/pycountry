@@ -16,8 +16,9 @@ setup(
     author_email='ct@gocept.com',
     description='ISO country, subdivision, language, currency and script '
                 'definitions and their translations',
-    long_description=open(os.path.join('src', 'pycountry', 'README.txt')
-                         ).read(),
+    long_description=(
+        open(os.path.join('src', 'pycountry', 'README.txt')).read() + '\n' +
+        open('CHANGES.txt').read()),
     license='LGPL 2.1',
     keywords='country subdivision language currency iso 3166 639 4217 '
              '15924 3166-2',
