@@ -19,8 +19,8 @@ pycountry provides the ISO databases for the standards:
 15924
   Scripts
 
-The databases are imported from Debian's `pkg-isocodes`, packaged into
-pycountry and made accessible through a Python API.
+The package includes a copy from Debian's `pkg-isocodes` and makes the data
+accessible through a Python API.
 
 Translation files for the various strings are included as well.
 
