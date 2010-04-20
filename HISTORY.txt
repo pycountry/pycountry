@@ -6,6 +6,19 @@ Changes
 
 - Follow Debian repository to git.
 
+- Upgrade data to revision 770fa9cd603f90f9fb982b32fe6f45d253f1d33e as
+  requested by #5488 and others.
+
+- Reflect subdivision changes with how they reference their parents in the XML
+  (they used to use space as a separator but now use a hyphen).
+
+- Refactor index building structures a bit.
+
+- Remove superfluous 'code' index from subdivision database. (Together with
+  the data upgrade this also gets rid of all the annoying warnings as
+  described in #6667).
+
+- Some light PEP 8 improvements.
 
 0.11 (2009-03-03)
 -----------------

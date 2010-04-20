@@ -25,12 +25,14 @@ class Database(object):
     data_class_base = Data
     data_class_name = None
     xml_tag = None
+    no_index = []
 
     def __init__(self, filename):
         self.objects = []
         self.indices = {}
 
-        self.data_class = type(self.data_class_name, (self.data_class_base,), {})
+        self.data_class = type(self.data_class_name, (self.data_class_base,),
+                               {})
 
         f = open(filename, 'rb')
         etree = lxml.etree.parse(f)
@@ -42,22 +44,32 @@ class Database(object):
             entry_obj = self.data_class(entry, **mapped_data)
             self.objects.append(entry_obj)
 
-        # Create indices
+        # Construct list of indices: primary single-column indices
+        indices = []
         for key in self.field_map.values():
-            self.indices[key] = {}
+            if key in self.no_index:
+                continue
+            # Slightly horrible hack: to evaluate `key` at definition time of
+            # the lambda I pass it as a keyword argument.
+            getter = lambda x, key=key: getattr(x, key, None)
+            indices.append((key, getter))
+
+        # Create indices
+        for name, _ in indices:
+            self.indices[name] = {}
 
         # Update indices
         for obj in self.objects:
-            for key in self.field_map.values():
-                value = getattr(obj, key, None)
+            for name, rule in indices:
+                value = rule(obj)
                 if value is None:
                     continue
-                if value in self.indices[key]:
+                if value in self.indices[name]:
                     logger.error(
                         '%s %r already taken in index %r and will be '
                         'ignored. This is an error in the XML databases.' %
-                        (self.data_class_name, value, key))
-                self.indices[key][value] = obj
+                        (self.data_class_name, value, name))
+                self.indices[name][value] = obj
 
     def __iter__(self):
         return iter(self.objects)
