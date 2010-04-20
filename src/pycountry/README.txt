@@ -63,7 +63,7 @@ Country subdivisions (ISO 3166-2)
 The country subdivisions are a little more complex than the countries itself
 because they provide a nested and typed structure.
 
-All subdivions can be accessed directly:
+All subdivisons can be accessed directly:
 
   >>> len(pycountry.subdivisions)
   4548
@@ -93,7 +93,7 @@ Some subdivisions specify another subdivision as a parent:
   >>> al_br.type
   'District'
   >>> al_br.parent_code
-  'AL 9'
+  'AL-09'
   >>> al_br.parent
   <pycountry.db.Subdivision object at 0x...>
   >>> al_br.parent.name
@@ -114,7 +114,7 @@ Scripts (ISO 15924)
 Scripts are available from a database similar to the countries:
 
   >>> len(pycountry.scripts)
-  131
+  146
   >>> list(pycountry.scripts)[0]
   <pycountry.db.Script object at 0x...>
 
@@ -135,7 +135,7 @@ Currencies (ISO 4217)
 The currencies database is, again, similar to the ones before:
 
   >>> len(pycountry.currencies)
-  183
+  182
   >>> list(pycountry.currencies)[0]
   <pycountry.db.Currency object at 0x...>
 

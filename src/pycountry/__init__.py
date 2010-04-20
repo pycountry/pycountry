@@ -66,7 +66,7 @@ class Subdivision(pycountry.db.Data):
         self.type = element.getparent().get('type')
         self.country_code = self.code.split('-')[0]
         if self.parent_code is not None:
-            self.parent_code = '%s %s' % (self.country_code, self.parent_code)
+            self.parent_code = '%s-%s' % (self.country_code, self.parent_code)
 
     @property
     def country(self):
@@ -85,12 +85,13 @@ class Subdivisions(pycountry.db.Database):
     field_map = dict(code='code',
                      name='name',
                      parent='parent_code')
+    no_index = ['name', 'parent_code']
 
     def __init__(self, *args, **kw):
         super(Subdivisions, self).__init__(*args, **kw)
 
+        # Add index for the country code.
         self.indices['country_code'] = {}
-        # Add the country code to the index:
         for subdivision in self:
             divs = self.indices['country_code'].setdefault(
                 subdivision.country_code, set())
@@ -99,6 +100,6 @@ class Subdivisions(pycountry.db.Database):
 
 countries = Countries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
-currencies  = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
+currencies = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
 languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))
 subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166_2.xml'))
