@@ -12,7 +12,7 @@ import subprocess
 
 
 
-data_dir = 'data'
+data_dir = 'parts/data'
 base_dir = os.path.join('src', 'pycountry')
 
 assert os.path.exists(base_dir), 'pycountry src directory not found'
@@ -24,7 +24,7 @@ locales_dir = os.path.join(base_dir, 'locales')
 
 STANDARDS = {'639': os.path.join(data_dir, 'iso_639'),
              '3166': os.path.join(data_dir, 'iso_3166'),
-             '3166_2': os.path.join(data_dir, 'iso_3166', 'iso_3166_2'),
+             '3166_2': os.path.join(data_dir, 'iso_3166_2'),
              '4217': os.path.join(data_dir, 'iso_4217'),
              '15924': os.path.join(data_dir, 'iso_15924')}
 
