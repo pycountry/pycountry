@@ -1,10 +1,12 @@
 Changes
 =======
 
-0.13 (unreleased)
------------------
+0.12.1 (unreleased)
+-------------------
 
-- Nothing changed yet.
+- Remedy brown-bag release 0.12 which was missing all data files due to a bad
+  interaction between the build system for the data and zest.releaeser's
+  full-release script.
 
 
 0.12 (2010-04-20)
