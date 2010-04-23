@@ -1,0 +1,1849 @@
+# Translation of ISO-3166 (country names) to Irish
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+# Free Software Foundation, Inc., 2001,2003
+# Alastair McKinstry <mckinstry@debian>, 2001.
+# Kevin Scannell <kscanne@gmail.com>, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_3166-3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"PO-Revision-Date: 2010-04-16 11:35-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ##
+# ## Countries (Listed in ISO 3166-1)
+# ##
+#. name for AFG
+msgid "Afghanistan"
+msgstr "An Afganastáin"
+
+#. official_name for AFG
+msgid "Islamic Republic of Afghanistan"
+msgstr "Poblacht Ioslamach na hAfganastáine"
+
+#. name for ALA
+msgid "Åland Islands"
+msgstr "Oileáin Åland"
+
+#. name for ALB
+msgid "Albania"
+msgstr "An Albáin"
+
+#. official_name for ALB
+msgid "Republic of Albania"
+msgstr "Poblacht na hAlbáine"
+
+#. name for DZA
+msgid "Algeria"
+msgstr "An Ailgéir"
+
+#. official_name for DZA
+msgid "People's Democratic Republic of Algeria"
+msgstr "Poblacht Dhaonlathach an Chongó"
+
+#. name for ASM
+msgid "American Samoa"
+msgstr "Samó Meiriceánach"
+
+#. name for AND
+msgid "Andorra"
+msgstr "Andóra"
+
+#. official_name for AND
+msgid "Principality of Andorra"
+msgstr "Prionsacht Andóra"
+
+#. name for AGO
+msgid "Angola"
+msgstr "Angóla"
+
+#. official_name for AGO
+msgid "Republic of Angola"
+msgstr "Poblacht Angóla"
+
+#. name for AIA
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#. name for ATA
+msgid "Antarctica"
+msgstr "an Antartaice"
+
+#. name for ATG
+msgid "Antigua and Barbuda"
+msgstr "Antigua agus Barbuda"
+
+#. name for ARG
+msgid "Argentina"
+msgstr "An Airgintín"
+
+#. official_name for ARG
+msgid "Argentine Republic"
+msgstr "Poblacht na hAirgintín"
+
+#. name for ARM
+msgid "Armenia"
+msgstr "An Airméin"
+
+#. official_name for ARM
+msgid "Republic of Armenia"
+msgstr "Poblacht na hAirméine"
+
+#. name for ABW
+msgid "Aruba"
+msgstr "Aruba"
+
+#. name for AUS
+msgid "Australia"
+msgstr "An Astráil"
+
+#. name for AUT
+msgid "Austria"
+msgstr "An Ostair"
+
+#. official_name for AUT
+msgid "Republic of Austria"
+msgstr "Poblacht na hOstaire"
+
+#. name for AZE
+msgid "Azerbaijan"
+msgstr "An Asarbaiseáin"
+
+#. official_name for AZE
+msgid "Republic of Azerbaijan"
+msgstr "Poblacht na hAsarbaiseáine"
+
+#. name for BHS
+msgid "Bahamas"
+msgstr "Na Bahámaí"
+
+#. official_name for BHS
+msgid "Commonwealth of the Bahamas"
+msgstr "Comhlathas na mBahámaí"
+
+#. name for BHR
+msgid "Bahrain"
+msgstr "Bairéin"
+
+#. official_name for BHR
+msgid "Kingdom of Bahrain"
+msgstr "Ríocht Bhairéin"
+
+#. name for BGD
+msgid "Bangladesh"
+msgstr "An Bhanglaidéis"
+
+#. official_name for BGD
+msgid "People's Republic of Bangladesh"
+msgstr "Daonphoblacht na Banglaidéise"
+
+#. name for BRB
+msgid "Barbados"
+msgstr "Barbadós"
+
+#. name for BLR
+msgid "Belarus"
+msgstr "An Bhílearúis"
+
+#. official_name for BLR
+msgid "Republic of Belarus"
+msgstr "Poblacht na Bílearúise"
+
+#. name for BEL
+msgid "Belgium"
+msgstr "An Bheilg"
+
+#. official_name for BEL
+msgid "Kingdom of Belgium"
+msgstr "Ríocht na Beilge"
+
+#. name for BLZ
+msgid "Belize"
+msgstr "An Bheilís"
+
+#. name for BEN
+msgid "Benin"
+msgstr "Beinin"
+
+#. official_name for BEN
+msgid "Republic of Benin"
+msgstr "Poblacht na Beinin"
+
+#. name for BMU
+msgid "Bermuda"
+msgstr "Na Beirmiúdaí"
+
+#. name for BTN
+msgid "Bhutan"
+msgstr "An Bhútáin"
+
+#. official_name for BTN
+msgid "Kingdom of Bhutan"
+msgstr "Ríocht na Bútáine"
+
+#. name for BOL
+msgid "Bolivia, Plurinational State of"
+msgstr "An Bholaiv, Stát Ilnáisiúnta"
+
+#. official_name for BOL
+msgid "Plurinational State of Bolivia"
+msgstr "Stát Ilnáisiúnta na Bolaive"
+
+#. common_name for BOL
+msgid "Bolivia"
+msgstr "An Bholaiv"
+
+#. name for BIH
+msgid "Bosnia and Herzegovina"
+msgstr "An Bhoisnia-Heirseagaivéin"
+
+#. official_name for BIH
+msgid "Republic of Bosnia and Herzegovina"
+msgstr "Poblacht na Boisnia-Heirseagaivéin"
+
+#. name for BWA
+msgid "Botswana"
+msgstr "An Bhotsuáin"
+
+#. official_name for BWA
+msgid "Republic of Botswana"
+msgstr "Poblacht na Botsuáine"
+
+#. name for BVT
+msgid "Bouvet Island"
+msgstr "Oileán Bouvet"
+
+#. name for BRA
+msgid "Brazil"
+msgstr "An Bhrasaíl"
+
+#. official_name for BRA
+msgid "Federative Republic of Brazil"
+msgstr "Poblacht Chónascach na Brasaíle"
+
+#. name for IOT
+msgid "British Indian Ocean Territory"
+msgstr "Críocha Briotanacha an Aigéin Indiaigh"
+
+#. name for BRN
+msgid "Brunei Darussalam"
+msgstr "Brúiné Dárasalám"
+
+#. name for BGR
+msgid "Bulgaria"
+msgstr "An Bhulgáir"
+
+#. official_name for BGR
+msgid "Republic of Bulgaria"
+msgstr "Poblacht na Bulgáire"
+
+#. name for BFA
+msgid "Burkina Faso"
+msgstr "Buircíne Fasó"
+
+#. name for BDI
+msgid "Burundi"
+msgstr "An Bhurúin"
+
+#. official_name for BDI
+msgid "Republic of Burundi"
+msgstr "Poblacht na Burúine"
+
+#. name for KHM
+msgid "Cambodia"
+msgstr "An Chambóid"
+
+#. official_name for KHM
+msgid "Kingdom of Cambodia"
+msgstr "Ríocht na Cambóide"
+
+#. name for CMR
+msgid "Cameroon"
+msgstr "Camarún"
+
+#. official_name for CMR
+msgid "Republic of Cameroon"
+msgstr "Poblacht Chamarún"
+
+#. name for CAN
+msgid "Canada"
+msgstr "Ceanada"
+
+#. name for CPV
+msgid "Cape Verde"
+msgstr "Rinn Verde"
+
+#. official_name for CPV
+msgid "Republic of Cape Verde"
+msgstr "Poblacht Rinn Verde"
+
+#. name for CYM
+msgid "Cayman Islands"
+msgstr "Oileáin Cayman"
+
+#. name for CAF
+msgid "Central African Republic"
+msgstr "Poblacht na hAfraice Láir"
+
+#. name for TCD
+msgid "Chad"
+msgstr "Sead"
+
+#. official_name for TCD
+msgid "Republic of Chad"
+msgstr "Poblacht Sead"
+
+#. name for CHL
+msgid "Chile"
+msgstr "An tSile"
+
+#. official_name for CHL
+msgid "Republic of Chile"
+msgstr "Poblacht na Sile"
+
+#. name for CHN
+msgid "China"
+msgstr "An tSín"
+
+#. official_name for CHN
+msgid "People's Republic of China"
+msgstr "Daonphoblacht na Síne"
+
+#. name for CXR
+msgid "Christmas Island"
+msgstr "Oileán na Nollag"
+
+#. name for CCK
+msgid "Cocos (Keeling) Islands"
+msgstr "Oileáin Cocos (Oileáin Keeling)"
+
+#. name for COL
+msgid "Colombia"
+msgstr "An Cholóim"
+
+#. official_name for COL
+msgid "Republic of Colombia"
+msgstr "Poblacht na Colóime"
+
+#. name for COM
+msgid "Comoros"
+msgstr "Oileán Chomóra"
+
+#. official_name for COM
+msgid "Union of the Comoros"
+msgstr "Aontas Oileán Comóra"
+
+#. name for COG
+msgid "Congo"
+msgstr "An Congó"
+
+#. official_name for COG
+msgid "Republic of the Congo"
+msgstr "Poblacht an Chongó"
+
+#. name for COD
+msgid "Congo, The Democratic Republic of the"
+msgstr "Poblacht Dhaonlathach an Chongó"
+
+#. name for COK
+msgid "Cook Islands"
+msgstr "Oileáin Cook"
+
+#. name for CRI
+msgid "Costa Rica"
+msgstr "Cósta Rice"
+
+#. official_name for CRI
+msgid "Republic of Costa Rica"
+msgstr "Poblacht an Chósta Rice"
+
+#. name for CIV
+msgid "Côte d'Ivoire"
+msgstr "An Cósta Eabhair"
+
+#. official_name for CIV
+msgid "Republic of Côte d'Ivoire"
+msgstr "Poblacht an Chósta Eabhair"
+
+#. name for HRV
+msgid "Croatia"
+msgstr "An Chróit"
+
+#. official_name for HRV
+msgid "Republic of Croatia"
+msgstr "Poblacht na Cróite"
+
+#. name for CUB
+msgid "Cuba"
+msgstr "Cúba"
+
+#. official_name for CUB
+msgid "Republic of Cuba"
+msgstr "Poblacht Chúba"
+
+#. name for CYP
+msgid "Cyprus"
+msgstr "An Chipir"
+
+#. official_name for CYP
+msgid "Republic of Cyprus"
+msgstr "Poblacht na Cipire"
+
+#. name for CZE
+msgid "Czech Republic"
+msgstr "Poblacht na Seice"
+
+#. name for DNK
+msgid "Denmark"
+msgstr "An Danmhairg"
+
+#. official_name for DNK
+msgid "Kingdom of Denmark"
+msgstr "Ríocht na Danmhairge"
+
+#. name for DJI
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#. official_name for DJI
+msgid "Republic of Djibouti"
+msgstr "Poblacht Djibouti"
+
+#. name for DMA
+msgid "Dominica"
+msgstr "Doiminice"
+
+#. official_name for DMA
+msgid "Commonwealth of Dominica"
+msgstr "Comhlathas Doiminice"
+
+#. name for DOM
+msgid "Dominican Republic"
+msgstr "An Phoblacht Dhoiminiceach"
+
+#. name for ECU
+msgid "Ecuador"
+msgstr "Eacuadór"
+
+#. official_name for ECU
+msgid "Republic of Ecuador"
+msgstr "Poblacht Eacuadór"
+
+#. name for EGY
+msgid "Egypt"
+msgstr "An Éigipt"
+
+#. official_name for EGY
+msgid "Arab Republic of Egypt"
+msgstr "Poblacht Arabach na hÉigipte"
+
+#. name for SLV
+msgid "El Salvador"
+msgstr "An tSalvadóir"
+
+#. official_name for SLV
+msgid "Republic of El Salvador"
+msgstr "Poblacht na Salvadóire"
+
+#. name for GNQ
+msgid "Equatorial Guinea"
+msgstr "An Ghuine Mheánchiorclach"
+
+#. official_name for GNQ
+msgid "Republic of Equatorial Guinea"
+msgstr "Poblacht na Guine Meánchiorclaí"
+
+#. name for ERI
+msgid "Eritrea"
+msgstr "An Eiritré"
+
+#. name for EST
+msgid "Estonia"
+msgstr "An Eastóin"
+
+#. official_name for EST
+msgid "Republic of Estonia"
+msgstr "Poblacht na hEastóine"
+
+#. name for ETH, historic names for ETH (withdrawn 1993-07-16)
+msgid "Ethiopia"
+msgstr "An Aetóip"
+
+#. official_name for ETH
+msgid "Federal Democratic Republic of Ethiopia"
+msgstr "Poblacht Dhaonlathach Chónascach na hAetóipe"
+
+#. name for FLK
+msgid "Falkland Islands (Malvinas)"
+msgstr "Oileáin Fháclainne (Malvinas)"
+
+#. name for FRO
+msgid "Faroe Islands"
+msgstr "Oileáin Fharó"
+
+#. name for FJI
+msgid "Fiji"
+msgstr "Fidsí"
+
+#. official_name for FJI
+msgid "Republic of the Fiji Islands"
+msgstr "Poblacht Oileán Fidsí"
+
+#. name for FIN
+msgid "Finland"
+msgstr "An Fhionlainn"
+
+#. official_name for FIN
+msgid "Republic of Finland"
+msgstr "Poblacht na Fionlainne"
+
+#. name for FRA
+msgid "France"
+msgstr "An Fhrainc"
+
+#. official_name for FRA
+msgid "French Republic"
+msgstr "Poblacht na Fraince"
+
+#. name for GUF
+msgid "French Guiana"
+msgstr "An Ghuáin Fhrancach"
+
+#. name for PYF
+msgid "French Polynesia"
+msgstr "Polainéis na Fraince"
+
+#. name for ATF
+msgid "French Southern Territories"
+msgstr "Críocha Francacha Theas"
+
+#. name for GAB
+msgid "Gabon"
+msgstr "An Ghabúin"
+
+#. official_name for GAB
+msgid "Gabonese Republic"
+msgstr "Poblacht na Gabúine"
+
+#. name for GMB
+msgid "Gambia"
+msgstr "An Ghaimbia"
+
+#. official_name for GMB
+msgid "Republic of the Gambia"
+msgstr "Poblacht na Gaimbia"
+
+#. name for GEO
+msgid "Georgia"
+msgstr "An tSeoirsia"
+
+#. name for DEU
+msgid "Germany"
+msgstr "An Ghearmáin"
+
+#. official_name for DEU
+msgid "Federal Republic of Germany"
+msgstr "Poblacht Chónaidhme na Gearmáine"
+
+#. name for GHA
+msgid "Ghana"
+msgstr "Gána"
+
+#. official_name for GHA
+msgid "Republic of Ghana"
+msgstr "Poblacht Ghána"
+
+#. name for GIB
+msgid "Gibraltar"
+msgstr "Giobráltar"
+
+#. name for GRC
+msgid "Greece"
+msgstr "An Ghréig"
+
+#. official_name for GRC
+msgid "Hellenic Republic"
+msgstr "An Phoblacht Heilléanach"
+
+#. name for GRL
+msgid "Greenland"
+msgstr "An Ghraonlainn"
+
+#. name for GRD
+msgid "Grenada"
+msgstr "Grenada"
+
+#. name for GLP
+msgid "Guadeloupe"
+msgstr "Guadalúip"
+
+#. name for GUM
+msgid "Guam"
+msgstr "Guam"
+
+#. name for GTM
+msgid "Guatemala"
+msgstr "Guatamala"
+
+#. official_name for GTM
+msgid "Republic of Guatemala"
+msgstr "Poblacht Ghuatamala"
+
+#. name for GGY
+msgid "Guernsey"
+msgstr "Geansaí"
+
+#. name for GIN
+msgid "Guinea"
+msgstr "An Ghuine"
+
+#. official_name for GIN
+msgid "Republic of Guinea"
+msgstr "Poblacht na Guine"
+
+#. name for GNB
+msgid "Guinea-Bissau"
+msgstr "An Ghuine-Bhissau"
+
+#. official_name for GNB
+msgid "Republic of Guinea-Bissau"
+msgstr "Poblacht na Guine-Bhissau"
+
+#. name for GUY
+msgid "Guyana"
+msgstr "An Ghuáin"
+
+#. official_name for GUY
+msgid "Republic of Guyana"
+msgstr "Poblacht na Guáine"
+
+#. name for HTI
+msgid "Haiti"
+msgstr "Háítí"
+
+#. official_name for HTI
+msgid "Republic of Haiti"
+msgstr "Poblacht Háítí"
+
+#. name for HMD
+msgid "Heard Island and McDonald Islands"
+msgstr "Oileán Heard agus Oileáin McDonald"
+
+#. name for VAT
+msgid "Holy See (Vatican City State)"
+msgstr "Suí Naofa (Stát Chathair na Vatacáine)"
+
+#. name for HND
+msgid "Honduras"
+msgstr "Hondúras"
+
+#. official_name for HND
+msgid "Republic of Honduras"
+msgstr "Poblacht Hondúras"
+
+#. name for HKG
+msgid "Hong Kong"
+msgstr "Hong Cong"
+
+#. official_name for HKG
+msgid "Hong Kong Special Administrative Region of China"
+msgstr "Réigiún Speisialta Riaracháin Hong Cong na Síne"
+
+#. name for HUN
+msgid "Hungary"
+msgstr "An Ungáir"
+
+#. official_name for HUN
+msgid "Republic of Hungary"
+msgstr "Poblacht na hUngáire"
+
+#. name for ISL
+msgid "Iceland"
+msgstr "An Íoslainn"
+
+#. official_name for ISL
+msgid "Republic of Iceland"
+msgstr "Poblacht na hÍoslainne"
+
+#. name for IND
+msgid "India"
+msgstr "An India"
+
+#. official_name for IND
+msgid "Republic of India"
+msgstr "Poblacht na hIndia"
+
+#. name for IDN
+msgid "Indonesia"
+msgstr "An Indinéis"
+
+#. official_name for IDN
+msgid "Republic of Indonesia"
+msgstr "Poblacht na hIndinéise"
+
+#. name for IRN
+msgid "Iran, Islamic Republic of"
+msgstr "An Iaráin"
+
+#. official_name for IRN
+msgid "Islamic Republic of Iran"
+msgstr "Poblacht Ioslamach na hIaráine"
+
+#. name for IRQ
+msgid "Iraq"
+msgstr "An Iaráic"
+
+#. official_name for IRQ
+msgid "Republic of Iraq"
+msgstr "Poblacht na hIaráice"
+
+#. name for IRL
+msgid "Ireland"
+msgstr "Éire"
+
+#. name for IMN
+msgid "Isle of Man"
+msgstr "Oileán Mhanann"
+
+#. name for ISR
+msgid "Israel"
+msgstr "Iosrael"
+
+#. official_name for ISR
+msgid "State of Israel"
+msgstr "Stát Iosrael"
+
+#. name for ITA
+msgid "Italy"
+msgstr "An Iodáil"
+
+#. official_name for ITA
+msgid "Italian Republic"
+msgstr "Poblacht na hIodáile"
+
+#. name for JAM
+msgid "Jamaica"
+msgstr "Iamáice"
+
+#. name for JPN
+msgid "Japan"
+msgstr "An tSeapáin"
+
+#. name for JEY
+msgid "Jersey"
+msgstr "Geirsí"
+
+#. name for JOR
+msgid "Jordan"
+msgstr "An Iordáin"
+
+#. official_name for JOR
+msgid "Hashemite Kingdom of Jordan"
+msgstr "Ríocht Haisimíteach na hIordáine"
+
+#. name for KAZ
+msgid "Kazakhstan"
+msgstr "An Chasacstáin"
+
+#. official_name for KAZ
+msgid "Republic of Kazakhstan"
+msgstr "Poblacht na Casacstáine"
+
+#. name for KEN
+msgid "Kenya"
+msgstr "An Chéinia"
+
+#. official_name for KEN
+msgid "Republic of Kenya"
+msgstr "Poblacht na Céinia"
+
+#. name for KIR
+msgid "Kiribati"
+msgstr "Cireabaití"
+
+#. official_name for KIR
+msgid "Republic of Kiribati"
+msgstr "Poblacht Chireabaití"
+
+#. name for PRK
+msgid "Korea, Democratic People's Republic of"
+msgstr "Daonphoblacht Dhaonlathach na Cóiré"
+
+#. official_name for PRK
+msgid "Democratic People's Republic of Korea"
+msgstr "Daonphoblacht Dhaonlathach na Cóiré"
+
+#. name for KOR
+msgid "Korea, Republic of"
+msgstr "Poblacht na Cóiré"
+
+#. name for KWT
+msgid "Kuwait"
+msgstr "Cuáit"
+
+#. official_name for KWT
+msgid "State of Kuwait"
+msgstr "Stát Cuáit"
+
+#. name for KGZ
+msgid "Kyrgyzstan"
+msgstr "An Chirgeastáin"
+
+#. official_name for KGZ
+msgid "Kyrgyz Republic"
+msgstr "Poblacht na Cirgeastáine"
+
+#. name for LAO
+msgid "Lao People's Democratic Republic"
+msgstr "Daonphoblacht Dhaonlathach Laoch"
+
+#. name for LVA
+msgid "Latvia"
+msgstr "An Laitvia"
+
+#. official_name for LVA
+msgid "Republic of Latvia"
+msgstr "Poblacht na Laitvia"
+
+#. name for LBN
+msgid "Lebanon"
+msgstr "An Liobáin"
+
+#. official_name for LBN
+msgid "Lebanese Republic"
+msgstr "Poblacht na Liobáine"
+
+#. name for LSO
+msgid "Lesotho"
+msgstr "Leosóta"
+
+#. official_name for LSO
+msgid "Kingdom of Lesotho"
+msgstr "Ríocht Leosóta"
+
+#. name for LBR
+msgid "Liberia"
+msgstr "An Libéir"
+
+#. official_name for LBR
+msgid "Republic of Liberia"
+msgstr "Poblacht na Libéire"
+
+#. name for LBY
+msgid "Libyan Arab Jamahiriya"
+msgstr "Poblacht Arabach na Libia"
+
+#. official_name for LBY
+msgid "Socialist People's Libyan Arab Jamahiriya"
+msgstr "Daonphoblacht Shóisialach Arabach na Libia"
+
+#. common_name for LBY
+msgid "Libya"
+msgstr "An Libia"
+
+#. name for LIE
+msgid "Liechtenstein"
+msgstr "Lichtinstéin"
+
+#. official_name for LIE
+msgid "Principality of Liechtenstein"
+msgstr "Prionsacht Lichtinstéin"
+
+#. name for LTU
+msgid "Lithuania"
+msgstr "An Liotuáin"
+
+#. official_name for LTU
+msgid "Republic of Lithuania"
+msgstr "Poblacht na Liotuáine"
+
+#. name for LUX
+msgid "Luxembourg"
+msgstr "Lucsamburg"
+
+#. official_name for LUX
+msgid "Grand Duchy of Luxembourg"
+msgstr "Ard-Diúcacht Lucsamburg"
+
+#. name for MAC
+msgid "Macao"
+msgstr "Macao"
+
+#. official_name for MAC
+msgid "Macao Special Administrative Region of China"
+msgstr "Réigiún Speisialta Riaracháin Macao na Síne"
+
+#. name for MKD
+msgid "Macedonia, Republic of"
+msgstr "Poblacht na Macadóine"
+
+#. official_name for MKD
+msgid "The Former Yugoslav Republic of Macedonia"
+msgstr "Iar-Phoblacht Iúgslavach na Macadóine"
+
+#. name for MDG
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#. official_name for MDG
+msgid "Republic of Madagascar"
+msgstr "Poblacht Mhadagascar"
+
+#. name for MWI
+msgid "Malawi"
+msgstr "An Mhaláiv"
+
+#. official_name for MWI
+msgid "Republic of Malawi"
+msgstr "Poblacht na Maláive"
+
+#. name for MYS
+msgid "Malaysia"
+msgstr "An Mhalaeisia"
+
+#
+# * ISO 3166-2 regions for the Maldives
+#
+# MV-MLE
+#. name for MDV
+msgid "Maldives"
+msgstr "Oileáin Mhaildíve"
+
+#. official_name for MDV
+msgid "Republic of Maldives"
+msgstr "Poblacht Mhaildíve"
+
+#. name for MLI
+msgid "Mali"
+msgstr "Mailí"
+
+#. official_name for MLI
+msgid "Republic of Mali"
+msgstr "Poblacht Mhailí"
+
+#. name for MLT
+msgid "Malta"
+msgstr "Málta"
+
+#. official_name for MLT
+msgid "Republic of Malta"
+msgstr "Poblacht Mhálta"
+
+#. name for MHL
+msgid "Marshall Islands"
+msgstr "Oileáin Marshall"
+
+#. official_name for MHL
+msgid "Republic of the Marshall Islands"
+msgstr "Poblacht Oileán Marshall"
+
+#. name for MTQ
+msgid "Martinique"
+msgstr "Martainíc"
+
+#. name for MRT
+msgid "Mauritania"
+msgstr "An Mháratáin"
+
+#. official_name for MRT
+msgid "Islamic Republic of Mauritania"
+msgstr "Poblacht Ioslamach na Máratáine"
+
+#. name for MUS
+msgid "Mauritius"
+msgstr "Oileán Mhuirís"
+
+#. official_name for MUS
+msgid "Republic of Mauritius"
+msgstr "Poblacht Mhuirís"
+
+#. name for MYT
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#. name for MEX
+msgid "Mexico"
+msgstr "Meicsiceo"
+
+#. official_name for MEX
+msgid "United Mexican States"
+msgstr "Stáit Aontaithe Mheicsiceo"
+
+#. name for FSM
+msgid "Micronesia, Federated States of"
+msgstr "An Mhicrinéis"
+
+#. official_name for FSM
+msgid "Federated States of Micronesia"
+msgstr "Stáit Chónaidhme na Micrinéise"
+
+#. name for MDA
+msgid "Moldova, Republic of"
+msgstr "Moldóive, Poblacht na"
+
+#. official_name for MDA
+msgid "Republic of Moldova"
+msgstr "Poblacht na Moldóive"
+
+#. common_name for MDA
+msgid "Moldova"
+msgstr "An Mholdóiv"
+
+#. name for MCO
+msgid "Monaco"
+msgstr "Monacó"
+
+#. official_name for MCO
+msgid "Principality of Monaco"
+msgstr "Prionsacht Mhonacó"
+
+#. name for MNG
+msgid "Mongolia"
+msgstr "An Mhongóil"
+
+#. name for MNE, official_name for MNE
+msgid "Montenegro"
+msgstr "Montainéagró"
+
+#. name for MSR
+msgid "Montserrat"
+msgstr "Montsarat"
+
+#. name for MAR
+msgid "Morocco"
+msgstr "Maracó"
+
+#. official_name for MAR
+msgid "Kingdom of Morocco"
+msgstr "Ríocht Mharacó"
+
+#. name for MOZ
+msgid "Mozambique"
+msgstr "Mósaimbíc"
+
+#. official_name for MOZ
+msgid "Republic of Mozambique"
+msgstr "Poblacht Mhósaimbíc"
+
+#. name for MMR
+msgid "Myanmar"
+msgstr "Maenmar"
+
+#. official_name for MMR
+msgid "Union of Myanmar"
+msgstr "Aontas Maenmar"
+
+#. name for NAM
+msgid "Namibia"
+msgstr "An Namaib"
+
+#. official_name for NAM
+msgid "Republic of Namibia"
+msgstr "Poblacht na Namaibe"
+
+#. name for NRU
+msgid "Nauru"
+msgstr "Nárú"
+
+#. official_name for NRU
+msgid "Republic of Nauru"
+msgstr "Poblacht Nárú"
+
+#. name for NPL
+msgid "Nepal"
+msgstr "Neipeal"
+
+#. official_name for NPL
+msgid "Federal Democratic Republic of Nepal"
+msgstr "Poblacht Dhaonlathach Chónascach Neipeal"
+
+#. name for NLD
+msgid "Netherlands"
+msgstr "An Ísiltír"
+
+#. official_name for NLD
+msgid "Kingdom of the Netherlands"
+msgstr "Ríocht na hÍsiltíre"
+
+#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Aintillí na hIsiltíre"
+
+#. name for NCL
+msgid "New Caledonia"
+msgstr "An Nua-Chaladóin"
+
+#. name for NZL
+msgid "New Zealand"
+msgstr "An Nua-Shéalainn"
+
+#. name for NIC
+msgid "Nicaragua"
+msgstr "Nicearagua"
+
+#. official_name for NIC
+msgid "Republic of Nicaragua"
+msgstr "Poblacht Nicearagua"
+
+#. name for NER
+msgid "Niger"
+msgstr "An Nígir"
+
+#. official_name for NER
+msgid "Republic of the Niger"
+msgstr "Poblacht na Nígire"
+
+#. name for NGA
+msgid "Nigeria"
+msgstr "An Nigéir"
+
+#. official_name for NGA
+msgid "Federal Republic of Nigeria"
+msgstr "Poblacht Chónaidhme na Nigéire"
+
+#. name for NIU
+msgid "Niue"
+msgstr "Niue"
+
+#. official_name for NIU
+msgid "Republic of Niue"
+msgstr "Poblacht Niue"
+
+#. name for NFK
+msgid "Norfolk Island"
+msgstr "Oileán Norfolk"
+
+#. name for MNP
+msgid "Northern Mariana Islands"
+msgstr "Oileáin Mariana Thuaidh"
+
+#. official_name for MNP
+msgid "Commonwealth of the Northern Mariana Islands"
+msgstr "Comhlathas Oileáin Mariana Thuaidh"
+
+#. name for NOR
+msgid "Norway"
+msgstr "An Iorua"
+
+#. official_name for NOR
+msgid "Kingdom of Norway"
+msgstr "Ríocht na hIorua"
+
+#. name for OMN
+msgid "Oman"
+msgstr "Oman"
+
+#. official_name for OMN
+msgid "Sultanate of Oman"
+msgstr "Sabhdánacht Oman"
+
+#. name for PAK
+msgid "Pakistan"
+msgstr "An Phacastáin"
+
+#. official_name for PAK
+msgid "Islamic Republic of Pakistan"
+msgstr "Poblacht Ioslamach na Pacastáine"
+
+#. name for PLW
+msgid "Palau"
+msgstr "Palau"
+
+#. official_name for PLW
+msgid "Republic of Palau"
+msgstr "Poblacht Phalau"
+
+#. name for PSE
+msgid "Palestinian Territory, Occupied"
+msgstr "Críoch na bPalaistíneach, faoi fhorghabháil"
+
+#. official_name for PSE
+msgid "Occupied Palestinian Territory"
+msgstr "Críoch na bPalaistíneach faoi fhorghabháil"
+
+#. name for PAN
+msgid "Panama"
+msgstr "Panama"
+
+#. official_name for PAN
+msgid "Republic of Panama"
+msgstr "Poblacht Phanama"
+
+#. name for PNG
+msgid "Papua New Guinea"
+msgstr "Papua Nua-Ghuine"
+
+#. name for PRY
+msgid "Paraguay"
+msgstr "Paragua"
+
+#. official_name for PRY
+msgid "Republic of Paraguay"
+msgstr "Poblacht Pharagua"
+
+#. name for PER
+msgid "Peru"
+msgstr "Peiriú"
+
+#. official_name for PER
+msgid "Republic of Peru"
+msgstr "Poblacht Pheiriú"
+
+#. name for PHL
+msgid "Philippines"
+msgstr "Na hOileáin Fhilipíneacha"
+
+#. official_name for PHL
+msgid "Republic of the Philippines"
+msgstr "Poblacht na nOileán Filipíneach"
+
+#. name for PCN
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#. name for POL
+msgid "Poland"
+msgstr "An Pholainn"
+
+#. official_name for POL
+msgid "Republic of Poland"
+msgstr "Poblacht na Polainne"
+
+#. name for PRT
+msgid "Portugal"
+msgstr "An Phortaingéil"
+
+#. official_name for PRT
+msgid "Portuguese Republic"
+msgstr "Poblacht na Portaingéile"
+
+#. name for PRI
+msgid "Puerto Rico"
+msgstr "Portó Ríce"
+
+#. name for QAT
+msgid "Qatar"
+msgstr "Catar"
+
+#. official_name for QAT
+msgid "State of Qatar"
+msgstr "Stát Catar"
+
+#. name for REU
+msgid "Reunion"
+msgstr "Réunion"
+
+#. name for ROU
+msgid "Romania"
+msgstr "An Rómáin"
+
+#. name for RUS
+msgid "Russian Federation"
+msgstr "Cónaidhm na Rúise"
+
+#. name for RWA
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#. official_name for RWA
+msgid "Rwandese Republic"
+msgstr "Poblacht Ruanda"
+
+#. name for BLM
+msgid "Saint Barthélemy"
+msgstr "San Parthalán"
+
+#. name for SHN
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Saint Helena, Ascension agus Tristan da Cunha"
+
+#. name for KNA
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts agus Nevis"
+
+#. name for LCA
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#. name for MAF
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (An Fhrainc)"
+
+#. name for SPM
+msgid "Saint Pierre and Miquelon"
+msgstr "St. Pierre agus Miquelon"
+
+#. name for VCT
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent agus na Grenadines"
+
+#. name for WSM
+msgid "Samoa"
+msgstr "Samó"
+
+#. official_name for WSM
+msgid "Independent State of Samoa"
+msgstr "Stát Neamhspleách Samó"
+
+#. name for SMR
+msgid "San Marino"
+msgstr "San Mairíne"
+
+#. official_name for SMR
+msgid "Republic of San Marino"
+msgstr "Poblacht San Mairíne"
+
+#. name for STP
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome agus Principe"
+
+#. official_name for STP
+msgid "Democratic Republic of Sao Tome and Principe"
+msgstr "Poblacht Dhaonlathach Sao Tome agus Principe"
+
+#. name for SAU
+msgid "Saudi Arabia"
+msgstr "An Araib Shádach"
+
+#. official_name for SAU
+msgid "Kingdom of Saudi Arabia"
+msgstr "Ríocht na hAraibe Sádaí"
+
+#. name for SEN
+msgid "Senegal"
+msgstr "An tSeineagáil"
+
+#. official_name for SEN
+msgid "Republic of Senegal"
+msgstr "Poblacht na Seineagáile"
+
+#. name for SRB
+msgid "Serbia"
+msgstr "An tSeirbia"
+
+#. official_name for SRB
+msgid "Republic of Serbia"
+msgstr "Poblacht na Seirbia"
+
+#. name for SYC
+msgid "Seychelles"
+msgstr "Na Séiséil"
+
+#. official_name for SYC
+msgid "Republic of Seychelles"
+msgstr "Poblacht na Séiséil"
+
+#. name for SLE
+msgid "Sierra Leone"
+msgstr "Siarra Leon"
+
+#. official_name for SLE
+msgid "Republic of Sierra Leone"
+msgstr "Poblacht Shiarra Leon"
+
+#. name for SGP
+msgid "Singapore"
+msgstr "Singeapór"
+
+#. official_name for SGP
+msgid "Republic of Singapore"
+msgstr "Poblacht Shingeapór"
+
+#. name for SVK
+msgid "Slovakia"
+msgstr "An tSlóvaic"
+
+#. official_name for SVK
+msgid "Slovak Republic"
+msgstr "Poblacht na Slóvaice"
+
+#. name for SVN
+msgid "Slovenia"
+msgstr "An tSlóivéin"
+
+#. official_name for SVN
+msgid "Republic of Slovenia"
+msgstr "Poblacht na Slóivéine"
+
+#. name for SLB
+msgid "Solomon Islands"
+msgstr "Oileán Solomon"
+
+#. name for SOM
+msgid "Somalia"
+msgstr "An tSomáil"
+
+#. official_name for SOM
+msgid "Somali Republic"
+msgstr "Poblacht na Somáile"
+
+#. name for ZAF
+msgid "South Africa"
+msgstr "An Afraic Theas"
+
+#. official_name for ZAF
+msgid "Republic of South Africa"
+msgstr "Poblacht na hAfraice Theas"
+
+#. name for SGS
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "An tSeoirsia Theas agus Sandwich Theas"
+
+#. name for ESP
+msgid "Spain"
+msgstr "An Spáinn"
+
+#. official_name for ESP
+msgid "Kingdom of Spain"
+msgstr "Ríocht na Spáinne"
+
+#. name for LKA
+msgid "Sri Lanka"
+msgstr "Srí Lanca"
+
+#. official_name for LKA
+msgid "Democratic Socialist Republic of Sri Lanka"
+msgstr "Daonphoblacht Dhaonlathach Shóisialach Srí Lanca"
+
+#. name for SDN
+msgid "Sudan"
+msgstr "An tSúdáin"
+
+#. official_name for SDN
+msgid "Republic of the Sudan"
+msgstr "Poblacht na Súdáine"
+
+#. name for SUR
+msgid "Suriname"
+msgstr "Suranam"
+
+#. official_name for SUR
+msgid "Republic of Suriname"
+msgstr "Poblacht Suranam"
+
+#. name for SJM
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard agus Jan Mayen"
+
+#. name for SWZ
+msgid "Swaziland"
+msgstr "An tSuasalainn"
+
+#. official_name for SWZ
+msgid "Kingdom of Swaziland"
+msgstr "Ríocht na Suasalainne"
+
+#. name for SWE
+msgid "Sweden"
+msgstr "An tSualainn"
+
+#. official_name for SWE
+msgid "Kingdom of Sweden"
+msgstr "Ríocht na Sualainne"
+
+#. name for CHE
+msgid "Switzerland"
+msgstr "An Eilvéis"
+
+#. official_name for CHE
+msgid "Swiss Confederation"
+msgstr "Cónaidhm na hEilvéise"
+
+#. name for SYR
+msgid "Syrian Arab Republic"
+msgstr "Poblacht Arabach na Siria"
+
+#. name for TWN, official_name for TWN
+msgid "Taiwan, Province of China"
+msgstr "An Téaváin, Cúige na Síne"
+
+#. common_name for TWN
+msgid "Taiwan"
+msgstr "An Téaváin"
+
+#. name for TJK
+msgid "Tajikistan"
+msgstr "An Táidsíceastáin"
+
+#. official_name for TJK
+msgid "Republic of Tajikistan"
+msgstr "Poblacht na Táidsíceastáine"
+
+#. name for TZA
+msgid "Tanzania, United Republic of"
+msgstr "An Tansáin"
+
+#. official_name for TZA
+msgid "United Republic of Tanzania"
+msgstr "Poblacht Aontaithe na Tansáine"
+
+#. name for THA
+msgid "Thailand"
+msgstr "An Téalainn"
+
+#. official_name for THA
+msgid "Kingdom of Thailand"
+msgstr "Ríocht na Téalainne"
+
+# IT-TS
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Tíomór Thoir"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Poblacht Dhaonlathach Thíomór Thoir"
+
+#. name for TGO
+msgid "Togo"
+msgstr "Tóga"
+
+#. official_name for TGO
+msgid "Togolese Republic"
+msgstr "Poblacht Thóga"
+
+#. name for TKL
+msgid "Tokelau"
+msgstr "Tócalá"
+
+#. name for TON
+msgid "Tonga"
+msgstr "Tonga"
+
+#. official_name for TON
+msgid "Kingdom of Tonga"
+msgstr "Ríocht Tonga"
+
+#. name for TTO
+msgid "Trinidad and Tobago"
+msgstr "Oileáin na Tríonóide agus Tobága"
+
+#. official_name for TTO
+msgid "Republic of Trinidad and Tobago"
+msgstr "Poblacht na Tríonóide agus Tobága"
+
+#. name for TUN
+msgid "Tunisia"
+msgstr "An Túinéis"
+
+#. official_name for TUN
+msgid "Republic of Tunisia"
+msgstr "Poblacht na Túinéise"
+
+#. name for TUR
+msgid "Turkey"
+msgstr "An Tuirc"
+
+#. official_name for TUR
+msgid "Republic of Turkey"
+msgstr "Poblacht na Tuirce"
+
+#. name for TKM
+msgid "Turkmenistan"
+msgstr "An Tuircméanastáin"
+
+#. name for TCA
+msgid "Turks and Caicos Islands"
+msgstr "Oileáin Turks agus Caicos"
+
+#. name for TUV
+msgid "Tuvalu"
+msgstr "Tuvalú"
+
+#. name for UGA
+msgid "Uganda"
+msgstr "Uganda"
+
+#. official_name for UGA
+msgid "Republic of Uganda"
+msgstr "Poblacht Uganda"
+
+#. name for UKR
+msgid "Ukraine"
+msgstr "An Úcráin"
+
+#. name for ARE
+msgid "United Arab Emirates"
+msgstr "Aontas na nÉimíríochtaí Arabacha"
+
+#. name for GBR
+msgid "United Kingdom"
+msgstr "An Ríocht Aontaithe"
+
+#. official_name for GBR
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr "Ríocht Aontaithe na Breataine Móire agus Thuaisceart Éireann"
+
+#. name for USA
+msgid "United States"
+msgstr "Na Stáit Aontaithe"
+
+#. official_name for USA
+msgid "United States of America"
+msgstr "Stáit Aontaithe Mheiriceá"
+
+#. name for UMI
+msgid "United States Minor Outlying Islands"
+msgstr "Mion-Oileáin Imeallacha S.A.M."
+
+#. name for URY
+msgid "Uruguay"
+msgstr "Uragua"
+
+#. official_name for URY
+msgid "Eastern Republic of Uruguay"
+msgstr "Poblacht Thoir Uragua"
+
+#. name for UZB
+msgid "Uzbekistan"
+msgstr "Úisbéiceastáin"
+
+#. official_name for UZB
+msgid "Republic of Uzbekistan"
+msgstr "Poblacht na hÚisbéiceastáine"
+
+#. name for VUT
+msgid "Vanuatu"
+msgstr "Vanuatú"
+
+#. official_name for VUT
+msgid "Republic of Vanuatu"
+msgstr "Poblacht Vanuatú"
+
+#. name for VEN
+msgid "Venezuela, Bolivarian republic of"
+msgstr "Veiniséala, Poblacht Bolivar"
+
+#. official_name for VEN
+msgid "Bolivarian Republic of Venezuela"
+msgstr "Poblacht Bolivar Veiniséala"
+
+#. common_name for VEN
+msgid "Venezuela"
+msgstr "Veiniséala"
+
+#. name for VNM
+msgid "Viet Nam"
+msgstr "Vítneam"
+
+#. official_name for VNM
+msgid "Socialist Republic of Viet Nam"
+msgstr "Poblacht Shóisialach Vítneam"
+
+#. name for VGB
+msgid "Virgin Islands, British"
+msgstr "Oileáin Bhriotanacha na Maighdean"
+
+#. official_name for VGB
+msgid "British Virgin Islands"
+msgstr "Oileáin Bhriotanacha na Maighdean"
+
+#. name for VIR
+msgid "Virgin Islands, U.S."
+msgstr "Oileáin na Maighdean, S.A.M."
+
+#. official_name for VIR
+msgid "Virgin Islands of the United States"
+msgstr "Oileáin na Maighdean, Stáit Aontaithe Mheiriceá"
+
+#. name for WLF
+msgid "Wallis and Futuna"
+msgstr "Oileáin Vailís agus Futúna"
+
+#. name for ESH
+msgid "Western Sahara"
+msgstr "An Sahára Thiar"
+
+#. name for YEM
+msgid "Yemen"
+msgstr "Éimin"
+
+#. official_name for YEM
+msgid "Republic of Yemen"
+msgstr "Poblacht Éimin"
+
+#. name for ZMB
+msgid "Zambia"
+msgstr "An tSaimbia"
+
+#. official_name for ZMB
+msgid "Republic of Zambia"
+msgstr "Poblacht na Saimbia"
+
+#. name for ZWE
+msgid "Zimbabwe"
+msgstr "An tSiombáib"
+
+#. official_name for ZWE
+msgid "Republic of Zimbabwe"
+msgstr "Poblacht na Siombáibe"
+
+#. historic names for ATB (withdrawn 1979)
+msgid "British Antarctic Territory"
+msgstr "Críocha Briotanacha na hAntartaice"
+
+#. historic names for BUR (withdrawn 1989-12-05)
+msgid "Burma, Socialist Republic of the Union of"
+msgstr "Burma, Poblacht Shóisialach an Aontais"
+
+#. historic names for BYS (withdrawn 1992-06-15)
+msgid "Byelorussian SSR Soviet Socialist Republic"
+msgstr "Poblacht Sóivéadach Sóisialach na Bílearúise"
+
+#. historic names for CTE (withdrawn 1984)
+msgid "Canton and Enderbury Islands"
+msgstr "Oileáin Canton agus Enderbury"
+
+#. historic names for CSK (withdrawn 1993-06-15)
+msgid "Czechoslovakia, Czechoslovak Socialist Republic"
+msgstr "An tSeicslóvaic, Poblacht Shóisialach"
+
+#. historic names for DHY (withdrawn 1977)
+msgid "Dahomey"
+msgstr "Dathómaí"
+
+#. historic names for ATN (withdrawn 1983)
+msgid "Dronning Maud Land"
+msgstr "Tír Dronning Maud"
+
+#. historic names for TMP (withdrawn 2002-05-20)
+msgid "East Timor"
+msgstr "Tíomór Thoir"
+
+#. historic names for FXX (withdrawn 1997-07-14)
+msgid "France, Metropolitan"
+msgstr "An Fhrainc, Ceannchathartha"
+
+#. historic names for AFI (withdrawn 1977)
+msgid "French Afars and Issas"
+msgstr "Críoch Fhrancach na nAfach agus na nIosad"
+
+#. historic names for ATF (withdrawn 1979)
+msgid "French Southern and Antarctic Territories"
+msgstr "Críocha Francacha agus Antartacha"
+
+#. historic names for DDR (withdrawn 1990-10-30)
+msgid "German Democratic Republic"
+msgstr "Poblacht Dhaonlathach na Gearmáine"
+
+#. historic names for DEU (withdrawn 1990-10-30)
+msgid "Germany, Federal Republic of"
+msgstr "Poblacht Chónaidhme na Gearmáine"
+
+#. historic names for GEL (withdrawn 1979)
+msgid "Gilbert and Ellice Islands"
+msgstr "Oileáin Gilbert agus Ellice"
+
+#. historic names for JTN (withdrawn 1986)
+msgid "Johnston Island"
+msgstr "Oileán Johnston"
+
+#. historic names for MID (withdrawn 1986)
+msgid "Midway Islands"
+msgstr "Oileáin Midway"
+
+#. historic names for NTZ (withdrawn 1993-07-12)
+msgid "Neutral Zone"
+msgstr "Crios Neodrach"
+
+#. historic names for NHB (withdrawn 1980)
+msgid "New Hebrides"
+msgstr "Nua-Inse Ghall"
+
+#. historic names for PCI (withdrawn 1986)
+msgid "Pacific Islands (trust territory)"
+msgstr "Oileáin an Aigéin Chiúin (críoch iontaobhais)"
+
+#. historic names for PAN (withdrawn 1993-07-22)
+msgid "Panama, Republic of"
+msgstr "Panama, Poblacht"
+
+#. historic names for PCZ (withdrawn 1980)
+msgid "Panama Canal Zone"
+msgstr "Crios Chanáil Panama"
+
+#. historic names for ROM (withdrawn 2002-02-01)
+msgid "Romania, Socialist Republic of"
+msgstr "Poblacht Shóisialach na Rómáine"
+
+#. historic names for KNA (withdrawn 1988)
+msgid "St. Kitts-Nevis-Anguilla"
+msgstr "San Críostóir Nimheas-Anguilla"
+
+#. historic names for SCG (withdrawn 2006-06-05)
+msgid "Serbia and Montenegro"
+msgstr "An tSeirbia agus Montainéagró"
+
+#. historic names for SKM (withdrawn 1975)
+msgid "Sikkim"
+msgstr "Sikkim"
+
+#. historic names for RHO (withdrawn 1980)
+msgid "Southern Rhodesia"
+msgstr "An Róidéis Theas"
+
+#. historic names for ESH (withdrawn 1988)
+msgid "Spanish Sahara"
+msgstr "An Sahára Spáinneach"
+
+#. historic names for PUS (withdrawn 1986)
+msgid "US Miscellaneous Pacific Islands"
+msgstr "Oileáin Éagsúla an Aigéin Chiúin de chuid S.A.M."
+
+#. historic names for SUN (withdrawn 1992-08-30)
+msgid "USSR, Union of Soviet Socialist Republics"
+msgstr "Aontas na bPoblachtaí Sóivéadacha Sóisialacha"
+
+#. historic names for HVO (withdrawn 1984)
+msgid "Upper Volta, Republic of"
+msgstr "Volta Uachtarach, Poblacht"
+
+#. historic names for VAT (withdrawn 1996-04-03)
+msgid "Vatican City State (Holy See)"
+msgstr "Stát Chathair na Vatacáine (Suí Naofa)"
+
+#. historic names for VDR (withdrawn 1977)
+msgid "Viet-Nam, Democratic Republic of"
+msgstr "Vítneam, Poblacht Dhaonlathach"
+
+#. historic names for WAK (withdrawn 1986)
+msgid "Wake Island"
+msgstr "Oileán Wake"
+
+#. historic names for YMD (withdrawn 1990-08-14)
+msgid "Yemen, Democratic, People's Democratic Republic of"
+msgstr "Éimin, Daonlathach, Daonphoblacht Dhaonlathach"
+
+#. historic names for YEM (withdrawn 1990-08-14)
+msgid "Yemen, Yemen Arab Republic"
+msgstr "Éimin, Poblacht Arabach Éimin"
+
+#. historic names for YUG (withdrawn 1993-07-28)
+msgid "Yugoslavia, Socialist Federal Republic of"
+msgstr "An Iúgslaiv, Poblacht Shóisialach Chónaidhme"
+
+#. historic names for ZAR (withdrawn 1997-07-14)
+msgid "Zaire, Republic of"
+msgstr "Poblacht na Sáíre"
+
+#~ msgid "Republic of Bolivia"
+#~ msgstr "Poblacht na Bolaive"
+
+#~ msgid "Saint Helena"
+#~ msgstr "San Héilin"
+
+#~ msgid "Kingdom of Nepal"
+#~ msgstr "Ríocht Neipeal"
+
+#~ msgid "Republic of Montenegro"
+#~ msgstr "Poblacht Mhontainéagró"

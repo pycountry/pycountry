@@ -1,0 +1,2216 @@
+# Slovenian translations of ISO 3166 place names
+# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Translations from KDE:
+# Roman Maurer <roman.maurer@amis.net>, 2002.
+# Primož Peterlin <primozz.peterlin@gmail.com>, 2003, 2005, 2006, 2007, 2008, 2009
+#
+# $Id: iso_3166-3.10.sl.po,v 1.3 2009/06/01 15:24:54 peterlin Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_3166 3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"PO-Revision-Date: 2009-06-01 17:24+0200\n"
+"Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
+"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# AF
+#. name for AFG
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#. official_name for AFG
+msgid "Islamic Republic of Afghanistan"
+msgstr "Islamska republika Afganistan"
+
+# KY
+#. name for ALA
+msgid "Åland Islands"
+msgstr "Ålandsko otočje"
+
+# AL
+#. name for ALB
+msgid "Albania"
+msgstr "Albanija"
+
+#. official_name for ALB
+msgid "Republic of Albania"
+msgstr "Republika Albanija"
+
+# DZ
+#. name for DZA
+msgid "Algeria"
+msgstr "Alžirija"
+
+# CD
+# fuzzy
+#. official_name for DZA
+msgid "People's Democratic Republic of Algeria"
+msgstr "Ljudska demokratična republika Alžirija"
+
+# AS
+#. name for ASM
+msgid "American Samoa"
+msgstr "Ameriška Samoa"
+
+# AD
+#. name for AND
+msgid "Andorra"
+msgstr "Andora"
+
+#. official_name for AND
+msgid "Principality of Andorra"
+msgstr "Kneževina Andora"
+
+# AO
+#. name for AGO
+msgid "Angola"
+msgstr "Angola"
+
+# KR
+#. official_name for AGO
+msgid "Republic of Angola"
+msgstr "Republika Angola"
+
+# AI
+#. name for AIA
+msgid "Anguilla"
+msgstr "Angvila"
+
+# AQ
+#. name for ATA
+msgid "Antarctica"
+msgstr "Antarktika"
+
+# AG
+#. name for ATG
+msgid "Antigua and Barbuda"
+msgstr "Antigva in Barbuda"
+
+# AR
+#. name for ARG
+msgid "Argentina"
+msgstr "Argentina"
+
+# DO
+#. official_name for ARG
+msgid "Argentine Republic"
+msgstr "Republika Argentina"
+
+# AM
+#. name for ARM
+msgid "Armenia"
+msgstr "Armenija"
+
+#. official_name for ARM
+msgid "Republic of Armenia"
+msgstr "Republika Armenija"
+
+# AW
+#. name for ABW
+msgid "Aruba"
+msgstr "Aruba"
+
+# AU
+#. name for AUS
+msgid "Australia"
+msgstr "Avstralija"
+
+# AT
+#. name for AUT
+msgid "Austria"
+msgstr "Avstrija"
+
+#. official_name for AUT
+msgid "Republic of Austria"
+msgstr "Republika Avstrija"
+
+# AZ
+#. name for AZE
+msgid "Azerbaijan"
+msgstr "Azerbajdžan"
+
+# AZ
+#. official_name for AZE
+msgid "Republic of Azerbaijan"
+msgstr "Republika Azerbajdžan"
+
+# BS
+#. name for BHS
+msgid "Bahamas"
+msgstr "Bahami"
+
+#. official_name for BHS
+msgid "Commonwealth of the Bahamas"
+msgstr "Zveza Bahami"
+
+# BH
+#. name for BHR
+msgid "Bahrain"
+msgstr "Bahrajn"
+
+#. official_name for BHR
+msgid "Kingdom of Bahrain"
+msgstr "Kraljevina Bahrajn"
+
+# BD
+#. name for BGD
+msgid "Bangladesh"
+msgstr "Bangladeš"
+
+#. official_name for BGD
+msgid "People's Republic of Bangladesh"
+msgstr "Ljudska republika Bangladeš"
+
+# BB
+#. name for BRB
+msgid "Barbados"
+msgstr "Barbados"
+
+# BY
+#. name for BLR
+msgid "Belarus"
+msgstr "Belorusija"
+
+#. official_name for BLR
+msgid "Republic of Belarus"
+msgstr "Republika Belorusija"
+
+# BE
+#. name for BEL
+msgid "Belgium"
+msgstr "Belgija"
+
+#. official_name for BEL
+msgid "Kingdom of Belgium"
+msgstr "Kraljevina Belgija"
+
+# BZ
+#. name for BLZ
+msgid "Belize"
+msgstr "Belize"
+
+# BJ
+#. name for BEN
+msgid "Benin"
+msgstr "Benin"
+
+# KR
+#. official_name for BEN
+msgid "Republic of Benin"
+msgstr "Republika Benin"
+
+# BM
+#. name for BMU
+msgid "Bermuda"
+msgstr "Bermuda"
+
+# BT
+#. name for BTN
+msgid "Bhutan"
+msgstr "Butan"
+
+#. official_name for BTN
+msgid "Kingdom of Bhutan"
+msgstr "Kraljevina Butan"
+
+#. name for BOL
+msgid "Bolivia, Plurinational State of"
+msgstr "Bolivija, plurinacionalna država"
+
+#. official_name for BOL
+msgid "Plurinational State of Bolivia"
+msgstr "Plurinacionalna država Bolivija"
+
+# BO
+#. common_name for BOL
+msgid "Bolivia"
+msgstr "Bolivija"
+
+# BA
+#. name for BIH
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna in Hercegovina"
+
+# BA
+#. official_name for BIH
+msgid "Republic of Bosnia and Herzegovina"
+msgstr "Republika Bosna in Hercegovina"
+
+# BW
+#. name for BWA
+msgid "Botswana"
+msgstr "Bocvana"
+
+#. official_name for BWA
+msgid "Republic of Botswana"
+msgstr "Republika Bocvana"
+
+# BV
+#. name for BVT
+msgid "Bouvet Island"
+msgstr "Bouvetov otok"
+
+# BR
+#. name for BRA
+msgid "Brazil"
+msgstr "Brazilija"
+
+#. official_name for BRA
+msgid "Federative Republic of Brazil"
+msgstr "Zvezna republika Brazilija"
+
+# IO
+#. name for IOT
+msgid "British Indian Ocean Territory"
+msgstr "Britansko ozemlje v Indijskem oceanu"
+
+# BN
+#. name for BRN
+msgid "Brunei Darussalam"
+msgstr "Brunej"
+
+# BG
+#. name for BGR
+msgid "Bulgaria"
+msgstr "Bolgarija"
+
+#. official_name for BGR
+msgid "Republic of Bulgaria"
+msgstr "Republika Bolgarija"
+
+# BF
+#. name for BFA
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+# BI
+#. name for BDI
+msgid "Burundi"
+msgstr "Burundi"
+
+#. official_name for BDI
+msgid "Republic of Burundi"
+msgstr "Republika Burundi"
+
+# KH
+#. name for KHM
+msgid "Cambodia"
+msgstr "Kambodža"
+
+#. official_name for KHM
+msgid "Kingdom of Cambodia"
+msgstr "Kraljevina Kambodža"
+
+# CM
+#. name for CMR
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#. official_name for CMR
+msgid "Republic of Cameroon"
+msgstr "Republika Kamerun"
+
+# CA
+#. name for CAN
+msgid "Canada"
+msgstr "Kanada"
+
+# CV
+#. name for CPV
+msgid "Cape Verde"
+msgstr "Zelenortski otoki"
+
+# CV
+#. official_name for CPV
+msgid "Republic of Cape Verde"
+msgstr "Republika Zelenortski otoki"
+
+# KY
+#. name for CYM
+msgid "Cayman Islands"
+msgstr "Kajmanski otoki"
+
+# CF
+#. name for CAF
+msgid "Central African Republic"
+msgstr "Srednjeafriška republika"
+
+# TD
+#. name for TCD
+msgid "Chad"
+msgstr "Čad"
+
+# KR
+#. official_name for TCD
+msgid "Republic of Chad"
+msgstr "Republika Čad"
+
+# CL
+#. name for CHL
+msgid "Chile"
+msgstr "Čile"
+
+# KR
+#. official_name for CHL
+msgid "Republic of Chile"
+msgstr "Republika Čile"
+
+# CN
+#. name for CHN
+msgid "China"
+msgstr "Kitajska"
+
+# KR
+#. official_name for CHN
+msgid "People's Republic of China"
+msgstr "Ljudska republika Kitajska"
+
+# CX
+#. name for CXR
+msgid "Christmas Island"
+msgstr "Božični otok"
+
+# CC
+#. name for CCK
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosovi otoki"
+
+# CO
+#. name for COL
+msgid "Colombia"
+msgstr "Kolumbija"
+
+#. official_name for COL
+msgid "Republic of Colombia"
+msgstr "Republika Kolumbija"
+
+# KM
+#. name for COM
+msgid "Comoros"
+msgstr "Komori"
+
+#. official_name for COM
+msgid "Union of the Comoros"
+msgstr "Zveza Komori"
+
+# CG
+#. name for COG
+msgid "Congo"
+msgstr "Kongo"
+
+#. official_name for COG
+msgid "Republic of the Congo"
+msgstr "Republika Kongo"
+
+# CD
+# fuzzy
+#. name for COD
+msgid "Congo, The Democratic Republic of the"
+msgstr "Demokratična republika Kongo"
+
+# CK
+#. name for COK
+msgid "Cook Islands"
+msgstr "Cookovi otoki"
+
+# CR
+#. name for CRI
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+# CR
+#. official_name for CRI
+msgid "Republic of Costa Rica"
+msgstr "Republika Kostarika"
+
+# CI
+# fuzzy
+#. name for CIV
+msgid "Côte d'Ivoire"
+msgstr "Slonokoščena obala"
+
+# CI
+# fuzzy
+#. official_name for CIV
+msgid "Republic of Côte d'Ivoire"
+msgstr "Republika Slonokoščena obala"
+
+# HR
+#. name for HRV
+msgid "Croatia"
+msgstr "Hrvaška"
+
+#. official_name for HRV
+msgid "Republic of Croatia"
+msgstr "Republika Hrvaška"
+
+# CU
+#. name for CUB
+msgid "Cuba"
+msgstr "Kuba"
+
+# KR
+#. official_name for CUB
+msgid "Republic of Cuba"
+msgstr "Republika Kuba"
+
+# CY
+#. name for CYP
+msgid "Cyprus"
+msgstr "Ciper"
+
+# KR
+#. official_name for CYP
+msgid "Republic of Cyprus"
+msgstr "Republika Ciper"
+
+# CZ
+#. name for CZE
+msgid "Czech Republic"
+msgstr "Češka republika"
+
+# DK
+#. name for DNK
+msgid "Denmark"
+msgstr "Danska"
+
+#. official_name for DNK
+msgid "Kingdom of Denmark"
+msgstr "Kraljevina Danska"
+
+# DJ
+#. name for DJI
+msgid "Djibouti"
+msgstr "Džibuti"
+
+#. official_name for DJI
+msgid "Republic of Djibouti"
+msgstr "Republika Džibuti"
+
+# DM
+#. name for DMA
+msgid "Dominica"
+msgstr "Dominika"
+
+#. official_name for DMA
+msgid "Commonwealth of Dominica"
+msgstr "Zveza Dominika"
+
+# DO
+#. name for DOM
+msgid "Dominican Republic"
+msgstr "Dominikanska republika"
+
+# EC
+#. name for ECU
+msgid "Ecuador"
+msgstr "Ekvador"
+
+#. official_name for ECU
+msgid "Republic of Ecuador"
+msgstr "Republika Ekvador"
+
+# EG
+#. name for EGY
+msgid "Egypt"
+msgstr "Egipt"
+
+# KR
+#. official_name for EGY
+msgid "Arab Republic of Egypt"
+msgstr "Arabska republika Egipt"
+
+# SV
+#. name for SLV
+msgid "El Salvador"
+msgstr "Salvador"
+
+# SV
+#. official_name for SLV
+msgid "Republic of El Salvador"
+msgstr "Republika Salvador"
+
+# GQ
+#. name for GNQ
+msgid "Equatorial Guinea"
+msgstr "Ekvatorialna Gvineja"
+
+# GQ
+#. official_name for GNQ
+msgid "Republic of Equatorial Guinea"
+msgstr "Republika Ekvatorialna Gvineja"
+
+# ER
+#. name for ERI
+msgid "Eritrea"
+msgstr "Eritreja"
+
+# EE
+#. name for EST
+msgid "Estonia"
+msgstr "Estonija"
+
+#. official_name for EST
+msgid "Republic of Estonia"
+msgstr "Republika Estonija"
+
+# ET
+#. name for ETH, historic names for ETH (withdrawn 1993-07-16)
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+# CD
+# fuzzy
+#. official_name for ETH
+msgid "Federal Democratic Republic of Ethiopia"
+msgstr "Zvezna demokratična republika Etiopija"
+
+# FK
+#. name for FLK
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandski otoki"
+
+# FO
+#. name for FRO
+msgid "Faroe Islands"
+msgstr "Ferski otoki"
+
+# FJ
+#. name for FJI
+msgid "Fiji"
+msgstr "Fidži"
+
+#. official_name for FJI
+msgid "Republic of the Fiji Islands"
+msgstr "Republika Fidži"
+
+# FI
+#. name for FIN
+msgid "Finland"
+msgstr "Finska"
+
+#. official_name for FIN
+msgid "Republic of Finland"
+msgstr "Republika Finska"
+
+# FR
+#. name for FRA
+msgid "France"
+msgstr "Francija"
+
+# CZ
+#. official_name for FRA
+msgid "French Republic"
+msgstr "Francoska republika"
+
+# Shouldn't this be French Guyane?
+# GF
+# fuzzy
+#. name for GUF
+msgid "French Guiana"
+msgstr "Francoska Gvajana"
+
+# PF
+#. name for PYF
+msgid "French Polynesia"
+msgstr "Francoska Polinezija"
+
+# TF
+# fuzzy
+#. name for ATF
+msgid "French Southern Territories"
+msgstr "Francoska južna ozemlja"
+
+# GA
+#. name for GAB
+msgid "Gabon"
+msgstr "Gabon"
+
+# CZ
+#. official_name for GAB
+msgid "Gabonese Republic"
+msgstr "Gabonska republika"
+
+# GM
+#. name for GMB
+msgid "Gambia"
+msgstr "Gambija"
+
+#. official_name for GMB
+msgid "Republic of the Gambia"
+msgstr "Republika Gambija"
+
+# GE
+#. name for GEO
+msgid "Georgia"
+msgstr "Gruzija"
+
+# DE
+#. name for DEU
+msgid "Germany"
+msgstr "Nemčija"
+
+# KR
+#. official_name for DEU
+msgid "Federal Republic of Germany"
+msgstr "Zvezna republika Nemčija"
+
+# GH
+#. name for GHA
+msgid "Ghana"
+msgstr "Gana"
+
+# KR
+#. official_name for GHA
+msgid "Republic of Ghana"
+msgstr "Republika Gana"
+
+# GI
+#. name for GIB
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+# GR
+#. name for GRC
+msgid "Greece"
+msgstr "Grčija"
+
+# CZ
+#. official_name for GRC
+msgid "Hellenic Republic"
+msgstr "Helenska republika"
+
+# GL
+#. name for GRL
+msgid "Greenland"
+msgstr "Grenlandija"
+
+# GD
+#. name for GRD
+msgid "Grenada"
+msgstr "Grenada"
+
+# GP
+#. name for GLP
+msgid "Guadeloupe"
+msgstr "Gvadelup"
+
+# GU
+#. name for GUM
+msgid "Guam"
+msgstr "Guam"
+
+# GT
+#. name for GTM
+msgid "Guatemala"
+msgstr "Gvatemala"
+
+# GT
+#. official_name for GTM
+msgid "Republic of Guatemala"
+msgstr "Republika Gvatemala"
+
+# DE
+#. name for GGY
+msgid "Guernsey"
+msgstr "Guernsey"
+
+# GN
+#. name for GIN
+msgid "Guinea"
+msgstr "Gvineja"
+
+# KR
+#. official_name for GIN
+msgid "Republic of Guinea"
+msgstr "Republika Gvineja"
+
+# GW
+#. name for GNB
+msgid "Guinea-Bissau"
+msgstr "Gvineja Bissau"
+
+# GW
+#. official_name for GNB
+msgid "Republic of Guinea-Bissau"
+msgstr "Republika Gvineja Bissau"
+
+# GY
+#. name for GUY
+msgid "Guyana"
+msgstr "Gvajana"
+
+# KR
+#. official_name for GUY
+msgid "Republic of Guyana"
+msgstr "Republika Gvajana"
+
+# HT
+#. name for HTI
+msgid "Haiti"
+msgstr "Haiti"
+
+# KR
+#. official_name for HTI
+msgid "Republic of Haiti"
+msgstr "Republika Haiti"
+
+# HM
+# fuzzy
+#. name for HMD
+msgid "Heard Island and McDonald Islands"
+msgstr "Otoki Heard in McDonald"
+
+# VA
+# fuzzy
+#. name for VAT
+msgid "Holy See (Vatican City State)"
+msgstr "Sveti sedež (Vatikanska mestna država)"
+
+# HN
+#. name for HND
+msgid "Honduras"
+msgstr "Honduras"
+
+#. official_name for HND
+msgid "Republic of Honduras"
+msgstr "Republika Honduras"
+
+# HK
+#. name for HKG
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#. official_name for HKG
+msgid "Hong Kong Special Administrative Region of China"
+msgstr "Hong Kong, posebna administrativna regija Kitajske"
+
+# HU
+#. name for HUN
+msgid "Hungary"
+msgstr "Madžarska"
+
+#. official_name for HUN
+msgid "Republic of Hungary"
+msgstr "Republika Madžarska"
+
+# IS
+#. name for ISL
+msgid "Iceland"
+msgstr "Islandija"
+
+#. official_name for ISL
+msgid "Republic of Iceland"
+msgstr "Republika Islandija"
+
+# IN
+#. name for IND
+msgid "India"
+msgstr "Indija"
+
+# KR
+#. official_name for IND
+msgid "Republic of India"
+msgstr "Republika Indija"
+
+# ID
+#. name for IDN
+msgid "Indonesia"
+msgstr "Indonezija"
+
+# ID
+#. official_name for IDN
+msgid "Republic of Indonesia"
+msgstr "Republika Indonezija"
+
+# KR
+#. name for IRN
+msgid "Iran, Islamic Republic of"
+msgstr "Iran"
+
+# KR
+#. official_name for IRN
+msgid "Islamic Republic of Iran"
+msgstr "Islamska republika Iran"
+
+# IQ
+#. name for IRQ
+msgid "Iraq"
+msgstr "Irak"
+
+# KR
+#. official_name for IRQ
+msgid "Republic of Iraq"
+msgstr "Republika Irak"
+
+# IE
+#. name for IRL
+msgid "Ireland"
+msgstr "Irska"
+
+#. name for IMN
+msgid "Isle of Man"
+msgstr "Otok Man"
+
+# IL
+#. name for ISR
+msgid "Israel"
+msgstr "Izrael"
+
+#. official_name for ISR
+msgid "State of Israel"
+msgstr "Država Izrael"
+
+# IT
+#. name for ITA
+msgid "Italy"
+msgstr "Italija"
+
+# CF
+#. official_name for ITA
+msgid "Italian Republic"
+msgstr "Italijanska republika"
+
+# Shouldn't this be "Jamaica"?
+# JM
+# fuzzy
+#. name for JAM
+msgid "Jamaica"
+msgstr "Jamajka"
+
+# JP
+#. name for JPN
+msgid "Japan"
+msgstr "Japonska"
+
+#. name for JEY
+msgid "Jersey"
+msgstr "Jersey"
+
+# JO
+#. name for JOR
+msgid "Jordan"
+msgstr "Jordanija"
+
+#. official_name for JOR
+msgid "Hashemite Kingdom of Jordan"
+msgstr "Hašemitska kraljevina Jordanija"
+
+# Shouldn't this be "Kazakhstan"?
+# KZ
+# fuzzy
+#. name for KAZ
+msgid "Kazakhstan"
+msgstr "Kazahstan"
+
+# Shouldn't this be "Kazakhstan"?
+# KZ
+# fuzzy
+#. official_name for KAZ
+msgid "Republic of Kazakhstan"
+msgstr "Republika Kazahstan"
+
+# KE
+#. name for KEN
+msgid "Kenya"
+msgstr "Kenija"
+
+# KR
+#. official_name for KEN
+msgid "Republic of Kenya"
+msgstr "Republika Kenija"
+
+# KI
+#. name for KIR
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#. official_name for KIR
+msgid "Republic of Kiribati"
+msgstr "Republika Kiribati"
+
+# KP
+#. name for PRK
+msgid "Korea, Democratic People's Republic of"
+msgstr "Severna Koreja"
+
+# KP
+#. official_name for PRK
+msgid "Democratic People's Republic of Korea"
+msgstr "Demokratična ljudska republika Koreja"
+
+# KR
+#. name for KOR
+msgid "Korea, Republic of"
+msgstr "Južna Koreja"
+
+# KW
+#. name for KWT
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+#. official_name for KWT
+msgid "State of Kuwait"
+msgstr "Država Kuvajt"
+
+# KG
+# fuzzy
+#. name for KGZ
+msgid "Kyrgyzstan"
+msgstr "Kirgizistan"
+
+# CZ
+#. official_name for KGZ
+msgid "Kyrgyz Republic"
+msgstr "Kirgiška republika"
+
+# CD
+# fuzzy
+#. name for LAO
+msgid "Lao People's Democratic Republic"
+msgstr "Laoška ljudska demokratična republika"
+
+# LV
+#. name for LVA
+msgid "Latvia"
+msgstr "Latvija"
+
+# KR
+#. official_name for LVA
+msgid "Republic of Latvia"
+msgstr "Republika Latvija"
+
+# LB
+#. name for LBN
+msgid "Lebanon"
+msgstr "Libanon"
+
+# CZ
+#. official_name for LBN
+msgid "Lebanese Republic"
+msgstr "Libanonska republika"
+
+# LS
+#. name for LSO
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#. official_name for LSO
+msgid "Kingdom of Lesotho"
+msgstr "Kraljevina Lesoto"
+
+# LR
+#. name for LBR
+msgid "Liberia"
+msgstr "Liberija"
+
+#. official_name for LBR
+msgid "Republic of Liberia"
+msgstr "Republika Liberija"
+
+#. name for LBY
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libijska arabska džamahirija"
+
+#. official_name for LBY
+msgid "Socialist People's Libyan Arab Jamahiriya"
+msgstr "Socialistična ljudska libijska arabska džamahirija"
+
+# LY
+#. common_name for LBY
+msgid "Libya"
+msgstr "Libija"
+
+# LI
+#. name for LIE
+msgid "Liechtenstein"
+msgstr "Lihtenštajn"
+
+# LI
+#. official_name for LIE
+msgid "Principality of Liechtenstein"
+msgstr "Kneževina Lihtenštajn"
+
+# LT
+#. name for LTU
+msgid "Lithuania"
+msgstr "Litva"
+
+# LT
+#. official_name for LTU
+msgid "Republic of Lithuania"
+msgstr "Republika Litva"
+
+# LU
+#. name for LUX
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#. official_name for LUX
+msgid "Grand Duchy of Luxembourg"
+msgstr "Veliko vojvodstvo Luksemburg"
+
+# MO
+# fuzzy
+#. name for MAC
+msgid "Macao"
+msgstr "Makao"
+
+#. official_name for MAC
+msgid "Macao Special Administrative Region of China"
+msgstr "Makao, posebna administrativna regija Kitajske"
+
+# KR
+#. name for MKD
+msgid "Macedonia, Republic of"
+msgstr "Makedonija"
+
+#. official_name for MKD
+msgid "The Former Yugoslav Republic of Macedonia"
+msgstr "Nekdanja jugoslovanska republika Makedonija"
+
+# MG
+#. name for MDG
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+# MG
+#. official_name for MDG
+msgid "Republic of Madagascar"
+msgstr "Republika Madagaskar"
+
+# MW
+#. name for MWI
+msgid "Malawi"
+msgstr "Malavi"
+
+# KR
+#. official_name for MWI
+msgid "Republic of Malawi"
+msgstr "Republika Malavi"
+
+# MY
+#. name for MYS
+msgid "Malaysia"
+msgstr "Malezija"
+
+# MV
+# fuzzy
+#. name for MDV
+msgid "Maldives"
+msgstr "Maldivi"
+
+#. official_name for MDV
+msgid "Republic of Maldives"
+msgstr "Republika Maldivi"
+
+# ML
+#. name for MLI
+msgid "Mali"
+msgstr "Mali"
+
+# KR
+#. official_name for MLI
+msgid "Republic of Mali"
+msgstr "Republika Mali"
+
+# MT
+#. name for MLT
+msgid "Malta"
+msgstr "Malta"
+
+# KR
+#. official_name for MLT
+msgid "Republic of Malta"
+msgstr "Republika Malta"
+
+# MH
+#. name for MHL
+msgid "Marshall Islands"
+msgstr "Marshallovi otoki"
+
+# MH
+#. official_name for MHL
+msgid "Republic of the Marshall Islands"
+msgstr "Republika Marshallovi otoki"
+
+# MQ
+#. name for MTQ
+msgid "Martinique"
+msgstr "Martinik"
+
+# MR
+#. name for MRT
+msgid "Mauritania"
+msgstr "Mavretanija"
+
+#. official_name for MRT
+msgid "Islamic Republic of Mauritania"
+msgstr "Islamska republika Mavretanija"
+
+# Shouldn't this be "Mauritius"?
+# MU
+# fuzzy
+#. name for MUS
+msgid "Mauritius"
+msgstr "Mavricij"
+
+# Shouldn't this be "Mauritius"?
+# MU
+# fuzzy
+#. official_name for MUS
+msgid "Republic of Mauritius"
+msgstr "Republika Mavricij"
+
+# YT
+#. name for MYT
+msgid "Mayotte"
+msgstr "Mayotte"
+
+# MX
+#. name for MEX
+msgid "Mexico"
+msgstr "Mehika"
+
+# US
+#. official_name for MEX
+msgid "United Mexican States"
+msgstr "Združene mehiške države"
+
+#. name for FSM
+msgid "Micronesia, Federated States of"
+msgstr "Mikronezija"
+
+#. official_name for FSM
+msgid "Federated States of Micronesia"
+msgstr "Federativne države Mikronezije"
+
+# KR
+#. name for MDA
+msgid "Moldova, Republic of"
+msgstr "Moldavija"
+
+#. official_name for MDA
+msgid "Republic of Moldova"
+msgstr "Republika Moldavija"
+
+# MD
+#. common_name for MDA
+msgid "Moldova"
+msgstr "Moldavija"
+
+# MC
+#. name for MCO
+msgid "Monaco"
+msgstr "Monako"
+
+#. official_name for MCO
+msgid "Principality of Monaco"
+msgstr "Kneževina Monako"
+
+# MN
+#. name for MNG
+msgid "Mongolia"
+msgstr "Mongolija"
+
+#. name for MNE, official_name for MNE
+msgid "Montenegro"
+msgstr "Črna gora"
+
+# MS
+#. name for MSR
+msgid "Montserrat"
+msgstr "Montserrat"
+
+# MA
+#. name for MAR
+msgid "Morocco"
+msgstr "Maroko"
+
+#. official_name for MAR
+msgid "Kingdom of Morocco"
+msgstr "Kraljevina Maroko"
+
+# MZ
+#. name for MOZ
+msgid "Mozambique"
+msgstr "Mozambik"
+
+# MZ
+#. official_name for MOZ
+msgid "Republic of Mozambique"
+msgstr "Republika Mozambik"
+
+# MM
+#. name for MMR
+msgid "Myanmar"
+msgstr "Mjanmar"
+
+# MM
+#. official_name for MMR
+msgid "Union of Myanmar"
+msgstr "Zveza Mjanmar"
+
+# NA
+#. name for NAM
+msgid "Namibia"
+msgstr "Namibija"
+
+#. official_name for NAM
+msgid "Republic of Namibia"
+msgstr "Republika Namibija"
+
+# NR
+#. name for NRU
+msgid "Nauru"
+msgstr "Nauru"
+
+# KR
+#. official_name for NRU
+msgid "Republic of Nauru"
+msgstr "Republika Nauru"
+
+# NP
+#. name for NPL
+msgid "Nepal"
+msgstr "Nepal"
+
+# CD
+# fuzzy
+#. official_name for NPL
+msgid "Federal Democratic Republic of Nepal"
+msgstr "Zvezna demokratična republika Nepal"
+
+# NL
+#. name for NLD
+msgid "Netherlands"
+msgstr "Nizozemska"
+
+#. official_name for NLD
+msgid "Kingdom of the Netherlands"
+msgstr "Kraljevina Nizozemska"
+
+# AN
+#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Nizozemski Antili"
+
+# NC
+#. name for NCL
+msgid "New Caledonia"
+msgstr "Nova Kaledonija"
+
+# NZ
+#. name for NZL
+msgid "New Zealand"
+msgstr "Nova Zelandija"
+
+# NI
+#. name for NIC
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+# NI
+#. official_name for NIC
+msgid "Republic of Nicaragua"
+msgstr "Republika Nikaragva"
+
+# NE
+#. name for NER
+msgid "Niger"
+msgstr "Niger"
+
+#. official_name for NER
+msgid "Republic of the Niger"
+msgstr "Republika Niger"
+
+# NG
+#. name for NGA
+msgid "Nigeria"
+msgstr "Nigerija"
+
+# KR
+#. official_name for NGA
+msgid "Federal Republic of Nigeria"
+msgstr "Zvezna republika Nigerija"
+
+# NU
+#. name for NIU
+msgid "Niue"
+msgstr "Niue"
+
+# KR
+#. official_name for NIU
+msgid "Republic of Niue"
+msgstr "Republika Niue"
+
+# NF
+#. name for NFK
+msgid "Norfolk Island"
+msgstr "Norfolški otok"
+
+# MP
+#. name for MNP
+msgid "Northern Mariana Islands"
+msgstr "Severni Marianski otoki"
+
+# MP
+#. official_name for MNP
+msgid "Commonwealth of the Northern Mariana Islands"
+msgstr "Zveza Severni Marianski otoki"
+
+# NO
+#. name for NOR
+msgid "Norway"
+msgstr "Norveška"
+
+#. official_name for NOR
+msgid "Kingdom of Norway"
+msgstr "Kraljevina Norveška"
+
+# OM
+#. name for OMN
+msgid "Oman"
+msgstr "Oman"
+
+#. official_name for OMN
+msgid "Sultanate of Oman"
+msgstr "Sultanat Oman"
+
+# PK
+#. name for PAK
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#. official_name for PAK
+msgid "Islamic Republic of Pakistan"
+msgstr "Islamska republika Pakistan"
+
+# PW
+#. name for PLW
+msgid "Palau"
+msgstr "Palau"
+
+# KR
+#. official_name for PLW
+msgid "Republic of Palau"
+msgstr "Republika Palau"
+
+#. name for PSE
+msgid "Palestinian Territory, Occupied"
+msgstr "Palestinsko ozemlje"
+
+#. official_name for PSE
+msgid "Occupied Palestinian Territory"
+msgstr "Okupirano palestinsko ozemlje"
+
+# PA
+#. name for PAN
+msgid "Panama"
+msgstr "Panama"
+
+# KR
+#. official_name for PAN
+msgid "Republic of Panama"
+msgstr "Republika Panama"
+
+# PG
+#. name for PNG
+msgid "Papua New Guinea"
+msgstr "Papua Nova Gvineja"
+
+# PY
+#. name for PRY
+msgid "Paraguay"
+msgstr "Paragvaj"
+
+#. official_name for PRY
+msgid "Republic of Paraguay"
+msgstr "Republika Paragvaj"
+
+# PE
+#. name for PER
+msgid "Peru"
+msgstr "Peru"
+
+# KR
+#. official_name for PER
+msgid "Republic of Peru"
+msgstr "Republika Peru"
+
+# PH
+#. name for PHL
+msgid "Philippines"
+msgstr "Filipini"
+
+#. official_name for PHL
+msgid "Republic of the Philippines"
+msgstr "Republika Filipini"
+
+# PN
+#. name for PCN
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+# PL
+#. name for POL
+msgid "Poland"
+msgstr "Poljska"
+
+# KR
+#. official_name for POL
+msgid "Republic of Poland"
+msgstr "Republika Poljska"
+
+# PT
+#. name for PRT
+msgid "Portugal"
+msgstr "Portugalska"
+
+# KR
+#. official_name for PRT
+msgid "Portuguese Republic"
+msgstr "Portugalska republika"
+
+# PR
+#. name for PRI
+msgid "Puerto Rico"
+msgstr "Portoriko"
+
+# QA
+#. name for QAT
+msgid "Qatar"
+msgstr "Katar"
+
+#. official_name for QAT
+msgid "State of Qatar"
+msgstr "Država Katar"
+
+# RE
+#. name for REU
+msgid "Reunion"
+msgstr "Reunion"
+
+# RO
+#. name for ROU
+msgid "Romania"
+msgstr "Romunija"
+
+# RU
+#. name for RUS
+msgid "Russian Federation"
+msgstr "Ruska federacija"
+
+# RW
+#. name for RWA
+msgid "Rwanda"
+msgstr "Ruanda"
+
+# CZ
+#. official_name for RWA
+msgid "Rwandese Republic"
+msgstr "Ruandska republika"
+
+#. name for BLM
+msgid "Saint Barthélemy"
+msgstr "Saint Barthelemy"
+
+#. name for SHN
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+# KN
+# fuzzy
+#. name for KNA
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts in Nevis"
+
+# LC
+# fuzzy
+#. name for LCA
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#. name for MAF
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (francoski del)"
+
+# PM
+# fuzzy
+#. name for SPM
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre in Miquelon"
+
+# VC
+# fuzzy
+#. name for VCT
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent in Grenadini"
+
+# WS
+#. name for WSM
+msgid "Samoa"
+msgstr "Samoa"
+
+#. official_name for WSM
+msgid "Independent State of Samoa"
+msgstr "Neodvisna država Samoa"
+
+# SM
+#. name for SMR
+msgid "San Marino"
+msgstr "San Marino"
+
+# SM
+#. official_name for SMR
+msgid "Republic of San Marino"
+msgstr "Republika San Marino"
+
+# ST
+#. name for STP
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome in Principe"
+
+# ST
+#. official_name for STP
+msgid "Democratic Republic of Sao Tome and Principe"
+msgstr "Demokratična republika Sao Tome in Principe"
+
+# SA
+#. name for SAU
+msgid "Saudi Arabia"
+msgstr "Saudova Arabija"
+
+# SA
+#. official_name for SAU
+msgid "Kingdom of Saudi Arabia"
+msgstr "Kraljevina Saudova Arabija"
+
+# SN
+#. name for SEN
+msgid "Senegal"
+msgstr "Senegal"
+
+#. official_name for SEN
+msgid "Republic of Senegal"
+msgstr "Republika Senegal"
+
+# SY
+#. name for SRB
+msgid "Serbia"
+msgstr "Srbija"
+
+#. official_name for SRB
+msgid "Republic of Serbia"
+msgstr "Republika Srbija"
+
+# SC
+#. name for SYC
+msgid "Seychelles"
+msgstr "Sejšeli"
+
+# SC
+#. official_name for SYC
+msgid "Republic of Seychelles"
+msgstr "Republika Sejšeli"
+
+# SL
+#. name for SLE
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+# SL
+#. official_name for SLE
+msgid "Republic of Sierra Leone"
+msgstr "Republika Sierra Leone"
+
+# SG
+#. name for SGP
+msgid "Singapore"
+msgstr "Singapur"
+
+# SG
+#. official_name for SGP
+msgid "Republic of Singapore"
+msgstr "Republika Singapur"
+
+# SK
+#. name for SVK
+msgid "Slovakia"
+msgstr "Slovaška"
+
+# KR
+#. official_name for SVK
+msgid "Slovak Republic"
+msgstr "Slovaška republika"
+
+# SI
+#. name for SVN
+msgid "Slovenia"
+msgstr "Slovenija"
+
+#. official_name for SVN
+msgid "Republic of Slovenia"
+msgstr "Republika Slovenija"
+
+# SB
+#. name for SLB
+msgid "Solomon Islands"
+msgstr "Solomonovi otoki"
+
+# SO
+#. name for SOM
+msgid "Somalia"
+msgstr "Somalija"
+
+# DO
+#. official_name for SOM
+msgid "Somali Republic"
+msgstr "Somalska republika"
+
+# ZA
+#. name for ZAF
+msgid "South Africa"
+msgstr "Južna Afrika"
+
+# ZA
+#. official_name for ZAF
+msgid "Republic of South Africa"
+msgstr "Republika Južna Afrika"
+
+# GS
+#. name for SGS
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Južna Georgia in Južni Sandwichevi otoki"
+
+# ES
+#. name for ESP
+msgid "Spain"
+msgstr "Španija"
+
+#. official_name for ESP
+msgid "Kingdom of Spain"
+msgstr "Kraljevina Španija"
+
+# LK
+#. name for LKA
+msgid "Sri Lanka"
+msgstr "Šrilanka"
+
+# KP
+#. official_name for LKA
+msgid "Democratic Socialist Republic of Sri Lanka"
+msgstr "Demokratična socialistična republika Šrilanka"
+
+# SD
+#. name for SDN
+msgid "Sudan"
+msgstr "Sudan"
+
+#. official_name for SDN
+msgid "Republic of the Sudan"
+msgstr "Republika Sudan"
+
+# SR
+#. name for SUR
+msgid "Suriname"
+msgstr "Surinam"
+
+#. official_name for SUR
+msgid "Republic of Suriname"
+msgstr "Republika Surinam"
+
+# SJ
+#. name for SJM
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard in Jan Mayen"
+
+# SZ
+#. name for SWZ
+msgid "Swaziland"
+msgstr "Svazi"
+
+# SZ
+#. official_name for SWZ
+msgid "Kingdom of Swaziland"
+msgstr "Kraljevina Svazi"
+
+# SE
+#. name for SWE
+msgid "Sweden"
+msgstr "Švedska"
+
+#. official_name for SWE
+msgid "Kingdom of Sweden"
+msgstr "Kraljevina Švedska"
+
+# CH
+#. name for CHE
+msgid "Switzerland"
+msgstr "Švica"
+
+# RU
+#. official_name for CHE
+msgid "Swiss Confederation"
+msgstr "Švicarska konfederacija"
+
+# CF
+#. name for SYR
+msgid "Syrian Arab Republic"
+msgstr "Sirska arabska republika"
+
+#. name for TWN, official_name for TWN
+msgid "Taiwan, Province of China"
+msgstr "Tajvan, provinca Kitajske"
+
+# TW
+#. common_name for TWN
+msgid "Taiwan"
+msgstr "Tajvan"
+
+# TJ
+#. name for TJK
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+# TJ
+#. official_name for TJK
+msgid "Republic of Tajikistan"
+msgstr "Republika Tadžikistan"
+
+# KR
+#. name for TZA
+msgid "Tanzania, United Republic of"
+msgstr "Tanzanija"
+
+#. official_name for TZA
+msgid "United Republic of Tanzania"
+msgstr "Združena republika Tanzanija"
+
+# TH
+#. name for THA
+msgid "Thailand"
+msgstr "Tajska"
+
+#. official_name for THA
+msgid "Kingdom of Thailand"
+msgstr "Kraljevina Tajska"
+
+# TL
+# fuzzy
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Vzhodni Timor"
+
+# CD
+# fuzzy
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Demokratična republika Vzhodni Timor"
+
+# TG
+#. name for TGO
+msgid "Togo"
+msgstr "Togo"
+
+# CZ
+#. official_name for TGO
+msgid "Togolese Republic"
+msgstr "Republika Togo"
+
+# TK
+#. name for TKL
+msgid "Tokelau"
+msgstr "Tokelau"
+
+# TO
+#. name for TON
+msgid "Tonga"
+msgstr "Tonga"
+
+#. official_name for TON
+msgid "Kingdom of Tonga"
+msgstr "Kraljevina Tonga"
+
+# TT
+#. name for TTO
+msgid "Trinidad and Tobago"
+msgstr "Trinidad in Tabago"
+
+# TT
+#. official_name for TTO
+msgid "Republic of Trinidad and Tobago"
+msgstr "Republika Trinidad in Tabago"
+
+# TN
+#. name for TUN
+msgid "Tunisia"
+msgstr "Tunizija"
+
+#. official_name for TUN
+msgid "Republic of Tunisia"
+msgstr "Republika Tunizija"
+
+# TR
+#. name for TUR
+msgid "Turkey"
+msgstr "Turčija"
+
+# KR
+#. official_name for TUR
+msgid "Republic of Turkey"
+msgstr "Republika Turčija"
+
+# TM
+#. name for TKM
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+# Perhaps "Turks and Caicos Islands"?
+# TC
+# fuzzy
+#. name for TCA
+msgid "Turks and Caicos Islands"
+msgstr "Turks in Caicoški otoki"
+
+# TV
+#. name for TUV
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+# UG
+#. name for UGA
+msgid "Uganda"
+msgstr "Uganda"
+
+# KR
+#. official_name for UGA
+msgid "Republic of Uganda"
+msgstr "Republika Uganda"
+
+# UA
+#. name for UKR
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+# AE
+#. name for ARE
+msgid "United Arab Emirates"
+msgstr "Združeni Arabski emirati"
+
+#. name for GBR
+msgid "United Kingdom"
+msgstr "Združeno kraljestvo"
+
+#. official_name for GBR
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr "Združeno kraljestvo Velike Britanije in Severne Irske"
+
+# US
+#. name for USA
+msgid "United States"
+msgstr "Združene države"
+
+# US
+#. official_name for USA
+msgid "United States of America"
+msgstr "Združene države Amerike"
+
+# UM
+#. name for UMI
+msgid "United States Minor Outlying Islands"
+msgstr "manjši otoki Združenih držav Amerike"
+
+# UY
+#. name for URY
+msgid "Uruguay"
+msgstr "Urugvaj"
+
+#. official_name for URY
+msgid "Eastern Republic of Uruguay"
+msgstr "Vzhodna republika Urugvaj"
+
+# UZ
+#. name for UZB
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+# UZ
+#. official_name for UZB
+msgid "Republic of Uzbekistan"
+msgstr "Republika Uzbekistan"
+
+# VU
+#. name for VUT
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#. official_name for VUT
+msgid "Republic of Vanuatu"
+msgstr "Republika Vanuatu"
+
+# KR
+#. name for VEN
+msgid "Venezuela, Bolivarian republic of"
+msgstr "Venezuela, bolivarska republika"
+
+# KR
+#. official_name for VEN
+msgid "Bolivarian Republic of Venezuela"
+msgstr "Bolivarska republika Venezuela"
+
+# VE
+#. common_name for VEN
+msgid "Venezuela"
+msgstr "Venezuela"
+
+# VN
+# fuzzy
+#. name for VNM
+msgid "Viet Nam"
+msgstr "Vietnam"
+
+#. official_name for VNM
+msgid "Socialist Republic of Viet Nam"
+msgstr "Socialistična republika Vietnam"
+
+# VG
+# fuzzy
+#. name for VGB
+msgid "Virgin Islands, British"
+msgstr "Britanski Deviški otoki"
+
+# VI
+# fuzzy
+#. official_name for VGB
+msgid "British Virgin Islands"
+msgstr "Britanski Deviški otoki"
+
+# VI
+# fuzzy
+#. name for VIR
+msgid "Virgin Islands, U.S."
+msgstr "Ameriški Deviški otoki"
+
+# VG
+# fuzzy
+#. official_name for VIR
+msgid "Virgin Islands of the United States"
+msgstr "Ameriški Deviški otoki"
+
+# This should be Wallis, not Wallace
+# WF
+# fuzzy
+#. name for WLF
+msgid "Wallis and Futuna"
+msgstr "Wallis in Futuna"
+
+# EH
+#. name for ESH
+msgid "Western Sahara"
+msgstr "Zahodna Sahara"
+
+# YE
+#. name for YEM
+msgid "Yemen"
+msgstr "Jemen"
+
+# KR
+#. official_name for YEM
+msgid "Republic of Yemen"
+msgstr "Republika Jemen"
+
+# ZM
+#. name for ZMB
+msgid "Zambia"
+msgstr "Zambija"
+
+# KR
+#. official_name for ZMB
+msgid "Republic of Zambia"
+msgstr "Republika Zambija"
+
+# ZW
+#. name for ZWE
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+#. official_name for ZWE
+msgid "Republic of Zimbabwe"
+msgstr "Republika Zimbabve"
+
+# IO
+#. historic names for ATB (withdrawn 1979)
+msgid "British Antarctic Territory"
+msgstr "Britansko antarktično ozemlje"
+
+#. historic names for BUR (withdrawn 1989-12-05)
+msgid "Burma, Socialist Republic of the Union of"
+msgstr "Socialistična republika burmanske unije"
+
+#. historic names for BYS (withdrawn 1992-06-15)
+msgid "Byelorussian SSR Soviet Socialist Republic"
+msgstr "Beloruska sovjetska socialistična republika"
+
+#. historic names for CTE (withdrawn 1984)
+msgid "Canton and Enderbury Islands"
+msgstr "Otoka Kanton in Enderbury"
+
+#. historic names for CSK (withdrawn 1993-06-15)
+msgid "Czechoslovakia, Czechoslovak Socialist Republic"
+msgstr "Češkoslovaška socialistična republika"
+
+#. historic names for DHY (withdrawn 1977)
+msgid "Dahomey"
+msgstr "Dahomej"
+
+#. historic names for ATN (withdrawn 1983)
+msgid "Dronning Maud Land"
+msgstr "Zemlja kraljice Maud"
+
+#. historic names for TMP (withdrawn 2002-05-20)
+msgid "East Timor"
+msgstr "Vzhodni Timor"
+
+#. historic names for FXX (withdrawn 1997-07-14)
+msgid "France, Metropolitan"
+msgstr "Francija, metropolitanska"
+
+#. historic names for AFI (withdrawn 1977)
+msgid "French Afars and Issas"
+msgstr "Francosko ozemlje Afarov in Isov"
+
+# TF
+# fuzzy
+#. historic names for ATF (withdrawn 1979)
+msgid "French Southern and Antarctic Territories"
+msgstr "Francoska južna in antarktična ozemlja"
+
+# CD
+# fuzzy
+#. historic names for DDR (withdrawn 1990-10-30)
+msgid "German Democratic Republic"
+msgstr "Nemška demokratična republika"
+
+# KR
+#. historic names for DEU (withdrawn 1990-10-30)
+msgid "Germany, Federal Republic of"
+msgstr "Zvezna republika Nemčija"
+
+# Perhaps "Turks and Caicos Islands"?
+# TC
+# fuzzy
+#. historic names for GEL (withdrawn 1979)
+msgid "Gilbert and Ellice Islands"
+msgstr "Otoka Gilbert in Ellice"
+
+# CK
+#. historic names for JTN (withdrawn 1986)
+msgid "Johnston Island"
+msgstr "Johnstonov otok"
+
+# KY
+#. historic names for MID (withdrawn 1986)
+msgid "Midway Islands"
+msgstr "Otoki Midway"
+
+#. historic names for NTZ (withdrawn 1993-07-12)
+msgid "Neutral Zone"
+msgstr "Nevtralna cona"
+
+#. historic names for NHB (withdrawn 1980)
+msgid "New Hebrides"
+msgstr "Novi Hebridi"
+
+#. historic names for PCI (withdrawn 1986)
+msgid "Pacific Islands (trust territory)"
+msgstr "Pacifiški otoki (mandatno ozemlje)"
+
+# KR
+#. historic names for PAN (withdrawn 1993-07-22)
+msgid "Panama, Republic of"
+msgstr "Republika Panama"
+
+#. historic names for PCZ (withdrawn 1980)
+msgid "Panama Canal Zone"
+msgstr "Območje Panamskega prekopa"
+
+#. historic names for ROM (withdrawn 2002-02-01)
+msgid "Romania, Socialist Republic of"
+msgstr "Socialistična republika Romunija"
+
+#. historic names for KNA (withdrawn 1988)
+msgid "St. Kitts-Nevis-Anguilla"
+msgstr "Saint Kitts in Nevis - Avgvila"
+
+#. historic names for SCG (withdrawn 2006-06-05)
+msgid "Serbia and Montenegro"
+msgstr "Srbija in Črna gora"
+
+#. historic names for SKM (withdrawn 1975)
+msgid "Sikkim"
+msgstr "Sikim"
+
+#. historic names for RHO (withdrawn 1980)
+msgid "Southern Rhodesia"
+msgstr "Južna Rodezija"
+
+#. historic names for ESH (withdrawn 1988)
+msgid "Spanish Sahara"
+msgstr "Španska Sahara"
+
+#. historic names for PUS (withdrawn 1986)
+msgid "US Miscellaneous Pacific Islands"
+msgstr "Razni ameriški pacifiški otoki"
+
+#. historic names for SUN (withdrawn 1992-08-30)
+msgid "USSR, Union of Soviet Socialist Republics"
+msgstr "Zveza sovjetskih socialističnih republik"
+
+# KR
+#. historic names for HVO (withdrawn 1984)
+msgid "Upper Volta, Republic of"
+msgstr "Republika Zgornja Volta"
+
+# VA
+# fuzzy
+#. historic names for VAT (withdrawn 1996-04-03)
+msgid "Vatican City State (Holy See)"
+msgstr "Vatikanska mestna država (Sveti sedež)"
+
+# KP
+#. historic names for VDR (withdrawn 1977)
+msgid "Viet-Nam, Democratic Republic of"
+msgstr "Demokratična republika Vietnam"
+
+# FO
+#. historic names for WAK (withdrawn 1986)
+msgid "Wake Island"
+msgstr "Otok Wake"
+
+# KP
+#. historic names for YMD (withdrawn 1990-08-14)
+msgid "Yemen, Democratic, People's Democratic Republic of"
+msgstr "Ljudska demokratična republika Jemen"
+
+# CF
+#. historic names for YEM (withdrawn 1990-08-14)
+msgid "Yemen, Yemen Arab Republic"
+msgstr "Jemenska arabska republika"
+
+# KR
+#. historic names for YUG (withdrawn 1993-07-28)
+msgid "Yugoslavia, Socialist Federal Republic of"
+msgstr "Socialistična federativna republika Jugoslavija"
+
+# KR
+#. historic names for ZAR (withdrawn 1997-07-14)
+msgid "Zaire, Republic of"
+msgstr "Republika Zaire"

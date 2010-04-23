@@ -1,0 +1,1120 @@
+# Translation of ISO 4217 (currency names) to Lithuanian
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004.
+# Gintautas Miliauskas <gintas@akl.lt>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217 3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-04-05 14:35+0200\n"
+"PO-Revision-Date: 2008-05-17 20:52+0300\n"
+"Last-Translator: Gintautas Miliauskas <gintas@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. currency_name for AED
+msgid "UAE Dirham"
+msgstr "JAE dirhamas"
+
+#. currency_name for AFN, historic currency_name for AFA (withdrawn unknown)
+msgid "Afghani"
+msgstr "Afganis"
+
+#. currency_name for ALL
+msgid "Lek"
+msgstr "Lekas"
+
+#. currency_name for AMD
+msgid "Armenian Dram"
+msgstr "Armėnijos dramas"
+
+#. currency_name for ANG
+msgid "Netherlands Antillian Guilder"
+msgstr "Olandijos Antilų guldenas"
+
+#. currency_name for AOA
+msgid "Kwanza"
+msgstr "Kvanza"
+
+#. currency_name for ARS
+msgid "Argentine Peso"
+msgstr "Argentinos pesas"
+
+#. currency_name for AUD
+msgid "Australian Dollar"
+msgstr "Australijos doleris"
+
+#. currency_name for AWG
+msgid "Aruban Guilder"
+msgstr "Arubos guldenas"
+
+#. currency_name for AZN, historic currency_name for AZM (withdrawn unknown)
+msgid "Azerbaijanian Manat"
+msgstr "Azerbaidžano manatas"
+
+#. currency_name for BAM
+msgid "Convertible Marks"
+msgstr "Konvertuojamoji markė"
+
+#. currency_name for BBD
+msgid "Barbados Dollar"
+msgstr "Barbadoso doleris"
+
+#. currency_name for BDT
+msgid "Taka"
+msgstr "Taka"
+
+#. currency_name for BGN
+msgid "Bulgarian Lev"
+msgstr "Bulgarijos levas"
+
+#. currency_name for BHD
+msgid "Bahraini Dinar"
+msgstr "Bahreino dinaras"
+
+#. currency_name for BIF
+msgid "Burundi Franc"
+msgstr "Burundžio frankas"
+
+#. currency_name for BMD
+msgid "Bermudian Dollar"
+msgstr "Bermudos doleris"
+
+#. currency_name for BND
+msgid "Brunei Dollar"
+msgstr "Brunėjaus doleris"
+
+#. currency_name for BOB
+msgid "Boliviano"
+msgstr "Bolivijanas"
+
+#. currency_name for BOV
+msgid "Mvdol"
+msgstr "Mvdol"
+
+#. currency_name for BRL
+msgid "Brazilian Real"
+msgstr "Brazilijos realas"
+
+#. currency_name for BSD
+msgid "Bahamian Dollar"
+msgstr "Bahamų doleris"
+
+#. currency_name for BTN
+msgid "Ngultrum"
+msgstr "Ngultrumas"
+
+#. currency_name for BWP
+msgid "Pula"
+msgstr "Pula"
+
+#. currency_name for BYR
+msgid "Belarussian Ruble"
+msgstr "Baltarusijos rublis"
+
+#. currency_name for BZD
+msgid "Belize Dollar"
+msgstr "Belizo doleris"
+
+#. currency_name for CAD
+msgid "Canadian Dollar"
+msgstr "Kanados doleris"
+
+#. currency_name for CDF
+#, fuzzy
+msgid "Congolese Franc"
+msgstr "Komorų frankas"
+
+#. currency_name for CHE
+msgid "WIR Euro"
+msgstr "WIR euras"
+
+#. currency_name for CHF
+msgid "Swiss Franc"
+msgstr "Šveicarijos frankas"
+
+#. currency_name for CHW
+msgid "WIR Franc"
+msgstr "WIR frankas"
+
+#. currency_name for CLF
+msgid "Unidades de fomento"
+msgstr "Unidades de fomento"
+
+#. currency_name for CLP
+msgid "Chilean Peso"
+msgstr "Čilės pesas"
+
+#. currency_name for CNY
+msgid "Yuan Renminbi"
+msgstr "Renminbi juanis"
+
+#. currency_name for COP
+msgid "Colombian Peso"
+msgstr "Kolumbijos pesas"
+
+#. currency_name for COU
+msgid "Unidad de Valor Real"
+msgstr "Unidad de Valor Real"
+
+#. currency_name for CRC
+msgid "Costa Rican Colon"
+msgstr "Kosta Rikos kolonas"
+
+#. currency_name for CUP
+msgid "Cuban Peso"
+msgstr "Kubos pesas"
+
+#. currency_name for CVE
+msgid "Cape Verde Escudo"
+msgstr "Žaliojo Kyšulio eskudas"
+
+#. currency_name for CYP
+msgid "Cyprus Pound"
+msgstr "Kipro svaras"
+
+#. currency_name for CZK
+msgid "Czech Koruna"
+msgstr "Čekijos krona"
+
+#. currency_name for DJF
+msgid "Djibouti Franc"
+msgstr "Džibučio frankas"
+
+#. currency_name for DKK
+msgid "Danish Krone"
+msgstr "Danijos krona"
+
+#. currency_name for DOP
+msgid "Dominican Peso"
+msgstr "Dominikos pesas"
+
+#. currency_name for DZD
+msgid "Algerian Dinar"
+msgstr "Alžyro dinaras"
+
+#. currency_name for EEK
+msgid "Kroon"
+msgstr "Krona"
+
+#. currency_name for EGP
+msgid "Egyptian Pound"
+msgstr "Egipto svaras"
+
+#. currency_name for ERN
+msgid "Nakfa"
+msgstr "Nakfa"
+
+#. currency_name for ETB
+msgid "Ethiopian Birr"
+msgstr "Etiopijos biras"
+
+#. currency_name for EUR
+msgid "Euro"
+msgstr "Euras"
+
+#. currency_name for FJD
+msgid "Fiji Dollar"
+msgstr "Fidžio doleris"
+
+#. currency_name for FKP
+msgid "Falkland Islands Pound"
+msgstr "Falklando salų svaras"
+
+#. currency_name for GBP
+msgid "Pound Sterling"
+msgstr "Svaras sterlingų"
+
+#. currency_name for GEL
+msgid "Lari"
+msgstr "Laris"
+
+#. currency_name for GHS
+msgid "Ghana Cedi"
+msgstr "Ganos cedis"
+
+#. currency_name for GIP
+msgid "Gibraltar Pound"
+msgstr "Gibraltaro svaras"
+
+#. currency_name for GMD
+msgid "Dalasi"
+msgstr "Dalasis"
+
+#. currency_name for GNF
+msgid "Guinea Franc"
+msgstr "Gvinėjos frankas"
+
+#. currency_name for GTQ
+msgid "Quetzal"
+msgstr "Ketcalis"
+
+#. currency_name for GYD
+msgid "Guyana Dollar"
+msgstr "Gajanos doleris"
+
+#. currency_name for HKD
+msgid "Hong Kong Dollar"
+msgstr "Honkongo doleris"
+
+#. currency_name for HNL
+msgid "Lempira"
+msgstr "Lempira"
+
+#. currency_name for HRK
+msgid "Croatian Kuna"
+msgstr "Kroatijos kuna"
+
+#. currency_name for HTG
+msgid "Gourde"
+msgstr "Gurdas"
+
+#. currency_name for HUF
+msgid "Forint"
+msgstr "Forintas"
+
+#. currency_name for IDR
+msgid "Rupiah"
+msgstr "Rupija"
+
+#. currency_name for ILS
+msgid "New Israeli Sheqel"
+msgstr "Naujasis Izraelio šekelis"
+
+#. currency_name for INR
+msgid "Indian Rupee"
+msgstr "Indijos rupija"
+
+#. currency_name for IQD
+msgid "Iraqi Dinar"
+msgstr "Irako dinaras"
+
+#. currency_name for IRR
+msgid "Iranian Rial"
+msgstr "Irano rialas"
+
+#. currency_name for ISK
+msgid "Iceland Krona"
+msgstr "Islandijos krona"
+
+#. currency_name for JMD
+msgid "Jamaican Dollar"
+msgstr "Jamaikos doleris"
+
+#. currency_name for JOD
+msgid "Jordanian Dinar"
+msgstr "Jordanijos dinaras"
+
+#. currency_name for JPY
+msgid "Yen"
+msgstr "Jena"
+
+#. currency_name for KES
+msgid "Kenyan Shilling"
+msgstr "Kenijos šilingas"
+
+#. currency_name for KGS
+msgid "Som"
+msgstr "Somas"
+
+#. currency_name for KHR
+msgid "Riel"
+msgstr "Rielis"
+
+#. currency_name for KMF
+msgid "Comoro Franc"
+msgstr "Komorų frankas"
+
+#. currency_name for KPW
+msgid "North Korean Won"
+msgstr "Šiaurės Korėjos vonas"
+
+#. currency_name for KRW
+msgid "Won"
+msgstr "Vonas"
+
+#. currency_name for KWD
+msgid "Kuwaiti Dinar"
+msgstr "Kuveito dinaras"
+
+#. currency_name for KYD
+msgid "Cayman Islands Dollar"
+msgstr "Kaimanų salų doleris"
+
+#. currency_name for KZT
+msgid "Tenge"
+msgstr "Tengė"
+
+#. currency_name for LAK
+msgid "Kip"
+msgstr "Kipas"
+
+#. currency_name for LBP
+msgid "Lebanese Pound"
+msgstr "Libano svaras"
+
+#. currency_name for LKR
+msgid "Sri Lanka Rupee"
+msgstr "Šri Lankos rupija"
+
+#. currency_name for LRD
+msgid "Liberian Dollar"
+msgstr "Liberijos doleris"
+
+#. currency_name for LSL
+msgid "Loti"
+msgstr "Lotis"
+
+#. currency_name for LTL
+msgid "Lithuanian Litas"
+msgstr "Lietuvos litas"
+
+#. currency_name for LVL
+msgid "Latvian Lats"
+msgstr "Latvijos latas"
+
+#. currency_name for LYD
+msgid "Libyan Dinar"
+msgstr "Libijos dinaras"
+
+#. currency_name for MAD
+msgid "Moroccan Dirham"
+msgstr "Maroko dirhamas"
+
+#. currency_name for MDL
+msgid "Moldovan Leu"
+msgstr "Moldovos lėja"
+
+#. currency_name for MGA
+msgid "Malagasy Ariary"
+msgstr "Madagaskaro ariaris"
+
+#. currency_name for MKD
+msgid "Denar"
+msgstr "Denaras"
+
+#. currency_name for MMK, historic currency_name for BUK (withdrawn 1990-02)
+msgid "Kyat"
+msgstr "Kijatas"
+
+#. currency_name for MNT
+msgid "Tugrik"
+msgstr "Tugrikas"
+
+#. currency_name for MOP
+msgid "Pataca"
+msgstr "Pataka"
+
+#. currency_name for MRO
+msgid "Ouguiya"
+msgstr "Ugija"
+
+#. currency_name for MTL
+msgid "Maltese Lira"
+msgstr "Maltos lira"
+
+#. currency_name for MUR
+msgid "Mauritius Rupee"
+msgstr "Mauricijaus rupija"
+
+#. currency_name for MVR
+msgid "Rufiyaa"
+msgstr "Rufija"
+
+#. currency_name for MWK
+msgid "Kwacha"
+msgstr "Kvača"
+
+#. currency_name for MXN, historic currency_name for MXP (withdrawn 1993-01)
+msgid "Mexican Peso"
+msgstr "Meksikos pesas"
+
+#. currency_name for MXV
+msgid "Mexican Unidad de Inversion (UDI)"
+msgstr "Meksikos Unidad de Inversion (UDI)"
+
+#. currency_name for MYR
+msgid "Malaysian Ringgit"
+msgstr "Malaizijos ringitas"
+
+#. currency_name for MZN
+msgid "Metical"
+msgstr "Metikalas"
+
+#. currency_name for NAD
+msgid "Namibia Dollar"
+msgstr "Namibijos doleris"
+
+#. currency_name for NGN
+msgid "Naira"
+msgstr "Naira"
+
+#. currency_name for NIO
+msgid "Cordoba Oro"
+msgstr "Kordobos oras"
+
+#. currency_name for NOK
+msgid "Norwegian Krone"
+msgstr "Norvegijos krona"
+
+#. currency_name for NPR
+msgid "Nepalese Rupee"
+msgstr "Nepalo rupija"
+
+#. currency_name for NZD
+msgid "New Zealand Dollar"
+msgstr "Naujosios Zelandijos doleris"
+
+#. currency_name for OMR
+msgid "Rial Omani"
+msgstr "Omano rialas"
+
+#. currency_name for PAB
+msgid "Balboa"
+msgstr "Balboa"
+
+#. currency_name for PEN
+msgid "Nuevo Sol"
+msgstr "Naujasis solis"
+
+#. currency_name for PGK
+msgid "Kina"
+msgstr "Kina"
+
+#. currency_name for PHP
+msgid "Philippine Peso"
+msgstr "Filipinų pesas"
+
+#. currency_name for PKR
+msgid "Pakistan Rupee"
+msgstr "Pakistano rupija"
+
+#. currency_name for PLN
+msgid "Zloty"
+msgstr "Zlotas"
+
+#. currency_name for PYG
+msgid "Guarani"
+msgstr "Guaranis"
+
+#. currency_name for QAR
+msgid "Qatari Rial"
+msgstr "Kataro rialas"
+
+#. currency_name for RON
+msgid "New Leu"
+msgstr "Naujoji lėja"
+
+#. currency_name for RSD, historic currency_name for CSD (withdrawn unknown)
+msgid "Serbian Dinar"
+msgstr "Serbijos dinaras"
+
+#. currency_name for RUB
+msgid "Russian Ruble"
+msgstr "Rusijos rublis"
+
+#. currency_name for RWF
+msgid "Rwanda Franc"
+msgstr "Ruandos frankas"
+
+#. currency_name for SAR
+msgid "Saudi Riyal"
+msgstr "Saudo Arabijos rialas"
+
+#. currency_name for SBD
+msgid "Solomon Islands Dollar"
+msgstr "Saliamono salų doleris"
+
+#. currency_name for SCR
+msgid "Seychelles Rupee"
+msgstr "Seišelių rupija"
+
+#. currency_name for SDG, historic currency_name for SDD (withdrawn unknown), historic currency_name for SDP (withdrawn 1998-06)
+msgid "Sudanese Pound"
+msgstr "Sudano svaras"
+
+#. currency_name for SEK
+msgid "Swedish Krona"
+msgstr "Švedijos krona"
+
+#. currency_name for SGD
+msgid "Singapore Dollar"
+msgstr "Singapūro doleris"
+
+#. currency_name for SHP
+msgid "Saint Helena Pound"
+msgstr "Šv.Elenos svaras"
+
+#. currency_name for SLL
+msgid "Leone"
+msgstr "Leonė"
+
+#. currency_name for SOS
+msgid "Somali Shilling"
+msgstr "Somalio šilingas"
+
+#. currency_name for SRD
+msgid "Surinam Dollar"
+msgstr "Surinamo doleris"
+
+#. currency_name for STD
+msgid "Dobra"
+msgstr "Dobra"
+
+#. currency_name for SVC
+msgid "El Salvador Colon"
+msgstr "Salvadoro kolonas"
+
+#. currency_name for SYP
+msgid "Syrian Pound"
+msgstr "Sirijos svaras"
+
+#. currency_name for SZL
+msgid "Lilangeni"
+msgstr "Lilangenis"
+
+#. currency_name for THB
+msgid "Baht"
+msgstr "Batas"
+
+#. currency_name for TJS
+msgid "Somoni"
+msgstr "Somonis"
+
+#. currency_name for TMM
+msgid "Manat"
+msgstr "Manatas"
+
+#. currency_name for TND
+msgid "Tunisian Dinar"
+msgstr "Tuniso dinaras"
+
+#. currency_name for TOP
+msgid "Pa'anga"
+msgstr "Panga"
+
+#. currency_name for TRY
+msgid "New Turkish Lira"
+msgstr "Naujoji Turkijos lira"
+
+#. currency_name for TTD
+msgid "Trinidad and Tobago Dollar"
+msgstr "Trinidado ir Tobago doleris"
+
+#. currency_name for TWD
+msgid "New Taiwan Dollar"
+msgstr "Naujasis Taivano doleris"
+
+#. currency_name for TZS
+msgid "Tanzanian Shilling"
+msgstr "Tanzanijos šilingas"
+
+#. currency_name for UAH
+msgid "Hryvnia"
+msgstr "Grivina"
+
+#. currency_name for UGX
+msgid "Uganda Shilling"
+msgstr "Ugandos šilingas"
+
+#. currency_name for USD
+msgid "US Dollar"
+msgstr "JAV doleris"
+
+#. currency_name for USN
+msgid "US Dollar (Next day)"
+msgstr "JAV doleris (rytojaus)"
+
+#. currency_name for USS
+msgid "US Dollar (Same day)"
+msgstr "JAV doleris (šios dienos)"
+
+#. currency_name for UYI
+msgid "Uruguay Peso en Unidades Indexadas"
+msgstr "Urugvajaus Peso en Unidades Indexadas"
+
+#. currency_name for UYU
+msgid "Peso Uruguayo"
+msgstr "Urugvajaus pesas"
+
+#. currency_name for UZS
+msgid "Uzbekistan Sum"
+msgstr "Uzbekistano sumas"
+
+#. currency_name for VEF
+msgid "Bolivar Fuerte"
+msgstr "Bolivaro fuertė"
+
+#. currency_name for VND
+msgid "Dong"
+msgstr "Dongas"
+
+#. currency_name for VUV
+msgid "Vatu"
+msgstr "Vatu"
+
+#. currency_name for WST
+msgid "Tala"
+msgstr "Tala"
+
+#. currency_name for XAF
+msgid "CFA Franc BEAC"
+msgstr "CFA BEAC frankas"
+
+#. currency_name for XAG
+msgid "Silver"
+msgstr "Sidabras"
+
+#. currency_name for XAU
+msgid "Gold"
+msgstr "Auksas"
+
+#. currency_name for XBA
+msgid "European Composite Unit (EURCO)"
+msgstr "Europos suvestinės vienetas (EURCO)"
+
+#. currency_name for XBB
+msgid "European Monetary Unit (E.M.U.-6)"
+msgstr "Europos piniginis vienetas (E.M.U.-6)"
+
+#. currency_name for XBC
+msgid "European Unit of Account 9 (E.U.A.-9)"
+msgstr "Europos valiutos/apskaitos vienetas (E.U.A.-9)"
+
+#. currency_name for XBD
+msgid "European Unit of Account 17 (E.U.A.-17)"
+msgstr "Europos valiutos/apskaitos vienetas (E.U.A.-17)"
+
+#. currency_name for XCD
+msgid "East Caribbean Dollar"
+msgstr "Rytų Karibų doleris"
+
+#. currency_name for XDR
+msgid "Special Drawing Rights"
+msgstr "SDR Tarptautinis valiutos fondas"
+
+#. currency_name for XFO
+msgid "Gold-Franc"
+msgstr "Auksinis frankas (speciali atsiskaitymų valiuta)"
+
+#. currency_name for XFU
+msgid "UIC-Franc"
+msgstr "Uic frankas (speciali atsiskaitymų valiuta)"
+
+#. currency_name for XOF
+msgid "CFA Franc BCEAO"
+msgstr "CFA BCEAO frankas"
+
+#. currency_name for XPD
+msgid "Palladium"
+msgstr "Paladis"
+
+#. currency_name for XPF
+msgid "CFP Franc"
+msgstr "CFP frankas"
+
+#. currency_name for XPT
+msgid "Platinum"
+msgstr "Platina"
+
+#. currency_name for XTS
+msgid "Code for testing purposes"
+msgstr "Specialios paskirties rezervinis kodas"
+
+#. currency_name for XXX
+msgid "No currency"
+msgstr "Nevaliutinės operacijos"
+
+#. currency_name for YER
+msgid "Yemeni Rial"
+msgstr "Jemeno rialas"
+
+#. currency_name for ZAR
+msgid "Rand"
+msgstr "Randas"
+
+#. currency_name for ZMK
+#, fuzzy
+msgid "Zambian Kwacha"
+msgstr "Kvača"
+
+#. currency_name for ZWD
+msgid "Zimbabwe Dollar"
+msgstr "Zimbabvės doleris"
+
+#. historic currency_name for ADP (withdrawn 2002-03)
+msgid "Andorran Peseta"
+msgstr "Andoros peseta"
+
+#. historic currency_name for ADF (withdrawn unknown)
+msgid "Andorran Franc"
+msgstr "Andoros frankas"
+
+#. historic currency_name for ALK (withdrawn 1989-12)
+msgid "Albanian Old Lek"
+msgstr "Albanijos senasis lekas"
+
+#. historic currency_name for AOK (withdrawn 1991-03)
+msgid "Angolan New Kwanza"
+msgstr "Angolos naujoji kvanza"
+
+#. historic currency_name for AON (withdrawn 2000-02)
+msgid "Angola New Kwanza"
+msgstr "Angolos naujoji kvanza"
+
+#. historic currency_name for AOR (withdrawn 2000-02)
+msgid "Angola Kwanza Reajustado"
+msgstr "Angolos kvanza readjustado"
+
+#. historic currency_name for ARA (withdrawn 1992-01)
+msgid "Argentine Austral"
+msgstr "Argentinos australas"
+
+#. historic currency_name for ARM (withdrawn unknown)
+msgid "Argentine peso moneda nacional"
+msgstr "Argentinos peso moneda nacional"
+
+#. historic currency_name for ARL (withdrawn unknown)
+msgid "Argentine peso ley"
+msgstr "Argentinos peso ley"
+
+#. historic currency_name for ARP (withdrawn 1985-07)
+msgid "Peso Argentino"
+msgstr "Argentinos pesas"
+
+#. historic currency_name for ATS (withdrawn 2002-03)
+msgid "Austrian Schilling"
+msgstr "Austrijos šilingas"
+
+#. historic currency_name for BAD (withdrawn 1997-07)
+msgid "Bosnia and Herzegovina Dinar"
+msgstr "Bosnijos ir Hercegovinos dinaras"
+
+#. historic currency_name for BEC (withdrawn 1990-03)
+msgid "Belgian Franc Convertible"
+msgstr "Belgijos konvertuojamas frankas"
+
+#. historic currency_name for BEF (withdrawn 2002-03)
+msgid "Belgian Franc"
+msgstr "Belgijos frankas"
+
+#. historic currency_name for BEL (withdrawn 1990-03)
+msgid "Belgian Franc Financial"
+msgstr "Belgijos finansinis frankas"
+
+#. historic currency_name for BGJ (withdrawn 1990)
+msgid "Bulgarian Lev A/52"
+msgstr "Bulgarijos levas A/52"
+
+#. historic currency_name for BGK (withdrawn 1990)
+msgid "Bulgarian Lev A/62"
+msgstr "Bulgarijos levas A/62"
+
+#. historic currency_name for BGL (withdrawn unknown)
+msgid "Bulgarian Lev A/99"
+msgstr "Bulgarijos levas A/99"
+
+#. historic currency_name for BOP (withdrawn 1987-02)
+msgid "Bolivian Peso"
+msgstr "Bolivijos pesas"
+
+#. historic currency_name for BRB (withdrawn 1986-03), historic currency_name for BRE (withdrawn 1993-03)
+msgid "Brazilian Cruzeiro"
+msgstr "Brazilijos kruzeiras"
+
+#. historic currency_name for BRC (withdrawn 1989-02)
+msgid "Brazilian Cruzado"
+msgstr "Brazilijos kruzadas"
+
+#. historic currency_name for BRN (withdrawn 1990-03)
+msgid "Brazilian New Cruzado"
+msgstr "Brazilijos naujasis kruzadas"
+
+#. historic currency_name for BRR (withdrawn 1994-07)
+msgid "Brazilian Cruzeiro Real"
+msgstr "Brazilijos kruzeiro realas"
+
+#. historic currency_name for BYB (withdrawn 1999)
+msgid "Belarussian Rouble"
+msgstr "Baltarusijos rublis"
+
+#. historic currency_name for CNX (withdrawn 1989-12)
+msgid "Chinese Peoples Bank Dollar"
+msgstr "Kinijos nacionalinio banko doleris"
+
+#. historic currency_name for CSJ (withdrawn 1990)
+msgid "Czechoslovak Krona A/53"
+msgstr "Čekoslovakijos krona A/53"
+
+#. historic currency_name for CSK (withdrawn 1993-03)
+msgid "Czechoslovak Koruna"
+msgstr "Čekoslovakijos krona"
+
+#. historic currency_name for DDM (withdrawn 1990-09)
+msgid "East German Mark of the GDR"
+msgstr "Rytų Vokietijos VDR markė"
+
+#. historic currency_name for DEM (withdrawn 2002-03)
+msgid "Deutsche Mark"
+msgstr "Vokietijos markė"
+
+#. historic currency_name for ECS (withdrawn 2000-09-15)
+msgid "Ecuador Sucre"
+msgstr "Ekvadoro sukrė"
+
+#. historic currency_name for ECV (withdrawn unknown)
+msgid "Ecuador Unidad de Valor Constante UVC"
+msgstr "Ekvadoro Unidad de Valor Constante UVC"
+
+#. historic currency_name for ESA (withdrawn 1981)
+msgid "Spanish Peseta ('A' Account)"
+msgstr "Ispanijos peseta („A“ sąskaita)"
+
+#. historic currency_name for ESB (withdrawn 1994-12)
+msgid "Spanish Peseta (convertible)"
+msgstr "Ispanijos peseta (konvertuojamoji)"
+
+#. historic currency_name for ESP (withdrawn 2002-03)
+msgid "Spanish Peseta"
+msgstr "Ispanijos peseta"
+
+#. historic currency_name for FIM (withdrawn 2002-03)
+msgid "Finnish Markka"
+msgstr "Suomijos markė"
+
+#. historic currency_name for FRF (withdrawn 2002-03)
+msgid "French Franc"
+msgstr "Prancūzijos frankas"
+
+#. historic currency_name for GEK (withdrawn 1995-10)
+msgid "Georgian Coupon"
+msgstr "Gruzijos kuponas"
+
+#. historic currency_name for GNE (withdrawn 1989-12), historic currency_name for GNS (withdrawn 1986-02)
+msgid "Guinea Syli"
+msgstr "Gvinėjos sylis"
+
+#. historic currency_name for GQE (withdrawn 1989-12)
+msgid "Equatorial Guinea Ekwele"
+msgstr "Pusiaujo Gvinėjos ekvelė"
+
+#. historic currency_name for GHC (withdrawn unknown)
+msgid "Cedi"
+msgstr "Cedis"
+
+#. historic currency_name for GRD (withdrawn 2002-03)
+msgid "Greek Drachma"
+msgstr "Graikijos drachma"
+
+#. historic currency_name for GWE (withdrawn 1981)
+msgid "Guinea Escudo"
+msgstr "Gvinėjos eskudas"
+
+#. historic currency_name for GWP (withdrawn 1997-04)
+msgid "Guinea-Bissau Peso"
+msgstr "Bisau Gvinėjos pesas"
+
+#. historic currency_name for HRD (withdrawn 1995-01)
+msgid "Croatian Dinar"
+msgstr "Kroatijos dinaras"
+
+#. historic currency_name for IEP (withdrawn 2002-03)
+msgid "Irish Pound"
+msgstr "Airijos svaras"
+
+#. historic currency_name for ILP (withdrawn 1981)
+msgid "Israeli Pound"
+msgstr "Izraelio svaras"
+
+#. historic currency_name for ILR (withdrawn 1990)
+msgid "Israeli Old Shekel"
+msgstr "Izraelio senasis šekelis"
+
+#. historic currency_name for ISJ (withdrawn 1990)
+msgid "Iceland Old Krona"
+msgstr "Islandijos senoji krona"
+
+#. historic currency_name for ITL (withdrawn 2002-03)
+msgid "Italian Lira"
+msgstr "Italijos lira"
+
+#. historic currency_name for LAJ (withdrawn 1989-12)
+msgid "Lao kip"
+msgstr "Laoso kipas"
+
+#. historic currency_name for LSM (withdrawn 1985-05)
+msgid "Lesotho Maloti"
+msgstr "Lesoto malotis"
+
+#. historic currency_name for LTT (withdrawn 1993-07)
+msgid "Lithuanian Talonas"
+msgstr "Lietuvos talonai"
+
+#. historic currency_name for LUC (withdrawn 1990-03)
+msgid "Luxembourg Convertible Franc"
+msgstr "Liuksemburgo konvertuojamas frankas"
+
+#. historic currency_name for LUF (withdrawn 2002-03)
+msgid "Luxembourg Franc"
+msgstr "Liuksemburgo frankas"
+
+#. historic currency_name for LUL (withdrawn 1990-03)
+msgid "Luxembourg Financial Franc"
+msgstr "Liuksemburgo finansinis frankas"
+
+#. historic currency_name for LVR (withdrawn 1994-12)
+msgid "Latvian Ruble"
+msgstr "Latvijos rublis"
+
+#. historic currency_name for MAF (withdrawn 1989-12), historic currency_name for MLF (withdrawn 1984-11)
+msgid "Mali Franc"
+msgstr "Mali frankas"
+
+#. historic currency_name for MGF (withdrawn unknown)
+msgid "Malagasy Franc"
+msgstr "Madagaskaro frankas"
+
+#. historic currency_name for MTP (withdrawn 1983-06)
+msgid "Maltese Pound"
+msgstr "Maltos svaras"
+
+#. historic currency_name for MVQ (withdrawn 1989-12)
+msgid "Maldive Rupee"
+msgstr "Maldyvų rupija"
+
+#. historic currency_name for MZE (withdrawn 1981)
+msgid "Mozambique Escudo"
+msgstr "Mozambiko eskudas"
+
+#. historic currency_name for MZM (withdrawn unknown)
+msgid "Mozambique Metical"
+msgstr "Mozambiko metikalis"
+
+#. historic currency_name for NIC (withdrawn 1990-10)
+msgid "Nicaraguan Cordoba"
+msgstr "Nikaragvos kordoba"
+
+#. historic currency_name for NLG (withdrawn 2002-03)
+msgid "Netherlands Guilder"
+msgstr "Olandijos guldenas"
+
+#. historic currency_name for PEH (withdrawn 1990), historic currency_name for PES (withdrawn 1986-02)
+msgid "Peruvian Sol"
+msgstr "Peru solis"
+
+#. historic currency_name for PEI (withdrawn 1991-07)
+msgid "Peruvian Inti"
+msgstr "Peru intis"
+
+#. historic currency_name for PLZ (withdrawn 1997-01)
+msgid "Polish Złoty"
+msgstr "Lenkijos zlotas"
+
+#. historic currency_name for PTE (withdrawn 2002-03)
+msgid "Portuguese Escudo"
+msgstr "Portugalijos eskudas"
+
+#. historic currency_name for RHD (withdrawn 1981)
+msgid "Rhodesian Dollar"
+msgstr "Rodezijos doleris"
+
+#. historic currency_name for ROK (withdrawn 1990)
+msgid "Romanian Leu A/52"
+msgstr "Rumunijos lėja A/52"
+
+#. historic currency_name for ROL (withdrawn 2005-06)
+msgid "Romanian Old Leu"
+msgstr "Rumunijos senoji lėja"
+
+#. historic currency_name for RUR (withdrawn 1997)
+msgid "Russian Rouble"
+msgstr "Rusijos rublis"
+
+#. historic currency_name for SIT (withdrawn 2006-12-31)
+msgid "Slovenian Tolar"
+msgstr "Slovėnijos tolaras"
+
+#. historic currency_name for SKK (withdrawn 2009-01-01)
+msgid "Slovak Koruna"
+msgstr "Slovakijos krona"
+
+#. historic currency_name for SRG (withdrawn unknown)
+msgid "Suriname Guilder"
+msgstr "Surinamo guldenas"
+
+#. historic currency_name for SUR (withdrawn 1990-12)
+msgid "USSR Rouble"
+msgstr "Sovietų Sąjungos (USSR) rublis"
+
+#. historic currency_name for TJR (withdrawn 2000)
+msgid "Tajik Rouble"
+msgstr "Tadžikijos rublis"
+
+#. historic currency_name for TLE (withdrawn unknown)
+msgid "Timor Escudo"
+msgstr "Timoro eskudas"
+
+#. historic currency_name for TRL (withdrawn unknown)
+msgid "Turkish Lira"
+msgstr "Turkijos lira"
+
+#. historic currency_name for UAK (withdrawn 1996-09)
+msgid "Ukrainian Karbovanet"
+msgstr "Ukrainos karbovancas "
+
+#. historic currency_name for UGS (withdrawn 1987-05)
+msgid "Uganda Schilling"
+msgstr "Ugandos šilingas"
+
+#. historic currency_name for UGW (withdrawn 1990)
+msgid "Uganda Old Schilling"
+msgstr "Ugandos senasis šilingas"
+
+#. historic currency_name for UYN (withdrawn 1989-12)
+msgid "Old Uruguayan Peso"
+msgstr "Senasis Urugvajaus pesas"
+
+#. historic currency_name for UYP (withdrawn 1993-03)
+msgid "Uruguayan Peso"
+msgstr "Urugvajaus pesas"
+
+#. historic currency_name for VEB (withdrawn 2008-01-01)
+msgid "Venezuela Bolívar"
+msgstr "Venesuelos bolivaras"
+
+#. historic currency_name for VNC (withdrawn 1990)
+msgid "Viet Nam Old Dong"
+msgstr "Vietnamo senasis dongas"
+
+#. historic currency_name for XEU (withdrawn 1999-01)
+msgid "European Currency Unit ECU"
+msgstr "Europos valiutos vienetas (ECU)"
+
+#. historic currency_name for XRE (withdrawn 1999-11)
+msgid "RINET Funds Code"
+msgstr "RINET fondų kodas"
+
+#. historic currency_name for YDD (withdrawn 1991-09)
+msgid "Yemeni Dinar"
+msgstr "Jemeno dinaras"
+
+#. historic currency_name for YUD (withdrawn unknown), historic currency_name for YUN (withdrawn 1995-11)
+msgid "Yugoslavian Dinar"
+msgstr "Jugoslavijos dinaras"
+
+#. historic currency_name for ZAL (withdrawn 1995-03)
+msgid "South African Financial Rand"
+msgstr "Pietų Afrikos finansinis randas"
+
+#. historic currency_name for ZRN (withdrawn 1999-06)
+msgid "New Zaire"
+msgstr "Zairo naujasis zairas"
+
+#. historic currency_name for ZRZ (withdrawn 1994-02)
+msgid "Zaire"
+msgstr "Zairas"

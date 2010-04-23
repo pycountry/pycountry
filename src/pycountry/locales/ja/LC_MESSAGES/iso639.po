@@ -1,0 +1,2936 @@
+# Translation of ISO-639 (language names) to Japanese
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
+#   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
+#   Takuro Ashie <ashie@homa.ne.jp>, 2001.
+#   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_639 3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"PO-Revision-Date: 2010-02-07 19:39+0900\n"
+"Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 以下「国国」は、国立国会図書館のサイト。
+#
+# CLDR訳
+# ジブチ
+# マイペディア「ジブチ」の項に「アファル語」
+# アファール語とも
+#. name for aar, aa
+msgid "Afar"
+msgstr "アファル語"
+
+# グルジア共和国内のアブハジア自治共和国
+# カフカス諸語北西グループ
+# KDE訳は「アブハーズ語」
+# マイペディア「アブハジア」の項に「アブハジア語」
+# CLDR訳は「アブハズ語」
+# アプハーズ語とも
+#. name for abk, ab
+msgid "Abkhazian"
+msgstr "アブハジア語"
+
+# 国国
+# インドネシア、スマトラ島北部
+# Atjehneseとも
+# 広辞苑「アチェー王国 (Aceh)」の項
+# アチャン (阿昌) 族とは別か
+#. name for ace
+msgid "Achinese"
+msgstr "アチェー語"
+
+# 以前Acholiとも
+#. name for ach
+msgid "Acoli"
+msgstr "アチョリ語"
+
+#. name for ada
+msgid "Adangme"
+msgstr "アダングメ語"
+
+# マイペディア「アディゲイ」の項に「アディゲ語」
+# ニッポニカ「アディゲイ」の項
+#. name for ady
+msgid "Adyghe; Adygei"
+msgstr "アディゲ語; アディジェイ語"
+
+# 国国
+# 北米
+#. name for afa
+#, fuzzy
+msgid "Afro-Asiatic languages"
+msgstr "アパッチ語族"
+
+# 鳥海訳、CLDR訳
+# アフリカ大陸の国際補助語
+#. name for afh
+msgid "Afrihili"
+msgstr "アフリヒリ語"
+
+# 国国
+#. name for afr, af
+msgid "Afrikaans"
+msgstr "アフリカーンス語"
+
+#. name for ain
+msgid "Ainu"
+msgstr "アイヌ語"
+
+# 国国
+#. name for aka, ak
+msgid "Akan"
+msgstr "アカン語"
+
+# 国国
+# 古代メソポタミアで用いられた唯一の北東セム語 (死語)
+# アッシリア語とバビロニア語に分類
+#. name for akk
+msgid "Akkadian"
+msgstr "アッカド語"
+
+# 国国
+#. name for sqi, sq
+msgid "Albanian"
+msgstr "アルバニア語"
+
+#. name for ale
+msgid "Aleut"
+msgstr "アレウト語"
+
+# 国国
+# 北米
+# →ミクマク、クリー、ブラックフット、シャイアン、アラパホー
+#. name for alg
+msgid "Algonquian languages"
+msgstr "アルゴンキアン語族"
+
+#. name for alt
+msgid "Southern Altai"
+msgstr "南アルタイ語"
+
+# 国国
+# エチオピア
+# アムハリ語とも
+#. name for amh, am
+msgid "Amharic"
+msgstr "アムハラ語"
+
+# 国国
+#. name for ang
+msgid "English, Old (ca. 450-1100)"
+msgstr "英語, 古期 (約 450-1100)"
+
+# Special thanks to Hindi team
+#. name for anp
+msgid "Angika"
+msgstr "アンギカ語"
+
+# 国国
+# 北米
+#. name for apa
+msgid "Apache languages"
+msgstr "アパッチ語族"
+
+# 国国
+#. name for ara, ar
+msgid "Arabic"
+msgstr "アラビア語"
+
+#. name for arc
+msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
+msgstr ""
+
+#. name for arg, an
+msgid "Aragonese"
+msgstr "アラゴン語"
+
+# 国国
+#. name for hye, hy
+msgid "Armenian"
+msgstr "アルメニア語"
+
+#. name for arn
+msgid "Mapudungun; Mapuche"
+msgstr "Mapudungun; Mapuche"
+
+# 国国
+# 北米インディアン
+#. name for arp
+msgid "Arapaho"
+msgstr "アラパホー語"
+
+# 国国
+# メキシコ
+# 中米インディアン
+#. name for art
+#, fuzzy
+msgid "Artificial languages"
+msgstr "オトミ語族"
+
+# 国国
+# 北米インディアン
+#. name for arw
+msgid "Arawak"
+msgstr "アラワク語"
+
+# 国国
+#. name for asm, as
+msgid "Assamese"
+msgstr "アッサム語"
+
+#. name for ast
+msgid "Asturian; Bable; Leonese; Asturleonese"
+msgstr ""
+
+# 国国
+# ISO, 国国は「〜s」
+# 北米インディアン
+# Apache, Chipewyan, Dogrib, Gwich'in, Hupa, Navajo, Slaveを除外
+#. name for ath
+msgid "Athapascan languages"
+msgstr "アサパスカン語族"
+
+#. name for aus
+msgid "Australian languages"
+msgstr "オーストラリア語族"
+
+# 国国
+#. name for ava, av
+msgid "Avaric"
+msgstr "アヴァル語"
+
+# 国国は「Avesta」
+# KDE訳は「アヴェスター語」
+# アベスター語とも
+# ゾロアスター教聖典記述言語
+#. name for ave, ae
+msgid "Avestan"
+msgstr "アヴェスタ語"
+
+# CLDR訳
+# インド、ネパールの北インド系アワディ族
+# Abadi, Abohi, Ambodhi, Avadhi, Baiswari, Kojali, Kosaliとも
+# アワディ語とも
+#. name for awa
+msgid "Awadhi"
+msgstr "アワディー語"
+
+# 国国
+#. name for aym, ay
+msgid "Aymara"
+msgstr "アイマラ語"
+
+# 国国
+#. name for aze, az
+msgid "Azerbaijani"
+msgstr "アゼルバイジャン語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for bad
+msgid "Banda languages"
+msgstr "バンダ語族"
+
+# カメルーン
+#. name for bai
+msgid "Bamileke languages"
+msgstr "バミレケ語族"
+
+# 国国
+# バシコルトスタン
+#. name for bak, ba
+msgid "Bashkir"
+msgstr "バシキール語"
+
+# 国国
+#. name for bal
+msgid "Baluchi"
+msgstr "バルーチー語"
+
+# 国国
+# マリ
+#. name for bam, bm
+msgid "Bambara"
+msgstr "バンバラ語"
+
+# 国国
+#. name for ban
+msgid "Balinese"
+msgstr "バリ語"
+
+# 国国
+#. name for eus, eu
+msgid "Basque"
+msgstr "バスク語"
+
+# カメルーン南部
+# バッサ語とも
+# EthnologueはBasaa
+# リベリアの「Bassa バッサ語」はkro
+#. name for bas
+msgid "Basa"
+msgstr "バサ語"
+
+# 国国
+# 中米
+#. name for bat
+#, fuzzy
+msgid "Baltic languages"
+msgstr "バタク語族"
+
+#. name for bej
+msgid "Beja; Bedawiyet"
+msgstr ""
+
+# 国国は「Byelorussian」
+# KDE訳は「ベラルーシ語」
+#. name for bel, be
+msgid "Belarusian"
+msgstr "白ロシア語"
+
+# 国国
+# ザンビア
+#. name for bem
+msgid "Bemba"
+msgstr "ベンバ語"
+
+# 国国
+#. name for ben, bn
+msgid "Bengali"
+msgstr "ベンガル語"
+
+# 国国
+# 中米
+#. name for ber
+msgid "Berber languages"
+msgstr "ベルベル語族"
+
+# 国国
+#. name for bho
+msgid "Bhojpuri"
+msgstr "ボージプリー語"
+
+# ブラジル
+# 南米インディアン
+#. name for bih, bh
+msgid "Bihari languages"
+msgstr "ビハール語族"
+
+# 国国
+#. name for bik
+msgid "Bikol"
+msgstr "ビコル語"
+
+# 鳥海訳
+# ナイジェリア
+# 綴りはBENIN, ADDO, OVIEDO, OVIOBAとも
+# EDOというコードも
+#. name for bin
+msgid "Bini; Edo"
+msgstr "ビニ語; エド語"
+
+# バヌアツ
+#. name for bis, bi
+msgid "Bislama"
+msgstr "ビスラマ語"
+
+# CLDR訳
+# 米語では「Blackfeet ブラックフィート語」とも
+#. name for bla
+msgid "Siksika"
+msgstr "シクシカ語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for bnt
+#, fuzzy
+msgid "Bantu languages"
+msgstr "バンダ語族"
+
+#. name for bos, bs
+msgid "Bosnian"
+msgstr "ボスニア語"
+
+# インドのウッタル州、マディヤ州
+# 西部ヒンディー方言という
+# Braj Basahaとも
+#. name for bra
+msgid "Braj"
+msgstr "ブラジ語"
+
+# 国国
+# KDE訳は「ブルターニュ語」
+#. name for bre, br
+msgid "Breton"
+msgstr "ブルトン語"
+
+# 国国
+# 中米
+#. name for btk
+msgid "Batak languages"
+msgstr "バタク語族"
+
+#. name for bua
+msgid "Buriat"
+msgstr "ブリヤート語"
+
+# 国国
+#. name for bug
+msgid "Buginese"
+msgstr "ブギ語"
+
+# 国国
+#. name for bul, bg
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+# 国国
+#. name for mya, my
+msgid "Burmese"
+msgstr "ビルマ語"
+
+# 鳥海訳
+# 三省堂言語学大辞典に「ビリン語」
+#. name for byn
+msgid "Blin; Bilin"
+msgstr "Blin; ビリン語"
+
+# 国国
+# 北米インディアン
+#. name for cad
+msgid "Caddo"
+msgstr "カドー語"
+
+#. name for cai
+#, fuzzy
+msgid "Central American Indian languages"
+msgstr "中米インディアン諸語 (その他)"
+
+# スペイン北西
+# マイペディア「ガリシア」の項に「ガリシア語」
+# ポーランドのガリツィアとは別
+#. name for car
+msgid "Galibi Carib"
+msgstr "ガリビ・カリブ語"
+
+# KDE訳は「カタール語」だが、カタールはQatarだし、
+# 「Language of Andorra, a small part of France and a small part of Spain」
+# というコメントとも合わない
+# 広辞苑「カタルニア語」の項
+#. name for cat, ca
+msgid "Catalan; Valencian"
+msgstr "カタロニア語; バレンシア語"
+
+# 国国
+# 北・中央米インディアン
+#. name for cau
+#, fuzzy
+msgid "Caucasian languages"
+msgstr "ワカシ語族"
+
+# 国国
+# 広辞苑「セブアノ語(Sebuano)」の項
+#. name for ceb
+msgid "Cebuano"
+msgstr "セブアノ語"
+
+# 中国、ベトナム、カンボジア
+#. name for cel
+#, fuzzy
+msgid "Celtic languages"
+msgstr "チャム語族"
+
+# 国国
+# ミクロネシア
+#. name for cha, ch
+msgid "Chamorro"
+msgstr "チャモロ語"
+
+# 国国
+# 米インディアン
+#. name for chb
+msgid "Chibcha"
+msgstr "チブチャ語"
+
+# 国国
+#. name for che, ce
+msgid "Chechen"
+msgstr "チェチェン語"
+
+# 国国
+#. name for chg
+msgid "Chagatai"
+msgstr "チャガタイ語"
+
+# 国国
+#. name for zho, zh
+msgid "Chinese"
+msgstr "中国語"
+
+# CLDR訳
+# ミクロネシア連邦トラック(Truk/Chuuk チューク)州
+# Chuuk, Truk, Trukese, RUK, LAGOON CHUUKESEとも
+# トラック語とも
+#. name for chk
+msgid "Chuukese"
+msgstr "チューク語"
+
+# チェレミス語。ボルガ川中流域マリ共和国
+#. name for chm
+msgid "Mari"
+msgstr "マリ語"
+
+# 国国は「ビーチ・ラ・マー等」
+#. name for chn
+msgid "Chinook jargon"
+msgstr "チヌーク混成語"
+
+# 国国
+#. name for cho
+msgid "Choctaw"
+msgstr "チョクトー語"
+
+#. name for chp
+msgid "Chipewyan; Dene Suline"
+msgstr ""
+
+# 国国
+#. name for chr
+msgid "Cherokee"
+msgstr "チェロキー語"
+
+# 国国
+# KDE訳は「教会スラヴ語」
+# 広辞苑「スラヴごは」の項に「古教会スラヴ語」
+# 古代〜とも
+#. name for chu, cu
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr "教会スラブ語; 古スラブ語; 教会スラブ語; 古ブルガリア語; 古教会スラブ語"
+
+# 国国
+# KDE訳は「チュヴァシ語」
+#. name for chv, cv
+msgid "Chuvash"
+msgstr "チュヴァシュ語"
+
+# 国国
+#. name for chy
+msgid "Cheyenne"
+msgstr "シャイアン語"
+
+# 中国、ベトナム、カンボジア
+#. name for cmc
+msgid "Chamic languages"
+msgstr "チャム語族"
+
+# 国国
+#. name for cop
+msgid "Coptic"
+msgstr "コプト語"
+
+# 国国
+#. name for cor, kw
+msgid "Cornish"
+msgstr "コーンウォール語"
+
+# フランス、コルシカ島
+#. name for cos, co
+msgid "Corsican"
+msgstr "コルシカ語"
+
+#. name for cpe
+#, fuzzy
+msgid "Creoles and pidgins, English based"
+msgstr "混成語・混合語 (その他), 英語基盤語 (その他)"
+
+#. name for cpf
+#, fuzzy
+msgid "Creoles and pidgins, French-based"
+msgstr "混成語・混合語 (その他), 仏語基盤語 (その他)"
+
+#. name for cpp
+#, fuzzy
+msgid "Creoles and pidgins, Portuguese-based"
+msgstr "混成語・混合語 (その他), 葡語基盤語 (その他)"
+
+# 国国
+#. name for cre, cr
+msgid "Cree"
+msgstr "クリー語"
+
+#. name for crh
+msgid "Crimean Tatar; Crimean Turkish"
+msgstr "クリミア・タタール語; クリミア・トルコ語"
+
+# 国国
+#. name for crp
+#, fuzzy
+msgid "Creoles and pidgins"
+msgstr "混成語・混合語 (その他)"
+
+# CLDR訳
+# ポーランド
+# カシュビアン語とも
+#. name for csb
+msgid "Kashubian"
+msgstr "カシューブ語"
+
+# 中国、ベトナム、カンボジア
+#. name for cus
+#, fuzzy
+msgid "Cushitic languages"
+msgstr "チャム語族"
+
+# 国国
+# チェック語とも
+#. name for ces, cs
+msgid "Czech"
+msgstr "チェコ語"
+
+# 国国
+#. name for dak
+msgid "Dakota"
+msgstr "ダコタ語"
+
+# 国国
+#. name for dan, da
+msgid "Danish"
+msgstr "デンマーク語"
+
+# ロシア Darghinian
+# ダルグヮ語とも
+#. name for dar
+msgid "Dargwa"
+msgstr "ダルガン語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for day
+msgid "Land Dayak languages"
+msgstr "ランドダヤク語族"
+
+# 国国
+#. name for del
+msgid "Delaware"
+msgstr "デラウェア語"
+
+# CLDR訳
+# スレーブ語、スレイヴィー語とも
+#. name for den
+msgid "Slave (Athapascan)"
+msgstr "スレイビー語 (アサパスカン語)"
+
+# カナダ、イエローナイフ周辺
+#. name for dgr
+msgid "Dogrib"
+msgstr "ドグリブ語"
+
+# 国国
+# スーダン南部
+#. name for din
+msgid "Dinka"
+msgstr "ディンカ語"
+
+# モルジブ公用語
+# ニッポニカ「モルジブ」の項に「ディベヒ語」
+#. name for div, dv
+msgid "Divehi; Dhivehi; Maldivian"
+msgstr "ディベヒ語; ディヴェーヒー語; モルジブ語"
+
+# CLDR訳
+# インド
+# 国営公社ラジオでも使用
+# DOGRI-KANGRIとも
+# ドグリー語とも
+#. name for doi
+msgid "Dogri"
+msgstr "ドグリ語"
+
+# 国国
+# ドイツ
+#. name for dra
+#, fuzzy
+msgid "Dravidian languages"
+msgstr "ソルビア語族"
+
+# CLDR訳
+# 低地ソルブ語、ソルビア語とも
+#. name for dsb
+msgid "Lower Sorbian"
+msgstr "低ソルビア語"
+
+# デュアラ語とも
+#. name for dua
+msgid "Duala"
+msgstr "ドゥアラ語"
+
+# 国国
+#. name for dum
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr "オランダ語, 中世 (約1050-1350)"
+
+# マイペディアに「フラマン語」の項
+# 研究社新英和中辞典にFlemishの項
+#. name for nld, nl
+msgid "Dutch; Flemish"
+msgstr "オランダ語; フラマン語"
+
+# CLDR訳
+# デュラ語とも
+#. name for dyu
+msgid "Dyula"
+msgstr "デゥウラ語"
+
+# ブータン
+# ゾンカー語とも
+#. name for dzo, dz
+msgid "Dzongkha"
+msgstr "ゾンカ語"
+
+# 国国
+# CLDR訳は「エフィック語」
+#. name for efi
+msgid "Efik"
+msgstr "エフィク語"
+
+# 国国は「Egyptan エジプト語」で、原語に(Ancient)なし
+# ISOの仏語も\'egyptienで、括弧なし
+# 今のエジプトはアラビア語
+#. name for egy
+msgid "Egyptian (Ancient)"
+msgstr "エジプト語 (古代)"
+
+# ナイジェリア
+# AKAJO, AKAJUKとも
+#. name for eka
+msgid "Ekajuk"
+msgstr "エカジュク語"
+
+# 国国
+#. name for elx
+msgid "Elamite"
+msgstr "エラム語"
+
+# 国国
+#. name for eng, en
+msgid "English"
+msgstr "英語"
+
+#. name for enm
+msgid "English, Middle (1100-1500)"
+msgstr "英語, 中世 (1100-1500)"
+
+# 国国
+# USMARCは-ESP
+#. name for epo, eo
+msgid "Esperanto"
+msgstr "エスペラント語"
+
+# 国国
+#. name for est, et
+msgid "Estonian"
+msgstr "エストニア語"
+
+# 国国
+# ガーナ
+# EVEとも
+#. name for ewe, ee
+msgid "Ewe"
+msgstr "エウェ語"
+
+# カメルーン
+#. name for ewo
+msgid "Ewondo"
+msgstr "エウォンド語"
+
+# ファン語とも
+#. name for fan
+msgid "Fang"
+msgstr "ファング語"
+
+# 国国
+# USMARCは-FAR
+#. name for fao, fo
+msgid "Faroese"
+msgstr "フェロー語"
+
+# 国国
+#. name for fat
+msgid "Fanti"
+msgstr "ファンティー語"
+
+# 国国
+#. name for fij, fj
+msgid "Fijian"
+msgstr "フィジー語"
+
+# 広辞苑「フィリピノ語」の項
+# →タガログ語、ヒリジャノン語、マノボ語、ワライ語
+#. name for fil
+msgid "Filipino; Pilipino"
+msgstr "フィリピノ語; ピリピノ語"
+
+# 国国
+# KDE訳、広辞苑は「フィンランド語」
+# スオミ語とも
+#. name for fin, fi
+msgid "Finnish"
+msgstr "フィン語"
+
+# 国国
+# ドイツ
+#. name for fiu
+#, fuzzy
+msgid "Finno-Ugrian languages"
+msgstr "ソルビア語族"
+
+# ベナン (ダオメー) 南部
+#. name for fon
+msgid "Fon"
+msgstr "フォン語"
+
+# 国国
+#. name for fra, fr
+msgid "French"
+msgstr "フランス語"
+
+#. name for frm
+msgid "French, Middle (ca. 1400-1600)"
+msgstr "フランス語, 中世 (約 1400-1600)"
+
+#. name for fro
+msgid "French, Old (842-ca. 1400)"
+msgstr "フランス語, 古 (842-約 1400)"
+
+#. name for frr
+msgid "Northern Frisian"
+msgstr "北フリジア語"
+
+#. name for frs
+msgid "Eastern Frisian"
+msgstr "東フリジア語"
+
+# 国国は「Friesian」
+# オランダ北東部フリースラント州
+# フリース語、フリースラント語、フリースランド語とも
+# 研究社新英和中辞典にFriesianの項 (Frisianなし)
+#. name for fry, fy
+msgid "Western Frisian"
+msgstr "西フリジア語"
+
+# 国国は「Fula」
+# カメルーン、ニジェールでの綴りはFulaとも
+# Niger-Congo 諸語
+# セネガル、ギニア、ナイジェリアなど
+#. name for ful, ff
+msgid "Fulah"
+msgstr "フラ語"
+
+# イタリア北東フリウリ・ベネチア・ジュリア
+# Furlan, Frioulan, Frioulian, Priulian, Friulanoとも
+# フルイリアン語とも
+#. name for fur
+msgid "Friulian"
+msgstr "フリウリ語"
+
+# 国国
+# ガーナ
+#. name for gaa
+msgid "Ga"
+msgstr "ガ語"
+
+# インドネシア、スマトラ島北部ガヨ地区。
+# Gajoとも
+# 「Gayi ガイ語」はnicに分類されるObanlikuの別名
+#. name for gay
+msgid "Gayo"
+msgstr "ガヨ語"
+
+# 国国
+# 「Gbaya-Manjia グバヤー・マンジア語」とも
+#. name for gba
+msgid "Gbaya"
+msgstr "バヤ語"
+
+# 中国、ベトナム、カンボジア
+#. name for gem
+#, fuzzy
+msgid "Germanic languages"
+msgstr "チャム語族"
+
+# 国国
+#. name for kat, ka
+msgid "Georgian"
+msgstr "グルジア語"
+
+# 国国
+# ニッポニカ「ドイツ語」の項に「Fruehneuhochdeutcsh
+# (初期新高(しんこう)ドイツ語)、Neuhochdeutcsh (新高ドイツ語)」
+#. name for deu, de
+msgid "German"
+msgstr "ドイツ語"
+
+# エチオピア
+# 広辞苑「ゲーズ語 (Ge'es)」の項
+# CLDR訳は「ゲエズ語」
+# Ge'ezとも
+# 古典エチオピア語とも
+#. name for gez
+msgid "Geez"
+msgstr "ゲーズ語"
+
+# 国国
+#. name for gil
+msgid "Gilbertese"
+msgstr "キリバス語"
+
+# 国国は「Gaelic (Scots) ガエリック語」
+# SILはGLS, USMARCは-GAE
+#. name for gla, gd
+msgid "Gaelic; Scottish Gaelic"
+msgstr "ゲール語; スコットランド・ゲール語"
+
+# 国国
+# USMARCは-IRI
+#. name for gle, ga
+msgid "Irish"
+msgstr "アイルランド語"
+
+# スペイン北西
+# マイペディア「ガリシア」の項に「ガリシア語」
+# ポーランドのガリツィアとは別
+#. name for glg, gl
+msgid "Galician"
+msgstr "ガリシア語"
+
+# 国国
+# ニッポニカ「マン島」の項に「マンクス語」
+# USMARCは-MAX
+#. name for glv, gv
+msgid "Manx"
+msgstr "マン島語"
+
+# 国国
+# ニッポニカ「ドイツ語」の項に「Mittelhochdeutcsh
+# (中高(ちゅうこう)ドイツ語)」
+# 中世高地〜とも
+#. name for gmh
+msgid "German, Middle High (ca. 1050-1500)"
+msgstr "ドイツ語, 中高 (約 1050-1500)"
+
+# 国国
+# ニッポニカ「ドイツ語」の項に「Althochdeutcsh (古高(ここう)ドイツ語)」
+# 古期高地〜、古高地〜とも
+#. name for goh
+msgid "German, Old High (ca. 750-1050)"
+msgstr "ドイツ語, 古高 (約 750-1050)"
+
+# 国国
+#. name for gon
+msgid "Gondi"
+msgstr "ゴーンディー語"
+
+# 国国
+#. name for gor
+msgid "Gorontalo"
+msgstr "ゴロンタロ語"
+
+# 国国
+#. name for got
+msgid "Gothic"
+msgstr "ゴート語"
+
+# リベリア
+#. name for grb
+msgid "Grebo"
+msgstr "グレボ語"
+
+# 国国、KDE訳は〜ャ
+#. name for grc
+msgid "Greek, Ancient (to 1453)"
+msgstr "ギリシア語, 古代 (-1453)"
+
+# 国国、KDE訳は〜ャ
+#. name for ell, el
+msgid "Greek, Modern (1453-)"
+msgstr "ギリシア語, 現代 (1453-)"
+
+# 国国
+# USMARCは-GUA
+#. name for grn, gn
+msgid "Guarani"
+msgstr "グアラニー語"
+
+#. name for gsw
+#, fuzzy
+msgid "Swiss German; Alemannic; Alsatian"
+msgstr "スイス・ドイツ語; アラマン語"
+
+# 国国
+# KDE訳は「グジャラート語」「グジャラティ語」
+# ニッポニカ「グジャラート人」の項に「グジャラート語」
+# CLDR訳は「グジャラート語」
+#. name for guj, gu
+msgid "Gujarati"
+msgstr "グジャラーティー語"
+
+# CLDR訳
+# カナダ
+# Athapascan系
+# Kutchin, Loucheuxとも
+# クイッチン語、グチン語とも
+#. name for gwi
+msgid "Gwich'in"
+msgstr "グウィッチン語"
+
+# 国国
+# 北米インディアン
+#. name for hai
+msgid "Haida"
+msgstr "ハイダ語"
+
+#. name for hat, ht
+msgid "Haitian; Haitian Creole"
+msgstr "ハイチ; ハイチ混成語"
+
+# 国国
+#. name for hau, ha
+msgid "Hausa"
+msgstr "ハウサ語"
+
+# 国国
+#. name for haw
+msgid "Hawaiian"
+msgstr "ハワイ語"
+
+# 国国
+#. name for heb, he
+msgid "Hebrew"
+msgstr "ヘブライ語"
+
+# 国国
+# ナミビア
+#. name for her, hz
+msgid "Herero"
+msgstr "ヘレロ語"
+
+# CLDR訳
+# フィリピン
+# ヒリジャノン語とも
+#. name for hil
+msgid "Hiligaynon"
+msgstr "ヒリガイノン語"
+
+#. name for him
+msgid "Himachali languages; Western Pahari languages"
+msgstr ""
+
+# 国国
+# KDE訳は「ヒンディ語」とも
+#. name for hin, hi
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#. name for hit
+msgid "Hittite"
+msgstr "ヒッタイト語"
+
+# 中国
+# CLDR訳は「フモン語」
+# モング語とも
+#. name for hmn
+#, fuzzy
+msgid "Hmong; Mong"
+msgstr "フモング語"
+
+# CLDR訳
+# Ethnologueは「Motu, Hiri」
+# パプア・ニューギニア
+# KDE訳は「モツ語」
+#. name for hmo, ho
+msgid "Hiri Motu"
+msgstr "ヒリモトゥ語"
+
+# 国国は「Serbo-Croatian (Roman) セルボ・クロアチア語 (ローマ文字)」
+# loc.govでは、「ISO 15924があるので、文字の違いでは、
+# 別の言語コードを割り当てない」としている
+#. name for hrv, hr
+msgid "Croatian"
+msgstr "クロアチア語"
+
+# CLDR訳
+# 高地ソルブ語、ソルビア語とも
+#. name for hsb
+msgid "Upper Sorbian"
+msgstr "上ソルビア語"
+
+# 国国
+# マジャール語とも
+#. name for hun, hu
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+# 国国
+#. name for hup
+msgid "Hupa"
+msgstr "アタパスカ語"
+
+# 国国
+#. name for iba
+msgid "Iban"
+msgstr "イバン語"
+
+# 国国
+# ナイジェリア
+#. name for ibo, ig
+msgid "Igbo"
+msgstr "イボ語"
+
+# 国国
+#. name for isl, is
+msgid "Icelandic"
+msgstr "アイスランド語"
+
+# エスペラントをいっそう簡易化した国際補助語
+# イードー語とも
+#. name for ido, io
+msgid "Ido"
+msgstr "イド語"
+
+# ロロ語とも
+#. name for iii, ii
+#, fuzzy
+msgid "Sichuan Yi; Nuosu"
+msgstr "四川イ (彝) 語"
+
+# 国国
+# フィリピン南部
+#. name for ijo
+msgid "Ijo languages"
+msgstr "イジョ語族"
+
+# CLDR訳
+# イヌクチタット語、イヌクティトット語とも
+# KDE訳は「イヌイト語」
+#. name for iku, iu
+msgid "Inuktitut"
+msgstr "イヌクウティトット語"
+
+# www.interlingue.com
+# インテルリング語とも
+#. name for ile, ie
+#, fuzzy
+msgid "Interlingue; Occidental"
+msgstr "インターリング"
+
+# 国国
+#. name for ilo
+msgid "Iloko"
+msgstr "イロカノ語"
+
+# CLDR訳、KDE訳
+# マイペディア「国際語」の項に「インテルリングワ」
+# ニッポニカ「インテルリングア (Interlingua)」の項に「国際補助語協会」
+# インターリングァ語とも
+# USMARCは-INT
+# Alexander Gode考案の計画語
+#. name for ina, ia
+msgid "Interlingua (International Auxiliary Language Association)"
+msgstr "インターリングア語 (国際補助語協会)"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for inc
+#, fuzzy
+msgid "Indic languages"
+msgstr "バンダ語族"
+
+# 国国
+# インドネシア
+# マレー語の改称
+#. name for ind, id
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+# 国国
+# 北米
+# イロクォイ〜とも
+#. name for ine
+#, fuzzy
+msgid "Indo-European languages"
+msgstr "イロコイ語族"
+
+# CLDR訳
+# ロシア連邦南部北カフカス地方チェチェノ・イングーシ共和国
+# イングーシ語とも
+#. name for inh
+msgid "Ingush"
+msgstr "イングシ語"
+
+# CLDR訳
+# アラスカ州北部および北西部
+# イヌピアク語とも
+#. name for ipk, ik
+msgid "Inupiaq"
+msgstr "イヌピアック語"
+
+# 国国
+# 北米
+# イロクォイ〜とも
+#. name for ira
+#, fuzzy
+msgid "Iranian languages"
+msgstr "イロコイ語族"
+
+# 国国
+# 北米
+# イロクォイ〜とも
+#. name for iro
+msgid "Iroquoian languages"
+msgstr "イロコイ語族"
+
+# 国国
+#. name for ita, it
+msgid "Italian"
+msgstr "イタリア語"
+
+# 国国
+#. name for jav, jv
+msgid "Javanese"
+msgstr "ジャワ語"
+
+# 計画語のひとつらしい
+#. name for jbo
+msgid "Lojban"
+msgstr "ロジバン語"
+
+# 国国
+#. name for jpn, ja
+msgid "Japanese"
+msgstr "日本語"
+
+# イスラエル
+#. name for jpr
+msgid "Judeo-Persian"
+msgstr "ユダヤ・ペルシア語"
+
+# イスラエル
+#. name for jrb
+msgid "Judeo-Arabic"
+msgstr "ユダヤ・アラビア語"
+
+# 国国
+# ウズベク共和国
+# ニッポニカ「カラカルパク語」の項
+#. name for kaa
+msgid "Kara-Kalpak"
+msgstr "カラ・カルパク語"
+
+# 国国
+#. name for kab
+msgid "Kabyle"
+msgstr "カビル語"
+
+#. name for kac
+msgid "Kachin; Jingpho"
+msgstr "カチン語; Jingpho"
+
+#. name for kal, kl
+msgid "Kalaallisut; Greenlandic"
+msgstr "カラアリス語; グリーンランド語"
+
+# 国国
+#. name for kam
+msgid "Kamba"
+msgstr "カンバ語"
+
+# 国国
+# KDE訳は「カナラ語」
+#. name for kan, kn
+msgid "Kannada"
+msgstr "カンナダ語"
+
+# 国国
+# 中米
+#. name for kar
+msgid "Karen languages"
+msgstr "カレン語族"
+
+# 国国
+# KDE訳、CLDR訳は「カシミール語」
+#. name for kas, ks
+msgid "Kashmiri"
+msgstr "カシミーリー語"
+
+# 国国
+#. name for kau, kr
+msgid "Kanuri"
+msgstr "カヌリ語"
+
+# 「Kawa カワ語」(ビルマ)とは別で、死語らしい
+# ニッポニカ「インドネシア」の項の「(古ジャワ語) カウィ語」か?
+#. name for kaw
+msgid "Kawi"
+msgstr "カウィ語"
+
+# 国国
+# KDE訳は「カザフ語」「カザーク語」
+# ニッポニカ「カザフ語」の項に「ハザック語とも」「カザック語と」
+# CLDR訳は「カザフ語」
+#. name for kaz, kk
+msgid "Kazakh"
+msgstr "カザーフ語"
+
+# カバルディノ・バルカリア共和国。カフカス語族北西群
+# ニッポニカ「カバルディ語」の項
+# CLDR訳は「カバルド語」
+#. name for kbd
+msgid "Kabardian"
+msgstr "カバルダ語"
+
+# Kahasi, Khasiyas, Khuchia, Kassi, Khasa, Khashiとも
+#. name for kha
+msgid "Khasi"
+msgstr "カシ語"
+
+# 国国
+# メキシコ
+# 中米インディアン
+#. name for khi
+#, fuzzy
+msgid "Khoisan languages"
+msgstr "オトミ語族"
+
+#. name for khm, km
+msgid "Central Khmer"
+msgstr "中央クメール語"
+
+# CLDR訳
+# 新疆ウイグル自治区ホータン (Khotan: 和田) 県
+# ホータン語とも
+#. name for kho
+#, fuzzy
+msgid "Khotanese;Sakan"
+msgstr "コータン語"
+
+# 国国
+# KDE訳は「キクーユ語」
+# ニッポニカ「キクユ族 (Kikuyu)」の項
+#. name for kik, ki
+msgid "Kikuyu; Gikuyu"
+msgstr "キクユ語; Gikuyu"
+
+# 国国
+# KDE訳は「キヌヤルワンダ語」
+# キニャルワンダ語とも
+#. name for kin, rw
+msgid "Kinyarwanda"
+msgstr "キンヤルワンダ語"
+
+# 国国
+# クルグズ (柯尓克孜) 語とも
+#. name for kir, ky
+msgid "Kirghiz; Kyrgyz"
+msgstr "キルギス語; クルグズ語"
+
+# アンゴラ
+# キムブンド族
+# 「UMB」参照
+#. name for kmb
+msgid "Kimbundu"
+msgstr "キンブンドゥ語"
+
+# 国国
+# CLDR訳は「コンカニ語」
+#. name for kok
+msgid "Konkani"
+msgstr "コンカニー語"
+
+# 主にロシアの一部で
+# ニッポニカ「コミ族 (Komi)」の項に
+# 「ウラル語族フィン・ウゴル語派ペルム語系のジリアン語」
+#. name for kom, kv
+msgid "Komi"
+msgstr "コミ語"
+
+# 国国
+#. name for kon, kg
+msgid "Kongo"
+msgstr "コンゴ語"
+
+# 国国
+# KDE訳は「韓国語」
+# 広辞苑、ニッポニカ「朝鮮語」の項
+#. name for kor, ko
+msgid "Korean"
+msgstr "朝鮮語"
+
+# ミクロネシア連邦中部カロリン諸島最東端の火山島
+# ニッポニカ「コスラエ島 (Kosrae Island)」の項
+# CLDR訳は「コシャエ語」
+#. name for kos
+msgid "Kosraean"
+msgstr "コスラエ語"
+
+# 国国
+#. name for kpe
+msgid "Kpelle"
+msgstr "クペレ語"
+
+# カラチャイチェルケス共和国、カバルディノ・バルカル共和国
+# アラビア語、チュルク系
+# ニッポニカ「カラチャイ語」の項に「カラチャイ・バルカル語」
+# CLDR訳は「カラチャイ語」
+#. name for krc
+msgid "Karachay-Balkar"
+msgstr "カラチャイ・バルカル語"
+
+# 広辞苑「カレリア (Karelia)」の項
+#. name for krl
+msgid "Karelian"
+msgstr "カレリア語"
+
+# ブラジル
+# 南米インディアン
+#. name for kro
+msgid "Kru languages"
+msgstr "クルー語族"
+
+# 国国
+#. name for kru
+msgid "Kurukh"
+msgstr "クルク語"
+
+# アンゴラ、ナミビア
+# Kuwanyamaとも
+# クワニャマ語とも
+# 「Kunama クナマ語」(エリトリア西部) とは別
+#. name for kua, kj
+msgid "Kuanyama; Kwanyama"
+msgstr "クアニャマ語; Kwanyama"
+
+# CLDR訳
+# ロシア
+# ダゲスタン共和国クミク族のトルコ系言語?
+# Kumuk, Kumuklar, Kumykiとも
+# クミック語とも
+#. name for kum
+msgid "Kumyk"
+msgstr "クムク語"
+
+# 国国
+#. name for kur, ku
+msgid "Kurdish"
+msgstr "クルド語"
+
+# 国国
+#. name for kut
+msgid "Kutenai"
+msgstr "クテナイ語"
+
+# 国国
+#. name for lad
+msgid "Ladino"
+msgstr "ラジノ語"
+
+# 国国
+# 末尾のaはオーバーライン付でも綴られる
+#. name for lah
+msgid "Lahnda"
+msgstr "ラフンダー語"
+
+# ザンビア
+# Ichilamba, Chilambaとも
+# 「Limba リンバ語」(Niger-Congo) は、nicに分類される別言語
+#. name for lam
+msgid "Lamba"
+msgstr "ランバ語"
+
+# 国国
+# ラオス語とも
+# 広辞苑「ラオス」の項に「ラオ語」
+#. name for lao, lo
+msgid "Lao"
+msgstr "ラオ語"
+
+# 国国
+#. name for lat, la
+msgid "Latin"
+msgstr "ラテン語"
+
+# 国国
+# KDE訳、マイペディア、ニッポニカ、CLDR訳は「ラトビア語」
+#. name for lav, lv
+msgid "Latvian"
+msgstr "ラトヴィア語"
+
+# ロシア、南ダゲスタン
+# LEZGIとも
+#. name for lez
+msgid "Lezghian"
+msgstr "レズギ語"
+
+# CLDR訳
+# 2002-08-02に「Limburgish; Linburger; Linburgan」追加
+# SILのLIMは、カメルーンのLIMBUM語。
+# ニッポニカ「リンブルフ (Limburg)」の項 (オランダ、ベルギー各1項)
+# リンブルク語とも
+#. name for lim, li
+msgid "Limburgan; Limburger; Limburgish"
+msgstr "リンブルフ語"
+
+# 国国
+#. name for lin, ln
+msgid "Lingala"
+msgstr "リンガラ語"
+
+# 国国
+#. name for lit, lt
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+# 国国
+#. name for lol
+msgid "Mongo"
+msgstr "モンゴ語"
+
+# ザンビア西部
+# ニッポニカ「ザンビア」の項に「ロジ王国」「ロジ族」
+# CLDR訳は「ロズィ語」
+#. name for loz
+msgid "Lozi"
+msgstr "ロジ語"
+
+# CLDR訳
+# ルクセンブルク、ベルギー、フランス、ドイツ
+# Luxemburgish, Luxemburgian, Luxembourgish, Letzburgisch,
+# Letzebuergesch, MOSELLE FRANCONIAN, Frankishとも
+# ニッポニカ「ルクセンブルク (Luxembourg)」に「ルクセンブルク語」
+# レクサンブルグ語とも
+#. name for ltz, lb
+msgid "Luxembourgish; Letzeburgesch"
+msgstr "ルクセンブルク語; レッツェブルク語"
+
+# コンゴ民主共和国(旧ザイール)
+# LUBA-KASAIとも
+# カサイ州ルルアブルグ(現カナンガ)のルルア族
+# カサイ川、ルバ・カサイ人
+#. name for lua
+msgid "Luba-Lulua"
+msgstr "ルバ・ルルア語"
+
+# 国国
+# CLDR訳は「ルバ・カタンガ語」
+#. name for lub, lu
+msgid "Luba-Katanga"
+msgstr "ルバ語"
+
+# 国国
+# Niger-Congo 諸語ルガンダ語とも。主にウガンダ
+#. name for lug, lg
+msgid "Ganda"
+msgstr "ガンダ語"
+
+# 国国
+# 北米インディアン
+# CLDR訳は「ルイセーニョ語」
+#. name for lui
+msgid "Luiseno"
+msgstr "ルイセニョ語"
+
+# CLDR訳
+# アンゴラ、コンゴ共和国、サンビア、ジンバブエ
+# ランダ語とも
+#. name for lun
+msgid "Lunda"
+msgstr "ルンダ語"
+
+# 国国
+# Nilo-Saharan 諸語。ケニアの Nyanza 地方と、タンザニアの一部
+#. name for luo
+msgid "Luo (Kenya and Tanzania)"
+msgstr "ルオ語 (ケニアとタンザニア)"
+
+# 国国
+#. name for lus
+msgid "Lushai"
+msgstr "ルシャイ語"
+
+# 国国
+#. name for mkd, mk
+msgid "Macedonian"
+msgstr "マケドニア語"
+
+# 国国
+#. name for mad
+msgid "Madurese"
+msgstr "マドゥラ語"
+
+# CLDR訳
+# 「Bihari ビハール語」と別
+# マガヒ語とも
+#. name for mag
+msgid "Magahi"
+msgstr "マガヒー語"
+
+# 国国は「Marshall」
+# KDE訳は「マーシャル諸島言語」
+#. name for mah, mh
+msgid "Marshallese"
+msgstr "マーシャル語"
+
+# CLDR訳
+# インド
+# 「Bihari ビハール語」と別
+# マイチリ語とも
+#. name for mai
+msgid "Maithili"
+msgstr "マイティリー語"
+
+# 国国
+#. name for mak
+msgid "Makasar"
+msgstr "マカッサル語"
+
+# 国国
+#. name for mal, ml
+msgid "Malayalam"
+msgstr "マラヤーラム語"
+
+# 国国
+# ガンビア
+#. name for man
+msgid "Mandingo"
+msgstr "マンディンゴ語"
+
+# 国国
+#. name for mri, mi
+msgid "Maori"
+msgstr "マオリ語"
+
+#. name for map
+#, fuzzy
+msgid "Austronesian languages"
+msgstr "オーストラリア語族"
+
+# 国国
+#. name for mar, mr
+msgid "Marathi"
+msgstr "マラーティー語"
+
+# 国国
+#. name for mas
+msgid "Masai"
+msgstr "マサイ語"
+
+# 国国
+# KDE訳、CLDR訳は「マレー語」
+#. name for msa, ms
+msgid "Malay"
+msgstr "マライ語"
+
+# モルドヴィア
+# ニッポニカ「モルドビン族」の項に「モクシャ語」
+#. name for mdf
+msgid "Moksha"
+msgstr "モクシャ語"
+
+# 国国
+#. name for mdr
+msgid "Mandar"
+msgstr "マンダル語"
+
+# 国国
+# シエラレオネ
+#. name for men
+msgid "Mende"
+msgstr "メンデ語"
+
+# CLDR訳は「中期アイルランド語」
+# 中世〜とも
+#. name for mga
+msgid "Irish, Middle (900-1200)"
+msgstr "アイルランド語, 中期 (900-1200)"
+
+# 国国
+# 北米インディアン
+#. name for mic
+msgid "Mi'kmaq; Micmac"
+msgstr "Mi'kmaq; ミクマク語"
+
+# 国国
+# インドネシア、スマトラ
+#. name for min
+msgid "Minangkabau"
+msgstr "ミナンカバウ語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for mis
+#, fuzzy
+msgid "Uncoded languages"
+msgstr "ザンデ語族"
+
+# ブラジル
+# 南米インディアン
+#. name for mkh
+#, fuzzy
+msgid "Mon-Khmer languages"
+msgstr "クルー語族"
+
+# 国国
+# KDE訳、CLDR訳は「マダガスカル語」
+# USMARCは-MLA
+#. name for mlg, mg
+msgid "Malagasy"
+msgstr "マラガシ語"
+
+# 国国
+#. name for mlt, mt
+msgid "Maltese"
+msgstr "マルタ語"
+
+# CLDR訳
+# 広辞苑、マイペディア、ニッポニカ「満州語」の項
+#. name for mnc
+msgid "Manchu"
+msgstr "満州語"
+
+# CLDR訳
+# http://www.wdic.org/w/WDIC/ISO%20639
+# に「マニプル語」
+# http://www.koredeindia.com/special08.htm
+# に「Manipuri(Meitei）	マニプリー語	マニプル人」
+#. name for mni
+msgid "Manipuri"
+msgstr "マニプル語"
+
+# 国国
+# フィリピン南部
+#. name for mno
+msgid "Manobo languages"
+msgstr "マノボ語族"
+
+# 国国
+#. name for moh
+msgid "Mohawk"
+msgstr "モーホーク語"
+
+# 国国
+# KDE訳は「モルドバ語」とも
+# 広辞苑「モルダヴィア (Moldavia)」→「モルドヴァ (Moldova)」
+# マイペディア「モルダビア」→「モルドバ」の項に「モルドバ語」
+# ニッポニカ「モルダビア (Moldavia)」の項
+# CLDR訳は「モルダビア語」
+# 「モルジブ語」とする頁もあるが、おそらく誤り
+#. name for mol, mo
+msgid "Moldavian; Moldovan"
+msgstr "モルダヴィア語"
+
+# 国国
+# KDE訳、CLDR訳は「モンゴル語」
+#. name for mon, mn
+msgid "Mongolian"
+msgstr "蒙古語"
+
+# 国国
+# ブルキナ・ファソ東部
+# CLDR訳は「モシ語」
+#. name for mos
+msgid "Mossi"
+msgstr "モッシー語"
+
+# 国国
+#. name for mul
+msgid "Multiple languages"
+msgstr "多言語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for mun
+msgid "Munda languages"
+msgstr "ムンダ語族"
+
+# 国国
+#. name for mus
+msgid "Creek"
+msgstr "クリーク語"
+
+# CLDR訳
+# ポルトガル
+# ミランド語とも
+#. name for mwl
+msgid "Mirandese"
+msgstr "ミランダ語"
+
+# CLDR訳
+# インド、グジャラート州など
+# 商人の意という
+# マルワリ語とも
+#. name for mwr
+msgid "Marwari"
+msgstr "マールワーリー語"
+
+# 国国
+# 中米
+#. name for myn
+msgid "Mayan languages"
+msgstr "マヤ語族"
+
+# モルドヴィア
+# ニッポニカ「モルドビン族」の項に「エルジャ語」
+# アルジア語とも
+#. name for myv
+msgid "Erzya"
+msgstr "エルジャ語"
+
+# 国国は「Nubian languages ヌバ語」
+# スーダン
+# Ethnologueはさらに11種に分類
+# CLDR訳は「ヌビア語族」
+#. name for nah
+msgid "Nahuatl languages"
+msgstr "ナワトル語族"
+
+# 国国
+#. name for nai
+#, fuzzy
+msgid "North American Indian languages"
+msgstr "北米インディアン諸語"
+
+#. name for nap
+msgid "Neapolitan"
+msgstr "ナポリ語"
+
+# 国国
+#. name for nau, na
+msgid "Nauru"
+msgstr "ナウル語"
+
+# 国国は「Navajo」
+# 仏語はnavaho
+# CLDR訳は「ナバホ語」
+#. name for nav, nv
+msgid "Navajo; Navaho"
+msgstr "ナヴァホ語"
+
+#. name for nbl, nr
+msgid "Ndebele, South; South Ndebele"
+msgstr "マタベレ語, 南; 南ヌデベレ語"
+
+# 国国は「Ndebele (Zimbabwe) マタベレ語」
+# ニッポニカ「ジンバブエ」の項に「ヌデベレ語」
+# CLDR訳は「北ンデベレ語」
+#. name for nde, nd
+msgid "Ndebele, North; North Ndebele"
+msgstr "マタベレ語, 北; 北ヌデベレ語"
+
+# ナミビア
+# ヌドンガ語とも
+# クワニャマ語、ンバラヌ語らと同様、オヴァンボ諸語の1つ
+#. name for ndo, ng
+msgid "Ndonga"
+msgstr "ンドンガ語"
+
+# ニッポニカ「ドイツ語」の項に
+# 「『低地ドイツ語』NiederdeutcshまたはPlattdeutcsh」
+#. name for nds
+msgid "Low German; Low Saxon; German, Low; Saxon, Low"
+msgstr "低地ドイツ語; 低地サクソン語; ドイツ語, 低地; サクソン, 低地"
+
+# 国国
+#. name for nep, ne
+msgid "Nepali"
+msgstr "ネパール語"
+
+#. name for new
+msgid "Nepal Bhasa; Newari"
+msgstr ""
+
+# インドネシア西部スマトラ島西岸北部沖合いニアス島
+#. name for nia
+msgid "Nias"
+msgstr "ニアス語"
+
+# 国国
+# アフリカ中央部
+#. name for nic
+#, fuzzy
+msgid "Niger-Kordofanian languages"
+msgstr "ニジェール・コルドファン諸語 (その他)"
+
+# 国国
+# ニウエ語とも
+#. name for niu
+msgid "Niuean"
+msgstr "ニウーエイ語"
+
+# ニッポニカ「ノルウェー語」の項に「新ノルウェー語 nynorsk」
+# Landsmaal, NEW NORSEとも
+# ニューノシュク〜とも
+#. name for nno, nn
+msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
+msgstr "ニーノシュク・ノルウェー語; ノルウェー語, ニーノシュク"
+
+#. name for nob, nb
+msgid "Bokmål, Norwegian; Norwegian Bokmål"
+msgstr ""
+
+# ニッポニカ「ノガイ語」の項
+#. name for nog
+msgid "Nogai"
+msgstr "ノガイ語"
+
+# 国国
+# CLDR訳は「古ノルド語」
+#. name for non
+msgid "Norse, Old"
+msgstr "スカンジナビア語, 古期"
+
+# 国国
+#. name for nor, no
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+# http://www.wdic.org/w/WDIC/ISO%20639
+#. name for nqo
+msgid "N'Ko"
+msgstr "ンコ語"
+
+#. name for nso
+msgid "Pedi; Sepedi; Northern Sotho"
+msgstr ""
+
+# 国国は「Nubian languages ヌバ語」
+# スーダン
+# Ethnologueはさらに11種に分類
+# CLDR訳は「ヌビア語族」
+#. name for nub
+msgid "Nubian languages"
+msgstr "ヌバ語族"
+
+# 国国に「Newari (ネワール語)」(new参照)
+#. name for nwc
+msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
+msgstr "古典ネワール語; 古期ネワール語; Classical Nepal Bhasa"
+
+# 国国は「Nyanja ニャンジャ語」
+# マラウイ
+#. name for nya, ny
+msgid "Chichewa; Chewa; Nyanja"
+msgstr "チチェワ語; チェワ語; ニャンジャ語"
+
+# 国国
+# CLDR訳は「ニャムウェジ語」
+#. name for nym
+msgid "Nyamwezi"
+msgstr "ムエジ語"
+
+# CLDR訳
+# ウガンダ
+# ニャンコール語、ニャンコーレ語とも
+# 綴りはNYAKOREとも
+#. name for nyn
+msgid "Nyankole"
+msgstr "ニャンコレ語"
+
+# ウガンダ西部バンツー系ニョロ族
+#. name for nyo
+msgid "Nyoro"
+msgstr "ニョロ語"
+
+# ガーナ
+# 仏綴りはnzema
+# ンジマ語とも?
+#. name for nzi
+msgid "Nzima"
+msgstr "ンゼマ語"
+
+#. name for oci, oc
+#, fuzzy
+msgid "Occitan (post 1500)"
+msgstr "オック語 (1500以後); プロバンス語"
+
+# 国国
+# 北米インディアン
+# CLDR訳は「オ《ブ》《ジ》ワ〜」だが、おそらく誤訳
+#. name for oji, oj
+msgid "Ojibwa"
+msgstr "オジブワ語"
+
+# 国国
+#. name for ori, or
+msgid "Oriya"
+msgstr "オリヤー語"
+
+#. name for orm, om
+msgid "Oromo"
+msgstr "オロモ語"
+
+# 国国
+# 北米インディアン
+# CLDR訳は「オセージ語」
+#. name for osa
+msgid "Osage"
+msgstr "オーセージ語"
+
+# Ethnologueは「Ossetin」
+# KDE訳、CLDR訳は「オセット語」
+# 広辞苑「イラン語」の項に「オセット語」
+# マイペディア「オセット語」の項
+# だが、素朴に読めば「オッセト」になるような
+#. name for oss, os
+msgid "Ossetian; Ossetic"
+msgstr "オセト語; オセット語"
+
+# 国国
+#. name for ota
+msgid "Turkish, Ottoman (1500-1928)"
+msgstr "トルコ語, オスマン (1500-1928)"
+
+# 国国
+# メキシコ
+# 中米インディアン
+#. name for oto
+msgid "Otomian languages"
+msgstr "オトミ語族"
+
+# 国国
+# 中米
+#. name for paa
+#, fuzzy
+msgid "Papuan languages"
+msgstr "マヤ語族"
+
+# 国国
+# CLDR訳は「パンガシナン語」
+#. name for pag
+msgid "Pangasinan"
+msgstr "パンガシナーン語"
+
+# 国国
+# CLDR訳は「パフラヴィ語」
+#. name for pal
+msgid "Pahlavi"
+msgstr "パーラヴィー語"
+
+#. name for pam
+msgid "Pampanga; Kapampangan"
+msgstr ""
+
+# 国国
+#. name for pan, pa
+msgid "Panjabi; Punjabi"
+msgstr "パンジャブ語; Punjabi"
+
+# 国国
+#. name for pap
+msgid "Papiamento"
+msgstr "パピアメント語"
+
+# 国国
+# ミクロネシア連邦ベラウ(パラオ)
+#. name for pau
+msgid "Palauan"
+msgstr "パラオ語"
+
+# 国国は「古代〜ャ語」
+#. name for peo
+msgid "Persian, Old (ca. 600-400 B.C.)"
+msgstr "ペルシア語, 古代 (紀元前約 600-400)"
+
+# 国国は「〜ャ語」
+# 広辞苑「ペルシア語」の項
+#. name for fas, fa
+msgid "Persian"
+msgstr "ペルシア語"
+
+# 国国
+#. name for phi
+#, fuzzy
+msgid "Philippine languages"
+msgstr "多言語"
+
+# 「Punic ポエニ語」とも
+#. name for phn
+msgid "Phoenician"
+msgstr "フェニキア語"
+
+# 国国
+# 「巴利語」とも
+#. name for pli, pi
+msgid "Pali"
+msgstr "パーリ語"
+
+# 国国
+#. name for pol, pl
+msgid "Polish"
+msgstr "ポーランド語"
+
+# CLDR訳
+# ミクロネシア連邦ポーンペイ(ポナペ)島
+# ニッポニカ「ポナペ島」の項に「ポーンペイ Pohnpei 島」「ポナペ語」
+#. name for pon
+msgid "Pohnpeian"
+msgstr "ポンペイ語"
+
+# 国国
+#. name for por, pt
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+# 国国は「〜諸語」
+# 中世インド語の総称
+# 広辞苑「プラークリット (Prakrit)」の項
+#. name for pra
+msgid "Prakrit languages"
+msgstr "プラークリット語族"
+
+# 国国
+# CLDR訳は「古期プロバンス語」
+#. name for pro
+#, fuzzy
+msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
+msgstr "プロヴァンス語, 古期 (-1500)"
+
+# 国国
+# KDE訳は「パシュトゥ語」
+# 広辞苑「パシュト語 (Pashto)」の項
+# ニッポニカ「パシュトー語」の項
+# CLDR訳は「パシュトゥー語」
+#. name for pus, ps
+#, fuzzy
+msgid "Pushto; Pashto"
+msgstr "プシュトゥー語"
+
+#. name for qaa-qtz
+msgid "Reserved for local use"
+msgstr "局所利用のため予約"
+
+# 国国
+# KDE訳、CLDR訳は「ケチュア語」
+# マイペディア「ケチュア語」の項
+# 広辞苑、ニッポニカ「ケチュア族 (Quechua)」の項
+#. name for que, qu
+msgid "Quechua"
+msgstr "キチュワ語"
+
+# 国国
+# ニッポニカ「ラージャスタン Rajasthan」の項
+# CLDR訳は「ラージャスターン語」
+#. name for raj
+msgid "Rajasthani"
+msgstr "ラージャスターニー語"
+
+# 国国
+# マイペディア「イースター島」の項に「ラパ・ニュイ Rapa Nui 島」
+# ニッポニカ「ラパヌイ島 Isla de Rapa Nui」の項
+# CLDR訳は「ラパヌイ語」
+#. name for rap
+msgid "Rapanui"
+msgstr "ラパヌーイ語"
+
+#. name for rar
+#, fuzzy
+msgid "Rarotongan; Cook Islands Maori"
+msgstr "ラロトンガ語; クック島マオリ語"
+
+# 国国
+# メキシコ
+# 中米インディアン
+#. name for roa
+#, fuzzy
+msgid "Romance languages"
+msgstr "オトミ語族"
+
+# 国国
+# ニッポニカ「ジプシー」の項に「Romany」「ロマニー語」
+# CLDR訳は「ロマーニー語」
+# ジプシー語の総称
+#. name for roh, rm
+msgid "Romansh"
+msgstr "ロマンシュ語"
+
+# 国国
+# ニッポニカ「ジプシー」の項に「Romany」「ロマニー語」
+# CLDR訳は「ロマーニー語」
+# ジプシー語の総称
+#. name for rom
+msgid "Romany"
+msgstr "ロマニ語"
+
+# 国国
+#. name for ron, ro
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+# 国国
+# コンゴ、ザイール
+# ニッポニカ「ブルンジ」の項に「ルンジ語」
+# ランディ語とも
+#. name for run, rn
+msgid "Rundi"
+msgstr "ルンディ語"
+
+# CLDR訳は「アルーマニア語」
+#. name for rup
+msgid "Aromanian; Arumanian; Macedo-Romanian"
+msgstr "Aromanian; アルーマニア語; マケド・ルーマニア語"
+
+# 国国
+#. name for rus, ru
+msgid "Russian"
+msgstr "ロシア語"
+
+# 国国
+#. name for sad
+msgid "Sandawe"
+msgstr "サンダウェ語"
+
+# 国国
+# 中央アフリカ共和国
+#. name for sag, sg
+msgid "Sango"
+msgstr "サンゴ語"
+
+# シベリアのヤクート自治共和国
+# チュルク (トルコ系) 諸言語の一
+# 広辞苑「ヤクート (Yakut)」の項に「ヤクート語」
+# ニッポニカ「ヤクート語」の項に「自称はサハсаха/saha」
+#. name for sah
+msgid "Yakut"
+msgstr "ヤクート語"
+
+# 国国
+#. name for sai
+#, fuzzy
+msgid "South American Indian languages"
+msgstr "南米インディアン諸語 (その他)"
+
+# 国国
+# CLDR訳は「セイリッシュ語族」
+# 北米インディアン。セーリッシ〜とも
+#. name for sal
+msgid "Salishan languages"
+msgstr "サリシュ語族"
+
+# 国国
+# CLDR訳は「サマリア・アラム語」
+#. name for sam
+msgid "Samaritan Aramaic"
+msgstr "サマリア語"
+
+# 国国
+# KDE訳は「サンスクリット」
+# ニッポニカ「サンスクリット語 Samskrit」の項 (欧字のつづりはママ)
+#. name for san, sa
+msgid "Sanskrit"
+msgstr "梵語"
+
+# 国国
+#. name for sas
+msgid "Sasak"
+msgstr "ササク語"
+
+# 国国
+#. name for sat
+msgid "Santali"
+msgstr "サンターリー語"
+
+#. name for scn
+msgid "Sicilian"
+msgstr "シチリア語"
+
+# 国国
+#. name for sco
+msgid "Scots"
+msgstr "スコットランド語"
+
+# 国国
+#. name for sel
+msgid "Selkup"
+msgstr "セリクプ語"
+
+# 中国、ベトナム、カンボジア
+#. name for sem
+#, fuzzy
+msgid "Semitic languages"
+msgstr "チャム語族"
+
+# CLDR訳は「古期アイルランド語」
+#. name for sga
+msgid "Irish, Old (to 900)"
+msgstr "アイルランド語, 古 (-900)"
+
+# 国国は「手まね言語」
+#. name for sgn
+msgid "Sign Languages"
+msgstr "手話語族"
+
+# 国国
+# ミャンマー・シャン州
+# ニッポニカ「シャン族 Shan」の項に「シャン語」
+#. name for shn
+msgid "Shan"
+msgstr "シャン語"
+
+# エチオピア
+#. name for sid
+msgid "Sidamo"
+msgstr "シダモ語"
+
+# 国国
+# USMARCは-SNH
+# 広辞苑「シンハラ語 (Singhalese)」の項
+#. name for sin, si
+msgid "Sinhala; Sinhalese"
+msgstr "シンハラ語; シンハリーズ語"
+
+# 国国
+# 北米
+# ニッポニカ「スー族」→「ダコタ族」の項に「スー(シュー)族 Sioux」「スー語」
+#. name for sio
+msgid "Siouan languages"
+msgstr "スー語族"
+
+# 国国
+# 北米
+# ニッポニカ「スー族」→「ダコタ族」の項に「スー(シュー)族 Sioux」「スー語」
+#. name for sit
+#, fuzzy
+msgid "Sino-Tibetan languages"
+msgstr "スー語族"
+
+# 中国、ベトナム、カンボジア
+#. name for sla
+#, fuzzy
+msgid "Slavic languages"
+msgstr "チャム語族"
+
+# 国国
+# KDE訳、CLDR訳は「スロバキア語」
+# マイペディア、ニッポニカ「スロバキア語」の項
+#. name for slk, sk
+msgid "Slovak"
+msgstr "スロヴァキア語"
+
+# 国国
+# KDE訳は「スロベニア語」
+# マイペディア、ニッポニカ「スロベニア語」
+# CLDR訳は「スロベニア語」
+#. name for slv, sl
+msgid "Slovenian"
+msgstr "スロヴェニア語"
+
+#. name for sma
+msgid "Southern Sami"
+msgstr "南サーミ語"
+
+# ノルウェー
+# SAAMI, NORTHERNとも
+#. name for sme, se
+msgid "Northern Sami"
+msgstr "北サーミ語"
+
+# 中国、ベトナム、カンボジア
+#. name for smi
+#, fuzzy
+msgid "Sami languages"
+msgstr "チャム語族"
+
+#. name for smj
+msgid "Lule Sami"
+msgstr "ルレ・サーミ語"
+
+# ニッポニカ「イナリ湖 Inarij\:arvi」の項
+#. name for smn
+msgid "Inari Sami"
+msgstr "イナリ・サーミ語"
+
+# 国国
+# USMARCは-SAO
+#. name for smo, sm
+msgid "Samoan"
+msgstr "サモア語"
+
+#. name for sms
+msgid "Skolt Sami"
+msgstr "スコルト・サーミ語"
+
+# 国国
+# USMARCは-SHO
+#. name for sna, sn
+msgid "Shona"
+msgstr "ショナ語"
+
+# 国国
+# KDE訳は「シンド語」
+# ニッポニカ「シンド人 (Sind)」の項に「シンド語」
+#. name for snd, sd
+msgid "Sindhi"
+msgstr "シンディー語"
+
+# 国国
+#. name for snk
+msgid "Soninke"
+msgstr "ソニンケ語"
+
+# 国国
+#. name for sog
+msgid "Sogdian"
+msgstr "ソグド語"
+
+# 国国
+#. name for som, so
+msgid "Somali"
+msgstr "ソマリ語"
+
+# 中国、ベトナム、カンボジア
+#. name for son
+msgid "Songhai languages"
+msgstr "ソンガイ語族"
+
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+# CLDR訳は「南部ソト語」
+#. name for sot, st
+msgid "Sotho, Southern"
+msgstr "ソト語, 南"
+
+# 国国
+#. name for spa, es
+msgid "Spanish; Castilian"
+msgstr "スペイン語; Castilian"
+
+# イタリア
+#. name for srd, sc
+msgid "Sardinian"
+msgstr "サルデーニャ語"
+
+# CLDR訳
+# http://www.wdic.org/w/WDIC/ISO%20639
+#. name for srn
+msgid "Sranan Tongo"
+msgstr "スリナム語"
+
+# 国国は「Serbo-Croatian (Cyrillic) セルボ・クロアチア語 (キリル文字)」
+# loc.govでは、「ISO 15924があるので、文字の違いでは、
+# 別の言語コードを割り当てない」としている
+#. name for srp, sr
+msgid "Serbian"
+msgstr "セルビア語"
+
+# CLDR訳
+# セネガル
+# 「Serer-Nono セレール・ノノ語」、「Serer-Sin セレール・シン語」がある
+# ニッポニカ「セネガル」の項に「セレル族」
+# セレール語とも
+#. name for srr
+msgid "Serer"
+msgstr "セレル語"
+
+# 国国
+# CLDR訳は「セイリッシュ語族」
+# 北米インディアン。セーリッシ〜とも
+#. name for ssa
+#, fuzzy
+msgid "Nilo-Saharan languages"
+msgstr "サリシュ語族"
+
+# スワジランド王国
+# KDE訳は「スワート語」
+# ニッポニカ「スワジランド Swaziland」の項に「スワジ語」
+# スワティ語とも
+#. name for ssw, ss
+msgid "Swati"
+msgstr "シスワティ語"
+
+# タンザニア
+# ニッポニカ「タンザニア」の項に「スクマ族」
+#. name for suk
+msgid "Sukuma"
+msgstr "スクマ語"
+
+# 国国
+# スーダン語とも
+# インドネシア、ジャワ島西部のスンダ族 (Sunda) の「スンダ語」は別
+#. name for sun, su
+msgid "Sundanese"
+msgstr "スンダ語"
+
+# 国国
+#. name for sus
+msgid "Susu"
+msgstr "スス語"
+
+# 国国
+#. name for sux
+msgid "Sumerian"
+msgstr "シュメール語"
+
+# 国国
+#. name for swa, sw
+msgid "Swahili"
+msgstr "スワヒリ語"
+
+# 国国
+#. name for swe, sv
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#. name for syc
+msgid "Classical Syriac"
+msgstr "古代シリア語"
+
+# 国国
+#. name for syr
+msgid "Syriac"
+msgstr "シリア語"
+
+# 国国
+# KDE訳は「タヒティ語」
+#. name for tah, ty
+msgid "Tahitian"
+msgstr "タヒチ語"
+
+# ブラジル
+# 南米インディアン
+#. name for tai
+#, fuzzy
+msgid "Tai languages"
+msgstr "トゥピ語族"
+
+# 国国
+# KDE訳、CLDR訳は「タミール語」
+#. name for tam, ta
+msgid "Tamil"
+msgstr "タミル語"
+
+# 国国
+# USMARCは-TAR
+#. name for tat, tt
+msgid "Tatar"
+msgstr "タタール語"
+
+# 国国
+#. name for tel, te
+msgid "Telugu"
+msgstr "テルグ語"
+
+# シエラレオネ
+# Temne, Timne, Timene, Timmannee, Temenとも
+# ニッポニカ「シエラレオネ」の項に「テムネ族」
+# 「Temne テムヌ語」とも
+#. name for tem
+msgid "Timne"
+msgstr "テムネ語"
+
+# ブラジル
+# ETELENAとも (!=ETERENA)
+# テレナ語とも
+#. name for ter
+msgid "Tereno"
+msgstr "テレーノ語"
+
+# インドネシア(Nusa Tenggra)
+# テトゥム語とも
+#. name for tet
+msgid "Tetum"
+msgstr "テトゥン語"
+
+# 国国
+# USMARCは-TAJ
+#. name for tgk, tg
+msgid "Tajik"
+msgstr "タジク語"
+
+# 国国
+# →フィリピノ語
+# USMARCは-TAG
+#. name for tgl, tl
+msgid "Tagalog"
+msgstr "タガログ語"
+
+# 国国
+#. name for tha, th
+msgid "Thai"
+msgstr "タイ語"
+
+# 国国
+#. name for bod, bo
+msgid "Tibetan"
+msgstr "チベット語"
+
+# 国国
+#. name for tig
+msgid "Tigre"
+msgstr "ティグレ語"
+
+# 国国
+# KDE訳は「ティグリニャ語」
+# エリトリア
+#. name for tir, ti
+msgid "Tigrinya"
+msgstr "ティグリニア語"
+
+# 国国は「Tivi」
+# ナイジェリア
+# Munshiとも
+#. name for tiv
+msgid "Tiv"
+msgstr "ティブ語"
+
+# 国国, Ethnologueは「Tokelauan」
+# トケラウ
+#. name for tkl
+msgid "Tokelau"
+msgstr "トケラウ語"
+
+#. name for tlh
+msgid "Klingon; tlhIngan-Hol"
+msgstr "クリンゴン語; tlhIngan-Hol"
+
+# Thlinget, Tlinkitとも
+#. name for tli
+msgid "Tlingit"
+msgstr "トリンギット語"
+
+# 国国
+#. name for tmh
+msgid "Tamashek"
+msgstr "タマシェク語"
+
+# 国国
+# マラウイ共和国ニヤサ湖
+#. name for tog
+msgid "Tonga (Nyasa)"
+msgstr "トンガ語 (ニアサ)"
+
+# 国国
+# 南太平洋のトンガ王国
+# EthnologueはTongan
+#. name for ton, to
+msgid "Tonga (Tonga Islands)"
+msgstr "トンガ語 (トンガ諸島)"
+
+# CLDR訳
+# メラネシア
+# トック・ピジン語、トック〜語とも
+#. name for tpi
+msgid "Tok Pisin"
+msgstr "トク・ピシン語"
+
+# 国国
+# チムシャ語、ツィムシ語、ツィムシュ語とも
+#. name for tsi
+msgid "Tsimshian"
+msgstr "チムシュ語"
+
+# 国国
+# USMARCは-TSW
+#. name for tsn, tn
+msgid "Tswana"
+msgstr "ツワナ語"
+
+# モザンビーク、南アフリカ
+# ツソンガ語とも
+#. name for tso, ts
+msgid "Tsonga"
+msgstr "ツォンガ語"
+
+# 国国
+# KDE訳は「トルクメン語」「トルクメニスタン語」
+# CLDR訳は「トルクメン語」
+#. name for tuk, tk
+msgid "Turkmen"
+msgstr "トゥルクメン語"
+
+# CLDR訳
+# ザンビア、マラウイ
+# タンブカ語とも
+#. name for tum
+msgid "Tumbuka"
+msgstr "トゥンブカ語"
+
+# ブラジル
+# 南米インディアン
+#. name for tup
+msgid "Tupi languages"
+msgstr "トゥピ語族"
+
+# 国国
+#. name for tur, tr
+msgid "Turkish"
+msgstr "トルコ語"
+
+# 国国
+# 北米
+#. name for tut
+#, fuzzy
+msgid "Altaic languages"
+msgstr "アパッチ語族"
+
+# 国国
+#. name for tvl
+msgid "Tuvalu"
+msgstr "ツバル語"
+
+# 国国
+# ガーナ
+#. name for twi, tw
+msgid "Twi"
+msgstr "トウィ語"
+
+# ロシア
+# CLDR訳
+# ツバニア語とも
+#. name for tyv
+msgid "Tuvinian"
+msgstr "トゥヴァ語"
+
+# マイペディア「ウドムルト語」の項
+#. name for udm
+msgid "Udmurt"
+msgstr "ウドムルト語"
+
+# 国国
+# CLDR訳は「ウガリト語」
+#. name for uga
+msgid "Ugaritic"
+msgstr "ウガリット語"
+
+# 国国
+#. name for uig, ug
+msgid "Uighur; Uyghur"
+msgstr "ウイグル語; Uyghur"
+
+# 国国
+#. name for ukr, uk
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+# 国国
+# CLDR訳は「ウンブンドゥ語」
+# 「KMB」参照
+#. name for umb
+msgid "Umbundu"
+msgstr "アンブンドゥ語"
+
+# 国国
+#. name for und
+msgid "Undetermined"
+msgstr "言語名不明"
+
+# 国国
+#. name for urd, ur
+msgid "Urdu"
+msgstr "ウルドゥー語"
+
+# 国国
+#. name for uzb, uz
+msgid "Uzbek"
+msgstr "ウズベク語"
+
+# 国国
+#. name for vai
+msgid "Vai"
+msgstr "ヴァイ語"
+
+# 国国
+# KDE訳は「ヴェンダ語」
+# 南アフリカ共和国北部
+#. name for ven, ve
+msgid "Venda"
+msgstr "ベンダ語"
+
+# 国国
+# アンナン (安南) 語とも
+#. name for vie, vi
+msgid "Vietnamese"
+msgstr "ベトナム語"
+
+# KDE訳は「ヴォラピューク語」
+# 広辞苑「ヴォラピューク」の項
+# ニッポニカ「ヴォラピューク語」の項
+# ヴォラピュック語とも
+# CLDR訳は「ボラピュク語」
+# Johann Martin Schleyer考案の計画語
+#. name for vol, vo
+msgid "Volapük"
+msgstr "ボラピューク語"
+
+# 国国
+# CLDR訳は「ボート語」
+# レニングラード州西部
+#. name for vot
+msgid "Votic"
+msgstr "ヴォート語"
+
+# 国国
+# 北・中央米インディアン
+#. name for wak
+msgid "Wakashan languages"
+msgstr "ワカシ語族"
+
+#. name for wal
+msgid "Wolaitta; Wolaytta"
+msgstr ""
+
+# フィリピン(の4.6%)
+# WARAY-WARAY, Binisayaとも
+# ビサヤ族の一部のワライ族
+#. name for war
+msgid "Waray"
+msgstr "ワライ語"
+
+# 北米インデアン、ワショー族
+# 「WASHOE ワショー語」とも
+#. name for was
+msgid "Washo"
+msgstr "ワショ語"
+
+# 国国
+#. name for cym, cy
+msgid "Welsh"
+msgstr "ウェールズ語"
+
+# 国国
+# ドイツ
+#. name for wen
+msgid "Sorbian languages"
+msgstr "ソルビア語族"
+
+# ニッポニカ「ワロン人 Wallonese」の項、「ベルギー」の項に「ワロン語」
+#. name for wln, wa
+msgid "Walloon"
+msgstr "ワロン語"
+
+# 国国
+# セネガル共和国
+#. name for wol, wo
+msgid "Wolof"
+msgstr "ウォロフ語"
+
+# マイペディアに「カルムイク」「オイラート」の項
+# CLDR訳は「カルムイク語」
+# カルムク語、オイラトとも
+#. name for xal
+msgid "Kalmyk; Oirat"
+msgstr "カルミック語; オイラート語"
+
+# 国国
+# CLDR訳は「コサ語」
+# コーサ語とも
+#. name for xho, xh
+msgid "Xhosa"
+msgstr "ホサ語"
+
+# 国国
+# マラウイ、モザンビーク、タンザニア、ザンビア
+# 瑶 (ヤオ) 語は、おそらくSILのIu Mienで、別言語
+#. name for yao
+msgid "Yao"
+msgstr "ヤオ語"
+
+# 国国は「Yap」
+# ヤップ島、カロリン諸島
+# SILはYPS
+#. name for yap
+msgid "Yapese"
+msgstr "ヤップ語"
+
+# 国国
+#. name for yid, yi
+msgid "Yiddish"
+msgstr "イディッシュ語"
+
+# 国国
+#. name for yor, yo
+msgid "Yoruba"
+msgstr "ヨルバ語"
+
+# アラスカからシベリア
+#. name for ypk
+msgid "Yupik languages"
+msgstr "ユピック語族"
+
+# 国国
+#. name for zap
+msgid "Zapotec"
+msgstr "ザポテック語"
+
+#. name for zbl
+msgid "Blissymbols; Blissymbolics; Bliss"
+msgstr ""
+
+# 鳥海訳
+# モーリタニア
+#. name for zen
+msgid "Zenaga"
+msgstr "ゼナガ語"
+
+# KDE訳は「荘」
+# 広西チワン (壮) 族自治区
+# 南北2種類ありCCY、CCXのコードも
+# ニッポニカ「チワン族〔壮族〕 Chuang」の項
+#. name for zha, za
+msgid "Zhuang; Chuang"
+msgstr "チュワン語; チワン語"
+
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
+#. name for znd
+msgid "Zande languages"
+msgstr "ザンデ語族"
+
+# 国国
+#. name for zul, zu
+msgid "Zulu"
+msgstr "ズールー語"
+
+# 国国
+# 北米インディアン
+#. name for zun
+msgid "Zuni"
+msgstr "ズニ語"
+
+#. name for zxx
+#, fuzzy
+msgid "No linguistic content; Not applicable"
+msgstr "言語的内容なし"
+
+# クルド
+#. name for zza
+msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
+msgstr "ザザ語; ディミリ語; Dimli; Kirdki; Kirmanjki; Zazaki"
