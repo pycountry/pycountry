@@ -4,7 +4,9 @@ Changes
 0.13 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Applied patch from Pedro Araujo which removes the somewhat superfluous
+  dependency on lxml to the builtin minidom. This seems to consistently turn
+  all strings into unicode even if they only contain ASCII characters.
 
 
 0.12.1 (2010-04-21)

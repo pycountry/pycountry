@@ -63,7 +63,7 @@ class Subdivision(pycountry.db.Data):
 
     def __init__(self, element, **kw):
         super(Subdivision, self).__init__(element, **kw)
-        self.type = element.getparent().get('type')
+        self.type = element.parentNode.attributes.get('type').value
         self.country_code = self.code.split('-')[0]
         if self.parent_code is not None:
             self.parent_code = '%s-%s' % (self.country_code, self.parent_code)
