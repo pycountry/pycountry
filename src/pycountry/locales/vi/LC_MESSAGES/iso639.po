@@ -1,0 +1,1969 @@
+# Vietnamese translation for iso_639.
+# Copyright © 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_639 3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"PO-Revision-Date: 2009-05-12 23:36+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
+
+#. name for aar, aa
+msgid "Afar"
+msgstr "Tiếng A-pha"
+
+#. name for abk, ab
+msgid "Abkhazian"
+msgstr "Tiếng Ap-kha-xi-a"
+
+#. name for ace
+msgid "Achinese"
+msgstr "Tiếng A-chinh"
+
+#. name for ach
+msgid "Acoli"
+msgstr "Tiếng A-co-li"
+
+#. name for ada
+msgid "Adangme"
+msgstr "Tiếng A-đang-me"
+
+#. name for ady
+msgid "Adyghe; Adygei"
+msgstr "Tiếng A-đy-gei"
+
+#. name for afa
+msgid "Afro-Asiatic languages"
+msgstr "Hệ ngôn ngữ Châu Phi-Á"
+
+#. name for afh
+msgid "Afrihili"
+msgstr "Tiếng A-phợ-ri-hi-li"
+
+#. name for afr, af
+msgid "Afrikaans"
+msgstr "Tiếng Hoà Lan Nam Phi"
+
+#. name for ain
+msgid "Ainu"
+msgstr "Tiếng Ai-nu"
+
+#. name for aka, ak
+msgid "Akan"
+msgstr "Tiếng A-can"
+
+#. name for akk
+msgid "Akkadian"
+msgstr "Tiếng A-ca-đi"
+
+#. name for sqi, sq
+msgid "Albanian"
+msgstr "Tiếng An-ba-ni"
+
+#. name for ale
+msgid "Aleut"
+msgstr "Tiếng A-le-uth"
+
+#. name for alg
+msgid "Algonquian languages"
+msgstr "Hệ ngôn ngữ Át-gon-cu-in"
+
+#. name for alt
+msgid "Southern Altai"
+msgstr "Tiếng Nam An-tai"
+
+#. name for amh, am
+msgid "Amharic"
+msgstr "Tiếng Am-ha-ri"
+
+#. name for ang
+msgid "English, Old (ca. 450-1100)"
+msgstr "Tiếng Anh cũ (khoảng năm 450-1100)"
+
+#. name for anp
+msgid "Angika"
+msgstr "Tiếng An-gi-ca"
+
+#. name for apa
+msgid "Apache languages"
+msgstr "Hệ ngôn ngữ A-pa-chi"
+
+#. name for ara, ar
+msgid "Arabic"
+msgstr "Tiếng A Rập"
+
+#. name for arc
+msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
+msgstr "Xi-ri cũ chính thức (700-300 BCE); Xi-ri cũ hoàng đế (700-300 BCE)"
+
+#. name for arg, an
+msgid "Aragonese"
+msgstr "Tiếng A-ra-gon"
+
+#. name for hye, hy
+msgid "Armenian"
+msgstr "Tiếng Ác-mê-ni"
+
+#. name for arn
+msgid "Mapudungun; Mapuche"
+msgstr "Tiếng Mapudungun; Mapuche"
+
+#. name for arp
+msgid "Arapaho"
+msgstr "Tiếng A-ra-pa-hô"
+
+#. name for art
+msgid "Artificial languages"
+msgstr "Hệ ngôn ngữ nhân tạo"
+
+#. name for arw
+msgid "Arawak"
+msgstr "Tiếng A-ra-ouac"
+
+#. name for asm, as
+msgid "Assamese"
+msgstr "Tiếng A-xam"
+
+#. name for ast
+msgid "Asturian; Bable; Leonese; Asturleonese"
+msgstr "Tiếng Ax-tu-ri"
+
+#. name for ath
+msgid "Athapascan languages"
+msgstr "Hệ ngôn ngữ A-ta-pax-ca"
+
+#. name for aus
+msgid "Australian languages"
+msgstr "Hệ ngôn ngữ Úc"
+
+#. name for ava, av
+msgid "Avaric"
+msgstr "Tiếng A-va-ric"
+
+#. name for ave, ae
+msgid "Avestan"
+msgstr "Tiếng A-ve-x-tanh"
+
+#. name for awa
+msgid "Awadhi"
+msgstr "Tiếng A-oua-đi"
+
+#. name for aym, ay
+msgid "Aymara"
+msgstr "Tiếng Ai-ma-ra"
+
+#. name for aze, az
+msgid "Azerbaijani"
+msgstr "Tiếng A-xợ-bai-gianh"
+
+#. name for bad
+msgid "Banda languages"
+msgstr "Hệ ngôn ngữ Ban-đa"
+
+#. name for bai
+msgid "Bamileke languages"
+msgstr "Hệ ngôn ngữ như Ba-mi-le-ke"
+
+#. name for bak, ba
+msgid "Bashkir"
+msgstr "Tiếng Ba-x-kia"
+
+#. name for bal
+msgid "Baluchi"
+msgstr "Tiếng Ba-lu-khi"
+
+#. name for bam, bm
+msgid "Bambara"
+msgstr "Tiếng Bam-ba-ra"
+
+#. name for ban
+msgid "Balinese"
+msgstr "Tiếng Ba-li"
+
+#. name for eus, eu
+msgid "Basque"
+msgstr "Tiếng Baxcơ"
+
+#. name for bas
+msgid "Basa"
+msgstr "Tiếng Ba-xa"
+
+#. name for bat
+msgid "Baltic languages"
+msgstr "Hệ ngôn ngữ Ban-tích"
+
+#. name for bej
+msgid "Beja; Bedawiyet"
+msgstr "Beja; Bedawiyet"
+
+#. name for bel, be
+msgid "Belarusian"
+msgstr "Tiếng Be-la-ruxợ"
+
+#. name for bem
+msgid "Bemba"
+msgstr "Tiếng Bem-ba"
+
+#. name for ben, bn
+msgid "Bengali"
+msgstr "Tiếng Băng Gan"
+
+#. name for ber
+msgid "Berber languages"
+msgstr "Hệ ngôn ngữ Ber-ber"
+
+#. name for bho
+msgid "Bhojpuri"
+msgstr "Tiếng Bo-giơ-pu-ri"
+
+#. name for bih, bh
+#, fuzzy
+msgid "Bihari languages"
+msgstr "Hệ ngôn ngữ Tai"
+
+#. name for bik
+msgid "Bikol"
+msgstr "Tiếng Bi-con"
+
+#. name for bin
+msgid "Bini; Edo"
+msgstr "Tiếng Bi-ni; Eđô"
+
+#. name for bis, bi
+msgid "Bislama"
+msgstr "Tiếng Bix-la-ma"
+
+#. name for bla
+msgid "Siksika"
+msgstr "Tiếng Xich-xich-a"
+
+#. name for bnt
+msgid "Bantu languages"
+msgstr "Hệ ngôn ngữ Ban-tu"
+
+#. name for bos, bs
+msgid "Bosnian"
+msgstr "Tiếng Bô-xni-a"
+
+#. name for bra
+msgid "Braj"
+msgstr "Tiếng Boua-giợ"
+
+#. name for bre, br
+msgid "Breton"
+msgstr "Tiếng Boue-ton (Pháp)"
+
+#. name for btk
+msgid "Batak languages"
+msgstr "Những ngôn ngữ Ba-tác"
+
+#. name for bua
+msgid "Buriat"
+msgstr "Tiếng Bu-ri-at"
+
+#. name for bug
+msgid "Buginese"
+msgstr "Tiếng Bu-gin"
+
+#. name for bul, bg
+msgid "Bulgarian"
+msgstr "Tiếng Bảo Gai Lơi"
+
+#. name for mya, my
+msgid "Burmese"
+msgstr "Tiếng Miến Điện"
+
+#. name for byn
+msgid "Blin; Bilin"
+msgstr "Tiếng Bi-lin"
+
+#. name for cad
+msgid "Caddo"
+msgstr "Tiếng Ca-đô"
+
+#. name for cai
+msgid "Central American Indian languages"
+msgstr "Hệ ngôn ngữ Thổ Dân Vùng Trung Mỹ"
+
+#. name for car
+msgid "Galibi Carib"
+msgstr "Tiếng Galibi Carib"
+
+#. name for cat, ca
+msgid "Catalan; Valencian"
+msgstr "Tiếng Ca-ta-lan"
+
+#. name for cau
+msgid "Caucasian languages"
+msgstr "Hệ ngôn ngữ Cáp-ca"
+
+#. name for ceb
+msgid "Cebuano"
+msgstr "Tiếng Xe-bu-a-nô"
+
+#. name for cel
+msgid "Celtic languages"
+msgstr "Hệ ngôn ngữ Xen-tơ"
+
+#. name for cha, ch
+msgid "Chamorro"
+msgstr "Tiếng Cha-mo-ro"
+
+#. name for chb
+msgid "Chibcha"
+msgstr "Tiếng Chip-cha"
+
+#. name for che, ce
+msgid "Chechen"
+msgstr "Tiếng Che-chẹnh"
+
+#. name for chg
+msgid "Chagatai"
+msgstr "Tiếng Cha-ga-tai"
+
+#. name for zho, zh
+msgid "Chinese"
+msgstr "Tiếng Trung Quốc"
+
+#. name for chk
+msgid "Chuukese"
+msgstr "Tiếng Chu-ki"
+
+#. name for chm
+msgid "Mari"
+msgstr "Tiếng Ma-ri"
+
+#. name for chn
+msgid "Chinook jargon"
+msgstr "Biệt ngữ Chi-nukh"
+
+#. name for cho
+msgid "Choctaw"
+msgstr "Tiếng Chóc-toa"
+
+#. name for chp
+msgid "Chipewyan; Dene Suline"
+msgstr "Chipewyan; Dene Suline"
+
+#. name for chr
+msgid "Cherokee"
+msgstr "Tiếng Che-rô-ki"
+
+#. name for chu, cu
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr "Xla-vợ cũ"
+
+#. name for chv, cv
+msgid "Chuvash"
+msgstr "Tiếng Chu-vas"
+
+#. name for chy
+msgid "Cheyenne"
+msgstr "Tiếng Chê-ienh"
+
+#. name for cmc
+msgid "Chamic languages"
+msgstr "Hệ ngôn ngữ Cha-mic"
+
+#. name for cop
+msgid "Coptic"
+msgstr "Ngôn ngữ phổ biến trong Giáo hội Ai Cập"
+
+#. name for cor, kw
+msgid "Cornish"
+msgstr "Tiếng Khoanh-uoănh"
+
+#. name for cos, co
+msgid "Corsican"
+msgstr "Tiếng Coa-si-ca"
+
+#. name for cpe
+msgid "Creoles and pidgins, English based"
+msgstr "Ngôn ngữ pha và « bồi » dựa vào tiếng Anh"
+
+#. name for cpf
+msgid "Creoles and pidgins, French-based"
+msgstr "Ngôn ngữ pha và « bồi » dựa vào tiếng Pháp"
+
+#. name for cpp
+msgid "Creoles and pidgins, Portuguese-based"
+msgstr "Ngôn ngữ pha và « bồi » dựa vào tiếng Bồ Đào Nha"
+
+#. name for cre, cr
+msgid "Cree"
+msgstr "Tiếng Cợ-ri"
+
+#. name for crh
+msgid "Crimean Tatar; Crimean Turkish"
+msgstr "Tiếng Tác-ta thuộc Cợ-ri-me-a; tiếng Thổ Nhĩ Kỳ thuộc Cợ-ri-me-a"
+
+#. name for crp
+msgid "Creoles and pidgins"
+msgstr "Ngôn ngữ pha và « bồi »"
+
+#. name for csb
+msgid "Kashubian"
+msgstr "Tiếng Kha-su-bi"
+
+#. name for cus
+msgid "Cushitic languages"
+msgstr "Hệ ngôn ngữ Cu-shi"
+
+#. name for ces, cs
+msgid "Czech"
+msgstr "Tiếng Séc"
+
+#. name for dak
+msgid "Dakota"
+msgstr "Tiếng Đa-cô-ta"
+
+#. name for dan, da
+msgid "Danish"
+msgstr "Tiếng Đan Mạch"
+
+#. name for dar
+msgid "Dargwa"
+msgstr "Tiếng Đă-gouă"
+
+#. name for day
+msgid "Land Dayak languages"
+msgstr "Hệ ngôn ngữ Đay-ắc đất"
+
+#. name for del
+msgid "Delaware"
+msgstr "Tiếng Đe-la-oue"
+
+#. name for den
+msgid "Slave (Athapascan)"
+msgstr "Tiếng Xla-ve (A-ta-pa-x-ca)"
+
+#. name for dgr
+msgid "Dogrib"
+msgstr "Tiếng Đoc-rip"
+
+#. name for din
+msgid "Dinka"
+msgstr "Tiếng Đin-ca"
+
+#. name for div, dv
+msgid "Divehi; Dhivehi; Maldivian"
+msgstr "Tiếng Đi-ve-hi"
+
+#. name for doi
+msgid "Dogri"
+msgstr "Tiếng Đoc-ri"
+
+#. name for dra
+msgid "Dravidian languages"
+msgstr "Hệ ngôn ngữ Đơ-ra-vi-đi"
+
+#. name for dsb
+msgid "Lower Sorbian"
+msgstr "Tiếng Xoa-bi Bậc Thấp"
+
+#. name for dua
+msgid "Duala"
+msgstr "Tiếng Đu-a-la"
+
+#. name for dum
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr "Tiếng Hòa Lan, Trung (khoảng năm 1050-1350)"
+
+#. name for nld, nl
+msgid "Dutch; Flemish"
+msgstr "Tiếng Hoà Lan; Tiếng Ph-le-mi"
+
+#. name for dyu
+msgid "Dyula"
+msgstr "Tiếng Đi-u-la"
+
+#. name for dzo, dz
+msgid "Dzongkha"
+msgstr "Tiếng Đ-xong-kha"
+
+#. name for efi
+msgid "Efik"
+msgstr "Tiếng E-phic"
+
+#. name for egy
+msgid "Egyptian (Ancient)"
+msgstr "Tiếng Ai Cập (cổ)"
+
+#. name for eka
+msgid "Ekajuk"
+msgstr "Tiếng E-ca-giúc"
+
+#. name for elx
+msgid "Elamite"
+msgstr "Tiếng E-la-mi"
+
+#. name for eng, en
+msgid "English"
+msgstr "Tiếng Anh"
+
+#. name for enm
+msgid "English, Middle (1100-1500)"
+msgstr "Tiếng Anh, Trung (năm 1100-1500)"
+
+#. name for epo, eo
+msgid "Esperanto"
+msgstr "Tiếng E-x-pê-ran-tô"
+
+#. name for est, et
+msgid "Estonian"
+msgstr "Tiếng E-x-tô-ni-a"
+
+#. name for ewe, ee
+msgid "Ewe"
+msgstr "Tiếng E-oue"
+
+#. name for ewo
+msgid "Ewondo"
+msgstr "Tiếng E-ouon-đô"
+
+#. name for fan
+msgid "Fang"
+msgstr "Tiếng Phang"
+
+#. name for fao, fo
+msgid "Faroese"
+msgstr "Tiếng Pha-rô"
+
+#. name for fat
+msgid "Fanti"
+msgstr "Tiếng Phan-ti"
+
+#. name for fij, fj
+msgid "Fijian"
+msgstr "Tiếng Phi-gi"
+
+#. name for fil
+msgid "Filipino; Pilipino"
+msgstr "Tiếng Phi-li-pi-nô"
+
+#. name for fin, fi
+msgid "Finnish"
+msgstr "Tiếng Phần Lan"
+
+#. name for fiu
+msgid "Finno-Ugrian languages"
+msgstr "Hệ ngôn ngữ Phần Lan và Ug-ri"
+
+#. name for fon
+msgid "Fon"
+msgstr "Tiếng Phonh"
+
+#. name for fra, fr
+msgid "French"
+msgstr "Tiếng Pháp"
+
+#. name for frm
+msgid "French, Middle (ca. 1400-1600)"
+msgstr "Tiếng Pháp, Trung (khoảng năm 1400-1600)"
+
+#. name for fro
+msgid "French, Old (842-ca. 1400)"
+msgstr "Tiếng Pháp, Cũ (năm 842 - khoảng năm 1400)"
+
+#. name for frr
+msgid "Northern Frisian"
+msgstr "Tiếng Bắc Phợ-ri-xi"
+
+#. name for frs
+msgid "Eastern Frisian"
+msgstr "Tiếng Đông Phợ-ri-xi"
+
+#. name for fry, fy
+msgid "Western Frisian"
+msgstr "Tiếng Tây Phợ-ri-xi"
+
+#. name for ful, ff
+msgid "Fulah"
+msgstr "Tiếng Phu-la"
+
+#. name for fur
+msgid "Friulian"
+msgstr "Tiếng Phợ-riu-li"
+
+#. name for gaa
+msgid "Ga"
+msgstr "Tiếng Ga"
+
+#. name for gay
+msgid "Gayo"
+msgstr "Tiếng Gay-ô"
+
+#. name for gba
+msgid "Gbaya"
+msgstr "Tiếng G-bay-a"
+
+#. name for gem
+msgid "Germanic languages"
+msgstr "Hệ ngôn ngữ Đức"
+
+#. name for kat, ka
+msgid "Georgian"
+msgstr "Tiếng Gi-oa-gi-a"
+
+#. name for deu, de
+msgid "German"
+msgstr "Tiếng Đức"
+
+#. name for gez
+msgid "Geez"
+msgstr "Tiếng Gi-x"
+
+#. name for gil
+msgid "Gilbertese"
+msgstr "Tiếng Gil-bơt"
+
+#. name for gla, gd
+msgid "Gaelic; Scottish Gaelic"
+msgstr "Tiếng Xen-tơ, Ê-cốt"
+
+#. name for gle, ga
+msgid "Irish"
+msgstr "Tiếng Ái Nhĩ Lan"
+
+#. name for glg, gl
+msgid "Galician"
+msgstr "Tiếng Ga-li-xi"
+
+#. name for glv, gv
+msgid "Manx"
+msgstr "Tiếng Man-khơ-x"
+
+#. name for gmh
+msgid "German, Middle High (ca. 1050-1500)"
+msgstr "Tiếng Đức, Trung Cao (khoảng năm 1050-1500)"
+
+#. name for goh
+msgid "German, Old High (ca. 750-1050)"
+msgstr "Tiếng Đức, Cũ Cao (khoảng năm 750-1050)"
+
+#. name for gon
+msgid "Gondi"
+msgstr "Tiếng Gon-đi"
+
+#. name for gor
+msgid "Gorontalo"
+msgstr "Tiếng Go-ron-ta-lô"
+
+#. name for got
+msgid "Gothic"
+msgstr "Tiếng Gô-tích"
+
+#. name for grb
+msgid "Grebo"
+msgstr "Tiếng Goue-bô"
+
+#. name for grc
+msgid "Greek, Ancient (to 1453)"
+msgstr "Tiếng Hy Lạp, Cổ (đến năm 1453)"
+
+#. name for ell, el
+msgid "Greek, Modern (1453-)"
+msgstr "Tiếng Hy Lạp, Cận Đại (từ năm 1453)"
+
+#. name for grn, gn
+msgid "Guarani"
+msgstr "Tiếng Gua-ra-ni"
+
+#. name for gsw
+msgid "Swiss German; Alemannic; Alsatian"
+msgstr "Tiếng Đức (Thuỵ Sĩ); Tiếng Đức (Al-xacợ)"
+
+#. name for guj, gu
+msgid "Gujarati"
+msgstr "Tiếng Gu-gia-ra-ti"
+
+#. name for gwi
+msgid "Gwich'in"
+msgstr "Tiếng Goui-chinh"
+
+#. name for hai
+msgid "Haida"
+msgstr "Tiếng Hai-đa"
+
+#. name for hat, ht
+msgid "Haitian; Haitian Creole"
+msgstr "Tiếng Hai-ti"
+
+#. name for hau, ha
+msgid "Hausa"
+msgstr "Tiếng Hau-xa"
+
+#. name for haw
+msgid "Hawaiian"
+msgstr "Tiếng Ha-uoai-i"
+
+#. name for heb, he
+msgid "Hebrew"
+msgstr "Tiếng Do Thái"
+
+#. name for her, hz
+msgid "Herero"
+msgstr "Tiếng He-re-rô"
+
+#. name for hil
+msgid "Hiligaynon"
+msgstr "Tiếng Hi-li-gay-non"
+
+#. name for him
+msgid "Himachali languages; Western Pahari languages"
+msgstr ""
+
+#. name for hin, hi
+msgid "Hindi"
+msgstr "Tiếng Hin-đi"
+
+#. name for hit
+msgid "Hittite"
+msgstr "Tiếng Hic-tic"
+
+#. name for hmn
+#, fuzzy
+msgid "Hmong; Mong"
+msgstr "Tiếng Miêu"
+
+#. name for hmo, ho
+msgid "Hiri Motu"
+msgstr "Tiếng Mo-tu"
+
+#. name for hrv, hr
+msgid "Croatian"
+msgstr "Tiếng Cợ-rô-áth"
+
+#. name for hsb
+msgid "Upper Sorbian"
+msgstr "Tiếng Xoa-bi muộn"
+
+#. name for hun, hu
+msgid "Hungarian"
+msgstr "Tiếng Hung Gia Lợi"
+
+#. name for hup
+msgid "Hupa"
+msgstr "Tiếng Hu-pa"
+
+#. name for iba
+msgid "Iban"
+msgstr "Tiếng I-ban"
+
+#. name for ibo, ig
+msgid "Igbo"
+msgstr "Tiếng Ic-bô"
+
+#. name for isl, is
+msgid "Icelandic"
+msgstr "Tiếng Băng Đảo"
+
+#. name for ido, io
+msgid "Ido"
+msgstr "Tiếng I-đo"
+
+#. name for iii, ii
+msgid "Sichuan Yi; Nuosu"
+msgstr "Sichuan Yi; Nuosu"
+
+#. name for ijo
+msgid "Ijo languages"
+msgstr "Hệ ngôn ngữ I-giô"
+
+#. name for iku, iu
+msgid "Inuktitut"
+msgstr "Tiếng I-nuc-ti-tuc"
+
+#. name for ile, ie
+msgid "Interlingue; Occidental"
+msgstr "Ngôn ngữ lẫn nhau In-tơ-ling; Phương Tây"
+
+#. name for ilo
+msgid "Iloko"
+msgstr "Tiếng I-lô-cô"
+
+#. name for ina, ia
+msgid "Interlingua (International Auxiliary Language Association)"
+msgstr "Ngôn ngữ lẫn nhau In-tơ-lin-gua (Liên Hiệp Ngôn Ngữ Bổ Trợ Quốc Tế)"
+
+#. name for inc
+msgid "Indic languages"
+msgstr "Hệ ngôn ngữ Ấn Độ"
+
+#. name for ind, id
+msgid "Indonesian"
+msgstr "Tiếng Nam Dương"
+
+#. name for ine
+msgid "Indo-European languages"
+msgstr "Hệ ngôn ngữ Châu Ân Độ và Âu"
+
+#. name for inh
+msgid "Ingush"
+msgstr "Tiếng In-gus"
+
+#. name for ipk, ik
+msgid "Inupiaq"
+msgstr "Tiếng In-u-pi-ac"
+
+#. name for ira
+msgid "Iranian languages"
+msgstr "Hệ ngôn ngữ I-ran"
+
+#. name for iro
+msgid "Iroquoian languages"
+msgstr "Hệ ngôn ngữ I-ro-coi"
+
+#. name for ita, it
+msgid "Italian"
+msgstr "Tiếng Ý"
+
+#. name for jav, jv
+msgid "Javanese"
+msgstr "Tiếng Gia-va"
+
+#. name for jbo
+msgid "Lojban"
+msgstr "Tiếng Lot-ban"
+
+#. name for jpn, ja
+msgid "Japanese"
+msgstr "Tiếng Nhật"
+
+#. name for jpr
+msgid "Judeo-Persian"
+msgstr "Hệ ngôn ngữ Do Thái - Ba tư"
+
+#. name for jrb
+msgid "Judeo-Arabic"
+msgstr "Hệ ngôn ngữ Do Thái - A Rập"
+
+#. name for kaa
+msgid "Kara-Kalpak"
+msgstr "Tiếng Ca-ra-Can-pac"
+
+#. name for kab
+msgid "Kabyle"
+msgstr "Tiếng Ca-bai"
+
+#. name for kac
+msgid "Kachin; Jingpho"
+msgstr "Tiếng Kachin; Jingpho"
+
+#. name for kal, kl
+msgid "Kalaallisut; Greenlandic"
+msgstr "Tiếng Đảo Băng"
+
+#. name for kam
+msgid "Kamba"
+msgstr "Tiếng Căm-ba"
+
+#. name for kan, kn
+msgid "Kannada"
+msgstr "Tiếng Kan-na-đa"
+
+#. name for kar
+msgid "Karen languages"
+msgstr "Những ngôn ngữ Ka-ren"
+
+#. name for kas, ks
+msgid "Kashmiri"
+msgstr "Tiếng Ca-s-mi-ri"
+
+#. name for kau, kr
+msgid "Kanuri"
+msgstr "Tiếng Ca-nu-ri"
+
+#. name for kaw
+msgid "Kawi"
+msgstr "Tiếng Ca-oui"
+
+#. name for kaz, kk
+msgid "Kazakh"
+msgstr "Tiếng Ca-xakh"
+
+#. name for kbd
+msgid "Kabardian"
+msgstr "Tiếng Ca-ba-đh"
+
+#. name for kha
+msgid "Khasi"
+msgstr "Tiếng Kha-xi"
+
+#. name for khi
+msgid "Khoisan languages"
+msgstr "Hệ ngôn ngữ Khoi-san"
+
+#. name for khm, km
+msgid "Central Khmer"
+msgstr "Tiếng Khơ-me miền Trung"
+
+#. name for kho
+msgid "Khotanese;Sakan"
+msgstr "Tiếng Kho-tan; Tiếng Xa-khanh"
+
+#. name for kik, ki
+msgid "Kikuyu; Gikuyu"
+msgstr "Tiếng Khi-ku-iu"
+
+#. name for kin, rw
+msgid "Kinyarwanda"
+msgstr "Tiếng Kin-ia-ouanh-đa"
+
+#. name for kir, ky
+msgid "Kirghiz; Kyrgyz"
+msgstr "Tiếng Khia-ki-xơ"
+
+#. name for kmb
+msgid "Kimbundu"
+msgstr "Tiếng Kim-bun-đu"
+
+#. name for kok
+msgid "Konkani"
+msgstr "Tiếng Kon-ka-ni"
+
+#. name for kom, kv
+msgid "Komi"
+msgstr "Tiếng Kô-mi"
+
+#. name for kon, kg
+msgid "Kongo"
+msgstr "Tiếng Kon-gô"
+
+#. name for kor, ko
+msgid "Korean"
+msgstr "Tiếng Hàn"
+
+#. name for kos
+msgid "Kosraean"
+msgstr "Tiếng Co-x-rai"
+
+#. name for kpe
+msgid "Kpelle"
+msgstr "Tiếng Cợ-pe-le"
+
+#. name for krc
+msgid "Karachay-Balkar"
+msgstr "Tiếng Ka-ra-chay-Ban-ka"
+
+#. name for krl
+msgid "Karelian"
+msgstr "Tiếng Ca-re-ni"
+
+#. name for kro
+msgid "Kru languages"
+msgstr "Hệ ngôn ngữ Khợ-ru"
+
+#. name for kru
+msgid "Kurukh"
+msgstr "Tiếng Ku-rukh"
+
+#. name for kua, kj
+msgid "Kuanyama; Kwanyama"
+msgstr "Tiếng Kou-an-i-am-a"
+
+#. name for kum
+msgid "Kumyk"
+msgstr "Tiếng Ku-mikh"
+
+#. name for kur, ku
+msgid "Kurdish"
+msgstr "Tiếng Kurd"
+
+#. name for kut
+msgid "Kutenai"
+msgstr "Tiếng Ku-ten-ai"
+
+#. name for lad
+msgid "Ladino"
+msgstr "Tiếng La-đi-nô"
+
+#. name for lah
+msgid "Lahnda"
+msgstr "Tiếng Lăn-đa"
+
+#. name for lam
+msgid "Lamba"
+msgstr "Tiếng Lam-ba"
+
+#. name for lao, lo
+msgid "Lao"
+msgstr "Tiếng Lào"
+
+#. name for lat, la
+msgid "Latin"
+msgstr "Tiếng La-tinh"
+
+#. name for lav, lv
+msgid "Latvian"
+msgstr "Tiếng Lát-vi-a"
+
+#. name for lez
+msgid "Lezghian"
+msgstr "Tiếng Le-x-ghi-an"
+
+#. name for lim, li
+msgid "Limburgan; Limburger; Limburgish"
+msgstr "Tiếng Lim-bua-ga"
+
+#. name for lin, ln
+msgid "Lingala"
+msgstr "Tiếng Lin-ga-la"
+
+#. name for lit, lt
+msgid "Lithuanian"
+msgstr "Tiếng Li-tu-a-ni"
+
+#. name for lol
+msgid "Mongo"
+msgstr "Tiếng Mon-gô"
+
+#. name for loz
+msgid "Lozi"
+msgstr "Tiếng Lo-xi"
+
+#. name for ltz, lb
+msgid "Luxembourgish; Letzeburgesch"
+msgstr "Tiếng Lục Xâm Bảo"
+
+#. name for lua
+msgid "Luba-Lulua"
+msgstr "Tiếng Lu-ba-Lu-lu-a"
+
+#. name for lub, lu
+msgid "Luba-Katanga"
+msgstr "Tiếng Lu-ba-Ka-tan-ga"
+
+#. name for lug, lg
+msgid "Ganda"
+msgstr "Tiếng Gan-đa"
+
+#. name for lui
+msgid "Luiseno"
+msgstr "Tiếng Lui-xen-ô"
+
+#. name for lun
+msgid "Lunda"
+msgstr "Tiếng Lun-đa"
+
+#. name for luo
+msgid "Luo (Kenya and Tanzania)"
+msgstr "Tiếng Luo (Ken-i-a và Than-xê-ni-a)"
+
+#. name for lus
+msgid "Lushai"
+msgstr "Tiếng Lu-sai"
+
+#. name for mkd, mk
+msgid "Macedonian"
+msgstr "Tiếng Ma-xê-đô-ni"
+
+#. name for mad
+msgid "Madurese"
+msgstr "Tiếng Ma-đu-ri"
+
+#. name for mag
+msgid "Magahi"
+msgstr "Tiếng Mu-ga-hi"
+
+#. name for mah, mh
+msgid "Marshallese"
+msgstr "Tiếng Ma-san"
+
+#. name for mai
+msgid "Maithili"
+msgstr "Tiếng Mai-ti-li"
+
+#. name for mak
+msgid "Makasar"
+msgstr "Tiếng Ma-ka-xa"
+
+#. name for mal, ml
+msgid "Malayalam"
+msgstr "Tiếng Ma-lay-am"
+
+#. name for man
+msgid "Mandingo"
+msgstr "Tiếng Man-đin-gô"
+
+#. name for mri, mi
+msgid "Maori"
+msgstr "Tiếng Mao-ri"
+
+#. name for map
+msgid "Austronesian languages"
+msgstr "Hệ ngôn ngữ Úc và Thái Bình Dương"
+
+#. name for mar, mr
+msgid "Marathi"
+msgstr "Tiếng Ma-ra-ti"
+
+#. name for mas
+msgid "Masai"
+msgstr "Tiếng Ma-sai"
+
+#. name for msa, ms
+msgid "Malay"
+msgstr "Tiếng Mã lai"
+
+#. name for mdf
+msgid "Moksha"
+msgstr "Tiếng Moc-sa"
+
+#. name for mdr
+msgid "Mandar"
+msgstr "Tiếng Man-đa"
+
+#. name for men
+msgid "Mende"
+msgstr "Tiếng Men-đe"
+
+#. name for mga
+msgid "Irish, Middle (900-1200)"
+msgstr "Tiếng Ái Nhĩ Lan, Trung (năm 900-1200)"
+
+#. name for mic
+msgid "Mi'kmaq; Micmac"
+msgstr "Tiếng Mic-mac"
+
+#. name for min
+msgid "Minangkabau"
+msgstr "Tiếng Mi-nang-ka-bau"
+
+#. name for mis
+msgid "Uncoded languages"
+msgstr "Các ngôn ngữ chưa có mã"
+
+#. name for mkh
+msgid "Mon-Khmer languages"
+msgstr "Hệ ngôn ngữ Khơ-me"
+
+#. name for mlg, mg
+msgid "Malagasy"
+msgstr "Tiếng Ma-la-ga-si"
+
+#. name for mlt, mt
+msgid "Maltese"
+msgstr "Tiếng Mantơ"
+
+#. name for mnc
+msgid "Manchu"
+msgstr "Tiếng Man-chu"
+
+#. name for mni
+msgid "Manipuri"
+msgstr "Tiếng Ma-ni-pu-ri"
+
+#. name for mno
+msgid "Manobo languages"
+msgstr "Hệ ngôn ngữ Ma-nô-bô"
+
+#. name for moh
+msgid "Mohawk"
+msgstr "Tiếng Mô-hoakh"
+
+#. name for mol, mo
+msgid "Moldavian; Moldovan"
+msgstr "Tiếng Mon-đa-vi"
+
+#. name for mon, mn
+msgid "Mongolian"
+msgstr "Tiếng Mông Cổ"
+
+#. name for mos
+msgid "Mossi"
+msgstr "Tiếng Mo-xi"
+
+#. name for mul
+msgid "Multiple languages"
+msgstr "Đa ngôn ngữ"
+
+#. name for mun
+msgid "Munda languages"
+msgstr "Hệ ngôn ngữ Mun-đa"
+
+#. name for mus
+msgid "Creek"
+msgstr "Tiếng Cợ-ric"
+
+#. name for mwl
+msgid "Mirandese"
+msgstr "Tiếng Mi-ran-đi"
+
+#. name for mwr
+msgid "Marwari"
+msgstr "Tiếng Ma-oua-ri"
+
+#. name for myn
+msgid "Mayan languages"
+msgstr "Những ngôn ngữ Ma-ya"
+
+#. name for myv
+msgid "Erzya"
+msgstr "Tiếng Ơ-xi-a"
+
+#. name for nah
+msgid "Nahuatl languages"
+msgstr "Hệ ngôn ngữ Na-hu-at-l"
+
+#. name for nai
+msgid "North American Indian languages"
+msgstr "Hệ ngôn ngữ Thổ dân Bắc Mỹ"
+
+#. name for nap
+msgid "Neapolitan"
+msgstr "Tiếng Na-po-li"
+
+#. name for nau, na
+msgid "Nauru"
+msgstr "Tiếng Nau-ru"
+
+#. name for nav, nv
+msgid "Navajo; Navaho"
+msgstr "Tiếng Na-va-hô"
+
+#. name for nbl, nr
+msgid "Ndebele, South; South Ndebele"
+msgstr "Tiếng Nam N-đe-be-lê"
+
+#. name for nde, nd
+msgid "Ndebele, North; North Ndebele"
+msgstr "Tiếng Bắc N-đe-be-lê"
+
+#. name for ndo, ng
+msgid "Ndonga"
+msgstr "Tiếng N-đon-ga"
+
+#. name for nds
+msgid "Low German; Low Saxon; German, Low; Saxon, Low"
+msgstr "Tiếng Đức thấp; Tiếng Xác-xon thấp"
+
+#. name for nep, ne
+msgid "Nepali"
+msgstr "Tiếng Nê-pan"
+
+#. name for new
+msgid "Nepal Bhasa; Newari"
+msgstr "Nepal Bhasa; Newari"
+
+#. name for nia
+msgid "Nias"
+msgstr "Tiếng Ni-as"
+
+#. name for nic
+msgid "Niger-Kordofanian languages"
+msgstr "Hệ ngôn ngữ Nai-giơ-Koa-do-pha-ni"
+
+#. name for niu
+msgid "Niuean"
+msgstr "Tiếng Niu-i"
+
+#. name for nno, nn
+msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
+msgstr "Tiếng Na Uy (Ni-noa-x-kh)"
+
+#. name for nob, nb
+msgid "Bokmål, Norwegian; Norwegian Bokmål"
+msgstr "Na Uy (Bóc-man)"
+
+#. name for nog
+msgid "Nogai"
+msgstr "Tiếng No-gai"
+
+#. name for non
+msgid "Norse, Old"
+msgstr "Tiếng Na Uy Cũ"
+
+#. name for nor, no
+msgid "Norwegian"
+msgstr "Tiếng Na Uy"
+
+#. name for nqo
+msgid "N'Ko"
+msgstr "Tiếng N-kô"
+
+#. name for nso
+msgid "Pedi; Sepedi; Northern Sotho"
+msgstr "Pedi; Sepedi; Bắc Xô-tô"
+
+#. name for nub
+msgid "Nubian languages"
+msgstr "Những ngôn ngữ Nu-bi"
+
+#. name for nwc
+msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
+msgstr "Tiếng Ne-oua-ri cũ"
+
+#. name for nya, ny
+msgid "Chichewa; Chewa; Nyanja"
+msgstr "Tiếng Chi-che-oua"
+
+#. name for nym
+msgid "Nyamwezi"
+msgstr "Tiếng Nai-am-oue-xi"
+
+#. name for nyn
+msgid "Nyankole"
+msgstr "Tiếng Nai-an-ko-le"
+
+#. name for nyo
+msgid "Nyoro"
+msgstr "Tiếng Ni-o-rô"
+
+#. name for nzi
+msgid "Nzima"
+msgstr "Tiếng N-xi-ma"
+
+#. name for oci, oc
+msgid "Occitan (post 1500)"
+msgstr "Tiếng Oc-xi-tan (từ năm 1500)"
+
+#. name for oji, oj
+msgid "Ojibwa"
+msgstr "Tiếng O-gip-oua"
+
+#. name for ori, or
+msgid "Oriya"
+msgstr "Tiếng O-ri-a"
+
+#. name for orm, om
+msgid "Oromo"
+msgstr "Tiếng O-ro-mô"
+
+#. name for osa
+msgid "Osage"
+msgstr "Tiếng O-sa-ge"
+
+#. name for oss, os
+msgid "Ossetian; Ossetic"
+msgstr "Tiếng O-set"
+
+#. name for ota
+msgid "Turkish, Ottoman (1500-1928)"
+msgstr "Tiếng Thổ Nhĩ Kỳ, Ot-to-man (năm 1500-1928)"
+
+#. name for oto
+msgid "Otomian languages"
+msgstr "Hệ ngôn ngữ O-tom"
+
+#. name for paa
+msgid "Papuan languages"
+msgstr "Hệ ngôn ngữ Pa-pua"
+
+#. name for pag
+msgid "Pangasinan"
+msgstr "Tiếng Pan-ga-sin"
+
+#. name for pal
+msgid "Pahlavi"
+msgstr "Tiếng Pa-la-vi"
+
+#. name for pam
+msgid "Pampanga; Kapampangan"
+msgstr "Pampanga; Kapampangan"
+
+#. name for pan, pa
+msgid "Panjabi; Punjabi"
+msgstr "Tiếng Pun-gia-bi"
+
+#. name for pap
+msgid "Papiamento"
+msgstr "Tiếng Pa-pi-a-men-tô"
+
+#. name for pau
+msgid "Palauan"
+msgstr "Tiếng Pa-lau-a"
+
+#. name for peo
+msgid "Persian, Old (ca. 600-400 B.C.)"
+msgstr "Tiếng Ba Tư, Cũ (khoảng năm 600-400 trước công lịch)"
+
+#. name for fas, fa
+msgid "Persian"
+msgstr "Tiếng Ba Tư"
+
+#. name for phi
+msgid "Philippine languages"
+msgstr "Hệ ngôn ngữ Phi-li-pin"
+
+#. name for phn
+msgid "Phoenician"
+msgstr "Tiếng Phợ-ni-xi"
+
+#. name for pli, pi
+msgid "Pali"
+msgstr "Tiếng Pa-li"
+
+#. name for pol, pl
+msgid "Polish"
+msgstr "Tiếng Ba Lan"
+
+#. name for pon
+msgid "Pohnpeian"
+msgstr "Tiếng Pon-pê-i-a"
+
+#. name for por, pt
+msgid "Portuguese"
+msgstr "Tiếng Bồ Đào Nha"
+
+#. name for pra
+msgid "Prakrit languages"
+msgstr "Hệ ngôn ngữ Pợ-ra-cợ-rit"
+
+#. name for pro
+msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
+msgstr ""
+"Tiếng Pợ-ro-ven-san Cũ (đến năm 1500); Tiếng Ô-xi-tan Cũ (đến năm 1500)"
+
+#. name for pus, ps
+msgid "Pushto; Pashto"
+msgstr "Tiếng Pu-s-tô"
+
+#. name for qaa-qtz
+msgid "Reserved for local use"
+msgstr "Dành cho sư dụng cục bộ"
+
+#. name for que, qu
+msgid "Quechua"
+msgstr "Tiếng Cue-chu-a"
+
+#. name for raj
+msgid "Rajasthani"
+msgstr "Tiếng Ra-gia-x-thanh"
+
+#. name for rap
+msgid "Rapanui"
+msgstr "Tiếng Ra-pa-nui"
+
+#. name for rar
+msgid "Rarotongan; Cook Islands Maori"
+msgstr "Tiếng Rarotongan; Tiếng Mao-ri của Quần Đảo Cook"
+
+#. name for roa
+msgid "Romance languages"
+msgstr "Hệ ngôn ngữ Rô-man"
+
+#. name for roh, rm
+msgid "Romansh"
+msgstr "Tiếng Gip-xi (Romansh)"
+
+#. name for rom
+msgid "Romany"
+msgstr "Tiếng Gip-xi"
+
+#. name for ron, ro
+msgid "Romanian"
+msgstr "Tiếng Lỗ Má Ni"
+
+#. name for run, rn
+msgid "Rundi"
+msgstr "Tiếng Run-đi"
+
+#. name for rup
+msgid "Aromanian; Arumanian; Macedo-Romanian"
+msgstr "Tiếng A-rô-ma-ni"
+
+#. name for rus, ru
+msgid "Russian"
+msgstr "Tiếng Nga"
+
+#. name for sad
+msgid "Sandawe"
+msgstr "Tiếng Xan-đa-ouê"
+
+#. name for sag, sg
+msgid "Sango"
+msgstr "Tiếng Xan-gô"
+
+#. name for sah
+msgid "Yakut"
+msgstr "Tiếng Ia-cut"
+
+#. name for sai
+msgid "South American Indian languages"
+msgstr "Hệ ngôn ngữ Thổ Dân Nam Mỹ"
+
+#. name for sal
+msgid "Salishan languages"
+msgstr "Hệ ngôn ngữ Xa-lis"
+
+#. name for sam
+msgid "Samaritan Aramaic"
+msgstr "Tiếng Xi-ri thuộc Xa-ma-ri-a"
+
+#. name for san, sa
+msgid "Sanskrit"
+msgstr "Tiếng Phạn"
+
+#. name for sas
+msgid "Sasak"
+msgstr "Tiếng Xa-xac"
+
+#. name for sat
+msgid "Santali"
+msgstr "Tiếng Xan-ta-li"
+
+#. name for scn
+msgid "Sicilian"
+msgstr "Tiếng Xi-xi-li"
+
+#. name for sco
+msgid "Scots"
+msgstr "Tiếng Ê-cốt"
+
+#. name for sel
+msgid "Selkup"
+msgstr "Tiếng Xen-cup"
+
+#. name for sem
+msgid "Semitic languages"
+msgstr "Hệ ngôn ngữ Xê-mít"
+
+#. name for sga
+msgid "Irish, Old (to 900)"
+msgstr "Tiếng Ái-nhĩ-lan cũ (đến năm 900)"
+
+#. name for sgn
+msgid "Sign Languages"
+msgstr "Ngôn ngữ ước hiệu"
+
+#. name for shn
+msgid "Shan"
+msgstr "Tiếng San"
+
+#. name for sid
+msgid "Sidamo"
+msgstr "Tiếng Xi-đa-mô"
+
+#. name for sin, si
+msgid "Sinhala; Sinhalese"
+msgstr "Tiếng Xin-ha-la"
+
+#. name for sio
+msgid "Siouan languages"
+msgstr "Hệ ngôn ngữ Xiou"
+
+#. name for sit
+msgid "Sino-Tibetan languages"
+msgstr "Hệ ngôn ngữ Trung và Tây Tạng"
+
+#. name for sla
+msgid "Slavic languages"
+msgstr "Hệ ngôn ngữ Xla-vơ"
+
+#. name for slk, sk
+msgid "Slovak"
+msgstr "Tiếng Xlô-vác"
+
+#. name for slv, sl
+msgid "Slovenian"
+msgstr "Tiếng Xlô-ven"
+
+#. name for sma
+msgid "Southern Sami"
+msgstr "Tiếng Nam Xa-mi"
+
+#. name for sme, se
+msgid "Northern Sami"
+msgstr "Tiếng Bắc Xa-mi"
+
+#. name for smi
+msgid "Sami languages"
+msgstr "Hệ ngôn ngữ Xa-mi"
+
+#. name for smj
+msgid "Lule Sami"
+msgstr "Tiếng Xa-mi Lu-le"
+
+#. name for smn
+msgid "Inari Sami"
+msgstr "Tiếng Xa-mi I-na-ri"
+
+#. name for smo, sm
+msgid "Samoan"
+msgstr "Tiếng Xa-mô-a"
+
+#. name for sms
+msgid "Skolt Sami"
+msgstr "Tiếng Xa-mi Sợ-kốt"
+
+#. name for sna, sn
+msgid "Shona"
+msgstr "Tiếng Sô-na"
+
+#. name for snd, sd
+msgid "Sindhi"
+msgstr "Tiếng Xin-đi"
+
+#. name for snk
+msgid "Soninke"
+msgstr "Tiếng Xo-nin-khe"
+
+#. name for sog
+msgid "Sogdian"
+msgstr "Tiếng Xoc-đi-a"
+
+#. name for som, so
+msgid "Somali"
+msgstr "Tiếng Xô-ma-li"
+
+#. name for son
+msgid "Songhai languages"
+msgstr "Hệ ngôn ngữ Xông-hai"
+
+#. name for sot, st
+msgid "Sotho, Southern"
+msgstr "Tiếng Nam Xo-tô"
+
+#. name for spa, es
+msgid "Spanish; Castilian"
+msgstr "Tiếng Tây Ban Nhà kiểu Cax-ti-le"
+
+#. name for srd, sc
+msgid "Sardinian"
+msgstr "Tiếng Xă-đi-ni-a"
+
+#. name for srn
+msgid "Sranan Tongo"
+msgstr "Tiếng Ton-gô kiểu Xợ-ra-na"
+
+#. name for srp, sr
+msgid "Serbian"
+msgstr "Tiếng Xéc bi"
+
+#. name for srr
+msgid "Serer"
+msgstr "Tiếng Xe-re"
+
+#. name for ssa
+msgid "Nilo-Saharan languages"
+msgstr "Hệ ngôn ngữ sông Nile và sa mạc Xa-ha-ra"
+
+#. name for ssw, ss
+msgid "Swati"
+msgstr "Tiếng Xoua-thi"
+
+#. name for suk
+msgid "Sukuma"
+msgstr "Tiếng Xu-ku-ma"
+
+#. name for sun, su
+msgid "Sundanese"
+msgstr "Tiếng Xunh-đan"
+
+#. name for sus
+msgid "Susu"
+msgstr "Tiếng Xu-xu"
+
+#. name for sux
+msgid "Sumerian"
+msgstr "Tiếng Xu-me"
+
+#. name for swa, sw
+msgid "Swahili"
+msgstr "Tiếng Xoua-hi-li"
+
+#. name for swe, sv
+msgid "Swedish"
+msgstr "Tiếng Thuỵ Điển"
+
+#. name for syc
+msgid "Classical Syriac"
+msgstr "Tiếng Xi-ri cổ điển"
+
+#. name for syr
+msgid "Syriac"
+msgstr "Tiếng Xi-ri"
+
+#. name for tah, ty
+msgid "Tahitian"
+msgstr "Tiếng Ta-hi-ti"
+
+#. name for tai
+msgid "Tai languages"
+msgstr "Hệ ngôn ngữ Tai"
+
+#. name for tam, ta
+msgid "Tamil"
+msgstr "Tiếng Ta-min"
+
+#. name for tat, tt
+msgid "Tatar"
+msgstr "Tiếng Tác-ta"
+
+#. name for tel, te
+msgid "Telugu"
+msgstr "Tiếng Te-lu-gu"
+
+#. name for tem
+msgid "Timne"
+msgstr "Tiếng Tim-ne"
+
+#. name for ter
+msgid "Tereno"
+msgstr "Tiếng Te-re-no"
+
+#. name for tet
+msgid "Tetum"
+msgstr "Tiếng Te-tum"
+
+#. name for tgk, tg
+msgid "Tajik"
+msgstr "Tiếng Ta-gíc"
+
+#. name for tgl, tl
+msgid "Tagalog"
+msgstr "Tiếng Ta-ga-lọc"
+
+#. name for tha, th
+msgid "Thai"
+msgstr "Tiếng Thái"
+
+#. name for bod, bo
+msgid "Tibetan"
+msgstr "Tiếng Tây Tạng"
+
+#. name for tig
+msgid "Tigre"
+msgstr "Tiếng Thi-gơ-re"
+
+#. name for tir, ti
+msgid "Tigrinya"
+msgstr "Tiếng Thi-gơ-rin-ya"
+
+#. name for tiv
+msgid "Tiv"
+msgstr "Tiếng Ti-vợ"
+
+#. name for tkl
+msgid "Tokelau"
+msgstr "Tiếng To-ke-lau"
+
+#. name for tlh
+msgid "Klingon; tlhIngan-Hol"
+msgstr "Tiếng Khợ-lin-gon; tlhIngan-Hol"
+
+#. name for tli
+msgid "Tlingit"
+msgstr "Tiếng Tợ-lin-git"
+
+#. name for tmh
+msgid "Tamashek"
+msgstr "Tiếng Ta-ma-sek"
+
+#. name for tog
+msgid "Tonga (Nyasa)"
+msgstr "Tiếng Ton-ga (Ni-a-sa)"
+
+#. name for ton, to
+msgid "Tonga (Tonga Islands)"
+msgstr "Tiếng Ton-ga (Quần đảo Ton-ga)"
+
+#. name for tpi
+msgid "Tok Pisin"
+msgstr "Tiếng Tok Pi-sin"
+
+#. name for tsi
+msgid "Tsimshian"
+msgstr "Tiếng T-xim-si-an"
+
+#. name for tsn, tn
+msgid "Tswana"
+msgstr "Tiếng T-xoua-na"
+
+#. name for tso, ts
+msgid "Tsonga"
+msgstr "Tiếng T-xong-ga"
+
+#. name for tuk, tk
+msgid "Turkmen"
+msgstr "Tiếng Thổ-kh-men"
+
+#. name for tum
+msgid "Tumbuka"
+msgstr "Tiếng Tum-bu-ka"
+
+#. name for tup
+msgid "Tupi languages"
+msgstr "Hệ ngôn ngữ Tu-pi"
+
+#. name for tur, tr
+msgid "Turkish"
+msgstr "Tiếng Thổ Nhĩ Kỳ"
+
+#. name for tut
+msgid "Altaic languages"
+msgstr "Hệ ngôn ngữ Al-tai"
+
+#. name for tvl
+msgid "Tuvalu"
+msgstr "Tiếng Tu-va-lu"
+
+#. name for twi, tw
+msgid "Twi"
+msgstr "Tiếng Toui"
+
+#. name for tyv
+msgid "Tuvinian"
+msgstr "Tiếng Tu-vi-ni"
+
+#. name for udm
+msgid "Udmurt"
+msgstr "Tiếng Ud-muath"
+
+#. name for uga
+msgid "Ugaritic"
+msgstr "Tiếng U-ga-ri"
+
+#. name for uig, ug
+msgid "Uighur; Uyghur"
+msgstr "Tiếng Ui-gua"
+
+#. name for ukr, uk
+msgid "Ukrainian"
+msgstr "Tiếng U-cợ-rainh"
+
+#. name for umb
+msgid "Umbundu"
+msgstr "Tiếng Um-bun-đu"
+
+#. name for und
+msgid "Undetermined"
+msgstr "Chưa quyết định"
+
+#. name for urd, ur
+msgid "Urdu"
+msgstr "Tiếng Ua-đu"
+
+#. name for uzb, uz
+msgid "Uzbek"
+msgstr "Tiếng U-x-bếkh"
+
+#. name for vai
+msgid "Vai"
+msgstr "Tiếng Vai"
+
+#. name for ven, ve
+msgid "Venda"
+msgstr "Tiếng Ven-đa"
+
+#. name for vie, vi
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+#. name for vol, vo
+msgid "Volapük"
+msgstr "Tiếng Vo-la-puk"
+
+#. name for vot
+msgid "Votic"
+msgstr "Tiếng Vo-tic"
+
+#. name for wak
+msgid "Wakashan languages"
+msgstr "Hệ ngôn ngữ Oua-ca-sa"
+
+#. name for wal
+msgid "Wolaitta; Wolaytta"
+msgstr "Wolaitta; Wolaytta"
+
+#. name for war
+msgid "Waray"
+msgstr "Tiếng Oua-ray"
+
+#. name for was
+msgid "Washo"
+msgstr "Tiếng Oua-sô"
+
+#. name for cym, cy
+msgid "Welsh"
+msgstr "Tiếng Oue-l-s"
+
+#. name for wen
+msgid "Sorbian languages"
+msgstr "Hệ ngôn ngữ Xoa-bi-a"
+
+#. name for wln, wa
+msgid "Walloon"
+msgstr "Tiếng Oua-lunh"
+
+#. name for wol, wo
+msgid "Wolof"
+msgstr "Tiếng Ou-o-lo-v"
+
+#. name for xal
+msgid "Kalmyk; Oirat"
+msgstr "Tiếng Ka-l-mic; Oi-rat"
+
+#. name for xho, xh
+msgid "Xhosa"
+msgstr "Tiếng X-hô-xa"
+
+#. name for yao
+msgid "Yao"
+msgstr "Tiếng Yao"
+
+#. name for yap
+msgid "Yapese"
+msgstr "Tiếng Yap"
+
+#. name for yid, yi
+msgid "Yiddish"
+msgstr "Tiếng Y-đit"
+
+#. name for yor, yo
+msgid "Yoruba"
+msgstr "Tiếng Yo-ru-ba"
+
+#. name for ypk
+msgid "Yupik languages"
+msgstr "Hệ ngôn ngữ Yu-pic"
+
+#. name for zap
+msgid "Zapotec"
+msgstr "Tiếng Xa-pô-tec"
+
+#. name for zbl
+msgid "Blissymbols; Blissymbolics; Bliss"
+msgstr "Ký hiệu Bliss"
+
+#. name for zen
+msgid "Zenaga"
+msgstr "Tiếng Xe-na-ga"
+
+#. name for zha, za
+msgid "Zhuang; Chuang"
+msgstr "Tiếng Xuang; Tiếng Chuang"
+
+#. name for znd
+msgid "Zande languages"
+msgstr "Hệ ngôn ngữ Dan-đa"
+
+#. name for zul, zu
+msgid "Zulu"
+msgstr "Tiếng Xu-lu"
+
+#. name for zun
+msgid "Zuni"
+msgstr "Tiếng Xu-ni"
+
+#. name for zxx
+msgid "No linguistic content; Not applicable"
+msgstr "Không có nội dung kiểu ngôn ngữ; Không thích hợp"
+
+#. name for zza
+msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
+msgstr "Tiếng Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"

@@ -1,0 +1,1851 @@
+# Translation of ISO-3166 (country names) to Greek
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2004.
+#   Panayotis Pakos <aeikineton@yahoo.com>
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Konstantinos Margaritis <markos@debian.org>, 2004.
+#   QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_3166 3.15\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"PO-Revision-Date: 2008-01-04 15:00+0100\n"
+"Last-Translator: Alexis Darrasse <alexis@ortsa.com>\n"
+"Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#. name for AFG
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#. official_name for AFG
+msgid "Islamic Republic of Afghanistan"
+msgstr "Ισλαμική Δημοκρατία του Αφγανιστάν"
+
+#. name for ALA
+msgid "Åland Islands"
+msgstr "Νήσοι Ώλαντ"
+
+#. name for ALB
+msgid "Albania"
+msgstr "Αλβανία"
+
+#. official_name for ALB
+msgid "Republic of Albania"
+msgstr "Δημοκρατία της Αλβανίας"
+
+#. name for DZA
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#. official_name for DZA
+msgid "People's Democratic Republic of Algeria"
+msgstr "Λαϊκη Δημοκρατία της Αλγερίας"
+
+#. name for ASM
+msgid "American Samoa"
+msgstr "Αμερικανική Σαμόα"
+
+#. name for AND
+msgid "Andorra"
+msgstr "Ανδόρρα"
+
+#. official_name for AND
+msgid "Principality of Andorra"
+msgstr "Πριγκιπάτο της Ανδόρρας"
+
+#. name for AGO
+msgid "Angola"
+msgstr "Αγκόλα"
+
+#. official_name for AGO
+msgid "Republic of Angola"
+msgstr "Δημοκρατία της Αγκόλα"
+
+#. name for AIA
+msgid "Anguilla"
+msgstr "Ανγκουίλα"
+
+#. name for ATA
+msgid "Antarctica"
+msgstr "Ανταρκτική"
+
+#. name for ATG
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#. name for ARG
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+#. official_name for ARG
+msgid "Argentine Republic"
+msgstr "Δημοκρατία της Αργεντινής"
+
+#. name for ARM
+msgid "Armenia"
+msgstr "Αρμενία"
+
+#. official_name for ARM
+msgid "Republic of Armenia"
+msgstr "Δημοκρατία της Αρμενίας"
+
+#. name for ABW
+msgid "Aruba"
+msgstr "Αρούμπα"
+
+#. name for AUS
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#. name for AUT
+msgid "Austria"
+msgstr "Αυστρία"
+
+#. official_name for AUT
+msgid "Republic of Austria"
+msgstr "Αυστριακή Δημοκρατία"
+
+#. name for AZE
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#. official_name for AZE
+msgid "Republic of Azerbaijan"
+msgstr "Δημοκρατία του Αζερμπαϊτζάν"
+
+#. name for BHS
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+#. official_name for BHS
+msgid "Commonwealth of the Bahamas"
+msgstr "Κοινοπολιτεία των Μπαχαμών"
+
+#. name for BHR
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#. official_name for BHR
+msgid "Kingdom of Bahrain"
+msgstr "Βασίλειο του Μπαχρέιν"
+
+#. name for BGD
+msgid "Bangladesh"
+msgstr "Μπανγκλαντές"
+
+#. official_name for BGD
+msgid "People's Republic of Bangladesh"
+msgstr "Λαϊκή Δημοκρατία του Μπανγκλαντές"
+
+#. name for BRB
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#. name for BLR
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#. official_name for BLR
+msgid "Republic of Belarus"
+msgstr "Δημοκρατία της Λευκορωσίας"
+
+#. name for BEL
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#. official_name for BEL
+msgid "Kingdom of Belgium"
+msgstr "Βασίλειο του Βελγίου"
+
+#. name for BLZ
+msgid "Belize"
+msgstr "Μπελίζ"
+
+# "Μπελίζε"
+#. name for BEN
+msgid "Benin"
+msgstr "Μπενίν"
+
+#. official_name for BEN
+msgid "Republic of Benin"
+msgstr "Δημοκρατία του Μπενίν"
+
+#. name for BMU
+msgid "Bermuda"
+msgstr "Βερμούδες"
+
+#. name for BTN
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#. official_name for BTN
+msgid "Kingdom of Bhutan"
+msgstr "Βασίλειο του Μπουτάν"
+
+#. name for BOL
+msgid "Bolivia, Plurinational State of"
+msgstr ""
+
+#. official_name for BOL
+msgid "Plurinational State of Bolivia"
+msgstr ""
+
+#. common_name for BOL
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+#. name for BIH
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία-Ερζεγοβίνη"
+
+#. official_name for BIH
+msgid "Republic of Bosnia and Herzegovina"
+msgstr "Δημοκρατία της Βοσνίας-Ερζεγοβίνης"
+
+#. name for BWA
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#. official_name for BWA
+msgid "Republic of Botswana"
+msgstr "Δημοκρατία της Μποτσουάνας"
+
+#. name for BVT
+msgid "Bouvet Island"
+msgstr "Νήσος Μπουβέ"
+
+#. name for BRA
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#. official_name for BRA
+msgid "Federative Republic of Brazil"
+msgstr "Ομόσπονδη Δημοκρατία της Βραζιλίας"
+
+#. name for IOT
+msgid "British Indian Ocean Territory"
+msgstr "Βρετανικά Εδάφη του Ινδικού Ωκεανού"
+
+#. name for BRN
+msgid "Brunei Darussalam"
+msgstr "Μπρουνέι Νταρουσαλάμ"
+
+#. name for BGR
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#. official_name for BGR
+msgid "Republic of Bulgaria"
+msgstr "Δημοκρατία της Βουλγαρίας"
+
+#. name for BFA
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#. name for BDI
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#. official_name for BDI
+msgid "Republic of Burundi"
+msgstr "Δημοκρατία του Μπουρούντι"
+
+#. name for KHM
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#. official_name for KHM
+msgid "Kingdom of Cambodia"
+msgstr "Βασίλειο της Καμπότζης"
+
+#. name for CMR
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#. official_name for CMR
+msgid "Republic of Cameroon"
+msgstr "Δημοκρατία του Καμερούν"
+
+#. name for CAN
+msgid "Canada"
+msgstr "Καναδάς"
+
+#. name for CPV
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+#. official_name for CPV
+msgid "Republic of Cape Verde"
+msgstr "Δημοκρατία του Πράσινου Ακρωτηρίου"
+
+#. name for CYM
+msgid "Cayman Islands"
+msgstr "Νήσοι Καϋμάν"
+
+# or "Νήσοι Κάυμαν"
+#. name for CAF
+msgid "Central African Republic"
+msgstr "Δημοκρατία Κεντρικής Αφρικής"
+
+# or "Κεντροαφρικανική Δημοκρατία"
+#. name for TCD
+msgid "Chad"
+msgstr "Τσαντ"
+
+#. official_name for TCD
+msgid "Republic of Chad"
+msgstr "Δημοκρατία του Τσαντ"
+
+#. name for CHL
+msgid "Chile"
+msgstr "Χιλή"
+
+#. official_name for CHL
+msgid "Republic of Chile"
+msgstr "Δημοκρατία της Χιλής"
+
+#. name for CHN
+msgid "China"
+msgstr "Κίνα"
+
+#. official_name for CHN
+msgid "People's Republic of China"
+msgstr "Λαϊκή Δημοκρατία της Κίνας"
+
+#. name for CXR
+msgid "Christmas Island"
+msgstr "Νήσοι Χριστουγέννων"
+
+#. name for CCK
+msgid "Cocos (Keeling) Islands"
+msgstr "Νήσοι Κόκος (Κήλινγκ)"
+
+#. name for COL
+msgid "Colombia"
+msgstr "Κολομβία"
+
+#. official_name for COL
+msgid "Republic of Colombia"
+msgstr "Δημοκρατία της Κολομβίας"
+
+#. name for COM
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#. official_name for COM
+msgid "Union of the Comoros"
+msgstr "Ένωση των Κομορών"
+
+#. name for COG
+msgid "Congo"
+msgstr "Κονγκό"
+
+#. official_name for COG
+msgid "Republic of the Congo"
+msgstr "Δημοκρατία του Κονγκό"
+
+#. name for COD
+msgid "Congo, The Democratic Republic of the"
+msgstr "Κονγκό, Λαϊκή Δημοκρατία του"
+
+#. name for COK
+msgid "Cook Islands"
+msgstr "Νήσοι Κουκ"
+
+#. name for CRI
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#. official_name for CRI
+msgid "Republic of Costa Rica"
+msgstr "Δημοκρατία της Κόστα Ρίκα"
+
+#. name for CIV
+msgid "Côte d'Ivoire"
+msgstr "Ακτή Ελεφαντοστού"
+
+#. official_name for CIV
+msgid "Republic of Côte d'Ivoire"
+msgstr "Δημοκρατία της Ακτής του Ελεφαντοστού"
+
+#. name for HRV
+msgid "Croatia"
+msgstr "Κροατία"
+
+#. official_name for HRV
+msgid "Republic of Croatia"
+msgstr "Δημοκρατία της Κροατίας"
+
+#. name for CUB
+msgid "Cuba"
+msgstr "Κούβα"
+
+#. official_name for CUB
+msgid "Republic of Cuba"
+msgstr "Δημοκρατία της Κούβας"
+
+#. name for CYP
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#. official_name for CYP
+msgid "Republic of Cyprus"
+msgstr "Κυπριακή Δημοκρατία"
+
+#. name for CZE
+msgid "Czech Republic"
+msgstr "Τσεχική Δημοκρατία"
+
+# or "Δημοκρατία της Τσεχίας"
+#. name for DNK
+msgid "Denmark"
+msgstr "Δανία"
+
+#. official_name for DNK
+msgid "Kingdom of Denmark"
+msgstr "Βασίλειο της Δανίας"
+
+#. name for DJI
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+#. official_name for DJI
+msgid "Republic of Djibouti"
+msgstr "Δημοκρατία του Τζιμπουτί"
+
+#. name for DMA
+msgid "Dominica"
+msgstr "Ντομίνικα"
+
+#. official_name for DMA
+msgid "Commonwealth of Dominica"
+msgstr "Κοινοπολιτεία της Ντομίνικα"
+
+#. name for DOM
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#. name for ECU
+msgid "Ecuador"
+msgstr "Ισημερινός"
+
+#. official_name for ECU
+msgid "Republic of Ecuador"
+msgstr "Δημοκρατία του Ισημερινού"
+
+#. name for EGY
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#. official_name for EGY
+msgid "Arab Republic of Egypt"
+msgstr "Αραβική Δημοκρατία της Αιγύπτου"
+
+#. name for SLV
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#. official_name for SLV
+msgid "Republic of El Salvador"
+msgstr "Δημοκρατία του Ελ Σαλβαδόρ"
+
+#. name for GNQ
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#. official_name for GNQ
+msgid "Republic of Equatorial Guinea"
+msgstr "Δημοκρατία της Ισημερινής Γουινέας"
+
+#. name for ERI
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#. name for EST
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#. official_name for EST
+msgid "Republic of Estonia"
+msgstr "Δημοκρατία της Εσθονίας"
+
+#. name for ETH, historic names for ETH (withdrawn 1993-07-16)
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#. official_name for ETH
+msgid "Federal Democratic Republic of Ethiopia"
+msgstr "Ομοσπονδιακή Λαϊκή Δημοκρατία της Αιθιοπίας"
+
+#. name for FLK
+msgid "Falkland Islands (Malvinas)"
+msgstr "Νήσοι Φώκλαντ (Μαλβίνες)"
+
+#. name for FRO
+msgid "Faroe Islands"
+msgstr "Νήσοι Φερόε"
+
+#. name for FJI
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#. official_name for FJI
+msgid "Republic of the Fiji Islands"
+msgstr "Δημοκρατία των Νήσων Φίτζι"
+
+#. name for FIN
+msgid "Finland"
+msgstr "Φινλανδία"
+
+#. official_name for FIN
+msgid "Republic of Finland"
+msgstr "Δημοκρατία της Φινλανδίας"
+
+#. name for FRA
+msgid "France"
+msgstr "Γαλλία"
+
+#. official_name for FRA
+msgid "French Republic"
+msgstr "Γαλλική Δημοκρατία"
+
+#. name for GUF
+msgid "French Guiana"
+msgstr "Γαλλική Γουιάνα"
+
+#. name for PYF
+msgid "French Polynesia"
+msgstr "Γαλλική Πολυνησία"
+
+#. name for ATF
+msgid "French Southern Territories"
+msgstr "Γαλλικά Νότια Εδάφη"
+
+#. name for GAB
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#. official_name for GAB
+msgid "Gabonese Republic"
+msgstr "Δημοκρατία της Γκαμπόν"
+
+#. name for GMB
+msgid "Gambia"
+msgstr "Γκάμπια"
+
+#. official_name for GMB
+msgid "Republic of the Gambia"
+msgstr "Δημοκρατία της Γκάμπια"
+
+#. name for GEO
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#. name for DEU
+msgid "Germany"
+msgstr "Γερμανία"
+
+#. official_name for DEU
+msgid "Federal Republic of Germany"
+msgstr "Ομοσπονδιακή Δημοκρατία της Γερμανίας"
+
+#. name for GHA
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#. official_name for GHA
+msgid "Republic of Ghana"
+msgstr "Δημοκρατία της Γκάνας"
+
+#. name for GIB
+msgid "Gibraltar"
+msgstr "Γιβραλτάρ"
+
+#. name for GRC
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#. official_name for GRC
+msgid "Hellenic Republic"
+msgstr "Ελληνική Δημοκρατία"
+
+#. name for GRL
+msgid "Greenland"
+msgstr "Γροιλανδία"
+
+#. name for GRD
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#. name for GLP
+msgid "Guadeloupe"
+msgstr "Γουαδελούπη"
+
+#. name for GUM
+msgid "Guam"
+msgstr "Γκουάμ"
+
+#. name for GTM
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#. official_name for GTM
+msgid "Republic of Guatemala"
+msgstr "Δημοκρατία της Γουατεμάλας"
+
+#. name for GGY
+msgid "Guernsey"
+msgstr "Γκέρνσεϋ"
+
+#. name for GIN
+msgid "Guinea"
+msgstr "Γουϊνέα"
+
+#. official_name for GIN
+msgid "Republic of Guinea"
+msgstr "Δημοκρατία της Γουινέας"
+
+#. name for GNB
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισσάου"
+
+#. official_name for GNB
+msgid "Republic of Guinea-Bissau"
+msgstr "Δημοκρατία της Γουινέας-Μπισσάου"
+
+#. name for GUY
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+#. official_name for GUY
+msgid "Republic of Guyana"
+msgstr "Δημοκρατία της Γουιάνας"
+
+#. name for HTI
+msgid "Haiti"
+msgstr "Αϊτή"
+
+#. official_name for HTI
+msgid "Republic of Haiti"
+msgstr "Δημοκρατία της Αϊτής"
+
+#. name for HMD
+msgid "Heard Island and McDonald Islands"
+msgstr "Νήσος Χερντ και Νήσοι ΜακΝτόναλντ"
+
+#. name for VAT
+msgid "Holy See (Vatican City State)"
+msgstr "Αγία Έδρα (το Κράτος της Πόλεως του Βατικανού)"
+
+#. name for HND
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#. official_name for HND
+msgid "Republic of Honduras"
+msgstr "Δημοκρατία της Ονδούρας"
+
+#. name for HKG
+msgid "Hong Kong"
+msgstr "Χονγκ Κονγκ"
+
+#. official_name for HKG
+msgid "Hong Kong Special Administrative Region of China"
+msgstr "Χονγκ Κονγκ Ειδική Διοικητική Περιοχή της Κίνας"
+
+#. name for HUN
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#. official_name for HUN
+msgid "Republic of Hungary"
+msgstr "Δημοκρατία της Ουγγαρίας"
+
+#. name for ISL
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#. official_name for ISL
+msgid "Republic of Iceland"
+msgstr "Δημοκρατία της Ισλανδίας"
+
+#. name for IND
+msgid "India"
+msgstr "Ινδία"
+
+#. official_name for IND
+msgid "Republic of India"
+msgstr "Δημοκρατία της Ινδίας"
+
+#. name for IDN
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#. official_name for IDN
+msgid "Republic of Indonesia"
+msgstr "Δημοκρατία της Ινδονησίας"
+
+#. name for IRN
+msgid "Iran, Islamic Republic of"
+msgstr "Ιράν, Ισλαμική Δημοκρατία του"
+
+#. official_name for IRN
+msgid "Islamic Republic of Iran"
+msgstr "Ισλαμική Δημοκρατία του Ιράν"
+
+#. name for IRQ
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#. official_name for IRQ
+msgid "Republic of Iraq"
+msgstr "Δημοκρατία του Ιράκ"
+
+#. name for IRL
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+#. name for IMN
+msgid "Isle of Man"
+msgstr "Νήσος του Μαν"
+
+#. name for ISR
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#. official_name for ISR
+msgid "State of Israel"
+msgstr "Κράτος του Ισραήλ"
+
+#. name for ITA
+msgid "Italy"
+msgstr "Ιταλία"
+
+#. official_name for ITA
+msgid "Italian Republic"
+msgstr "Ιταλική Δημοκρατία"
+
+#. name for JAM
+msgid "Jamaica"
+msgstr "Ιαμαϊκή"
+
+# or "Τζαμάικα"
+#. name for JPN
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#. name for JEY
+msgid "Jersey"
+msgstr "Τζέρσεϋ"
+
+#. name for JOR
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#. official_name for JOR
+msgid "Hashemite Kingdom of Jordan"
+msgstr "Χασεμιτικό Βασίλειο της Ιορδανίας"
+
+#. name for KAZ
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#. official_name for KAZ
+msgid "Republic of Kazakhstan"
+msgstr "Δημοκρατία του Καζακστάν"
+
+#. name for KEN
+msgid "Kenya"
+msgstr "Κένυα"
+
+#. official_name for KEN
+msgid "Republic of Kenya"
+msgstr "Δημοκρατία της Κένυας"
+
+#. name for KIR
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#. official_name for KIR
+msgid "Republic of Kiribati"
+msgstr "Δημοκρατία του Κιριμπάτι"
+
+#. name for PRK
+msgid "Korea, Democratic People's Republic of"
+msgstr "Κορέα, Λαοκρατική Δημοκρατία της"
+
+#. official_name for PRK
+msgid "Democratic People's Republic of Korea"
+msgstr "Λαοκρατική Δημοκρατία της Κορέας"
+
+#. name for KOR
+msgid "Korea, Republic of"
+msgstr "Κορέα, Δημοκρατία της"
+
+#. name for KWT
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#. official_name for KWT
+msgid "State of Kuwait"
+msgstr "Κράτος του Κουβέιτ"
+
+#. name for KGZ
+msgid "Kyrgyzstan"
+msgstr "Κιργιζία"
+
+# or "Κιργιστάν"
+#. official_name for KGZ
+msgid "Kyrgyz Republic"
+msgstr "Δημοκρατία της Κιργιζίας"
+
+#. name for LAO
+msgid "Lao People's Democratic Republic"
+msgstr "Λαϊκή Δημοκρατία του Λάος"
+
+#. name for LVA
+msgid "Latvia"
+msgstr "Λεττονία"
+
+#. official_name for LVA
+msgid "Republic of Latvia"
+msgstr "Δημοκρατία της Λετονίας"
+
+#. name for LBN
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#. official_name for LBN
+msgid "Lebanese Republic"
+msgstr "Δημοκρατία του Λιβάνου"
+
+#. name for LSO
+msgid "Lesotho"
+msgstr "Λεσόθο"
+
+#. official_name for LSO
+msgid "Kingdom of Lesotho"
+msgstr "Βασίλειο του Λεσόθο"
+
+#. name for LBR
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#. official_name for LBR
+msgid "Republic of Liberia"
+msgstr "Δημοκρατία της Λιβερίας"
+
+#. name for LBY
+msgid "Libyan Arab Jamahiriya"
+msgstr "Λυβική Αραβική Τζαμαχιρία"
+
+#. official_name for LBY
+msgid "Socialist People's Libyan Arab Jamahiriya"
+msgstr "Σοσιαλιστική Λαϊκή Λιβυκή Αραβική Τζαμαχιρία"
+
+#. common_name for LBY
+#, fuzzy
+msgid "Libya"
+msgstr "Λιβερία"
+
+#. name for LIE
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#. official_name for LIE
+msgid "Principality of Liechtenstein"
+msgstr "Πριγκιπάτο του Λιχτενστάιν"
+
+#. name for LTU
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#. official_name for LTU
+msgid "Republic of Lithuania"
+msgstr "Δημοκρατία της Λιθουανίας"
+
+#. name for LUX
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#. official_name for LUX
+msgid "Grand Duchy of Luxembourg"
+msgstr "Μεγάλο Δουκάτο του Λουξεμβούργου"
+
+#. name for MAC
+msgid "Macao"
+msgstr "Μακάο"
+
+#. official_name for MAC
+msgid "Macao Special Administrative Region of China"
+msgstr "Μακάο Ειδική Διοικητική Περιοχή της Κίνας"
+
+#. name for MKD
+msgid "Macedonia, Republic of"
+msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+
+#. official_name for MKD
+msgid "The Former Yugoslav Republic of Macedonia"
+msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+
+#. name for MDG
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#. official_name for MDG
+msgid "Republic of Madagascar"
+msgstr "Δημοκρατία της Μαδαγασκάρης"
+
+#. name for MWI
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#. official_name for MWI
+msgid "Republic of Malawi"
+msgstr "Δημοκρατία του Μαλάουι"
+
+#. name for MYS
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#. name for MDV
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#. official_name for MDV
+msgid "Republic of Maldives"
+msgstr "Δημοκρατία των Μαλδιβών"
+
+#. name for MLI
+msgid "Mali"
+msgstr "Μάλι"
+
+#. official_name for MLI
+msgid "Republic of Mali"
+msgstr "Δημοκρατία του Μάλι"
+
+#. name for MLT
+msgid "Malta"
+msgstr "Μάλτα"
+
+#. official_name for MLT
+msgid "Republic of Malta"
+msgstr "Δημοκρατία της Μάλτας"
+
+#. name for MHL
+msgid "Marshall Islands"
+msgstr "Νήσοι Μάρσαλ"
+
+#. official_name for MHL
+msgid "Republic of the Marshall Islands"
+msgstr "Δημοκρατία των Νήσων Μάρσαλ"
+
+#. name for MTQ
+msgid "Martinique"
+msgstr "Μαρτινίκα"
+
+#. name for MRT
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#. official_name for MRT
+msgid "Islamic Republic of Mauritania"
+msgstr "Ισλαμική Δημοκρατία της Μαυριτανίας"
+
+#. name for MUS
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#. official_name for MUS
+msgid "Republic of Mauritius"
+msgstr "Δημοκρατία του Μαυρικίου"
+
+#. name for MYT
+msgid "Mayotte"
+msgstr "Μαγιότ"
+
+#. name for MEX
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#. official_name for MEX
+msgid "United Mexican States"
+msgstr "Ηνωμένες Πολιτείες του Μεξικού"
+
+#. name for FSM
+msgid "Micronesia, Federated States of"
+msgstr "Μικρονησία, Ομόσπονδες Πολιτείες της"
+
+#. official_name for FSM
+msgid "Federated States of Micronesia"
+msgstr "Ομόσπονδες Πολιτείες της Μικρονησίας"
+
+#. name for MDA
+#, fuzzy
+msgid "Moldova, Republic of"
+msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+
+#. official_name for MDA
+msgid "Republic of Moldova"
+msgstr "Δημοκρατία της Μολδαβίας"
+
+#. common_name for MDA
+msgid "Moldova"
+msgstr "Μολδαβία"
+
+#. name for MCO
+msgid "Monaco"
+msgstr "Μονακό"
+
+#. official_name for MCO
+msgid "Principality of Monaco"
+msgstr "Πριγκιπάτο του Μονακό"
+
+#. name for MNG
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+#. name for MNE, official_name for MNE
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+#. name for MSR
+msgid "Montserrat"
+msgstr "Μονσεράτ"
+
+#. name for MAR
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#. official_name for MAR
+msgid "Kingdom of Morocco"
+msgstr "Βασίλειο του Μαρόκου"
+
+#. name for MOZ
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#. official_name for MOZ
+msgid "Republic of Mozambique"
+msgstr "Δημοκρατία της Μοζαμβίκης"
+
+#. name for MMR
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#. official_name for MMR
+msgid "Union of Myanmar"
+msgstr "Ένωση του Μιανμάρ"
+
+#. name for NAM
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#. official_name for NAM
+msgid "Republic of Namibia"
+msgstr "Δημοκρατία της Ναμίμπιας"
+
+#. name for NRU
+msgid "Nauru"
+msgstr "Ναουρού"
+
+#. official_name for NRU
+msgid "Republic of Nauru"
+msgstr "Δημοκρατία του Ναουρού"
+
+#. name for NPL
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+#. official_name for NPL
+msgid "Federal Democratic Republic of Nepal"
+msgstr "Ομοσπονδιακή Λαϊκή Δημοκρατία του Νεπάλ"
+
+#. name for NLD
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+# or "Κάτω Χώρες"
+#. official_name for NLD
+msgid "Kingdom of the Netherlands"
+msgstr "Βασίλειο των Κάτω Χωρών"
+
+#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Ολλανδικές Αντίλλες"
+
+#. name for NCL
+msgid "New Caledonia"
+msgstr "Νέα Καληδονία"
+
+#. name for NZL
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+#. name for NIC
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#. official_name for NIC
+msgid "Republic of Nicaragua"
+msgstr "Δημοκρατία της Νικαράγουας"
+
+#. name for NER
+msgid "Niger"
+msgstr "Νίγηρας"
+
+# or "Νίγηρ"
+#. official_name for NER
+msgid "Republic of the Niger"
+msgstr "Δημοκρατία του Νίγηρα"
+
+#. name for NGA
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#. official_name for NGA
+msgid "Federal Republic of Nigeria"
+msgstr "Ομοσπονδιακή Δημοκρατία της Νιγηρίας"
+
+#. name for NIU
+msgid "Niue"
+msgstr "Νίουε"
+
+# or "Νιούε"
+#. official_name for NIU
+msgid "Republic of Niue"
+msgstr "Δημοκρατία του Νίουε"
+
+# or "Δημοκρατία του Νιούε"
+#. name for NFK
+msgid "Norfolk Island"
+msgstr "Νήσος Νόρφολκ"
+
+#. name for MNP
+msgid "Northern Mariana Islands"
+msgstr "Νήσοι Βορείων Μαριάννων"
+
+#. official_name for MNP
+msgid "Commonwealth of the Northern Mariana Islands"
+msgstr "Κοινοπολιτεία των Νήσων Βορείων Μαριάννων"
+
+#. name for NOR
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#. official_name for NOR
+msgid "Kingdom of Norway"
+msgstr "Βασίλειο της Νορβηγίας"
+
+#. name for OMN
+msgid "Oman"
+msgstr "Ομάν"
+
+#. official_name for OMN
+msgid "Sultanate of Oman"
+msgstr "Σουλτανάτο του Ομάν"
+
+#. name for PAK
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#. official_name for PAK
+msgid "Islamic Republic of Pakistan"
+msgstr "Ισλαμική Δημοκρατία του Πακιστάν"
+
+#. name for PLW
+msgid "Palau"
+msgstr "Παλάου"
+
+#. official_name for PLW
+msgid "Republic of Palau"
+msgstr "Δημοκρατία του Παλάου"
+
+#. name for PSE
+msgid "Palestinian Territory, Occupied"
+msgstr "Παλαιστινιακό Έδαφος, Κατεχόμενο"
+
+#. official_name for PSE
+msgid "Occupied Palestinian Territory"
+msgstr "Κατεχόμενο Παλαιστινιακό Έδαφος"
+
+#. name for PAN
+msgid "Panama"
+msgstr "Παναμάς"
+
+#. official_name for PAN
+msgid "Republic of Panama"
+msgstr "Δημοκρατία του Παναμά"
+
+#. name for PNG
+msgid "Papua New Guinea"
+msgstr "Παπούα-Νέα Γουινέα"
+
+# or "Πάπουα-Νέα Γουινέα"
+# or "Παπουασία-Νέα Γουινέα"
+#. name for PRY
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#. official_name for PRY
+msgid "Republic of Paraguay"
+msgstr "Δημοκρατία της Παραγουάης"
+
+#. name for PER
+msgid "Peru"
+msgstr "Περού"
+
+#. official_name for PER
+msgid "Republic of Peru"
+msgstr "Δημοκρατία του Περού"
+
+#. name for PHL
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+#. official_name for PHL
+msgid "Republic of the Philippines"
+msgstr "Δημοκρατία των Φιλιππινών"
+
+#. name for PCN
+msgid "Pitcairn"
+msgstr "Πίτκαϊρν"
+
+# or "Πίτκαιρν"
+# or "Πιτκαίρν"
+#. name for POL
+msgid "Poland"
+msgstr "Πολωνία"
+
+#. official_name for POL
+msgid "Republic of Poland"
+msgstr "Δημοκρατία της Πολωνίας"
+
+#. name for PRT
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#. official_name for PRT
+msgid "Portuguese Republic"
+msgstr "Πορτογαλική Δημοκρατία"
+
+#. name for PRI
+msgid "Puerto Rico"
+msgstr "Πουέρτο Ρίκο"
+
+#. name for QAT
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#. official_name for QAT
+msgid "State of Qatar"
+msgstr "Κράτος του Κατάρ"
+
+#. name for REU
+msgid "Reunion"
+msgstr "Ρεουνιόν"
+
+# or "Ρεϋνιόν"
+#. name for ROU
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#. name for RUS
+msgid "Russian Federation"
+msgstr "Ρωσική Ομοσπονδία"
+
+#. name for RWA
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#. official_name for RWA
+msgid "Rwandese Republic"
+msgstr "Δημοκρατία της Ρουάντα"
+
+#. name for BLM
+msgid "Saint Barthélemy"
+msgstr "Άγιος Βαρθολομαίος"
+
+#. name for SHN
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#. name for KNA
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+#. name for LCA
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#. name for MAF
+msgid "Saint Martin (French part)"
+msgstr "Άγιος Μαρτίνος (Γαλλικό τμήμα)"
+
+#. name for SPM
+msgid "Saint Pierre and Miquelon"
+msgstr "Άγιος Πέτρος και Μικελόν"
+
+#. name for VCT
+msgid "Saint Vincent and the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+#. name for WSM
+msgid "Samoa"
+msgstr "Σαμόα"
+
+#. official_name for WSM
+msgid "Independent State of Samoa"
+msgstr "Ανεξάρτητο Κράτος της Σαμόα"
+
+#. name for SMR
+msgid "San Marino"
+msgstr "Άγιος Μαρίνος"
+
+#. official_name for SMR
+msgid "Republic of San Marino"
+msgstr "Δημοκρατία του Αγίου Μαρίνου"
+
+#. name for STP
+msgid "Sao Tome and Principe"
+msgstr "Σάο Τομέ και Πρίνσιπε"
+
+#. official_name for STP
+msgid "Democratic Republic of Sao Tome and Principe"
+msgstr "Λαϊκή Δημοκρατία του Σάο Τομέ και Πρίνσιπε"
+
+#. name for SAU
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#. official_name for SAU
+msgid "Kingdom of Saudi Arabia"
+msgstr "Βασίλειο της Σαουδικής Αραβίας"
+
+#. name for SEN
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#. official_name for SEN
+msgid "Republic of Senegal"
+msgstr "Δημοκρατία της Σενεγάλης"
+
+#. name for SRB
+msgid "Serbia"
+msgstr "Σερβία"
+
+#. official_name for SRB
+msgid "Republic of Serbia"
+msgstr "Δημοκρατία της Σερβίας"
+
+#. name for SYC
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#. official_name for SYC
+msgid "Republic of Seychelles"
+msgstr "Δημοκρατία των Σεϋχελλών"
+
+#. name for SLE
+msgid "Sierra Leone"
+msgstr "Σιέρρα Λεόνε"
+
+#. official_name for SLE
+msgid "Republic of Sierra Leone"
+msgstr "Δημοκρατία της Σιέρρα Λεόνε"
+
+#. name for SGP
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#. official_name for SGP
+msgid "Republic of Singapore"
+msgstr "Δημοκρατία της Σιγκαπούρης"
+
+#. name for SVK
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+#. official_name for SVK
+msgid "Slovak Republic"
+msgstr "Δημοκρατία της Σλοβακίας"
+
+#. name for SVN
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#. official_name for SVN
+msgid "Republic of Slovenia"
+msgstr "Δημοκρατία της Σλοβενίας"
+
+#. name for SLB
+msgid "Solomon Islands"
+msgstr "Νήσοι Σολομώντος"
+
+#. name for SOM
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#. official_name for SOM
+msgid "Somali Republic"
+msgstr "Δημοκρατία της Σομαλίας"
+
+#. name for ZAF
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#. official_name for ZAF
+msgid "Republic of South Africa"
+msgstr "Δημοκρατία της Νότιας Αφρικής"
+
+#. name for SGS
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Νότια Γεωργία και Νήσοι Νότιες Σάντουιτς"
+
+#. name for ESP
+msgid "Spain"
+msgstr "Ισπανία"
+
+#. official_name for ESP
+msgid "Kingdom of Spain"
+msgstr "Βασίλειο της Ισπανίας"
+
+#. name for LKA
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#. official_name for LKA
+msgid "Democratic Socialist Republic of Sri Lanka"
+msgstr "Λαϊκή Σοσιαλιστική Δημοκρατία της Σρι Λάνκα"
+
+#. name for SDN
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#. official_name for SDN
+msgid "Republic of the Sudan"
+msgstr "Δημοκρατία του Σουδάν"
+
+#. name for SUR
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+#. official_name for SUR
+msgid "Republic of Suriname"
+msgstr "Δημοκρατία του Σουρινάμ"
+
+#. name for SJM
+msgid "Svalbard and Jan Mayen"
+msgstr "Σβάλμπαρντ και Γιαν Μαγέν"
+
+#. name for SWZ
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+#. official_name for SWZ
+msgid "Kingdom of Swaziland"
+msgstr "Βασίλειο της Σουαζιλάνδης"
+
+#. name for SWE
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#. official_name for SWE
+msgid "Kingdom of Sweden"
+msgstr "Βασίλειο της Σουηδίας"
+
+#. name for CHE
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#. official_name for CHE
+msgid "Swiss Confederation"
+msgstr "Ελβετική Συνομοσπονδία"
+
+#. name for SYR
+msgid "Syrian Arab Republic"
+msgstr "Αραβική Δημοκρατία της Συρίας"
+
+#. name for TWN, official_name for TWN
+msgid "Taiwan, Province of China"
+msgstr "Ταϊβάν, Επαρχία της Κίνας"
+
+#. common_name for TWN
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+#. name for TJK
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+#. official_name for TJK
+msgid "Republic of Tajikistan"
+msgstr "Δημοκρατία του Τατζικιστάν"
+
+#. name for TZA
+msgid "Tanzania, United Republic of"
+msgstr "Τανζανία, Ενωμένη Δημοκρατία της"
+
+#. official_name for TZA
+msgid "United Republic of Tanzania"
+msgstr "Ενωμένη Δημοκρατία της Τανζανίας"
+
+#. name for THA
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#. official_name for THA
+msgid "Kingdom of Thailand"
+msgstr "Βασίλειο της Ταϊλάνδης"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Τιμόρ-Λέστε"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Λαϊκη Δημοκρατία του Ανατολικού Τιμόρ"
+
+#. name for TGO
+msgid "Togo"
+msgstr "Τόγκο"
+
+#. official_name for TGO
+msgid "Togolese Republic"
+msgstr "Δημοκρατία του Τόγκο"
+
+#. name for TKL
+msgid "Tokelau"
+msgstr "Τοκελάου"
+
+#. name for TON
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+#. official_name for TON
+msgid "Kingdom of Tonga"
+msgstr "Βασίλειο της Τόνγκα"
+
+#. name for TTO
+msgid "Trinidad and Tobago"
+msgstr "Τρινιδάδ και Τομπάγκο"
+
+#. official_name for TTO
+msgid "Republic of Trinidad and Tobago"
+msgstr "Δημοκρατία Τρινιδάδ και Τομπάγκο"
+
+#. name for TUN
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#. official_name for TUN
+msgid "Republic of Tunisia"
+msgstr "Δημοκρατία της Τυνησίας"
+
+#. name for TUR
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#. official_name for TUR
+msgid "Republic of Turkey"
+msgstr "Δημοκρατία της Τουρκίας"
+
+#. name for TKM
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#. name for TCA
+msgid "Turks and Caicos Islands"
+msgstr "Νήσοι Τουρκς και Κάικος"
+
+#. name for TUV
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#. name for UGA
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#. official_name for UGA
+msgid "Republic of Uganda"
+msgstr "Δημοκρατία της Ουγκάντας"
+
+#. name for UKR
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#. name for ARE
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+# or "Ενωμένα Αραβικά Εμιράτα"
+#. name for GBR
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#. official_name for GBR
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr "Ηνωμένο Βασίλειο της Μεγάλης Βρετανίας και της Βόρειας Ιρλανδίας"
+
+#. name for USA
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+#. official_name for USA
+msgid "United States of America"
+msgstr "Ηνωμένες Πολιτείες της Αμερικής"
+
+#. name for UMI
+msgid "United States Minor Outlying Islands"
+msgstr "Μικρές Νήσοι απομεμακρυσμένες από τις Ηνωμένες Πολιτείες"
+
+#. name for URY
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#. official_name for URY
+msgid "Eastern Republic of Uruguay"
+msgstr "Ανατολική Δημοκρατία της Ουρουγουάης"
+
+#. name for UZB
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#. official_name for UZB
+msgid "Republic of Uzbekistan"
+msgstr "Δημοκρατία του Ουζμπεκιστάν"
+
+#. name for VUT
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+#. official_name for VUT
+msgid "Republic of Vanuatu"
+msgstr "Δημοκρατία του Βανουάτου"
+
+#. name for VEN
+#, fuzzy
+msgid "Venezuela, Bolivarian republic of"
+msgstr "Βολιβαριανή Δημοκρατία της Βενεζουέλας"
+
+#. official_name for VEN
+msgid "Bolivarian Republic of Venezuela"
+msgstr "Βολιβαριανή Δημοκρατία της Βενεζουέλας"
+
+#. common_name for VEN
+msgid "Venezuela"
+msgstr "Βενεζουέλα"
+
+#. name for VNM
+msgid "Viet Nam"
+msgstr "Βιετνάμ"
+
+#. official_name for VNM
+msgid "Socialist Republic of Viet Nam"
+msgstr "Σοσιαλιστική Δημοκρατία του Βιετνάμ"
+
+#. name for VGB
+msgid "Virgin Islands, British"
+msgstr "Παρθένοι Νήσοι, Βρετανικές"
+
+#. official_name for VGB
+msgid "British Virgin Islands"
+msgstr "Βρετανικές Παρθένοι Νήσοι"
+
+#. name for VIR
+msgid "Virgin Islands, U.S."
+msgstr "Παρθένοι Νήσοι, Η.Π.Α."
+
+#. official_name for VIR
+msgid "Virgin Islands of the United States"
+msgstr "Παρθένοι Νήσοι των Ηνωμένων Πολιτειών"
+
+#. name for WLF
+msgid "Wallis and Futuna"
+msgstr "Ουώλλις και Φουτούνα"
+
+#. name for ESH
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+#. name for YEM
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#. official_name for YEM
+msgid "Republic of Yemen"
+msgstr "Δημοκρατία της Υεμένης"
+
+#. name for ZMB
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#. official_name for ZMB
+msgid "Republic of Zambia"
+msgstr "Δημοκρατία της Ζάμπιας"
+
+#. name for ZWE
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#. official_name for ZWE
+msgid "Republic of Zimbabwe"
+msgstr "Δημοκρατία της Ζιμπάμπουε"
+
+#. historic names for ATB (withdrawn 1979)
+msgid "British Antarctic Territory"
+msgstr "Εδάφος της Βρετανικής Ανταρκτικής"
+
+#. historic names for BUR (withdrawn 1989-12-05)
+msgid "Burma, Socialist Republic of the Union of"
+msgstr "Βιρμανία, Σοσιαλιστική Δημοκρατία της Ένωσης της"
+
+#. historic names for BYS (withdrawn 1992-06-15)
+msgid "Byelorussian SSR Soviet Socialist Republic"
+msgstr "Λευκορωσική ΣΣΔ Σοβιετική Σοσιαλιστική Δημοκρατία"
+
+#. historic names for CTE (withdrawn 1984)
+msgid "Canton and Enderbury Islands"
+msgstr "Νήσοι Καντόν και Εντερμπέρυ"
+
+#. historic names for CSK (withdrawn 1993-06-15)
+msgid "Czechoslovakia, Czechoslovak Socialist Republic"
+msgstr "Τσεχοσλοβακία, Τσεχοσλοβάκικη Σοσιαλιστική Δημοκρατία"
+
+#. historic names for DHY (withdrawn 1977)
+msgid "Dahomey"
+msgstr "Νταχόμεϋ"
+
+#. historic names for ATN (withdrawn 1983)
+msgid "Dronning Maud Land"
+msgstr "Γη του Ντρόνινγκ Μάουντ"
+
+#. historic names for TMP (withdrawn 2002-05-20)
+msgid "East Timor"
+msgstr "Ανατολικό Τιμόρ"
+
+#. historic names for FXX (withdrawn 1997-07-14)
+msgid "France, Metropolitan"
+msgstr "Γαλλία, Μητροπολιτική"
+
+#. historic names for AFI (withdrawn 1977)
+msgid "French Afars and Issas"
+msgstr "Γαλλικοί Αφάρ και Ισσά"
+
+#. historic names for ATF (withdrawn 1979)
+msgid "French Southern and Antarctic Territories"
+msgstr "Γαλλικά Νότια και Ανταρκτικά Εδάφη"
+
+#. historic names for DDR (withdrawn 1990-10-30)
+msgid "German Democratic Republic"
+msgstr "Λαϊκή Δημοκρατία της Γερμανίας"
+
+#. historic names for DEU (withdrawn 1990-10-30)
+msgid "Germany, Federal Republic of"
+msgstr "Γερμανία, Ομοσπονδιακή Δημοκρατία της"
+
+#. historic names for GEL (withdrawn 1979)
+msgid "Gilbert and Ellice Islands"
+msgstr "Νήσοι Γκίλμπερτ και Έλλις"
+
+#. historic names for JTN (withdrawn 1986)
+msgid "Johnston Island"
+msgstr "Νήσος Τζόνστον"
+
+#. historic names for MID (withdrawn 1986)
+msgid "Midway Islands"
+msgstr "Νήσοι Μίντγουεϊ"
+
+#. historic names for NTZ (withdrawn 1993-07-12)
+msgid "Neutral Zone"
+msgstr "Ουδέτερη Ζώνη"
+
+#. historic names for NHB (withdrawn 1980)
+msgid "New Hebrides"
+msgstr "Νέες Εβρίδες"
+
+#. historic names for PCI (withdrawn 1986)
+msgid "Pacific Islands (trust territory)"
+msgstr "Νήσοι Ειρηνικού (εδάφη υπό κηδεμονία)"
+
+#. historic names for PAN (withdrawn 1993-07-22)
+msgid "Panama, Republic of"
+msgstr "Παναμάς, Δημοκρατία του"
+
+#. historic names for PCZ (withdrawn 1980)
+msgid "Panama Canal Zone"
+msgstr "Ζώνη Διώρυγας του Παναμά"
+
+#. historic names for ROM (withdrawn 2002-02-01)
+msgid "Romania, Socialist Republic of"
+msgstr "Ρουμανία, Σοσιαλιστική Δημοκρατία της"
+
+#. historic names for KNA (withdrawn 1988)
+msgid "St. Kitts-Nevis-Anguilla"
+msgstr "Άγιος Χριστόφορος-Νέβις-Ανγκουίλα"
+
+#. historic names for SCG (withdrawn 2006-06-05)
+msgid "Serbia and Montenegro"
+msgstr "Σερβία και Μαυροβούνιο"
+
+#. historic names for SKM (withdrawn 1975)
+msgid "Sikkim"
+msgstr "Σικκίμ"
+
+#. historic names for RHO (withdrawn 1980)
+msgid "Southern Rhodesia"
+msgstr "Νότια Ροδεσία"
+
+#. historic names for ESH (withdrawn 1988)
+msgid "Spanish Sahara"
+msgstr "Ισπανική Σαχάρα"
+
+#. historic names for PUS (withdrawn 1986)
+msgid "US Miscellaneous Pacific Islands"
+msgstr "Διάφορες Νήσοι Ειρινικού Ηνωμένων Πολιτειών"
+
+#. historic names for SUN (withdrawn 1992-08-30)
+msgid "USSR, Union of Soviet Socialist Republics"
+msgstr "ΕΣΣΔ, Ένωση Σοβιετικών Σοσιαλιστικών Δημοκρατιών"
+
+#. historic names for HVO (withdrawn 1984)
+msgid "Upper Volta, Republic of"
+msgstr "Άνω Βόλτα, Δημοκρατία της"
+
+#. historic names for VAT (withdrawn 1996-04-03)
+msgid "Vatican City State (Holy See)"
+msgstr "Κράτος της Πόλεως του Βατικανού (Αγία Έδρα)"
+
+#. historic names for VDR (withdrawn 1977)
+msgid "Viet-Nam, Democratic Republic of"
+msgstr "Βιετνάμ, Λαϊκη Δημοκρατία του"
+
+#. historic names for WAK (withdrawn 1986)
+msgid "Wake Island"
+msgstr "Νήσος Γουέικ"
+
+#. historic names for YMD (withdrawn 1990-08-14)
+msgid "Yemen, Democratic, People's Democratic Republic of"
+msgstr "Υεμένη, Δημοκρατική, Λαϊκη Δημοκρατία της"
+
+#. historic names for YEM (withdrawn 1990-08-14)
+msgid "Yemen, Yemen Arab Republic"
+msgstr "Υεμένη, Υεμενίτικη Αραβική Δημοκρατία"
+
+#. historic names for YUG (withdrawn 1993-07-28)
+msgid "Yugoslavia, Socialist Federal Republic of"
+msgstr "Γιουγκοσλαβία, Σοσιαλιστική Ομόσπονδη Δημοκρατία της"
+
+#. historic names for ZAR (withdrawn 1997-07-14)
+msgid "Zaire, Republic of"
+msgstr "Ζαΐρ, Δημοκρατία του"
