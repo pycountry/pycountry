@@ -5,7 +5,7 @@
 """Generic database code."""
 
 import logging
-import lxml.etree
+from xml.dom import minidom
 
 logger = logging.getLogger('pycountry.db')
 
@@ -35,12 +35,14 @@ class Database(object):
                                {})
 
         f = open(filename, 'rb')
-        etree = lxml.etree.parse(f)
 
-        for entry in etree.xpath('//%s' % self.xml_tag):
+        tree = minidom.parse(f)
+
+        for entry in tree.getElementsByTagName(self.xml_tag):
             mapped_data = {}
-            for key in entry.keys():
-                mapped_data[self.field_map[key]] = entry.get(key)
+            for key in entry.attributes.keys():
+                mapped_data[self.field_map[key]] = (
+                    entry.attributes.get(key).value)
             entry_obj = self.data_class(entry, **mapped_data)
             self.objects.append(entry_obj)
 

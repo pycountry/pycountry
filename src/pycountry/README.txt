@@ -44,15 +44,15 @@ information included in the standard as attributes:
   >>> germany
   <pycountry.db.Country object at 0x...>
   >>> germany.alpha2
-  'DE'
+  u'DE'
   >>> germany.alpha3
-  'DEU'
+  u'DEU'
   >>> germany.numeric
-  '276'
+  u'276'
   >>> germany.name
-  'Germany'
+  u'Germany'
   >>> germany.official_name
-  'Federal Republic of Germany'
+  u'Federal Republic of Germany'
 
 Note that historic countries, defined by the ISO 3166-3 sub-standard are not
 included in this list.
@@ -75,11 +75,11 @@ their code, name and type:
 
   >>> de_st= pycountry.subdivisions.get(code='DE-ST')
   >>> de_st.code
-  'DE-ST'
+  u'DE-ST'
   >>> de_st.name
-  'Sachsen-Anhalt'
+  u'Sachsen-Anhalt'
   >>> de_st.type
-  'State'
+  u'State'
   >>> de_st.country
   <pycountry.db.Country object at 0x...>
 
@@ -87,13 +87,13 @@ Some subdivisions specify another subdivision as a parent:
 
   >>> al_br = pycountry.subdivisions.get(code='AL-BU')
   >>> al_br.code
-  'AL-BU'
+  u'AL-BU'
   >>> al_br.name
   u'Bulqiz\xeb'
   >>> al_br.type
-  'District'
+  u'District'
   >>> al_br.parent_code
-  'AL-09'
+  u'AL-09'
   >>> al_br.parent
   <pycountry.db.Subdivision object at 0x...>
   >>> al_br.parent.name
@@ -122,11 +122,11 @@ Scripts are available from a database similar to the countries:
   >>> latin
   <pycountry.db.Script object at 0x...>
   >>> latin.alpha4
-  'Latn'
+  u'Latn'
   >>> latin.name
-  'Latin'
+  u'Latin'
   >>> latin.numeric
-  '215'
+  u'215'
 
 
 Currencies (ISO 4217)
@@ -143,11 +143,11 @@ The currencies database is, again, similar to the ones before:
   >>> argentine_peso
   <pycountry.db.Currency object at 0x...>
   >>> argentine_peso.letter
-  'ARS'
+  u'ARS'
   >>> argentine_peso.name
-  'Argentine Peso'
+  u'Argentine Peso'
   >>> argentine_peso.numeric
-  '032'
+  u'032'
 
 
 Languages (ISO 639)
@@ -162,13 +162,13 @@ The languages database is similar too:
 
   >>> aragonese = pycountry.languages.get(alpha2='an')
   >>> aragonese.alpha2
-  'an'
+  u'an'
   >>> aragonese.bibliographic
-  'arg'
+  u'arg'
   >>> aragonese.terminology
-  'arg'
+  u'arg'
   >>> aragonese.name
-  'Aragonese'
+  u'Aragonese'
 
 Locales
 =======

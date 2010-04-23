@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version = '0.13dev',
+    version='0.13dev',
     author='Christian Theune',
     author_email='ct@gocept.com',
     description='ISO country, subdivision, language, currency and script '
@@ -22,5 +22,4 @@ setup(
     zip_safe=False,
     packages=find_packages('src'),
     include_package_data=True,
-    package_dir={'': 'src'},
-    install_requires=['lxml'])
+    package_dir={'': 'src'})
