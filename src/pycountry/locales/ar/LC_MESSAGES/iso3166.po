@@ -5,20 +5,23 @@
 #
 # Alastair McKinstry <mckinstry@computer.org>, 2002F.
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2008-06-21 06:31+0300\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2010-08-14 15:04+0300\n"
 "Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
 "Language-Team: Arabic <support@arabeyes.org>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -190,15 +193,19 @@ msgstr "مملكة بوتان"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "جمهورية بوليفيا"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "جمهورية بوليفيا"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "بوليفيا"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -387,6 +394,10 @@ msgstr "كوبا"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "جمهوريّة كوبا"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -845,9 +856,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "الجماهيريّة العربيّة اللّيبيّة الشّعبيّة الاشتراكيّة"
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "ليبيريا"
+msgstr "ليبيا"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -982,9 +992,8 @@ msgid "Federated States of Micronesia"
 msgstr "ولايات ميكرونيزيا الموحّدة"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "مقدونيا، جمهوريّة مقدونيا اليوغوسلافيّة السّابقة"
+msgstr "جمهورية مولدوفا"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1059,9 +1068,8 @@ msgid "Nepal"
 msgstr "نيبال"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "جمهوريّة إثيوبيا الدّيموقراطيّة الاتّحاديّة"
+msgstr "جمهورية النيبال الاتحادية الديموقراطيّة"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1070,10 +1078,6 @@ msgstr "هولندا"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "مملكة هولندا"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "أنتيل هولندا"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1261,7 +1265,7 @@ msgstr "سان بارتليمي"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "ساينت هيلينا، تريستان دا كونا"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1354,6 +1358,16 @@ msgstr "سنغافورة"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "جمهوريّة سنغافورة"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "سان بارتليمي"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "سانت مارتين (القطاع الفرنسي)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1616,9 +1630,8 @@ msgid "Republic of Vanuatu"
 msgstr "جمهوريّة فانواتو"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
-msgstr "جمهوريّة فنزويلّا"
+msgstr "جمهورية فنزويلا البوليفارية"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1747,6 +1760,10 @@ msgstr "جزيرة جونستون"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "جزر ميدواي"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "أنتيل هولندا"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

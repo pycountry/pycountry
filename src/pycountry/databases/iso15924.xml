@@ -38,6 +38,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 
 <iso_15924_entries>
 	<iso_15924_entry
+		alpha_4_code="Afak"
+		numeric_code="439"
+		name="Afaka" />
+	<iso_15924_entry
 		alpha_4_code="Arab"
 		numeric_code="160"
 		name="Arabic" />
@@ -146,6 +150,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="250"
 		name="Deseret (Mormon)" />
 	<iso_15924_entry
+		alpha_4_code="Dupl"
+		numeric_code="755"
+	   name="Duployan shorthand, Duployan stenography" />
+	<iso_15924_entry
 		alpha_4_code="Egyd"
 		numeric_code="070"
 		name="Egyptian demotic" />
@@ -157,6 +165,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Egyp"
 		numeric_code="050"
 		name="Egyptian hieroglyphs" />
+	<iso_15924_entry
+		alpha_4_code="Elba"
+		numeric_code="226"
+		name="Elbasan" />
 	<iso_15924_entry
 		alpha_4_code="Ethi"
 		numeric_code="430"
@@ -249,6 +261,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Jpan"
 		numeric_code="413"
 		name="Japanese (alias for Han + Hiragana + Katakana)" />
+	<iso_15924_entry
+		alpha_4_code="Jurc"
+		numeric_code="510"
+		name="Jurchen" />
 	<iso_15924_entry
 		alpha_4_code="Kali"
 		numeric_code="357"
@@ -370,6 +386,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="145"
 		name="Mongolian" />
 	<iso_15924_entry
+		alpha_4_code="Mroo"
+		numeric_code="199"
+		name="Mro, Mru" />
+	<iso_15924_entry
 		alpha_4_code="Mtei"
 		numeric_code="337"
 		name="Meitei Mayek (Meithei, Meetei)" />
@@ -393,6 +413,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Nkoo"
 		numeric_code="165"
 		name="N’Ko" />
+	<iso_15924_entry
+		alpha_4_code="Nshu"
+		numeric_code="499"
+		name="Nüshu" />
 	<iso_15924_entry
 		alpha_4_code="Ogam"
 		numeric_code="212"
@@ -494,9 +518,21 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="281"
 		name="Shavian (Shaw)" />
 	<iso_15924_entry
+		alpha_4_code="Shrd"
+		numeric_code="319"
+		name="Sharada, Śāradā" />
+	<iso_15924_entry
+		alpha_4_code="Sind"
+		numeric_code="318"
+		name="Khudawadi, Sindhi" />
+	<iso_15924_entry
 		alpha_4_code="Sinh"
 		numeric_code="348"
 		name="Sinhala" />
+	<iso_15924_entry
+		alpha_4_code="Sora"
+		numeric_code="398"
+		name="Sora Sompeng" />
 	<iso_15924_entry
 		alpha_4_code="Sund"
 		numeric_code="362"
@@ -526,6 +562,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="373"
 		name="Tagbanwa" />
 	<iso_15924_entry
+		alpha_4_code="Takr"
+		numeric_code="321"
+		name="Takri, Ṭākrī, Ṭāṅkrī" />
+	<iso_15924_entry
 		alpha_4_code="Tale"
 		numeric_code="353"
 		name="Tai Le" />
@@ -537,6 +577,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Taml"
 		numeric_code="346"
 		name="Tamil" />
+	<iso_15924_entry
+		alpha_4_code="Tang"
+		numeric_code="520"
+		name="Tangut" />
 	<iso_15924_entry
 		alpha_4_code="Tavt"
 		numeric_code="359"
@@ -585,6 +629,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Wara"
 		numeric_code="262"
 		name="Warang Citi (Varang Kshiti)" />
+	<iso_15924_entry
+		alpha_4_code="Wole"
+		numeric_code="480"
+		name="Woleai" />
 	<iso_15924_entry
 		alpha_4_code="Xpeo"
 		numeric_code="030"

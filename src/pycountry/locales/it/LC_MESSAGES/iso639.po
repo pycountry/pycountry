@@ -6,12 +6,14 @@
 # Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639-3.15\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
 "PO-Revision-Date: 2010-04-05 11:52+0200\n"
 "Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -357,8 +359,12 @@ msgid "Cherokee"
 msgstr "Cherokee"
 
 #. name for chu, cu
-msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
-msgstr "Slavico ecclesiasito; Slavico antico; Slavonico ecclesiastico; Bulgaro antico; Slavonico ecclesiastico antico"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
+"Slavico ecclesiasito; Slavico antico; Slavonico ecclesiastico; Bulgaro "
+"antico; Slavonico ecclesiastico antico"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -1959,102 +1965,3 @@ msgstr "Nessun contenuto linguistico; non applicabile"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
-
-#~ msgid "Bihari"
-#~ msgstr "Bihari"
-
-#~ msgid "Himachali"
-#~ msgstr "Himachali"
-
-#~ msgid "Afro-Asiatic (Other)"
-#~ msgstr "Afro-asiatica (altra lingua)"
-
-#~ msgid "Artificial (Other)"
-#~ msgstr "Artificiale (altra lingua)"
-
-#~ msgid "Baltic (Other)"
-#~ msgstr "Baltico (altra lingua)"
-
-#~ msgid "Berber (Other)"
-#~ msgstr "Berbero (altra lingua)"
-
-#~ msgid "Bantu (Other)"
-#~ msgstr "Bantu (altra lingua)"
-
-#~ msgid "Caucasian (Other)"
-#~ msgstr "Caucasico (altra lingua)"
-
-#~ msgid "Celtic (Other)"
-#~ msgstr "Celtico (altra lingua)"
-
-#~ msgid "Cushitic (Other)"
-#~ msgstr "Cuscitico (altra lingua)"
-
-#~ msgid "Dravidian (Other)"
-#~ msgstr "Dravidiano (altra lingua)"
-
-#~ msgid "Finno-Ugrian (Other)"
-#~ msgstr "Finno-Ugrian (altra lingua)"
-
-#~ msgid "Germanic (Other)"
-#~ msgstr "Germanico (altra lingua)"
-
-#~ msgid "Indic (Other)"
-#~ msgstr "Indic (altra lingua)"
-
-#~ msgid "Indo-European (Other)"
-#~ msgstr "Indoeuropeo (altra lingua)"
-
-#~ msgid "Iranian (Other)"
-#~ msgstr "Iraniano (altra lingua)"
-
-#~ msgid "Khoisan (Other)"
-#~ msgstr "Khoisan (altra lingua)"
-
-#~ msgid "Austronesian (Other)"
-#~ msgstr "Austronesiano (altra lingua)"
-
-#~ msgid "Mon-Khmer (Other)"
-#~ msgstr "Mon-khmer (altra lingua)"
-
-#~ msgid "Papuan (Other)"
-#~ msgstr "Papuano (altra lingua)"
-
-#~ msgid "Philippine (Other)"
-#~ msgstr "Filippino (altra lingua)"
-
-#~ msgid "Romance (Other)"
-#~ msgstr "Lingua romanza (altra lingua)"
-
-#~ msgid "Semitic (Other)"
-#~ msgstr "Semitico (altra lingua)"
-
-#~ msgid "Sino-Tibetan (Other)"
-#~ msgstr "Sino-tibetano (altra lingua)"
-
-#~ msgid "Slavic (Other)"
-#~ msgstr "Slavo (altra lingua)"
-
-#~ msgid "Sami languages (Other)"
-#~ msgstr "Lingue sami (altra lingua)"
-
-#~ msgid "Nilo-Saharan (Other)"
-#~ msgstr "Nilo-Saharan (altra lingua)"
-
-#~ msgid "Tai (Other)"
-#~ msgstr "Thailandese (altra lingua)"
-
-#~ msgid "Altaic (Other)"
-#~ msgstr "Altaico (altra lingua)"
-
-#~ msgid "Newari; Nepal Bhasa"
-#~ msgstr "Newari; Nepal Bhasa"
-
-#~ msgid "Norwegian Bokmål; Bokmål, Norwegian"
-#~ msgstr "Bokmål norvegese"
-
-#~ msgid "Northern Sotho, Pedi; Sepedi"
-#~ msgstr "Sotho del Nord"
-
-#~ msgid "Walamo"
-#~ msgstr "Walamo"

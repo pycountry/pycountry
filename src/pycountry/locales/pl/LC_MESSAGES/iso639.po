@@ -11,12 +11,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2010-04-05 15:30+0200\n"
+"PO-Revision-Date: 2011-04-27 12:25+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -107,7 +109,8 @@ msgstr "arabski"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr "aramejski oficjalny (700-300 p.n.e.); aramejski cesarski (700-300 p.n.e.)"
+msgstr ""
+"aramejski oficjalny (700-300 p.n.e.); aramejski cesarski (700-300 p.n.e.)"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -115,7 +118,7 @@ msgstr "aragoński"
 
 #. name for hye, hy
 msgid "Armenian"
-msgstr "armeński"
+msgstr "ormiański"
 
 #. name for arn
 msgid "Mapudungun; Mapuche"
@@ -279,7 +282,7 @@ msgstr "bugijski"
 
 #. name for bul, bg
 msgid "Bulgarian"
-msgstr "Bułgarski"
+msgstr "bułgarski"
 
 #. name for mya, my
 msgid "Burmese"
@@ -362,8 +365,12 @@ msgid "Cherokee"
 msgstr "czerokeski"
 
 #. name for chu, cu
-msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
-msgstr "cerkiewnosłowiański; starosłowiański; starobułgarski; staro-cerkiewno-słowiański"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
+"cerkiewnosłowiański; starosłowiański; starobułgarski; staro-cerkiewno-"
+"słowiański"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -795,7 +802,7 @@ msgstr "ilokano"
 
 #. name for ina, ia
 msgid "Interlingua (International Auxiliary Language Association)"
-msgstr "interlingua (Międzynarodowe Stowarzyszenie Języków Sztucznych)"
+msgstr "interlingua (Międzynarodowe Stowarzyszenie Języka Pomocniczego)"
 
 #. name for inc
 msgid "Indic languages"
@@ -987,7 +994,7 @@ msgstr "kutenai"
 
 #. name for lad
 msgid "Ladino"
-msgstr "ladyński"
+msgstr "ladino"
 
 #. name for lah
 msgid "Lahnda"
@@ -1423,7 +1430,8 @@ msgstr "prakryty"
 
 #. name for pro
 msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
-msgstr "prowansalski średniowieczny (do 1500); okcytański średniowieczny (do 1500)"
+msgstr ""
+"prowansalski średniowieczny (do 1500); okcytański średniowieczny (do 1500)"
 
 #. name for pus, ps
 msgid "Pushto; Pashto"
@@ -1659,7 +1667,7 @@ msgstr "sukuma"
 
 #. name for sun, su
 msgid "Sundanese"
-msgstr "sudański"
+msgstr "sundajski"
 
 #. name for sus
 msgid "Susu"

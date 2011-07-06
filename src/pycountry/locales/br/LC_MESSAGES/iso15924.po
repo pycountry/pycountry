@@ -8,16 +8,21 @@
 # Jamy <jamybzh@free.fr>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 3.15\n"
+"Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-28 13:02+0200\n"
+"POT-Creation-Date: 2010-12-23 20:41+0100\n"
 "PO-Revision-Date: 2009-04-18 19:58+0000\n"
 "Last-Translator: Denis <Unknown>\n"
 "Language-Team: Breton <brenux@free.fr>\n"
+"Language: br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. name for Afak
+msgid "Afaka"
+msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -127,6 +132,10 @@ msgstr "Devanagari (Nagari)"
 msgid "Deseret (Mormon)"
 msgstr "Deseret (Mormon)"
 
+#. name for Dupl
+msgid "Duployan shorthand, Duployan stenography"
+msgstr ""
+
 #. name for Egyd
 msgid "Egyptian demotic"
 msgstr "Ejipteg demotek"
@@ -138,6 +147,10 @@ msgstr "Ejipteg Hieratik"
 #. name for Egyp
 msgid "Egyptian hieroglyphs"
 msgstr "Hieroglifoù Ejipt"
+
+#. name for Elba
+msgid "Elbasan"
+msgstr ""
 
 #. name for Ethi
 msgid "Ethiopic (Geʻez)"
@@ -230,6 +243,10 @@ msgstr "Javaeg"
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
 msgstr "Japaneg (lesanv evit Han + Hiragana + Katakana)"
+
+#. name for Jurc
+msgid "Jurchen"
+msgstr ""
 
 #. name for Kali
 msgid "Kayah Li"
@@ -352,6 +369,10 @@ msgstr "Skritur Moon"
 msgid "Mongolian"
 msgstr "Mongoleg"
 
+#. name for Mroo
+msgid "Mro, Mru"
+msgstr ""
+
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "Meitei Mayek (Meithei, Meetei)"
@@ -375,6 +396,10 @@ msgstr ""
 #. name for Nkoo
 msgid "N’Ko"
 msgstr "Skritur nkoek"
+
+#. name for Nshu
+msgid "Nüshu"
+msgstr ""
 
 #. name for Ogam
 msgid "Ogham"
@@ -478,9 +503,21 @@ msgstr "Sinskridur"
 msgid "Shavian (Shaw)"
 msgstr "shavianeg (Shaw)"
 
+#. name for Shrd
+msgid "Sharada, Śāradā"
+msgstr ""
+
+#. name for Sind
+msgid "Khudawadi, Sindhi"
+msgstr ""
+
 #. name for Sinh
 msgid "Sinhala"
 msgstr "Sinhaleg"
+
+#. name for Sora
+msgid "Sora Sompeng"
+msgstr ""
 
 #. name for Sund
 msgid "Sundanese"
@@ -510,6 +547,10 @@ msgstr "Sirieg (Reter)"
 msgid "Tagbanwa"
 msgstr "Tagbanwa"
 
+#. name for Takr
+msgid "Takri, Ṭākrī, Ṭāṅkrī"
+msgstr ""
+
 #. name for Tale
 msgid "Tai Le"
 msgstr "Tai Le"
@@ -521,6 +562,10 @@ msgstr "Tai Lue nevez"
 #. name for Taml
 msgid "Tamil"
 msgstr "Tamileg"
+
+#. name for Tang
+msgid "Tangut"
+msgstr ""
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -568,6 +613,10 @@ msgstr "Komz a wel"
 
 #. name for Wara
 msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
+#. name for Wole
+msgid "Woleai"
 msgstr ""
 
 #. name for Xpeo

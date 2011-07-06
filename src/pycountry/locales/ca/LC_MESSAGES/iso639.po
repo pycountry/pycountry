@@ -1,25 +1,27 @@
-# Translation of ISO-639 (language names) to Catalan (Valencian)
-#
+# Translation of ISO-639 (language names) to Catalan
 # This file is distributed under the same license as the iso-codes package.
-#
 # Copyright (C)
-#   Free Software Foundation, Inc., 2002,2004
-#   Softcatalà <info@softcatala.org>, 2000-2001
-#   Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
-#   Toni Hermoso Pulido <toniher@softcatala.org>, 2009.
-#   David Planella <david.planella@gmail.com>, 2010.
+# Free Software Foundation, Inc., 2002,2004
+# Softcatalà <info@softcatala.org>, 2000-2001
+# Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# Toni Hermoso Pulido <toniher@softcatala.cat>, 2010.
+# Toni Hermoso Pulido <toniher@softcatala.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2010-02-27 13:17+0100\n"
-"Last-Translator: David Planella <david.planella@gmail.com>\n"
-"Language-Team: Catalan <linux@softcatala.org>\n"
+"PO-Revision-Date: 2010-09-07 10:38+0200\n"
+"Last-Translator: Toni Hermoso Pulido <toniher@softcatala.org>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
 
 #. name for aar, aa
 msgid "Afar"
@@ -91,7 +93,7 @@ msgstr "amhàric"
 
 #. name for ang
 msgid "English, Old (ca. 450-1100)"
-msgstr "anglés antic (ca. 450-1100)"
+msgstr "anglès antic (ca. 450-1100)"
 
 #. name for anp
 msgid "Angika"
@@ -195,7 +197,7 @@ msgstr "balinès"
 
 #. name for eus, eu
 msgid "Basque"
-msgstr "basc"
+msgstr "basc; èuscar"
 
 #. name for bas
 msgid "Basa"
@@ -230,9 +232,8 @@ msgid "Bhojpuri"
 msgstr "bhojpuri"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "llengües tai"
+msgstr "llengües biharis"
 
 #. name for bik
 msgid "Bikol"
@@ -252,7 +253,7 @@ msgstr "siksika; peus negres"
 
 #. name for bnt
 msgid "Bantu languages"
-msgstr "llengües bantu"
+msgstr "llengües bantus"
 
 #. name for bos, bs
 msgid "Bosnian"
@@ -264,11 +265,11 @@ msgstr "braj"
 
 #. name for bre, br
 msgid "Breton"
-msgstr "francès"
+msgstr "bretó"
 
 #. name for btk
 msgid "Batak languages"
-msgstr "llengües batak"
+msgstr "llengües bataks"
 
 #. name for bua
 msgid "Buriat"
@@ -336,7 +337,7 @@ msgstr "txagatai"
 
 #. name for zho, zh
 msgid "Chinese"
-msgstr "xinés"
+msgstr "xinès"
 
 #. name for chk
 msgid "Chuukese"
@@ -382,7 +383,7 @@ msgstr "llengües txam"
 
 #. name for cop
 msgid "Coptic"
-msgstr "còptic"
+msgstr "copte"
 
 #. name for cor, kw
 msgid "Cornish"
@@ -394,7 +395,7 @@ msgstr "cors"
 
 #. name for cpe
 msgid "Creoles and pidgins, English based"
-msgstr "criolls i pidgins basats en l'anglés"
+msgstr "criolls i pidgins basats en l'anglès"
 
 #. name for cpf
 msgid "Creoles and pidgins, French-based"
@@ -442,7 +443,7 @@ msgstr "darguà"
 
 #. name for day
 msgid "Land Dayak languages"
-msgstr "llengües daiak"
+msgstr "llengües daiaks"
 
 #. name for del
 msgid "Delaware"
@@ -514,11 +515,11 @@ msgstr "elamita"
 
 #. name for eng, en
 msgid "English"
-msgstr "anglés"
+msgstr "anglès"
 
 #. name for enm
 msgid "English, Middle (1100-1500)"
-msgstr "anglés mitjà (1100-1500)"
+msgstr "anglès mitjà (1100-1500)"
 
 #. name for epo, eo
 msgid "Esperanto"
@@ -562,7 +563,7 @@ msgstr "finès"
 
 #. name for fiu
 msgid "Finno-Ugrian languages"
-msgstr "llengües ugrofineses"
+msgstr "llengües finoúgriques"
 
 #. name for fon
 msgid "Fon"
@@ -726,7 +727,7 @@ msgstr "hiligaynon"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "llengües himachalis; llengües paharis occidentals"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -737,9 +738,8 @@ msgid "Hittite"
 msgstr "hitita"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
-msgstr "hmong"
+msgstr "hmong; mong"
 
 #. name for hmo, ho
 msgid "Hiri Motu"
@@ -843,7 +843,7 @@ msgstr "lojban"
 
 #. name for jpn, ja
 msgid "Japanese"
-msgstr "japonés"
+msgstr "japonès"
 
 #. name for jpr
 msgid "Judeo-Persian"
@@ -875,7 +875,7 @@ msgstr "kamba"
 
 #. name for kan, kn
 msgid "Kannada"
-msgstr "kannada"
+msgstr "kanarès"
 
 #. name for kar
 msgid "Karen languages"
@@ -907,7 +907,7 @@ msgstr "khasi"
 
 #. name for khi
 msgid "Khoisan languages"
-msgstr "llengües khoisan"
+msgstr "llengües khoisànides"
 
 #. name for khm, km
 msgid "Central Khmer"
@@ -959,7 +959,7 @@ msgstr "kpelle"
 
 #. name for krc
 msgid "Karachay-Balkar"
-msgstr ""
+msgstr "karatxai-balkar"
 
 #. name for krl
 msgid "Karelian"
@@ -975,7 +975,7 @@ msgstr "kurukh"
 
 #. name for kua, kj
 msgid "Kuanyama; Kwanyama"
-msgstr ""
+msgstr "kuanyama; kwanyama"
 
 #. name for kum
 msgid "Kumyk"
@@ -1091,11 +1091,11 @@ msgstr "maithili"
 
 #. name for mak
 msgid "Makasar"
-msgstr ""
+msgstr "makasar"
 
 #. name for mal, ml
 msgid "Malayalam"
-msgstr "malaialam"
+msgstr "malaiàlam"
 
 #. name for man
 msgid "Mandingo"
@@ -1107,7 +1107,7 @@ msgstr "maori"
 
 #. name for map
 msgid "Austronesian languages"
-msgstr "llengües austronèsies"
+msgstr "llengües austronèsiques"
 
 #. name for mar, mr
 msgid "Marathi"
@@ -1139,11 +1139,11 @@ msgstr "irlandès mitjà (900-1200)"
 
 #. name for mic
 msgid "Mi'kmaq; Micmac"
-msgstr ""
+msgstr "mi'kmaq; micmac"
 
 #. name for min
 msgid "Minangkabau"
-msgstr ""
+msgstr "minangkabau"
 
 #. name for mis
 msgid "Uncoded languages"
@@ -1191,7 +1191,7 @@ msgstr "mossi"
 
 #. name for mul
 msgid "Multiple languages"
-msgstr "múltiples llengües"
+msgstr "diferents llengües"
 
 #. name for mun
 msgid "Munda languages"
@@ -1223,7 +1223,7 @@ msgstr "llengües nàhuatl"
 
 #. name for nai
 msgid "North American Indian languages"
-msgstr "llengües indies nordamericanes"
+msgstr "llengües ameríndies d'Amèrica del Nord"
 
 #. name for nap
 msgid "Neapolitan"
@@ -1279,7 +1279,7 @@ msgstr "noruec nynorsk"
 
 #. name for nob, nb
 msgid "Bokmål, Norwegian; Norwegian Bokmål"
-msgstr "noruec Bokmål"
+msgstr "noruec bokmål"
 
 #. name for nog
 msgid "Nogai"
@@ -1311,15 +1311,15 @@ msgstr "newari clàssic; newari antic; bhasa nepalès clàssic"
 
 #. name for nya, ny
 msgid "Chichewa; Chewa; Nyanja"
-msgstr ""
+msgstr "chichewa; chewa; nyanja"
 
 #. name for nym
 msgid "Nyamwezi"
-msgstr ""
+msgstr "nyamwezi"
 
 #. name for nyn
 msgid "Nyankole"
-msgstr ""
+msgstr "nyankole"
 
 #. name for nyo
 msgid "Nyoro"
@@ -1363,7 +1363,7 @@ msgstr "llengües otomianes"
 
 #. name for paa
 msgid "Papuan languages"
-msgstr "llengües papuanes"
+msgstr "llengües papús"
 
 #. name for pag
 msgid "Pangasinan"
@@ -1375,7 +1375,7 @@ msgstr "pahlavi"
 
 #. name for pam
 msgid "Pampanga; Kapampangan"
-msgstr ""
+msgstr "pampanga; kapampangan"
 
 #. name for pan, pa
 msgid "Panjabi; Punjabi"
@@ -1431,7 +1431,7 @@ msgstr "provençal antic (fins al 1500); occità antic (fins al 1500)"
 
 #. name for pus, ps
 msgid "Pushto; Pashto"
-msgstr "paixtú"
+msgstr "paixtu"
 
 #. name for qaa-qtz
 msgid "Reserved for local use"
@@ -1439,7 +1439,7 @@ msgstr "reservat per a ús local"
 
 #. name for que, qu
 msgid "Quechua"
-msgstr "quètxua"
+msgstr "quítxua"
 
 #. name for raj
 msgid "Rajasthani"
@@ -1467,7 +1467,7 @@ msgstr "romaní"
 
 #. name for ron, ro
 msgid "Romanian"
-msgstr "romanés"
+msgstr "romanès"
 
 #. name for run, rn
 msgid "Rundi"
@@ -1495,7 +1495,7 @@ msgstr "iacut"
 
 #. name for sai
 msgid "South American Indian languages"
-msgstr "llengües ameríndies meridionals"
+msgstr "llengües ameríndies d'Amèrica del Sud"
 
 #. name for sal
 msgid "Salishan languages"
@@ -1563,7 +1563,7 @@ msgstr "llengües sinotibetanes"
 
 #. name for sla
 msgid "Slavic languages"
-msgstr "llengües eslaves"
+msgstr "llengües eslàviques"
 
 #. name for slk, sk
 msgid "Slovak"
@@ -1583,7 +1583,7 @@ msgstr "sami septrentional"
 
 #. name for smi
 msgid "Sami languages"
-msgstr "llengües samis"
+msgstr "llengües sami"
 
 #. name for smj
 msgid "Lule Sami"
@@ -1695,7 +1695,7 @@ msgstr "tahitià"
 
 #. name for tai
 msgid "Tai languages"
-msgstr "llengües tai"
+msgstr "llengües tais"
 
 #. name for tam, ta
 msgid "Tamil"
@@ -1727,7 +1727,7 @@ msgstr "tadjik"
 
 #. name for tgl, tl
 msgid "Tagalog"
-msgstr "tagàlog"
+msgstr "tagal; tagàlog"
 
 #. name for tha, th
 msgid "Thai"
@@ -1835,7 +1835,7 @@ msgstr "uigur"
 
 #. name for ukr, uk
 msgid "Ukrainian"
-msgstr "ucraïnés"
+msgstr "ucraïnès"
 
 #. name for umb
 msgid "Umbundu"
@@ -1923,7 +1923,7 @@ msgstr "yapeà; yapà"
 
 #. name for yid, yi
 msgid "Yiddish"
-msgstr "jiddish"
+msgstr "jiddisch"
 
 #. name for yor, yo
 msgid "Yoruba"
@@ -1939,7 +1939,7 @@ msgstr "zapoteca"
 
 #. name for zbl
 msgid "Blissymbols; Blissymbolics; Bliss"
-msgstr ""
+msgstr "blissymbols; blissymbolics; bliss"
 
 #. name for zen
 msgid "Zenaga"

@@ -10,22 +10,25 @@
 #   SZERVÁC Attila <sas@321.hu>, 2006.
 #   Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008.
 #   Gabor Kelemen <kelemeng@gnome.hu>, 2006, 2007.
+#   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2008-04-13 20:30+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2010-06-15 00:15+0200\n"
+"Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"devel@lists.alioth.debian.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.2\n"
 "X-Poedit-Language: Hungarian\n"
 "X-Poedit-Country: HUNGARY\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -197,15 +200,19 @@ msgstr "Bhutáni Királyság"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "Bolívia"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "Bolíviai Többnemzetiségű Állam"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Bolívia"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -394,6 +401,10 @@ msgstr "Kuba"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "Kubai Köztársaság"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -852,9 +863,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "Líbiai Arab Szocialista Népi Közösség"
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "Libéria"
+msgstr "Líbia"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -989,9 +999,8 @@ msgid "Federated States of Micronesia"
 msgstr "Mikronéziai Szövetségi Államok"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "Macedón Köztársaság"
+msgstr "Moldova"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -999,7 +1008,7 @@ msgstr "Moldovai Köztársaság"
 
 #. common_name for MDA
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 #. name for MCO
 msgid "Monaco"
@@ -1066,9 +1075,8 @@ msgid "Nepal"
 msgstr "Nepál"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "Etióp Demokratikus Szövetségi Köztársaság"
+msgstr "Nepáli Demokratikus Szövetségi Köztársaság"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1077,10 +1085,6 @@ msgstr "Hollandia"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "Holland Királyság"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Holland Antillák"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1268,7 +1272,7 @@ msgstr "Saint Barthélemy"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Szent Ilona, Ascension és Tristan da Cunha"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1361,6 +1365,16 @@ msgstr "Szingapúr"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "Szingapúri Köztársaság"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "Saint Barthélemy"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "Saint Martin (francia oldal)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1623,9 +1637,8 @@ msgid "Republic of Vanuatu"
 msgstr "Vanuatui Köztársaság"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
-msgstr "Venezuelai Bolivári Köztársaság"
+msgstr "Venezuela"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1725,11 +1738,11 @@ msgstr "Kelet-Timor"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "Franciaország, Metropolitan"
 
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "Francia Afars és Issas"
 
 #. historic names for ATF (withdrawn 1979)
 msgid "French Southern and Antarctic Territories"
@@ -1745,7 +1758,7 @@ msgstr "Német Szövetségi Köztársaság"
 
 #. historic names for GEL (withdrawn 1979)
 msgid "Gilbert and Ellice Islands"
-msgstr ""
+msgstr "Gilbert- és Ellice-szigetek"
 
 #. historic names for JTN (withdrawn 1986)
 msgid "Johnston Island"
@@ -1754,6 +1767,10 @@ msgstr "Johnston-atoll"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Midway-atoll"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Holland Antillák"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
@@ -1765,7 +1782,7 @@ msgstr "Új-Hebridák"
 
 #. historic names for PCI (withdrawn 1986)
 msgid "Pacific Islands (trust territory)"
-msgstr ""
+msgstr "Csendes-óceáni szigetek (gyámsági terület)"
 
 #. historic names for PAN (withdrawn 1993-07-22)
 msgid "Panama, Republic of"
@@ -1781,7 +1798,7 @@ msgstr "Román Szocialista Köztársaság"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr ""
+msgstr "St. Kitts-Nevis-Anguilla"
 
 #. historic names for SCG (withdrawn 2006-06-05)
 msgid "Serbia and Montenegro"
@@ -1801,7 +1818,7 @@ msgstr "Nyugat-Szahara"
 
 #. historic names for PUS (withdrawn 1986)
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "Egyesült Államok Egyéb Csendes-óceáni szigetek"
 
 #. historic names for SUN (withdrawn 1992-08-30)
 msgid "USSR, Union of Soviet Socialist Republics"

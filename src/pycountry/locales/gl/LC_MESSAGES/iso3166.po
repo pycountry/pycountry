@@ -3,25 +3,28 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Free Software Foundation, Inc., 2002,2003
-#   Alastair McKinstry, <mckinstry@computer.org>, 2002.
 #   Translations from KDE desktop.po:
 #   - Jesús Bravo Álvarez <jba@pobox.com>
 #   Alastair McKinstry - further translations from ICU-3.0
-#   Jacobo Tarrío <jtarrio@debian.org>, 2005, 2006, 2007, 2008.
 #
+#   Free Software Foundation, Inc., 2002,2003.
+#   Alastair McKinstry, <mckinstry@computer.org>, 2002.
+#   Jacobo Tarrío <jtarrio@debian.org>, 2005, 2006, 2007, 2008.
+#   Jorge Barreiro <yortx.barry@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2008-06-21 11:15+0100\n"
-"Last-Translator: Jacobo Tarrío <jtarrio@debian.org>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2010-07-01 17:41+0200\n"
+"Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -193,15 +196,19 @@ msgstr "Reino de Bután"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "Bolivia, Estado Plurinacional da"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "Estado Plurinacional da Bolivia"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Bolivia"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -390,6 +397,10 @@ msgstr "Cuba"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "República de Cuba"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -848,9 +859,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "Jamahiriya Árabe Libia Popular e Socialista"
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "Liberia"
+msgstr "Libia"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -985,9 +995,8 @@ msgid "Federated States of Micronesia"
 msgstr "Estados Federados de Micronesia"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "Macedonia, República de"
+msgstr "Moldavia, República de"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1072,10 +1081,6 @@ msgstr "Países Baixos"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "Reino dos Países Baixos"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Antillas Holandesas"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1263,7 +1268,7 @@ msgstr "San Bartolomé"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Santa Helena, Ascensión e Tristán da Cuña"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1356,6 +1361,16 @@ msgstr "Singapur"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "República de Singapur"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "San Bartolomé"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "San Martiño (parte francesa)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1618,9 +1633,8 @@ msgid "Republic of Vanuatu"
 msgstr "República de Vanuatu"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
-msgstr "República Bolivariana de Venezuela"
+msgstr "Venezuela, República Bolivariana de"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1749,6 +1763,10 @@ msgstr "Illa Johnston"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Illas de Midway"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Antillas Holandesas"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

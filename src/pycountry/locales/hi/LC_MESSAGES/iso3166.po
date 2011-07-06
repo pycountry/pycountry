@@ -14,13 +14,14 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2008-10-19 13:15-0500\n"
 "Last-Translator: Kumar Appaiah <kumar.appaiah@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -209,6 +210,10 @@ msgstr ""
 msgid "Bolivia"
 msgstr "बोलीविया"
 
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
 #. name for BIH
 msgid "Bosnia and Herzegovina"
 msgstr "बोस्निया और हर्ज़ेगोविना"
@@ -396,6 +401,10 @@ msgstr "क्यूबा"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "रिपब्लिक ऑफ क्यूबा"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1081,10 +1090,6 @@ msgstr "नीदरलैंड्स"
 msgid "Kingdom of the Netherlands"
 msgstr "किंगडम ऑफ द नीदरलैंड्स"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "नीदरलैंड्स ऐन्टिल्स"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "न्यू कैलेडोनिया"
@@ -1364,6 +1369,16 @@ msgstr "सिंगापुर"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "रिपब्लिक ऑफ सिंगापुर"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "सेंट बार्थेलेमी"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "सेंट मार्टिन (फ्रेंच भाग)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1758,6 +1773,10 @@ msgstr "जॉन्सटन आइलैंड"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "मिडवे आइलैंड्स"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "नीदरलैंड्स ऐन्टिल्स"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

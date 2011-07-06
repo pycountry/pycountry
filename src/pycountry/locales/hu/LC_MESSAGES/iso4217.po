@@ -1,28 +1,33 @@
-# Translation of ISO 4217 (currency names) to Hungarian
-# Copyright © various authors, see list below.
+# translation of iso_4217-2.0.po to
+# Translation of ISO-4217 (currency names) to Hungarian
 # This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
 #
 # http://www.unicode.org/cldr/data/diff/main/hu_HU.html
 #
-# Emese Kovacs <emese@gnome.hu>, 2000.
-# Andras TIMAR <timar@gnome.hu>, 2000.
-# VERÓK István <vi@fsf.hu>, 2004.
-# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
-# Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008.
+# Free Software Foundation, Inc., 2000, 2004, 2006.
+#   Emese Kovacs <emese@gnome.hu>, 2000.
+#   Andras TIMAR <timar@gnome.hu>, 2000.
+#   VERÓK István <vi@fsf.hu>, 2004.
+#   Gabor Kelemen <kelemeng@gnome.hu>, 2006.
+#   Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008, 2009. 
+#   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 3.15\n"
+"Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2008-04-13 19:43+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"PO-Revision-Date: 2010-05-04 10:15+0200\n"
+"Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.2\n"
 
 #. currency_name for AED
 msgid "UAE Dirham"
@@ -133,9 +138,8 @@ msgid "Canadian Dollar"
 msgstr "kanadai dollár"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "komorei frank"
+msgstr "kongói frank"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -703,7 +707,7 @@ msgstr "kelet-karib dollár"
 
 #. currency_name for XDR
 msgid "Special Drawing Rights"
-msgstr ""
+msgstr "SDR (Special Drawing Rights)"
 
 #. currency_name for XFO
 msgid "Gold-Franc"
@@ -746,9 +750,8 @@ msgid "Rand"
 msgstr "rand"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
-msgstr "kwacha"
+msgstr "zambiai kwacha"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"

@@ -8,13 +8,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2008-09-09 23:36+0400\n"
 "Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
 "Language-Team: Georgian\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -198,6 +199,10 @@ msgstr ""
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "ბოლივია"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -386,6 +391,10 @@ msgstr "კუბა"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "კუბის რესპუბლიკა"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1070,10 +1079,6 @@ msgstr "ნიდერლანდები"
 msgid "Kingdom of the Netherlands"
 msgstr "ნიდერლანდების სამეფო"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "ნიდერლანდური ანტილიები"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "ახალი კალედონია"
@@ -1353,6 +1358,16 @@ msgstr "სინგაპური"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "სინგაპურის რესპუბლიკა"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "სენ-ბართლემი"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "სენ-მარტინი (ფრანგული ნაწილი)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1746,6 +1761,10 @@ msgstr "ჯონსტონის კუნძული"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "მიდვეის კუნძულები"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "ნიდერლანდური ანტილიები"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

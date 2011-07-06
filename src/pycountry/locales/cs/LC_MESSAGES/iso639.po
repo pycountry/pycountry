@@ -11,13 +11,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2009-08-13 21:24+0200\n"
+"PO-Revision-Date: 2010-06-26 07:52+0200\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -233,9 +234,8 @@ msgid "Bhojpuri"
 msgstr "bhódžpurština"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "thajské jazyky"
+msgstr "bihárské jazyky"
 
 #. name for bik
 msgid "Bikol"
@@ -729,7 +729,7 @@ msgstr "hiligayonština"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "himáčalské jazuky; západní pahari"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -740,9 +740,8 @@ msgid "Hittite"
 msgstr "chetitština"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
-msgstr "hmongština"
+msgstr "hmongština; mongština"
 
 #. name for hmo, ho
 msgid "Hiri Motu"

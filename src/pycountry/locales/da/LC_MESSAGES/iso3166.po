@@ -1,13 +1,11 @@
 # Translation of ISO-3166 (country names) to Danish
-#
 # This file is distributed under the same license as the iso-codes package.
-#
-# Copyright (C)
-#   Free Software Foundation, Inc., 2006.
-#   Keld Simonsen <keld@dkuug.dk>, 2001.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Claus Hindsgaul <claus_h@image.dk>, 2004.
-#   Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2006.
+# Copyright (C) Free Software Foundation, Inc., 2006.
+# Keld Simonsen <keld@dkuug.dk>, 2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# Claus Hindsgaul <claus_h@image.dk>, 2004.
+# Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2006.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011.
 #
 # This European Union Resource page was very helpful:
 # http://eur-op.eu.int/code/da/da-5000500.htm
@@ -15,17 +13,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2006-09-30 11:34+0200\n"
-"Last-Translator: Claus Hindsgaul <claus.hindsgaul@gmail.com>\n"
-"Language-Team: Danish\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2011-01-02 11:34+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. name for AFG
@@ -33,9 +31,8 @@ msgid "Afghanistan"
 msgstr "Afghanistan"
 
 #. official_name for AFG
-#, fuzzy
 msgid "Islamic Republic of Afghanistan"
-msgstr "Den Islamiske Republik Pakistan"
+msgstr "Den Islamiske Republik Afghanistan"
 
 #. name for ALA
 msgid "Åland Islands"
@@ -142,9 +139,8 @@ msgid "Bahrain"
 msgstr "Bahrain"
 
 #. official_name for BHR
-#, fuzzy
 msgid "Kingdom of Bahrain"
-msgstr "Staten Bahrain"
+msgstr "Kongedømmet Bahrain"
 
 #. name for BGD
 msgid "Bangladesh"
@@ -198,17 +194,25 @@ msgstr "Bhutan"
 msgid "Kingdom of Bhutan"
 msgstr "Kongedømmet Bhutan"
 
+# http://www.bolivianconstitution.com/
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "Bolivia, Den Plurinationale Stat"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "Den Plurinationale Stat Bolivia"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Bolivia"
+
+# Nederlandske Antiller, De  Består af: Bonaire, Curaçao, 
+# Sint-Maarten (en del af øen hedder Saint-Martin og er et 
+# selvstændigt fransk oversøisk område), Saba, Sint-Eustatius
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius og Saba"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -379,7 +383,6 @@ msgid "Côte d'Ivoire"
 msgstr "Elfenbenskysten"
 
 #. official_name for CIV
-#, fuzzy
 msgid "Republic of Côte d'Ivoire"
 msgstr "Republikken Elfenbenskysten"
 
@@ -398,6 +401,11 @@ msgstr "Cuba"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "Republikken Cuba"
+
+# Curaçao → Nederlandske Antiller, De
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr "Curaçao"
 
 #. name for CYP
 msgid "Cyprus"
@@ -561,7 +569,7 @@ msgstr "Tyskland"
 
 #. official_name for DEU
 msgid "Federal Republic of Germany"
-msgstr "Forbundsrepublikken Tyskland "
+msgstr "Forbundsrepublikken Tyskland"
 
 #. name for GHA
 msgid "Ghana"
@@ -856,9 +864,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "Den Folkesocialistiske Libyske Arabiske Jamahiriya"
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "Liberia"
+msgstr "Libyen"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -993,9 +1000,8 @@ msgid "Federated States of Micronesia"
 msgstr "Mikronesiens Forenede Stater"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "Makedonien, Republikken"
+msgstr "Moldova, Republikken"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1003,7 +1009,7 @@ msgstr "Republikken Moldova"
 
 #. common_name for MDA
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 #. name for MCO
 msgid "Monaco"
@@ -1070,9 +1076,8 @@ msgid "Nepal"
 msgstr "Nepal"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "Den Føderative Demokratiske Republik Etiopien"
+msgstr "Den Føderale Demokratiske Republik Nepal"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1081,10 +1086,6 @@ msgstr "Holland"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "Kongeriget Nederlandene"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Hollandske Antiller"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1266,13 +1267,14 @@ msgstr "Rwanda"
 msgid "Rwandese Republic"
 msgstr "Den Rwandiske Republik"
 
+# Den store Danske har fransk "Saint-Barthélemy"
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "Sankt Bartolomæus"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Sankt Helena, Ascension og Tristan da Cunha"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1282,9 +1284,10 @@ msgstr "Sankt Kitts og Nevis"
 msgid "Saint Lucia"
 msgstr "Sankt Lucia"
 
+# SDE har "Saint-Martin"
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr ""
+msgstr "Sankt Martin (Fransk del)"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
@@ -1365,6 +1368,16 @@ msgstr "Singapore"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "Republikken Singapore"
+
+# Sint-Maarten → Nederlandske Antiller, De
+#. name for SXM
+msgid "Sint Maarten"
+msgstr "Sint Maarten"
+
+# Sint-Maarten → Nederlandske Antiller, De
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr "Sint Maarten (hollandsk del)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1627,7 +1640,6 @@ msgid "Republic of Vanuatu"
 msgstr "Republikken Vanuatu"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
 msgstr "Den Bolivariske Republik Venezuela"
 
@@ -1695,169 +1707,173 @@ msgstr "Zimbabwe"
 msgid "Republic of Zimbabwe"
 msgstr "Republikken Zimbabwe"
 
+# http://da.wikipedia.org/wiki/Britisk_Antarktis
 #. historic names for ATB (withdrawn 1979)
-#, fuzzy
 msgid "British Antarctic Territory"
-msgstr "British Indian Ocean Territory"
+msgstr "Britisk Antarktis"
 
 #. historic names for BUR (withdrawn 1989-12-05)
-#, fuzzy
 msgid "Burma, Socialist Republic of the Union of"
-msgstr "Den Socialistiske Republik Vietnam"
+msgstr "Den Socialistiske Unionsrepublik Burma"
 
 #. historic names for BYS (withdrawn 1992-06-15)
 msgid "Byelorussian SSR Soviet Socialist Republic"
-msgstr ""
+msgstr "Den Hviderussiske Sovjetrepublik"
 
+# http://en.wikipedia.org/wiki/Canton_and_Enderbury_Islands
 #. historic names for CTE (withdrawn 1984)
 msgid "Canton and Enderbury Islands"
-msgstr ""
+msgstr "Canton- og Enderburyøerne"
 
 #. historic names for CSK (withdrawn 1993-06-15)
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
-msgstr ""
+msgstr "Tjekkoslovakiet, Den Tjekkoslovakiske Socialistiske Republik"
 
+# http://en.wikipedia.org/wiki/Dahomey
 #. historic names for DHY (withdrawn 1977)
 msgid "Dahomey"
-msgstr ""
+msgstr "Dahomey"
 
 #. historic names for ATN (withdrawn 1983)
 msgid "Dronning Maud Land"
-msgstr ""
+msgstr "Dronning Maud Land"
 
 #. historic names for TMP (withdrawn 2002-05-20)
 msgid "East Timor"
-msgstr ""
+msgstr "Østtimor"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "Frankrig, Metroplitanfrankrig"
 
+# http://en.wikipedia.org/wiki/French_Afars_and_Issas
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "Fransk Afars og Issas"
 
 #. historic names for ATF (withdrawn 1979)
-#, fuzzy
 msgid "French Southern and Antarctic Territories"
-msgstr "Sydlige Franske Territorier"
+msgstr "De Sydlige og Antarktiske Franske Territorier"
 
 #. historic names for DDR (withdrawn 1990-10-30)
-#, fuzzy
 msgid "German Democratic Republic"
-msgstr "Lao, Folkets Demokratiske Republik"
+msgstr "Den Tyske Demokratiske Republik"
 
 #. historic names for DEU (withdrawn 1990-10-30)
-#, fuzzy
 msgid "Germany, Federal Republic of"
-msgstr "Forbundsrepublikken Tyskland "
+msgstr "Forbundsrepublikken Tyskland"
 
 #. historic names for GEL (withdrawn 1979)
-#, fuzzy
 msgid "Gilbert and Ellice Islands"
-msgstr "Turks- og Caicosøerne"
+msgstr "Gilbert- og Elliceøerne"
 
 #. historic names for JTN (withdrawn 1986)
-#, fuzzy
 msgid "Johnston Island"
-msgstr "Cookøerne"
+msgstr "Johnstonøen"
 
 #. historic names for MID (withdrawn 1986)
-#, fuzzy
 msgid "Midway Islands"
-msgstr "Caymanøerne"
+msgstr "Midwayøerne"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Hollandske Antiller"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
-msgstr ""
+msgstr "Neutral Zone"
 
+# http://en.wikipedia.org/wiki/New_Hebrides
+# http://www.denstoredanske.dk/Rejser,_geografi_og_historie
+# /Oceanien/Stillehavs%C3%B8erne/Ny_Hebriderne
 #. historic names for NHB (withdrawn 1980)
 msgid "New Hebrides"
-msgstr ""
+msgstr "Ny Hebriderne"
 
+# ser ikke ud til der er en dansk betegnelse
+# http://www.denstoredanske.dk/Rejser,_geografi_og_historie/
+# Australien_og_New_Zealand/Australiens,_New_Zealands_og_Tasmaniens
+# _historie/Trust_Territory_of_the_Pacific_Islands?highlight=
+# Pacific%20Islands
 #. historic names for PCI (withdrawn 1986)
 msgid "Pacific Islands (trust territory)"
-msgstr ""
+msgstr "Trust Territory of the Pacific Islands"
 
 #. historic names for PAN (withdrawn 1993-07-22)
-#, fuzzy
 msgid "Panama, Republic of"
-msgstr "Makedonien, Republikken"
+msgstr "Republikken Panama"
 
+# http://www.denstoredanske.dk/Rejser%2c_geografi_og_historie/
+# Syd-_og_Mellemamerika/Mellemamerikanske_stater/Panamakanalzonen
 #. historic names for PCZ (withdrawn 1980)
 msgid "Panama Canal Zone"
-msgstr ""
+msgstr "Panamakanalzonen"
 
 #. historic names for ROM (withdrawn 2002-02-01)
-#, fuzzy
 msgid "Romania, Socialist Republic of"
-msgstr "Den Socialistiske Republik Vietnam"
+msgstr "Den Socialistiske Republik Rumænien"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr ""
+msgstr "St. Kitts-Nevis-Anguilla"
 
 #. historic names for SCG (withdrawn 2006-06-05)
-#, fuzzy
 msgid "Serbia and Montenegro"
-msgstr "Republikken Montenegro"
+msgstr "Serbien og Montenegro"
 
 #. historic names for SKM (withdrawn 1975)
 msgid "Sikkim"
-msgstr ""
+msgstr "Sikkim"
 
 #. historic names for RHO (withdrawn 1980)
 msgid "Southern Rhodesia"
-msgstr ""
+msgstr "Sydrhodesia"
 
 #. historic names for ESH (withdrawn 1988)
 msgid "Spanish Sahara"
-msgstr ""
+msgstr "Spansk Sahara"
 
 #. historic names for PUS (withdrawn 1986)
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "Forskellige Amerikanske Stillehavsøer"
 
 #. historic names for SUN (withdrawn 1992-08-30)
 msgid "USSR, Union of Soviet Socialist Republics"
-msgstr ""
+msgstr "USSR, Unionen af Sovjetiske Socialistrepublikker"
 
+# The Republic of Upper Volta (French: République de Haute-Volta) 
+# was established on December 11, 1958, as a self-governing colony 
+# within the French Community. Before attaining autonomy it had been 
+# French Upper Volta and part of the French Union. On August 5, 1960 
+# it attained full independence from France.
 #. historic names for HVO (withdrawn 1984)
-#, fuzzy
 msgid "Upper Volta, Republic of"
-msgstr "Moldova, Republikken"
+msgstr "Republikken Øvre Volta"
 
 #. historic names for VAT (withdrawn 1996-04-03)
-#, fuzzy
 msgid "Vatican City State (Holy See)"
-msgstr "Vatikanstaten"
+msgstr "Vatikanbystaten"
 
 #. historic names for VDR (withdrawn 1977)
-#, fuzzy
 msgid "Viet-Nam, Democratic Republic of"
-msgstr "Korea, Den Demokratiske Folkerepublik"
+msgstr "Vietnam, Den Demokratiske Republik"
 
 #. historic names for WAK (withdrawn 1986)
-#, fuzzy
 msgid "Wake Island"
-msgstr "Færøerne"
+msgstr "Wakeøerne"
 
 #. historic names for YMD (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Democratic, People's Democratic Republic of"
-msgstr "Korea, Den Demokratiske Folkerepublik"
+msgstr "Yemen, Den Demokratiske Folkerepublik"
 
 #. historic names for YEM (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Yemen Arab Republic"
-msgstr "Syriske Arabiske Republik"
+msgstr "Yemen, Den Yeministiske Arabiske Republik"
 
 #. historic names for YUG (withdrawn 1993-07-28)
-#, fuzzy
 msgid "Yugoslavia, Socialist Federal Republic of"
-msgstr "Tanzania, Den Forenede Republik"
+msgstr "Jugoslavien, Den Føderale Socialistiske Republik"
 
 #. historic names for ZAR (withdrawn 1997-07-14)
-#, fuzzy
 msgid "Zaire, Republic of"
-msgstr "Korea, Republikken"
+msgstr "Zaire, Republikken"

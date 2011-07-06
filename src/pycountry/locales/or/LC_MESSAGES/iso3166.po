@@ -5,12 +5,14 @@
 # Manoj Kumar Giri <giri.manojkr@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166-3.15\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2010-04-07 12:26+0530\n"
 "Last-Translator: Manoj Kumar Giri <giri.manojkr@gmail.com>\n"
 "Language-Team: Oriya <translation-team-or@lists.sourceforge.net>\n"
+"Language: or\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -197,6 +199,10 @@ msgstr "ବୋଲିଭିଆ ପ୍ଲୁରିନେସନାଲ ରାଜ୍�
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "ବୋଲିଭିଆ"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -385,6 +391,10 @@ msgstr "କ୍ଯୁବା"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "କ୍ଯୁବା ଗଣତନ୍ତ୍ର"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1066,10 +1076,6 @@ msgstr "ନେଦରଲ୍ଯାଣ୍ଡ"
 msgid "Kingdom of the Netherlands"
 msgstr "ନେଦରଲ୍ଯାଣ୍ଡ ସାମ୍ରାଜ୍ୟ"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "ନିଦରଲ୍ଯାଣ୍ଡ ଇଣ୍ଟାଇଲସ୍"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "ନ୍ଯୁ କାଲେଡୋନିୟା"
@@ -1349,6 +1355,16 @@ msgstr "ସିଙ୍ଗାପୁର"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "ସିଙ୍ଗାପୁର ଗଣତନ୍ତ୍ର"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "ସେଣ୍ଟ ବାର୍ଥେଲେମୀ"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "ସେଣ୍ଟ ମାର୍ଟିନ (ଫରାସୀ ଅଂଶ)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1741,6 +1757,10 @@ msgstr "ଜନଷ୍ଟନ ଦ୍ୱିପପୁଞ୍ଜ"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "ମିଡୱେ ଦ୍ବୀପ"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "ନିଦରଲ୍ଯାଣ୍ଡ ଇଣ୍ଟାଇଲସ୍"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
