@@ -1,19 +1,20 @@
 # Finnish translations for iso_4217 package.
-# This file is distributed under the same license as the iso-codes package.
 # Copyright © 2005-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
 # Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2009.
 #
 # Lähde:
 # http://kotoistus.fi/avoimet/tied_valuuttojen-nimet.htm
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 3.15\n"
+"Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2009-01-05 13:37+0200\n"
+"PO-Revision-Date: 2010-05-06 12:49+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -128,9 +129,8 @@ msgid "Canadian Dollar"
 msgstr "Kanadan dollari"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "Komorien frangi"
+msgstr "Kongon frangi"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -741,9 +741,8 @@ msgid "Rand"
 msgstr "randi"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
-msgstr "kwacha"
+msgstr "Sambian kwacha"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"

@@ -8,12 +8,14 @@
 # Runa Bhattacharjee <runabh@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166-3.15\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2010-04-07 19:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@lists.ankur.org.in>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -199,6 +201,10 @@ msgstr "প্লুরিনেশন্যাল রাষ্ট্র বো�
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "বোলিভিয়া"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -387,6 +393,10 @@ msgstr "কিউবা"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "কিউবা প্রজাতন্ত্র"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1068,10 +1078,6 @@ msgstr "নেদারল্যান্ড"
 msgid "Kingdom of the Netherlands"
 msgstr "নেদারল্যান্ড রাজ্য"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "নেদারল্যান্ডস অ্যান্টিলিস"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "নিউ ক্যালেডোনিয়া"
@@ -1351,6 +1357,16 @@ msgstr "সিঙ্গাপুর"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "সিঙ্গাপুর প্রজাতন্ত্র"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "সেন্ট বার্থেলেমি"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "সেন্ট মার্টিন (ফ্রেঞ্চ অংশ)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1743,6 +1759,10 @@ msgstr "জনস্টন দ্বীপ"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "মিডওয়ে দ্বীপপুঞ্জ"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "নেদারল্যান্ডস অ্যান্টিলিস"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

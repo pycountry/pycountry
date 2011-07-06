@@ -203,6 +203,12 @@ Source: <http://www.iso.org/iso/country_codes>
 		name="Bolivia, Plurinational State of"
 		official_name="Plurinational State of Bolivia" />
 	<iso_3166_entry
+		alpha_2_code="BQ"
+		alpha_3_code="BES"
+		numeric_code="535"
+		name="Bonaire, Saint Eustatius and Saba"
+		official_name="Bonaire, Saint Eustatius and Saba" />
+	<iso_3166_entry
 		alpha_2_code="BA"
 		alpha_3_code="BIH"
 		numeric_code="070"
@@ -365,6 +371,12 @@ Source: <http://www.iso.org/iso/country_codes>
 		numeric_code="192"
 		name="Cuba"
 		official_name="Republic of Cuba" />
+	<iso_3166_entry
+		alpha_2_code="CW"
+		alpha_3_code="CUW"
+		numeric_code="531"
+		name="Curaçao"
+		official_name="Curaçao" />
 	<iso_3166_entry
 		alpha_2_code="CY"
 		alpha_3_code="CYP"
@@ -933,11 +945,6 @@ Source: <http://www.iso.org/iso/country_codes>
 		name="Netherlands"
 		official_name="Kingdom of the Netherlands" />
 	<iso_3166_entry
-		alpha_2_code="AN"
-		alpha_3_code="ANT"
-		numeric_code="530"
-		name="Netherlands Antilles" />
-	<iso_3166_entry
 		alpha_2_code="NC"
 		alpha_3_code="NCL"
 		numeric_code="540"
@@ -1179,6 +1186,12 @@ Source: <http://www.iso.org/iso/country_codes>
 		numeric_code="702"
 		name="Singapore"
 		official_name="Republic of Singapore" />
+	<iso_3166_entry
+		alpha_2_code="SX"
+		alpha_3_code="SXM"
+		numeric_code="702"
+		name="Sint Maarten"
+		official_name="Sint Maarten (Dutch part)" />
 	<iso_3166_entry
 		alpha_2_code="SK"
 		alpha_3_code="SVK"

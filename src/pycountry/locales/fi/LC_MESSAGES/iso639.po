@@ -5,12 +5,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
 "PO-Revision-Date: 2010-04-08 07:44+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -357,7 +359,9 @@ msgid "Cherokee"
 msgstr "cherokee"
 
 #. name for chu, cu
-msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
 msgstr "kirkkoslaavi"
 
 #. name for chv, cv
@@ -1963,212 +1967,3 @@ msgstr "ei kielellistä sisältöä; ei sovellu"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "zaza; dimili; dimli; kirdki; kirmanjki; zazaki"
-
-#~ msgid "Bihari"
-#~ msgstr "bihari"
-
-#~ msgid "Himachali"
-#~ msgstr "himachali"
-
-#~ msgid "Afro-Asiatic (Other)"
-#~ msgstr "muut afroaasialaiset kielet"
-
-#~ msgid "Artificial (Other)"
-#~ msgstr "muut keinotekoiset kielet"
-
-#~ msgid "Baltic (Other)"
-#~ msgstr "muut balttilaiset kielet"
-
-#~ msgid "Berber (Other)"
-#~ msgstr "muut berberikielet"
-
-#~ msgid "Bantu (Other)"
-#~ msgstr "muut bantukielet"
-
-#~ msgid "Caucasian (Other)"
-#~ msgstr "muut kaukasialaiset kielet"
-
-#~ msgid "Celtic (Other)"
-#~ msgstr "muut kelttiläiset kielet"
-
-#~ msgid "Cushitic (Other)"
-#~ msgstr "muut kuušilaiskielet"
-
-#~ msgid "Dravidian (Other)"
-#~ msgstr "muut dravidakielet"
-
-#~ msgid "Finno-Ugrian (Other)"
-#~ msgstr "muut suomalais-ugrilaiset kielet"
-
-#~ msgid "Germanic (Other)"
-#~ msgstr "muut germaaniset kielet"
-
-#~ msgid "Indic (Other)"
-#~ msgstr "muut indoarjalaiset kielet"
-
-#~ msgid "Indo-European (Other)"
-#~ msgstr "muut indoeurooppalaiset kielet"
-
-#~ msgid "Iranian (Other)"
-#~ msgstr "muut iranilaiskielet"
-
-#~ msgid "Khoisan (Other)"
-#~ msgstr "muut khoisan-kielet"
-
-#~ msgid "Austronesian (Other)"
-#~ msgstr "muut austronesialaiset kielet"
-
-#~ msgid "Mon-Khmer (Other)"
-#~ msgstr "mut mon-khmer-kielet"
-
-#~ msgid "Papuan (Other)"
-#~ msgstr "muut papuakielet"
-
-#~ msgid "Philippine (Other)"
-#~ msgstr "muut filippiiniläiset kielet"
-
-#~ msgid "Romance (Other)"
-#~ msgstr "muut romaaniset kielet"
-
-#~ msgid "Semitic (Other)"
-#~ msgstr "muut seemiläiset kielet"
-
-#~ msgid "Sino-Tibetan (Other)"
-#~ msgstr "muut sinotiibettiläiset kielet"
-
-#~ msgid "Slavic (Other)"
-#~ msgstr "muut slaavilaiset kielet"
-
-#~ msgid "Sami languages (Other)"
-#~ msgstr "muut saamelaiskielet"
-
-#~ msgid "Nilo-Saharan (Other)"
-#~ msgstr "muut niililäis-saharalaiset kielet"
-
-#~ msgid "Tai (Other)"
-#~ msgstr "muut thaikielet"
-
-#~ msgid "Altaic (Other)"
-#~ msgstr "muut altailaiset kielet"
-
-#~ msgid "Newari; Nepal Bhasa"
-#~ msgstr "newari"
-
-#~ msgid "Norwegian Bokmål; Bokmål, Norwegian"
-#~ msgstr "norja (bokmål)"
-
-#~ msgid "Northern Sotho, Pedi; Sepedi"
-#~ msgstr "sotho, pohjois-"
-
-#~ msgid "Aramaic"
-#~ msgstr "aramea"
-
-#~ msgid "Asturian; Bable"
-#~ msgstr "asturia"
-
-# laustaan "bedža"...
-#~ msgid "Beja"
-#~ msgstr "beja"
-
-#~ msgid "Chipewyan"
-#~ msgstr "chipewyan"
-
-#~ msgid "Miscellaneous languages"
-#~ msgstr "luokittelemattomat kielet"
-
-#~ msgid "Pampanga"
-#~ msgstr "pampanga"
-
-#~ msgid "Walamo"
-#~ msgstr "walamo"
-
-# mapudungu on kielen kotiperäinen nimi, ja käytetty "valloittajien" kieltä..
-#~ msgid "Araucanian"
-#~ msgstr "araukaani"
-
-#~ msgid "Banda"
-#~ msgstr "banda"
-
-#~ msgid "Batak (Indonesia)"
-#~ msgstr "batak"
-
-#~ msgid "Carib"
-#~ msgstr "karibi"
-
-#~ msgid "Dayak"
-#~ msgstr "dayak"
-
-#~ msgid "Alemanic; Swiss German"
-#~ msgstr "sveitsinsaksa"
-
-#~ msgid "Ijo"
-#~ msgstr "idžo"
-
-#~ msgid "Kachin"
-#~ msgstr "kachin"
-
-#~ msgid "Karen"
-#~ msgstr "karen"
-
-#~ msgid "Khmer"
-#~ msgstr "khmer"
-
-#~ msgid "Kru"
-#~ msgstr "kru-kielet"
-
-#~ msgid "Nahuatl"
-#~ msgstr "nahuatl"
-
-#~ msgid "Rarotongan"
-#~ msgstr "rarotonga"
-
-#~ msgid "Raeto-Romance"
-#~ msgstr "retoromaani"
-
-#~ msgid "Songhai"
-#~ msgstr "songhai"
-
-#~ msgid "Zande"
-#~ msgstr "zande"
-
-#~ msgid "Catalan"
-#~ msgstr "katalaani"
-
-#~ msgid "Church Slavic"
-#~ msgstr "kirkkoslaavi"
-
-#~ msgid "English-based (Other)"
-#~ msgstr "muut englantiin perustuvat kreolit ja pidginit"
-
-#~ msgid "French-based (Other)"
-#~ msgstr "muut ranskaan perustuvat kreolit ja pidginit"
-
-#~ msgid "Portuguese-based (Other)"
-#~ msgstr "muut portugaliin perustuvat kreolit ja pidginit"
-
-#~ msgid "Divehi"
-#~ msgstr "divehi"
-
-#~ msgid "Dutch"
-#~ msgstr "hollanti"
-
-#~ msgid "Interlingua"
-#~ msgstr "interlingua"
-
-#~ msgid "Greenlandic (Kalaallisut)"
-#~ msgstr "grönlanti"
-
-#~ msgid "Limburgian"
-#~ msgstr "limburg"
-
-#~ msgid "German, Low"
-#~ msgstr "alasaksa"
-
-#~ msgid "Newari"
-#~ msgstr "newari"
-
-#~ msgid "Spanish"
-#~ msgstr "espanja"
-
-#~ msgid "Gallegan"
-#~ msgstr "galicia"

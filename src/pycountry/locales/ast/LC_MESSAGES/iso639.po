@@ -5,13 +5,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2009-11-17 18:10+0100\n"
-"Last-Translator: Marquinos <maacub@gmail.com>\n"
+"PO-Revision-Date: 2010-12-22 17:41+0100\n"
+"Last-Translator: ivarela <maacub@gmail.com>\n"
 "Language-Team: Asturian <ubuntu-l10n-ast@lists.ubuntu.com>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -84,7 +85,7 @@ msgstr "Altai del sur"
 
 #. name for amh, am
 msgid "Amharic"
-msgstr "Amharicu"
+msgstr "Amháricu"
 
 #. name for ang
 msgid "English, Old (ca. 450-1100)"
@@ -148,7 +149,7 @@ msgstr "Llingües Australianes"
 
 #. name for ava, av
 msgid "Avaric"
-msgstr "Avaricu"
+msgstr "Aváricu"
 
 #. name for ave, ae
 msgid "Avestan"
@@ -164,7 +165,7 @@ msgstr "Aymara"
 
 #. name for aze, az
 msgid "Azerbaijani"
-msgstr "Acerbayanu"
+msgstr "Azerbaixanu"
 
 #. name for bad
 msgid "Banda languages"
@@ -272,7 +273,7 @@ msgstr "Buriat"
 
 #. name for bug
 msgid "Buginese"
-msgstr "Buginés"
+msgstr "Buxinés"
 
 #. name for bul, bg
 msgid "Bulgarian"
@@ -292,7 +293,7 @@ msgstr "Caddo"
 
 #. name for cai
 msgid "Central American Indian languages"
-msgstr "Llingües Indíxena d'América Central"
+msgstr "Llingües Indíxenes d'América Central"
 
 #. name for car
 msgid "Galibi Carib"
@@ -548,11 +549,11 @@ msgstr "Fanti"
 
 #. name for fij, fj
 msgid "Fijian"
-msgstr "Fidjianu"
+msgstr "Fixanu"
 
 #. name for fil
 msgid "Filipino; Pilipino"
-msgstr "Filipinu"
+msgstr "Filipín"
 
 #. name for fin, fi
 msgid "Finnish"
@@ -616,7 +617,7 @@ msgstr "Llingües Xérmaniques"
 
 #. name for kat, ka
 msgid "Georgian"
-msgstr "Xorxianu"
+msgstr "Xeorxanu"
 
 #. name for deu, de
 msgid "German"
@@ -893,7 +894,7 @@ msgstr "Kawi"
 
 #. name for kaz, kk
 msgid "Kazakh"
-msgstr "Kazaxu"
+msgstr "Kazaḥu"
 
 #. name for kbd
 msgid "Kabardian"
@@ -989,7 +990,7 @@ msgstr "Kutenai"
 
 #. name for lad
 msgid "Ladino"
-msgstr "Ladino"
+msgstr "Ladinu"
 
 #. name for lah
 msgid "Lahnda"
@@ -1501,7 +1502,7 @@ msgstr "Llingües Salishan"
 
 #. name for sam
 msgid "Samaritan Aramaic"
-msgstr "Samaritanu Arameo"
+msgstr "Samaritanu Araméu"
 
 #. name for san, sa
 msgid "Sanskrit"
@@ -1533,7 +1534,7 @@ msgstr "Llingües Semites"
 
 #. name for sga
 msgid "Irish, Old (to 900)"
-msgstr "Irlandes antiguu (hasta 900)"
+msgstr "Irlandés antiguu (hasta 900)"
 
 #. name for sgn
 msgid "Sign Languages"
@@ -1725,7 +1726,7 @@ msgstr "Tayiku"
 
 #. name for tgl, tl
 msgid "Tagalog"
-msgstr "Tagalo"
+msgstr "Tagalu"
 
 #. name for tha, th
 msgid "Thai"
@@ -1833,7 +1834,7 @@ msgstr "Uighur; Uyghur"
 
 #. name for ukr, uk
 msgid "Ukrainian"
-msgstr "Ucranianu"
+msgstr "Ucraín"
 
 #. name for umb
 msgid "Umbundu"
@@ -1841,7 +1842,7 @@ msgstr "Umbundu"
 
 #. name for und
 msgid "Undetermined"
-msgstr "Indeterminao"
+msgstr "Indetermináu"
 
 #. name for urd, ur
 msgid "Urdu"
@@ -1861,7 +1862,7 @@ msgstr "Venda"
 
 #. name for vie, vi
 msgid "Vietnamese"
-msgstr "Vietnamita"
+msgstr "Vietnamín"
 
 #. name for vol, vo
 msgid "Volapük"

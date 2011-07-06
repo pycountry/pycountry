@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Free Software Foundation, Inc., 2002-2009
+#   Free Software Foundation, Inc., 2002-2010
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
 #   Bartosz Fenski <fenio@o2.pl>, 2004
 #   Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>, 2007
-#   Jakub Bogusz <qboosh@pld-linux.org>, 2007-2009
+#   Jakub Bogusz <qboosh@pld-linux.org>, 2007-2010
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 3.15\n"
+"Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2009-09-13 00:26+0200\n"
+"PO-Revision-Date: 2010-05-06 07:58+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,9 +132,8 @@ msgid "Canadian Dollar"
 msgstr "Dolar kanadyjski"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "Frank Komorów"
+msgstr "Frank kongijski"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -744,9 +744,8 @@ msgid "Rand"
 msgstr "Rand"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
-msgstr "Kwacha"
+msgstr "Kwacha zambijska"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"

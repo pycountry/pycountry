@@ -1,4 +1,3 @@
-# translation of ne_merge.po to Nepali
 # Translation of ISO-3166 (country names) to Nepali
 #
 # This file is distributed under the same license as the iso-codes package.
@@ -6,30 +5,30 @@
 # Copyright (C)
 #
 #   Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ne_merge\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2006-10-17 12:20+0545\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2011-02-22 16:39-0600\n"
 "Last-Translator: Shiva Prasad Pokharel <pokharelshiva@hotmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2;plural=(n!=1)\n"
-"X-Generator: KBabel 1.11.2\n"
+"X-Generator: Lokalize 1.1\n"
 
 #. name for AFG
 msgid "Afghanistan"
 msgstr "अफगानिस्तान"
 
 #. official_name for AFG
-#, fuzzy
 msgid "Islamic Republic of Afghanistan"
-msgstr "पाकिस्तानको इस्लामिक गणराज्य"
+msgstr "पाकिस्थानको इस्लामिक गणराज्य"
 
 #. name for ALA
 msgid "Åland Islands"
@@ -136,9 +135,8 @@ msgid "Bahrain"
 msgstr "बहराइन"
 
 #. official_name for BHR
-#, fuzzy
 msgid "Kingdom of Bahrain"
-msgstr "बहराइनको राज्य"
+msgstr "बहराइनको अधिराज्य"
 
 #. name for BGD
 msgid "Bangladesh"
@@ -194,15 +192,19 @@ msgstr "भुटानको अधिराज्य"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "बोलिभिया,बहुराष्ट्र्ीय राज्य"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "बहुराष्ट्रिय रेाज्य बोलिबिया"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "बोलिभिया"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "बोनाइर, सेन्ट ईयुस्टासस् र साबा"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -373,9 +375,8 @@ msgid "Côte d'Ivoire"
 msgstr "Côte d'Ivoire"
 
 #. official_name for CIV
-#, fuzzy
 msgid "Republic of Côte d'Ivoire"
-msgstr "Côte d'Ivoire को गणराज्य"
+msgstr "गणराज्य Côte d'Ivoire"
 
 #. name for HRV
 msgid "Croatia"
@@ -392,6 +393,10 @@ msgstr "क्यूबा"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "क्यूबाको गणराज्य"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr "कुराकाव"
 
 #. name for CYP
 msgid "Cyprus"
@@ -850,9 +855,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "समाजवादी जनताको लिब्यान अरब जामाहिरिया "
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "लिबेरीया"
+msgstr "लिबेया"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -987,9 +991,8 @@ msgid "Federated States of Micronesia"
 msgstr "मिक्रोनेसियाको संघिय राज्यहरू"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "मसेडोनियाको गणराज्य"
+msgstr "गणराज्य, मोल्डोभा"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -997,7 +1000,7 @@ msgstr "मोल्डोभाको गणराज्य"
 
 #. common_name for MDA
 msgid "Moldova"
-msgstr ""
+msgstr "मोल्डोभा"
 
 #. name for MCO
 msgid "Monaco"
@@ -1064,9 +1067,8 @@ msgid "Nepal"
 msgstr "नेपाल"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "इथियोपियाको संघीय प्रजातन्त्रिक गणराज्य"
+msgstr "संघीय प्रजातन्त्रिक गणराज्य, ईथोपिया"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1075,10 +1077,6 @@ msgstr "नेदरल्याण्ड"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "नेदरल्याण्डको अधिराज्य"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "नेदरल्याण्ड एनटिलेस"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1262,11 +1260,11 @@ msgstr "र्वान्डिज गणराज्य"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "शन्त Barthelemy"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "शन्त Helena, Ascension र Tristan da Cuncha"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1278,7 +1276,7 @@ msgstr "सेन्ट लुसिया"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr ""
+msgstr "शन्त Martin (French तर्फ)"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
@@ -1359,6 +1357,14 @@ msgstr "सिंगापुर"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "सिंगापुरकलो गणराज्य"
+
+#. name for SXM
+msgid "Sint Maarten"
+msgstr "सिन्ट मार्टेन"
+
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr "सिन्ट मार्टेन(डच अंश)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1621,9 +1627,8 @@ msgid "Republic of Vanuatu"
 msgstr "वानुआटुको गणराज्य"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
-msgstr "वेनेजुएलाको बोलिभेरियन गणराज्य"
+msgstr "गणराज्य, वेनेजुएला बोलिभेरियन "
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1690,168 +1695,153 @@ msgid "Republic of Zimbabwe"
 msgstr "जिम्बावेको गणराज्य"
 
 #. historic names for ATB (withdrawn 1979)
-#, fuzzy
 msgid "British Antarctic Territory"
-msgstr "बृटिश इन्डियन सामुन्द्रिक क्षेत्र"
+msgstr "ब्रिटिश आन्टारटिक क्षेत्र"
 
 #. historic names for BUR (withdrawn 1989-12-05)
-#, fuzzy
 msgid "Burma, Socialist Republic of the Union of"
-msgstr "भिएतनामको समाजवादी गणराज्य"
+msgstr "समाजवादी गणराज्य बर्मा"
 
 #. historic names for BYS (withdrawn 1992-06-15)
 msgid "Byelorussian SSR Soviet Socialist Republic"
-msgstr ""
+msgstr " सोबियत समाजवादी गणराज्य एस.एस.आर बाईर्लोशियन"
 
 #. historic names for CTE (withdrawn 1984)
 msgid "Canton and Enderbury Islands"
-msgstr ""
+msgstr "क्यानटन र ईन्डरब्युरि टापुहरु"
 
 #. historic names for CSK (withdrawn 1993-06-15)
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
-msgstr ""
+msgstr "चेक्वोस्लोभाकिया समाजवादी गणराज्य चेक्वोस्लोभाकिया"
 
 #. historic names for DHY (withdrawn 1977)
 msgid "Dahomey"
-msgstr ""
+msgstr "डाहोमे"
 
 #. historic names for ATN (withdrawn 1983)
 msgid "Dronning Maud Land"
-msgstr ""
+msgstr "ड्रोवनिङ माउड भुमि"
 
 #. historic names for TMP (withdrawn 2002-05-20)
 msgid "East Timor"
-msgstr ""
+msgstr "पश्चिम टिमुर"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "महानगरपालिका, फ्रान्स"
 
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "फ्रेन्स अफारस र इशास"
 
 #. historic names for ATF (withdrawn 1979)
-#, fuzzy
 msgid "French Southern and Antarctic Territories"
-msgstr "फ्रेन्च दक्षिणी क्षेत्रहरू"
+msgstr "दक्षिणि फ्रेन्स र आन्टरटिक क्षेत्रहरु"
 
 #. historic names for DDR (withdrawn 1990-10-30)
-#, fuzzy
 msgid "German Democratic Republic"
-msgstr "लाओ जनताको प्रजातन्त्रिक गणराज्य"
+msgstr "प्रजातान्त्रिक गणराज्य, जर्मन"
 
 #. historic names for DEU (withdrawn 1990-10-30)
-#, fuzzy
 msgid "Germany, Federal Republic of"
-msgstr "जर्मनीको संघीय गणराज्य"
+msgstr "संघीय गणराज्य,जर्मनी"
 
 #. historic names for GEL (withdrawn 1979)
-#, fuzzy
 msgid "Gilbert and Ellice Islands"
-msgstr "टर्क्स र काइकस टापु"
+msgstr "गिलबर्ट र ईलाइक टापुहरु"
 
 #. historic names for JTN (withdrawn 1986)
-#, fuzzy
 msgid "Johnston Island"
-msgstr "कुक टापु"
+msgstr "जोनशटन टापु"
 
 #. historic names for MID (withdrawn 1986)
-#, fuzzy
 msgid "Midway Islands"
-msgstr "सैम्यान टापु"
+msgstr "मिडवोय टापुहरु"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "नेदरल्याण्ड एनटिलेस"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
-msgstr ""
+msgstr "तटस्थ क्षेत्र"
 
 #. historic names for NHB (withdrawn 1980)
 msgid "New Hebrides"
-msgstr ""
+msgstr "न्यू हेब्राइड्स"
 
 #. historic names for PCI (withdrawn 1986)
 msgid "Pacific Islands (trust territory)"
-msgstr ""
+msgstr "प्यासिफिकी टापु"
 
 #. historic names for PAN (withdrawn 1993-07-22)
-#, fuzzy
 msgid "Panama, Republic of"
-msgstr "मसेडोनियाको गणराज्य"
+msgstr "गणराज्य, पानामा"
 
 #. historic names for PCZ (withdrawn 1980)
 msgid "Panama Canal Zone"
-msgstr ""
+msgstr "पानामा नहर क्षेत्र"
 
 #. historic names for ROM (withdrawn 2002-02-01)
-#, fuzzy
 msgid "Romania, Socialist Republic of"
-msgstr "भिएतनामको समाजवादी गणराज्य"
+msgstr "समाजवादी गणराज्य, रोमानिया"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr ""
+msgstr "St. किट्‌स-नेभिस-यानगुईला"
 
 #. historic names for SCG (withdrawn 2006-06-05)
-#, fuzzy
 msgid "Serbia and Montenegro"
-msgstr "मोन्टेग्रो गणराज्य"
+msgstr "सर्बिया र मोनटिनग्रो"
 
 #. historic names for SKM (withdrawn 1975)
 msgid "Sikkim"
-msgstr ""
+msgstr "सिक्किम"
 
 #. historic names for RHO (withdrawn 1980)
 msgid "Southern Rhodesia"
-msgstr ""
+msgstr "दक्षिणि रहोडिशिया"
 
 #. historic names for ESH (withdrawn 1988)
 msgid "Spanish Sahara"
-msgstr ""
+msgstr "शाहारा स्पेनिस "
 
 #. historic names for PUS (withdrawn 1986)
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "यू.स बिविध प्यासिफ टापुहरु"
 
 #. historic names for SUN (withdrawn 1992-08-30)
 msgid "USSR, Union of Soviet Socialist Republics"
-msgstr ""
+msgstr "सोबियत समाजबादि गणराज्यको संगठन, यू.स.स.आर"
 
 #. historic names for HVO (withdrawn 1984)
-#, fuzzy
 msgid "Upper Volta, Republic of"
-msgstr "मोल्डोभाको गणराज्य"
+msgstr "गणराज्य, माथिल्लो भोल्टा"
 
 #. historic names for VAT (withdrawn 1996-04-03)
-#, fuzzy
 msgid "Vatican City State (Holy See)"
-msgstr "होली सि (भ्याटिकन सिटि राज्य)"
+msgstr "भ्याटिकन सिटि राज्य (होली सि)"
 
 #. historic names for VDR (withdrawn 1977)
-#, fuzzy
 msgid "Viet-Nam, Democratic Republic of"
-msgstr "कोरियाको प्रजातन्त्रिक जनगणराज्य"
+msgstr "प्रजातन्त्रिक जनगणराज्य, भेयतनाम"
 
 #. historic names for WAK (withdrawn 1986)
-#, fuzzy
 msgid "Wake Island"
-msgstr "फारो टापु"
+msgstr "Wake टापु"
 
 #. historic names for YMD (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Democratic, People's Democratic Republic of"
-msgstr "कोरियाको प्रजातन्त्रिक जनगणराज्य"
+msgstr "प्रजातन्त्रिक, जनताको प्रजातन्त्रिक जनगणराज्य, येमिन"
 
 #. historic names for YEM (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Yemen Arab Republic"
-msgstr "सिरियन अरब गणराज्य"
+msgstr "येमिन अरब गणराज्य, येमिन"
 
 #. historic names for YUG (withdrawn 1993-07-28)
-#, fuzzy
 msgid "Yugoslavia, Socialist Federal Republic of"
-msgstr "तान्जानियाको संयक्त गणराज्यज्य"
+msgstr "समाजवादी संघीय गणराज्य, यूगोसलाभिया"
 
 #. historic names for ZAR (withdrawn 1997-07-14)
-#, fuzzy
 msgid "Zaire, Republic of"
-msgstr "कोरियाको गणराज्य"
+msgstr "गणराज्य,जायर"

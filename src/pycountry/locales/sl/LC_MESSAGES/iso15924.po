@@ -10,17 +10,22 @@
 # $Id: iso_15924-3.9.sl.po 1.2 2009/05/09 22:01:44 Primoz Exp $
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 3.15\n"
+"Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-28 13:02+0200\n"
+"POT-Creation-Date: 2010-12-23 20:41+0100\n"
 "PO-Revision-Date: 2009-05-10 00:01+0200\n"
 "Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#. name for Afak
+msgid "Afaka"
+msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -130,6 +135,10 @@ msgstr "devanagari"
 msgid "Deseret (Mormon)"
 msgstr "deseret (mormonska pisava)"
 
+#. name for Dupl
+msgid "Duployan shorthand, Duployan stenography"
+msgstr ""
+
 #. name for Egyd
 msgid "Egyptian demotic"
 msgstr "egipčanska demotska pisava"
@@ -141,6 +150,10 @@ msgstr "egiščanska hieratska pisava"
 #. name for Egyp
 msgid "Egyptian hieroglyphs"
 msgstr "egipčanska hieroglifna pisava"
+
+#. name for Elba
+msgid "Elbasan"
+msgstr ""
 
 #. name for Ethi
 msgid "Ethiopic (Geʻez)"
@@ -233,6 +246,10 @@ msgstr "javanska pisava"
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
 msgstr "japonska pisava (han + hiragana + katakana)"
+
+#. name for Jurc
+msgid "Jurchen"
+msgstr ""
 
 #. name for Kali
 msgid "Kayah Li"
@@ -356,6 +373,10 @@ msgstr "Moonova pisava"
 msgid "Mongolian"
 msgstr "mongolska pisava"
 
+#. name for Mroo
+msgid "Mro, Mru"
+msgstr ""
+
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "manipurska pisava"
@@ -378,6 +399,10 @@ msgstr ""
 
 #. name for Nkoo
 msgid "N’Ko"
+msgstr ""
+
+#. name for Nshu
+msgid "Nüshu"
 msgstr ""
 
 #. name for Ogam
@@ -481,9 +506,21 @@ msgstr ""
 msgid "Shavian (Shaw)"
 msgstr "šojevska pisava"
 
+#. name for Shrd
+msgid "Sharada, Śāradā"
+msgstr ""
+
+#. name for Sind
+msgid "Khudawadi, Sindhi"
+msgstr ""
+
 #. name for Sinh
 msgid "Sinhala"
 msgstr "singalska pisava"
+
+#. name for Sora
+msgid "Sora Sompeng"
+msgstr ""
 
 #. name for Sund
 msgid "Sundanese"
@@ -513,6 +550,10 @@ msgstr "sirijska pisava (vzhodna)"
 msgid "Tagbanwa"
 msgstr ""
 
+#. name for Takr
+msgid "Takri, Ṭākrī, Ṭāṅkrī"
+msgstr ""
+
 #. name for Tale
 msgid "Tai Le"
 msgstr ""
@@ -524,6 +565,10 @@ msgstr ""
 #. name for Taml
 msgid "Tamil"
 msgstr "tamilska pisava"
+
+#. name for Tang
+msgid "Tangut"
+msgstr ""
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -571,6 +616,10 @@ msgstr ""
 
 #. name for Wara
 msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
+#. name for Wole
+msgid "Woleai"
 msgstr ""
 
 #. name for Xpeo

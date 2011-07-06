@@ -1,0 +1,1970 @@
+# Translation of ISO 639 (3.15) to Malayalam
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Ani Peter <peter.ani@gmail.com>, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"PO-Revision-Date: 2009-08-05 15:56+0530\n"
+"Last-Translator: അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
+"Language-Team:  Malayalam <smc-discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. name for aar, aa
+msgid "Afar"
+msgstr "അഫാര്‍"
+
+#. name for abk, ab
+msgid "Abkhazian"
+msgstr "അബ്ഖാസിയാന്‍"
+
+#. name for ace
+msgid "Achinese"
+msgstr "ആചനീസ്"
+
+#. name for ach
+msgid "Acoli"
+msgstr "അക്കോളി"
+
+#. name for ada
+msgid "Adangme"
+msgstr "അഡാങ്മേ"
+
+#. name for ady
+msgid "Adyghe; Adygei"
+msgstr "ആഡഗേ"
+
+#. name for afa
+msgid "Afro-Asiatic languages"
+msgstr "ആഫ്രോ-ഏഷ്യാറ്റിക് ഭാഷകള്‍"
+
+#. name for afh
+msgid "Afrihili"
+msgstr "അഫ്രീഹിലി"
+
+#. name for afr, af
+msgid "Afrikaans"
+msgstr "ആഫ്രിക്കാന്‍സ്"
+
+#. name for ain
+msgid "Ainu"
+msgstr "ആയിനു"
+
+#. name for aka, ak
+msgid "Akan"
+msgstr "അഖാന്‍"
+
+#. name for akk
+msgid "Akkadian"
+msgstr "അഖാഡിയാന്‍"
+
+#. name for sqi, sq
+msgid "Albanian"
+msgstr "അല്‍ബാനിയന്‍"
+
+#. name for ale
+msgid "Aleut"
+msgstr "അലൂട്ട്"
+
+#. name for alg
+msgid "Algonquian languages"
+msgstr "ആല്‍ഗോക്യന്‍ ഭാഷകള്‍"
+
+#. name for alt
+msgid "Southern Altai"
+msgstr "വടക്കന്‍ അല്‍‌റ്റായി"
+
+#. name for amh, am
+msgid "Amharic"
+msgstr "അമ്ഹാരിക്"
+
+#. name for ang
+msgid "English, Old (ca. 450-1100)"
+msgstr "ഇംഗ്ലീഷ്, പുരാതന(ca. 450-1100)"
+
+#. name for anp
+msgid "Angika"
+msgstr "അങ്കീകാ"
+
+#. name for apa
+msgid "Apache languages"
+msgstr "അപാച്ചെ ഭാഷകള്‍"
+
+#. name for ara, ar
+msgid "Arabic"
+msgstr "അറബിക്"
+
+#. name for arc
+msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
+msgstr "ഔദ്ധ്യോഗിക അരാമിക് (700-300 BCE); ഇംപീരിയല്‍ അരാമിക് (700-300 BCE)"
+
+#. name for arg, an
+msgid "Aragonese"
+msgstr "അരാഗനീസ്"
+
+#. name for hye, hy
+msgid "Armenian"
+msgstr "അര്‍മേനിയന്‍"
+
+#. name for arn
+msgid "Mapudungun; Mapuche"
+msgstr "മാപ്പുച്ചേ"
+
+#. name for arp
+msgid "Arapaho"
+msgstr "അറാപഹോ"
+
+#. name for art
+msgid "Artificial languages"
+msgstr "കൃതൃമ ഭാഷകള്‍"
+
+#. name for arw
+msgid "Arawak"
+msgstr "അരാവാക്ക്"
+
+#. name for asm, as
+msgid "Assamese"
+msgstr "ആസാമീസ്"
+
+#. name for ast
+msgid "Asturian; Bable; Leonese; Asturleonese"
+msgstr "ഓസ്ടൂരിയന്‍; ബാബിള്‍; ലിയോണീസ്, ഓസ്ടൂര്‍ലീയോണീസ്"
+
+#. name for ath
+msgid "Athapascan languages"
+msgstr "അഥാപാസ്കന്‍ ഭാഷകള്‍"
+
+#. name for aus
+msgid "Australian languages"
+msgstr "ഓസ്ട്രേലിയന്‍ ഭാഷകള്‍"
+
+#. name for ava, av
+msgid "Avaric"
+msgstr "അവാറിക്"
+
+#. name for ave, ae
+msgid "Avestan"
+msgstr "അവസ്റ്റന്‍"
+
+#. name for awa
+msgid "Awadhi"
+msgstr "അവാദി"
+
+#. name for aym, ay
+msgid "Aymara"
+msgstr "അയ്മാരാ"
+
+#. name for aze, az
+msgid "Azerbaijani"
+msgstr "അസര്‍ബജാനി"
+
+#. name for bad
+msgid "Banda languages"
+msgstr "ബാന്‍ഡാ ഭാഷകള്‍"
+
+#. name for bai
+msgid "Bamileke languages"
+msgstr "ബാമിലേക് ഭാഷകള്‍"
+
+#. name for bak, ba
+msgid "Bashkir"
+msgstr "ബാഷ്കിര്‍"
+
+#. name for bal
+msgid "Baluchi"
+msgstr "ബലൂച്ചി"
+
+#. name for bam, bm
+msgid "Bambara"
+msgstr "ബാംബാറാ"
+
+#. name for ban
+msgid "Balinese"
+msgstr "ബാലിനീസ്"
+
+#. name for eus, eu
+msgid "Basque"
+msgstr "ബാസ്ക്"
+
+#. name for bas
+msgid "Basa"
+msgstr "ബാസാ"
+
+#. name for bat
+msgid "Baltic languages"
+msgstr "ബാള്‍ട്ടിക് ഭാഷകള്‍"
+
+#. name for bej
+msgid "Beja; Bedawiyet"
+msgstr "ബേജാ"
+
+#. name for bel, be
+msgid "Belarusian"
+msgstr "ബെലാറൂശ്യന്‍"
+
+#. name for bem
+msgid "Bemba"
+msgstr "ബെംബാ"
+
+#. name for ben, bn
+msgid "Bengali"
+msgstr "ബംഗാളി"
+
+#. name for ber
+msgid "Berber languages"
+msgstr "ബെര്‍ബെര്‍ ഭാഷകള്‍"
+
+#. name for bho
+msgid "Bhojpuri"
+msgstr "ഭോജ്പുരി"
+
+#. name for bih, bh
+#, fuzzy
+msgid "Bihari languages"
+msgstr "തായി ഭാഷകള്‍"
+
+#. name for bik
+msgid "Bikol"
+msgstr "ബികോള്‍"
+
+#. name for bin
+msgid "Bini; Edo"
+msgstr "ബിനി; എദോ"
+
+#. name for bis, bi
+msgid "Bislama"
+msgstr "ബിസ്‌ലാമാ"
+
+#. name for bla
+msgid "Siksika"
+msgstr "സിക്‌സികാ"
+
+#. name for bnt
+msgid "Bantu languages"
+msgstr "ബാന്‍ടു ഭാഷകള്‍"
+
+#. name for bos, bs
+msgid "Bosnian"
+msgstr "ബോസ്നിയന്‍"
+
+#. name for bra
+msgid "Braj"
+msgstr "ബ്രാജ്"
+
+#. name for bre, br
+msgid "Breton"
+msgstr "ബ്രെട്ടണ്‍"
+
+#. name for btk
+msgid "Batak languages"
+msgstr "ബാട്ടക് ഭാഷകള്‍"
+
+#. name for bua
+msgid "Buriat"
+msgstr "ബുറ്യാത്"
+
+#. name for bug
+msgid "Buginese"
+msgstr "ബഗിനീസ്"
+
+#. name for bul, bg
+msgid "Bulgarian"
+msgstr "ബള്‍ഗേറിയന്‍"
+
+#. name for mya, my
+msgid "Burmese"
+msgstr "ബര്‍മീസ്"
+
+#. name for byn
+msgid "Blin; Bilin"
+msgstr "ബ്ലിന്‍; ബിലിന്‍"
+
+#. name for cad
+msgid "Caddo"
+msgstr "കാഡോ"
+
+#. name for cai
+msgid "Central American Indian languages"
+msgstr "സെന്‍ട്രല്‍ അമേരിക്കന്‍ ഇന്ത്യന്‍ ഭാഷകള്‍"
+
+#. name for car
+msgid "Galibi Carib"
+msgstr "ഗാലിബി കാരിബ്"
+
+#. name for cat, ca
+msgid "Catalan; Valencian"
+msgstr "കാറ്റലന്‍; വാലെന്‍ശ്യന്‍"
+
+#. name for cau
+msgid "Caucasian languages"
+msgstr "കൊഖേഷ്യന്‍ ഭാഷകള്‍"
+
+#. name for ceb
+msgid "Cebuano"
+msgstr "സെബ്വാനോ"
+
+#. name for cel
+msgid "Celtic languages"
+msgstr "സെല്‍ട്ടിക് ഭാഷകള്‍"
+
+#. name for cha, ch
+msgid "Chamorro"
+msgstr "ക്യാമൊറോ"
+
+#. name for chb
+msgid "Chibcha"
+msgstr "ചിബ്ചാ"
+
+#. name for che, ce
+msgid "Chechen"
+msgstr "ചെഛന്‍"
+
+#. name for chg
+msgid "Chagatai"
+msgstr "ചാഗറ്റായി"
+
+#. name for zho, zh
+msgid "Chinese"
+msgstr "ചൈനീസ്"
+
+#. name for chk
+msgid "Chuukese"
+msgstr "ചൂക്കീസ്"
+
+#. name for chm
+msgid "Mari"
+msgstr "മാരി"
+
+#. name for chn
+msgid "Chinook jargon"
+msgstr "ചിനൂക് ജാര്‍ഗണ്‍"
+
+#. name for cho
+msgid "Choctaw"
+msgstr "ചോക്ടൌ"
+
+#. name for chp
+msgid "Chipewyan; Dene Suline"
+msgstr "ചിപുവയന്‍; ഡീന്‍ സ്യുലീന്‍"
+
+#. name for chr
+msgid "Cherokee"
+msgstr "ചെറോക്കീ"
+
+#. name for chu, cu
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
+"ചര്‍ച്ച് സ്ലാവിക്; ഓള്‍ഡ് സ്ലാവോണിക്; ചര്‍ച് സ്ലാവോണിക്; ഓള്‍ഡ് ബള്‍ഗേരിയന്‍; ഓള്‍ഡ് ചര്‍ച് സ്ലാവോണിക്"
+
+#. name for chv, cv
+msgid "Chuvash"
+msgstr "ചുവാഷ്"
+
+#. name for chy
+msgid "Cheyenne"
+msgstr "ഷയാന്‍"
+
+#. name for cmc
+msgid "Chamic languages"
+msgstr "കാമിക് ഭാഷകള്‍"
+
+#. name for cop
+msgid "Coptic"
+msgstr "കോപ്ടിക്"
+
+#. name for cor, kw
+msgid "Cornish"
+msgstr "കോര്‍ണിഷ്"
+
+#. name for cos, co
+msgid "Corsican"
+msgstr "കോര്‍സിക്കന്‍"
+
+#. name for cpe
+msgid "Creoles and pidgins, English based"
+msgstr "ക്രിയോള്‍സ് പിഡ്ഗിന്‍സ്, ഇംഗ്ലീഷ് അതിഷ്ടിതമായ"
+
+#. name for cpf
+msgid "Creoles and pidgins, French-based"
+msgstr "ക്രിയോള്‍സ് പിഡ്ഗിന്‍സ്, ഫ്രഞ്ച് അതിഷ്ടിതമായ"
+
+#. name for cpp
+msgid "Creoles and pidgins, Portuguese-based"
+msgstr "ക്രിയോള്‍സ് പിഡ്ഗിന്‍സ്, പോര്‍ച്ചുഗീസ് അതിഷ്ടിതമായ"
+
+#. name for cre, cr
+msgid "Cree"
+msgstr "ക്രീ"
+
+#. name for crh
+msgid "Crimean Tatar; Crimean Turkish"
+msgstr "ക്രിമിയന്‍ ടാടര്‍; ക്രിമിയന്‍ ടര്‍ക്കിഷ്"
+
+#. name for crp
+msgid "Creoles and pidgins"
+msgstr "ക്രിയോള്‍സ് പിഡ്ഗിന്‍സ്"
+
+#. name for csb
+msgid "Kashubian"
+msgstr "കഷൂബിയന്‍"
+
+#. name for cus
+msgid "Cushitic languages"
+msgstr "കശീതിക് ഭാഷകള്‍"
+
+#. name for ces, cs
+msgid "Czech"
+msgstr "ചെക്ക്"
+
+#. name for dak
+msgid "Dakota"
+msgstr "ഡക്കോടാ"
+
+#. name for dan, da
+msgid "Danish"
+msgstr "ഡാനിഷ്"
+
+#. name for dar
+msgid "Dargwa"
+msgstr "ഡാര്‍ഗ്‌വാ"
+
+#. name for day
+msgid "Land Dayak languages"
+msgstr "ലാന്‍ഡ് ദായക് ഭാഷകള്‍"
+
+#. name for del
+msgid "Delaware"
+msgstr "ഡെലാവേര്‍"
+
+#. name for den
+msgid "Slave (Athapascan)"
+msgstr "സ്ലേവ് (അഥപാസ്കാന്‍)"
+
+#. name for dgr
+msgid "Dogrib"
+msgstr "ഡോഗ്രിബ്"
+
+#. name for din
+msgid "Dinka"
+msgstr "ഡിങ്കാ"
+
+#. name for div, dv
+msgid "Divehi; Dhivehi; Maldivian"
+msgstr "ദിവേഹി; മാല്‍ദീവിയന്‍"
+
+#. name for doi
+msgid "Dogri"
+msgstr "ഡോഗ്രീ"
+
+#. name for dra
+msgid "Dravidian languages"
+msgstr "ദ്രവീ‍ഡിയന്‍ ഭാഷകള്‍"
+
+#. name for dsb
+msgid "Lower Sorbian"
+msgstr "ലോവര്‍ സോര്‍ബിയന്‍"
+
+#. name for dua
+msgid "Duala"
+msgstr "ഡ്വാലാ"
+
+#. name for dum
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr "ഡച്ച്, മിഡില്‍ (ca. 1050-1350)"
+
+#. name for nld, nl
+msgid "Dutch; Flemish"
+msgstr "ഡച്ച്, ഫ്ലെമിഷ്"
+
+#. name for dyu
+msgid "Dyula"
+msgstr "ഡ്യുവാലാ"
+
+#. name for dzo, dz
+msgid "Dzongkha"
+msgstr "സോങ്കാ"
+
+#. name for efi
+msgid "Efik"
+msgstr "എഫിക്"
+
+#. name for egy
+msgid "Egyptian (Ancient)"
+msgstr "ഈജിപ്ഷ്യന്‍ (പുരാതന)"
+
+#. name for eka
+msgid "Ekajuk"
+msgstr "അകാജുക്"
+
+#. name for elx
+msgid "Elamite"
+msgstr "എലാമൈറ്റ്"
+
+#. name for eng, en
+msgid "English"
+msgstr "ഇംഗ്ലിഷ്"
+
+#. name for enm
+msgid "English, Middle (1100-1500)"
+msgstr "ഇംഗ്ലിഷ്, മിഡില്‍ (1100-1500)"
+
+#. name for epo, eo
+msgid "Esperanto"
+msgstr "എസ്പറാന്റോ"
+
+#. name for est, et
+msgid "Estonian"
+msgstr "എസ്ടോണിയന്‍"
+
+#. name for ewe, ee
+msgid "Ewe"
+msgstr "എയ്‌വേ"
+
+#. name for ewo
+msgid "Ewondo"
+msgstr "എവൂണ്ടു"
+
+#. name for fan
+msgid "Fang"
+msgstr "ഫാങ്"
+
+#. name for fao, fo
+msgid "Faroese"
+msgstr "ഫെറൊവീസ്"
+
+#. name for fat
+msgid "Fanti"
+msgstr "ഫാന്റീ"
+
+#. name for fij, fj
+msgid "Fijian"
+msgstr "ഫിജിയന്‍"
+
+#. name for fil
+msgid "Filipino; Pilipino"
+msgstr "ഫിലിപ്പിനോ"
+
+#. name for fin, fi
+msgid "Finnish"
+msgstr "ഫിന്നിഷ്"
+
+#. name for fiu
+msgid "Finno-Ugrian languages"
+msgstr "ഫിന്നോ-യുഗ്രിയന്‍ ഭാഷകള്‍"
+
+#. name for fon
+msgid "Fon"
+msgstr "ഫോണ്‍"
+
+#. name for fra, fr
+msgid "French"
+msgstr "ഫ്രെഞ്ച്"
+
+#. name for frm
+msgid "French, Middle (ca. 1400-1600)"
+msgstr "ഫ്രെഞ്ച്, മിഡില്‍ (ca. 1400-1600)"
+
+#. name for fro
+msgid "French, Old (842-ca. 1400)"
+msgstr "പ്രാചീന ഫ്രെഞ്ച് (842-ca. 1400)"
+
+#. name for frr
+msgid "Northern Frisian"
+msgstr "വടക്കന്‍ ഫ്രിഷന്‍"
+
+#. name for frs
+msgid "Eastern Frisian"
+msgstr "കിഴക്കന്‍ ഫ്രിഷന്‍"
+
+#. name for fry, fy
+msgid "Western Frisian"
+msgstr "പടിഞ്ഞാറന്‍ ഫ്രിഷന്‍"
+
+#. name for ful, ff
+msgid "Fulah"
+msgstr "ഫൂലാ"
+
+#. name for fur
+msgid "Friulian"
+msgstr "ഫ്രിയൂലിയന്‍"
+
+#. name for gaa
+msgid "Ga"
+msgstr "ഗാ"
+
+#. name for gay
+msgid "Gayo"
+msgstr "ഗായോ"
+
+#. name for gba
+msgid "Gbaya"
+msgstr "ജബായാ"
+
+#. name for gem
+msgid "Germanic languages"
+msgstr "ജര്‍മന്‍ ഭാഷകള്‍"
+
+#. name for kat, ka
+msgid "Georgian"
+msgstr "ജോര്‍ജ്യന്‍"
+
+#. name for deu, de
+msgid "German"
+msgstr "ജര്‍മന്‍"
+
+#. name for gez
+msgid "Geez"
+msgstr "ഗീയാസ്"
+
+#. name for gil
+msgid "Gilbertese"
+msgstr "ഗില്‍ബര്‍ട്ടീസ്"
+
+#. name for gla, gd
+msgid "Gaelic; Scottish Gaelic"
+msgstr "ഗെയ്ലിക്; സ്ക്കോട്ടിഷ് ഗെയ്ലിക്"
+
+#. name for gle, ga
+msgid "Irish"
+msgstr "ഐറിഷ്"
+
+#. name for glg, gl
+msgid "Galician"
+msgstr "ഗലീഷ്യന്‍"
+
+#. name for glv, gv
+msgid "Manx"
+msgstr "മാങ്ക്സ്"
+
+#. name for gmh
+msgid "German, Middle High (ca. 1050-1500)"
+msgstr "മിഡില്‍ ഹൈ ജര്‍മന്‍ (ca. 750-1050)"
+
+#. name for goh
+msgid "German, Old High (ca. 750-1050)"
+msgstr "ഓള്‍ഡ് ഹൈ ജര്‍മന്‍ (ca. 750-1050)"
+
+#. name for gon
+msgid "Gondi"
+msgstr "ഗോണ്ടി"
+
+#. name for gor
+msgid "Gorontalo"
+msgstr "ഗൊറോണ്ടാലോ"
+
+#. name for got
+msgid "Gothic"
+msgstr "ഗോഥിക്"
+
+#. name for grb
+msgid "Grebo"
+msgstr "ഗ്രെബോ"
+
+#. name for grc
+msgid "Greek, Ancient (to 1453)"
+msgstr "പുരാതന ഗ്രീക്ക് (1453 വരെ)"
+
+#. name for ell, el
+msgid "Greek, Modern (1453-)"
+msgstr "ആധുനിക ഗ്രീക്ക് (1453-)"
+
+#. name for grn, gn
+msgid "Guarani"
+msgstr "ഗ്വറാനി"
+
+#. name for gsw
+msgid "Swiss German; Alemannic; Alsatian"
+msgstr "സ്വിസ് ജര്‍മന്‍; അലെമാനിക്, അല്‍സാഷ്യന്‍"
+
+#. name for guj, gu
+msgid "Gujarati"
+msgstr "ഗുജറാത്തി"
+
+#. name for gwi
+msgid "Gwich'in"
+msgstr "ഗ്വിച്ചിന്‍"
+
+#. name for hai
+msgid "Haida"
+msgstr "ഹയിഡാ"
+
+#. name for hat, ht
+msgid "Haitian; Haitian Creole"
+msgstr "ഹയാത്തിയന്‍, ഹയാത്തിയന്‍ ക്രിയോള്‍"
+
+#. name for hau, ha
+msgid "Hausa"
+msgstr "ഹൌസാ"
+
+#. name for haw
+msgid "Hawaiian"
+msgstr "ഹവായിയന്‍"
+
+#. name for heb, he
+msgid "Hebrew"
+msgstr "ഹീബ്രൂ"
+
+#. name for her, hz
+msgid "Herero"
+msgstr "ഹെറേറോ"
+
+#. name for hil
+msgid "Hiligaynon"
+msgstr "ഹിലിഗായ്നന്‍"
+
+#. name for him
+msgid "Himachali languages; Western Pahari languages"
+msgstr ""
+
+#. name for hin, hi
+msgid "Hindi"
+msgstr "ഹിന്ദി"
+
+#. name for hit
+msgid "Hittite"
+msgstr "ഹിറ്റൈറ്റ്"
+
+#. name for hmn
+#, fuzzy
+msgid "Hmong; Mong"
+msgstr "ഹിമോങ്"
+
+#. name for hmo, ho
+msgid "Hiri Motu"
+msgstr "ഹിരി മോട്ടു"
+
+#. name for hrv, hr
+msgid "Croatian"
+msgstr "ക്രൊയേഷ്യന്‍"
+
+#. name for hsb
+msgid "Upper Sorbian"
+msgstr "അപ്പര്‍ സോര്‍ബിയന്‍"
+
+#. name for hun, hu
+msgid "Hungarian"
+msgstr "ഹംഗേറിയന്‍"
+
+#. name for hup
+msgid "Hupa"
+msgstr "ഹ്യുപ്പാ"
+
+#. name for iba
+msgid "Iban"
+msgstr "ഇബാന്‍"
+
+#. name for ibo, ig
+msgid "Igbo"
+msgstr "ഇഗ്ബോ"
+
+#. name for isl, is
+msgid "Icelandic"
+msgstr "ഐസ്‌ലൈന്‍ഡിക്"
+
+#. name for ido, io
+msgid "Ido"
+msgstr "ഐഡോ"
+
+#. name for iii, ii
+msgid "Sichuan Yi; Nuosu"
+msgstr "സിച്ച്വാന്‍ യി; ന്വോസു"
+
+#. name for ijo
+msgid "Ijo languages"
+msgstr "ഇജോ ഭാഷകള്‍"
+
+#. name for iku, iu
+msgid "Inuktitut"
+msgstr "ഇനൂക്ടിടൂട്ട്"
+
+#. name for ile, ie
+msgid "Interlingue; Occidental"
+msgstr "ഇന്റര്‍ലിങ്ക്വ; ഓക്സിഡന്റ‌ല്‍"
+
+#. name for ilo
+msgid "Iloko"
+msgstr "ഇകോഖോ"
+
+#. name for ina, ia
+msgid "Interlingua (International Auxiliary Language Association)"
+msgstr "ഇന്റര്‍ലിങ്ക്വാ (ഇന്റര്‍നാഷണല്‍ ഓക്സിലിയറി ലാങ്ക്വേജ് അസോസിയേഷന്‍)"
+
+#. name for inc
+msgid "Indic languages"
+msgstr "ഇന്‍ഡിക് ഭാഷകള്‍"
+
+#. name for ind, id
+msgid "Indonesian"
+msgstr "ഇന്‍ഡൊനേഷ്യന്‍"
+
+#. name for ine
+msgid "Indo-European languages"
+msgstr "ഇന്‍ഡോ-യൂറോപ്പ്യന്‍ ഭാഷകള്‍"
+
+#. name for inh
+msgid "Ingush"
+msgstr "ഇന്‍ഗുഷ്"
+
+#. name for ipk, ik
+msgid "Inupiaq"
+msgstr "ഇനൂപിയാക്"
+
+#. name for ira
+msgid "Iranian languages"
+msgstr "ഇറാനിയന്‍ ഭാഷകള്‍"
+
+#. name for iro
+msgid "Iroquoian languages"
+msgstr "ഇറോക്വോയന്‍ ഭാഷകള്‍"
+
+#. name for ita, it
+msgid "Italian"
+msgstr "ഇറ്റാലിയന്‍"
+
+#. name for jav, jv
+msgid "Javanese"
+msgstr "ജാവനീസ്"
+
+#. name for jbo
+msgid "Lojban"
+msgstr "ലോസ്ബാന്‍"
+
+#. name for jpn, ja
+msgid "Japanese"
+msgstr "ജാപ്പനീസ്"
+
+#. name for jpr
+msgid "Judeo-Persian"
+msgstr "ജൂഡിയോ-പേര്‍ഷ്യന്‍"
+
+#. name for jrb
+msgid "Judeo-Arabic"
+msgstr "ജൂഡിയോ-അറബിക്"
+
+#. name for kaa
+msgid "Kara-Kalpak"
+msgstr "കാരാ-കല്‍പാക്"
+
+#. name for kab
+msgid "Kabyle"
+msgstr "കബായില്‍"
+
+#. name for kac
+msgid "Kachin; Jingpho"
+msgstr "കാച്ചിന്‍; ജിങ്ഫോ"
+
+#. name for kal, kl
+msgid "Kalaallisut; Greenlandic"
+msgstr "കലാലിസട്ട്; ഗ്രീന്‍ലാന്‍ഡിക്"
+
+#. name for kam
+msgid "Kamba"
+msgstr "കാംബാ"
+
+#. name for kan, kn
+msgid "Kannada"
+msgstr "കന്നഡ"
+
+#. name for kar
+msgid "Karen languages"
+msgstr "കറേന്‍ ഭാഷകള്‍"
+
+#. name for kas, ks
+msgid "Kashmiri"
+msgstr "കാഷ്മീരി"
+
+#. name for kau, kr
+msgid "Kanuri"
+msgstr "കനൂരി"
+
+#. name for kaw
+msgid "Kawi"
+msgstr "ഖാവി"
+
+#. name for kaz, kk
+msgid "Kazakh"
+msgstr "ഖസക്"
+
+#. name for kbd
+msgid "Kabardian"
+msgstr "കബാര്‍ഡിയന്‍"
+
+#. name for kha
+msgid "Khasi"
+msgstr "ഖാസി"
+
+#. name for khi
+msgid "Khoisan languages"
+msgstr "ഖോയിസന്‍ ഭാഷകള്‍"
+
+#. name for khm, km
+msgid "Central Khmer"
+msgstr "സെന്‍ട്രല്‍ ഖ്മര്‍"
+
+#. name for kho
+msgid "Khotanese;Sakan"
+msgstr "കോട്ടനീസ്;സകാന്‍"
+
+#. name for kik, ki
+msgid "Kikuyu; Gikuyu"
+msgstr "കിക്കൂയൂ; ഗിക്കൂയു"
+
+#. name for kin, rw
+msgid "Kinyarwanda"
+msgstr "കിന്യാര്‍വാണ്ടാ"
+
+#. name for kir, ky
+msgid "Kirghiz; Kyrgyz"
+msgstr "കിര്‍ഗിസ്"
+
+#. name for kmb
+msgid "Kimbundu"
+msgstr "കിമ്പുണ്ടു"
+
+#. name for kok
+msgid "Konkani"
+msgstr "കൊങിണി"
+
+#. name for kom, kv
+msgid "Komi"
+msgstr "കോമി"
+
+#. name for kon, kg
+msgid "Kongo"
+msgstr "കോങ്കോ"
+
+#. name for kor, ko
+msgid "Korean"
+msgstr "കൊറിയന്‍"
+
+#. name for kos
+msgid "Kosraean"
+msgstr "കോസ്രിയന്‍"
+
+#. name for kpe
+msgid "Kpelle"
+msgstr "കുപ്പെലാ"
+
+#. name for krc
+msgid "Karachay-Balkar"
+msgstr "കരാചെയ്-ബാല്‍കര്‍"
+
+#. name for krl
+msgid "Karelian"
+msgstr "കറേലിയന്‍"
+
+#. name for kro
+msgid "Kru languages"
+msgstr "ക്രൂ ഭാഷകള്‍"
+
+#. name for kru
+msgid "Kurukh"
+msgstr "കൂറഖ്"
+
+#. name for kua, kj
+msgid "Kuanyama; Kwanyama"
+msgstr "ക്വാന്യാമാ"
+
+#. name for kum
+msgid "Kumyk"
+msgstr "കുമിക്"
+
+#. name for kur, ku
+msgid "Kurdish"
+msgstr "കര്‍ഡിഷ്"
+
+#. name for kut
+msgid "Kutenai"
+msgstr "കൂട്ട്നേയ്"
+
+#. name for lad
+msgid "Ladino"
+msgstr "ലഡീനോ"
+
+#. name for lah
+msgid "Lahnda"
+msgstr "ലാന്‍ഡാ"
+
+#. name for lam
+msgid "Lamba"
+msgstr "ലാമ്പാ"
+
+#. name for lao, lo
+msgid "Lao"
+msgstr "ലാവോ"
+
+#. name for lat, la
+msgid "Latin"
+msgstr "ലാറ്റിന്‍"
+
+#. name for lav, lv
+msgid "Latvian"
+msgstr "ലാട്വിയന്‍"
+
+#. name for lez
+msgid "Lezghian"
+msgstr "ലസ്ഗീയന്‍"
+
+#. name for lim, li
+msgid "Limburgan; Limburger; Limburgish"
+msgstr "ലിംബര്‍ഗന്‍; ലിംബര്‍ഗര്‍; ലിംബര്‍ഗിഷ്"
+
+#. name for lin, ln
+msgid "Lingala"
+msgstr "ലിങ്കാലാ"
+
+#. name for lit, lt
+msgid "Lithuanian"
+msgstr "ലിഥ്വാനിയന്‍"
+
+#. name for lol
+msgid "Mongo"
+msgstr "മോങ്കോ"
+
+#. name for loz
+msgid "Lozi"
+msgstr "ലോസി"
+
+#. name for ltz, lb
+msgid "Luxembourgish; Letzeburgesch"
+msgstr "ലക്സംബൂര്‍ജിഷ്; ലെറ്റ്സബൂര്‍ഗിഷ്"
+
+#. name for lua
+msgid "Luba-Lulua"
+msgstr "ല്യൂബാ-ലുലുവാ"
+
+#. name for lub, lu
+msgid "Luba-Katanga"
+msgstr "ല്യൂബാ-കട്ടാങ്കാ"
+
+#. name for lug, lg
+msgid "Ganda"
+msgstr "ഗാണ്ടാ"
+
+#. name for lui
+msgid "Luiseno"
+msgstr "ല്യൂസാന്യോ"
+
+#. name for lun
+msgid "Lunda"
+msgstr "ലണ്ടാ"
+
+#. name for luo
+msgid "Luo (Kenya and Tanzania)"
+msgstr "ലുവോ (കെന്യാ, ടാന്‍സാനിയാ)"
+
+#. name for lus
+msgid "Lushai"
+msgstr "ലുഷായി"
+
+#. name for mkd, mk
+msgid "Macedonian"
+msgstr "മസിഡോണിയന്‍"
+
+#. name for mad
+msgid "Madurese"
+msgstr "മാഡുറീസ്"
+
+#. name for mag
+msgid "Magahi"
+msgstr "മഗാഹി"
+
+#. name for mah, mh
+msgid "Marshallese"
+msgstr "മാര്‍ഷലീസ്"
+
+#. name for mai
+msgid "Maithili"
+msgstr "മൈഥിലി"
+
+#. name for mak
+msgid "Makasar"
+msgstr "മാകസാര്‍"
+
+#. name for mal, ml
+msgid "Malayalam"
+msgstr "മലയാളം"
+
+#. name for man
+msgid "Mandingo"
+msgstr "മാന്‍ഡിങ്കോ"
+
+#. name for mri, mi
+msgid "Maori"
+msgstr "മാവോരി"
+
+#. name for map
+msgid "Austronesian languages"
+msgstr "ഓസ്ട്രോണേഷ്യന്‍ ഭാഷകള്‍"
+
+#. name for mar, mr
+msgid "Marathi"
+msgstr "മറാത്തി"
+
+#. name for mas
+msgid "Masai"
+msgstr "മസായ്"
+
+#. name for msa, ms
+msgid "Malay"
+msgstr "മലയ്"
+
+#. name for mdf
+msgid "Moksha"
+msgstr "മോക്ഷാ"
+
+#. name for mdr
+msgid "Mandar"
+msgstr "മാന്‍ഡര്‍"
+
+#. name for men
+msgid "Mende"
+msgstr "മെന്‍ഡേ"
+
+#. name for mga
+msgid "Irish, Middle (900-1200)"
+msgstr "ഐറിഷ്, മദ്ധ്യം (900-1200)"
+
+#. name for mic
+msgid "Mi'kmaq; Micmac"
+msgstr "മിക്‌മാക്"
+
+#. name for min
+msgid "Minangkabau"
+msgstr "മിനാങ്കബൌ"
+
+#. name for mis
+msgid "Uncoded languages"
+msgstr "കോഡ് ചെയ്യാത്ത ഭാഷകള്‍"
+
+#. name for mkh
+msgid "Mon-Khmer languages"
+msgstr "മോണ്‍-ഖമര്‍ ഭാഷകള്‍"
+
+#. name for mlg, mg
+msgid "Malagasy"
+msgstr "മലാഗസി"
+
+#. name for mlt, mt
+msgid "Maltese"
+msgstr "മാള്‍ട്ടീസ്"
+
+#. name for mnc
+msgid "Manchu"
+msgstr "മാഞ്ചു"
+
+#. name for mni
+msgid "Manipuri"
+msgstr "മണിപൂരി"
+
+#. name for mno
+msgid "Manobo languages"
+msgstr "മനോബോ ഭാഷകള്‍"
+
+#. name for moh
+msgid "Mohawk"
+msgstr "മോഹോക്"
+
+#. name for mol, mo
+msgid "Moldavian; Moldovan"
+msgstr "മോള്‍ഡാവിയന്‍; മോള്‍ഡോവാന്‍"
+
+#. name for mon, mn
+msgid "Mongolian"
+msgstr "മംഗോളിയന്‍"
+
+#. name for mos
+msgid "Mossi"
+msgstr "മോസ്സി"
+
+#. name for mul
+msgid "Multiple languages"
+msgstr "അനവധി ഭാഷകള്‍"
+
+#. name for mun
+msgid "Munda languages"
+msgstr "മുന്‍ഡാ ഭാഷകള്‍"
+
+#. name for mus
+msgid "Creek"
+msgstr "ക്രീക്ക്"
+
+#. name for mwl
+msgid "Mirandese"
+msgstr "മിറാണ്ടീസ്"
+
+#. name for mwr
+msgid "Marwari"
+msgstr "മാര്‍വാറി"
+
+#. name for myn
+msgid "Mayan languages"
+msgstr "മായാന്‍ ഭാഷകള്‍"
+
+#. name for myv
+msgid "Erzya"
+msgstr "എര്‍സ്യാ"
+
+#. name for nah
+msgid "Nahuatl languages"
+msgstr "നാവാട്ടില്‍ ഭാഷകള്‍"
+
+#. name for nai
+msgid "North American Indian languages"
+msgstr "വടക്കന്‍ അമേരിക്കന്‍ ഇന്ത്യന്‍ ഭാഷകള്‍"
+
+#. name for nap
+msgid "Neapolitan"
+msgstr "നെപ്പോളിറ്റന്‍"
+
+#. name for nau, na
+msgid "Nauru"
+msgstr "നൊറു"
+
+#. name for nav, nv
+msgid "Navajo; Navaho"
+msgstr "നാവഹോ"
+
+#. name for nbl, nr
+msgid "Ndebele, South; South Ndebele"
+msgstr "അണ്ടബീലി, തെക്ക്; തെക്കന്‍ അണ്ടബീലി"
+
+#. name for nde, nd
+msgid "Ndebele, North; North Ndebele"
+msgstr "അണ്ടബീലി, വടക്ക്; വടക്കന്‍ അണ്ടബീലി"
+
+#. name for ndo, ng
+msgid "Ndonga"
+msgstr "ഡോങ്കാ"
+
+#. name for nds
+msgid "Low German; Low Saxon; German, Low; Saxon, Low"
+msgstr "ലോ ജര്‍മന്‍; ലോ സാക്സോണ്‍; ജര്‍മന്‍, ലോ; സാക്സോണ്‍, ലോ"
+
+#. name for nep, ne
+msgid "Nepali"
+msgstr "നേപ്പാളി"
+
+#. name for new
+msgid "Nepal Bhasa; Newari"
+msgstr "നേപ്പാള്‍ ബാസാ; നേവാരി"
+
+#. name for nia
+msgid "Nias"
+msgstr "നിയാസ്"
+
+#. name for nic
+msgid "Niger-Kordofanian languages"
+msgstr "നൈജര്‍-കോര്‍ഡോഫാനിയന്‍ ഭാഷകള്‍"
+
+#. name for niu
+msgid "Niuean"
+msgstr "ന്യൂയാന്‍"
+
+#. name for nno, nn
+msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
+msgstr "നോര്‍വീജിയന്‍ നീനോഴ്സ്ക്; നീനോഴ്സ്ക്, നോര്‍വീജിയന്‍ "
+
+#. name for nob, nb
+msgid "Bokmål, Norwegian; Norwegian Bokmål"
+msgstr "ബൂക്ക്മോള്‍, നോര്‍വീജിയന്‍; നോര്‍വീജിയന്‍ ബൂക്ക്മോള്‍"
+
+#. name for nog
+msgid "Nogai"
+msgstr "നോഗായി"
+
+#. name for non
+msgid "Norse, Old"
+msgstr "പ്രാചീന നോഴ്സ്"
+
+#. name for nor, no
+msgid "Norwegian"
+msgstr "നോര്‍വീജിയന്‍"
+
+#. name for nqo
+msgid "N'Ko"
+msgstr "ന്‍കോ"
+
+#. name for nso
+msgid "Pedi; Sepedi; Northern Sotho"
+msgstr "പെഡി; സെപ്പെഡി; വടക്കന്‍ സോഥോ"
+
+#. name for nub
+msgid "Nubian languages"
+msgstr "നുബിയന്‍ ഭാഷകള്‍"
+
+#. name for nwc
+msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
+msgstr "ക്ലാസിക്കല്‍ നെവാരി; പ്രാചീന നെവാരി; ക്ലാസിക്കല്‍ നേപ്പാള്‍ ബാസാ"
+
+#. name for nya, ny
+msgid "Chichewa; Chewa; Nyanja"
+msgstr "ചിച്ചേവാ; ചേവാ; ന്യാഞ്ചാ"
+
+#. name for nym
+msgid "Nyamwezi"
+msgstr "ന്യാംവേസി"
+
+#. name for nyn
+msgid "Nyankole"
+msgstr "ന്യാന്‍കോല്‍"
+
+#. name for nyo
+msgid "Nyoro"
+msgstr "ന്യോറോ"
+
+#. name for nzi
+msgid "Nzima"
+msgstr "സീമാ"
+
+#. name for oci, oc
+msgid "Occitan (post 1500)"
+msgstr "ഓക്സിറ്റാന്‍ (1500-നു് ശേഷം)"
+
+#. name for oji, oj
+msgid "Ojibwa"
+msgstr "ഓജിബ്‌വേ"
+
+#. name for ori, or
+msgid "Oriya"
+msgstr "ഒറിയ"
+
+#. name for orm, om
+msgid "Oromo"
+msgstr "ഒറോമോ"
+
+#. name for osa
+msgid "Osage"
+msgstr "ഓഹ്സേ"
+
+#. name for oss, os
+msgid "Ossetian; Ossetic"
+msgstr "ഒസീഷന്‍; ഒസീറ്റിക്"
+
+#. name for ota
+msgid "Turkish, Ottoman (1500-1928)"
+msgstr "ഒട്ടോമന്‍ ടര്‍ക്കിഷ് (1500-1928)"
+
+#. name for oto
+msgid "Otomian languages"
+msgstr "ഒട്ടോമിയന്‍ ഭാഷകള്‍"
+
+#. name for paa
+msgid "Papuan languages"
+msgstr "പാപ്വന്‍ ഭാഷകള്‍"
+
+#. name for pag
+msgid "Pangasinan"
+msgstr "പാങ്കാസിനന്‍"
+
+#. name for pal
+msgid "Pahlavi"
+msgstr "പാഹ്‌ലവീ"
+
+#. name for pam
+msgid "Pampanga; Kapampangan"
+msgstr "പാമ്പാങ്കാ; കാപാമ്പാങ്കന്‍"
+
+#. name for pan, pa
+msgid "Panjabi; Punjabi"
+msgstr "പഞ്ചാബി"
+
+#. name for pap
+msgid "Papiamento"
+msgstr "പാപ്പിയമെന്റോ"
+
+#. name for pau
+msgid "Palauan"
+msgstr "പാലോണ്‍"
+
+#. name for peo
+msgid "Persian, Old (ca. 600-400 B.C.)"
+msgstr "പ്രാചീന പേര്‍ശ്യന്‍ (ca. 600-400 B.C.)"
+
+#. name for fas, fa
+msgid "Persian"
+msgstr "പേര്‍ശ്യന്‍"
+
+#. name for phi
+msgid "Philippine languages"
+msgstr "ഫിലിപ്പൈന്‍ ഭാഷകള്‍"
+
+#. name for phn
+msgid "Phoenician"
+msgstr "ഫിണിഷ്യന്‍"
+
+#. name for pli, pi
+msgid "Pali"
+msgstr "പാലി"
+
+#. name for pol, pl
+msgid "Polish"
+msgstr "പോളിഷ്"
+
+#. name for pon
+msgid "Pohnpeian"
+msgstr "പോണ്‍പിയന്‍"
+
+#. name for por, pt
+msgid "Portuguese"
+msgstr "പോര്‍ച്ചുഗീസ്"
+
+#. name for pra
+msgid "Prakrit languages"
+msgstr "പ്രാക്രിത് ഭാഷകള്‍"
+
+#. name for pro
+msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
+msgstr "പുരാതന പ്രൊവന്‍സാല്‍ (1500 വരെ); പുരാതന ഓക്സിറ്റാന്‍ (1500 വരെ)"
+
+#. name for pus, ps
+msgid "Pushto; Pashto"
+msgstr "പാഷ്തോ"
+
+#. name for qaa-qtz
+msgid "Reserved for local use"
+msgstr "ലോക്കല്‍ ഉപയോഗത്തിനായി കരുതിയിരിക്കുന്നു"
+
+#. name for que, qu
+msgid "Quechua"
+msgstr "കെച്ച്വാ"
+
+#. name for raj
+msgid "Rajasthani"
+msgstr "രാജസ്ഥാനി"
+
+#. name for rap
+msgid "Rapanui"
+msgstr "രാപ്പണി"
+
+#. name for rar
+msgid "Rarotongan; Cook Islands Maori"
+msgstr "രാറട്ടോങ്കാ; കുക്ക് ഐലന്‍ഡ്സ് മാവോരി"
+
+#. name for roa
+msgid "Romance languages"
+msgstr "റൊമാന്‍സ് ഭാഷകള്‍"
+
+#. name for roh, rm
+msgid "Romansh"
+msgstr "റൊമാന്‍ഷ്"
+
+#. name for rom
+msgid "Romany"
+msgstr "റൊമാനി"
+
+#. name for ron, ro
+msgid "Romanian"
+msgstr "റൊമേനിയന്‍"
+
+#. name for run, rn
+msgid "Rundi"
+msgstr "റുണ്ടി"
+
+#. name for rup
+msgid "Aromanian; Arumanian; Macedo-Romanian"
+msgstr "അറോമാനിയന്‍; അറുമാനിയന്‍; മാസിഡോ-റൊമാനിയന്‍"
+
+#. name for rus, ru
+msgid "Russian"
+msgstr "റഷ്യന്‍"
+
+#. name for sad
+msgid "Sandawe"
+msgstr "സാന്‍ഡാവേ"
+
+#. name for sag, sg
+msgid "Sango"
+msgstr "സാങ്കോ"
+
+#. name for sah
+msgid "Yakut"
+msgstr "യാകുട്ട്"
+
+#. name for sai
+msgid "South American Indian languages"
+msgstr "തെക്കന്‍ അമേരിക്കന്‍ ഇന്ത്യന്‍ ഭാഷകള്‍"
+
+#. name for sal
+msgid "Salishan languages"
+msgstr "സാലിഷന്‍ ഭാഷകള്‍"
+
+#. name for sam
+msgid "Samaritan Aramaic"
+msgstr "സമാരിറ്റന്‍ അറാമിക്"
+
+#. name for san, sa
+msgid "Sanskrit"
+msgstr "സംസ്കൃതം"
+
+#. name for sas
+msgid "Sasak"
+msgstr "സസാക്"
+
+#. name for sat
+msgid "Santali"
+msgstr "സാന്റാലി"
+
+#. name for scn
+msgid "Sicilian"
+msgstr "സിസിലിയന്‍"
+
+#. name for sco
+msgid "Scots"
+msgstr "സ്കോട്ട്സ്"
+
+#. name for sel
+msgid "Selkup"
+msgstr "സെല്‍ക്കപ്പ്"
+
+#. name for sem
+msgid "Semitic languages"
+msgstr "സെമിറ്റിക് ഭാഷകള്‍"
+
+#. name for sga
+msgid "Irish, Old (to 900)"
+msgstr "പ്രാചീന ഐറിഷ് (900 വരെ)"
+
+#. name for sgn
+msgid "Sign Languages"
+msgstr "ആംഗ്യ ഭാഷകള്‍"
+
+#. name for shn
+msgid "Shan"
+msgstr "ഷാന്‍"
+
+#. name for sid
+msgid "Sidamo"
+msgstr "സിഡാമോ"
+
+#. name for sin, si
+msgid "Sinhala; Sinhalese"
+msgstr "സിന്‍ഹാലാ; സിന്‍ഹാലീസ്"
+
+#. name for sio
+msgid "Siouan languages"
+msgstr "സൂവന്‍ ഭാഷകള്‍"
+
+#. name for sit
+msgid "Sino-Tibetan languages"
+msgstr "സിനോ-ടിബറ്റിയന്‍ ഭാഷകള്‍"
+
+#. name for sla
+msgid "Slavic languages"
+msgstr "സ്ലാവിക് ഭാഷകള്‍"
+
+#. name for slk, sk
+msgid "Slovak"
+msgstr "സ്ലോവാക്"
+
+#. name for slv, sl
+msgid "Slovenian"
+msgstr "സ്ലോവേനിയന്‍"
+
+#. name for sma
+msgid "Southern Sami"
+msgstr "തെക്കന്‍ സാമി"
+
+#. name for sme, se
+msgid "Northern Sami"
+msgstr "വടക്കന്‍ സാമി"
+
+#. name for smi
+msgid "Sami languages"
+msgstr "സാമി ഭാഷകള്‍"
+
+#. name for smj
+msgid "Lule Sami"
+msgstr "ലുലേ സാമി"
+
+#. name for smn
+msgid "Inari Sami"
+msgstr "ഇനാരി സാമി"
+
+#. name for smo, sm
+msgid "Samoan"
+msgstr "സമോവന്‍"
+
+#. name for sms
+msgid "Skolt Sami"
+msgstr "സ്കോള്‍ട്ട് സാമി"
+
+#. name for sna, sn
+msgid "Shona"
+msgstr "ഷോണാ"
+
+#. name for snd, sd
+msgid "Sindhi"
+msgstr "സിന്ദി"
+
+#. name for snk
+msgid "Soninke"
+msgstr "സോണിങ്ക്"
+
+#. name for sog
+msgid "Sogdian"
+msgstr "സോഗ്ഡിയന്‍"
+
+#. name for som, so
+msgid "Somali"
+msgstr "സോമാലി"
+
+#. name for son
+msgid "Songhai languages"
+msgstr "സോങ്കായി ഭാഷകള്"
+
+#. name for sot, st
+msgid "Sotho, Southern"
+msgstr "സോഥോ, തെക്കന്‍"
+
+#. name for spa, es
+msgid "Spanish; Castilian"
+msgstr "സ്പാനിഷ്; കാസ്റ്റിലിയന്‍"
+
+#. name for srd, sc
+msgid "Sardinian"
+msgstr "സാര്‍ഡീനിയന്‍"
+
+#. name for srn
+msgid "Sranan Tongo"
+msgstr "സ്രാനന്‍ ടോങ്കോ"
+
+#. name for srp, sr
+msgid "Serbian"
+msgstr "സെര്‍ബിയന്‍"
+
+#. name for srr
+msgid "Serer"
+msgstr "സെറര്‍"
+
+#. name for ssa
+msgid "Nilo-Saharan languages"
+msgstr "നിലോ-സഹാറന്‍ ഭാഷകള്‍"
+
+#. name for ssw, ss
+msgid "Swati"
+msgstr "സ്വാതി"
+
+#. name for suk
+msgid "Sukuma"
+msgstr "സുഖാമാ"
+
+#. name for sun, su
+msgid "Sundanese"
+msgstr "സുണ്ടനീസ്"
+
+#. name for sus
+msgid "Susu"
+msgstr "സുസു"
+
+#. name for sux
+msgid "Sumerian"
+msgstr "സുമേറിയന്‍"
+
+#. name for swa, sw
+msgid "Swahili"
+msgstr "സ്വാഹിലി"
+
+#. name for swe, sv
+msgid "Swedish"
+msgstr "സ്വീഡിഷ്"
+
+#. name for syc
+msgid "Classical Syriac"
+msgstr "ക്ലാസിക്കല്‍ സിറിയക്"
+
+#. name for syr
+msgid "Syriac"
+msgstr "സിറിയക്"
+
+#. name for tah, ty
+msgid "Tahitian"
+msgstr "തഹീതിയന്‍"
+
+#. name for tai
+msgid "Tai languages"
+msgstr "തായി ഭാഷകള്‍"
+
+#. name for tam, ta
+msgid "Tamil"
+msgstr "തമിഴ്"
+
+#. name for tat, tt
+msgid "Tatar"
+msgstr "ടാട്ടര്‍"
+
+#. name for tel, te
+msgid "Telugu"
+msgstr "തെലുങ്കു"
+
+#. name for tem
+msgid "Timne"
+msgstr "ടിമ്നേ"
+
+#. name for ter
+msgid "Tereno"
+msgstr "ടെറേനോ"
+
+#. name for tet
+msgid "Tetum"
+msgstr "ടേടം"
+
+#. name for tgk, tg
+msgid "Tajik"
+msgstr "താജിക്"
+
+#. name for tgl, tl
+msgid "Tagalog"
+msgstr "തഗാലോ"
+
+#. name for tha, th
+msgid "Thai"
+msgstr "തായി"
+
+#. name for bod, bo
+msgid "Tibetan"
+msgstr "ടിബറ്റിയന്‍"
+
+#. name for tig
+msgid "Tigre"
+msgstr "ടിഗ്രേ"
+
+#. name for tir, ti
+msgid "Tigrinya"
+msgstr "തിങ്രിയാ"
+
+#. name for tiv
+msgid "Tiv"
+msgstr "തിവ്"
+
+#. name for tkl
+msgid "Tokelau"
+msgstr "തൊക്കേലാവോ"
+
+#. name for tlh
+msgid "Klingon; tlhIngan-Hol"
+msgstr "ക്ലിങണ്‍; ത്ലിങണ്‍-ഹോള്‍"
+
+#. name for tli
+msgid "Tlingit"
+msgstr "ട്ലിങ്കിറ്റ്"
+
+#. name for tmh
+msgid "Tamashek"
+msgstr "താമഷെക്"
+
+#. name for tog
+msgid "Tonga (Nyasa)"
+msgstr "ടോങ്കാ (ന്യാസാ)"
+
+#. name for ton, to
+msgid "Tonga (Tonga Islands)"
+msgstr "ടോങ്കാ (ടോങ്കാ ദ്വീപുകള്‍)"
+
+#. name for tpi
+msgid "Tok Pisin"
+msgstr "ടോക്ക് പിസിന്‍"
+
+#. name for tsi
+msgid "Tsimshian"
+msgstr "ശിംശിയന്‍"
+
+#. name for tsn, tn
+msgid "Tswana"
+msgstr "സ്വാനാ"
+
+#. name for tso, ts
+msgid "Tsonga"
+msgstr "സോങ്കാ"
+
+#. name for tuk, tk
+msgid "Turkmen"
+msgstr "ടുര്‍ക്ക്മെന്‍"
+
+#. name for tum
+msgid "Tumbuka"
+msgstr "ടുംബൂകാ"
+
+#. name for tup
+msgid "Tupi languages"
+msgstr "ടുപി ഭാഷകള്‍"
+
+#. name for tur, tr
+msgid "Turkish"
+msgstr "ടര്‍ക്കിഷ്"
+
+#. name for tut
+msgid "Altaic languages"
+msgstr "അള്‍ടെയിക് ഭാഷകള്‍"
+
+#. name for tvl
+msgid "Tuvalu"
+msgstr "ടുവാലു"
+
+#. name for twi, tw
+msgid "Twi"
+msgstr "ട്വീ"
+
+#. name for tyv
+msgid "Tuvinian"
+msgstr "ടുവീനിയന്‍"
+
+#. name for udm
+msgid "Udmurt"
+msgstr "ഉഡ്മോര്‍ട്ട്"
+
+#. name for uga
+msgid "Ugaritic"
+msgstr "ഉഗറിറ്റിക്"
+
+#. name for uig, ug
+msgid "Uighur; Uyghur"
+msgstr "വീഗോര്‍"
+
+#. name for ukr, uk
+msgid "Ukrainian"
+msgstr "യുക്രേനിയന്‍"
+
+#. name for umb
+msgid "Umbundu"
+msgstr "അംബോന്‍ഡു"
+
+#. name for und
+msgid "Undetermined"
+msgstr "നിശ്ചയമില്ലാത്ത"
+
+#. name for urd, ur
+msgid "Urdu"
+msgstr "ഉര്‍ദു"
+
+#. name for uzb, uz
+msgid "Uzbek"
+msgstr "ഉസ്ബെക്"
+
+#. name for vai
+msgid "Vai"
+msgstr "വായി"
+
+#. name for ven, ve
+msgid "Venda"
+msgstr "വെന്‍ഡാ"
+
+#. name for vie, vi
+msgid "Vietnamese"
+msgstr "വിയറ്റ്നാമീസ്"
+
+#. name for vol, vo
+msgid "Volapük"
+msgstr "വോള്‍പീക്"
+
+#. name for vot
+msgid "Votic"
+msgstr "വോട്ടിക്"
+
+#. name for wak
+msgid "Wakashan languages"
+msgstr "വാഖാഷന്‍ ഭാഷകള്‍"
+
+#. name for wal
+msgid "Wolaitta; Wolaytta"
+msgstr "വൊലായിട്ടാ"
+
+#. name for war
+msgid "Waray"
+msgstr "വാറേ"
+
+#. name for was
+msgid "Washo"
+msgstr "വാഷോ"
+
+#. name for cym, cy
+msgid "Welsh"
+msgstr "വെല്‍ഷ്"
+
+#. name for wen
+msgid "Sorbian languages"
+msgstr "സോര്‍ബിയന്‍ ഭാഷകള്‍"
+
+#. name for wln, wa
+msgid "Walloon"
+msgstr "വലൂണ്‍"
+
+#. name for wol, wo
+msgid "Wolof"
+msgstr "വോളോഫ്"
+
+#. name for xal
+msgid "Kalmyk; Oirat"
+msgstr "കാല്‍മിക്; ഒയിറാറ്റ്"
+
+#. name for xho, xh
+msgid "Xhosa"
+msgstr "ഖ്സോസാ"
+
+#. name for yao
+msgid "Yao"
+msgstr "യാവോ"
+
+#. name for yap
+msgid "Yapese"
+msgstr "യാപ്പീസ്"
+
+#. name for yid, yi
+msgid "Yiddish"
+msgstr "യിഡിഷ്"
+
+#. name for yor, yo
+msgid "Yoruba"
+msgstr "യൊറൂബാ"
+
+#. name for ypk
+msgid "Yupik languages"
+msgstr "യൂപിക് ഭാഷകള്‍"
+
+#. name for zap
+msgid "Zapotec"
+msgstr "സാപ്പടെക്"
+
+#. name for zbl
+msgid "Blissymbols; Blissymbolics; Bliss"
+msgstr "ബ്ലിസിബോള്‍സ്; ബ്ലിസിബോളിക്സ്; ബ്ലിസ്"
+
+#. name for zen
+msgid "Zenaga"
+msgstr "സെനേഗാ"
+
+#. name for zha, za
+msgid "Zhuang; Chuang"
+msgstr "സ്വാങ്; ച്വാങ്"
+
+#. name for znd
+msgid "Zande languages"
+msgstr "സാന്‍ഡേ ഭാഷകള്‍"
+
+#. name for zul, zu
+msgid "Zulu"
+msgstr "സുളു"
+
+#. name for zun
+msgid "Zuni"
+msgstr "സ്യൂനി"
+
+#. name for zxx
+msgid "No linguistic content; Not applicable"
+msgstr "ഭാഷയോടനുബന്ധിച്ചുള്ള രേഖകളില്ല; ഉപയോഗപ്രദമല്ല"
+
+#. name for zza
+msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
+msgstr "സാസാ; ഡിംലി; കിര്‍ഡി; കിര്‍മാഞ്ചി; സസാകി"

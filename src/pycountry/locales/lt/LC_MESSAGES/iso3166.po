@@ -10,13 +10,14 @@
 #   Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004...2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2010-04-08 23:37+0300\n"
 "Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -200,6 +201,10 @@ msgstr "Bolivijos Daugianacionalinė Valstybė "
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Bolivija"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -388,6 +393,10 @@ msgstr "Kuba"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "Kubos Respublika"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1069,10 +1078,6 @@ msgstr "Nyderlandai"
 msgid "Kingdom of the Netherlands"
 msgstr "Nyderlandų Karalystė"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Olandijos Antilai"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Naujoji Kaledonija"
@@ -1352,6 +1357,16 @@ msgstr "Singapūras"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "Singapūro Respublika"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "San Bartelemis"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "San Martenas (Prancūzijos komuna)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1744,6 +1759,10 @@ msgstr "Džonstono atolas"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Midway salos"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Olandijos Antilai"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

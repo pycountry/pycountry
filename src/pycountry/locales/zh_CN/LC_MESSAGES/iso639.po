@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C) 2001, 2007, 2008 Free Software Foundation, Inc.
-# LI Daobing <lidaobing@gmail.com>, 2007, 2008, 2009.
+# LI Daobing <lidaobing@gmail.com>, 2007, 2008, 2009, 2010.
 # Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # Alastair McKinstry <mckinstry@computer.org>, 2001
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2009-03-09 20:47+0800\n"
+"PO-Revision-Date: 2010-10-02 14:29+0800\n"
 "Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
-"Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
-"sourceforge.net>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -230,9 +230,8 @@ msgid "Bhojpuri"
 msgstr "博杰普里语"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "傣语诸语言"
+msgstr "比哈尔语"
 
 #. name for bik
 msgid "Bikol"
@@ -726,7 +725,7 @@ msgstr "希利盖农语"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "喜马偕尔语"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -737,7 +736,6 @@ msgid "Hittite"
 msgstr "赫梯语"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
 msgstr "苗语"
 
@@ -1295,7 +1293,7 @@ msgstr "书面挪威语"
 
 #. name for nqo
 msgid "N'Ko"
-msgstr ""
+msgstr "N'Ko"
 
 #. name for nso
 msgid "Pedi; Sepedi; Northern Sotho"

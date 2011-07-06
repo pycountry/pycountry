@@ -6,24 +6,27 @@
 #   Georgi Georgiev <assenov_g@operamail.com>, 2001, 2004.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #   Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004.
-#   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009.
+#   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
 # Copyright (C)
 #   (translations from drakfw)
 #   - further translations from ICU-3.9
+# Damyan Ivanov <dmn@debian.org>, 2010.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2009-11-25 07:24+0200\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2010-12-26 23:31+0200\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -204,6 +207,10 @@ msgstr "Многонационална държава Боливия"
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Боливия"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "О-ви Бонер, Св. Евстатий и Саба"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -392,6 +399,10 @@ msgstr "Куба"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "Република Куба"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr "Кюрасао"
 
 #. name for CYP
 msgid "Cyprus"
@@ -1073,10 +1084,6 @@ msgstr "Холандия"
 msgid "Kingdom of the Netherlands"
 msgstr "Кралство Холандия"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Холандски Антили"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Нова Каледония"
@@ -1263,7 +1270,7 @@ msgstr "Свети Вартоломей"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Света Елена, Възнесение и Тристан да Куня"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1356,6 +1363,14 @@ msgstr "Сингапур"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "Република Сингапур"
+
+#. name for SXM
+msgid "Sint Maarten"
+msgstr "Синт Мартен"
+
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr "Синт Мартен (холандска част)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1748,6 +1763,10 @@ msgstr "Остров Джонсън"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Острови Мидуей"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Холандски Антили"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

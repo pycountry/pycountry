@@ -8,13 +8,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
-"PO-Revision-Date: 2008-06-27 13:59+0530\n"
-"Last-Translator: Tenzin Dendup <tenzin.dendup@hotmail.com>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2010-06-25 14:33+0530\n"
+"Last-Translator: yumkee <ylhamo@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
+"Language: dz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -192,15 +193,19 @@ msgstr "འབྲུག་ རྒྱལ་བརྒྱུད་ རྒྱལ་�
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "བོ་ལི་ཝ་ཡ་ པུ་ལུ་རི་ནེ་ཤཱ་ནལ་མངའ་སྡེ་"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "བོ་ལི་ཝ་ཡ་གི་ པུ་ལུ་རི་ནེ་ཤཱ་ནལ་མངའ་སྡེ་"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "བོ་ལི་བི་ཡ།"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -389,6 +394,10 @@ msgstr "ཀུས་བ།"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "ཀུས་བའི་ མི་སེར་གྱི་རྒྱལ་ཁབ།"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -847,9 +856,8 @@ msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "ལི་བི་ཡཱན་ ཨ་རབ་ ཇ་མཱ་ཧི་རི་ཡཱ་ མི་སེར་སྤྱི་ཚོགས།"
 
 #. common_name for LBY
-#, fuzzy
 msgid "Libya"
-msgstr "ལི་བི་རི་ཡ།"
+msgstr "ལིབ་ཡ་"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -984,9 +992,8 @@ msgid "Federated States of Micronesia"
 msgstr "མི་ཀོརོ་ནི་སིཡཱའི་ སྤྱི་མཐུན་རྒྱལ་ཁབ།"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "མས་ཀི་ཌོ་ནིཡཱ་ མི་སེར་རྒྱལ་ཁབ།"
+msgstr "མོལ་ཌོ་བ་ མི་སེར་རྒྱལ་ཁབ་ཀྱི་"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1061,9 +1068,8 @@ msgid "Nepal"
 msgstr "ནེ་པཱལ།"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "ཨི་ཐོ་པི་ཡ་ སྤྱི་མཐུན་སྲིད་གཞུང་ དམང་གཙོའི་ མི་སེར་རྒྱལ་ཁབ།"
+msgstr "ནེ་པཱལ་གྱི་ ཕེ་ཌ་རལ་ སྤྱི་མཐུན་སྲིད་གཞུང་ དམང་གཙོའི་ མི་སེར་རྒྱལ་ཁབ་"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1072,10 +1078,6 @@ msgstr "ནེ་དར་ལེནཌིསི།"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "ནེ་དར་ལེནཌིསི་ "
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "ནེ་དར་ལེནཌིསི་ ཨེན་ཊི་ལེསི།"
 
 #. name for NCL
 msgid "New Caledonia"
@@ -1263,7 +1265,7 @@ msgstr "སེནཊི་བཱརཐ་ལེ་མི།"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "སཱེནཊི་ཧི་ལི་ན་ ཨེ་སེན་ཤཱན་དང་ཊིསི་ཊན་ ད་ ཀུན་ཧ་"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1356,6 +1358,16 @@ msgstr "སིང་ག་པོར།"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "སིང་ག་པོར་ མི་སེར་རྒྱལ་ཁབ།"
+
+#. name for SXM
+#, fuzzy
+msgid "Sint Maarten"
+msgstr "སེནཊི་བཱརཐ་ལེ་མི།"
+
+#. official_name for SXM
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "སེནཊི་མར་ཊིན (ཕརེནཆི་གི་ཡན་ལག)།"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1618,9 +1630,8 @@ msgid "Republic of Vanuatu"
 msgstr "བ་ནུའ་ཊུ་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for VEN
-#, fuzzy
 msgid "Venezuela, Bolivarian republic of"
-msgstr "བེ་ནི་ཛུས་ལའི་ བོ་ལི་བི་རཱེན་མི་སེར་རྒྱལ་ཁབ།"
+msgstr "བེ་ནི་ཛུས་ལ་ བོ་ལི་བི་རཱེན་མི་སེར་རྒྱལ་ཁབ་ཀྱི་"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1749,6 +1760,10 @@ msgstr "ཇཱོན་སི་ཊོན་ ཨའི་ལེནཌི་"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "མིཌ་ཝེ་ ཨའི་ལེནཌིསི།"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "ནེ་དར་ལེནཌིསི་ ཨེན་ཊི་ལེསི།"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

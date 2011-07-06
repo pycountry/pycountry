@@ -10,13 +10,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
 "PO-Revision-Date: 2002-01-05 19:35+0000\n"
 "Last-Translator: James Gasson <james.gasson@clear.net.nz>\n"
 "Language-Team: Maori <james.gasson@clear.net.nz>\n"
+"Language: mi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,12 +29,12 @@ msgstr ""
 #. name for abk, ab
 #, fuzzy
 msgid "Abkhazian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for ace
 #, fuzzy
 msgid "Achinese"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for ach
 msgid "Acoli"
@@ -57,7 +58,7 @@ msgstr ""
 
 #. name for afr, af
 msgid "Afrikaans"
-msgstr "Reo Äwherika Tatimana"
+msgstr "Reo Āwherika Tatimana"
 
 #. name for ain
 msgid "Ainu"
@@ -66,17 +67,17 @@ msgstr ""
 #. name for aka, ak
 #, fuzzy
 msgid "Akan"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for akk
 #, fuzzy
 msgid "Akkadian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for sqi, sq
 #, fuzzy
 msgid "Albanian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for ale
 msgid "Aleut"
@@ -102,7 +103,7 @@ msgstr ""
 #. name for anp
 #, fuzzy
 msgid "Angika"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for apa
 msgid "Apache languages"
@@ -178,7 +179,7 @@ msgstr ""
 #. name for aze, az
 #, fuzzy
 msgid "Azerbaijani"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for bad
 msgid "Banda languages"
@@ -203,17 +204,17 @@ msgstr ""
 #. name for ban
 #, fuzzy
 msgid "Balinese"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for eus, eu
 #, fuzzy
 msgid "Basque"
-msgstr "Tüparu"
+msgstr "Tūparu"
 
 #. name for bas
 #, fuzzy
 msgid "Basa"
-msgstr "Tüparu"
+msgstr "Tūparu"
 
 #. name for bat
 #, fuzzy
@@ -258,7 +259,7 @@ msgstr ""
 #. name for bin
 #, fuzzy
 msgid "Bini; Edo"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for bis, bi
 msgid "Bislama"
@@ -284,7 +285,7 @@ msgstr ""
 
 #. name for bre, br
 msgid "Breton"
-msgstr "Reo Parani Uropi-Ïnia"
+msgstr "Reo Parani Uropi-Īnia"
 
 #. name for btk
 msgid "Batak languages"
@@ -298,7 +299,7 @@ msgstr "Reo Purukeria"
 #. name for bug
 #, fuzzy
 msgid "Buginese"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for bul, bg
 msgid "Bulgarian"
@@ -363,17 +364,17 @@ msgstr ""
 
 #. name for zho, zh
 msgid "Chinese"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for chk
 #, fuzzy
 msgid "Chuukese"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for chm
 #, fuzzy
 msgid "Mari"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for chn
 msgid "Chinook jargon"
@@ -473,7 +474,7 @@ msgstr "Reo Tenemaka"
 #. name for dar
 #, fuzzy
 msgid "Dargwa"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for day
 msgid "Land Dayak languages"
@@ -502,7 +503,7 @@ msgstr ""
 #. name for doi
 #, fuzzy
 msgid "Dogri"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for dra
 #, fuzzy
@@ -512,7 +513,7 @@ msgstr "Kaupapa"
 #. name for dsb
 #, fuzzy
 msgid "Lower Sorbian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for dua
 msgid "Duala"
@@ -553,7 +554,7 @@ msgstr ""
 #. name for eng, en
 #, fuzzy
 msgid "English"
-msgstr "Reo Päkehä - Ingarangi"
+msgstr "Reo Pākehā - Ingarangi"
 
 #. name for enm
 msgid "English, Middle (1100-1500)"
@@ -587,7 +588,7 @@ msgstr ""
 #. name for fat
 #, fuzzy
 msgid "Fanti"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for fij, fj
 msgid "Fijian"
@@ -767,12 +768,12 @@ msgstr ""
 
 #. name for heb, he
 msgid "Hebrew"
-msgstr "Reo Hürai"
+msgstr "Reo Hūrai"
 
 #. name for her, hz
 #, fuzzy
 msgid "Herero"
-msgstr "Reo Hürai"
+msgstr "Reo Hūrai"
 
 #. name for hil
 msgid "Hiligaynon"
@@ -801,12 +802,12 @@ msgstr "Reo Airana"
 
 #. name for hrv, hr
 msgid "Croatian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for hsb
 #, fuzzy
 msgid "Upper Sorbian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for hun, hu
 msgid "Hungarian"
@@ -835,7 +836,7 @@ msgstr ""
 #. name for iii, ii
 #, fuzzy
 msgid "Sichuan Yi; Nuosu"
-msgstr "Language=Reo Ïtariana"
+msgstr "Reo Ītariana"
 
 #. name for ijo
 msgid "Ijo languages"
@@ -875,7 +876,7 @@ msgstr "Kaupapa"
 #. name for inh
 #, fuzzy
 msgid "Ingush"
-msgstr "Reo Päkehä - Ingarangi"
+msgstr "Reo Pākehā - Ingarangi"
 
 #. name for ipk, ik
 msgid "Inupiaq"
@@ -910,7 +911,7 @@ msgstr "Reo Hapana"
 #. name for jpr
 #, fuzzy
 msgid "Judeo-Persian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for jrb
 #, fuzzy
@@ -970,7 +971,7 @@ msgstr ""
 #. name for kha
 #, fuzzy
 msgid "Khasi"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for khi
 #, fuzzy
@@ -984,7 +985,7 @@ msgstr ""
 #. name for kho
 #, fuzzy
 msgid "Khotanese;Sakan"
-msgstr "Reo Häina"
+msgstr "Reo Hāina"
 
 #. name for kik, ki
 msgid "Kikuyu; Gikuyu"
@@ -1067,7 +1068,7 @@ msgstr ""
 #. name for lad
 #, fuzzy
 msgid "Ladino"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for lah
 msgid "Lahnda"
@@ -1084,12 +1085,12 @@ msgstr ""
 #. name for lat, la
 #, fuzzy
 msgid "Latin"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for lav, lv
 #, fuzzy
 msgid "Latvian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for lez
 #, fuzzy
@@ -1107,12 +1108,12 @@ msgstr ""
 #. name for lit, lt
 #, fuzzy
 msgid "Lithuanian"
-msgstr "Language=Reo Ïtariana"
+msgstr "Reo Ītariana"
 
 #. name for lol
 #, fuzzy
 msgid "Mongo"
-msgstr "Reo Makerönia"
+msgstr "Reo Makerōnia"
 
 #. name for loz
 msgid "Lozi"
@@ -1149,11 +1150,11 @@ msgstr ""
 #. name for lus
 #, fuzzy
 msgid "Lushai"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for mkd, mk
 msgid "Macedonian"
-msgstr "Reo Makerönia"
+msgstr "Reo Makerōnia"
 
 #. name for mad
 #, fuzzy
@@ -1163,7 +1164,7 @@ msgstr "Kaupapa"
 #. name for mag
 #, fuzzy
 msgid "Magahi"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for mah, mh
 #, fuzzy
@@ -1173,7 +1174,7 @@ msgstr "Kaupapa"
 #. name for mai
 #, fuzzy
 msgid "Maithili"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for mak
 msgid "Makasar"
@@ -1189,7 +1190,7 @@ msgstr ""
 
 #. name for mri, mi
 msgid "Maori"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for map
 #, fuzzy
@@ -1199,12 +1200,12 @@ msgstr "Kaupapa"
 #. name for mar, mr
 #, fuzzy
 msgid "Marathi"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for mas
 #, fuzzy
 msgid "Masai"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for msa, ms
 msgid "Malay"
@@ -1273,17 +1274,17 @@ msgstr ""
 #. name for mol, mo
 #, fuzzy
 msgid "Moldavian; Moldovan"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for mon, mn
 #, fuzzy
 msgid "Mongolian"
-msgstr "Reo Makerönia"
+msgstr "Reo Makerōnia"
 
 #. name for mos
 #, fuzzy
 msgid "Mossi"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for mul
 msgid "Multiple languages"
@@ -1306,7 +1307,7 @@ msgstr "Kaupapa"
 #. name for mwr
 #, fuzzy
 msgid "Marwari"
-msgstr "Reo Mäori"
+msgstr "Reo Māori"
 
 #. name for myn
 msgid "Mayan languages"
@@ -1378,7 +1379,7 @@ msgstr ""
 #. name for nno, nn
 #, fuzzy
 msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
-msgstr "Reo Nöwei (Nynorsk)"
+msgstr "Reo Nōwei (Nynorsk)"
 
 #. name for nob, nb
 msgid "Bokmål, Norwegian; Norwegian Bokmål"
@@ -1504,7 +1505,7 @@ msgstr ""
 #. name for fas, fa
 #, fuzzy
 msgid "Persian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for phi
 #, fuzzy
@@ -1519,11 +1520,11 @@ msgstr "Reo Etonia"
 #. name for pli, pi
 #, fuzzy
 msgid "Pali"
-msgstr "Reo Pörana"
+msgstr "Reo Pōrana"
 
 #. name for pol, pl
 msgid "Polish"
-msgstr "Reo Pörana"
+msgstr "Reo Pōrana"
 
 #. name for pon
 #, fuzzy
@@ -1532,7 +1533,7 @@ msgstr "Reo Etonia"
 
 #. name for por, pt
 msgid "Portuguese"
-msgstr "Reo Pötikï"
+msgstr "Reo Pōtikī"
 
 #. name for pra
 msgid "Prakrit languages"
@@ -1765,7 +1766,7 @@ msgstr ""
 #. name for srd, sc
 #, fuzzy
 msgid "Sardinian"
-msgstr "Reo Makerönia"
+msgstr "Reo Makerōnia"
 
 #. name for srn
 #, fuzzy
@@ -1775,7 +1776,7 @@ msgstr "Parani"
 #. name for srp, sr
 #, fuzzy
 msgid "Serbian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for srr
 msgid "Serer"
@@ -1805,7 +1806,7 @@ msgstr ""
 #. name for sux
 #, fuzzy
 msgid "Sumerian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for swa, sw
 msgid "Swahili"
@@ -1813,7 +1814,7 @@ msgstr ""
 
 #. name for swe, sv
 msgid "Swedish"
-msgstr "Reo Wïtana"
+msgstr "Reo Wītana"
 
 #. name for syc
 msgid "Classical Syriac"
@@ -1822,12 +1823,12 @@ msgstr ""
 #. name for syr
 #, fuzzy
 msgid "Syriac"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for tah, ty
 #, fuzzy
 msgid "Tahitian"
-msgstr "Reo Koroätia"
+msgstr "Reo Koroātia"
 
 #. name for tai
 #, fuzzy
@@ -1836,7 +1837,7 @@ msgstr "Kaupapa"
 
 #. name for tam, ta
 msgid "Tamil"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for tat, tt
 msgid "Tatar"
@@ -1861,7 +1862,7 @@ msgstr ""
 #. name for tgk, tg
 #, fuzzy
 msgid "Tajik"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for tgl, tl
 msgid "Tagalog"
@@ -1870,7 +1871,7 @@ msgstr ""
 #. name for tha, th
 #, fuzzy
 msgid "Thai"
-msgstr "Reo Ïnia tonga"
+msgstr "Reo Īnia tonga"
 
 #. name for bod, bo
 msgid "Tibetan"

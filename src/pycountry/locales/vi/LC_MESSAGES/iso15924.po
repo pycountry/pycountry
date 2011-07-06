@@ -5,18 +5,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 3.15\n"
+"Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-28 13:02+0200\n"
+"POT-Creation-Date: 2010-12-23 20:41+0100\n"
 "PO-Revision-Date: 2009-05-12 23:46+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.8\n"
+
+#. name for Afak
+msgid "Afaka"
+msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -126,6 +131,10 @@ msgstr "Đe-va-na-ga-ri (Na-ga-ri)"
 msgid "Deseret (Mormon)"
 msgstr "Đe-se-rét (Moa-mon)"
 
+#. name for Dupl
+msgid "Duployan shorthand, Duployan stenography"
+msgstr ""
+
 #. name for Egyd
 msgid "Egyptian demotic"
 msgstr "Ai Cập thông dụng"
@@ -137,6 +146,10 @@ msgstr "Ai Cập thầy tu"
 #. name for Egyp
 msgid "Egyptian hieroglyphs"
 msgstr "Ai Cập viết tượng hình"
+
+#. name for Elba
+msgid "Elbasan"
+msgstr ""
 
 #. name for Ethi
 msgid "Ethiopic (Geʻez)"
@@ -229,6 +242,10 @@ msgstr "Gia-va"
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
 msgstr "Nhật (bí danh đại diện Han + Hiragana + Katakana)"
+
+#. name for Jurc
+msgid "Jurchen"
+msgstr ""
 
 #. name for Kali
 msgid "Kayah Li"
@@ -352,6 +369,10 @@ msgstr "Moon (mã Moon, chữ viết Moon, chữ in Moon)"
 msgid "Mongolian"
 msgstr "Mông Cổ"
 
+#. name for Mroo
+msgid "Mro, Mru"
+msgstr ""
+
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "Mei-tei May-ek (Meithei, Meetei)"
@@ -375,6 +396,10 @@ msgstr "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
 #. name for Nkoo
 msgid "N’Ko"
 msgstr "N’Ko"
+
+#. name for Nshu
+msgid "Nüshu"
+msgstr ""
 
 #. name for Ogam
 msgid "Ogham"
@@ -477,9 +502,21 @@ msgstr "Viết ước hiệu"
 msgid "Shavian (Shaw)"
 msgstr "Sa-vi (Shaw)"
 
+#. name for Shrd
+msgid "Sharada, Śāradā"
+msgstr ""
+
+#. name for Sind
+msgid "Khudawadi, Sindhi"
+msgstr ""
+
 #. name for Sinh
 msgid "Sinhala"
 msgstr "Xin-ha-la"
+
+#. name for Sora
+msgid "Sora Sompeng"
+msgstr ""
 
 #. name for Sund
 msgid "Sundanese"
@@ -509,6 +546,10 @@ msgstr "Xi-ri (biến thể Đông)"
 msgid "Tagbanwa"
 msgstr "Tac-ba-nouă"
 
+#. name for Takr
+msgid "Takri, Ṭākrī, Ṭāṅkrī"
+msgstr ""
+
 #. name for Tale
 msgid "Tai Le"
 msgstr "Tai Le"
@@ -520,6 +561,10 @@ msgstr "Tai Lue mới"
 #. name for Taml
 msgid "Tamil"
 msgstr "Ta-min"
+
+#. name for Tang
+msgid "Tangut"
+msgstr ""
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -567,6 +612,10 @@ msgstr "Giọng Nói Hiện Rõ"
 
 #. name for Wara
 msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
+#. name for Wole
+msgid "Woleai"
 msgstr ""
 
 #. name for Xpeo

@@ -6,13 +6,14 @@
 # #  Note: Steve Murphy is not a translator-- he is a technical coordinator
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.15\n"
+"Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-02-26 08:22+0100\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
 "PO-Revision-Date: 2004-11-01 15:00+0200\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -198,6 +199,10 @@ msgstr ""
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Boliviya"
+
+#. name for BES, official_name for BES
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -387,6 +392,10 @@ msgstr "Kiba"
 #. official_name for CUB
 msgid "Republic of Cuba"
 msgstr "Repubulika ya kiba"
+
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr ""
 
 #. name for CYP
 msgid "Cyprus"
@@ -1073,10 +1082,6 @@ msgstr "Nederilande"
 msgid "Kingdom of the Netherlands"
 msgstr "Igihugu cya Nederilande"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Antiye za nederilande"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Nuveli Kalidoniya"
@@ -1358,6 +1363,14 @@ msgstr "Singapore"
 #. official_name for SGP
 msgid "Republic of Singapore"
 msgstr "Repubulika ya Singapore"
+
+#. name for SXM
+msgid "Sint Maarten"
+msgstr ""
+
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
 
 #. name for SVK
 msgid "Slovakia"
@@ -1759,6 +1772,10 @@ msgstr "Ibirwa bya Kuke"
 #, fuzzy
 msgid "Midway Islands"
 msgstr "Ibirwa bya Kayimani"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Antiye za nederilande"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

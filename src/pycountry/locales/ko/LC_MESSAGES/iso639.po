@@ -1,58 +1,60 @@
-# Translation of ISO-639 (language names) to Korean
-#
+# Korean translations of ISO 639 Language names
 # This file is distributed under the same license as the iso-codes package.
 #
-# Copyright (C)
-#   Free Software Foundation, Inc., 2000
-#   Kang, JeongHee <Keizi@mail.co.kr>, 2000.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Eungkyu Song <eungkyu@sparcs.org>, 2001.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Kang, JeongHee <Keizi@mail.co.kr>, 2000.
+# Eungkyu Song <eungkyu@sparcs.org>, 2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# Changwoo Ryu <cwryu@debian.org>, 2011.
+#
+# 위키백과 페이지 참고
+# http://ko.wikipedia.org/wiki/ISO_639
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.15\n"
+"Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2001-06-13 15:46+0900\n"
-"Last-Translator: Eungkyu Song <eungkyu@sparcs.org>\n"
-"Language-Team: Korean <ko@li.org>\n"
+"PO-Revision-Date: 2011-02-19 02:32+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: Korean <translation-team-ko@lists.sourceforge.net>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. name for aar, aa
 msgid "Afar"
-msgstr ""
+msgstr "아파르어"
 
 #. name for abk, ab
 msgid "Abkhazian"
-msgstr ""
+msgstr "압하스어"
 
 #. name for ace
-#, fuzzy
 msgid "Achinese"
-msgstr "중국어"
+msgstr "아체어"
 
 #. name for ach
 msgid "Acoli"
-msgstr ""
+msgstr "아촐리어"
 
 #. name for ada
 msgid "Adangme"
-msgstr ""
+msgstr "아당메어"
 
 #. name for ady
 msgid "Adyghe; Adygei"
-msgstr ""
+msgstr "아디게어"
 
 #. name for afa
 msgid "Afro-Asiatic languages"
-msgstr ""
+msgstr "아프리카아시아어족"
 
 #. name for afh
 msgid "Afrihili"
-msgstr ""
+msgstr "아프리힐리어"
 
 #. name for afr, af
 msgid "Afrikaans"
@@ -60,17 +62,15 @@ msgstr "아프리칸스어"
 
 #. name for ain
 msgid "Ainu"
-msgstr ""
+msgstr "아이누어"
 
 #. name for aka, ak
-#, fuzzy
 msgid "Akan"
-msgstr "아프리칸스어"
+msgstr "아칸어"
 
 #. name for akk
-#, fuzzy
 msgid "Akkadian"
-msgstr "알바니아어"
+msgstr "아카드어"
 
 #. name for sqi, sq
 msgid "Albanian"
@@ -78,147 +78,142 @@ msgstr "알바니아어"
 
 #. name for ale
 msgid "Aleut"
-msgstr ""
+msgstr "알류트어"
 
 #. name for alg
 msgid "Algonquian languages"
-msgstr ""
+msgstr "알공킨어파"
 
 #. name for alt
 msgid "Southern Altai"
-msgstr ""
+msgstr "남부 알타이어"
 
 #. name for amh, am
-#, fuzzy
 msgid "Amharic"
-msgstr "아라비아어"
+msgstr "암하라어"
 
 #. name for ang
 msgid "English, Old (ca. 450-1100)"
-msgstr ""
+msgstr "영어 (고대) (450년-1100년경)"
 
+# 인도
+#
+# FIXME: 출처 없음. 확인 필요.
 #. name for anp
-#, fuzzy
 msgid "Angika"
-msgstr "아프리칸스어"
+msgstr "안기카어"
 
 #. name for apa
 msgid "Apache languages"
-msgstr ""
+msgstr "아파치 제어"
 
 #. name for ara, ar
 msgid "Arabic"
-msgstr "아라비아어"
+msgstr "아랍어"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr ""
+msgstr "아람어"
 
 #. name for arg, an
-#, fuzzy
 msgid "Aragonese"
-msgstr "페로스어"
+msgstr "아라곤어"
 
 #. name for hye, hy
 msgid "Armenian"
-msgstr ""
+msgstr "아르메니아어"
 
 #. name for arn
 msgid "Mapudungun; Mapuche"
-msgstr ""
+msgstr "아라우칸어"
 
 #. name for arp
 msgid "Arapaho"
-msgstr ""
+msgstr "아라파호어"
 
 #. name for art
-#, fuzzy
 msgid "Artificial languages"
-msgstr "한국어"
+msgstr "인공어"
 
 #. name for arw
 msgid "Arawak"
-msgstr ""
+msgstr "아라와크어"
 
 #. name for asm, as
 msgid "Assamese"
-msgstr ""
+msgstr "아삼어"
 
 #. name for ast
 msgid "Asturian; Bable; Leonese; Asturleonese"
-msgstr ""
+msgstr "아스투리아스어"
 
 #. name for ath
 msgid "Athapascan languages"
-msgstr ""
+msgstr "아타파스카어군"
 
 #. name for aus
 msgid "Australian languages"
-msgstr ""
+msgstr "오스트레일리아어족"
 
 #. name for ava, av
-#, fuzzy
 msgid "Avaric"
-msgstr "아라비아어"
+msgstr "아바르어"
 
 #. name for ave, ae
 msgid "Avestan"
-msgstr ""
+msgstr "아베스타어"
 
 #. name for awa
 msgid "Awadhi"
-msgstr ""
+msgstr "아와드어"
 
 #. name for aym, ay
 msgid "Aymara"
-msgstr ""
+msgstr "아이마라어"
 
 #. name for aze, az
 msgid "Azerbaijani"
-msgstr ""
+msgstr "아제르바이잔어"
 
 #. name for bad
 msgid "Banda languages"
-msgstr ""
+msgstr "반다어"
 
 #. name for bai
 msgid "Bamileke languages"
-msgstr ""
+msgstr "바밀레케어계"
 
 #. name for bak, ba
 msgid "Bashkir"
-msgstr ""
+msgstr "바시키르어"
 
 #. name for bal
 msgid "Baluchi"
-msgstr ""
+msgstr "발루치어"
 
 #. name for bam, bm
 msgid "Bambara"
-msgstr ""
+msgstr "밤바라어"
 
 #. name for ban
-#, fuzzy
 msgid "Balinese"
-msgstr "중국어"
+msgstr "발리어"
 
 #. name for eus, eu
 msgid "Basque"
 msgstr "바스크어"
 
 #. name for bas
-#, fuzzy
 msgid "Basa"
-msgstr "Balsa"
+msgstr "바사어"
 
 #. name for bat
-#, fuzzy
 msgid "Baltic languages"
-msgstr "한국어"
+msgstr "발트어파"
 
 #. name for bej
 msgid "Beja; Bedawiyet"
-msgstr ""
+msgstr "베자어"
 
 #. name for bel, be
 msgid "Belarusian"
@@ -226,75 +221,67 @@ msgstr "벨로루시어"
 
 #. name for bem
 msgid "Bemba"
-msgstr ""
+msgstr "벰바어"
 
 #. name for ben, bn
-#, fuzzy
 msgid "Bengali"
-msgstr "발트어"
+msgstr "벵골어"
 
 #. name for ber
-#, fuzzy
 msgid "Berber languages"
-msgstr "한국어"
+msgstr "베르베르어파"
 
 #. name for bho
 msgid "Bhojpuri"
-msgstr ""
+msgstr "보지푸르어"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "한국어"
+msgstr "비하르어"
 
 #. name for bik
 msgid "Bikol"
-msgstr ""
+msgstr "비콜어"
 
 #. name for bin
-#, fuzzy
 msgid "Bini; Edo"
-msgstr "찾기"
+msgstr "비니어"
 
 #. name for bis, bi
 msgid "Bislama"
-msgstr ""
+msgstr "비슬라마"
 
 #. name for bla
 msgid "Siksika"
-msgstr ""
+msgstr "블랫풋어"
 
 #. name for bnt
-#, fuzzy
 msgid "Bantu languages"
-msgstr "한국어"
+msgstr "반투어군"
 
 #. name for bos, bs
-#, fuzzy
 msgid "Bosnian"
-msgstr "루마니아어"
+msgstr "보스니아어"
 
 #. name for bra
 msgid "Braj"
-msgstr ""
+msgstr "브라지어"
 
 #. name for bre, br
 msgid "Breton"
-msgstr "프랑스어"
+msgstr "브르타뉴어"
 
 #. name for btk
 msgid "Batak languages"
-msgstr ""
+msgstr "바타크 제어"
 
 #. name for bua
-#, fuzzy
 msgid "Buriat"
-msgstr "불가리아어"
+msgstr "부리아트어"
 
 #. name for bug
-#, fuzzy
 msgid "Buginese"
-msgstr "중국어"
+msgstr "부기어"
 
 #. name for bul, bg
 msgid "Bulgarian"
@@ -302,248 +289,233 @@ msgstr "불가리아어"
 
 #. name for mya, my
 msgid "Burmese"
-msgstr ""
+msgstr "미얀마어"
 
 #. name for byn
 msgid "Blin; Bilin"
-msgstr ""
+msgstr "블린어"
 
 #. name for cad
 msgid "Caddo"
-msgstr ""
+msgstr "카도어"
 
 #. name for cai
-#, fuzzy
 msgid "Central American Indian languages"
-msgstr "우크라이나어"
+msgstr "중앙아메리카 인디언 제어"
 
 #. name for car
-#, fuzzy
 msgid "Galibi Carib"
-msgstr "갤리언"
+msgstr "카리브어"
 
 #. name for cat, ca
 msgid "Catalan; Valencian"
-msgstr ""
+msgstr "카탈루냐어"
 
 #. name for cau
-#, fuzzy
 msgid "Caucasian languages"
-msgstr "한국어"
+msgstr "카프카스 제어"
 
 #. name for ceb
 msgid "Cebuano"
-msgstr ""
+msgstr "세부어"
 
 #. name for cel
-#, fuzzy
 msgid "Celtic languages"
-msgstr "한국어"
+msgstr "켈트어파"
 
 #. name for cha, ch
 msgid "Chamorro"
-msgstr ""
+msgstr "차모로어"
 
 #. name for chb
 msgid "Chibcha"
-msgstr ""
+msgstr "치브차어"
 
 #. name for che, ce
-#, fuzzy
 msgid "Chechen"
-msgstr "체크어"
+msgstr "체첸어"
 
 #. name for chg
 msgid "Chagatai"
-msgstr ""
+msgstr "차가타이어"
 
 #. name for zho, zh
 msgid "Chinese"
 msgstr "중국어"
 
 #. name for chk
-#, fuzzy
 msgid "Chuukese"
-msgstr "중국어"
+msgstr "추크어"
 
 #. name for chm
-#, fuzzy
 msgid "Mari"
-msgstr "여백"
+msgstr "마리어"
 
 #. name for chn
 msgid "Chinook jargon"
-msgstr ""
+msgstr "치누크 통상어"
 
 #. name for cho
 msgid "Choctaw"
-msgstr ""
+msgstr "촉토어"
 
 #. name for chp
 msgid "Chipewyan; Dene Suline"
-msgstr ""
+msgstr "치페위안어"
 
 #. name for chr
 msgid "Cherokee"
-msgstr ""
+msgstr "체로키어"
 
 #. name for chu, cu
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
-msgstr ""
+msgstr "슬라브어 (고대 교회)"
 
 #. name for chv, cv
 msgid "Chuvash"
-msgstr ""
+msgstr "추바슈어"
 
 #. name for chy
 msgid "Cheyenne"
-msgstr ""
+msgstr "샤이엔어"
 
 #. name for cmc
 msgid "Chamic languages"
-msgstr ""
+msgstr "참어"
 
 #. name for cop
 msgid "Coptic"
-msgstr ""
+msgstr "콥트어"
 
 #. name for cor, kw
-#, fuzzy
 msgid "Cornish"
-msgstr "색상"
+msgstr "콘월어"
 
 #. name for cos, co
 msgid "Corsican"
-msgstr ""
+msgstr "코르시카어"
 
 #. name for cpe
 msgid "Creoles and pidgins, English based"
-msgstr ""
+msgstr "크리올어 및 피진어 (영어를 바탕으로 한 기타)"
 
 #. name for cpf
 msgid "Creoles and pidgins, French-based"
-msgstr ""
+msgstr "크리올어 및 피진어 (프랑스어를 바탕으로 한 기타)"
 
 #. name for cpp
 msgid "Creoles and pidgins, Portuguese-based"
-msgstr ""
+msgstr "크리올어 및 피진어 (포르투갈어를 바탕으로 한 기타)"
 
 #. name for cre, cr
-#, fuzzy
 msgid "Cree"
-msgstr "그리스어"
+msgstr "크리어"
 
 #. name for crh
 msgid "Crimean Tatar; Crimean Turkish"
-msgstr ""
+msgstr "크림 타타르어"
 
 #. name for crp
 msgid "Creoles and pidgins"
-msgstr ""
+msgstr "크리올어 및 피진어"
 
 #. name for csb
 msgid "Kashubian"
-msgstr ""
+msgstr "카슈브어"
 
 #. name for cus
-#, fuzzy
 msgid "Cushitic languages"
-msgstr "한국어"
+msgstr "쿠시어파"
 
 #. name for ces, cs
 msgid "Czech"
-msgstr "체크어"
+msgstr "체코어"
 
 #. name for dak
 msgid "Dakota"
-msgstr ""
+msgstr "다코타어"
 
 #. name for dan, da
 msgid "Danish"
 msgstr "덴마크어"
 
 #. name for dar
-#, fuzzy
 msgid "Dargwa"
-msgstr "여백"
+msgstr "다르과어"
 
 #. name for day
 msgid "Land Dayak languages"
-msgstr ""
+msgstr "다야크어"
 
 #. name for del
 msgid "Delaware"
-msgstr ""
+msgstr "델라웨어어"
 
 #. name for den
 msgid "Slave (Athapascan)"
-msgstr ""
+msgstr "슬레이비어 (아타파스카)"
 
 #. name for dgr
 msgid "Dogrib"
-msgstr ""
+msgstr "도그리브어"
 
 #. name for din
 msgid "Dinka"
-msgstr ""
+msgstr "딩카어"
 
 #. name for div, dv
 msgid "Divehi; Dhivehi; Maldivian"
-msgstr ""
+msgstr "디베히어"
 
 #. name for doi
-#, fuzzy
 msgid "Dogri"
-msgstr "여백"
+msgstr "도그리어"
 
 #. name for dra
-#, fuzzy
 msgid "Dravidian languages"
-msgstr "한국어"
+msgstr "드라비다어족"
 
 #. name for dsb
-#, fuzzy
 msgid "Lower Sorbian"
-msgstr "세르비아어"
+msgstr "소르비아어 (저지)"
 
 #. name for dua
-#, fuzzy
 msgid "Duala"
-msgstr "Balsa"
+msgstr "두알라어"
 
 #. name for dum
 msgid "Dutch, Middle (ca. 1050-1350)"
-msgstr ""
+msgstr "중세 네덜란드어"
 
 #. name for nld, nl
 msgid "Dutch; Flemish"
-msgstr ""
+msgstr "네덜란드어"
 
 #. name for dyu
 msgid "Dyula"
-msgstr ""
+msgstr "듈라어"
 
 #. name for dzo, dz
 msgid "Dzongkha"
-msgstr ""
+msgstr "종카어"
 
 #. name for efi
 msgid "Efik"
-msgstr ""
+msgstr "에피크어"
 
 #. name for egy
 msgid "Egyptian (Ancient)"
-msgstr ""
+msgstr "고대 이집트어"
 
 #. name for eka
 msgid "Ekajuk"
-msgstr ""
+msgstr "에카주크어"
 
 #. name for elx
 msgid "Elamite"
-msgstr ""
+msgstr "엘람어"
 
 #. name for eng, en
 msgid "English"
@@ -551,7 +523,7 @@ msgstr "영어"
 
 #. name for enm
 msgid "English, Middle (1100-1500)"
-msgstr ""
+msgstr "영어 (중세) (1100년-1500년경)"
 
 #. name for epo, eo
 msgid "Esperanto"
@@ -563,47 +535,43 @@ msgstr "에스토니아어"
 
 #. name for ewe, ee
 msgid "Ewe"
-msgstr ""
+msgstr "에웨어"
 
 #. name for ewo
 msgid "Ewondo"
-msgstr ""
+msgstr "에원도어"
 
 #. name for fan
-#, fuzzy
 msgid "Fang"
-msgstr "찾기"
+msgstr "팡어"
 
 #. name for fao, fo
 msgid "Faroese"
 msgstr "페로스어"
 
 #. name for fat
-#, fuzzy
 msgid "Fanti"
-msgstr "주소"
+msgstr "판티어"
 
 #. name for fij, fj
-#, fuzzy
 msgid "Fijian"
-msgstr "찾기"
+msgstr "피지어"
 
 #. name for fil
 msgid "Filipino; Pilipino"
-msgstr ""
+msgstr "필리핀어"
 
 #. name for fin, fi
 msgid "Finnish"
 msgstr "핀란드어"
 
 #. name for fiu
-#, fuzzy
 msgid "Finno-Ugrian languages"
-msgstr "한국어"
+msgstr "핀우그리아어파"
 
 #. name for fon
 msgid "Fon"
-msgstr ""
+msgstr "폰어"
 
 #. name for fra, fr
 msgid "French"
@@ -611,479 +579,441 @@ msgstr "프랑스어"
 
 #. name for frm
 msgid "French, Middle (ca. 1400-1600)"
-msgstr ""
+msgstr "프랑스어 (중세) (1400년-1600년경)"
 
 #. name for fro
 msgid "French, Old (842-ca. 1400)"
-msgstr ""
+msgstr "프랑스어 (고대) (842년-1400년경)"
 
 #. name for frr
-#, fuzzy
 msgid "Northern Frisian"
-msgstr "우크라이나어"
+msgstr "프리지아어 (북부)"
 
 #. name for frs
-#, fuzzy
 msgid "Eastern Frisian"
-msgstr "우크라이나어"
+msgstr "프리지아어 (동부)"
 
 #. name for fry, fy
-#, fuzzy
 msgid "Western Frisian"
-msgstr "우크라이나어"
+msgstr "프리지아어"
 
 #. name for ful, ff
 msgid "Fulah"
-msgstr ""
+msgstr "풀라어"
 
 #. name for fur
-#, fuzzy
 msgid "Friulian"
-msgstr "우크라이나어"
+msgstr "프리울리어"
 
 #. name for gaa
 msgid "Ga"
-msgstr ""
+msgstr "가어"
 
 #. name for gay
 msgid "Gayo"
-msgstr ""
+msgstr "가요어"
 
 #. name for gba
 msgid "Gbaya"
-msgstr ""
+msgstr "그바야어"
 
 #. name for gem
-#, fuzzy
 msgid "Germanic languages"
-msgstr "한국어"
+msgstr "게르만어파"
 
 #. name for kat, ka
 msgid "Georgian"
-msgstr ""
+msgstr "조지아어"
 
 #. name for deu, de
 msgid "German"
 msgstr "독일어"
 
 #. name for gez
-#, fuzzy
 msgid "Geez"
-msgstr "그리스어"
+msgstr "그으즈어"
 
 #. name for gil
-#, fuzzy
 msgid "Gilbertese"
-msgstr "베트남어"
+msgstr "키리바스어"
 
 #. name for gla, gd
 msgid "Gaelic; Scottish Gaelic"
-msgstr ""
+msgstr "고이델어"
 
 #. name for gle, ga
 msgid "Irish"
 msgstr "아일랜드어"
 
 #. name for glg, gl
-#, fuzzy
 msgid "Galician"
-msgstr "갤리언"
+msgstr "갈리시아어"
 
 #. name for glv, gv
-#, fuzzy
 msgid "Manx"
-msgstr "여백"
+msgstr "맨어"
 
 #. name for gmh
 msgid "German, Middle High (ca. 1050-1500)"
-msgstr ""
+msgstr "독일어 (중세 고지) (1050년-1500년경)"
 
 #. name for goh
 msgid "German, Old High (ca. 750-1050)"
-msgstr ""
+msgstr "독일어 (고대 고지) (750년-1050년경)"
 
 #. name for gon
-#, fuzzy
 msgid "Gondi"
-msgstr "찾기"
+msgstr "곤드어"
 
 #. name for gor
 msgid "Gorontalo"
-msgstr ""
+msgstr "고론탈로어"
 
 #. name for got
 msgid "Gothic"
-msgstr ""
+msgstr "고트어"
 
 #. name for grb
-#, fuzzy
 msgid "Grebo"
-msgstr "그리스어"
+msgstr "그레보어"
 
 #. name for grc
 msgid "Greek, Ancient (to 1453)"
-msgstr ""
+msgstr "그리스어 (고대) (1453년 이전)"
 
 #. name for ell, el
 msgid "Greek, Modern (1453-)"
-msgstr ""
+msgstr "그리스어 (현대) (1453년 이후)"
 
 #. name for grn, gn
 msgid "Guarani"
-msgstr ""
+msgstr "과라니어"
 
 #. name for gsw
 msgid "Swiss German; Alemannic; Alsatian"
-msgstr ""
+msgstr "스위스 독일어"
 
 #. name for guj, gu
 msgid "Gujarati"
-msgstr ""
+msgstr "구자라트어"
 
 #. name for gwi
 msgid "Gwich'in"
-msgstr ""
+msgstr "그위친어"
 
 #. name for hai
-#, fuzzy
 msgid "Haida"
-msgstr "찾기"
+msgstr "하이다어"
 
 #. name for hat, ht
 msgid "Haitian; Haitian Creole"
-msgstr ""
+msgstr "아이티어"
 
 #. name for hau, ha
-#, fuzzy
 msgid "Hausa"
-msgstr "Balsa"
+msgstr "하우사어"
 
 #. name for haw
 msgid "Hawaiian"
-msgstr ""
+msgstr "하와이어"
 
 #. name for heb, he
 msgid "Hebrew"
-msgstr "헤브루어"
+msgstr "히브리어"
 
 #. name for her, hz
-#, fuzzy
 msgid "Herero"
-msgstr "헤브루어"
+msgstr "헤레로어"
 
 #. name for hil
 msgid "Hiligaynon"
-msgstr ""
+msgstr "힐리가이노어"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "히마찰어"
 
 #. name for hin, hi
-#, fuzzy
 msgid "Hindi"
-msgstr "찾기"
+msgstr "힌두어"
 
 #. name for hit
 msgid "Hittite"
-msgstr ""
+msgstr "히타이트어"
 
 #. name for hmn
 msgid "Hmong; Mong"
-msgstr ""
+msgstr "몽어"
 
 #. name for hmo, ho
-#, fuzzy
 msgid "Hiri Motu"
-msgstr "찾기"
+msgstr "히리 모투"
 
 #. name for hrv, hr
 msgid "Croatian"
 msgstr "크로아티아어"
 
 #. name for hsb
-#, fuzzy
 msgid "Upper Sorbian"
-msgstr "세르비아어"
+msgstr "소르비아어 (고지)"
 
 #. name for hun, hu
 msgid "Hungarian"
 msgstr "헝가리어"
 
 #. name for hup
-#, fuzzy
 msgid "Hupa"
-msgstr "Balsa"
+msgstr "후파어"
 
 #. name for iba
 msgid "Iban"
-msgstr ""
+msgstr "이반어"
 
 #. name for ibo, ig
 msgid "Igbo"
-msgstr ""
+msgstr "이그보어"
 
 #. name for isl, is
 msgid "Icelandic"
 msgstr "아이슬란드어"
 
+# 에스페란토 개선안
 #. name for ido, io
 msgid "Ido"
-msgstr ""
+msgstr "이도"
 
 #. name for iii, ii
-#, fuzzy
 msgid "Sichuan Yi; Nuosu"
-msgstr "리투아니아어"
+msgstr "쓰촨 이어"
 
 #. name for ijo
 msgid "Ijo languages"
-msgstr ""
+msgstr "이조어"
 
 #. name for iku, iu
 msgid "Inuktitut"
-msgstr ""
+msgstr "이누이트어"
 
 #. name for ile, ie
-#, fuzzy
 msgid "Interlingue; Occidental"
-msgstr "표시"
+msgstr "인테르링구어 (옥시덴탈)"
 
 #. name for ilo
 msgid "Iloko"
-msgstr ""
+msgstr "일로코어"
 
 #. name for ina, ia
 msgid "Interlingua (International Auxiliary Language Association)"
-msgstr ""
+msgstr "인테르링구아 (국제보조어협회)"
 
 #. name for inc
-#, fuzzy
 msgid "Indic languages"
-msgstr "한국어"
+msgstr "인도아리아어군"
 
 #. name for ind, id
 msgid "Indonesian"
 msgstr "인도네시아어"
 
 #. name for ine
-#, fuzzy
 msgid "Indo-European languages"
-msgstr "한국어"
+msgstr "인도유럽어족"
 
 #. name for inh
-#, fuzzy
 msgid "Ingush"
-msgstr "영어"
+msgstr "인구시어"
 
 #. name for ipk, ik
-#, fuzzy
 msgid "Inupiaq"
-msgstr "인도어"
+msgstr "이누피아크어"
 
 #. name for ira
-#, fuzzy
 msgid "Iranian languages"
-msgstr "한국어"
+msgstr "이란어군"
 
 #. name for iro
 msgid "Iroquoian languages"
-msgstr ""
+msgstr "이로쿼이어족"
 
 #. name for ita, it
 msgid "Italian"
 msgstr "이탈리아어"
 
 #. name for jav, jv
-#, fuzzy
 msgid "Javanese"
-msgstr "일본어"
+msgstr "자와어"
 
 #. name for jbo
 msgid "Lojban"
-msgstr ""
+msgstr "로지반"
 
 #. name for jpn, ja
 msgid "Japanese"
 msgstr "일본어"
 
 #. name for jpr
-#, fuzzy
 msgid "Judeo-Persian"
-msgstr "출력"
+msgstr "유대페르시아어"
 
 #. name for jrb
-#, fuzzy
 msgid "Judeo-Arabic"
-msgstr "아라비아어"
+msgstr "유대아랍어"
 
 #. name for kaa
 msgid "Kara-Kalpak"
-msgstr ""
+msgstr "카라칼파크어"
 
 #. name for kab
 msgid "Kabyle"
-msgstr ""
+msgstr "카빌어"
 
 #. name for kac
 msgid "Kachin; Jingpho"
-msgstr ""
+msgstr "카친어"
 
 #. name for kal, kl
 msgid "Kalaallisut; Greenlandic"
-msgstr ""
+msgstr "그린란드어"
 
 #. name for kam
 msgid "Kamba"
-msgstr ""
+msgstr "캄바어"
 
 #. name for kan, kn
 msgid "Kannada"
-msgstr ""
+msgstr "칸나다어"
 
 #. name for kar
-#, fuzzy
 msgid "Karen languages"
-msgstr "한국어"
+msgstr "카렌어"
 
 #. name for kas, ks
 msgid "Kashmiri"
-msgstr ""
+msgstr "카슈미르어"
 
 #. name for kau, kr
-#, fuzzy
 msgid "Kanuri"
-msgstr "터키어"
+msgstr "카누리어"
 
 #. name for kaw
 msgid "Kawi"
-msgstr ""
+msgstr "카위어"
 
 #. name for kaz, kk
 msgid "Kazakh"
-msgstr ""
+msgstr "카자흐어"
 
 #. name for kbd
 msgid "Kabardian"
-msgstr ""
+msgstr "카바르디어"
 
 #. name for kha
-#, fuzzy
 msgid "Khasi"
-msgstr "태국어"
+msgstr "카시어"
 
 #. name for khi
-#, fuzzy
 msgid "Khoisan languages"
-msgstr "한국어"
+msgstr "코이산어족"
 
 #. name for khm, km
 msgid "Central Khmer"
-msgstr ""
+msgstr "중부 크메르어"
 
 #. name for kho
-#, fuzzy
 msgid "Khotanese;Sakan"
-msgstr "중국어"
+msgstr "호탄어"
 
 #. name for kik, ki
 msgid "Kikuyu; Gikuyu"
-msgstr ""
+msgstr "키쿠유어"
 
 #. name for kin, rw
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "르완다어"
 
 #. name for kir, ky
 msgid "Kirghiz; Kyrgyz"
-msgstr ""
+msgstr "키르기스어"
 
+# 앙골라
 #. name for kmb
 msgid "Kimbundu"
-msgstr ""
+msgstr "킴분두어"
 
 #. name for kok
-#, fuzzy
 msgid "Konkani"
-msgstr "한국어"
+msgstr "콘칸어"
 
 #. name for kom, kv
 msgid "Komi"
-msgstr ""
+msgstr "코미어"
 
 #. name for kon, kg
 msgid "Kongo"
-msgstr ""
+msgstr "콩고어"
 
 #. name for kor, ko
 msgid "Korean"
 msgstr "한국어"
 
 #. name for kos
-#, fuzzy
 msgid "Kosraean"
-msgstr "한국어"
+msgstr "코스라에어"
 
 #. name for kpe
 msgid "Kpelle"
-msgstr ""
+msgstr "크펠레어"
 
 #. name for krc
 msgid "Karachay-Balkar"
-msgstr ""
+msgstr "카라차이발카르어"
 
 #. name for krl
-#, fuzzy
 msgid "Karelian"
-msgstr "한국어"
+msgstr "카리알라어"
 
 #. name for kro
 msgid "Kru languages"
-msgstr ""
+msgstr "크루어"
 
 #. name for kru
-#, fuzzy
 msgid "Kurukh"
-msgstr "터키어"
+msgstr "쿠루크어"
 
 #. name for kua, kj
 msgid "Kuanyama; Kwanyama"
-msgstr ""
+msgstr "콰냐마어"
 
 #. name for kum
 msgid "Kumyk"
-msgstr ""
+msgstr "쿠미크족"
 
 #. name for kur, ku
-#, fuzzy
 msgid "Kurdish"
-msgstr "터키어"
+msgstr "쿠르드어"
 
 #. name for kut
 msgid "Kutenai"
-msgstr ""
+msgstr "쿠테나이어"
 
 #. name for lad
-#, fuzzy
 msgid "Ladino"
-msgstr "주소"
+msgstr "라디노어"
 
 #. name for lah
 msgid "Lahnda"
-msgstr ""
+msgstr "란다어"
 
 #. name for lam
 msgid "Lamba"
-msgstr ""
+msgstr "람바어"
 
 #. name for lao, lo
 msgid "Lao"
-msgstr ""
+msgstr "라오어"
 
 #. name for lat, la
-#, fuzzy
 msgid "Latin"
-msgstr "주소"
+msgstr "라틴어"
 
 #. name for lav, lv
 msgid "Latvian"
@@ -1091,16 +1021,15 @@ msgstr "라트비아어"
 
 #. name for lez
 msgid "Lezghian"
-msgstr ""
+msgstr "레즈긴어"
 
 #. name for lim, li
 msgid "Limburgan; Limburger; Limburgish"
-msgstr ""
+msgstr "림뷔르흐어"
 
 #. name for lin, ln
-#, fuzzy
 msgid "Lingala"
-msgstr "Le_gal"
+msgstr "링갈라어"
 
 #. name for lit, lt
 msgid "Lithuanian"
@@ -1108,423 +1037,392 @@ msgstr "리투아니아어"
 
 #. name for lol
 msgid "Mongo"
-msgstr ""
+msgstr "몽고어"
 
 #. name for loz
 msgid "Lozi"
-msgstr ""
+msgstr "로지어"
 
 #. name for ltz, lb
 msgid "Luxembourgish; Letzeburgesch"
-msgstr ""
+msgstr "룩셈부르크어"
 
 #. name for lua
 msgid "Luba-Lulua"
-msgstr ""
+msgstr "루바어"
 
 #. name for lub, lu
 msgid "Luba-Katanga"
-msgstr ""
+msgstr "루바카탕가어"
 
 #. name for lug, lg
 msgid "Ganda"
-msgstr ""
+msgstr "간다어"
 
 #. name for lui
 msgid "Luiseno"
-msgstr ""
+msgstr "루이세뇨어"
 
 #. name for lun
 msgid "Lunda"
-msgstr ""
+msgstr "룬다어"
 
 #. name for luo
 msgid "Luo (Kenya and Tanzania)"
-msgstr ""
+msgstr "루오어 (케냐 및 탄자니아)"
 
 #. name for lus
-#, fuzzy
 msgid "Lushai"
-msgstr "태국어"
+msgstr "루샤이어"
 
 #. name for mkd, mk
 msgid "Macedonian"
 msgstr "마케도니아어"
 
 #. name for mad
-#, fuzzy
 msgid "Madurese"
-msgstr "거짓"
+msgstr "마두라어"
 
 #. name for mag
 msgid "Magahi"
-msgstr ""
+msgstr "마가드어"
 
 #. name for mah, mh
-#, fuzzy
 msgid "Marshallese"
-msgstr "거짓"
+msgstr "마셜어"
 
 #. name for mai
 msgid "Maithili"
-msgstr ""
+msgstr "마이틸리어"
 
 #. name for mak
 msgid "Makasar"
-msgstr ""
+msgstr "마카사르어"
 
 #. name for mal, ml
 msgid "Malayalam"
-msgstr ""
+msgstr "말라얄람어"
 
 #. name for man
 msgid "Mandingo"
-msgstr ""
+msgstr "만데어"
 
 #. name for mri, mi
-#, fuzzy
 msgid "Maori"
-msgstr "여백"
+msgstr "마오리어"
 
 #. name for map
-#, fuzzy
 msgid "Austronesian languages"
-msgstr "한국어"
+msgstr "오스트로네시아어족"
 
 #. name for mar, mr
 msgid "Marathi"
-msgstr ""
+msgstr "마라티어"
 
 #. name for mas
-#, fuzzy
 msgid "Masai"
-msgstr "Balsa"
+msgstr "마사이어"
 
 #. name for msa, ms
-#, fuzzy
 msgid "Malay"
-msgstr "Balsa"
+msgstr "말레이어"
 
 #. name for mdf
 msgid "Moksha"
-msgstr ""
+msgstr "목샤어"
 
 #. name for mdr
-#, fuzzy
 msgid "Mandar"
-msgstr "여백"
+msgstr "만다르어"
 
 #. name for men
 msgid "Mende"
-msgstr ""
+msgstr "멘데어"
 
 #. name for mga
 msgid "Irish, Middle (900-1200)"
-msgstr ""
+msgstr "아일랜드어 (중세) (900년-1200년경)"
 
 #. name for mic
 msgid "Mi'kmaq; Micmac"
-msgstr ""
+msgstr "미크맥어"
 
 #. name for min
 msgid "Minangkabau"
-msgstr ""
+msgstr "미낭카바우어"
 
 #. name for mis
-#, fuzzy
 msgid "Uncoded languages"
-msgstr "한국어"
+msgstr "기타 언어"
 
 #. name for mkh
-#, fuzzy
 msgid "Mon-Khmer languages"
-msgstr "한국어"
+msgstr "몬크메르어파"
 
 #. name for mlg, mg
-#, fuzzy
 msgid "Malagasy"
-msgstr "Balsa"
+msgstr "말라가시어"
 
 #. name for mlt, mt
-#, fuzzy
 msgid "Maltese"
-msgstr "거짓"
+msgstr "몰타어"
 
 #. name for mnc
-#, fuzzy
 msgid "Manchu"
-msgstr "여백"
+msgstr "만주어"
 
 #. name for mni
-#, fuzzy
 msgid "Manipuri"
-msgstr "터키어"
+msgstr "마니푸르어"
 
 #. name for mno
 msgid "Manobo languages"
-msgstr ""
+msgstr "마노보어군"
 
 #. name for moh
 msgid "Mohawk"
-msgstr ""
+msgstr "모호크어"
 
 #. name for mol, mo
 msgid "Moldavian; Moldovan"
-msgstr ""
+msgstr "몰도바어"
 
 #. name for mon, mn
 msgid "Mongolian"
-msgstr ""
+msgstr "몽골어"
 
 #. name for mos
-#, fuzzy
 msgid "Mossi"
-msgstr "여백"
+msgstr "모시어"
 
 #. name for mul
 msgid "Multiple languages"
-msgstr ""
+msgstr "다중 언어"
 
 #. name for mun
 msgid "Munda languages"
-msgstr ""
+msgstr "문다어파"
 
 #. name for mus
-#, fuzzy
 msgid "Creek"
-msgstr "그리스어"
+msgstr "무스코지어"
 
 #. name for mwl
-#, fuzzy
 msgid "Mirandese"
-msgstr "거짓"
+msgstr "미란데어"
 
 #. name for mwr
-#, fuzzy
 msgid "Marwari"
-msgstr "여백"
+msgstr "마르와르어"
 
 #. name for myn
 msgid "Mayan languages"
-msgstr ""
+msgstr "마야어족"
 
 #. name for myv
 msgid "Erzya"
-msgstr ""
+msgstr "에르지아어"
 
 #. name for nah
 msgid "Nahuatl languages"
-msgstr ""
+msgstr "나와어"
 
 #. name for nai
-#, fuzzy
 msgid "North American Indian languages"
-msgstr "우크라이나어"
+msgstr "북아메리카 인디언 제어"
 
 #. name for nap
 msgid "Neapolitan"
-msgstr ""
+msgstr "나폴리어"
 
 #. name for nau, na
 msgid "Nauru"
-msgstr ""
+msgstr "나우루어"
 
 #. name for nav, nv
 msgid "Navajo; Navaho"
-msgstr ""
+msgstr "나바호어"
 
 #. name for nbl, nr
 msgid "Ndebele, South; South Ndebele"
-msgstr ""
+msgstr "은데벨레어 (남)"
 
 #. name for nde, nd
 msgid "Ndebele, North; North Ndebele"
-msgstr ""
+msgstr "은데벨레어 (북)"
 
 #. name for ndo, ng
 msgid "Ndonga"
-msgstr ""
+msgstr "은동가어"
 
 #. name for nds
 msgid "Low German; Low Saxon; German, Low; Saxon, Low"
-msgstr ""
+msgstr "저지 색슨어"
 
 #. name for nep, ne
-#, fuzzy
 msgid "Nepali"
-msgstr "발트어"
+msgstr "네팔어"
 
 #. name for new
 msgid "Nepal Bhasa; Newari"
-msgstr ""
+msgstr "네와르어"
 
 #. name for nia
 msgid "Nias"
-msgstr ""
+msgstr "니아스어"
 
 #. name for nic
-#, fuzzy
 msgid "Niger-Kordofanian languages"
-msgstr "한국어"
+msgstr "니제르코르도어판어족"
 
 #. name for niu
 msgid "Niuean"
-msgstr ""
+msgstr "니우에어"
 
 #. name for nno, nn
-#, fuzzy
 msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
-msgstr "노르웨이어"
+msgstr "뉘노리스크"
 
 #. name for nob, nb
 msgid "Bokmål, Norwegian; Norwegian Bokmål"
-msgstr ""
+msgstr "보크몰"
 
 #. name for nog
-#, fuzzy
 msgid "Nogai"
-msgstr "찾기"
+msgstr "노가이어"
 
 #. name for non
 msgid "Norse, Old"
-msgstr ""
+msgstr "노르드어 (고대)"
 
 #. name for nor, no
 msgid "Norwegian"
 msgstr "노르웨이어"
 
+# 응코 문자
 #. name for nqo
 msgid "N'Ko"
-msgstr ""
+msgstr "응코 문자"
 
 #. name for nso
 msgid "Pedi; Sepedi; Northern Sotho"
-msgstr ""
+msgstr "소토어 (북)"
 
 #. name for nub
 msgid "Nubian languages"
-msgstr ""
+msgstr "누비아어군"
 
 #. name for nwc
 msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
-msgstr ""
+msgstr "네와르어 (고전)"
 
 #. name for nya, ny
 msgid "Chichewa; Chewa; Nyanja"
-msgstr ""
+msgstr "니안자어"
 
 #. name for nym
 msgid "Nyamwezi"
-msgstr ""
+msgstr "니암웨지어"
 
 #. name for nyn
 msgid "Nyankole"
-msgstr ""
+msgstr "은콜레어"
 
 #. name for nyo
 msgid "Nyoro"
-msgstr ""
+msgstr "니오로어"
 
 #. name for nzi
 msgid "Nzima"
-msgstr ""
+msgstr "은제마어"
 
 #. name for oci, oc
 msgid "Occitan (post 1500)"
-msgstr ""
+msgstr "오크어 (1500년 이후)"
 
 #. name for oji, oj
 msgid "Ojibwa"
-msgstr ""
+msgstr "오지브와어"
 
 #. name for ori, or
 msgid "Oriya"
-msgstr ""
+msgstr "오리야어"
 
 #. name for orm, om
-#, fuzzy
 msgid "Oromo"
-msgstr "처음:"
+msgstr "오로모어"
 
 #. name for osa
 msgid "Osage"
-msgstr ""
+msgstr "오세이지어"
 
 #. name for oss, os
-#, fuzzy
 msgid "Ossetian; Ossetic"
-msgstr "러시아어"
+msgstr "오세트어"
 
 #. name for ota
 msgid "Turkish, Ottoman (1500-1928)"
-msgstr ""
+msgstr "투르크어 (오스만) (1500년경-1928년)"
 
 #. name for oto
 msgid "Otomian languages"
-msgstr ""
+msgstr "오토미어군"
 
 #. name for paa
-#, fuzzy
 msgid "Papuan languages"
-msgstr "한국어"
+msgstr "파푸아 제어"
 
 #. name for pag
-#, fuzzy
 msgid "Pangasinan"
-msgstr "헝가리어"
+msgstr "팡가시난어"
 
 #. name for pal
 msgid "Pahlavi"
-msgstr ""
+msgstr "팔레비어"
 
 #. name for pam
 msgid "Pampanga; Kapampangan"
-msgstr ""
+msgstr "팜팡가어"
 
 #. name for pan, pa
 msgid "Panjabi; Punjabi"
-msgstr ""
+msgstr "펀자브어"
 
 #. name for pap
 msgid "Papiamento"
-msgstr ""
+msgstr "파피아멘토어"
 
 #. name for pau
 msgid "Palauan"
-msgstr ""
+msgstr "팔라우어"
 
 #. name for peo
 msgid "Persian, Old (ca. 600-400 B.C.)"
-msgstr ""
+msgstr "페르시아어 (고대) (BC 600년-BC 400년경)"
 
 #. name for fas, fa
-#, fuzzy
 msgid "Persian"
-msgstr "출력"
+msgstr "페르시아어"
 
 #. name for phi
-#, fuzzy
 msgid "Philippine languages"
-msgstr "한국어"
+msgstr "필리핀 제어"
 
 #. name for phn
-#, fuzzy
 msgid "Phoenician"
-msgstr "슬로베니아어"
+msgstr "페니키아어"
 
 #. name for pli, pi
-#, fuzzy
 msgid "Pali"
-msgstr "폴란드어"
+msgstr "팔리어"
 
 #. name for pol, pl
 msgid "Polish"
 msgstr "폴란드어"
 
 #. name for pon
-#, fuzzy
 msgid "Pohnpeian"
-msgstr "인도네시아어"
+msgstr "폰페이어"
 
 #. name for por, pt
 msgid "Portuguese"
@@ -1532,50 +1430,47 @@ msgstr "포르투갈어"
 
 #. name for pra
 msgid "Prakrit languages"
-msgstr ""
+msgstr "프라크리트 제어"
 
 #. name for pro
 msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
-msgstr ""
+msgstr "프로방스어 (고대) (1500년 이전)"
 
 #. name for pus, ps
 msgid "Pushto; Pashto"
-msgstr ""
+msgstr "파슈토어"
 
 #. name for qaa-qtz
 msgid "Reserved for local use"
-msgstr ""
+msgstr "로컬 사용 예약"
 
 #. name for que, qu
 msgid "Quechua"
-msgstr ""
+msgstr "케추아어족"
 
 #. name for raj
 msgid "Rajasthani"
-msgstr ""
+msgstr "라자스탄어"
 
 #. name for rap
 msgid "Rapanui"
-msgstr ""
+msgstr "라파누이어"
 
 #. name for rar
 msgid "Rarotongan; Cook Islands Maori"
-msgstr ""
+msgstr "라로통가어"
 
 #. name for roa
-#, fuzzy
 msgid "Romance languages"
-msgstr "한국어"
+msgstr "로망스어군"
 
 #. name for roh, rm
-#, fuzzy
 msgid "Romansh"
-msgstr "루마니아어"
+msgstr "로만슈어"
 
 #. name for rom
-#, fuzzy
 msgid "Romany"
-msgstr "루마니아어"
+msgstr "롬어"
 
 #. name for ron, ro
 msgid "Romanian"
@@ -1583,11 +1478,11 @@ msgstr "루마니아어"
 
 #. name for run, rn
 msgid "Rundi"
-msgstr ""
+msgstr "룬디어"
 
 #. name for rup
 msgid "Aromanian; Arumanian; Macedo-Romanian"
-msgstr ""
+msgstr "아로마니아어"
 
 #. name for rus, ru
 msgid "Russian"
@@ -1595,96 +1490,87 @@ msgstr "러시아어"
 
 #. name for sad
 msgid "Sandawe"
-msgstr ""
+msgstr "산다웨어"
 
 #. name for sag, sg
 msgid "Sango"
-msgstr ""
+msgstr "상고어"
 
 #. name for sah
 msgid "Yakut"
-msgstr ""
+msgstr "야큐트어"
 
 #. name for sai
-#, fuzzy
 msgid "South American Indian languages"
-msgstr "우크라이나어"
+msgstr "남아메리카 인디언 제어"
 
 #. name for sal
 msgid "Salishan languages"
-msgstr ""
+msgstr "살리시어족"
 
 #. name for sam
 msgid "Samaritan Aramaic"
-msgstr ""
+msgstr "사마리아 아람어"
 
 #. name for san, sa
-#, fuzzy
 msgid "Sanskrit"
-msgstr "산-세리프"
+msgstr "산스크리트어"
 
 #. name for sas
-#, fuzzy
 msgid "Sasak"
-msgstr "산-세리프"
+msgstr "사사크어"
 
 #. name for sat
 msgid "Santali"
-msgstr ""
+msgstr "산탈어"
 
 #. name for scn
-#, fuzzy
 msgid "Sicilian"
-msgstr "우크라이나어"
+msgstr "시칠리아어"
 
 #. name for sco
-#, fuzzy
 msgid "Scots"
-msgstr "멈춤"
+msgstr "스코트어"
 
 #. name for sel
 msgid "Selkup"
-msgstr ""
+msgstr "셀쿠프어"
 
 #. name for sem
-#, fuzzy
 msgid "Semitic languages"
-msgstr "한국어"
+msgstr "셈어파"
 
 #. name for sga
 msgid "Irish, Old (to 900)"
-msgstr ""
+msgstr "아일랜드어 (고대) (900년 이전)"
 
 #. name for sgn
 msgid "Sign Languages"
-msgstr ""
+msgstr "수화"
 
 #. name for shn
 msgid "Shan"
-msgstr ""
+msgstr "샨어"
 
 #. name for sid
 msgid "Sidamo"
-msgstr ""
+msgstr "시다모어"
 
 #. name for sin, si
-#, fuzzy
 msgid "Sinhala; Sinhalese"
-msgstr "베트남어"
+msgstr "싱할라어"
 
 #. name for sio
 msgid "Siouan languages"
-msgstr ""
+msgstr "수어족"
 
 #. name for sit
-#, fuzzy
 msgid "Sino-Tibetan languages"
-msgstr "한국어"
+msgstr "중국티베트어족"
 
 #. name for sla
-#, fuzzy
 msgid "Slavic languages"
-msgstr "한국어"
+msgstr "슬라브어파"
 
 #. name for slk, sk
 msgid "Slovak"
@@ -1696,77 +1582,72 @@ msgstr "슬로베니아어"
 
 #. name for sma
 msgid "Southern Sami"
-msgstr ""
+msgstr "사미어 (남)"
 
 #. name for sme, se
 msgid "Northern Sami"
-msgstr ""
+msgstr "사미어 (북)"
 
 #. name for smi
-#, fuzzy
 msgid "Sami languages"
-msgstr "한국어"
+msgstr "사미어계"
 
 #. name for smj
 msgid "Lule Sami"
-msgstr ""
+msgstr "사미어 (룰레)"
 
 #. name for smn
 msgid "Inari Sami"
-msgstr ""
+msgstr "사미어 (이나리)"
 
 #. name for smo, sm
 msgid "Samoan"
-msgstr ""
+msgstr "사모아어"
 
 #. name for sms
 msgid "Skolt Sami"
-msgstr ""
+msgstr "사미어 (스콜트)"
 
 #. name for sna, sn
 msgid "Shona"
-msgstr ""
+msgstr "쇼나어"
 
 #. name for snd, sd
-#, fuzzy
 msgid "Sindhi"
-msgstr "찾기"
+msgstr "신디어"
 
+# 세네갈
 #. name for snk
-#, fuzzy
 msgid "Soninke"
-msgstr "슬로베니아어"
+msgstr "소닌케어"
 
 #. name for sog
-#, fuzzy
 msgid "Sogdian"
-msgstr "노르웨이어"
+msgstr "소그드어"
 
 #. name for som, so
 msgid "Somali"
-msgstr ""
+msgstr "소말리아어"
 
 #. name for son
 msgid "Songhai languages"
-msgstr ""
+msgstr "송가이어"
 
 #. name for sot, st
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "소토어 (남)"
 
 #. name for spa, es
 msgid "Spanish; Castilian"
-msgstr ""
+msgstr "스페인어"
 
 #. name for srd, sc
-#, fuzzy
 msgid "Sardinian"
-msgstr "마케도니아어"
+msgstr "사르데냐어"
 
 #. name for srn
-#, fuzzy
 msgid "Sranan Tongo"
-msgstr "우크라이나어"
+msgstr "스라난 통고"
 
 #. name for srp, sr
 msgid "Serbian"
@@ -1774,37 +1655,35 @@ msgstr "세르비아어"
 
 #. name for srr
 msgid "Serer"
-msgstr ""
+msgstr "세레르어"
 
 #. name for ssa
-#, fuzzy
 msgid "Nilo-Saharan languages"
-msgstr "한국어"
+msgstr "나일사하라어족"
 
 #. name for ssw, ss
 msgid "Swati"
-msgstr ""
+msgstr "스와티어"
 
 #. name for suk
 msgid "Sukuma"
-msgstr ""
+msgstr "수쿠마어"
 
 #. name for sun, su
 msgid "Sundanese"
-msgstr ""
+msgstr "순다어"
 
 #. name for sus
 msgid "Susu"
-msgstr ""
+msgstr "수수어"
 
 #. name for sux
-#, fuzzy
 msgid "Sumerian"
-msgstr "세르비아어"
+msgstr "수메르어"
 
 #. name for swa, sw
 msgid "Swahili"
-msgstr ""
+msgstr "스와힐리어"
 
 #. name for swe, sv
 msgid "Swedish"
@@ -1812,194 +1691,185 @@ msgstr "스웨덴어"
 
 #. name for syc
 msgid "Classical Syriac"
-msgstr ""
+msgstr "고전 시리아어"
 
 #. name for syr
-#, fuzzy
 msgid "Syriac"
-msgstr "세르비아어"
+msgstr "시리아어"
 
 #. name for tah, ty
-#, fuzzy
 msgid "Tahitian"
-msgstr "라트비아어"
+msgstr "타히티어"
 
 #. name for tai
-#, fuzzy
 msgid "Tai languages"
-msgstr "한국어"
+msgstr "타이어군"
 
 #. name for tam, ta
-#, fuzzy
 msgid "Tamil"
-msgstr "태국어"
+msgstr "타밀어"
 
 #. name for tat, tt
 msgid "Tatar"
-msgstr ""
+msgstr "타타르어"
 
 #. name for tel, te
 msgid "Telugu"
-msgstr ""
+msgstr "텔루구어"
 
 #. name for tem
 msgid "Timne"
-msgstr ""
+msgstr "템네어"
 
 #. name for ter
 msgid "Tereno"
-msgstr ""
+msgstr "테레나어"
 
 #. name for tet
 msgid "Tetum"
-msgstr ""
+msgstr "테툼어"
 
 #. name for tgk, tg
-#, fuzzy
 msgid "Tajik"
-msgstr "태국어"
+msgstr "타지크어"
 
 #. name for tgl, tl
 msgid "Tagalog"
-msgstr ""
+msgstr "타갈로그어"
 
 #. name for tha, th
 msgid "Thai"
-msgstr "태국어"
+msgstr "타이어"
 
 #. name for bod, bo
 msgid "Tibetan"
-msgstr ""
+msgstr "티베트어"
 
 #. name for tig
-#, fuzzy
 msgid "Tigre"
-msgstr "터키어"
+msgstr "티그레어"
 
 #. name for tir, ti
-#, fuzzy
 msgid "Tigrinya"
-msgstr "터키어"
+msgstr "티그리냐어"
 
 #. name for tiv
 msgid "Tiv"
-msgstr ""
+msgstr "티브어"
 
+# 뉴질랜드
 #. name for tkl
 msgid "Tokelau"
-msgstr ""
+msgstr "토켈라우어"
 
 #. name for tlh
 msgid "Klingon; tlhIngan-Hol"
-msgstr ""
+msgstr "클링온"
 
 #. name for tli
 msgid "Tlingit"
-msgstr ""
+msgstr "틀링깃어"
 
 #. name for tmh
 msgid "Tamashek"
-msgstr ""
+msgstr "타마셰크어"
 
 #. name for tog
 msgid "Tonga (Nyasa)"
-msgstr ""
+msgstr "통가어 (니아사)"
 
 #. name for ton, to
 msgid "Tonga (Tonga Islands)"
-msgstr ""
+msgstr "통가어 (통가 제도)"
 
+# 파푸아뉴기니 언어
 #. name for tpi
 msgid "Tok Pisin"
-msgstr ""
+msgstr "톡 피신"
 
 #. name for tsi
-#, fuzzy
 msgid "Tsimshian"
-msgstr "우크라이나어"
+msgstr "침시아어"
 
 #. name for tsn, tn
 msgid "Tswana"
-msgstr ""
+msgstr "츠와나어"
 
 #. name for tso, ts
 msgid "Tsonga"
-msgstr ""
+msgstr "총가어"
 
 #. name for tuk, tk
 msgid "Turkmen"
-msgstr ""
+msgstr "투르크멘어"
 
 #. name for tum
 msgid "Tumbuka"
-msgstr ""
+msgstr "툼부카어"
 
 #. name for tup
 msgid "Tupi languages"
-msgstr ""
+msgstr "투피어족"
 
 #. name for tur, tr
 msgid "Turkish"
 msgstr "터키어"
 
 #. name for tut
-#, fuzzy
 msgid "Altaic languages"
-msgstr "한국어"
+msgstr "알타이어족"
 
 #. name for tvl
 msgid "Tuvalu"
-msgstr ""
+msgstr "투발루어"
 
 #. name for twi, tw
 msgid "Twi"
-msgstr ""
+msgstr "알칸어군"
 
 #. name for tyv
 msgid "Tuvinian"
-msgstr ""
+msgstr "투바어"
 
 #. name for udm
 msgid "Udmurt"
-msgstr ""
+msgstr "우드무르트어"
 
 #. name for uga
 msgid "Ugaritic"
-msgstr ""
+msgstr "우가리트어"
 
 #. name for uig, ug
 msgid "Uighur; Uyghur"
-msgstr ""
+msgstr "위구르어"
 
 #. name for ukr, uk
-#, fuzzy
 msgid "Ukrainian"
 msgstr "우크라이나어"
 
 #. name for umb
 msgid "Umbundu"
-msgstr ""
+msgstr "움분두어"
 
 #. name for und
-#, fuzzy
 msgid "Undetermined"
-msgstr "표시"
+msgstr "미확인 언어"
 
 #. name for urd, ur
 msgid "Urdu"
-msgstr ""
+msgstr "우르두어"
 
 #. name for uzb, uz
 msgid "Uzbek"
-msgstr ""
+msgstr "우즈베크어"
 
 #. name for vai
 msgid "Vai"
-msgstr ""
+msgstr "바이어"
 
 #. name for ven, ve
 msgid "Venda"
-msgstr ""
+msgstr "벤다어"
 
 #. name for vie, vi
 msgid "Vietnamese"
@@ -2007,107 +1877,106 @@ msgstr "베트남어"
 
 #. name for vol, vo
 msgid "Volapük"
-msgstr ""
+msgstr "볼라퓌크"
 
 #. name for vot
 msgid "Votic"
-msgstr ""
+msgstr "바트어"
 
 #. name for wak
 msgid "Wakashan languages"
-msgstr ""
+msgstr "와카시어족"
 
 #. name for wal
 msgid "Wolaitta; Wolaytta"
-msgstr ""
+msgstr "왈라모어"
 
 #. name for war
-#, fuzzy
 msgid "Waray"
-msgstr "Balsa"
+msgstr "와라이어"
 
 #. name for was
 msgid "Washo"
-msgstr ""
+msgstr "와쇼어"
 
 #. name for cym, cy
 msgid "Welsh"
-msgstr ""
+msgstr "웨일스어"
 
 #. name for wen
 msgid "Sorbian languages"
-msgstr ""
+msgstr "소르브어"
 
 #. name for wln, wa
 msgid "Walloon"
-msgstr ""
+msgstr "왈론어"
 
 #. name for wol, wo
 msgid "Wolof"
-msgstr ""
+msgstr "월로프어"
 
 #. name for xal
 msgid "Kalmyk; Oirat"
-msgstr ""
+msgstr "칼미크어"
 
 #. name for xho, xh
 msgid "Xhosa"
-msgstr ""
+msgstr "코사어"
 
 #. name for yao
 msgid "Yao"
-msgstr ""
+msgstr "야오어"
 
 #. name for yap
-#, fuzzy
 msgid "Yapese"
-msgstr "일본어"
+msgstr "야프어"
 
 #. name for yid, yi
 msgid "Yiddish"
-msgstr ""
+msgstr "이디시어"
 
 #. name for yor, yo
 msgid "Yoruba"
-msgstr ""
+msgstr "요루바어"
 
 #. name for ypk
 msgid "Yupik languages"
-msgstr ""
+msgstr "유피크어군"
 
 #. name for zap
 msgid "Zapotec"
-msgstr ""
+msgstr "사포텍어"
 
+# Charles K. Bliss가 만든 상형 문자
 #. name for zbl
 msgid "Blissymbols; Blissymbolics; Bliss"
-msgstr ""
+msgstr "블리심볼문자"
 
 #. name for zen
-#, fuzzy
 msgid "Zenaga"
-msgstr "발트어"
+msgstr "제나가어"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
-msgstr ""
+msgstr "좡어"
 
 #. name for znd
 msgid "Zande languages"
-msgstr ""
+msgstr "잔데어"
 
 #. name for zul, zu
 msgid "Zulu"
-msgstr ""
+msgstr "줄루어"
 
 #. name for zun
 msgid "Zuni"
-msgstr ""
+msgstr "주니어"
 
 #. name for zxx
 msgid "No linguistic content; Not applicable"
-msgstr ""
+msgstr "해당 없음"
 
+# 이란
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
-msgstr ""
+msgstr "자자어"
