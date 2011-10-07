@@ -1,5 +1,5 @@
 # vim:fileencoding=utf-8
-# Copyright (c) 2008 gocept gmbh & co. kg
+# Copyright (c) 2008-2011 gocept gmbh & co. kg
 # See also LICENSE.txt
 # $Id$
 """pycountry"""
@@ -78,6 +78,10 @@ class Subdivision(pycountry.db.Data):
 
 
 class Subdivisions(pycountry.db.Database):
+
+    # Note: subdivisions can be hierarchical to other subdivisions. The
+    # parent_code attribute is related to other subdivisons, *not*
+    # the country!
 
     xml_tag = 'iso_3166_2_entry'
     data_class_base = Subdivision
