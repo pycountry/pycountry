@@ -1,26 +1,30 @@
-# Translation of ISO 4217 (currency names) to Czech
-# Copyright © various authors, see list below.
+# Translation of ISO-4217 (currency names) to Czech
 # This file is distributed under the same license as the iso-codes package.
 #
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
-# Miroslav Kure <kurem@debian.cz>, 2004--2010.
+# Copyright (C)
+#   Free Software Foundation, Inc., 2002
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Miroslav Kure <kurem@debian.cz>, 2004-2008.
+#   Marek Černocký <marek@manet.cz>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2010-06-26 07:45+0200\n"
-"Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
-"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"PO-Revision-Date: 2011-12-01 21:48+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. currency_name for AED
 msgid "UAE Dirham"
-msgstr "Spojené Arabské Emiráty - dirham"
+msgstr "Arabskoemirátský Dirham"
 
 #. currency_name for AFN, historic currency_name for AFA (withdrawn unknown)
 msgid "Afghani"
@@ -72,7 +76,7 @@ msgstr "Taka"
 
 #. currency_name for BGN
 msgid "Bulgarian Lev"
-msgstr "Bulharská leva"
+msgstr "Bulharský lev"
 
 #. currency_name for BHD
 msgid "Bahraini Dinar"
@@ -436,7 +440,7 @@ msgstr "Mexické peso"
 
 #. currency_name for MXV
 msgid "Mexican Unidad de Inversion (UDI)"
-msgstr "Mexican Unidad de Inversion (UDI)"
+msgstr "Mexický Unidad de Inversion (UDI)"
 
 #. currency_name for MYR
 msgid "Malaysian Ringgit"
@@ -528,7 +532,7 @@ msgstr "Saudskoarabský rial"
 
 #. currency_name for SBD
 msgid "Solomon Islands Dollar"
-msgstr "Šalamounovy ostrovy - dolar"
+msgstr "Dolar šalamounských ostrovů"
 
 #. currency_name for SCR
 msgid "Seychelles Rupee"
@@ -604,11 +608,11 @@ msgstr "Turecká nová lira"
 
 #. currency_name for TTD
 msgid "Trinidad and Tobago Dollar"
-msgstr "Trinidad a Tobago - dolar"
+msgstr "Trinidadský a Tobažský dolar"
 
 #. currency_name for TWD
 msgid "New Taiwan Dollar"
-msgstr "Taiwanský dolar"
+msgstr "Taiwanský nový dolar"
 
 #. currency_name for TZS
 msgid "Tanzanian Shilling"
@@ -636,7 +640,7 @@ msgstr "Americký dolar (stejný den)"
 
 #. currency_name for UYI
 msgid "Uruguay Peso en Unidades Indexadas"
-msgstr "Uruguay Peso en Unidades Indexadas"
+msgstr "Uruguayské Peso en Unidades Indexadas"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
@@ -740,7 +744,7 @@ msgstr "Rand"
 
 #. currency_name for ZMK
 msgid "Zambian Kwacha"
-msgstr "Zabmijská kwacha"
+msgstr "Zambijská kwacha"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"
@@ -748,11 +752,11 @@ msgstr "Zimbabwský dolar"
 
 #. historic currency_name for ADP (withdrawn 2002-03)
 msgid "Andorran Peseta"
-msgstr "Andorrská peseta"
+msgstr "Andorská peseta"
 
 #. historic currency_name for ADF (withdrawn unknown)
 msgid "Andorran Franc"
-msgstr "Andorrský frank"
+msgstr "Andorský frank"
 
 #. historic currency_name for ALK (withdrawn 1989-12)
 msgid "Albanian Old Lek"
@@ -760,7 +764,7 @@ msgstr "Albánský starý lek"
 
 #. historic currency_name for AOK (withdrawn 1991-03)
 msgid "Angolan New Kwanza"
-msgstr "Angolská nová kwanza"
+msgstr "Angolanská nová kwanza"
 
 #. historic currency_name for AON (withdrawn 2000-02)
 msgid "Angola New Kwanza"
@@ -808,11 +812,11 @@ msgstr "Belgický finanční frank"
 
 #. historic currency_name for BGJ (withdrawn 1990)
 msgid "Bulgarian Lev A/52"
-msgstr "Bulharská leva A/52"
+msgstr "Bulharský lev A/52"
 
 #. historic currency_name for BGK (withdrawn 1990)
 msgid "Bulgarian Lev A/62"
-msgstr "Bulharská leva A/62"
+msgstr "Bulharský lev A/62"
 
 #. historic currency_name for BGL (withdrawn unknown)
 msgid "Bulgarian Lev A/99"
@@ -868,11 +872,11 @@ msgstr "Ekvádorský sucre"
 
 #. historic currency_name for ECV (withdrawn unknown)
 msgid "Ecuador Unidad de Valor Constante UVC"
-msgstr "Ecuador Unidad de Valor Constante UVC"
+msgstr "Ekvádorský Unidad de Valor Constante UVC"
 
 #. historic currency_name for ESA (withdrawn 1981)
 msgid "Spanish Peseta ('A' Account)"
-msgstr "Španělská peseta ('A' účet)"
+msgstr "Španělská peseta (účet „A“)"
 
 #. historic currency_name for ESB (withdrawn 1994-12)
 msgid "Spanish Peseta (convertible)"
@@ -900,7 +904,7 @@ msgstr "Guinejský syli"
 
 #. historic currency_name for GQE (withdrawn 1989-12)
 msgid "Equatorial Guinea Ekwele"
-msgstr "Rovníková Guinea - ekwele"
+msgstr "Ekwele Rovníkové Guinei"
 
 #. historic currency_name for GHC (withdrawn unknown)
 msgid "Cedi"
@@ -916,7 +920,7 @@ msgstr "Guinejské escudo"
 
 #. historic currency_name for GWP (withdrawn 1997-04)
 msgid "Guinea-Bissau Peso"
-msgstr "Guinea-Bissauské peso"
+msgstr "Guinejsko-Bissauské peso"
 
 #. historic currency_name for HRD (withdrawn 1995-01)
 msgid "Croatian Dinar"
@@ -1096,7 +1100,7 @@ msgstr "Evropská měnová jednotka ECU"
 
 #. historic currency_name for XRE (withdrawn 1999-11)
 msgid "RINET Funds Code"
-msgstr "RINET kód hotovosti"
+msgstr "Kód hotovosti RINET"
 
 #. historic currency_name for YDD (withdrawn 1991-09)
 msgid "Yemeni Dinar"

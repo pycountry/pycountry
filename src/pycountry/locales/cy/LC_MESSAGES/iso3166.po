@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2006-04-23 17:52+0100\n"
-"Last-Translator: Dafydd Harries <daf@muse.19inch.net>\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-06-13 22:28-0000\n"
+"Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,6 @@ msgid "Afghanistan"
 msgstr "Afghanistan"
 
 #. official_name for AFG
-#, fuzzy
 msgid "Islamic Republic of Afghanistan"
 msgstr "Gweriniaeth Islamaidd Pacistan"
 
@@ -135,9 +134,8 @@ msgid "Bahrain"
 msgstr "Bahrain"
 
 #. official_name for BHR
-#, fuzzy
 msgid "Kingdom of Bahrain"
-msgstr "Talaith Bahrain"
+msgstr "Teyrnas Bahrain"
 
 #. name for BGD
 msgid "Bangladesh"
@@ -193,19 +191,19 @@ msgstr "Brenhiniaeth Bhutan"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "Bolifia, Gwladwriaeth Amlgenedlaethol"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "Gwladwriaeth Amlgenedlaethol Bolifia"
 
 #. common_name for BOL
 msgid "Bolivia"
 msgstr "Bolifia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius a Saba"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -213,7 +211,7 @@ msgstr "Bosnia a Herzegovina"
 
 #. official_name for BIH
 msgid "Republic of Bosnia and Herzegovina"
-msgstr "Gweriniath Bosnia a Herzegovina"
+msgstr "Gweriniaeth Bosnia a Herzegovina"
 
 #. name for BWA
 msgid "Botswana"
@@ -221,7 +219,7 @@ msgstr "Botswana"
 
 #. official_name for BWA
 msgid "Republic of Botswana"
-msgstr "Gweriniath Botswana"
+msgstr "Gweriniaeth Botswana"
 
 #. name for BVT
 msgid "Bouvet Island"
@@ -321,7 +319,7 @@ msgstr "Tsieina"
 
 #. official_name for CHN
 msgid "People's Republic of China"
-msgstr "Gweriniath Pobl Tseina"
+msgstr "Gweriniaeth Pobl Tseina"
 
 #. name for CXR
 msgid "Christmas Island"
@@ -337,7 +335,7 @@ msgstr "Colombia"
 
 #. official_name for COL
 msgid "Republic of Colombia"
-msgstr "Gweriniath Colombia"
+msgstr "Gweriniaeth Colombia"
 
 #. name for COM
 msgid "Comoros"
@@ -353,11 +351,11 @@ msgstr "Congo"
 
 #. official_name for COG
 msgid "Republic of the Congo"
-msgstr "Gweriniath y Congo"
+msgstr "Gweriniaeth y Congo"
 
 #. name for COD
 msgid "Congo, The Democratic Republic of the"
-msgstr "Congo, Gweriniath Democrataidd y"
+msgstr "Congo, Gweriniaeth Ddemocrataidd y"
 
 #. name for COK
 msgid "Cook Islands"
@@ -369,16 +367,15 @@ msgstr "Costa Rica"
 
 #. official_name for CRI
 msgid "Republic of Costa Rica"
-msgstr "Gweriniath Costa Rica"
+msgstr "Gweriniaeth Costa Rica"
 
 #. name for CIV
 msgid "Côte d'Ivoire"
 msgstr "Côte d'Ivoire"
 
 #. official_name for CIV
-#, fuzzy
 msgid "Republic of Côte d'Ivoire"
-msgstr "Gweriniath Côte d'Ivoire"
+msgstr "Gweriniaeth Côte d'Ivoire"
 
 #. name for HRV
 msgid "Croatia"
@@ -386,7 +383,7 @@ msgstr "Croatia"
 
 #. official_name for HRV
 msgid "Republic of Croatia"
-msgstr "Gweriniath Croatia"
+msgstr "Gweriniaeth Croatia"
 
 #. name for CUB
 msgid "Cuba"
@@ -394,11 +391,11 @@ msgstr "Ciwba"
 
 #. official_name for CUB
 msgid "Republic of Cuba"
-msgstr "Gweriniath Ciwba"
+msgstr "Gweriniaeth Ciwba"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "Curaçao"
 
 #. name for CYP
 msgid "Cyprus"
@@ -406,7 +403,7 @@ msgstr "Cyprus"
 
 #. official_name for CYP
 msgid "Republic of Cyprus"
-msgstr "Gweriniath Cyprus"
+msgstr "Gweriniaeth Cyprus"
 
 #. name for CZE
 msgid "Czech Republic"
@@ -426,7 +423,7 @@ msgstr "Djibouti"
 
 #. official_name for DJI
 msgid "Republic of Djibouti"
-msgstr "Gweriniath Djibouti"
+msgstr "Gweriniaeth Djibouti"
 
 #. name for DMA
 msgid "Dominica"
@@ -505,8 +502,8 @@ msgid "Fiji"
 msgstr "Ffiji"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Gweriniaeth Ynysoedd y Ffiji"
+msgid "Republic of Fiji"
+msgstr "Gweriniaeth Fiji"
 
 #. name for FIN
 msgid "Finland"
@@ -646,7 +643,7 @@ msgstr "Gweriniaeth Haiti"
 
 #. name for HMD
 msgid "Heard Island and McDonald Islands"
-msgstr "Ynys Heard ac yr Ynysoedd McDonald"
+msgstr "Ynys Heard ac Ynysoedd McDonald"
 
 #. name for VAT
 msgid "Holy See (Vatican City State)"
@@ -666,15 +663,11 @@ msgstr "Hong Kong"
 
 #. official_name for HKG
 msgid "Hong Kong Special Administrative Region of China"
-msgstr "Ardal Gweinyddol Arbennig Tseina Hong Kong"
+msgstr "Hong Kong, Rhanbarth Gweinyddol Arbennig o Tseina"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Hwngari"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Gweriniaeth Hwngari"
 
 #. name for ISL
 msgid "Iceland"
@@ -814,7 +807,7 @@ msgstr "Gweriniaeth Kyrgyz"
 
 #. name for LAO
 msgid "Lao People's Democratic Republic"
-msgstr "Gweriniaeth Democrataidd Pobl Lao"
+msgstr "Gweriniaeth Ddemocrataidd y Bobl Lao"
 
 #. name for LVA
 msgid "Latvia"
@@ -848,18 +841,9 @@ msgstr "Liberia"
 msgid "Republic of Liberia"
 msgstr "Gweriniaeth Liberia"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Jamahiriya Arabaidd Libiaidd"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Jamahiriya Arabaidd Libyaidd Pobl Sosialaidd"
-
-#. common_name for LBY
-#, fuzzy
+#. name for LBY, official_name for LBY
 msgid "Libya"
-msgstr "Liberia"
+msgstr "Libya"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -879,11 +863,11 @@ msgstr "Gweriniaeth Lithwania"
 
 #. name for LUX
 msgid "Luxembourg"
-msgstr "Luxembourg"
+msgstr "Lwcsembwrg"
 
 #. official_name for LUX
 msgid "Grand Duchy of Luxembourg"
-msgstr "Dugaeth Crand Luxembourg"
+msgstr "Archddugiaeth Lwcsembwrg"
 
 #. name for MAC
 msgid "Macao"
@@ -891,7 +875,7 @@ msgstr "Macao"
 
 #. official_name for MAC
 msgid "Macao Special Administrative Region of China"
-msgstr "Ardal Gweinyddol Arbennig Tseina Macao"
+msgstr "Rhanbarth Gweinyddol Arbennig o Tseina Macao"
 
 #. name for MKD
 msgid "Macedonia, Republic of"
@@ -899,7 +883,7 @@ msgstr "Macedonia, Gweriniaeth"
 
 #. official_name for MKD
 msgid "The Former Yugoslav Republic of Macedonia"
-msgstr "Gweriniaeth cyn-Iwgoslagol Macedonia"
+msgstr "Cyn-weriniaeth Iwgoslafaidd Macedonia"
 
 #. name for MDG
 msgid "Madagascar"
@@ -951,7 +935,7 @@ msgstr "Ynysoedd Marshall"
 
 #. official_name for MHL
 msgid "Republic of the Marshall Islands"
-msgstr "Gweriniaeth yr Ynysoedd Marshall"
+msgstr "Gweriniaeth Ynysoedd Marshall"
 
 #. name for MTQ
 msgid "Martinique"
@@ -983,20 +967,19 @@ msgstr "Mecsico"
 
 #. official_name for MEX
 msgid "United Mexican States"
-msgstr "Unol Daliaethau Mecsico"
+msgstr "Taleithiau Unedig Mecsico"
 
 #. name for FSM
 msgid "Micronesia, Federated States of"
-msgstr "Micronesia, Taliaethau Ffedereiddiol"
+msgstr "Micronesia, Taleithiau Cyfunol"
 
 #. official_name for FSM
 msgid "Federated States of Micronesia"
-msgstr "Taliaethau Ffedereiddiol Micronesia"
+msgstr "Taleithiau Cyfunol Micronesia"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "Macedonia, Gweriniaeth"
+msgstr "Moldofa, Gweriniaeth"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1004,7 +987,7 @@ msgstr "Gweriniaeth Moldova"
 
 #. common_name for MDA
 msgid "Moldova"
-msgstr ""
+msgstr "Moldofa"
 
 #. name for MCO
 msgid "Monaco"
@@ -1019,9 +1002,8 @@ msgid "Mongolia"
 msgstr "Mongolia"
 
 #. name for MNE, official_name for MNE
-#, fuzzy
 msgid "Montenegro"
-msgstr "Serbia a Montenegro"
+msgstr "Montenegro"
 
 #. name for MSR
 msgid "Montserrat"
@@ -1048,8 +1030,8 @@ msgid "Myanmar"
 msgstr "Myanmar"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Undeb Myanmar"
+msgid "Republic of Myanmar"
+msgstr "Gweriniaeth Myanmar"
 
 #. name for NAM
 msgid "Namibia"
@@ -1072,9 +1054,8 @@ msgid "Nepal"
 msgstr "Nepal"
 
 #. official_name for NPL
-#, fuzzy
 msgid "Federal Democratic Republic of Nepal"
-msgstr "Gweriniaeth Democratic Ffederal Ethiopia"
+msgstr "Gweriniaeth Ddemocrataidd Ffederal Nepal"
 
 #. name for NLD
 msgid "Netherlands"
@@ -1114,15 +1095,11 @@ msgstr "Nigeria"
 
 #. official_name for NGA
 msgid "Federal Republic of Nigeria"
-msgstr "Gweriniaeth Ffedereiddiol Nigeria"
+msgstr "Gweriniaeth Ffederal Nigeria"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Gweriniaeth Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1134,7 +1111,7 @@ msgstr "Ynysoedd Northern Mariana"
 
 #. official_name for MNP
 msgid "Commonwealth of the Northern Mariana Islands"
-msgstr "Cymanwlad Ynysoedd Gogleddig Mariana"
+msgstr "Cymanwlad Ynysoedd Gogleddol Mariana"
 
 #. name for NOR
 msgid "Norway"
@@ -1150,7 +1127,7 @@ msgstr "Oman"
 
 #. official_name for OMN
 msgid "Sultanate of Oman"
-msgstr "Swltanaeth Oman"
+msgstr "Swltaniaeth Oman"
 
 #. name for PAK
 msgid "Pakistan"
@@ -1245,8 +1222,8 @@ msgid "State of Qatar"
 msgstr "Talaith Qatar"
 
 #. name for REU
-msgid "Reunion"
-msgstr "Reunion"
+msgid "Réunion"
+msgstr "Réunion"
 
 #. name for ROU
 msgid "Romania"
@@ -1266,11 +1243,11 @@ msgstr "Gweriniaeth Rwanda"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "Saint Barthélemy"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Saint Helena, Dyrchafael a Tristan da Cunha"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1282,7 +1259,7 @@ msgstr "Saint Lucia"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr ""
+msgstr "Saint Martin (rhan Ffrengig)"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
@@ -1333,14 +1310,12 @@ msgid "Republic of Senegal"
 msgstr "Gweriniaeth Senegal"
 
 #. name for SRB
-#, fuzzy
 msgid "Serbia"
-msgstr "Azerbaijan"
+msgstr "Serbia"
 
 #. official_name for SRB
-#, fuzzy
 msgid "Republic of Serbia"
-msgstr "Gweriniaeth Liberia"
+msgstr "Gweriniaeth Serbia"
 
 #. name for SYC
 msgid "Seychelles"
@@ -1366,13 +1341,9 @@ msgstr "Singapore"
 msgid "Republic of Singapore"
 msgstr "Gweriniaeth Singapore"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr ""
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr ""
+msgstr "Sint Maarten (Rhan Iseldiraidd)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1412,7 +1383,7 @@ msgstr "Gweriniaeth De Affrica"
 
 #. name for SGS
 msgid "South Georgia and the South Sandwich Islands"
-msgstr "De Georgia ac Ynysoedd Sandwich y De"
+msgstr "De Georgia ac Ynysoedd De Sandwich"
 
 #. name for ESP
 msgid "Spain"
@@ -1446,6 +1417,14 @@ msgstr "Suriname"
 msgid "Republic of Suriname"
 msgstr "Gweriniaeth y Suriname"
 
+#. name for SSD
+msgid "South Sudan"
+msgstr "De Swdan"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Gweriniaeth De Swdan"
+
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard a Jan Mayen"
@@ -1472,7 +1451,7 @@ msgstr "Y Swistir"
 
 #. official_name for CHE
 msgid "Swiss Confederation"
-msgstr "Cyd-ffederasiwn y Swistir"
+msgstr "Y Conffederasiwn Swisaidd"
 
 #. name for SYR
 msgid "Syrian Arab Republic"
@@ -1480,7 +1459,7 @@ msgstr "Gweriniaeth Arabaidd Syria"
 
 #. name for TWN, official_name for TWN
 msgid "Taiwan, Province of China"
-msgstr "Taiwan, Talaith Tseina"
+msgstr "Taiwan, Talaith o Tseina"
 
 #. common_name for TWN
 msgid "Taiwan"
@@ -1592,23 +1571,23 @@ msgstr "Emiriaethau Arabaidd Unedig"
 
 #. name for GBR
 msgid "United Kingdom"
-msgstr "Prydain Fawr"
+msgstr "Y Deyrnas Unedig"
 
 #. official_name for GBR
 msgid "United Kingdom of Great Britain and Northern Ireland"
-msgstr "Brenhiniaeth United Prydain Fawr a Gogledd Iwerddon"
+msgstr "Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon"
 
 #. name for USA
 msgid "United States"
-msgstr "Yr Unol Daliaethau"
+msgstr "Yr Unol Daleithiau"
 
 #. official_name for USA
 msgid "United States of America"
-msgstr "Unol Daliaethau America"
+msgstr "Unol Daleithiau America"
 
 #. name for UMI
 msgid "United States Minor Outlying Islands"
-msgstr "United States Minor Outlying Islands"
+msgstr "Mân Ynysoedd Pellenig yr Unol Daleithiau"
 
 #. name for URY
 msgid "Uruguay"
@@ -1635,13 +1614,12 @@ msgid "Republic of Vanuatu"
 msgstr "Gweriniaeth Vanuatu"
 
 #. name for VEN
-#, fuzzy
-msgid "Venezuela, Bolivarian republic of"
-msgstr "Gweriniaeth Bolifiaidd Venezuela"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Venezuela, Gweriniaeth Bolifaraidd"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
-msgstr "Gweriniaeth Bolifiaidd Venezuela"
+msgstr "Gweriniaeth Bolifiaraidd Venezuela"
 
 #. common_name for VEN
 msgid "Venezuela"
@@ -1649,11 +1627,11 @@ msgstr "Venezuela"
 
 #. name for VNM
 msgid "Viet Nam"
-msgstr "Fiet Nam"
+msgstr "Fietnam"
 
 #. official_name for VNM
 msgid "Socialist Republic of Viet Nam"
-msgstr "Gweriniaeth Sosialaidd Fiet Nam"
+msgstr "Gweriniaeth Sosialaidd Fietnam"
 
 #. name for VGB
 msgid "Virgin Islands, British"
@@ -1661,7 +1639,7 @@ msgstr "Ynysoedd Virgin, Prydeinig"
 
 #. official_name for VGB
 msgid "British Virgin Islands"
-msgstr "Ynydoedd Virgin Prydain"
+msgstr "Ynysoedd Virgin Prydain"
 
 #. name for VIR
 msgid "Virgin Islands, U.S."
@@ -1669,7 +1647,7 @@ msgstr "Ynysoedd Virgin, U.D.A."
 
 #. official_name for VIR
 msgid "Virgin Islands of the United States"
-msgstr "Ynysoedd Virgin Unol Daliaethau America"
+msgstr "Ynysoedd Virgin Unol Daleithiau America"
 
 #. name for WLF
 msgid "Wallis and Futuna"
@@ -1677,7 +1655,7 @@ msgstr "Wallis a Futuna"
 
 #. name for ESH
 msgid "Western Sahara"
-msgstr "Western Sahara"
+msgstr "Gorllewin Sahara"
 
 #. name for YEM
 msgid "Yemen"
@@ -1701,175 +1679,156 @@ msgstr "Zimbabwe"
 
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
-msgstr "Gweriniaeth Zimbabe"
+msgstr "Gweriniaeth Zimbabwe"
 
 #. historic names for ATB (withdrawn 1979)
-#, fuzzy
 msgid "British Antarctic Territory"
-msgstr "British Indian Ocean Territory"
+msgstr "Tiriogaeth Antarctig Prydain"
 
 #. historic names for BUR (withdrawn 1989-12-05)
-#, fuzzy
 msgid "Burma, Socialist Republic of the Union of"
-msgstr "Gweriniaeth Sosialaidd Fiet Nam"
+msgstr "Burma, Gweriniaeth Sosialaidd Undeb"
 
 #. historic names for BYS (withdrawn 1992-06-15)
 msgid "Byelorussian SSR Soviet Socialist Republic"
-msgstr ""
+msgstr "Gweriniaeth Sosialaidd Sofiet SSR Belorussia "
 
 #. historic names for CTE (withdrawn 1984)
 msgid "Canton and Enderbury Islands"
-msgstr ""
+msgstr "Ynysoedd Canton ac Enderbury"
 
 #. historic names for CSK (withdrawn 1993-06-15)
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
-msgstr ""
+msgstr "Tsiecoslofacia, Gweriniaeth Sosialaidd Tsiecoslofac"
 
 #. historic names for DHY (withdrawn 1977)
 msgid "Dahomey"
-msgstr ""
+msgstr "Dahomey"
 
 #. historic names for ATN (withdrawn 1983)
 msgid "Dronning Maud Land"
-msgstr ""
+msgstr "Tir Dronning Maud"
 
 #. historic names for TMP (withdrawn 2002-05-20)
 msgid "East Timor"
-msgstr ""
+msgstr "Dwyrain Timor"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "Ffrainc, Metropolitan"
 
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "Afars a Issas Ffrengig"
 
 #. historic names for ATF (withdrawn 1979)
-#, fuzzy
 msgid "French Southern and Antarctic Territories"
-msgstr "French Southern Territories"
+msgstr "Tiroedd Deheuol ac Antarctig Ffrainc"
 
 #. historic names for DDR (withdrawn 1990-10-30)
-#, fuzzy
 msgid "German Democratic Republic"
-msgstr "Gweriniaeth Democrataidd Pobl Lao"
+msgstr "Gweriniaeth Ddemocrataidd yr Almaen"
 
 #. historic names for DEU (withdrawn 1990-10-30)
-#, fuzzy
 msgid "Germany, Federal Republic of"
-msgstr "Gweriniaeth Ffederal yr Almaen"
+msgstr "Almaen, Gweriniaeth Ffederal yr"
 
 #. historic names for GEL (withdrawn 1979)
-#, fuzzy
 msgid "Gilbert and Ellice Islands"
-msgstr "Ynysoedd y Turks a Caicos"
+msgstr "Ynysoedd Gilbert a Ellice"
 
 #. historic names for JTN (withdrawn 1986)
-#, fuzzy
 msgid "Johnston Island"
-msgstr "Ynysoedd Cook"
+msgstr "Ynys Johnston"
 
 #. historic names for MID (withdrawn 1986)
-#, fuzzy
 msgid "Midway Islands"
-msgstr "Ynysoedd y Cayman"
+msgstr "Ynysoedd Midway"
 
 #. historic names for ANT (withdrawn 1993-07-12)
 msgid "Netherlands Antilles"
-msgstr "Netherlands Antilles"
+msgstr "Antilles yr Iseldiroedd"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
-msgstr ""
+msgstr "Parth Niwtral"
 
 #. historic names for NHB (withdrawn 1980)
 msgid "New Hebrides"
-msgstr ""
+msgstr "Hebrides Newydd"
 
 #. historic names for PCI (withdrawn 1986)
 msgid "Pacific Islands (trust territory)"
-msgstr ""
+msgstr "Ynysoedd y Cefnfor Tawel (tiriogaeth ymddiriedol)"
 
 #. historic names for PAN (withdrawn 1993-07-22)
-#, fuzzy
 msgid "Panama, Republic of"
-msgstr "Macedonia, Gweriniaeth"
+msgstr "Panama, Gweriniaeth"
 
 #. historic names for PCZ (withdrawn 1980)
 msgid "Panama Canal Zone"
-msgstr ""
+msgstr "Parth Camlas Panama"
 
 #. historic names for ROM (withdrawn 2002-02-01)
-#, fuzzy
 msgid "Romania, Socialist Republic of"
-msgstr "Gweriniaeth Sosialaidd Fiet Nam"
+msgstr "Rwmania, Gweriniaeth Sosialaidd"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr ""
+msgstr "St. Kitts-Nevis-Anguilla"
 
 #. historic names for SCG (withdrawn 2006-06-05)
-#, fuzzy
 msgid "Serbia and Montenegro"
-msgstr "Gweriniath y Congo"
+msgstr "Serbia a Montenegro"
 
 #. historic names for SKM (withdrawn 1975)
 msgid "Sikkim"
-msgstr ""
+msgstr "Sikkim"
 
 #. historic names for RHO (withdrawn 1980)
 msgid "Southern Rhodesia"
-msgstr ""
+msgstr "De Rhodesia"
 
 #. historic names for ESH (withdrawn 1988)
 msgid "Spanish Sahara"
-msgstr ""
+msgstr "Sahara Sbaenaidd"
 
 #. historic names for PUS (withdrawn 1986)
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "Ynysoedd amrywiol UD y Cefnfor Tawel"
 
 #. historic names for SUN (withdrawn 1992-08-30)
 msgid "USSR, Union of Soviet Socialist Republics"
-msgstr ""
+msgstr "Undeb Gweriniaethau Sofietaidd Sosialaidd, USSR"
 
 #. historic names for HVO (withdrawn 1984)
-#, fuzzy
 msgid "Upper Volta, Republic of"
-msgstr "Moldova, Gweriniaeth"
+msgstr "Volta Uchaf, Gweriniaeth"
 
 #. historic names for VAT (withdrawn 1996-04-03)
-#, fuzzy
 msgid "Vatican City State (Holy See)"
-msgstr "Yr Esgobaeth Sanctaidd (Talaith Dinas y Fatican)"
+msgstr "Talaith Dinas y Fatican (Yr Esgobaeth Sanctaidd)"
 
 #. historic names for VDR (withdrawn 1977)
-#, fuzzy
 msgid "Viet-Nam, Democratic Republic of"
-msgstr "Korea (Gweriniaeth Democrataidd Pobl)"
+msgstr "Fietnam, Gweriniaeth Democrataidd"
 
 #. historic names for WAK (withdrawn 1986)
-#, fuzzy
 msgid "Wake Island"
-msgstr "Ynysoedd y Ffaro"
+msgstr "Ynys Wake"
 
 #. historic names for YMD (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Democratic, People's Democratic Republic of"
-msgstr "Korea (Gweriniaeth Democrataidd Pobl)"
+msgstr "Yemen, Democrataidd, Gweriniaeth Democrataidd Pobl"
 
 #. historic names for YEM (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Yemen Arab Republic"
-msgstr "Gweriniaeth Arabaidd Syria"
+msgstr "Yemen, Gweriniaeth Arabaidd"
 
 #. historic names for YUG (withdrawn 1993-07-28)
-#, fuzzy
 msgid "Yugoslavia, Socialist Federal Republic of"
-msgstr "Tanzania, Gweriniaeth Unedig"
+msgstr "Iwgoslafia, Gweriniaeth Ffederal Sosialaidd"
 
 #. historic names for ZAR (withdrawn 1997-07-14)
-#, fuzzy
 msgid "Zaire, Republic of"
-msgstr "Corëa, Gweriniaeth"
+msgstr "Zaire, Gweriniaeth"

@@ -5,15 +5,15 @@
 # Copyright (C)
 # Free Software Foundation, Inc., 2001,2003
 # Alastair McKinstry <mckinstry@debian>, 2001.
-# Kevin Scannell <kscanne@gmail.com>, 2008, 2009, 2010.
+# Kevin Scannell <kscanne@gmail.com>, 2008, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2010-04-16 11:35-0500\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2011-06-19 11:35-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
@@ -205,8 +205,9 @@ msgid "Bolivia"
 msgstr "An Bholaiv"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+#, fuzzy
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, San Eustatius agus Saba"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -398,7 +399,7 @@ msgstr "Poblacht Chúba"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "Curasao"
 
 #. name for CYP
 msgid "Cyprus"
@@ -505,8 +506,9 @@ msgid "Fiji"
 msgstr "Fidsí"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Poblacht Oileán Fidsí"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "Poblacht Háítí"
 
 #. name for FIN
 msgid "Finland"
@@ -668,13 +670,9 @@ msgstr "Hong Cong"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "Réigiún Speisialta Riaracháin Hong Cong na Síne"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "An Ungáir"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Poblacht na hUngáire"
 
 #. name for ISL
 msgid "Iceland"
@@ -848,15 +846,7 @@ msgstr "An Libéir"
 msgid "Republic of Liberia"
 msgstr "Poblacht na Libéire"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Poblacht Arabach na Libia"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Daonphoblacht Shóisialach Arabach na Libia"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "An Libia"
 
@@ -1049,8 +1039,9 @@ msgid "Myanmar"
 msgstr "Maenmar"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Aontas Maenmar"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "Poblacht na Guáine"
 
 #. name for NAM
 msgid "Namibia"
@@ -1116,13 +1107,9 @@ msgstr "An Nigéir"
 msgid "Federal Republic of Nigeria"
 msgstr "Poblacht Chónaidhme na Nigéire"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Poblacht Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1245,7 +1232,7 @@ msgid "State of Qatar"
 msgstr "Stát Catar"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Réunion"
 
 #. name for ROU
@@ -1364,15 +1351,9 @@ msgstr "Singeapór"
 msgid "Republic of Singapore"
 msgstr "Poblacht Shingeapór"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "San Parthalán"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "Saint Martin (An Fhrainc)"
+msgstr "Sint Maarten (ceantar Ollannach)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1445,6 +1426,16 @@ msgstr "Suranam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Poblacht Suranam"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "Poblacht na Súdáine"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "Poblacht na Súdáine"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1636,7 +1627,7 @@ msgid "Republic of Vanuatu"
 msgstr "Poblacht Vanuatú"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "Veiniséala, Poblacht Bolivar"
 
 #. official_name for VEN

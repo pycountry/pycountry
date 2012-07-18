@@ -6,15 +6,15 @@
 # Copyright (C)
 #
 # Pavel Maryanov <acid_jack@ukr.net>, 2009.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2012.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
-"PO-Revision-Date: 2011-01-03 09:18+0300\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"PO-Revision-Date: 2012-03-06 21:21+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "Language: ru\n"
@@ -221,13 +221,17 @@ msgstr "Иврит"
 msgid "Hiragana"
 msgstr "Хирагана"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr "Анатолийские иероглифы (хетто-лувийские иероглифы)"
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Пахау хмонг"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "Катакана или хирагана"
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "Японское силлабическое письмо (псевдоним для Хирагана + Катакана)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -273,9 +277,13 @@ msgstr "Кхмерская"
 msgid "Kannada"
 msgstr "КаннадаKannada"
 
+#. name for Khoj
+msgid "Khojki"
+msgstr "Хойки"
+
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
-msgstr "Корейская"
+msgstr "Корейская (псевдоним для хангул + хан)"
 
 #. name for Kpel
 msgid "Kpelle"
@@ -358,7 +366,7 @@ msgid "Meroitic Cursive"
 msgstr "Мероитская курсивная"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
+msgid "Meroitic Hieroglyphs"
 msgstr "Мероитская иероглифическая"
 
 #. name for Mlym
@@ -600,6 +608,10 @@ msgstr "Тайская"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "Тибетская"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr "Тирхутская"
 
 #. name for Ugar
 msgid "Ugaritic"

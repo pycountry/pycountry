@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2010-06-25 14:33+0530\n"
 "Last-Translator: yumkee <ylhamo@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
@@ -204,7 +204,7 @@ msgid "Bolivia"
 msgstr "བོ་ལི་བི་ཡ།"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
 #. name for BIH
@@ -504,8 +504,9 @@ msgid "Fiji"
 msgstr "ཕི་ཇི།"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "ཕི་ཇི་ ཨའི་ལེན་ མི་སེར་གྱི་རྒྱལ་ཁབ།"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "ཧའི་ཏིའི་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for FIN
 msgid "Finland"
@@ -667,13 +668,9 @@ msgstr "ཧོང་ཀོང་"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "ཧོང་ཀོང་ ཅ་ཡེ་ན་གི་དམིགས་བསལ་ བདག་སྐྱོང་ ལུང་ཕྱོགས།"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ཧང་ག་རི།"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "ཧང་ག་རིའི་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for ISL
 msgid "Iceland"
@@ -847,15 +844,7 @@ msgstr "ལི་བི་རི་ཡ།"
 msgid "Republic of Liberia"
 msgstr "ལི་བི་རི་ཡ་ མི་སེར་རྒྱལ་ཁབ།"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "ལི་བི་ཡཱན་ ཨ་རབ་ ཇ་མཱ་ཧི་རི་ཡཱ།"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "ལི་བི་ཡཱན་ ཨ་རབ་ ཇ་མཱ་ཧི་རི་ཡཱ་ མི་སེར་སྤྱི་ཚོགས།"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "ལིབ་ཡ་"
 
@@ -1044,8 +1033,9 @@ msgid "Myanmar"
 msgstr "མི་ཡཱན་མར།"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "མི་ཡཱན་མར་ འདུས་ཚོགས་རྒྱལ་ཁབ།"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "གུ་ཡ་ན་ མི་སེར་གྱི་རྒྱལ་ཁབ།"
 
 #. name for NAM
 msgid "Namibia"
@@ -1111,13 +1101,9 @@ msgstr "ནའི་ཇི་རི་ཡ།"
 msgid "Federal Republic of Nigeria"
 msgstr "ནའི་ཇི་རི་ཡ་ སྤྱི་མཐུན་སྲིད་གཞུང མི་སེར་རྒྱལ་ཁབ།"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "ནིའུ།"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "ནིའུ་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1240,7 +1226,7 @@ msgid "State of Qatar"
 msgstr "ཀ་ཊར་ རྒྱལ་ཁབ།༔"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "སླར་བསྡོམ།"
 
 #. name for ROU
@@ -1359,12 +1345,7 @@ msgstr "སིང་ག་པོར།"
 msgid "Republic of Singapore"
 msgstr "སིང་ག་པོར་ མི་སེར་རྒྱལ་ཁབ།"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "སེནཊི་བཱརཐ་ལེ་མི།"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 #, fuzzy
 msgid "Sint Maarten (Dutch part)"
 msgstr "སེནཊི་མར་ཊིན (ཕརེནཆི་གི་ཡན་ལག)།"
@@ -1440,6 +1421,16 @@ msgstr "སུ་རི་ནེམ།"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "སུ་རི་ནེམ་གྱི་ མི་སེར་རྒྱལ་ཁབ།"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "སུ་དཱན་གྱི་ མི་སེར་རྒྱལ་ཁབ།"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "སུ་དཱན་གྱི་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1630,7 +1621,7 @@ msgid "Republic of Vanuatu"
 msgstr "བ་ནུའ་ཊུ་ མི་སེར་རྒྱལ་ཁབ།"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "བེ་ནི་ཛུས་ལ་ བོ་ལི་བི་རཱེན་མི་སེར་རྒྱལ་ཁབ་ཀྱི་"
 
 #. official_name for VEN

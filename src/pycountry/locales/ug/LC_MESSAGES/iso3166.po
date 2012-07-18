@@ -1,19 +1,20 @@
-# Translation of ISO 3166 (country names) to Uyghur
-#
+# Translation of ISO 3166 (country names) to LANGUAGE
+# 
 # This file is distributed under the same license as the iso-codes package.
-#
+# 
 # Copyright ©
-# Sahran <sahran.ug@gmail.com>, 2010.
+# Abduqadir Abliz <sahran.ug@gmail.com>, 2011.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-02-16 09:21+0600\n"
-"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2011-06-18 13:43+0900\n"
+"Last-Translator: Abduqadir Abliz  <sahran.ug@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: Uyghur\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -199,7 +200,7 @@ msgid "Bolivia"
 msgstr "بولىۋىيە"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "بونەر، ساينىت يۇستىفەس ۋە سابا"
 
 #. name for BIH
@@ -499,8 +500,8 @@ msgid "Fiji"
 msgstr "فىجى"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "فىجى ئاراللىرى جۇمھۇرىيىتى"
+msgid "Republic of Fiji"
+msgstr "فىجى جۇمھۇرىيىتى"
 
 #. name for FIN
 msgid "Finland"
@@ -662,13 +663,9 @@ msgstr "شياڭگاڭ"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "جۇڭگو شياڭگاڭ ئالاھىدە مەمۇرىي رايونى"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ۋېنگىرىيە"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "ۋېنگىرىيە جۇمھۇرىيىتى"
 
 #. name for ISL
 msgid "Iceland"
@@ -842,15 +839,7 @@ msgstr "لىبېرىيە"
 msgid "Republic of Liberia"
 msgstr "لىبېرىيە جۇمھۇرىيىتى"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "لىۋىيە ئەرەب جۇمھۇرىيىتى"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "لىۋىيە سوتسىيالىستىك خەلق جۇمھۇرىيىتى"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "لىۋىيە"
 
@@ -1039,8 +1028,8 @@ msgid "Myanmar"
 msgstr "بىرما"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "بىرما فېدېراتسىيەسى"
+msgid "Republic of Myanmar"
+msgstr "بىرما جۇمھۇرىيىتى"
 
 #. name for NAM
 msgid "Namibia"
@@ -1106,13 +1095,9 @@ msgstr "نىگېرىيە"
 msgid "Federal Republic of Nigeria"
 msgstr "نىگېرىيە فېدېراتىپ جۇمھۇرىيىتى"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "نىيۇئې"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "نىيۇئې جۇمھۇرىيىتى"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1235,7 +1220,7 @@ msgid "State of Qatar"
 msgstr "قاتار دۆلىتى"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "رېئونىيون"
 
 #. name for ROU
@@ -1260,7 +1245,7 @@ msgstr "ساينىت-بارتھېلەمي"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "ساينىت ھېلېنا ۋە ئاسسېنسىيون تىرىستان دا كۇنھا"
+msgstr "ساينىت ھېلېنا ۋە ئاسسېنسىيون تىرىستان دا كۇنخا"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1354,11 +1339,7 @@ msgstr "سىنگاپور"
 msgid "Republic of Singapore"
 msgstr "سىنگاپور جۇمھۇرىيىتى"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "سىنت مارتېن"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "سىنت مارتېن(گوللاندىيە بۆلىكى)"
 
@@ -1433,6 +1414,16 @@ msgstr "سۇرىنام"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "سۇرىنام جۇمھۇرىيىتى"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "سۇدان جۇمھۇرىيىتى"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "سۇدان جۇمھۇرىيىتى"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1623,7 +1614,7 @@ msgid "Republic of Vanuatu"
 msgstr "ۋانۇئاتۇ جۇمھۇرىيىتى"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "ۋېنېزۇئېلا جۇمھۇرىيىتى"
 
 #. official_name for VEN

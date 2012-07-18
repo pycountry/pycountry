@@ -33,7 +33,7 @@ upon import of pycountry and works as an iterable:
 
   >>> import pycountry
   >>> len(pycountry.countries)
-  248
+  249
   >>> list(pycountry.countries)[0]
   <pycountry.db.Country object at 0x...>
 
@@ -66,7 +66,7 @@ because they provide a nested and typed structure.
 All subdivisons can be accessed directly:
 
   >>> len(pycountry.subdivisions)
-  4691
+  4850
   >>> list(pycountry.subdivisions)[0]
   <pycountry.db.Subdivision object at 0x...>
 
@@ -114,7 +114,7 @@ Scripts (ISO 15924)
 Scripts are available from a database similar to the countries:
 
   >>> len(pycountry.scripts)
-  158
+  161
   >>> list(pycountry.scripts)[0]
   <pycountry.db.Script object at 0x...>
 

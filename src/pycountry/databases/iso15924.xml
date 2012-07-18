@@ -5,7 +5,7 @@ This file gives a list of all script names in the ISO 15924
 standard, and is used to provide translations via gettext
 
 Copyright (C) 2007 Ivan Masar <helix84@centrum.sk>
-Copyright (C) 2007-2010 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2007-2011 Christian Perrier <bubulle@debian.org>
 Copyright (C) 2007 Tobias Quathamer <toddy@debian.org>
 
     This file is free software; you can redistribute it and/or
@@ -234,13 +234,17 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="410"
 		name="Hiragana" />
 	<iso_15924_entry
+		alpha_4_code="Hluw"
+		numeric_code="080"
+		name="Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)" />
+	<iso_15924_entry
 		alpha_4_code="Hmng"
 		numeric_code="450"
 		name="Pahawh Hmong" />
 	<iso_15924_entry
 		alpha_4_code="Hrkt"
 		numeric_code="412"
-		name="(alias for Hiragana + Katakana)" />
+		name="Japanese syllabaries (alias for Hiragana + Katakana)" />
 	<iso_15924_entry
 		alpha_4_code="Hung"
 		numeric_code="176"
@@ -285,6 +289,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Knda"
 		numeric_code="345"
 		name="Kannada" />
+	<iso_15924_entry
+		alpha_4_code="Khoj"
+		numeric_code="322"
+		name="Khojki" />
 	<iso_15924_entry
 		alpha_4_code="Kore"
 		numeric_code="287"
@@ -372,7 +380,7 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 	<iso_15924_entry
 		alpha_4_code="Mero"
 		numeric_code="100"
-		name="Meroitic Hieroglyphic" />
+		name="Meroitic Hieroglyphs" />
 	<iso_15924_entry
 		alpha_4_code="Mlym"
 		numeric_code="347"
@@ -471,7 +479,7 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		name="Miao (Pollard)" />
 	<iso_15924_entry
 		alpha_4_code="Prti"
-		numeric_code="13O"
+		numeric_code="130"
 		name="Inscriptional Parthian" />
 	<iso_15924_entry
 		alpha_4_code="Qaaa"
@@ -613,6 +621,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Tibt"
 		numeric_code="330"
 		name="Tibetan" />
+	<iso_15924_entry
+		alpha_4_code="Tirh"
+		numeric_code="326"
+		name="Tirhuta" />
 	<iso_15924_entry
 		alpha_4_code="Ugar"
 		numeric_code="040"

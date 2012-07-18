@@ -2,21 +2,21 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 #    Copyright (C)
-#      Free Software Foundation, Inc., 2004-2009
+#      Free Software Foundation, Inc., 2004-2011
 #      Translations from KDE:
 #      - Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 #      Alastair McKinstry, <mckinstry@debian.org>, 2004.
 #      Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004, 2006.
 #      Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>, 2007
-#      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2011
+#      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2012
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-01-03 19:47+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-03-04 07:15+0100\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -205,7 +205,7 @@ msgid "Bolivia"
 msgstr "Boliwia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Sint Eustatius i Saba"
 
 #. name for BIH
@@ -505,7 +505,7 @@ msgid "Fiji"
 msgstr "Fidżi"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
+msgid "Republic of Fiji"
 msgstr "Republika Fidżi"
 
 #. name for FIN
@@ -669,13 +669,9 @@ msgid "Hong Kong Special Administrative Region of China"
 msgstr ""
 "Hongkong - Specjalny Region Administracyjny Chińskiej Republiki Ludowej"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Węgry"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Republika Węgierska"
 
 #. name for ISL
 msgid "Iceland"
@@ -849,15 +845,7 @@ msgstr "Liberia"
 msgid "Republic of Liberia"
 msgstr "Republika Liberii"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Libijska Arabska Dżamahirijja"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Wielka Arabska Libijska Dżamahirijja Ludowo-Socjalistyczna"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "Libia"
 
@@ -1043,11 +1031,11 @@ msgstr "Republika Mozambiku"
 
 #. name for MMR
 msgid "Myanmar"
-msgstr "Myanmar"
+msgstr "Birma"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Związek Myanmar"
+msgid "Republic of Myanmar"
+msgstr "Związek Birmański"
 
 #. name for NAM
 msgid "Namibia"
@@ -1113,13 +1101,9 @@ msgstr "Nigeria"
 msgid "Federal Republic of Nigeria"
 msgstr "Federacyjna Republika Nigerii"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Republika Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1242,7 +1226,7 @@ msgid "State of Qatar"
 msgstr "Państwo Kataru"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Reunion"
 
 #. name for ROU
@@ -1361,11 +1345,7 @@ msgstr "Singapur"
 msgid "Republic of Singapore"
 msgstr "Republika Singapuru"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "Sint Maarten"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "Sint Maarten (część holenderska)"
 
@@ -1440,6 +1420,14 @@ msgstr "Surinam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Republika Surinamu"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "Sudan Południowy"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Republika Sudanu Południowego"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1632,7 +1620,7 @@ msgid "Republic of Vanuatu"
 msgstr "Republika Vanuatu"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "Wenezuela - Boliwariańska Republika"
 
 #. official_name for VEN

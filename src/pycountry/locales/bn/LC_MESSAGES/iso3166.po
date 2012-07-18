@@ -6,13 +6,12 @@
 # Jamil Ahmed <jamil@bengalinux.org>, 2006.
 # Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2010-02-07 18:42+0600\n"
 "Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -22,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: WordForge 0.5-beta1\n"
+"X-Language: bn_BD\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -204,8 +204,8 @@ msgid "Bolivia"
 msgstr "বলিভিয়া"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "বোনাইরি, সিন্ট ওসটেটিয়াস এবং সাবা"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -398,7 +398,7 @@ msgstr "কিউবা প্রজাতন্ত্র"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "কুরাকাও"
 
 #. name for CYP
 msgid "Cyprus"
@@ -505,8 +505,8 @@ msgid "Fiji"
 msgstr "ফিজি"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "ফিজি দ্বীপপুঞ্জ প্রজাতন্ত্র"
+msgid "Republic of Fiji"
+msgstr "ফিজি প্রজাতন্ত্র"
 
 #. name for FIN
 msgid "Finland"
@@ -668,13 +668,9 @@ msgstr "হংকং"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "চীনের বিশেষ প্রশাসনিক অঞ্চল হংকং"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "হাঙ্গেরি"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "হাঙ্গেরি প্রজাতন্ত্র"
 
 #. name for ISL
 msgid "Iceland"
@@ -848,16 +844,7 @@ msgstr "লাইবেরিয়া"
 msgid "Republic of Liberia"
 msgstr "লাইবেরিয়া প্রজাতন্ত্র"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "লিবিয় আরব জামাহিরিয়া"
-
-# FIXME
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "সমাজতান্ত্রিক জনগণের লিবিয় আরব জামাহিরিয়া"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "লিবিয়া"
 
@@ -1046,8 +1033,8 @@ msgid "Myanmar"
 msgstr "মায়ানমার"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "মায়ানমার ইউনিয়ন"
+msgid "Republic of Myanmar"
+msgstr "মায়ানমার প্রজাতন্ত্র"
 
 #. name for NAM
 msgid "Namibia"
@@ -1113,13 +1100,9 @@ msgstr "নাইজেরিয়া"
 msgid "Federal Republic of Nigeria"
 msgstr "কেন্দ্রীয় প্রজাতন্ত্র নাইজেরিয়া"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "নাইয়ু"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "নাইয়ু প্রজাতন্ত্র"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1242,7 +1225,7 @@ msgid "State of Qatar"
 msgstr "কাতার রাজ্য"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "রিইউনিয়ন"
 
 #. name for ROU
@@ -1267,7 +1250,7 @@ msgstr "সেইন্ট বার্থেলেমি"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "সেইন্ট হেলেনা,এসেনশিওন এবং ট্রিসটান ডা কুনহা"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1361,15 +1344,9 @@ msgstr "সিঙ্গাপুর"
 msgid "Republic of Singapore"
 msgstr "সিঙ্গাপুর প্রজাতন্ত্র"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "সেইন্ট বার্থেলেমি"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "সেইন্ট মার্টিন (ফরাসি অংশ)"
+msgstr "সেইন্ট মার্টিন (ডাচ্ অংশ)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1442,6 +1419,16 @@ msgstr "সুরিনাম"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "সুরিনাম প্রজাতন্ত্র"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "সুদান প্রজাতন্ত্র"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "সুদান প্রজাতন্ত্র"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1637,7 +1624,7 @@ msgid "Republic of Vanuatu"
 msgstr "ভানুয়াটু প্রজাতন্ত্র"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "ভেনিজুয়েলা, বলিভিয় প্রজাতন্ত্র "
 
 #. official_name for VEN

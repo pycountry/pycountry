@@ -2,7 +2,7 @@
 # Copyright (C) 2010 iso-codes og nedenstående oversættere.
 # This file is distributed under the same license as the iso-codes package.
 # Computeroversættelse Tobias Toedter <t.toedter@gmx.net>, 2007.
-# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010, 2011.
+# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010, 2011, 2012.
 #
 # Vedrørende stort begyndelsesbogstav: På engelsk er de her ord med stort,
 # det er de ikke på dansk. Sproget kan bruges inde i sætninger og de
@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
-"PO-Revision-Date: 2011-01-02 18:07+0200\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"PO-Revision-Date: 2012-05-24 18:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -257,13 +257,19 @@ msgstr "hebraisk"
 msgid "Hiragana"
 msgstr "hiragana"
 
+# http://www.denstoredanske.dk/Samfund,_jura_og_politik/Sprog/Egyptisk_sprog/hieroglyffer?highlight=luvisk
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr "anatolske hieroglyffer (luviske hieroglyffer, hittitiske hieroglyffer)"
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "pahawh hmong"
 
+# http://en.wikipedia.org/wiki/Syllabary
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(alias for hiragana + katakana)"
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "japansk stavelsesskrift (alias for hiragana + katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -313,6 +319,11 @@ msgstr "khmerisk"
 #. name for Knda
 msgid "Kannada"
 msgstr "kannada"
+
+# http://en.wikipedia.org/wiki/Khojki
+#. name for Khoj
+msgid "Khojki"
+msgstr "khojki"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -405,8 +416,8 @@ msgid "Meroitic Cursive"
 msgstr "kursiv meroitisk"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr "hieroglyfisk meroitisk"
+msgid "Meroitic Hieroglyphs"
+msgstr "meroitiske hieroglyffer"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -656,6 +667,11 @@ msgstr "thailandsk"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "tibetanske"
+
+# http://en.wikipedia.org/wiki/Tirhuta
+#. name for Tirh
+msgid "Tirhuta"
+msgstr "tirhuta"
 
 #. name for Ugar
 msgid "Ugaritic"

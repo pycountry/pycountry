@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2009-05-12 23:46+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -215,13 +215,18 @@ msgstr "Do Thái"
 msgid "Hiragana"
 msgstr "Hi-ra-ga-na"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Miêu Pahawh"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(bí danh đại diện Hiragana + Katakana)"
+#, fuzzy
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "Nhật (bí danh đại diện Han + Hiragana + Katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -266,6 +271,10 @@ msgstr "Khơ-me"
 #. name for Knda
 msgid "Kannada"
 msgstr "Kan-na-đa"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -354,8 +363,9 @@ msgid "Meroitic Cursive"
 msgstr "Me-rô-i-tíc"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr ""
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
+msgstr "Ai Cập viết tượng hình"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -597,6 +607,10 @@ msgstr "Thái"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "Tây Tạng"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

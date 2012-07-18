@@ -106,9 +106,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AF-BAL"	name="Balkh" />
 	<iso_3166_2_entry
-		code="AF-BAM"	name="Bāmīān" />
+		code="AF-BAM"	name="Bāmyān" />
 	<iso_3166_2_entry
-		code="AF-DAY"	name="Dāykondī" />
+		code="AF-DAY"	name="Dāykundī" />
 	<iso_3166_2_entry
 		code="AF-FRA"	name="Farāh" />
 	<iso_3166_2_entry
@@ -116,7 +116,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AF-GHA"	name="Ghaznī" />
 	<iso_3166_2_entry
-		code="AF-GHO"	name="Ghowr" />
+		code="AF-GHO"	name="Ghōr" />
 	<iso_3166_2_entry
 		code="AF-HEL"	name="Helmand" />
 	<iso_3166_2_entry
@@ -124,47 +124,47 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AF-JOW"	name="Jowzjān" />
 	<iso_3166_2_entry
-		code="AF-KAB"	name="Kābul [Kābol]" />
+		code="AF-KAB"	name="Kābul" />
 	<iso_3166_2_entry
 		code="AF-KAN"	name="Kandahār" />
 	<iso_3166_2_entry
 		code="AF-KAP"	name="Kāpīsā" />
 	<iso_3166_2_entry
-		code="AF-KHO"	name="Khowst" />
+		code="AF-KHO"	name="Khōst" />
 	<iso_3166_2_entry
-		code="AF-KNR"	name="Konar [Kunar]" />
+		code="AF-KNR"	name="Kunar" />
 	<iso_3166_2_entry
-		code="AF-KDZ"	name="Kondoz [Kunduz]" />
+		code="AF-KDZ"	name="Kunduz" />
 	<iso_3166_2_entry
 		code="AF-LAG"	name="Laghmān" />
 	<iso_3166_2_entry
-		code="AF-LOW"	name="Lowgar" />
+		code="AF-LOG"	name="Lōgar" />
 	<iso_3166_2_entry
-		code="AF-NAN"	name="Nangrahār [Nangarhār]" />
+		code="AF-NAN"	name="Nangarhār" />
 	<iso_3166_2_entry
-		code="AF-NIM"	name="Nīmrūz" />
+		code="AF-NIM"	name="Nīmrōz" />
 	<iso_3166_2_entry
-		code="AF-NUR"	name="Nūrestān" />
+		code="AF-NUR"	name="Nūristān" />
 	<iso_3166_2_entry
-		code="AF-ORU"	name="Orūzgān [Urūzgān]" />
+		code="AF-URU"	name="Uruzgān" />
 	<iso_3166_2_entry
-		code="AF-PAN"	name="Panjshīr" />
-	<iso_3166_2_entry
-		code="AF-PIA"	name="Paktīā" />
+		code="AF-PIA"	name="Paktiyā" />
 	<iso_3166_2_entry
 		code="AF-PKA"	name="Paktīkā" />
+	<iso_3166_2_entry
+		code="AF-PAN"	name="Panjshayr" />
 	<iso_3166_2_entry
 		code="AF-PAR"	name="Parwān" />
 	<iso_3166_2_entry
 		code="AF-SAM"	name="Samangān" />
 	<iso_3166_2_entry
-		code="AF-SAR"	name="Sar-e Pol" />
+		code="AF-SAR"	name="Sar-e Pul" />
 	<iso_3166_2_entry
 		code="AF-TAK"	name="Takhār" />
 	<iso_3166_2_entry
-		code="AF-WAR"	name="Wardak [Wardag]" />
+		code="AF-WAR"	name="Wardak" />
 	<iso_3166_2_entry
-		code="AF-ZAB"	name="Zābol [Zābul]" />
+		code="AF-ZAB"	name="Zābul" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Antigua and Barbuda -->
@@ -464,15 +464,15 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="AZ">
 <iso_3166_subset type="Autonomous republic">
 	<iso_3166_2_entry
-		code="AZ NX"	name="Naxçıvan" />
+		code="AZ-NX"	name="Naxçıvan" />
 </iso_3166_subset>
-<iso_3166_subset type="City">
-	<iso_3166_2_entry
-		code="AZ-AB"	name="Əli Bayramlı" />
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="AZ-BA"	name="Bakı" />
 	<iso_3166_2_entry
 		code="AZ-GA"	name="Gəncə" />
+	<iso_3166_2_entry
+		code="AZ-XA"	name="Xankəndi" />
 	<iso_3166_2_entry
 		code="AZ-LA"	name="Lənkəran" />
 	<iso_3166_2_entry
@@ -480,13 +480,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-NA"	name="Naftalan" />
 	<iso_3166_2_entry
-		code="AZ-SA"	name="Şəki" />
+		code="AZ-NV"	name="Naxçıvan"  parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SM"	name="Sumqayıt" />
 	<iso_3166_2_entry
-		code="AZ-SS"	name="Şuşa" />
+		code="AZ-SA"	name="Şəki" />
 	<iso_3166_2_entry
-		code="AZ-XA"	name="Xankəndi" />
+		code="AZ-SR"	name="Şirvan" />
 	<iso_3166_2_entry
 		code="AZ-YE"	name="Yevlax" />
 </iso_3166_subset>
@@ -510,9 +510,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-BAL"	name="Balakən" />
 	<iso_3166_2_entry
-		code="AZ-BAR"	name="Bərdə" />
-	<iso_3166_2_entry
 		code="AZ-BEY"	name="Beyləqan" />
+	<iso_3166_2_entry
+		code="AZ-BAR"	name="Bərdə" />
 	<iso_3166_2_entry
 		code="AZ-BIL"	name="Biləsuvar" />
 	<iso_3166_2_entry
@@ -534,7 +534,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-GOY"	name="Göyçay" />
 	<iso_3166_2_entry
+		code="AZ-GYG"	name="Göygöl" />
+	<iso_3166_2_entry
 		code="AZ-HAC"	name="Hacıqabul" />
+	<iso_3166_2_entry
+		code="AZ-XAC"	name="Xaçmaz" />
+	<iso_3166_2_entry
+		code="AZ-XIZ"	name="Xızı" />
+	<iso_3166_2_entry
+		code="AZ-XCI"	name="Xocalı" />
+	<iso_3166_2_entry
+		code="AZ-XVD"	name="Xocavənd" />
 	<iso_3166_2_entry
 		code="AZ-IMI"	name="İmişli" />
 	<iso_3166_2_entry
@@ -542,23 +552,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-KAL"	name="Kəlbəcər" />
 	<iso_3166_2_entry
+		code="AZ-KAN"	name="Kǝngǝrli"  parent="NX" />
+	<iso_3166_2_entry
 		code="AZ-KUR"	name="Kürdəmir" />
-	<iso_3166_2_entry
-		code="AZ-LAC"	name="Laçın" />
-	<iso_3166_2_entry
-		code="AZ-LAN"	name="Lənkəran" />
-	<iso_3166_2_entry
-		code="AZ-LER"	name="Lerik" />
-	<iso_3166_2_entry
-		code="AZ-MAS"	name="Masallı" />
-	<iso_3166_2_entry
-		code="AZ-NEF"	name="Neftçala" />
-	<iso_3166_2_entry
-		code="AZ-OGU"	name="Oğuz" />
-	<iso_3166_2_entry
-		code="AZ-ORD"	name="Ordubad"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-QAB"	name="Qəbələ" />
 	<iso_3166_2_entry
 		code="AZ-QAX"	name="Qax" />
 	<iso_3166_2_entry
@@ -572,27 +568,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-QUS"	name="Qusar" />
 	<iso_3166_2_entry
+		code="AZ-LAC"	name="Laçın" />
+	<iso_3166_2_entry
+		code="AZ-LER"	name="Lerik" />
+	<iso_3166_2_entry
+		code="AZ-LAN"	name="Lənkəran" />
+	<iso_3166_2_entry
+		code="AZ-MAS"	name="Masallı" />
+	<iso_3166_2_entry
+		code="AZ-NEF"	name="Neftçala" />
+	<iso_3166_2_entry
+		code="AZ-OGU"	name="Oğuz" />
+	<iso_3166_2_entry
+		code="AZ-ORD"	name="Ordubad"	parent="NX" />
+	<iso_3166_2_entry
+		code="AZ-QAB"	name="Qəbələ" />
+	<iso_3166_2_entry
 		code="AZ-SAT"	name="Saatlı" />
 	<iso_3166_2_entry
 		code="AZ-SAB"	name="Sabirabad" />
 	<iso_3166_2_entry
-		code="AZ-SAD"	name="Sədərək"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-SAH"	name="Şahbuz"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-SAK"	name="Şəki" />
-	<iso_3166_2_entry
 		code="AZ-SAL"	name="Salyan" />
-	<iso_3166_2_entry
-		code="AZ-SMI"	name="Şamaxı" />
-	<iso_3166_2_entry
-		code="AZ-SKR"	name="Şəmkir" />
 	<iso_3166_2_entry
 		code="AZ-SMX"	name="Samux" />
 	<iso_3166_2_entry
-		code="AZ-SAR"	name="Şərur"	parent="NX" />
+		code="AZ-SAD"	name="Sədərək"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SIY"	name="Siyəzən" />
+	<iso_3166_2_entry
+		code="AZ-SBN"	name="Şabran" />
+	<iso_3166_2_entry
+		code="AZ-SAH"	name="Şahbuz"	parent="NX" />
+	<iso_3166_2_entry
+		code="AZ-SMI"	name="Şamaxı" />
+	<iso_3166_2_entry
+		code="AZ-SAK"	name="Şəki" />
+	<iso_3166_2_entry
+		code="AZ-SKR"	name="Şəmkir" />
+	<iso_3166_2_entry
+		code="AZ-SAR"	name="Şərur"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SUS"	name="Şuşa" />
 	<iso_3166_2_entry
@@ -602,23 +616,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-UCA"	name="Ucar" />
 	<iso_3166_2_entry
-		code="AZ-XAC"	name="Xaçmaz" />
-	<iso_3166_2_entry
-		code="AZ-XAN"	name="Xanlar" />
-	<iso_3166_2_entry
-		code="AZ-XIZ"	name="Xızı" />
-	<iso_3166_2_entry
-		code="AZ-XCI"	name="Xocalı" />
-	<iso_3166_2_entry
-		code="AZ-XVD"	name="Xocavənd" />
-	<iso_3166_2_entry
 		code="AZ-YAR"	name="Yardımlı" />
 	<iso_3166_2_entry
 		code="AZ-YEV"	name="Yevlax" />
 	<iso_3166_2_entry
-		code="AZ-ZAN"	name="Zəngilan" />
-	<iso_3166_2_entry
 		code="AZ-ZAQ"	name="Zaqatala" />
+	<iso_3166_2_entry
+		code="AZ-ZAN"	name="Zəngilan" />
 	<iso_3166_2_entry
 		code="AZ-ZAR"	name="Zərdab" />
 </iso_3166_subset>
@@ -689,174 +693,182 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="BD">
 <iso_3166_subset type="Division">
 	<iso_3166_2_entry
-		code="BD 1"	name="Barisal bibhag" />
+		code="BD-A"	name="Barisal" />
 	<iso_3166_2_entry
-		code="BD 2"	name="Chittagong bibhag" />
+		code="BD-B"	name="Chittagong" />
 	<iso_3166_2_entry
-		code="BD 3"	name="Dhaka bibhag" />
+		code="BD-C"	name="Dhaka" />
 	<iso_3166_2_entry
-		code="BD 4"	name="Khulna bibhag" />
+		code="BD-D"	name="Khulna" />
 	<iso_3166_2_entry
-		code="BD 5"	name="Rajshahi bibhag" />
+		code="BD-E"	name="Rajshahi" />
 	<iso_3166_2_entry
-		code="BD 6"	name="Sylhet bibhag" />
+		code="BD-F"	name="Rangpur" />
+	<iso_3166_2_entry
+		code="BD-G"	name="Sylhet" />
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="BD-05"	name="Bagerhat zila"	parent="4" />
+		code="BD-05"	name="Bagerhat"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-01"	name="Bandarban zila"	parent="2" />
+		code="BD-01"	name="Bandarban"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-02"	name="Barguna zila"	parent="1" />
+		code="BD-02"	name="Barguna"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-06"	name="Barisal zila"	parent="1" />
+		code="BD-06"	name="Barisal"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-07"	name="Bhola zila"	parent="1" />
+		code="BD-07"	name="Bhola"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-03"	name="Bogra zila"	parent="5" />
+		code="BD-03"	name="Bogra"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-04"	name="Brahmanbaria zila"	parent="2" />
+		code="BD-04"	name="Brahmanbaria"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-09"	name="Chandpur zila"	parent="2" />
+		code="BD-09"	name="Chandpur"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-10"	name="Chittagong zila"	parent="2" />
+		code="BD-10"	name="Chittagong"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-12"	name="Chuadanga zila"	parent="4" />
+		code="BD-12"	name="Chuadanga"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-08"	name="Comilla zila"	parent="2" />
+		code="BD-08"	name="Comilla"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-11"	name="Cox's Bazar zila"	parent="2" />
+		code="BD-11"	name="Cox's Bazar"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-13"	name="Dhaka zila"	parent="3" />
+		code="BD-13"	name="Dhaka"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-14"	name="Dinajpur zila"	parent="5" />
+		code="BD-14"	name="Dinajpur"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-15"	name="Faridpur zila"	parent="3" />
+		code="BD-15"	name="Faridpur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-16"	name="Feni zila"	parent="2" />
+		code="BD-16"	name="Feni"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-19"	name="Gaibandha zila"	parent="5" />
+		code="BD-19"	name="Gaibandha"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-18"	name="Gazipur zila"	parent="3" />
+		code="BD-18"	name="Gazipur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-17"	name="Gopalganj zila"	parent="3" />
+		code="BD-17"	name="Gopalganj"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-20"	name="Habiganj zila"	parent="6" />
+		code="BD-20"	name="Habiganj"	parent="G" />
 	<iso_3166_2_entry
-		code="BD-24"	name="Jaipurhat zila"	parent="5" />
+		code="BD-24"	name="Jaipurhat"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-21"	name="Jamalpur zila"	parent="3" />
+		code="BD-21"	name="Jamalpur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-22"	name="Jessore zila"	parent="4" />
+		code="BD-22"	name="Jessore"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-25"	name="Jhalakati zila"	parent="1" />
+		code="BD-25"	name="Jhalakati"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-23"	name="Jhenaidah zila"	parent="4" />
+		code="BD-23"	name="Jhenaidah"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-29"	name="Khagrachari zila"	parent="2" />
+		code="BD-29"	name="Khagrachari"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-27"	name="Khulna zila"	parent="4" />
+		code="BD-27"	name="Khulna"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-26"	name="Kishorganj zila"	parent="3" />
+		code="BD-26"	name="Kishorganj"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-28"	name="Kurigram zila"	parent="5" />
+		code="BD-28"	name="Kurigram"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-30"	name="Kushtia zila"	parent="4" />
+		code="BD-30"	name="Kushtia"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-31"	name="Lakshmipur zila"	parent="2" />
+		code="BD-31"	name="Lakshmipur"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-32"	name="Lalmonirhat zila"	parent="5" />
+		code="BD-32"	name="Lalmonirhat"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-36"	name="Madaripur zila"	parent="3" />
+		code="BD-36"	name="Madaripur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-37"	name="Magura zila"	parent="4" />
+		code="BD-37"	name="Magura"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-33"	name="Manikganj zila"	parent="3" />
+		code="BD-33"	name="Manikganj"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-39"	name="Meherpur zila"	parent="4" />
+		code="BD-39"	name="Meherpur"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-38"	name="Moulvibazar zila"	parent="6" />
+		code="BD-38"	name="Moulvibazar"	parent="G" />
 	<iso_3166_2_entry
-		code="BD-35"	name="Munshiganj zila"	parent="3" />
+		code="BD-35"	name="Munshiganj"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-34"	name="Mymensingh zila"	parent="3" />
+		code="BD-34"	name="Mymensingh"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-48"	name="Naogaon zila"	parent="5" />
+		code="BD-48"	name="Naogaon"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-43"	name="Narail zila"	parent="4" />
+		code="BD-43"	name="Narail"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-40"	name="Narayanganj zila"	parent="3" />
+		code="BD-40"	name="Narayanganj"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-42"	name="Narsingdi zila"	parent="3" />
+		code="BD-42"	name="Narsingdi"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-44"	name="Natore zila"	parent="5" />
+		code="BD-44"	name="Natore"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-45"	name="Nawabganj zila"	parent="5" />
+		code="BD-45"	name="Nawabganj"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-41"	name="Netrakona zila"	parent="3" />
+		code="BD-41"	name="Netrakona"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-46"	name="Nilphamari zila"	parent="5" />
+		code="BD-46"	name="Nilphamari"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-47"	name="Noakhali zila"	parent="2" />
+		code="BD-47"	name="Noakhali"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-49"	name="Pabna zila"	parent="5" />
+		code="BD-49"	name="Pabna"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-52"	name="Panchagarh zila"	parent="5" />
+		code="BD-52"	name="Panchagarh"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-51"	name="Patuakhali zila"	parent="1" />
+		code="BD-51"	name="Patuakhali"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-50"	name="Pirojpur zila"	parent="1" />
+		code="BD-50"	name="Pirojpur"	parent="A" />
 	<iso_3166_2_entry
-		code="BD-53"	name="Rajbari zila"	parent="3" />
+		code="BD-53"	name="Rajbari"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-54"	name="Rajshahi zila"	parent="5" />
+		code="BD-54"	name="Rajshahi"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-56"	name="Rangamati zila"	parent="2" />
+		code="BD-56"	name="Rangamati"	parent="B" />
 	<iso_3166_2_entry
-		code="BD-55"	name="Rangpur zila"	parent="5" />
+		code="BD-55"	name="Rangpur"	parent="F" />
 	<iso_3166_2_entry
-		code="BD-58"	name="Satkhira zila"	parent="4" />
+		code="BD-58"	name="Satkhira"	parent="D" />
 	<iso_3166_2_entry
-		code="BD-62"	name="Shariatpur zila"	parent="3" />
+		code="BD-62"	name="Shariatpur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-57"	name="Sherpur zila"	parent="3" />
+		code="BD-57"	name="Sherpur"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-59"	name="Sirajganj zila"	parent="5" />
+		code="BD-59"	name="Sirajganj"	parent="E" />
 	<iso_3166_2_entry
-		code="BD-61"	name="Sunamganj zila"	parent="6" />
+		code="BD-61"	name="Sunamganj"	parent="G" />
 	<iso_3166_2_entry
-		code="BD-60"	name="Sylhet zila"	parent="6" />
+		code="BD-60"	name="Sylhet"	parent="G" />
 	<iso_3166_2_entry
-		code="BD-63"	name="Tangail zila"	parent="3" />
+		code="BD-63"	name="Tangail"	parent="C" />
 	<iso_3166_2_entry
-		code="BD-64"	name="Thakurgaon zila"	parent="5" />
+		code="BD-64"	name="Thakurgaon"	parent="F" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Belgium -->
 <iso_3166_country code="BE">
+<iso_3166_subset type="Region">
+	<iso_3166_2_entry
+		code="BE-BRU"	name="Bruxelles-Capitale, Région de;Brussels Hoofdstedelijk Gewest" />
+	<iso_3166_2_entry
+		code="BE-VLG"	name="Vlaams Gewest" />
+	<iso_3166_2_entry
+		code="BE-WAL"	name="wallonne, Région" />
+</iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="BE-VAN"	name="Antwerpen" />
+		code="BE-VAN"	name="Antwerpen" parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-WBR"	name="Brabant Wallon" />
+		code="BE-WBR"	name="Brabant wallon" parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-BRU"	name="Brussels-Capital Region" />
+		code="BE-WHT"	name="Hainaut"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WHT"	name="Hainaut" />
+		code="BE-WLG"	name="Liège"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WLG"	name="Liege" />
+		code="BE-VLI"	name="Limburg"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VLI"	name="Limburg" />
+		code="BE-WLX"	name="Luxembourg"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WLX"	name="Luxembourg" />
+		code="BE-WNA"	name="Namur"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WNA"	name="Namur" />
+		code="BE-VOV"	name="Oost-Vlaanderen"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VOV"	name="Oost-Vlaanderen" />
+		code="BE-VBR"	name="Vlaams-Brabant"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VBR"	name="Vlaams-Brabant" />
-	<iso_3166_2_entry
-		code="BE-VWV"	name="West-Vlaanderen" />
+		code="BE-VWV"	name="West-Vlaanderen"  parent="VLG"/>
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Burkina-Faso -->
@@ -1162,6 +1174,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="BO-T"	name="Tarija" />
 </iso_3166_subset>
 </iso_3166_country>
+	<!-- Bonaire, Sint Eustatius and Saba -->
+<iso_3166_country code="BQ">
+<iso_3166_subset type="Special municipality">
+	<iso_3166_2_entry
+		code="BQ-BO"	name="Bonaire" />
+	<iso_3166_2_entry
+		code="BQ-SA"	name="Saba" />
+	<iso_3166_2_entry
+		code="BQ-SE"	name="Sint Eustatius" />
+</iso_3166_subset>
+</iso_3166_country>
 	<!-- Brazil -->
 <iso_3166_country code="BR">
 <iso_3166_subset type="State">
@@ -1229,11 +1252,11 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="BS">
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="BS-AC"	name="Acklins Islands" />
+		code="BS-AC"	name="Acklins" />
 	<iso_3166_2_entry
 		code="BS-BY"	name="Berry Islands" />
 	<iso_3166_2_entry
-		code="BS-BI"	name="Bimini and Cat Cay" />
+		code="BS-BI"	name="Bimini" />
 	<iso_3166_2_entry
 		code="BS-BP"	name="Black Point" />
 	<iso_3166_2_entry
@@ -1254,8 +1277,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="BS-EX"	name="Exuma" />
 	<iso_3166_2_entry
 		code="BS-GC"	name="Grand Cay" />
-	<iso_3166_2_entry
-		code="BS-GT"	name="Green Turtle Cay" />
 	<iso_3166_2_entry
 		code="BS-HI"	name="Harbour Island" />
 	<iso_3166_2_entry
@@ -1502,7 +1523,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="CF-OP"	name="Ouham-Pendé" />
 	<iso_3166_2_entry
-		code="CF-VR"	name="Vakaga" />
+		code="CF-VK"	name="Vakaga" />
 </iso_3166_subset>
 <iso_3166_subset type="Economic Prefecture">
 	<iso_3166_2_entry
@@ -1912,9 +1933,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="CV">
 <iso_3166_subset type="Geographical region">
 	<iso_3166_2_entry
-		code="CV B"	name="Ilhas de Barlavento" />
+		code="CV-B"	name="Ilhas de Barlavento" />
 	<iso_3166_2_entry
-		code="CV S"	name="Ilhas de Sotavento" />
+		code="CV-S"	name="Ilhas de Sotavento" />
 </iso_3166_subset>
 <iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
@@ -1950,7 +1971,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="CV-SF"	name="São Filipe"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-SL"	name="São Lourenço dos Órgãos"	parent="S" />
+		code="CV-SO"	name="São Lourenço dos Órgãos"	parent="S" />
 	<iso_3166_2_entry
 		code="CV-SM"	name="São Miguel"	parent="S" />
 	<iso_3166_2_entry
@@ -2258,15 +2279,15 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="DK">
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="DK-81"	name="Nordjylland" />
+		code="DK-84"	name="Hovedstaden" />
 	<iso_3166_2_entry
 		code="DK-82"	name="Midtjylland" />
 	<iso_3166_2_entry
-		code="DK-83"	name="Syddanmark" />
-	<iso_3166_2_entry
-		code="DK-84"	name="Hovedstaden" />
+		code="DK-81"	name="Nordjylland" />
 	<iso_3166_2_entry
 		code="DK-85"	name="Sjælland" />
+	<iso_3166_2_entry
+		code="DK-83"	name="Syddanmark" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Dominica -->
@@ -2615,17 +2636,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="ER">
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="ER-AN"	name="Anseba" />
+		code="ER-MA"	name="Al Awsaţ" />
 	<iso_3166_2_entry
-		code="ER-DU"	name="Debub" />
+		code="ER-DU"	name="Al Janūbī" />
 	<iso_3166_2_entry
-		code="ER-DK"	name="Debubawi Keyih Bahri [Debub-Keih-Bahri]" />
+		code="ER-AN"	name="Ansabā" />
 	<iso_3166_2_entry
-		code="ER-GB"	name="Gash-Barka" />
+		code="ER-DK"	name="Janūbī al Baḩrī al Aḩmar" />
 	<iso_3166_2_entry
-		code="ER-MA"	name="Maakel [Maekel]" />
+		code="ER-GB"	name="Qāsh-Barkah" />
 	<iso_3166_2_entry
-		code="ER-SK"	name="Semenawi Keyih Bahri [Semien-Keih-Bahri]" />
+		code="ER-SK"	name="Shimālī al Baḩrī al Aḩmar" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Spain -->
@@ -2652,7 +2673,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ES-GA"	name="Galicia" />
 	<iso_3166_2_entry
-		code="ES-PM"	name="Illes Balears" />
+		code="ES-IB"	name="Illes Balears" />
 	<iso_3166_2_entry
 		code="ES-RI"	name="La Rioja" />
 	<iso_3166_2_entry
@@ -2683,8 +2704,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="ES-AV"	name="Ávila"	parent="CL" />
 	<iso_3166_2_entry
 		code="ES-BA"	name="Badajoz"	parent="EX" />
-	<iso_3166_2_entry
-		code="ES-IB"	name="Balears"	parent="IB" />
 	<iso_3166_2_entry
 		code="ES-B"	name="Barcelona"	parent="CT" />
 	<iso_3166_2_entry
@@ -2739,6 +2758,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="ES-OR"	name="Ourense"	parent="GA" />
 	<iso_3166_2_entry
 		code="ES-P"	name="Palencia"	parent="CL" />
+	<iso_3166_2_entry
+		code="ES-PM"	name="Balears"	parent="IB" />
 	<iso_3166_2_entry
 		code="ES-PO"	name="Pontevedra"	parent="GA" />
 	<iso_3166_2_entry
@@ -2806,19 +2827,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Finland -->
 <iso_3166_country code="FI">
-<iso_3166_subset type="Province">
+<iso_3166_subset type="Reion">
 	<iso_3166_2_entry
-		code="FI-AL"	name="Ahvenanmaan lääni" />
+		code="FI-01"	name="Ahvenanmaan maakunta" />
 	<iso_3166_2_entry
-		code="FI-ES"	name="Etelä-Suomen lääni" />
+		code="FI-02"	name="Etelä-Karjala" />
 	<iso_3166_2_entry
-		code="FI-IS"	name="Itä-Suomen lääni" />
+		code="FI-03"	name="Etelä-Pohjanmaa" />
 	<iso_3166_2_entry
-		code="FI-LL"	name="Lapin lääni" />
+		code="FI-04"	name="Etelä-Savo" />
 	<iso_3166_2_entry
-		code="FI-LS"	name="Länsi-Suomen lääni" />
+		code="FI-05"	name="Kainuu" />
 	<iso_3166_2_entry
-		code="FI-OL"	name="Oulun lääni" />
+		code="FI-06"	name="Kanta-Häme" />
+	<iso_3166_2_entry
+		code="FI-07"	name="Keski-Pohjanmaa" />
+	<iso_3166_2_entry
+		code="FI-08"	name="Keski-Suomi" />
+	<iso_3166_2_entry
+		code="FI-09"	name="Kymenlaakso" />
+	<iso_3166_2_entry
+		code="FI-10"	name="Lappi" />
+	<iso_3166_2_entry
+		code="FI-11"	name="Pirkanmaa" />
+	<iso_3166_2_entry
+		code="FI-12"	name="Pohjanmaa" />
+	<iso_3166_2_entry
+		code="FI-13"	name="Pohjois-Karjala" />
+	<iso_3166_2_entry
+		code="FI-14"	name="Pohjois-Pohjanmaa" />
+	<iso_3166_2_entry
+		code="FI-15"	name="Pohjois-Savo" />
+	<iso_3166_2_entry
+		code="FI-16"	name="Päijät-Häme" />
+	<iso_3166_2_entry
+		code="FI-17"	name="Satakunta" />
+	<iso_3166_2_entry
+		code="FI-18"	name="Uusimaa" />
+	<iso_3166_2_entry
+		code="FI-19"	name="Varsinais-Suomi" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Fiji -->
@@ -2898,16 +2945,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="FR-U"	name="Provence-Alpes-Côte d'Azur" />
 	<iso_3166_2_entry
 		code="FR-V"	name="Rhône-Alpes" />
-</iso_3166_subset>
-<iso_3166_subset type="Overseas region/department">
-	<iso_3166_2_entry
-		code="FR-GP"	name="Guadeloupe" />
-	<iso_3166_2_entry
-		code="FR-GF"	name="Guyane" />
-	<iso_3166_2_entry
-		code="FR-MQ"	name="Martinique" />
-	<iso_3166_2_entry
-		code="FR-RE"	name="Réunion" />
 </iso_3166_subset>
 <iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
@@ -3103,13 +3140,23 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="FR-78"	name="Yvelines"	parent="J" />
 </iso_3166_subset>
+<iso_3166_subset type="Overseas region/department">
+	<iso_3166_2_entry
+		code="FR-GP"	name="Guadeloupe" />
+	<iso_3166_2_entry
+		code="FR-GF"	name="Guyane" />
+	<iso_3166_2_entry
+		code="FR-MQ"	name="Martinique" />
+	<iso_3166_2_entry
+		code="FR-YT"	name="Mayotte" />
+	<iso_3166_2_entry
+		code="FR-RE"	name="Réunion" />
+</iso_3166_subset>
 <iso_3166_subset type="Dependency">
 	<iso_3166_2_entry
 		code="FR-CP"	name="Clipperton" />
 </iso_3166_subset>
 <iso_3166_subset type="Overseas territorial collectivity">
-	<iso_3166_2_entry
-		code="FR-YT"	name="Mayotte" />
 	<iso_3166_2_entry
 		code="FR-NC"	name="Nouvelle-Calédonie" />
 	<iso_3166_2_entry
@@ -3153,25 +3200,25 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="GB">
 <iso_3166_subset type="Country">
 	<iso_3166_2_entry
-		code="GB ENG"	name="England" />
+		code="GB-ENG"	name="England" />
 	<iso_3166_2_entry
-		code="GB SCT"	name="Scotland" />
+		code="GB-SCT"	name="Scotland" />
+	<iso_3166_2_entry
+		code="GB-WLS"	name="Wales" />
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="GB NIR"	name="Northern Ireland" />
+		code="GB-NIR"	name="Northern Ireland" />
 </iso_3166_subset>
 <iso_3166_subset type="Principality">
-	<iso_3166_2_entry
-		code="GB WLS"	name="Wales" />
 </iso_3166_subset>
 <iso_3166_subset type="Included for completeness">
 	<iso_3166_2_entry
-		code="GB EAW"	name="England and Wales" />
+		code="GB-EAW"	name="England and Wales" />
 	<iso_3166_2_entry
-		code="GB GBN"	name="Great Britain" />
+		code="GB-GBN"	name="Great Britain" />
 	<iso_3166_2_entry
-		code="GB UKM"	name="United Kingdom" />
+		code="GB-UKM"	name="United Kingdom" />
 </iso_3166_subset>
 <iso_3166_subset type="Two-tier county">
 	<iso_3166_2_entry
@@ -3407,7 +3454,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-GLG"	name="Glasgow City" />
 	<iso_3166_2_entry
-		code="GB-HED"	name="Highland" />
+		code="GB-HLD"	name="Highland" />
 	<iso_3166_2_entry
 		code="GB-IVC"	name="Inverclyde" />
 	<iso_3166_2_entry
@@ -3419,7 +3466,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-NLK"	name="North Lanarkshire" />
 	<iso_3166_2_entry
-		code="GB-ORR"	name="Orkney Islands" />
+		code="GB-ORK"	name="Orkney Islands" />
 	<iso_3166_2_entry
 		code="GB-PKN"	name="Perth and Kinross" />
 	<iso_3166_2_entry
@@ -3469,7 +3516,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-DOW"	name="Down" />
 	<iso_3166_2_entry
-		code="GB-DGN"	name="Dungannon" />
+		code="GB-DGN"	name="Dungannon and South Tyrone" />
 	<iso_3166_2_entry
 		code="GB-FER"	name="Fermanagh" />
 	<iso_3166_2_entry
@@ -3523,7 +3570,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-DER"	name="Derby" />
 	<iso_3166_2_entry
-		code="GB-DUR"	name="Durham" />
+		code="GB-DUR"	name="Durham, County" />
 	<iso_3166_2_entry
 		code="GB-ERY"	name="East Riding of Yorkshire" />
 	<iso_3166_2_entry
@@ -3595,7 +3642,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-WRT"	name="Warrington" />
 	<iso_3166_2_entry
-		code="GB-WBX"	name="West Berkshire" />
+		code="GB-WBK"	name="West Berkshire" />
 	<iso_3166_2_entry
 		code="GB-WNM"	name="Windsor and Maidenhead" />
 	<iso_3166_2_entry
@@ -3731,8 +3778,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GH-WP"	name="Western" />
 </iso_3166_subset>
+</iso_3166_country>
 	<!-- Greenland -->
-<iso_3166_country code="GL" />
+<iso_3166_country code="GL">
 <iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 	   code="GL-KU"	name="Kommune Kujalleq" />
@@ -3783,7 +3831,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_subset>
 <iso_3166_subset type="Special zone">
 	<iso_3166_2_entry
-		code="GN C"	name="Conakry" />
+		code="GN-C"	name="Conakry" />
 </iso_3166_subset>
 <iso_3166_subset type="Prefecture">
 	<iso_3166_2_entry
@@ -3856,25 +3904,27 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Equatorial Guinea -->
 <iso_3166_country code="GQ">
-<iso_3166_subset type="Province">
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="GQ-C"	name="Región Continental" />
 	<iso_3166_2_entry
 		code="GQ-I"	name="Región Insular" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="GQ-AN"	name="Annobón" />
+		code="GQ-AN"	name="Annobón" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-BN"	name="Bioko Norte" />
+		code="GQ-BN"	name="Bioko Norte" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-BS"	name="Bioko Sur" />
+		code="GQ-BS"	name="Bioko Sur" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-CS"	name="Centro Sur" />
+		code="GQ-CS"	name="Centro Sur" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-KN"	name="Kié-Ntem" />
+		code="GQ-KN"	name="Kié-Ntem" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-LI"	name="Litoral" />
+		code="GQ-LI"	name="Litoral" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-WN"	name="Wele-Nzás" />
+		code="GQ-WN"	name="Wele-Nzas" parent="C" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Greece -->
@@ -4339,7 +4389,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ID-KA"	name="Kalimantan" />
 	<iso_3166_2_entry
-		code="ID-MA"	name="Maluku" />
+		code="ID-ML"	name="Maluku" />
 	<iso_3166_2_entry
 		code="ID-NU"	name="Nusa Tenggara" />
 	<iso_3166_2_entry
@@ -4385,9 +4435,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ID-LA"	name="Lampung"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-MA"	name="Maluku"	parent="MA" />
+		code="ID-MA"	name="Maluku"	parent="ML" />
 	<iso_3166_2_entry
-		code="ID-MU"	name="Maluku Utara"	parent="MA" />
+		code="ID-MU"	name="Maluku Utara"	parent="ML" />
 	<iso_3166_2_entry
 		code="ID-NB"	name="Nusa Tenggara Barat"	parent="NU" />
 	<iso_3166_2_entry
@@ -4445,7 +4495,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="IE-CE"	name="Clare"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-C"	name="Cork"	parent="M" />
+		code="IE-CO"	name="Cork"	parent="M" />
 	<iso_3166_2_entry
 		code="IE-DL"	name="Donegal"	parent="U" />
 	<iso_3166_2_entry
@@ -4517,55 +4567,55 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="IN-AP"	name="Andhra Pradesh" />
 	<iso_3166_2_entry
-		code="IN-AR"	name="Arunāchal Pradesh" />
+		code="IN-AR"	name="Arunachal Pradesh" />
 	<iso_3166_2_entry
 		code="IN-AS"	name="Assam" />
 	<iso_3166_2_entry
-		code="IN-BR"	name="Bihār" />
+		code="IN-BR"	name="Bihar" />
 	<iso_3166_2_entry
-		code="IN-CT"	name="Chhattīsgarh" />
+		code="IN-CT"	name="Chhattisgarh" />
 	<iso_3166_2_entry
 		code="IN-GA"	name="Goa" />
 	<iso_3166_2_entry
-		code="IN-GJ"	name="Gujarāt" />
+		code="IN-GJ"	name="Gujarat" />
 	<iso_3166_2_entry
-		code="IN-HR"	name="Haryāna" />
+		code="IN-HR"	name="Haryana" />
 	<iso_3166_2_entry
-		code="IN-HP"	name="Himāchal Pradesh" />
+		code="IN-HP"	name="Himachal Pradesh" />
 	<iso_3166_2_entry
-		code="IN-JK"	name="Jammu and Kashmīr" />
+		code="IN-JK"	name="Jammu and Kashmir" />
 	<iso_3166_2_entry
 		code="IN-JH"	name="Jharkhand" />
 	<iso_3166_2_entry
-		code="IN-KA"	name="Karnātaka" />
+		code="IN-KA"	name="Karnataka" />
 	<iso_3166_2_entry
 		code="IN-KL"	name="Kerala" />
 	<iso_3166_2_entry
 		code="IN-MP"	name="Madhya Pradesh" />
 	<iso_3166_2_entry
-		code="IN-MH"	name="Mahārāshtra" />
+		code="IN-MH"	name="Maharashtra" />
 	<iso_3166_2_entry
 		code="IN-MN"	name="Manipur" />
 	<iso_3166_2_entry
-		code="IN-ML"	name="Meghālaya" />
+		code="IN-ML"	name="Meghalaya" />
 	<iso_3166_2_entry
 		code="IN-MZ"	name="Mizoram" />
 	<iso_3166_2_entry
-		code="IN-NL"	name="Nāgāland" />
+		code="IN-NL"	name="Nagaland" />
 	<iso_3166_2_entry
 		code="IN-OR"	name="Orissa" />
 	<iso_3166_2_entry
 		code="IN-PB"	name="Punjab" />
 	<iso_3166_2_entry
-		code="IN-RJ"	name="Rājasthān" />
+		code="IN-RJ"	name="Rajasthan" />
 	<iso_3166_2_entry
 		code="IN-SK"	name="Sikkim" />
 	<iso_3166_2_entry
-		code="IN-TN"	name="Tamil Nādu" />
+		code="IN-TN"	name="Tamil Nadu" />
 	<iso_3166_2_entry
 		code="IN-TR"	name="Tripura" />
 	<iso_3166_2_entry
-		code="IN-UL"	name="Uttaranchal" />
+		code="IN-UT"	name="Uttarakhand" />
 	<iso_3166_2_entry
 		code="IN-UP"	name="Uttar Pradesh" />
 	<iso_3166_2_entry
@@ -4575,17 +4625,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="IN-AN"	name="Andaman and Nicobar Islands" />
 	<iso_3166_2_entry
-		code="IN-CH"	name="Chandīgarh" />
+		code="IN-CH"	name="Chandigarh" />
 	<iso_3166_2_entry
-		code="IN-DN"	name="Dādra and Nagar Haveli" />
+		code="IN-DN"	name="Dadra and Nagar Haveli" />
 	<iso_3166_2_entry
-		code="IN-DD"	name="Damān and Diu" />
+		code="IN-DD"	name="Damen and Diu" />
 	<iso_3166_2_entry
 		code="IN-DL"	name="Delhi" />
 	<iso_3166_2_entry
 		code="IN-LD"	name="Lakshadweep" />
 	<iso_3166_2_entry
-		code="IN-PY"	name="Pondicherry" />
+		code="IN-PY"	name="Puducherry" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Iraq -->
@@ -4867,7 +4917,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="IT-LU"	name="Lucca"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-SC"	name="Macerata"	parent="57" />
+		code="IT-MC"	name="Macerata"	parent="57" />
 	<iso_3166_2_entry
 		code="IT-MN"	name="Mantova"	parent="25" />
 	<iso_3166_2_entry
@@ -5025,9 +5075,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="JO">
 <iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
-		code="JO-AJ"	name="`Ajlun" />
+		code="JO-AJ"	name="‘Ajlūn" />
 	<iso_3166_2_entry
-		code="JO-AQ"	name="Al `Aqabah" />
+		code="JO-AQ"	name="Al ‘Aqabah" />
 	<iso_3166_2_entry
 		code="JO-BA"	name="Al Balqā'" />
 	<iso_3166_2_entry
@@ -5035,17 +5085,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="JO-MA"	name="Al Mafraq" />
 	<iso_3166_2_entry
-		code="JO-AM"	name="Amman" />
+		code="JO-AM"	name="‘Ammān (Al ‘Aşimah)" />
 	<iso_3166_2_entry
 		code="JO-AT"	name="Aţ Ţafīlah" />
 	<iso_3166_2_entry
 		code="JO-AZ"	name="Az Zarqā'" />
 	<iso_3166_2_entry
-		code="JO-JR"	name="Irbid" />
+		code="JO-IR"	name="Irbid" />
 	<iso_3166_2_entry
 		code="JO-JA"	name="Jarash" />
 	<iso_3166_2_entry
-		code="JO-MN"	name="Ma`ān" />
+		code="JO-MN"	name="Ma‘ān" />
 	<iso_3166_2_entry
 		code="JO-MD"	name="Mādabā" />
 </iso_3166_subset>
@@ -5389,11 +5439,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="KW-FA"	name="Al Farwānīyah" />
 	<iso_3166_2_entry
-		code="KW-JA"	name="Al Jahrah" />
+		code="KW-JA"	name="Al Jahrrā’" />
 	<iso_3166_2_entry
-		code="KW-KU"	name="Al Kuwayt" />
+		code="KW-KU"	name="Al Kuwayt (Al ‘Āşimah)" />
 	<iso_3166_2_entry
 		code="KW-HA"	name="Hawallī" />
+	<iso_3166_2_entry
+		code="KW-MU"	name="Mubārak al Kabīr" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Kazakhstan -->
@@ -5547,6 +5599,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="LK-4"	name="Uturu paḷāta" />
 	<iso_3166_2_entry
 		code="LK-8"	name="Ūva paḷāta" />
+	<iso_3166_2_entry
+		code="LK-6"	name="Vayamba paḷāta" />
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
@@ -5695,67 +5749,235 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Latvia -->
 <iso_3166_country code="LV">
-<iso_3166_subset type="District">
-	<!-- We should probably add a "District" suffix here, but is it "Rajon" -->
-	<!-- or "Apriņķis"? -->
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
-		code="LV-AI"	name="Aizkraukle" />
+		code="LV-001"	name="Aglonas novads" />
 	<iso_3166_2_entry
-		code="LV-AL"	name="Alūksne" />
+		code="LV-002"	name="Aizkraukles novads" />
 	<iso_3166_2_entry
-		code="LV-BL"	name="Balvi" />
+		code="LV-003"	name="Aizputes novads" />
 	<iso_3166_2_entry
-		code="LV-BU"	name="Bauska" />
+		code="LV-004"	name="Aknīstes novads" />
 	<iso_3166_2_entry
-		code="LV-CE"	name="Cēsis" />
+		code="LV-005"	name="Alojas novads" />
 	<iso_3166_2_entry
-		code="LV-DA"	name="Daugavpils" />
+		code="LV-006"	name="Alsungas novads" />
 	<iso_3166_2_entry
-		code="LV-DO"	name="Dobele" />
+		code="LV-007"	name="Alūksnes novads" />
 	<iso_3166_2_entry
-		code="LV-GU"	name="Gulbene" />
+		code="LV-008"	name="Amatas novads" />
 	<iso_3166_2_entry
-		code="LV-JK"	name="Jēkabpils" />
+		code="LV-009"	name="Apes novads" />
 	<iso_3166_2_entry
-		code="LV-JL"	name="Jelgava" />
+		code="LV-010"	name="Auces novads" />
 	<iso_3166_2_entry
-		code="LV-KR"	name="Krāslava" />
+		code="LV-011"	name="Ādažu novads" />
 	<iso_3166_2_entry
-		code="LV-KU"	name="Kuldīga" />
+		code="LV-012"	name="Babītes novads" />
 	<iso_3166_2_entry
-		code="LV-LE"	name="Liepāja" />
+		code="LV-013"	name="Baldones novads" />
 	<iso_3166_2_entry
-		code="LV-LM"	name="Limbaži" />
+		code="LV-014"	name="Baltinavas novads" />
 	<iso_3166_2_entry
-		code="LV-LU"	name="Ludza" />
+		code="LV-015"	name="Balvu novads" />
 	<iso_3166_2_entry
-		code="LV-MA"	name="Madona" />
+		code="LV-016"	name="Bauskas novads" />
 	<iso_3166_2_entry
-		code="LV-OG"	name="Ogre" />
+		code="LV-017"	name="Beverīnas novads" />
 	<iso_3166_2_entry
-		code="LV-PR"	name="Preiļi" />
+		code="LV-018"	name="Brocēnu novads" />
 	<iso_3166_2_entry
-		code="LV-RE"	name="Rēzekne" />
+		code="LV-019"	name="Burtnieku novads" />
 	<iso_3166_2_entry
-		code="LV-RI"	name="Rīga" />
+		code="LV-020"	name="Carnikavas novads" />
 	<iso_3166_2_entry
-		code="LV-SA"	name="Saldus" />
+		code="LV-021"	name="Cesvaines novads" />
 	<iso_3166_2_entry
-		code="LV-TA"	name="Talsi" />
+		code="LV-022"	name="Cēsu novads" />
 	<iso_3166_2_entry
-		code="LV-TU"	name="Tukums" />
+		code="LV-023"	name="Ciblas novads" />
 	<iso_3166_2_entry
-		code="LV-VK"	name="Valka" />
+		code="LV-024"	name="Dagdas novads" />
 	<iso_3166_2_entry
-		code="LV-VM"	name="Valmiera" />
+		code="LV-025"	name="Daugavpils novads" />
 	<iso_3166_2_entry
-		code="LV-VE"	name="Ventspils" />
+		code="LV-026"	name="Dobeles novads" />
+	<iso_3166_2_entry
+		code="LV-027"	name="Dundagas novads" />
+	<iso_3166_2_entry
+		code="LV-028"	name="Durbes novads" />
+	<iso_3166_2_entry
+		code="LV-029"	name="Engures novads" />
+	<iso_3166_2_entry
+		code="LV-030"	name="Ērgļu novads" />
+	<iso_3166_2_entry
+		code="LV-031"	name="Garkalnes novads" />
+	<iso_3166_2_entry
+		code="LV-032"	name="Grobiņas novads" />
+	<iso_3166_2_entry
+		code="LV-033"	name="Gulbenes novads" />
+	<iso_3166_2_entry
+		code="LV-034"	name="Iecavas novads" />
+	<iso_3166_2_entry
+		code="LV-035"	name="Ikšķiles novads" />
+	<iso_3166_2_entry
+		code="LV-036"	name="Ilūkstes novads" />
+	<iso_3166_2_entry
+		code="LV-037"	name="Inčukalna novads" />
+	<iso_3166_2_entry
+		code="LV-038"	name="Jaunjelgavas novads" />
+	<iso_3166_2_entry
+		code="LV-039"	name="Jaunpiebalgas novads" />
+	<iso_3166_2_entry
+		code="LV-040"	name="Jaunpils novads" />
+	<iso_3166_2_entry
+		code="LV-041"	name="Jelgavas novads" />
+	<iso_3166_2_entry
+		code="LV-042"	name="Jēkabpils novads" />
+	<iso_3166_2_entry
+		code="LV-043"	name="Kandavas novads" />
+	<iso_3166_2_entry
+		code="LV-044"	name="Kārsavas novads" />
+	<iso_3166_2_entry
+		code="LV-045"	name="Kocēnu novads" />
+	<iso_3166_2_entry
+		code="LV-046"	name="Kokneses novads" />
+	<iso_3166_2_entry
+		code="LV-047"	name="Krāslavas novads" />
+	<iso_3166_2_entry
+		code="LV-048"	name="Krimuldas novads" />
+	<iso_3166_2_entry
+		code="LV-049"	name="Krustpils novads" />
+	<iso_3166_2_entry
+		code="LV-050"	name="Kuldīgas novads" />
+	<iso_3166_2_entry
+		code="LV-051"	name="Ķeguma novads" />
+	<iso_3166_2_entry
+		code="LV-052"	name="Ķekavas novads" />
+	<iso_3166_2_entry
+		code="LV-053"	name="Lielvārdes novads" />
+	<iso_3166_2_entry
+		code="LV-054"	name="Limbažu novads" />
+	<iso_3166_2_entry
+		code="LV-055"	name="Līgatnes novads" />
+	<iso_3166_2_entry
+		code="LV-056"	name="Līvānu novads" />
+	<iso_3166_2_entry
+		code="LV-057"	name="Lubānas novads" />
+	<iso_3166_2_entry
+		code="LV-058"	name="Ludzas novads" />
+	<iso_3166_2_entry
+		code="LV-059"	name="Madonas novads" />
+	<iso_3166_2_entry
+		code="LV-060"	name="Mazsalacas novads" />
+	<iso_3166_2_entry
+		code="LV-061"	name="Mālpils novads" />
+	<iso_3166_2_entry
+		code="LV-062"	name="Mārupes novads" />
+	<iso_3166_2_entry
+		code="LV-063"	name="Mērsraga novads" />
+	<iso_3166_2_entry
+		code="LV-064"	name="Naukšēnu novads" />
+	<iso_3166_2_entry
+		code="LV-065"	name="Neretas novads" />
+	<iso_3166_2_entry
+		code="LV-066"	name="Nīcas novads" />
+	<iso_3166_2_entry
+		code="LV-067"	name="Ogres novads" />
+	<iso_3166_2_entry
+		code="LV-068"	name="Olaines novads" />
+	<iso_3166_2_entry
+		code="LV-069"	name="Ozolnieku novads" />
+	<iso_3166_2_entry
+		code="LV-070"	name="Pārgaujas novads" />
+	<iso_3166_2_entry
+		code="LV-071"	name="Pāvilostas novads" />
+	<iso_3166_2_entry
+		code="LV-072"	name="Pļaviņu novads" />
+	<iso_3166_2_entry
+		code="LV-073"	name="Preiļu novads" />
+	<iso_3166_2_entry
+		code="LV-074"	name="Priekules novads" />
+	<iso_3166_2_entry
+		code="LV-075"	name="Priekuļu novads" />
+	<iso_3166_2_entry
+		code="LV-076"	name="Raunas novads" />
+	<iso_3166_2_entry
+		code="LV-077"	name="Rēzeknes novads" />
+	<iso_3166_2_entry
+		code="LV-078"	name="Riebiņu novads" />
+	<iso_3166_2_entry
+		code="LV-079"	name="Rojas novads" />
+	<iso_3166_2_entry
+		code="LV-080"	name="Ropažu novads" />
+	<iso_3166_2_entry
+		code="LV-081"	name="Rucavas novads" />
+	<iso_3166_2_entry
+		code="LV-082"	name="Rugāju novads" />
+	<iso_3166_2_entry
+		code="LV-083"	name="Rundāles novads" />
+	<iso_3166_2_entry
+		code="LV-084"	name="Rūjienas novads" />
+	<iso_3166_2_entry
+		code="LV-085"	name="Salas novads" />
+	<iso_3166_2_entry
+		code="LV-086"	name="Salacgrīvas novads" />
+	<iso_3166_2_entry
+		code="LV-087"	name="Salaspils novads" />
+	<iso_3166_2_entry
+		code="LV-088"	name="Saldus novads" />
+	<iso_3166_2_entry
+		code="LV-089"	name="Saulkrastu novads" />
+	<iso_3166_2_entry
+		code="LV-090"	name="Sējas novads" />
+	<iso_3166_2_entry
+		code="LV-091"	name="Siguldas novads" />
+	<iso_3166_2_entry
+		code="LV-092"	name="Skrīveru novads" />
+	<iso_3166_2_entry
+		code="LV-093"	name="Skrundas novads" />
+	<iso_3166_2_entry
+		code="LV-094"	name="Smiltenes novads" />
+	<iso_3166_2_entry
+		code="LV-095"	name="Stopiņu novads" />
+	<iso_3166_2_entry
+		code="LV-096"	name="Strenču novads" />
+	<iso_3166_2_entry
+		code="LV-097"	name="Talsu novads" />
+	<iso_3166_2_entry
+		code="LV-098"	name="Tērvetes novads" />
+	<iso_3166_2_entry
+		code="LV-099"	name="Tukuma novads" />
+	<iso_3166_2_entry
+		code="LV-100"	name="Vaiņodes novads" />
+	<iso_3166_2_entry
+		code="LV-101"	name="Valkas novads" />
+	<iso_3166_2_entry
+		code="LV-102"	name="Varakļānu novads" />
+	<iso_3166_2_entry
+		code="LV-103"	name="Vārkavas novads" />
+	<iso_3166_2_entry
+		code="LV-104"	name="Vecpiebalgas novads" />
+	<iso_3166_2_entry
+		code="LV-105"	name="Vecumnieku novads" />
+	<iso_3166_2_entry
+		code="LV-106"	name="Ventspils novads" />
+	<iso_3166_2_entry
+		code="LV-107"	name="Viesītes novads" />
+	<iso_3166_2_entry
+		code="LV-108"	name="Viļakas novads" />
+	<iso_3166_2_entry
+		code="LV-109"	name="Viļānu novads" />
+	<iso_3166_2_entry
+		code="LV-110"	name="Zilupes novads" />
 </iso_3166_subset>
-<iso_3166_subset type="City">
+<iso_3166_subset type="Republican City">
 	<iso_3166_2_entry
 		code="LV-DGV"	name="Daugavpils" />
 	<iso_3166_2_entry
 		code="LV-JEL"	name="Jelgava" />
+	<iso_3166_2_entry
+		code="LV-JKB"	name="Jēkabpils" />
 	<iso_3166_2_entry
 		code="LV-JUR"	name="Jūrmala" />
 	<iso_3166_2_entry
@@ -5764,6 +5986,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="LV-REZ"	name="Rēzekne" />
 	<iso_3166_2_entry
 		code="LV-RIX"	name="Rīga" />
+	<iso_3166_2_entry
+		code="LV-VMR"	name="Valmiera" />
 	<iso_3166_2_entry
 		code="LV-VEN"	name="Ventspils" />
 </iso_3166_subset>
@@ -5823,37 +6047,37 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="MA">
 <iso_3166_subset type="Economic region">
 	<iso_3166_2_entry
-		code="MA 09"	name="Chaouia-Ouardigha" />
+		code="MA-09"	name="Chaouia-Ouardigha" />
 	<iso_3166_2_entry
-		code="MA 10"	name="Doukhala-Abda" />
+		code="MA-10"	name="Doukhala-Abda" />
 	<iso_3166_2_entry
-		code="MA 05"	name="Fès-Boulemane" />
+		code="MA-05"	name="Fès-Boulemane" />
 	<iso_3166_2_entry
-		code="MA 02"	name="Gharb-Chrarda-Beni Hssen" />
+		code="MA-02"	name="Gharb-Chrarda-Beni Hssen" />
 	<iso_3166_2_entry
-		code="MA 08"	name="Grand Casablanca" />
+		code="MA-08"	name="Grand Casablanca" />
 	<iso_3166_2_entry
-		code="MA 14"	name="Guelmim-Es Smara" />
+		code="MA-14"	name="Guelmim-Es Smara" />
 	<iso_3166_2_entry
-		code="MA 15"	name="Laâyoune-Boujdour-Sakia el Hamra" />
+		code="MA-15"	name="Laâyoune-Boujdour-Sakia el Hamra" />
 	<iso_3166_2_entry
-		code="MA 04"	name="L'Oriental" />
+		code="MA-04"	name="L'Oriental" />
 	<iso_3166_2_entry
-		code="MA 11"	name="Marrakech-Tensift-Al Haouz" />
+		code="MA-11"	name="Marrakech-Tensift-Al Haouz" />
 	<iso_3166_2_entry
-		code="MA 06"	name="Meknès-Tafilalet" />
+		code="MA-06"	name="Meknès-Tafilalet" />
 	<iso_3166_2_entry
-		code="MA 16"	name="Oued ed Dahab-Lagouira" />
+		code="MA-16"	name="Oued ed Dahab-Lagouira" />
 	<iso_3166_2_entry
-		code="MA 07"	name="Rabat-Salé-Zemmour-Zaer" />
+		code="MA-07"	name="Rabat-Salé-Zemmour-Zaer" />
 	<iso_3166_2_entry
-		code="MA 13"	name="Sous-Massa-Draa" />
+		code="MA-13"	name="Sous-Massa-Draa" />
 	<iso_3166_2_entry
-		code="MA 12"	name="Tadla-Azilal" />
+		code="MA-12"	name="Tadla-Azilal" />
 	<iso_3166_2_entry
-		code="MA 01"	name="Tanger-Tétouan" />
+		code="MA-01"	name="Tanger-Tétouan" />
 	<iso_3166_2_entry
-		code="MA 03"	name="Taza-Al Hoceima-Taounate" />
+		code="MA-03"	name="Taza-Al Hoceima-Taounate" />
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
@@ -5911,7 +6135,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="MA-LAA"	name="Laâyoune (EH)"	parent="15" />
 	<iso_3166_2_entry
-		code="MA-LAP"	name="Larache"	parent="01" />
+		code="MA-LAR"	name="Larache"	parent="01" />
 	<iso_3166_2_entry
 		code="MA-MED"	name="Médiouna"	parent="08" />
 	<iso_3166_2_entry
@@ -5984,6 +6208,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="MA-TNG"	name="Tanger-Assilah"	parent="01" />
 	<iso_3166_2_entry
 		code="MA-TET"	name="Tétouan"	parent="01" />
+</iso_3166_subset>
+</iso_3166_country>
+	<!-- Monaco -->
+<iso_3166_country code="MC">
+<iso_3166_subset type="Quarter">
+	<iso_3166_2_entry
+		code="MC-CO"	name="La Condamine" />
+	<iso_3166_2_entry
+		code="MC-FO"	name="Fontvieille" />
+	<iso_3166_2_entry
+		code="MC-JE"	name="Jardin Exotique" />
+	<iso_3166_2_entry
+		code="MC-CL"	name="La Colle" />
+	<iso_3166_2_entry
+		code="MC-GA"	name="La Gare" />
+	<iso_3166_2_entry
+		code="MC-SO"	name="La Source" />
+	<iso_3166_2_entry
+		code="MC-LA"	name="Larvotto" />
+	<iso_3166_2_entry
+		code="MC-MA"	name="Malbousquet" />
+	<iso_3166_2_entry
+		code="MC-MO"	name="Monaco-Ville" />
+	<iso_3166_2_entry
+		code="MC-MG"	name="Moneghetti" />
+	<iso_3166_2_entry
+		code="MC-MC"	name="Monte-Carlo" />
+	<iso_3166_2_entry
+		code="MC-MU"	name="Moulins" />
+	<iso_3166_2_entry
+		code="MC-PH"	name="Port-Hercule" />
+	<iso_3166_2_entry
+		code="MC-SR"	name="Saint-Roman" />
+	<iso_3166_2_entry
+		code="MC-SD"	name="Sainte-Dévote" />
+	<iso_3166_2_entry
+		code="MC-SP"	name="Spélugues" />
+	<iso_3166_2_entry
+		code="MC-VR"	name="Vallon de la Rousse" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Moldova -->
@@ -6326,10 +6589,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="MK-68"	name="Saraj" />
 	<iso_3166_2_entry
-		code="MK-83"	name="Štip" />
-	<iso_3166_2_entry
-		code="MK-84"	name="Šuto Orizari" />
-	<iso_3166_2_entry
 		code="MK-70"	name="Sopište" />
 	<iso_3166_2_entry
 		code="MK-71"	name="Staro Nagoričane" />
@@ -6341,6 +6600,10 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="MK-74"	name="Studeničani" />
 	<iso_3166_2_entry
 		code="MK-69"	name="Sveti Nikole" />
+	<iso_3166_2_entry
+		code="MK-83"	name="Štip" />
+	<iso_3166_2_entry
+		code="MK-84"	name="Šuto Orizari" />
 	<iso_3166_2_entry
 		code="MK-75"	name="Tearce" />
 	<iso_3166_2_entry
@@ -6364,9 +6627,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="MK-32"	name="Zelenikovo" />
 	<iso_3166_2_entry
-		code="MK-30"	name="Želino" />
-	<iso_3166_2_entry
 		code="MK-33"	name="Zrnovci" />
+	<iso_3166_2_entry
+		code="MK-30"	name="Želino" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Mali -->
@@ -6706,56 +6969,74 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="MV-MLE"	name="Male" />
 </iso_3166_subset>
-<iso_3166_subset type="Atoll">
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="MV-02"	name="Alif" />
+		code="MV-SU"	name="South" />
 	<iso_3166_2_entry
-		code="MV-20"	name="Baa" />
+		code="MV-US"	name="Upper South" />
 	<iso_3166_2_entry
-		code="MV-17"	name="Dhaalu" />
+		code="MV-UN"	name="Upper North" />
 	<iso_3166_2_entry
-		code="MV-14"	name="Faafu" />
+		code="MV-CE"	name="Central" />
 	<iso_3166_2_entry
-		code="MV-27"	name="Gaafu Aliff" />
+		code="MV-SC"	name="South Central" />
 	<iso_3166_2_entry
-		code="MV-28"	name="Gaafu Daalu" />
+		code="MV-NC"	name="North Central" />
 	<iso_3166_2_entry
-		code="MV-29"	name="Gnaviyani" />
+		code="MV-NO"	name="North" />
+</iso_3166_subset>
+<iso_3166_subset type="Administrative atoll">
 	<iso_3166_2_entry
-		code="MV-07"	name="Haa Alif" />
+		code="MV-02"	name="Alifu Alifu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-23"	name="Haa Dhaalu" />
+		code="MV-00"	name="Alifu Dhaalu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-26"	name="Kaafu" />
+		code="MV-20"	name="Baa" parent="NO" />
 	<iso_3166_2_entry
-		code="MV-05"	name="Laamu" />
+		code="MV-17"	name="Dhaalu" parent="CE" />
 	<iso_3166_2_entry
-		code="MV-03"	name="Lhaviyani" />
+		code="MV-14"	name="Faafu" parent="CE" />
 	<iso_3166_2_entry
-		code="MV-12"	name="Meemu" />
+		code="MV-27"	name="Gaafu Alifu" parent="SC" />
 	<iso_3166_2_entry
-		code="MV-25"	name="Noonu" />
+		code="MV-28"	name="Gaafu Dhaalu" parent="SC" />
 	<iso_3166_2_entry
-		code="MV-13"	name="Raa" />
+		code="MV-29"	name="Gnaviyani" parent="SU" />
 	<iso_3166_2_entry
-		code="MV-01"	name="Seenu" />
+		code="MV-07"	name="Haa Alifu" parent="UN" />
 	<iso_3166_2_entry
-		code="MV-24"	name="Shaviyani" />
+		code="MV-23"	name="Haa Dhaalu" parent="UN" />
 	<iso_3166_2_entry
-		code="MV-08"	name="Thaa" />
+		code="MV-26"	name="Kaafu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-04"	name="Vaavu" />
+		code="MV-05"	name="Laamu" parent="US" />
+	<iso_3166_2_entry
+		code="MV-03"	name="Lhaviyani" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-12"	name="Meemu" parent="CE" />
+	<iso_3166_2_entry
+		code="MV-25"	name="Noonu" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-13"	name="Raa" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-01"	name="Seenu" parent="SU" />
+	<iso_3166_2_entry
+		code="MV-24"	name="Shaviyani" parent="UN" />
+	<iso_3166_2_entry
+		code="MV-08"	name="Thaa" parent="US" />
+	<iso_3166_2_entry
+		code="MV-04"	name="Vaavu" parent="NC" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Malawi -->
 <iso_3166_country code="MW">
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="MW C"	name="Central Region" />
+		code="MW-C"	name="Central Region" />
 	<iso_3166_2_entry
-		code="MW N"	name="Northern Region" />
+		code="MW-N"	name="Northern Region" />
 	<iso_3166_2_entry
-		code="MW S"	name="Southern Region" />
+		code="MW-S"	name="Southern Region" />
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
@@ -7159,6 +7440,22 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="NL-ZH"	name="Zuid-Holland" />
 </iso_3166_subset>
+<iso_3166_subset type="Country">
+	<iso_3166_2_entry
+		code="NL-AW"	name="Aruba" />
+	<iso_3166_2_entry
+		code="NL-CW"	name="Curaçao" />
+	<iso_3166_2_entry
+		code="NL-SX"	name="Sint Maarten" />
+</iso_3166_subset>
+<iso_3166_subset type="Special municipality">
+	<iso_3166_2_entry
+		code="NL-BQ1"	name="Bonaire" />
+	<iso_3166_2_entry
+		code="NL-BQ2"	name="Saba" />
+	<iso_3166_2_entry
+		code="NL-BQ3"	name="Sint Eustatius" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Norway -->
 <iso_3166_country code="NO">
@@ -7203,10 +7500,12 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="NO-07"	name="Vestfold" />
 	<iso_3166_2_entry
 		code="NO-01"	name="Østfold" />
+</iso_3166_subset>
+<iso_3166_subset type="Arctic Region">
 	<iso_3166_2_entry
-		code="NO-22"	name="Jan Mayen" />
+		code="NO-22"	name="Jan Mayen (Arctic Region)" />
 	<iso_3166_2_entry
-		code="NO-21"	name="Svalbard" />
+		code="NO-21"	name="Svalbard (Arctic Region)" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Nepal -->
@@ -7487,8 +7786,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="PG-NPP"	name="Northern" />
 	<iso_3166_2_entry
-		code="PG-NSA"	name="North Solomons" />
-	<iso_3166_2_entry
 		code="PG-SAN"	name="Sandaun" />
 	<iso_3166_2_entry
 		code="PG-SHM"	name="Southern Highlands" />
@@ -7498,6 +7795,10 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="PG-WHM"	name="Western Highlands" />
 	<iso_3166_2_entry
 		code="PG-WBK"	name="West New Britain" />
+</iso_3166_subset>
+<iso_3166_subset type="Autonomous region">
+	<iso_3166_2_entry
+		code="PG-NSB"	name="Bougainville" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Phillipines -->
@@ -7529,6 +7830,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="PH-00"	name="National Capital Region" />
 	<iso_3166_2_entry
 		code="PH-10"	name="Northern Mindanao (Region X)" />
+	<iso_3166_2_entry
+		code="PH-11"	name="Davao (Region XI)" />
 	<iso_3166_2_entry
 		code="PH-12"	name="Soccsksargen (Region XII)" />
 	<iso_3166_2_entry
@@ -7709,19 +8012,21 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="PK-BA"	name="Balochistan" />
 	<iso_3166_2_entry
-		code="PK-NW"	name="North-West Frontier" />
+		code="PK-KP"	name="Khyber Pakhtunkhwa" />
 	<iso_3166_2_entry
 		code="PK-PB"	name="Punjab" />
 	<iso_3166_2_entry
 		code="PK-SD"	name="Sindh" />
 </iso_3166_subset>
-<iso_3166_subset type="Area">
+<iso_3166_subset type="Territory">
 	<iso_3166_2_entry
 		code="PK-TA"	name="Federally Administered Tribal Areas" />
+</iso_3166_subset>
+<iso_3166_subset type="Area">
 	<iso_3166_2_entry
 		code="PK-JK"	name="Azad Kashmir" />
 	<iso_3166_2_entry
-		code="PK-NA"	name="Northern Areas" />
+		code="PK-GB"	name="Gilgit-Baltistan" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Poland -->
@@ -7762,7 +8067,42 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Palestinian Territory, Occupied -->
-<iso_3166_country code="PS" />
+<iso_3166_country code="PS">
+<iso_3166_subset type="Governorate">
+	<iso_3166_2_entry
+		code="PS-BTH"	name="Bethlehem" />
+	<iso_3166_2_entry
+		code="PS-DEB"	name="Deir El Balah" />
+	<iso_3166_2_entry
+		code="PS-GZA"	name="Gaza" />
+	<iso_3166_2_entry
+		code="PS-HBN"	name="Hebron" />
+	<iso_3166_2_entry
+		code="PS-JEN"	name="Jenin" />
+	<iso_3166_2_entry
+		code="PS-JRH"	name="Jericho - Al Aghwar" />
+	<iso_3166_2_entry
+		code="PS-JEM"	name="Jerusalem" />
+	<iso_3166_2_entry
+		code="PS-KYS"	name="Khan Yunis" />
+	<iso_3166_2_entry
+		code="PS-NBS"	name="Nablus" />
+	<iso_3166_2_entry
+		code="PS-NGZ"	name="North Gaza" />
+	<iso_3166_2_entry
+		code="PS-QQA"	name="Qalqilya" />
+	<iso_3166_2_entry
+		code="PS-RFH"	name="Rafah" />
+	<iso_3166_2_entry
+		code="PS-RBH"	name="Ramallah" />
+	<iso_3166_2_entry
+		code="PS-SLT"	name="Salfit" />
+	<iso_3166_2_entry
+		code="PS-TBS"	name="Tubas" />
+	<iso_3166_2_entry
+		code="PS-TKM"	name="Tulkarm" />
+</iso_3166_subset>
+</iso_3166_country>
 	<!-- Portugal -->
 <iso_3166_country code="PT">
 <iso_3166_subset type="District">
@@ -7896,19 +8236,15 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="QA-DA"	name="Ad Dawhah" />
 	<iso_3166_2_entry
-		code="QA-GH"	name="Al Ghuwayriyah" />
-	<iso_3166_2_entry
-		code="QA-JU"	name="Al Jumayliyah" />
-	<iso_3166_2_entry
-		code="QA-KH"	name="Al Khawr" />
+		code="QA-KH"	name="Al Khawr wa adh Dhakhīrah" />
 	<iso_3166_2_entry
 		code="QA-WA"	name="Al Wakrah" />
 	<iso_3166_2_entry
 		code="QA-RA"	name="Ar Rayyan" />
 	<iso_3166_2_entry
-		code="QA-JB"	name="Jariyan al Batnah" />
+		code="QA-MS"	name="Ash Shamal" />
 	<iso_3166_2_entry
-		code="QA-MS"	name="Madinat ash Shamal" />
+		code="QA-ZA"	name="Az̧ Z̧a‘āyin" />
 	<iso_3166_2_entry
 		code="QA-US"	name="Umm Salal" />
 </iso_3166_subset>
@@ -8012,9 +8348,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous province">
 	<iso_3166_2_entry
-		code="RS KM"	name="Kosovo-Metohija" />
+		code="RS-KM"	name="Kosovo-Metohija" />
 	<iso_3166_2_entry
-		code="RS VO"	name="Vojvodina" />
+		code="RS-VO"	name="Vojvodina" />
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
@@ -8396,55 +8732,39 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="SD">
 <iso_3166_subset type="state">
 	<iso_3166_2_entry
-		code="SD-26"	name="Al Baḩr al Aḩmar" />
+		code="SD-RS"	name="Al Baḩr al Aḩmar" />
 	<iso_3166_2_entry
-		code="SD-18"	name="Al Buḩayrāt" />
+		code="SD-GZ"	name="Al Jazīrah" />
 	<iso_3166_2_entry
-		code="SD-07"	name="Al Jazīrah" />
+		code="SD-KH"	name="Al Kharţūm" />
 	<iso_3166_2_entry
-		code="SD-03"	name="Al Kharţūm" />
+		code="SD-GD"	name="Al Qaḑārif" />
 	<iso_3166_2_entry
-		code="SD-06"	name="Al Qaḑārif" />
+		code="SD-NR"	name="An Nīl" />
 	<iso_3166_2_entry
-		code="SD-22"	name="Al Waḩdah" />
+		code="SD-NW"	name="An Nīl al Abyaḑ" />
 	<iso_3166_2_entry
-		code="SD-04"	name="An Nīl" />
+		code="SD-NB"	name="An Nīl al Azraq" />
 	<iso_3166_2_entry
-		code="SD-08"	name="An Nīl al Abyaḑ" />
+		code="SD-NO"	name="Ash Shamālīyah" />
 	<iso_3166_2_entry
-		code="SD-24"	name="An Nīl al Azraq" />
+		code="SD-DW"	name="Gharb Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-01"	name="Ash Shamālīyah" />
+		code="SD-DS"	name="Janūb Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-23"	name="A‘ālī an Nīl" />
+		code="SD-KS"	name="Janūb Kurdufān" />
 	<iso_3166_2_entry
-		code="SD-17"	name="Baḩr al Jabal" />
+		code="SD-KA"	name="Kassalā" />
 	<iso_3166_2_entry
-		code="SD-16"	name="Gharb al Istiwā'īyah" />
+		code="SD-DN"	name="Shamāl Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-14"	name="Gharb Baḩr al Ghazāl" />
+		code="SD-KN"	name="Shamāl Kurdufān" />
 	<iso_3166_2_entry
-		code="SD-12"	name="Gharb Dārfūr" />
+		code="SD-DE"	name="Sharq Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-11"	name="Janūb Dārfūr" />
+		code="SD-SI"	name="Sinnār" />
 	<iso_3166_2_entry
-		code="SD-13"	name="Janūb Kurdufān" />
-	<iso_3166_2_entry
-		code="SD-20"	name="Jūnqalī" />
-	<iso_3166_2_entry
-		code="SD-05"	name="Kassalā" />
-	<iso_3166_2_entry
-		code="SD-15"	name="Shamāl Baḩr al Ghazāl" />
-	<iso_3166_2_entry
-		code="SD-02"	name="Shamāl Dārfūr" />
-	<iso_3166_2_entry
-		code="SD-09"	name="Shamāl Kurdufān" />
-	<iso_3166_2_entry
-		code="SD-19"	name="Sharq al Istiwā'īyah" />
-	<iso_3166_2_entry
-		code="SD-25"	name="Sinnār" />
-	<iso_3166_2_entry
-		code="SD-21"	name="Wārāb" />
+		code="SD-DC"	name="Zalingei" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Sweden -->
@@ -8487,7 +8807,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="SE-U"	name="Västmanlands län" />
 	<iso_3166_2_entry
-		code="SE-Q"	name="Västra Götalands län" />
+		code="SE-O"	name="Västra Götalands län" />
 	<iso_3166_2_entry
 		code="SE-T"	name="Örebro län" />
 	<iso_3166_2_entry
@@ -8511,10 +8831,18 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Saint Helena, Ascension and Tristan da Cunha -->
 <iso_3166_country code="SH">
+<iso_3166_subset type="Geographical Entity">
+	<iso_3166_2_entry
+		code="SG-AC"	name="Ascension" />
+	<iso_3166_2_entry
+		code="SG-HL"	name="Saint Helena" />
+	<iso_3166_2_entry
+		code="SG-TA"	name="Tristan da Cunha" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Slovenia -->
 <iso_3166_country code="SI">
-<iso_3166_subset type="Municipalities">
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="SI-001"	name="Ajdovščina" />
 	<iso_3166_2_entry
@@ -8947,7 +9275,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="SK-KI"	name="Košický kraj" />
 	<iso_3166_2_entry
-		code="SK-NJ"	name="Nitriansky kraj" />
+		code="SK-NI"	name="Nitriansky kraj" />
 	<iso_3166_2_entry
 		code="SK-PV"	name="Prešovský kraj" />
 	<iso_3166_2_entry
@@ -9093,6 +9421,31 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="SR-SI"	name="Sipaliwini" />
 	<iso_3166_2_entry
 		code="SR-WA"	name="Wanica" />
+</iso_3166_subset>
+</iso_3166_country>
+	<!-- South Sudan -->
+<iso_3166_country code="SS">
+<iso_3166_subset type="state">
+	<iso_3166_2_entry
+		code="SD-EC"	name="Central Equatoria" />
+	<iso_3166_2_entry
+		code="SD-EE8"	name="Eastern Equatoria" />
+	<iso_3166_2_entry
+		code="SD-JG"	name="Jonglei" />
+	<iso_3166_2_entry
+		code="SD-LK"	name="Lakes" />
+	<iso_3166_2_entry
+		code="SD-BN"	name="Northern Bahr el-Ghazal" />
+	<iso_3166_2_entry
+		code="SD-UY"	name="Unity" />
+	<iso_3166_2_entry
+		code="SD-NU"	name="Upper Nile" />
+	<iso_3166_2_entry
+		code="SD-WR"	name="Warrap" />
+	<iso_3166_2_entry
+		code="SD-BW"	name="Western Bahr el-Ghazal" />
+	<iso_3166_2_entry
+		code="SD-EW"	name="Western Equatoria" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Sao Tome and Principe -->
@@ -9435,7 +9788,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="TL-CO"	name="Cova Lima" />
 	<iso_3166_2_entry
-		code="TL-DI"	name="Dili" />
+		code="TL-DI"	name="Díli" />
 	<iso_3166_2_entry
 		code="TL-ER"	name="Ermera" />
 	<iso_3166_2_entry
@@ -9475,6 +9828,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="TN">
 <iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
+		code="TN-12"	name="Ariana" />
+	<iso_3166_2_entry
 		code="TN-31"	name="Béja" />
 	<iso_3166_2_entry
 		code="TN-13"	name="Ben Arous" />
@@ -9492,8 +9847,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="TN-42"	name="Kasserine" />
 	<iso_3166_2_entry
 		code="TN-73"	name="Kebili" />
-	<iso_3166_2_entry
-		code="TN-12"	name="L'Ariana" />
 	<iso_3166_2_entry
 		code="TN-33"	name="Le Kef" />
 	<iso_3166_2_entry
@@ -9547,7 +9900,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="TR-02"	name="Adıyaman" />
 	<iso_3166_2_entry
-		code="TR-03"	name="Afyon" />
+		code="TR-03"	name="Afyonkarahisar" />
 	<iso_3166_2_entry
 		code="TR-04"	name="Ağrı" />
 	<iso_3166_2_entry
@@ -9621,8 +9974,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="TR-32"	name="Isparta" />
 	<iso_3166_2_entry
-		code="TR-33"	name="İçel" />
-	<iso_3166_2_entry
 		code="TR-34"	name="İstanbul" />
 	<iso_3166_2_entry
 		code="TR-35"	name="İzmir" />
@@ -9658,6 +10009,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="TR-45"	name="Manisa" />
 	<iso_3166_2_entry
 		code="TR-47"	name="Mardin" />
+	<iso_3166_2_entry
+		code="TR-33"	name="Mersin" />
 	<iso_3166_2_entry
 		code="TR-48"	name="Muğla" />
 	<iso_3166_2_entry
@@ -10431,11 +10784,11 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="VN-44"	name="An Giang" />
 	<iso_3166_2_entry
-		code="VN-43"	name="Bà Rịa - Vũng Tàu" />
-	<iso_3166_2_entry
-		code="VN-53"	name="Bắc Kạn" />
+		code="VN-43"	name="Bà Rịa-Vũng Tàu" />
 	<iso_3166_2_entry
 		code="VN-54"	name="Bắc Giang" />
+	<iso_3166_2_entry
+		code="VN-53"	name="Bắc Kạn" />
 	<iso_3166_2_entry
 		code="VN-55"	name="Bạc Liêu" />
 	<iso_3166_2_entry
@@ -10453,11 +10806,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="VN-59"	name="Cà Mau" />
 	<iso_3166_2_entry
-		code="VN-48"	name="Cần Thơ" />
-	<iso_3166_2_entry
 		code="VN-04"	name="Cao Bằng" />
-	<iso_3166_2_entry
-		code="VN-60"	name="Đà Nẵng, thành phố" />
 	<iso_3166_2_entry
 		code="VN-33"	name="Đắc Lắk" />
 	<iso_3166_2_entry
@@ -10475,21 +10824,15 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="VN-63"	name="Hà Nam" />
 	<iso_3166_2_entry
-		code="VN-64"	name="Hà Nội, thủ đô" />
-	<iso_3166_2_entry
 		code="VN-15"	name="Hà Tây" />
 	<iso_3166_2_entry
 		code="VN-23"	name="Hà Tỉnh" />
 	<iso_3166_2_entry
 		code="VN-61"	name="Hải Duong" />
 	<iso_3166_2_entry
-		code="VN-62"	name="Hải Phòng, thành phố" />
-	<iso_3166_2_entry
 		code="VN-73"	name="Hậu Giang" />
 	<iso_3166_2_entry
 		code="VN-14"	name="Hoà Bình" />
-	<iso_3166_2_entry
-		code="VN-65"	name="Hồ Chí Minh, thành phố [Sài Gòn]" />
 	<iso_3166_2_entry
 		code="VN-66"	name="Hưng Yên" />
 	<iso_3166_2_entry
@@ -10556,6 +10899,18 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="VN-70"	name="Vĩnh Phúc" />
 	<iso_3166_2_entry
 		code="VN-06"	name="Yên Bái" />
+</iso_3166_subset>
+<iso_3166_subset type="Municipality">
+	<iso_3166_2_entry
+		code="VN-CT"	name="Cần Thơ" />
+	<iso_3166_2_entry
+		code="VN-DN"	name="Đà Nẵng" />
+	<iso_3166_2_entry
+		code="VN-HN"	name="Hà Nội" />
+	<iso_3166_2_entry
+		code="VN-HP"	name="Hải Phòng" />
+	<iso_3166_2_entry
+		code="VN-SG"	name="Hồ Chí Minh [Sài Gòn]" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Vanuatu -->

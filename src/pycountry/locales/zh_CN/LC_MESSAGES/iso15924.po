@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2009-12-05 19:22+0800\n"
 "Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
 "Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
@@ -221,13 +221,18 @@ msgstr "希伯来语"
 msgid "Hiragana"
 msgstr "平假名"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "杨松录苗文"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "假名"
+#, fuzzy
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "日语"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -272,6 +277,10 @@ msgstr "高棉语"
 #. name for Knda
 msgid "Kannada"
 msgstr "卡纳塔克语"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -362,7 +371,8 @@ msgid "Meroitic Cursive"
 msgstr "麦若提克文"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
 msgstr "麦罗埃文"
 
 #. name for Mlym
@@ -608,6 +618,10 @@ msgstr "泰语"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "藏语"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

@@ -1,30 +1,32 @@
 # Swedish translations of ISO-3166 country names.
-# Copyright (C) 2001, 2003, 2004, 2007, 2008 Free Software Foundation, Inc.
-#
+# Copyright (C) 2001, 2003, 2004, 2007, 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
 # Mattias Newzella <newzella@linux.nu, 2001.
+#  (translations from drakfw)
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Christian Rose <menthos@menthos.com>, 2004.
-# Daniel Nylander <po@danielnylander.se>, 2007.
-# Martin Bagge <martin.bagge@bthstudent.se>, 2008.
+# Daniel Nylander <po@danielnylander.se>, 2007, 2011.
+# Martin Bagge <brother@bsnet.se>, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2008-06-29 15:59+0200\n"
-"Last-Translator: Martin Bagge <martin.bagge@bthstudent.se>\n"
-"Language-Team: swedish <debian-l10n-swedish@lists.debian.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-02-26 17:36+0100\n"
+"Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: Sweden\n"
 
-# AF
 #. name for AFG
 msgid "Afghanistan"
-msgstr "Afganistan"
+msgstr "Afghanistan"
 
 # official_name for PAK
 #. official_name for AFG
@@ -232,11 +234,11 @@ msgstr "Konungariket Bhutan"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr ""
+msgstr "Bolivia, Mångnationella staten"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr ""
+msgstr "Mångnationella staten Bolivia"
 
 # BO
 #. common_name for BOL
@@ -244,8 +246,8 @@ msgid "Bolivia"
 msgstr "Bolivia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius och Saba"
 
 # BA
 #. name for BIH
@@ -474,7 +476,7 @@ msgstr "Republiken Kuba"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "Curaçao"
 
 # CY
 #. name for CYP
@@ -604,10 +606,9 @@ msgstr "Färöarna"
 msgid "Fiji"
 msgstr "Fiji"
 
-# official_name for FJI
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Republiken Fijiöarna"
+msgid "Republic of Fiji"
+msgstr "Republiken Fiji"
 
 # FI
 #. name for FIN
@@ -804,14 +805,9 @@ msgid "Hong Kong Special Administrative Region of China"
 msgstr "Särskilda administrativa regionen Hong Kong inom Kina"
 
 # HU
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Ungern"
-
-# official_name for HUN
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Republiken Ungern"
 
 # IS
 #. name for ISL
@@ -1018,23 +1014,9 @@ msgstr "Liberia"
 msgid "Republic of Liberia"
 msgstr "Republiken Liberia"
 
-# Osäker.
-# name for LBY
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Libyska arabjamahiriya"
-
-# Osäker.
-# official_name for LBY
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Socialistiska libyska folkarabjamahiriya"
-
-# LR
-#. common_name for LBY
-#, fuzzy
+#. name for LBY, official_name for LBY
 msgid "Libya"
-msgstr "Liberia"
+msgstr "Libyen"
 
 # LI
 #. name for LIE
@@ -1198,9 +1180,8 @@ msgid "Federated States of Micronesia"
 msgstr "Federala staterna Mikronesien"
 
 #. name for MDA
-#, fuzzy
 msgid "Moldova, Republic of"
-msgstr "Makedonien, republiken"
+msgstr "Moldavien, republiken"
 
 # official_name for MDA
 #. official_name for MDA
@@ -1256,16 +1237,17 @@ msgstr "Moçambique"
 msgid "Republic of Mozambique"
 msgstr "Republiken Moçambique"
 
-# MM
+# Baserat på wikipediaartikeln om namnet på Burma/Myanmar har jag valt att
+# använda det som anses vara det SVENSKA namnet på landet.
 #. name for MMR
 msgid "Myanmar"
-msgstr "Myanmar"
+msgstr "Burma"
 
-# Osäker.
-# MM
+# Baserat på wikipediaartikeln om namnet på Burma/Myanmar har jag valt att
+# använda det som anses vara det SVENSKA namnet på landet.
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Unionen Myanmar"
+msgid "Republic of Myanmar"
+msgstr "Republiken Burma"
 
 # NA
 #. name for NAM
@@ -1291,7 +1273,6 @@ msgstr "Republiken Nauru"
 msgid "Nepal"
 msgstr "Nepal"
 
-# CD
 #. official_name for NPL
 msgid "Federal Democratic Republic of Nepal"
 msgstr "Demokratiska förbundsrepubliken Nepal"
@@ -1346,13 +1327,9 @@ msgid "Federal Republic of Nigeria"
 msgstr "Förbundsrepubliken Nigeria"
 
 # NU
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Republiken Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1498,7 +1475,7 @@ msgid "State of Qatar"
 msgstr "Staten Qatar"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Réunion"
 
 # RO
@@ -1522,11 +1499,11 @@ msgstr "Rwandiska republiken"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr "St. Barthélemy"
+msgstr "Saint-Barthélemy"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Saint Helena, Ascension och Tristan da Cunha"
 
 # KN
 #. name for KNA
@@ -1540,7 +1517,7 @@ msgstr "Sankt Lucia"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr "St. Martin (Franska delen)"
+msgstr "Saint Martin (franska delen)"
 
 # PM
 #. name for SPM
@@ -1642,15 +1619,9 @@ msgstr "Singapore"
 msgid "Republic of Singapore"
 msgstr "Republiken Singapore"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "St. Barthélemy"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "St. Martin (Franska delen)"
+msgstr "Sint Maarten (nederländska delen)"
 
 # SK
 #. name for SVK
@@ -1739,6 +1710,16 @@ msgstr "Surinam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Republiken Surinam"
+
+# official_name for SDN
+#. name for SSD
+msgid "South Sudan"
+msgstr "Sydsudan"
+
+# official_name for SDN
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Republiken Sydsudan"
 
 # SJ
 #. name for SJM
@@ -1972,9 +1953,8 @@ msgid "Republic of Vanuatu"
 msgstr "Republiken Vanatu"
 
 #. name for VEN
-#, fuzzy
-msgid "Venezuela, Bolivarian republic of"
-msgstr "Boliviska republiken Venezuela"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Venezuela, Bolivarianska republiken"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"

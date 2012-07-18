@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2004-08-08 10:00+0100\n"
 "Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
 "Language-Team: Hawaiian\n"
@@ -200,7 +200,7 @@ msgid "Bolivia"
 msgstr ""
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
 #. name for BIH
@@ -500,7 +500,7 @@ msgid "Fiji"
 msgstr ""
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
+msgid "Republic of Fiji"
 msgstr ""
 
 #. name for FIN
@@ -663,12 +663,8 @@ msgstr ""
 msgid "Hong Kong Special Administrative Region of China"
 msgstr ""
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
-msgstr ""
-
-#. official_name for HUN
-msgid "Republic of Hungary"
 msgstr ""
 
 #. name for ISL
@@ -843,15 +839,7 @@ msgstr ""
 msgid "Republic of Liberia"
 msgstr ""
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr ""
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr ""
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr ""
 
@@ -1040,7 +1028,7 @@ msgid "Myanmar"
 msgstr ""
 
 #. official_name for MMR
-msgid "Union of Myanmar"
+msgid "Republic of Myanmar"
 msgstr ""
 
 #. name for NAM
@@ -1107,12 +1095,8 @@ msgstr ""
 msgid "Federal Republic of Nigeria"
 msgstr ""
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
-msgstr ""
-
-#. official_name for NIU
-msgid "Republic of Niue"
 msgstr ""
 
 #. name for NFK
@@ -1236,7 +1220,7 @@ msgid "State of Qatar"
 msgstr ""
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr ""
 
 #. name for ROU
@@ -1355,11 +1339,7 @@ msgstr ""
 msgid "Republic of Singapore"
 msgstr ""
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr ""
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr ""
 
@@ -1433,6 +1413,14 @@ msgstr ""
 
 #. official_name for SUR
 msgid "Republic of Suriname"
+msgstr ""
+
+#. name for SSD
+msgid "South Sudan"
+msgstr ""
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
 msgstr ""
 
 #. name for SJM
@@ -1624,7 +1612,7 @@ msgid "Republic of Vanuatu"
 msgstr ""
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr ""
 
 #. official_name for VEN

@@ -1,15 +1,15 @@
 # Serbian translation of `iso_3166'.
-# Copyright (C) 2006 Free Software Foundation, Inc.
+# Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
-# Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2010.
 # Milos Komarcevic <kmilos@gmail.com>, Caslav Ilic <caslav.ilic@gmx.net>, 2009.
+# Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2010-03-05 10:57-0500\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-01-12 11:55-0500\n"
 "Last-Translator: Aleksandar Jelenak <aleksandar.jelenak@gmail.com>\n"
 "Language-Team: Serbian <gnu@prevod.org>\n"
 "Language: sr\n"
@@ -198,8 +198,8 @@ msgid "Bolivia"
 msgstr "Bolivija"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Boner, Sveti Eustahije i Saba"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -391,7 +391,7 @@ msgstr "Republika Kuba"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "Kurasao"
 
 #. name for CYP
 msgid "Cyprus"
@@ -498,7 +498,7 @@ msgid "Fiji"
 msgstr "Fidži"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
+msgid "Republic of Fiji"
 msgstr "Republika Fidži"
 
 #. name for FIN
@@ -661,13 +661,9 @@ msgstr "Hong Kong"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "Hong Kong Posebna Upravna Oblast Kine"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Mađarska"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Republika Mađarska"
 
 #. name for ISL
 msgid "Iceland"
@@ -841,15 +837,7 @@ msgstr "Liberija"
 msgid "Republic of Liberia"
 msgstr "Republika Liberija"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Libijska Arapska Džamahirija"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Socijalistička Narodna Libijska Arapska Džamahirija"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "Libija"
 
@@ -1038,8 +1026,8 @@ msgid "Myanmar"
 msgstr "Mjanmar"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Mjanmarska Zajednica"
+msgid "Republic of Myanmar"
+msgstr "Republika Mjanmar"
 
 #. name for NAM
 msgid "Namibia"
@@ -1105,13 +1093,9 @@ msgstr "Nigerija"
 msgid "Federal Republic of Nigeria"
 msgstr "Federativna Republika Nigerija"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Republika Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1234,7 +1218,7 @@ msgid "State of Qatar"
 msgstr "Država Katar"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Reunion"
 
 #. name for ROU
@@ -1255,7 +1239,7 @@ msgstr "Ruandska Republika"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr "Sent Bartelemi"
+msgstr "Sveti Bartolomej"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
@@ -1353,15 +1337,9 @@ msgstr "Singapur"
 msgid "Republic of Singapore"
 msgstr "Republika Singapur"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "Sent Bartelemi"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "Sveti Martin (francuski deo)"
+msgstr "Sveti Martin (holandski deo)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1434,6 +1412,14 @@ msgstr "Surinam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Republika Surinam"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "Južni Sudan"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Republika Južni Sudan"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1624,8 +1610,8 @@ msgid "Republic of Vanuatu"
 msgstr "Republika Vanuatu"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
-msgstr "Bolivarska Republika Venecuela"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Venecuela, Bolivarska Republika"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
@@ -1785,7 +1771,7 @@ msgstr "Rumunija, Socijalistička Republika"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr "Sent Kits-Nevis-Angvila"
+msgstr "Sveti Kits-Nevis-Angvila"
 
 #. historic names for SCG (withdrawn 2006-06-05)
 msgid "Serbia and Montenegro"

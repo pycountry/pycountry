@@ -1,16 +1,16 @@
 # Finnish translations for iso-codes package.
-# Copyright (C) 2009-2010 Free Software Foundation, Inc.
+# Copyright (C) 2009-2011 Free Software Foundation, Inc.
 # Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>.
 #     Translations taken from ICU SVN on 2007-09-09
 # This file is distributed under the same license as the iso-codes package.
-# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2009-2010.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2009-2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
-"PO-Revision-Date: 2010-12-31 23:05+0200\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"PO-Revision-Date: 2011-09-07 16:10+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. name for Afak
 msgid "Afaka"
-msgstr ""
+msgstr "Afaka"
 
 #. name for Arab
 msgid "Arabic"
@@ -215,13 +215,17 @@ msgstr "heprealainen"
 msgid "Hiragana"
 msgstr "hiragana"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "pahawh hmong"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(hiragana tai katakana)"
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "japanilainen tavukirjoitus (alias yhdistelmälle hiragana ja katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -245,7 +249,7 @@ msgstr "japanilainen (alias yhdistelmälle han, hiragana ja katakana)"
 
 #. name for Jurc
 msgid "Jurchen"
-msgstr ""
+msgstr "Džurtšen"
 
 #. name for Kali
 msgid "Kayah Li"
@@ -266,6 +270,10 @@ msgstr "khmeriläinen"
 #. name for Knda
 msgid "Kannada"
 msgstr "kannadalainen"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr "Khojki"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -352,8 +360,8 @@ msgid "Meroitic Cursive"
 msgstr "meroiittinen kursiivi"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr "meroiittinen hieroglyfi"
+msgid "Meroitic Hieroglyphs"
+msgstr "meroiittiset hieroglyfit"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -369,7 +377,7 @@ msgstr "mongolilainen"
 
 #. name for Mroo
 msgid "Mro, Mru"
-msgstr ""
+msgstr "Mro, Mru"
 
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
@@ -397,7 +405,7 @@ msgstr "n'ko"
 
 #. name for Nshu
 msgid "Nüshu"
-msgstr ""
+msgstr "Nüshu"
 
 #. name for Ogam
 msgid "Ogham"
@@ -501,11 +509,11 @@ msgstr "shaw’lainen"
 
 #. name for Shrd
 msgid "Sharada, Śāradā"
-msgstr ""
+msgstr "Sharada, Śāradā"
 
 #. name for Sind
 msgid "Khudawadi, Sindhi"
-msgstr ""
+msgstr "sindhiläinen"
 
 #. name for Sinh
 msgid "Sinhala"
@@ -513,7 +521,7 @@ msgstr "sinhalilainen"
 
 #. name for Sora
 msgid "Sora Sompeng"
-msgstr ""
+msgstr "Sora Sompeng"
 
 #. name for Sund
 msgid "Sundanese"
@@ -545,7 +553,7 @@ msgstr "tagbanwalainen"
 
 #. name for Takr
 msgid "Takri, Ṭākrī, Ṭāṅkrī"
-msgstr ""
+msgstr "Takri, Ṭākrī, Ṭāṅkrī"
 
 #. name for Tale
 msgid "Tai Le"
@@ -561,7 +569,7 @@ msgstr "tamililainen"
 
 #. name for Tang
 msgid "Tangut"
-msgstr ""
+msgstr "tanguutilainen"
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -595,6 +603,10 @@ msgstr "thailainen"
 msgid "Tibetan"
 msgstr "tiibetiläinen"
 
+#. name for Tirh
+msgid "Tirhuta"
+msgstr "Tirhuta"
+
 #. name for Ugar
 msgid "Ugaritic"
 msgstr "ugaritilainen"
@@ -613,7 +625,7 @@ msgstr "varang kshiti"
 
 #. name for Wole
 msgid "Woleai"
-msgstr ""
+msgstr "Woleai"
 
 #. name for Xpeo
 msgid "Old Persian"
