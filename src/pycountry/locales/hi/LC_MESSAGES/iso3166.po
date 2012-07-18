@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2008-10-19 13:15-0500\n"
 "Last-Translator: Kumar Appaiah <kumar.appaiah@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -211,7 +211,7 @@ msgid "Bolivia"
 msgstr "बोलीविया"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
 #. name for BIH
@@ -512,8 +512,9 @@ msgid "Fiji"
 msgstr "फिजी"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "रिपब्लिक ऑफ द फिजी आइलैंड्स"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "रिपब्लिक ऑफ हैती"
 
 #. name for FIN
 msgid "Finland"
@@ -675,13 +676,9 @@ msgstr "हाँग काँग"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "हाँग काँग स्पेशल ऐडमिनिस्ट्रेटिव रीजन ऑफ चाइना"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "हंगरी"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "रिपब्लिक ऑफ हंगरी"
 
 #. name for ISL
 msgid "Iceland"
@@ -856,15 +853,7 @@ msgstr "लाइबेरिया"
 msgid "Republic of Liberia"
 msgstr "रिपब्लिक ऑफ लाइबेरिया"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "लिबियन अरब जम्हूरिया"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "सोशलिस्ट पीपल्स लीबियन अरब जम्हीरिया"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 #, fuzzy
 msgid "Libya"
 msgstr "लाइबेरिया"
@@ -1055,8 +1044,9 @@ msgid "Myanmar"
 msgstr "म्यानमार"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "यूनियन ऑफ म्यान्मार"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "रिपब्लिक ऑफ गुयाना"
 
 #. name for NAM
 msgid "Namibia"
@@ -1122,13 +1112,9 @@ msgstr "नाइजीरिया"
 msgid "Federal Republic of Nigeria"
 msgstr "फेडेरल रिपब्लिक ऑफ नाइजीरिया"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "नियू"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "रिपब्लिक ऑफ नियू"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1251,7 +1237,7 @@ msgid "State of Qatar"
 msgstr "स्टेट ऑफ क़तर"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "रीयूनियन"
 
 #. name for ROU
@@ -1370,12 +1356,7 @@ msgstr "सिंगापुर"
 msgid "Republic of Singapore"
 msgstr "रिपब्लिक ऑफ सिंगापुर"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "सेंट बार्थेलेमी"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 #, fuzzy
 msgid "Sint Maarten (Dutch part)"
 msgstr "सेंट मार्टिन (फ्रेंच भाग)"
@@ -1451,6 +1432,16 @@ msgstr "सूरीनाम"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "रिपब्लिक ऑफ द सूरीनाम"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "रिपब्लिक ऑफ द सूडान"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "रिपब्लिक ऑफ द सूडान"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1643,7 +1634,7 @@ msgstr "रिपब्लिक ऑफ वनुआतू"
 
 #. name for VEN
 #, fuzzy
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "बोलिवारियन रिपब्लिक ऑफ वेनेज़ुएला"
 
 #. official_name for VEN

@@ -7,15 +7,15 @@
 #   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
 #   Translations from KDE:
 #   - Thanomsub Noppaburana <donga@midaassets.com>
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2009
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2011
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2009-08-27 10:43+0700\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2011-08-15 17:09+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -204,8 +204,8 @@ msgid "Bolivia"
 msgstr "โบลิเวีย"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "บอแนร์, เซนต์ยูสเตเชียส และ เซบา"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -397,7 +397,7 @@ msgstr "สาธารณรัฐคิวบา"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "คิวราเซา"
 
 #. name for CYP
 msgid "Cyprus"
@@ -504,8 +504,8 @@ msgid "Fiji"
 msgstr "ฟิจิ"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "สาธารณรัฐหมู่เกาะฟิจิ"
+msgid "Republic of Fiji"
+msgstr "สาธารณรัฐฟิจิ"
 
 #. name for FIN
 msgid "Finland"
@@ -667,13 +667,9 @@ msgstr "ฮ่องกง"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "เขตปกครองพิเศษฮ่องกงของจีน"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ฮังการี"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "สาธารณรัฐฮังการี"
 
 #. name for ISL
 msgid "Iceland"
@@ -847,15 +843,7 @@ msgstr "ไลบีเรีย"
 msgid "Republic of Liberia"
 msgstr "สาธารณรัฐไลบีเรีย"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "ลิเบีย"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "สาธารณรัฐสังคมนิยมประชาชนอาหรับลิเบีย"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "ลิเบีย"
 
@@ -1044,8 +1032,8 @@ msgid "Myanmar"
 msgstr "พม่า"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "สหภาพพม่า"
+msgid "Republic of Myanmar"
+msgstr "สาธารณรัฐพม่า"
 
 #. name for NAM
 msgid "Namibia"
@@ -1111,13 +1099,9 @@ msgstr "ไนจีเรีย"
 msgid "Federal Republic of Nigeria"
 msgstr "สหพันธ์สาธารณรัฐไนจีเรีย"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "นีอูเอ"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "สาธารณรัฐนีอูเอ"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1240,7 +1224,7 @@ msgid "State of Qatar"
 msgstr "รัฐกาตาร์"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "เรอูนียง"
 
 #. name for ROU
@@ -1265,7 +1249,7 @@ msgstr "แซงบาร์เตเลอมี"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "เซนต์เฮเลนา, แอสเซนชัน และ ทริสแตน ดา คูนญา"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1359,15 +1343,9 @@ msgstr "สิงคโปร์"
 msgid "Republic of Singapore"
 msgstr "สาธารณรัฐสิงคโปร์"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "แซงบาร์เตเลอมี"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "แซงมาร์แตง (ส่วนของฝรั่งเศส)"
+msgstr "เซนต์มาร์ติน (ส่วนของดัตช์)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1440,6 +1418,14 @@ msgstr "ซูรินาเม"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "สาธารณรัฐซูรินาเม"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "ซูดานใต้"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "สาธารณรัฐซูดานใต้"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1630,7 +1616,7 @@ msgid "Republic of Vanuatu"
 msgstr "สาธารณรัฐวานูอาตู"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "เวเนซุเอลา, สาธารณรัฐโบลีวาร์แห่ง"
 
 #. official_name for VEN

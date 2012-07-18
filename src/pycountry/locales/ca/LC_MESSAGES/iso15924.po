@@ -1,0 +1,663 @@
+# Translation of ISO 15924 (script names) to Catalan
+# This file is distributed under the same license as the iso-codes package.
+# Copyright ©
+# Toni Hermoso Pulido <toniher@softcatala.org>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_15924\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"PO-Revision-Date: 2012-01-03 18:21+0200\n"
+"Last-Translator: Toni Hermoso Pulido <toniher@softcatala.org>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.0\n"
+
+#. name for Afak
+msgid "Afaka"
+msgstr ""
+
+#. name for Arab
+msgid "Arabic"
+msgstr "àrab"
+
+#. name for Armi
+msgid "Imperial Aramaic"
+msgstr "arameu imperial"
+
+#. name for Armn
+msgid "Armenian"
+msgstr "armeni"
+
+#. name for Avst
+msgid "Avestan"
+msgstr "avèstic"
+
+#. name for Bali
+msgid "Balinese"
+msgstr "balinès"
+
+#. name for Bamu
+msgid "Bamum"
+msgstr ""
+
+#. name for Bass
+msgid "Bassa Vah"
+msgstr ""
+
+#. name for Batk
+msgid "Batak"
+msgstr ""
+
+#. name for Beng
+msgid "Bengali"
+msgstr "bengalí"
+
+#. name for Blis
+msgid "Blissymbols"
+msgstr "símbols Bliss"
+
+#. name for Bopo
+msgid "Bopomofo"
+msgstr ""
+
+#. name for Brah
+msgid "Brahmi"
+msgstr ""
+
+#. name for Brai
+msgid "Braille"
+msgstr "braille"
+
+#. name for Bugi
+msgid "Buginese"
+msgstr ""
+
+#. name for Buhd
+msgid "Buhid"
+msgstr ""
+
+#. name for Cakm
+msgid "Chakma"
+msgstr ""
+
+#. name for Cans
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr ""
+
+#. name for Cari
+msgid "Carian"
+msgstr ""
+
+#. name for Cham
+msgid "Cham"
+msgstr ""
+
+#. name for Cher
+msgid "Cherokee"
+msgstr ""
+
+#. name for Cirt
+msgid "Cirth"
+msgstr ""
+
+#. name for Copt
+msgid "Coptic"
+msgstr "copte"
+
+#. name for Cprt
+msgid "Cypriot"
+msgstr "xipriota"
+
+#. name for Cyrl
+msgid "Cyrillic"
+msgstr "ciríl·lic"
+
+#. name for Cyrs
+msgid "Cyrillic (Old Church Slavonic variant)"
+msgstr ""
+
+#. name for Deva
+msgid "Devanagari (Nagari)"
+msgstr ""
+
+#. name for Dsrt
+msgid "Deseret (Mormon)"
+msgstr ""
+
+#. name for Dupl
+msgid "Duployan shorthand, Duployan stenography"
+msgstr ""
+
+#. name for Egyd
+msgid "Egyptian demotic"
+msgstr "egipci demòtic"
+
+#. name for Egyh
+msgid "Egyptian hieratic"
+msgstr "egipci hieràtic"
+
+#. name for Egyp
+msgid "Egyptian hieroglyphs"
+msgstr "egipci hieroglífic"
+
+#. name for Elba
+msgid "Elbasan"
+msgstr ""
+
+#. name for Ethi
+msgid "Ethiopic (Geʻez)"
+msgstr ""
+
+#. name for Geor
+msgid "Georgian (Mkhedruli)"
+msgstr ""
+
+#. name for Geok
+msgid "Khutsuri (Asomtavruli and Nuskhuri)"
+msgstr ""
+
+#. name for Glag
+msgid "Glagolitic"
+msgstr ""
+
+#. name for Goth
+msgid "Gothic"
+msgstr "gòtic"
+
+#. name for Grek
+msgid "Greek"
+msgstr "grec"
+
+#. name for Gran
+msgid "Grantha"
+msgstr ""
+
+#. name for Gujr
+msgid "Gujarati"
+msgstr ""
+
+#. name for Guru
+msgid "Gurmukhi"
+msgstr ""
+
+#. name for Hang
+msgid "Hangul (Hangŭl, Hangeul)"
+msgstr ""
+
+#. name for Hani
+msgid "Han (Hanzi, Kanji, Hanja)"
+msgstr ""
+
+#. name for Hano
+msgid "Hanunoo (Hanunóo)"
+msgstr ""
+
+#. name for Hans
+msgid "Han (Simplified variant)"
+msgstr "han (variant simplificada)"
+
+#. name for Hant
+msgid "Han (Traditional variant)"
+msgstr "han (variant tradicional)"
+
+#. name for Hebr
+msgid "Hebrew"
+msgstr "hebreu"
+
+#. name for Hira
+msgid "Hiragana"
+msgstr ""
+
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
+#. name for Hmng
+msgid "Pahawh Hmong"
+msgstr ""
+
+#. name for Hrkt
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr ""
+
+#. name for Hung
+msgid "Old Hungarian"
+msgstr ""
+
+#. name for Inds
+msgid "Indus (Harappan)"
+msgstr ""
+
+#. name for Ital
+msgid "Old Italic (Etruscan, Oscan, etc.)"
+msgstr "antic itàlic (etrusc, osc, etc.)"
+
+#. name for Java
+msgid "Javanese"
+msgstr ""
+
+#. name for Jpan
+msgid "Japanese (alias for Han + Hiragana + Katakana)"
+msgstr "japonès (àlies de han + hiragana + katana)"
+
+#. name for Jurc
+msgid "Jurchen"
+msgstr ""
+
+#. name for Kali
+msgid "Kayah Li"
+msgstr ""
+
+#. name for Kana
+msgid "Katakana"
+msgstr ""
+
+#. name for Khar
+msgid "Kharoshthi"
+msgstr ""
+
+#. name for Khmr
+msgid "Khmer"
+msgstr "khmer"
+
+#. name for Knda
+msgid "Kannada"
+msgstr ""
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
+
+#. name for Kore
+msgid "Korean (alias for Hangul + Han)"
+msgstr "coreà (àlies de hangul + han)"
+
+#. name for Kpel
+msgid "Kpelle"
+msgstr ""
+
+#. name for Kthi
+msgid "Kaithi"
+msgstr ""
+
+#. name for Lana
+msgid "Tai Tham (Lanna)"
+msgstr ""
+
+#. name for Laoo
+msgid "Lao"
+msgstr ""
+
+#. name for Latf
+msgid "Latin (Fraktur variant)"
+msgstr ""
+
+#. name for Latg
+msgid "Latin (Gaelic variant)"
+msgstr "llatí (variant gaèlica)"
+
+#. name for Latn
+msgid "Latin"
+msgstr "llatí"
+
+#. name for Lepc
+msgid "Lepcha (Róng)"
+msgstr ""
+
+#. name for Limb
+msgid "Limbu"
+msgstr ""
+
+#. name for Lina
+msgid "Linear A"
+msgstr "lineal A"
+
+#. name for Linb
+msgid "Linear B"
+msgstr "lineal B"
+
+#. name for Lisu
+msgid "Lisu (Fraser)"
+msgstr ""
+
+#. name for Loma
+msgid "Loma"
+msgstr ""
+
+#. name for Lyci
+msgid "Lycian"
+msgstr ""
+
+#. name for Lydi
+msgid "Lydian"
+msgstr ""
+
+#. name for Mand
+msgid "Mandaic, Mandaean"
+msgstr ""
+
+#. name for Mani
+msgid "Manichaean"
+msgstr "maniqueu"
+
+#. name for Maya
+msgid "Mayan hieroglyphs"
+msgstr ""
+
+#. name for Mend
+msgid "Mende"
+msgstr ""
+
+#. name for Merc
+msgid "Meroitic Cursive"
+msgstr ""
+
+#. name for Mero
+msgid "Meroitic Hieroglyphs"
+msgstr ""
+
+#. name for Mlym
+msgid "Malayalam"
+msgstr ""
+
+#. name for Moon
+msgid "Moon (Moon code, Moon script, Moon type)"
+msgstr ""
+
+#. name for Mong
+msgid "Mongolian"
+msgstr "mongol"
+
+#. name for Mroo
+msgid "Mro, Mru"
+msgstr ""
+
+#. name for Mtei
+msgid "Meitei Mayek (Meithei, Meetei)"
+msgstr ""
+
+#. name for Mymr
+msgid "Myanmar (Burmese)"
+msgstr ""
+
+#. name for Narb
+msgid "Old North Arabian (Ancient North Arabian)"
+msgstr ""
+
+#. name for Nbat
+msgid "Nabataean"
+msgstr ""
+
+#. name for Nkgb
+msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
+msgstr ""
+
+#. name for Nkoo
+msgid "N’Ko"
+msgstr ""
+
+#. name for Nshu
+msgid "Nüshu"
+msgstr ""
+
+#. name for Ogam
+msgid "Ogham"
+msgstr ""
+
+#. name for Olck
+msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
+msgstr ""
+
+#. name for Orkh
+msgid "Old Turkic, Orkhon Runic"
+msgstr ""
+
+#. name for Orya
+msgid "Oriya"
+msgstr "oriya"
+
+#. name for Osma
+msgid "Osmanya"
+msgstr ""
+
+#. name for Palm
+msgid "Palmyrene"
+msgstr ""
+
+#. name for Perm
+msgid "Old Permic"
+msgstr ""
+
+#. name for Phag
+msgid "Phags-pa"
+msgstr ""
+
+#. name for Phli
+msgid "Inscriptional Pahlavi"
+msgstr ""
+
+#. name for Phlp
+msgid "Psalter Pahlavi"
+msgstr ""
+
+#. name for Phlv
+msgid "Book Pahlavi"
+msgstr ""
+
+#. name for Phnx
+msgid "Phoenician"
+msgstr "fenici"
+
+#. name for Plrd
+msgid "Miao (Pollard)"
+msgstr ""
+
+#. name for Prti
+msgid "Inscriptional Parthian"
+msgstr ""
+
+#. name for Qaaa
+msgid "Reserved for private use (start)"
+msgstr ""
+
+#. name for Qabx
+msgid "Reserved for private use (end)"
+msgstr ""
+
+#. name for Rjng
+msgid "Rejang (Redjang, Kaganga)"
+msgstr ""
+
+#. name for Roro
+msgid "Rongorongo"
+msgstr ""
+
+#. name for Runr
+msgid "Runic"
+msgstr ""
+
+#. name for Samr
+msgid "Samaritan"
+msgstr ""
+
+#. name for Sara
+msgid "Sarati"
+msgstr ""
+
+#. name for Sarb
+msgid "Old South Arabian"
+msgstr ""
+
+#. name for Saur
+msgid "Saurashtra"
+msgstr ""
+
+#. name for Sgnw
+msgid "SignWriting"
+msgstr ""
+
+#. name for Shaw
+msgid "Shavian (Shaw)"
+msgstr ""
+
+#. name for Shrd
+msgid "Sharada, Śāradā"
+msgstr ""
+
+#. name for Sind
+msgid "Khudawadi, Sindhi"
+msgstr ""
+
+#. name for Sinh
+msgid "Sinhala"
+msgstr ""
+
+#. name for Sora
+msgid "Sora Sompeng"
+msgstr ""
+
+#. name for Sund
+msgid "Sundanese"
+msgstr ""
+
+#. name for Sylo
+msgid "Syloti Nagri"
+msgstr ""
+
+#. name for Syrc
+msgid "Syriac"
+msgstr "siríac"
+
+#. name for Syre
+msgid "Syriac (Estrangelo variant)"
+msgstr ""
+
+#. name for Syrj
+msgid "Syriac (Western variant)"
+msgstr "siríac (variant occidental)"
+
+#. name for Syrn
+msgid "Syriac (Eastern variant)"
+msgstr "siríac (variant oriental)"
+
+#. name for Tagb
+msgid "Tagbanwa"
+msgstr ""
+
+#. name for Takr
+msgid "Takri, Ṭākrī, Ṭāṅkrī"
+msgstr ""
+
+#. name for Tale
+msgid "Tai Le"
+msgstr ""
+
+#. name for Talu
+msgid "New Tai Lue"
+msgstr ""
+
+#. name for Taml
+msgid "Tamil"
+msgstr "tàmil"
+
+#. name for Tang
+msgid "Tangut"
+msgstr ""
+
+#. name for Tavt
+msgid "Tai Viet"
+msgstr ""
+
+#. name for Telu
+msgid "Telugu"
+msgstr ""
+
+#. name for Teng
+msgid "Tengwar"
+msgstr ""
+
+#. name for Tfng
+msgid "Tifinagh (Berber)"
+msgstr "tifinagh (berber)"
+
+#. name for Tglg
+msgid "Tagalog (Baybayin, Alibata)"
+msgstr ""
+
+#. name for Thaa
+msgid "Thaana"
+msgstr "thaana"
+
+#. name for Thai
+msgid "Thai"
+msgstr "tai"
+
+#. name for Tibt
+msgid "Tibetan"
+msgstr "tibetà"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
+
+#. name for Ugar
+msgid "Ugaritic"
+msgstr "ugarític"
+
+#. name for Vaii
+msgid "Vai"
+msgstr ""
+
+#. name for Visp
+msgid "Visible Speech"
+msgstr "parla visible"
+
+#. name for Wara
+msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
+#. name for Wole
+msgid "Woleai"
+msgstr ""
+
+#. name for Xpeo
+msgid "Old Persian"
+msgstr "persa antic"
+
+#. name for Xsux
+msgid "Cuneiform, Sumero-Akkadian"
+msgstr ""
+
+#. name for Yiii
+msgid "Yi"
+msgstr ""
+
+#. name for Zinh
+msgid "Code for inherited script"
+msgstr "codi per a alfabets heretats"
+
+#. name for Zmth
+msgid "Mathematical notation"
+msgstr "notació matemàtica"
+
+#. name for Zsym
+msgid "Symbols"
+msgstr "símbols"
+
+#. name for Zxxx
+msgid "Code for unwritten documents"
+msgstr "codi per a documents no escrits"
+
+#. name for Zyyy
+msgid "Code for undetermined script"
+msgstr "codi per a alfabets no determinats"
+
+#. name for Zzzz
+msgid "Code for uncoded script"
+msgstr "coid per a alfabets no codificats"

@@ -1,19 +1,19 @@
-# Slovenian translations of ISO 3166 place names
-# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+# Slovenian translations of ISO 3166 country names
+# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Translations from KDE:
 # Roman Maurer <roman.maurer@amis.net>, 2002.
-# Primož Peterlin <primozz.peterlin@gmail.com>, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
+# Primož Peterlin <primozz.peterlin@gmail.com>, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 #
-# $Id: iso_3166-3.24.sl.po,v 1.2 2011/01/13 10:23:26 peterlin Exp $
+# $Id: iso_3166-3.34.sl.po,v 1.2 2012/04/12 19:17:49 peterlin Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-01-13 11:23+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-04-12 21:17+0200\n"
 "Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
 "Language: sl\n"
@@ -50,7 +50,6 @@ msgid "Algeria"
 msgstr "Alžirija"
 
 # CD
-# fuzzy
 #. official_name for DZA
 msgid "People's Democratic Republic of Algeria"
 msgstr "Ljudska demokratična republika Alžirija"
@@ -235,8 +234,8 @@ msgid "Bolivia"
 msgstr "Bolivija"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr "Bonaire, Saint Eustatius in Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius in Saba"
 
 # BA
 #. name for BIH
@@ -415,7 +414,6 @@ msgid "Republic of the Congo"
 msgstr "Republika Kongo"
 
 # CD
-# fuzzy
 #. name for COD
 msgid "Congo, The Democratic Republic of the"
 msgstr "Demokratična republika Kongo"
@@ -436,13 +434,11 @@ msgid "Republic of Costa Rica"
 msgstr "Republika Kostarika"
 
 # CI
-# fuzzy
 #. name for CIV
 msgid "Côte d'Ivoire"
 msgstr "Slonokoščena obala"
 
 # CI
-# fuzzy
 #. official_name for CIV
 msgid "Republic of Côte d'Ivoire"
 msgstr "Republika Slonokoščena obala"
@@ -576,7 +572,6 @@ msgid "Ethiopia"
 msgstr "Etiopija"
 
 # CD
-# fuzzy
 #. official_name for ETH
 msgid "Federal Democratic Republic of Ethiopia"
 msgstr "Zvezna demokratična republika Etiopija"
@@ -596,8 +591,9 @@ msgstr "Ferski otoki"
 msgid "Fiji"
 msgstr "Fidži"
 
+# KR
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
+msgid "Republic of Fiji"
 msgstr "Republika Fidži"
 
 # FI
@@ -621,7 +617,6 @@ msgstr "Francoska republika"
 
 # Shouldn't this be French Guyane?
 # GF
-# fuzzy
 #. name for GUF
 msgid "French Guiana"
 msgstr "Francoska Gvajana"
@@ -632,7 +627,6 @@ msgid "French Polynesia"
 msgstr "Francoska Polinezija"
 
 # TF
-# fuzzy
 #. name for ATF
 msgid "French Southern Territories"
 msgstr "Francoska južna ozemlja"
@@ -772,13 +766,11 @@ msgid "Republic of Haiti"
 msgstr "Republika Haiti"
 
 # HM
-# fuzzy
 #. name for HMD
 msgid "Heard Island and McDonald Islands"
 msgstr "Otoki Heard in McDonald"
 
 # VA
-# fuzzy
 #. name for VAT
 msgid "Holy See (Vatican City State)"
 msgstr "Sveti sedež (Vatikanska mestna država)"
@@ -802,13 +794,9 @@ msgid "Hong Kong Special Administrative Region of China"
 msgstr "Hong Kong, posebna administrativna regija Kitajske"
 
 # HU
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Madžarska"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Republika Madžarska"
 
 # IS
 #. name for ISL
@@ -889,7 +877,6 @@ msgstr "Italijanska republika"
 
 # Shouldn't this be "Jamaica"?
 # JM
-# fuzzy
 #. name for JAM
 msgid "Jamaica"
 msgstr "Jamajka"
@@ -914,14 +901,12 @@ msgstr "Hašemitska kraljevina Jordanija"
 
 # Shouldn't this be "Kazakhstan"?
 # KZ
-# fuzzy
 #. name for KAZ
 msgid "Kazakhstan"
 msgstr "Kazahstan"
 
 # Shouldn't this be "Kazakhstan"?
 # KZ
-# fuzzy
 #. official_name for KAZ
 msgid "Republic of Kazakhstan"
 msgstr "Republika Kazahstan"
@@ -970,7 +955,6 @@ msgid "State of Kuwait"
 msgstr "Država Kuvajt"
 
 # KG
-# fuzzy
 #. name for KGZ
 msgid "Kyrgyzstan"
 msgstr "Kirgizistan"
@@ -981,7 +965,6 @@ msgid "Kyrgyz Republic"
 msgstr "Kirgiška republika"
 
 # CD
-# fuzzy
 #. name for LAO
 msgid "Lao People's Democratic Republic"
 msgstr "Laoška ljudska demokratična republika"
@@ -1024,16 +1007,8 @@ msgstr "Liberija"
 msgid "Republic of Liberia"
 msgstr "Republika Liberija"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Libijska arabska džamahirija"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Socialistična ljudska libijska arabska džamahirija"
-
 # LY
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "Libija"
 
@@ -1067,7 +1042,6 @@ msgid "Grand Duchy of Luxembourg"
 msgstr "Veliko vojvodstvo Luksemburg"
 
 # MO
-# fuzzy
 #. name for MAC
 msgid "Macao"
 msgstr "Makao"
@@ -1111,7 +1085,6 @@ msgid "Malaysia"
 msgstr "Malezija"
 
 # MV
-# fuzzy
 #. name for MDV
 msgid "Maldives"
 msgstr "Maldivi"
@@ -1166,14 +1139,12 @@ msgstr "Islamska republika Mavretanija"
 
 # Shouldn't this be "Mauritius"?
 # MU
-# fuzzy
 #. name for MUS
 msgid "Mauritius"
 msgstr "Mavricij"
 
 # Shouldn't this be "Mauritius"?
 # MU
-# fuzzy
 #. official_name for MUS
 msgid "Republic of Mauritius"
 msgstr "Republika Mavricij"
@@ -1262,10 +1233,10 @@ msgstr "Republika Mozambik"
 msgid "Myanmar"
 msgstr "Mjanmar"
 
-# MM
+# KR
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Zveza Mjanmar"
+msgid "Republic of Myanmar"
+msgstr "Republika Mjanmar"
 
 # NA
 #. name for NAM
@@ -1292,7 +1263,6 @@ msgid "Nepal"
 msgstr "Nepal"
 
 # CD
-# fuzzy
 #. official_name for NPL
 msgid "Federal Democratic Republic of Nepal"
 msgstr "Zvezna demokratična republika Nepal"
@@ -1346,14 +1316,9 @@ msgid "Federal Republic of Nigeria"
 msgstr "Zvezna republika Nigerija"
 
 # NU
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-# KR
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Republika Niue"
 
 # NF
 #. name for NFK
@@ -1499,7 +1464,7 @@ msgstr "Država Katar"
 
 # RE
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Reunion"
 
 # RO
@@ -1531,13 +1496,11 @@ msgid "Saint Helena, Ascension and Tristan da Cunha"
 msgstr "Sveta Helena, Ascension in Tristan da Cunha"
 
 # KN
-# fuzzy
 #. name for KNA
 msgid "Saint Kitts and Nevis"
 msgstr "Saint Kitts in Nevis"
 
 # LC
-# fuzzy
 #. name for LCA
 msgid "Saint Lucia"
 msgstr "Saint Lucia"
@@ -1547,13 +1510,11 @@ msgid "Saint Martin (French part)"
 msgstr "Saint Martin (francoski del)"
 
 # PM
-# fuzzy
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
 msgstr "Saint Pierre in Miquelon"
 
 # VC
-# fuzzy
 #. name for VCT
 msgid "Saint Vincent and the Grenadines"
 msgstr "Saint Vincent in Grenadini"
@@ -1645,12 +1606,7 @@ msgstr "Singapur"
 msgid "Republic of Singapore"
 msgstr "Republika Singapur"
 
-# SM
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "Sint Maarten"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "Sint Maarten (nizozemski del)"
 
@@ -1740,6 +1696,15 @@ msgstr "Surinam"
 msgid "Republic of Suriname"
 msgstr "Republika Surinam"
 
+# SD
+#. name for SSD
+msgid "South Sudan"
+msgstr "Južni Sudan"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Republika Južni Sudan"
+
 # SJ
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1817,13 +1782,11 @@ msgid "Kingdom of Thailand"
 msgstr "Kraljevina Tajska"
 
 # TL
-# fuzzy
 #. name for TLS
 msgid "Timor-Leste"
 msgstr "Vzhodni Timor"
 
 # CD
-# fuzzy
 #. official_name for TLS
 msgid "Democratic Republic of Timor-Leste"
 msgstr "Demokratična republika Vzhodni Timor"
@@ -1888,7 +1851,6 @@ msgstr "Turkmenistan"
 
 # Perhaps "Turks and Caicos Islands"?
 # TC
-# fuzzy
 #. name for TCA
 msgid "Turks and Caicos Islands"
 msgstr "Turks in Caicoški otoki"
@@ -1971,7 +1933,7 @@ msgstr "Republika Vanuatu"
 
 # KR
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela, bolivarska republika"
 
 # KR
@@ -1985,42 +1947,37 @@ msgid "Venezuela"
 msgstr "Venezuela"
 
 # VN
-# fuzzy
 #. name for VNM
 msgid "Viet Nam"
 msgstr "Vietnam"
 
+# VN
 #. official_name for VNM
 msgid "Socialist Republic of Viet Nam"
 msgstr "Socialistična republika Vietnam"
 
 # VG
-# fuzzy
 #. name for VGB
 msgid "Virgin Islands, British"
 msgstr "Britanski Deviški otoki"
 
 # VI
-# fuzzy
 #. official_name for VGB
 msgid "British Virgin Islands"
 msgstr "Britanski Deviški otoki"
 
 # VI
-# fuzzy
 #. name for VIR
 msgid "Virgin Islands, U.S."
 msgstr "Ameriški Deviški otoki"
 
 # VG
-# fuzzy
 #. official_name for VIR
 msgid "Virgin Islands of the United States"
 msgstr "Ameriški Deviški otoki"
 
 # This should be Wallis, not Wallace
 # WF
-# fuzzy
 #. name for WLF
 msgid "Wallis and Futuna"
 msgstr "Wallis in Futuna"
@@ -2101,13 +2058,11 @@ msgid "French Afars and Issas"
 msgstr "Francosko ozemlje Afarov in Isov"
 
 # TF
-# fuzzy
 #. historic names for ATF (withdrawn 1979)
 msgid "French Southern and Antarctic Territories"
 msgstr "Francoska južna in antarktična ozemlja"
 
 # CD
-# fuzzy
 #. historic names for DDR (withdrawn 1990-10-30)
 msgid "German Democratic Republic"
 msgstr "Nemška demokratična republika"
@@ -2119,7 +2074,6 @@ msgstr "Zvezna republika Nemčija"
 
 # Perhaps "Turks and Caicos Islands"?
 # TC
-# fuzzy
 #. historic names for GEL (withdrawn 1979)
 msgid "Gilbert and Ellice Islands"
 msgstr "Otoka Gilbert in Ellice"
@@ -2198,7 +2152,6 @@ msgid "Upper Volta, Republic of"
 msgstr "Republika Zgornja Volta"
 
 # VA
-# fuzzy
 #. historic names for VAT (withdrawn 1996-04-03)
 msgid "Vatican City State (Holy See)"
 msgstr "Vatikanska mestna država (Sveti sedež)"

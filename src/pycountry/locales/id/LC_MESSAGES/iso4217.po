@@ -1,9 +1,10 @@
-# Translation of ISO 4217 (currency names) to Indonesian
+# Translation of ISO 4217 (currency names) to Indonesia
 #
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
 # Erwid M Jadied <jadied@gmail.com>, 2008.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2008-12-12 16:46+0700\n"
-"Last-Translator: Erwid M Jadied <jadied@gmail.com>\n"
+"PO-Revision-Date: 2012-01-28 11:34+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -130,9 +131,8 @@ msgid "Canadian Dollar"
 msgstr "Dollar Kanada"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "Franc Comoro"
+msgstr "Franc Komoro"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -743,9 +743,8 @@ msgid "Rand"
 msgstr "rand"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
-msgstr "Kwacha"
+msgstr "Kwacha Zambia"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"

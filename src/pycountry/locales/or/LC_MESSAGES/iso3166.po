@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2010-04-07 12:26+0530\n"
 "Last-Translator: Manoj Kumar Giri <giri.manojkr@gmail.com>\n"
 "Language-Team: Oriya <translation-team-or@lists.sourceforge.net>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
 #. name for AFG
@@ -201,7 +201,7 @@ msgid "Bolivia"
 msgstr "ବୋଲିଭିଆ"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
 #. name for BIH
@@ -501,8 +501,9 @@ msgid "Fiji"
 msgstr "ଫିଜୀ"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "ଫିଜୀ ଦ୍ୱୀପପୁଞ୍ଜ ଗଣତନ୍ତ୍ର"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "ହୈତି ଗଣତନ୍ତ୍ର"
 
 #. name for FIN
 msgid "Finland"
@@ -664,13 +665,9 @@ msgstr "ହଙ୍ଗ କଙ୍ଗ"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "ହଙ୍ଗ କଙ୍ଗ ଚୀନର ବିଶେଷ ପ୍ରଶାସନ ଅଞ୍ଚଳ"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ହଙ୍ଗାରୀ"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "ହଙ୍ଗାରୀ ଗଣତନ୍ତ୍ର"
 
 #. name for ISL
 msgid "Iceland"
@@ -844,15 +841,7 @@ msgstr "ଲାଇବେରିୟା"
 msgid "Republic of Liberia"
 msgstr "ଲାଇବେରିୟା ଗଣତନ୍ତ୍ର"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "ଲିବ୍ୟାନ ଆରବ ଜାମାହିରିଆ"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "ସମାଜବାଦୀ ଜନସାଧାରଣ ଲିବ୍ୟାନ ଆରବ ଜାମାହିରିଆ"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "ଲୀବିୟା"
 
@@ -1041,8 +1030,9 @@ msgid "Myanmar"
 msgstr "ବର୍ମା/ମ୍ଯାଂମାର"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "ମିଳିତ ମ୍ଯାନମାର"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "ଗୁୟାନା ଗଣତନ୍ତ୍ର"
 
 #. name for NAM
 msgid "Namibia"
@@ -1108,13 +1098,9 @@ msgstr "ନିଈଜୀରିୟା"
 msgid "Federal Republic of Nigeria"
 msgstr "ନିଈଜୀରିୟା ଫେଡେରାଲ ଗଣତନ୍ତ୍ର"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "ନୀଓ୍ବେ"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "ନୀୱେ ଗଣତନ୍ତ୍ର"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1237,7 +1223,7 @@ msgid "State of Qatar"
 msgstr "କତାର ରାଜ୍ୟ"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "ରିୟୁନିୟନ"
 
 #. name for ROU
@@ -1356,12 +1342,7 @@ msgstr "ସିଙ୍ଗାପୁର"
 msgid "Republic of Singapore"
 msgstr "ସିଙ୍ଗାପୁର ଗଣତନ୍ତ୍ର"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "ସେଣ୍ଟ ବାର୍ଥେଲେମୀ"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 #, fuzzy
 msgid "Sint Maarten (Dutch part)"
 msgstr "ସେଣ୍ଟ ମାର୍ଟିନ (ଫରାସୀ ଅଂଶ)"
@@ -1437,6 +1418,16 @@ msgstr "ସୂରୀନାମ"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "ସୂରୀନାମ ଗଣତନ୍ତ୍ର"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "ସୂଡାନ ଗଣତନ୍ତ୍ର"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "ସୂଡାନ ଗଣତନ୍ତ୍ର"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1627,7 +1618,7 @@ msgid "Republic of Vanuatu"
 msgstr "ଭାନେତୁ ଗଣତନ୍ତ୍ର"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "ଭେନେଜୁଏଲା, ବୋଲଭେରିଆନ ଗଣତନ୍ତ୍ର"
 
 #. official_name for VEN

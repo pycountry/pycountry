@@ -1,7 +1,5 @@
 # Translation of ISO-3166 (country names) to Traditional Chinese
-#
 # This file is distributed under the same license as the iso-codes package.
-#
 # Copyright (C)
 #   Free Software Foundation, Inc., 2002, 2003
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
@@ -9,23 +7,18 @@
 #   - AceLan <acelan@kde.linux.org.tw>, 2001
 #   - Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001
 #   Tetralet <tetralet@gmail.com> 2004, 2007, 2008, 2009, 2010
-#   趙惟倫 <chaoweilun@gmail.com> 2010
-#
-# 	Sorry, I'm NOT very familiar with international relations,
-# 	All translations are based on Ministry of Finance. R.O.C and Google.
-# 	If you find something improper, please feel free to contact with me. Thanks.
+#   Wei-Lun Chao <chaoweilun@gmail.com> 2010, 2012
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2010-08-12 00:19+0800\n"
-"Last-Translator: Tetralet <tetralet@gmail.com>\n"
-"Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
-"debian.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-04-10 23:13+0800\n"
+"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -211,8 +204,8 @@ msgid "Bolivia"
 msgstr "玻利維亞"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "波內赫、聖尤斯特歇斯及薩巴"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -404,7 +397,7 @@ msgstr "古巴共和國"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "庫拉索"
 
 #. name for CYP
 msgid "Cyprus"
@@ -511,8 +504,8 @@ msgid "Fiji"
 msgstr "斐濟"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "斐濟群島共和國"
+msgid "Republic of Fiji"
+msgstr "斐濟共和國"
 
 #. name for FIN
 msgid "Finland"
@@ -674,13 +667,9 @@ msgstr "香港"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "中國香港特別行政區"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "匈牙利"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "匈牙利共和國"
 
 #. name for ISL
 msgid "Iceland"
@@ -854,15 +843,7 @@ msgstr "賴比瑞亞"
 msgid "Republic of Liberia"
 msgstr "賴比瑞亞共和國"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "利比亞阿拉伯群眾國"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "利比亞阿拉伯社會主義人民群眾國"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "利比亞"
 
@@ -1051,8 +1032,8 @@ msgid "Myanmar"
 msgstr "緬甸"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "緬甸聯邦"
+msgid "Republic of Myanmar"
+msgstr "緬甸共和國"
 
 #. name for NAM
 msgid "Namibia"
@@ -1118,13 +1099,9 @@ msgstr "奈及利亞"
 msgid "Federal Republic of Nigeria"
 msgstr "奈及利亞聯邦共和國"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "紐埃"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "紐埃共和國"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1247,7 +1224,7 @@ msgid "State of Qatar"
 msgstr "卡達國"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "留尼旺島"
 
 #. name for ROU
@@ -1272,7 +1249,7 @@ msgstr "聖巴瑟米"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "聖赫倫那島、阿森松島及崔斯坦達庫尼亞群島"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1284,7 +1261,7 @@ msgstr "聖露西亞"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr "聖馬丁島 (法屬)"
+msgstr "聖馬丁 (法屬)"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
@@ -1366,15 +1343,9 @@ msgstr "新加坡"
 msgid "Republic of Singapore"
 msgstr "新加坡共和國"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "聖巴瑟米"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "聖馬丁島 (法屬)"
+msgstr "聖馬丁 (荷屬)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1447,6 +1418,14 @@ msgstr "蘇利南"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "蘇利南共和國"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "南蘇丹"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "南蘇丹共和國"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1637,7 +1616,7 @@ msgid "Republic of Vanuatu"
 msgstr "萬那杜共和國"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "委內瑞拉玻利瓦爾共和國"
 
 #. official_name for VEN

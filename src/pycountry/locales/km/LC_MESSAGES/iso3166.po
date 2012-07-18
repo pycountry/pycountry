@@ -1,8 +1,6 @@
 # translation of iso-codes_iso_3166_km.po to Khmer
 # Translation of ISO-3166 (country names) to Khmer
-#
 # This file is distributed under the same license as the iso-codes package.
-#
 #   eng vannak <evannak@khmeros.info>, 2006.
 #   auk piseth <piseth_dv@khmeros.info>, 2006.
 #   Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2010.
@@ -12,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
 "PO-Revision-Date: 2010-06-16 14:55+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -21,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"X-Language: km-KH\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -203,8 +202,8 @@ msgid "Bolivia"
 msgstr "បូលីវី"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "បូស្នី ស៊ីន អ៊ីស្តាំធូស និង​សាបា"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -396,7 +395,7 @@ msgstr "សាធារណរដ្ឋ​គុយបា"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "Curaçao"
 
 #. name for CYP
 msgid "Cyprus"
@@ -503,8 +502,8 @@ msgid "Fiji"
 msgstr "ហ្វីហ្ស៊ី"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "សាធារណរដ្ឋ​កោះ​ហ្វីហ្ស៊ី"
+msgid "Republic of Fiji"
+msgstr "សាធារណរដ្ឋ​​ហ្វីជី"
 
 #. name for FIN
 msgid "Finland"
@@ -666,13 +665,9 @@ msgstr "ហុងកុង"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "ហុងកុង​តំបន់​ត្រួតត្រា​ពិសេស​របស់​ចិន"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ហុងគ្រី"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "សាធារណរដ្ឋ​ហុងគ្រី"
 
 #. name for ISL
 msgid "Iceland"
@@ -846,15 +841,7 @@ msgstr "លីបេរីយ៉ា"
 msgid "Republic of Liberia"
 msgstr "សាធារណរដ្ឋ​លីបេរីយ៉ា"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "ចាម៉ាអ៊ិរីយ៉ា​អារ៉ាប់ លីប៊ី"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "សាធារណ​រដ្ឋ​សង្គម​និយម​ចាម៉ាអ៊ិរីយ៉ា​អារ៉ាប់ ​លីប៊ី"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "លីបេរីយ៉ា"
 
@@ -1043,8 +1030,8 @@ msgid "Myanmar"
 msgstr "មីយ៉ាន់ម៉ា"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "សហភាព​មីយ៉ាន់ម៉ា"
+msgid "Republic of Myanmar"
+msgstr "សាធារណរដ្ឋ​មីយ៉ាន់ម៉ា"
 
 #. name for NAM
 msgid "Namibia"
@@ -1110,13 +1097,9 @@ msgstr "នីហ្សេរីយ៉ា"
 msgid "Federal Republic of Nigeria"
 msgstr "សហព័ន្ធ​សាធារណរដ្ឋ​​នីហ្សេរីយ៉ា"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "នីវ"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "សាធារណរដ្ឋ​នីវ"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1239,7 +1222,7 @@ msgid "State of Qatar"
 msgstr "រដ្ឋ​កាតារ"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "រេអុយញ៉ុង"
 
 #. name for ROU
@@ -1358,15 +1341,9 @@ msgstr "សាំងហ្គាពួរ"
 msgid "Republic of Singapore"
 msgstr "សាធារណរដ្ឋ​សាំងហ្គាពួរ"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "សាន​បាទេលេមី"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "សាន​ម៉ាទីន (ផ្នែក​របស់​បារាំង)"
+msgstr "សាន​ម៉ាទីន (ផ្នែក​របស់ហុល្លង់)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1439,6 +1416,14 @@ msgstr "ស៊ូរីណាមី"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "សាធារណរដ្ឋ​ស៊ូរីណាមី"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "ស៊ូដង់​ខាង​ត្បូង"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "សាធារណរដ្ឋ​ស៊ូដង់​ខាង​ត្បូង"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1629,7 +1614,7 @@ msgid "Republic of Vanuatu"
 msgstr "សាធារណរដ្ឋ​វ៉ានុយអាទុយ"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "សាធារណរដ្ឋ​បូលីវី​នៃ​វ៉េណេហ្ស៊ុយអេឡា"
 
 #. official_name for VEN

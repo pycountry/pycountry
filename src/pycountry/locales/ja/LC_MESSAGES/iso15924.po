@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2007-09-09 16:07+0200\n"
 "Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
 "Language-Team: Japanese\n"
@@ -223,12 +223,16 @@ msgstr "ヘブライ文字"
 msgid "Hiragana"
 msgstr "ひらがな"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "パハウ・フモン文字"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
 msgstr ""
 
 #. name for Hung
@@ -274,6 +278,10 @@ msgstr "クメール文字"
 #. name for Knda
 msgid "Kannada"
 msgstr "カンナダ文字"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -365,8 +373,9 @@ msgid "Meroitic Cursive"
 msgstr "メロエ文字"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr ""
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
+msgstr "エジプト聖刻文字"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -613,6 +622,10 @@ msgstr "タイ文字"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "チベット文字"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

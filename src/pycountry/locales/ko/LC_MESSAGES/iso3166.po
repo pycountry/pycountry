@@ -8,15 +8,15 @@
 #   (translations from drakfw)
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #   Sunjae Park <darehanl@gmail.com>, 2006-2007.
-#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010.
+#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-01-10 00:04+0900\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-03-06 23:11+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <translation-team-ko@lists.sourceforge.net>\n"
 "Language: ko\n"
@@ -205,7 +205,7 @@ msgid "Bolivia"
 msgstr "볼리비아"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "보네르, 신트외스타티위스, 사바 섬"
 
 #. name for BIH
@@ -505,8 +505,8 @@ msgid "Fiji"
 msgstr "피지"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "피지 제도 공화국"
+msgid "Republic of Fiji"
+msgstr "피지 공화국"
 
 #. name for FIN
 msgid "Finland"
@@ -668,13 +668,9 @@ msgstr "홍콩"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "홍콩, 중국의 특별 자치 구역"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "헝가리"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "헝가리 공화국"
 
 #. name for ISL
 msgid "Iceland"
@@ -848,15 +844,7 @@ msgstr "라이베리아"
 msgid "Republic of Liberia"
 msgstr "라이베리아 공화국"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "리비아 공화국"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "리비아 인민 사회주의 공화국"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "리비아"
 
@@ -1045,8 +1033,8 @@ msgid "Myanmar"
 msgstr "미얀마"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "미얀마 연방"
+msgid "Republic of Myanmar"
+msgstr "미얀마 공화국"
 
 #. name for NAM
 msgid "Namibia"
@@ -1112,13 +1100,9 @@ msgstr "나이지리아"
 msgid "Federal Republic of Nigeria"
 msgstr "나이지리아 연방 공화국"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "니우에"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "니우에 공화국"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1241,7 +1225,7 @@ msgid "State of Qatar"
 msgstr "카타르"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "레위니옹"
 
 #. name for ROU
@@ -1360,11 +1344,7 @@ msgstr "싱가포르"
 msgid "Republic of Singapore"
 msgstr "싱가포르 공화국"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "신트마르턴"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "신트마르턴 (네덜란드령)"
 
@@ -1439,6 +1419,14 @@ msgstr "수리남"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "수리남 공화국"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "남수단"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "남수단 공화국"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1629,7 +1617,7 @@ msgid "Republic of Vanuatu"
 msgstr "바누아투 공화국"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "베네수엘라 볼리베리안 공화국"
 
 #. official_name for VEN

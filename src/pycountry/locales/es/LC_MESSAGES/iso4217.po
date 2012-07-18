@@ -6,14 +6,14 @@
 # Pablo Saratxaga <pablo@mandrakesoft.com>, 1999-2000.
 # Germán Poo Caamaño <gpoo@ubiobio.cl>, 2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
-# Javier Fernandez-Sanguino <jfs@debian.org>, 2004-2006.
+# Javier Fernandez-Sanguino <jfs@debian.org>, 2004-2011
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2008-06-08 17:57+0200\n"
+"PO-Revision-Date: 2011-09-25 22:16+0200\n"
 "Last-Translator: Javier Fernandez-Sanguino <jfs@debian.org>\n"
 "Language-Team: Spanish <debian-l10n-spanish@lists.debian.org>\n"
 "Language: es\n"
@@ -130,9 +130,8 @@ msgid "Canadian Dollar"
 msgstr "Dólar canadiense"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "Franco comoriano"
+msgstr "Franco congoleño"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -702,7 +701,7 @@ msgstr "Dólar del Caribe oriental"
 
 #. currency_name for XDR
 msgid "Special Drawing Rights"
-msgstr ""
+msgstr "Derechos especiales de giro"
 
 #. currency_name for XFO
 msgid "Gold-Franc"
@@ -745,9 +744,8 @@ msgid "Rand"
 msgstr "Rand"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
-msgstr "Kwacha malawiano"
+msgstr "Kwacha zambiano"
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"
@@ -863,7 +861,7 @@ msgstr "Corona checa"
 
 #. historic currency_name for DDM (withdrawn 1990-09)
 msgid "East German Mark of the GDR"
-msgstr ""
+msgstr "Marco de la República Democrática Alemana"
 
 #. historic currency_name for DEM (withdrawn 2002-03)
 msgid "Deutsche Mark"

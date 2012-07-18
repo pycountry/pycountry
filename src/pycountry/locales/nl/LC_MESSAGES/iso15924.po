@@ -1,4 +1,4 @@
-# translation of iso_15924-3.24.nl.po to Dutch
+# translation of iso_15924-3.35.nl.po to Dutch
 # Translation of ISO 15924 (script names) to Dutch.
 #
 # This file is distributed under the same license as the iso-codes package.
@@ -6,21 +6,21 @@
 #
 # Translations taken from ICU SVN on 2007-09-09.
 # Tobias Toedter <t.toedter@gmx.net>, 2007.
-# Freek de Kruijf <f.de.kruijf@gmail.com>, 2007, 2008, 2009, 2010, 2011.
+# Freek de Kruijf <f.de.kruijf@gmail.com>, 2007, 2008, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
-"PO-Revision-Date: 2011-01-04 00:12+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"PO-Revision-Date: 2012-05-04 16:08+0200\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for Afak
@@ -219,13 +219,18 @@ msgstr "Hebreeuws"
 msgid "Hiragana"
 msgstr "Hiragana"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+"Anatolische hiërogliefen (Luwische hiërogliefen, Hettitische hiërogliefen)"
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Pahawh Hmong"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(alias voor Hiragana + Katakana)"
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "Japanse lettergrepen (alias voor Hiragana + Katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -270,6 +275,10 @@ msgstr "Khmer"
 #. name for Knda
 msgid "Kannada"
 msgstr "Kannada"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr "Khojki"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -356,8 +365,8 @@ msgid "Meroitic Cursive"
 msgstr "Meroïtisch cursief"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr "Meroïtisch hiëroglief"
+msgid "Meroitic Hieroglyphs"
+msgstr "Meroïtische hiërogliefen"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -598,6 +607,10 @@ msgstr "Thais"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "Tibettaans"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr "Tirhuta"
 
 #. name for Ugar
 msgid "Ugaritic"

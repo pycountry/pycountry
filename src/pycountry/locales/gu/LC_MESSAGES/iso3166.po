@@ -6,7 +6,7 @@
 #   - translations from ICU-3.0
 #
 #   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
+#   Kartik Mistry <kartik@debian.org>, 2006, 2007, 2008, 2012.
 #   Ankit Patel <ankit644@yahoo.com>, 2010.
 #   Sweta Kothari <swkothar@redhat.com>, 2010.
 msgid ""
@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2010-04-06 14:42+0530\n"
-"Last-Translator: Ankit Patel <ankit644@yahoo.com>\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-03-12 11:22+0530\n"
+"Last-Translator: Kartik Mistry <kartik@debian.org>\n"
 "Language-Team: Gujarati <indianoss-gujarati@lists.sourceforge.net>\n"
 "Language: gu\n"
 "MIME-Version: 1.0\n"
@@ -206,8 +206,8 @@ msgid "Bolivia"
 msgstr "બોલિવિયા"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "બોનાએર, સિન્ટ ઈસ્ટાટિસુસ એન્ડ સાબા"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
@@ -399,7 +399,7 @@ msgstr "રીપબ્લિક ઓફ ક્યુબા"
 
 #. name for CUW, official_name for CUW
 msgid "Curaçao"
-msgstr ""
+msgstr "કુરાકાઓ"
 
 #. name for CYP
 msgid "Cyprus"
@@ -506,8 +506,8 @@ msgid "Fiji"
 msgstr "ફીજી"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "રીપબ્લિક ઓફ ફીજી આઇલેન્ડ્સ"
+msgid "Republic of Fiji"
+msgstr "રીપબ્લિક ઓફ ફીજી"
 
 #. name for FIN
 msgid "Finland"
@@ -669,13 +669,9 @@ msgstr "હોંગ કોંગ"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "હોંગ કોંગ સ્પેશિયન એડમિનિસ્ટ્રેટિવ રીજીઅન ઓફ ચાઇના"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "હંગેરી"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "રીપબ્લિક ઓફ હંગેરી"
 
 #. name for ISL
 msgid "Iceland"
@@ -849,15 +845,7 @@ msgstr "લાઇબેરિયા"
 msgid "Republic of Liberia"
 msgstr "રીપબ્લિક ઓફ લાઇબેરિયા"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "લીબીયન આરબ જમાહીરીયા"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "સોસ્યાલિસ્ટ પીપલ્સ લીબીયન આરબ જમાહીરીયા"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "લિબયા"
 
@@ -1046,8 +1034,8 @@ msgid "Myanmar"
 msgstr "મ્યાનમાર"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "યુનિયન ઓફ મ્યાનમાર"
+msgid "Republic of Myanmar"
+msgstr "રીપબ્લિક ઓફ મ્યાનમાર"
 
 #. name for NAM
 msgid "Namibia"
@@ -1113,13 +1101,9 @@ msgstr "નાઇજેરિયા"
 msgid "Federal Republic of Nigeria"
 msgstr "ફેડરલ રીપબ્લિક ઓફ નાઇજેરિયા"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "નિયુ"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "રીપબ્લિક ઓફ નિયુ"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1242,7 +1226,7 @@ msgid "State of Qatar"
 msgstr "સ્ટેટ ઓફ કતાર"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "રીયુનિયન"
 
 #. name for ROU
@@ -1361,15 +1345,9 @@ msgstr "સિંગાપુર"
 msgid "Republic of Singapore"
 msgstr "રીપબ્લિક ઓફ સિંગાપુર"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "સેન્ટ બાર્થેલેમિ"
-
-#. official_name for SXM
-#, fuzzy
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "સેન્ટ માર્ટિન (ફ્રેન્ચ વિસ્તાર)"
+msgstr "સિન્ટ માર્ટેન (ડચ વિસ્તાર)"
 
 #. name for SVK
 msgid "Slovakia"
@@ -1442,6 +1420,14 @@ msgstr "સુરિનામ"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "રીપબ્લિક ઓફ સુરિનામ"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "દક્ષિણ સુદાન"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "રીપબ્લિક ઓફ સાઉથ સુદાન"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1632,7 +1618,7 @@ msgid "Republic of Vanuatu"
 msgstr "રીપબ્લિક ઓફ વાનુટુ"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "વેનેઝુએલા, બોલિવિયન રીપબ્લિક ઑફ"
 
 #. official_name for VEN

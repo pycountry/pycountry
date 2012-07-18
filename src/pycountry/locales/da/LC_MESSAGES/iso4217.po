@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2011-04-10 13:58+0200\n"
+"PO-Revision-Date: 2011-06-12 13:58+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -153,9 +153,8 @@ msgid "Canadian Dollar"
 msgstr "Canadisk dollar"
 
 #. currency_name for CDF
-#, fuzzy
 msgid "Congolese Franc"
-msgstr "Comoros-franc"
+msgstr "Congolesisk franc"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -171,7 +170,7 @@ msgstr "WIR-franc"
 
 #. currency_name for CLF
 msgid "Unidades de fomento"
-msgstr ""
+msgstr "Unidades de fomento (børskode)"
 
 #. currency_name for CLP
 msgid "Chilean Peso"
@@ -262,7 +261,6 @@ msgid "Lari"
 msgstr "Lari"
 
 #. currency_name for GHS
-#, fuzzy
 msgid "Ghana Cedi"
 msgstr "Ghanesisk cedi"
 
@@ -462,9 +460,10 @@ msgstr "Kwacha"
 msgid "Mexican Peso"
 msgstr "Mexicansk peso"
 
+# http://en.wikipedia.org/wiki/Mexican_Unidad_de_Inversion
 #. currency_name for MXV
 msgid "Mexican Unidad de Inversion (UDI)"
-msgstr ""
+msgstr "Mexican Unidad de Inversion (UDI)"
 
 #. currency_name for MYR
 msgid "Malaysian Ringgit"
@@ -662,9 +661,10 @@ msgstr "US-dollar (Følgende dag)"
 msgid "US Dollar (Same day)"
 msgstr "US Dollar (Samme dag)"
 
+# http://en.wikipedia.org/wiki/ISO_4217
 #. currency_name for UYI
 msgid "Uruguay Peso en Unidades Indexadas"
-msgstr ""
+msgstr "Uruguay Peso en Unidades Indexadas"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
@@ -676,7 +676,7 @@ msgstr "Usbekisk sum"
 
 #. currency_name for VEF
 msgid "Bolivar Fuerte"
-msgstr ""
+msgstr "Bolivar fuerte"
 
 #. currency_name for VND
 msgid "Dong"
@@ -703,41 +703,36 @@ msgid "Gold"
 msgstr "Guld"
 
 #. currency_name for XBA
-#, fuzzy
 msgid "European Composite Unit (EURCO)"
-msgstr "Europæisk valutaenhed ECU"
+msgstr "Europæisk obligationsenhed (EURCO)"
 
 #. currency_name for XBB
-#, fuzzy
 msgid "European Monetary Unit (E.M.U.-6)"
-msgstr "Europæisk valutaenhed EUM"
+msgstr "Europæisk obligationsenhed (E.M.U.-6)"
 
 #. currency_name for XBC
 msgid "European Unit of Account 9 (E.U.A.-9)"
-msgstr ""
+msgstr "Europæisk obligationsenhed 9 (E.U.A.-9)"
 
 #. currency_name for XBD
 msgid "European Unit of Account 17 (E.U.A.-17)"
-msgstr ""
+msgstr "Europæisk obligationsenhed 17 (E.U.A.-17)"
 
 #. currency_name for XCD
 msgid "East Caribbean Dollar"
 msgstr "Østcaribisk dollar"
 
 #. currency_name for XDR
-#, fuzzy
 msgid "Special Drawing Rights"
-msgstr "Speciel tegningsret"
+msgstr "Specielle tegningsretter"
 
 #. currency_name for XFO
-#, fuzzy
 msgid "Gold-Franc"
-msgstr "Mali-franc"
+msgstr "Guldfranc"
 
 #. currency_name for XFU
-#, fuzzy
 msgid "UIC-Franc"
-msgstr "UIC-Franc"
+msgstr "UIC-franc"
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
@@ -809,12 +804,11 @@ msgstr "Argentinsk austral"
 
 #. historic currency_name for ARM (withdrawn unknown)
 msgid "Argentine peso moneda nacional"
-msgstr ""
+msgstr "Argentinsk peso moneda nacional"
 
 #. historic currency_name for ARL (withdrawn unknown)
-#, fuzzy
 msgid "Argentine peso ley"
-msgstr "Argentinsk peso"
+msgstr "Argentinsk peso ley"
 
 #. historic currency_name for ARP (withdrawn 1985-07)
 msgid "Peso Argentino"
@@ -829,7 +823,6 @@ msgid "Bosnia and Herzegovina Dinar"
 msgstr "Bosnisk og Hercegovensk dinar"
 
 #. historic currency_name for BEC (withdrawn 1990-03)
-#, fuzzy
 msgid "Belgian Franc Convertible"
 msgstr "Belgisk konvertibel franc"
 
@@ -891,7 +884,7 @@ msgstr "Tjekkoslovakisk koruna"
 
 #. historic currency_name for DDM (withdrawn 1990-09)
 msgid "East German Mark of the GDR"
-msgstr ""
+msgstr "Østtyske mark under DDR"
 
 #. historic currency_name for DEM (withdrawn 2002-03)
 msgid "Deutsche Mark"
@@ -903,7 +896,7 @@ msgstr "Ecuadoriansk sucre"
 
 #. historic currency_name for ECV (withdrawn unknown)
 msgid "Ecuador Unidad de Valor Constante UVC"
-msgstr ""
+msgstr "Ecuador Unidad de Valor Constante UVC"
 
 #. historic currency_name for ESA (withdrawn 1981)
 msgid "Spanish Peseta ('A' Account)"
@@ -939,7 +932,7 @@ msgstr "Ækvatorialguineansk ekwele"
 
 #. historic currency_name for GHC (withdrawn unknown)
 msgid "Cedi"
-msgstr ""
+msgstr "Cedi"
 
 #. historic currency_name for GRD (withdrawn 2002-03)
 msgid "Greek Drachma"
@@ -1131,7 +1124,7 @@ msgstr "Europæisk valutaenhed ECU"
 
 #. historic currency_name for XRE (withdrawn 1999-11)
 msgid "RINET Funds Code"
-msgstr ""
+msgstr "RINET-obligationskode"
 
 #. historic currency_name for YDD (withdrawn 1991-09)
 msgid "Yemeni Dinar"

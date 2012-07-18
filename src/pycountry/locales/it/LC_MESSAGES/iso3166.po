@@ -1,5 +1,5 @@
 # Translation of ISO-3166 (country names) to Italian
-# Copyright (C) 2004-2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+# Copyright (C) 2004-2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Andrea Scialpi <solopec@tiscalinet.it>, 2001
 # (translations from drakfw)
@@ -7,20 +7,21 @@
 # Danilo Piazzalunga <danilopiazza@libero.it>, 2004
 # Davide Viti <zinosat@tiscali.it>, 2006
 #
-# Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010, 2011.
+# Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-01-11 22:04+0100\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-03-05 09:22+0100\n"
 "Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -204,7 +205,7 @@ msgid "Bolivia"
 msgstr "Bolivia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Saint Eustatius e Saba"
 
 #. name for BIH
@@ -505,11 +506,11 @@ msgstr "Isole Fær Øer"
 
 #. name for FJI
 msgid "Fiji"
-msgstr "Figi"
+msgstr "Fiji"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Repubblica delle Isole Figi"
+msgid "Republic of Fiji"
+msgstr "Repubblica di Fiji"
 
 #. name for FIN
 msgid "Finland"
@@ -671,13 +672,9 @@ msgstr "Hong Kong"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "Regione amministrativa speciale cinese di Hong Kong"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Ungheria"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Repubblica di Ungheria"
 
 #. name for ISL
 msgid "Iceland"
@@ -855,15 +852,7 @@ msgstr "Liberia"
 msgid "Republic of Liberia"
 msgstr "Repubblica di Liberia"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Libia"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Gran Giamahiria araba libica popolare socialista"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "Libia"
 
@@ -1054,8 +1043,8 @@ msgid "Myanmar"
 msgstr "Myanmar"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Unione di Myanmar"
+msgid "Republic of Myanmar"
+msgstr "Repubblica cooperativistica di Myanmar"
 
 #. name for NAM
 msgid "Namibia"
@@ -1121,13 +1110,9 @@ msgstr "Nigeria"
 msgid "Federal Republic of Nigeria"
 msgstr "Repubblica federale della Nigeria"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Repubblica di Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1252,7 +1237,7 @@ msgid "State of Qatar"
 msgstr "Stato del Qatar"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Riunione"
 
 #. name for ROU
@@ -1373,11 +1358,7 @@ msgstr "Singapore"
 msgid "Republic of Singapore"
 msgstr "Repubblica di Singapore"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "Sint Maarten"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "Sint Maarten (parte danese)"
 
@@ -1452,6 +1433,14 @@ msgstr "Suriname"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Repubblica di Suriname"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "Sudan meridionale"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Repubblica del Sudan meridionale"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1648,8 +1637,8 @@ msgid "Republic of Vanuatu"
 msgstr "Repubblica di Vanuatu"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
-msgstr "Repubblica bolivariana del Venezuela"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Venezuela, Repubblica bolivariana"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"

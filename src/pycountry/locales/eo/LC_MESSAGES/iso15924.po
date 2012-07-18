@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2010-12-08 23:07+0000\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -215,13 +215,18 @@ msgstr "Hebrea"
 msgid "Hiragana"
 msgstr "Rondaj kanaoj"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Skribo de Pahawh"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "Kanaoj"
+#, fuzzy
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "Japana (= Hana + Rondaj kanaoj + Strekaj kanaoj)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -266,6 +271,10 @@ msgstr "Kmera"
 #. name for Knda
 msgid "Kannada"
 msgstr "Kanara"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -352,7 +361,8 @@ msgid "Meroitic Cursive"
 msgstr "Meroa kursiva"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
 msgstr "Merota hieroglifa"
 
 #. name for Mlym
@@ -594,6 +604,10 @@ msgstr "Taja"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "Tibeta"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

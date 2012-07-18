@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2009-05-10 00:01+0200\n"
 "Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -219,13 +219,18 @@ msgstr "hebrejska pisava"
 msgid "Hiragana"
 msgstr "hiragana"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "hmonška pisava"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(oznaka za hiragana + katakana)"
+#, fuzzy
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "japonska pisava (han + hiragana + katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -270,6 +275,10 @@ msgstr "kmerska pisava"
 #. name for Knda
 msgid "Kannada"
 msgstr "kanarejska pisava"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -358,8 +367,9 @@ msgid "Meroitic Cursive"
 msgstr "meroitska pisava"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr ""
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
+msgstr "egipčanska hieroglifna pisava"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -601,6 +611,10 @@ msgstr "tajska pisava"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "tibetanska pisava"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

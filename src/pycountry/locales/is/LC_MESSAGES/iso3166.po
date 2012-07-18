@@ -1,26 +1,27 @@
-# translation of iso_3166-3.25.is.po to Icelandic
+# translation of iso_3166-3.32.is.po to Icelandic
 # Icelandic translations of ISO 3166 place names
 # This file is distributed under the same license as the iso-codes package.
 # Copyright (C) 2002,2003, 2010, 2011 Free Software Foundation, Inc.
 # Translations taken from KDE:
-#  Þórarinn Rúnar Einarsson <thori@mindspring.com>
+# Þórarinn Rúnar Einarsson <thori@mindspring.com>
 #
 # Alastair McKinstry, <mckinstry@computer.org>, 2002.
-# Sveinn í Felli <sveinki@nett.is>, 2010, 2011.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-05-11 20:46+0000\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2012-01-09 08:29+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 # AF
 #. name for AFG
@@ -237,7 +238,7 @@ msgid "Bolivia"
 msgstr "Bólivía"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Sankti Eustatius og Saba"
 
 # BA
@@ -603,9 +604,11 @@ msgstr "Færeyjar"
 msgid "Fiji"
 msgstr "Fídjieyjar"
 
+# KR
+# fuzzy
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Lýðveldi Fídjieyja"
+msgid "Republic of Fiji"
+msgstr "Lýðveldið Fídji"
 
 # FI
 #. name for FIN
@@ -814,13 +817,9 @@ msgid "Hong Kong Special Administrative Region of China"
 msgstr "Hong Kong sérstakt stjórnsýslusvæði Kína"
 
 # HU
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "Ungverjaland"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "Lýðveldið Ungverjaland"
 
 # IS
 #. name for ISL
@@ -1045,16 +1044,8 @@ msgstr "Líbería"
 msgid "Republic of Liberia"
 msgstr "Lýðveldið Líbería"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "Líbýa arabíska Jamahiriya"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Líbýska sósíalískt alþýðuríki araba Jamahiriya"
-
 # LY
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "Líbýa"
 
@@ -1288,11 +1279,11 @@ msgstr "Lýðveldið Mósambík"
 msgid "Myanmar"
 msgstr "Mjanmar"
 
-# MM
+# KR
 # fuzzy
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Mjanmar-sambandið"
+msgid "Republic of Myanmar"
+msgstr "Lýðveldið Mjanmar"
 
 # NA
 #. name for NAM
@@ -1377,15 +1368,9 @@ msgid "Federal Republic of Nigeria"
 msgstr "Sambandslýðveldið Nígería"
 
 # NU
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-# KR
-# fuzzy
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Lýðveldið Níue"
 
 # NF
 #. name for NFK
@@ -1537,7 +1522,7 @@ msgstr "Katarríki"
 
 # RE
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "Réunion"
 
 # RO
@@ -1680,11 +1665,7 @@ msgstr "Singapúr"
 msgid "Republic of Singapore"
 msgstr "Lýðveldið Singapúr"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "Sankti Maarten"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "Sankti Maarten (hollenski hluti)"
 
@@ -1775,6 +1756,16 @@ msgstr "Súrínam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Lýðveldið Súrínam"
+
+# SD
+# fuzzy
+#. name for SSD
+msgid "South Sudan"
+msgstr "Suður-súdan"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "Lýðveldið Suður-súdan"
 
 # SJ
 #. name for SJM
@@ -2011,7 +2002,7 @@ msgid "Republic of Vanuatu"
 msgstr "Lýðveldið Vanuatú"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venesúela, bólívaríska lýðveldið"
 
 # KR

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
+"POT-Creation-Date: 2012-02-09 22:36+0100\n"
 "PO-Revision-Date: 2008-05-17 21:01+0300\n"
 "Last-Translator: Gintautas Miliauskas <gintas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -217,13 +217,18 @@ msgstr "Hebrajų"
 msgid "Hiragana"
 msgstr "Hiragana"
 
+#. name for Hluw
+msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
+msgstr ""
+
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Pahawh Hmong"
 
 #. name for Hrkt
-msgid "(alias for Hiragana + Katakana)"
-msgstr "(Hiragana + Katakana sinonimas)"
+#, fuzzy
+msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
+msgstr "Japonų (Han + Hiragana + Katakana)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -268,6 +273,10 @@ msgstr "Khmerų"
 #. name for Knda
 msgid "Kannada"
 msgstr "Kannada"
+
+#. name for Khoj
+msgid "Khojki"
+msgstr ""
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -355,8 +364,9 @@ msgid "Meroitic Cursive"
 msgstr "Meroitų"
 
 #. name for Mero
-msgid "Meroitic Hieroglyphic"
-msgstr ""
+#, fuzzy
+msgid "Meroitic Hieroglyphs"
+msgstr "Egipto hieroglifai"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -599,6 +609,10 @@ msgstr "Tajų"
 #. name for Tibt
 msgid "Tibetan"
 msgstr "Tibetiečių"
+
+#. name for Tirh
+msgid "Tirhuta"
+msgstr ""
 
 #. name for Ugar
 msgid "Ugaritic"

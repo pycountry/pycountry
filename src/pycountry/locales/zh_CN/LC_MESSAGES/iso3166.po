@@ -8,7 +8,7 @@
 #   Translations taken from KDE:
 #   - Wang Jian <lark@linux.net.cn>, 2000.
 #   - Carlos Z.F. Liu <carlosliu@users.sourceforge.net>, 2004 - 2006.
-#   LI Daobing <lidaobing@gmail.com>, 2007, 2008, 2009, 2010.
+#   LI Daobing <lidaobing@gmail.com>, 2007, 2008, 2009, 2010, 2011.
 # YunQiang Su <wzssyqa@gmail.com>, 2011.
 #
 msgid ""
@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-04-15 12:13+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2011-09-29 22:29+0800\n"
+"Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -207,7 +207,7 @@ msgid "Bolivia"
 msgstr "波利维亚"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "博奈尔、圣尤斯特歇斯岛和萨巴"
 
 #. name for BIH
@@ -507,8 +507,8 @@ msgid "Fiji"
 msgstr "斐济"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "斐济群岛共和国"
+msgid "Republic of Fiji"
+msgstr "斐济共和国"
 
 #. name for FIN
 msgid "Finland"
@@ -670,13 +670,9 @@ msgstr "香港"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "中国香港特别行政区"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "匈牙利"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "匈牙利共和国"
 
 #. name for ISL
 msgid "Iceland"
@@ -850,15 +846,7 @@ msgstr "利比里亚"
 msgid "Republic of Liberia"
 msgstr "利比里亚共和国"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "利比亚阿拉伯共和国"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "大阿拉伯利比亚人民社会主义民众国"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "利比亚"
 
@@ -1047,8 +1035,8 @@ msgid "Myanmar"
 msgstr "缅甸"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "缅甸联邦"
+msgid "Republic of Myanmar"
+msgstr "缅甸联邦共和国"
 
 #. name for NAM
 msgid "Namibia"
@@ -1114,13 +1102,9 @@ msgstr "尼日利亚"
 msgid "Federal Republic of Nigeria"
 msgstr "尼日利亚联邦共和国"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "纽埃"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "纽埃共和国"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1243,7 +1227,7 @@ msgid "State of Qatar"
 msgstr "卡塔尔国"
 
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "留尼汪"
 
 #. name for ROU
@@ -1362,11 +1346,7 @@ msgstr "新加坡"
 msgid "Republic of Singapore"
 msgstr "新加坡共和国"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "圣马丁"
-
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "荷属圣马丁"
 
@@ -1441,6 +1421,14 @@ msgstr "苏里南"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "苏里南共和国"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "南苏丹"
+
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "南苏丹共和国"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1631,7 +1619,7 @@ msgid "Republic of Vanuatu"
 msgstr "瓦努阿图共和国"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "委内瑞拉玻利瓦尔共和国"
 
 #. official_name for VEN

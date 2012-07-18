@@ -2,7 +2,7 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # translation:
-# Ivan Masár <helix84@centrum.sk>, 2007.
+# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011.
 # bronto, 2007.
 #
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2007-08-08 14:37+0100\n"
+"PO-Revision-Date: 2011-11-21 11:42+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -44,9 +44,8 @@ msgid "Adyghe; Adygei"
 msgstr "adygčina; adygejčina"
 
 #. name for afa
-#, fuzzy
 msgid "Afro-Asiatic languages"
-msgstr "apačské jazyky"
+msgstr "afroázijské jazyky"
 
 #. name for afh
 msgid "Afrihili"
@@ -108,7 +107,7 @@ msgstr "arabčina"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr ""
+msgstr "úradná aramejčina (700-300 pred Kr.)"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -127,9 +126,8 @@ msgid "Arapaho"
 msgstr "arapaho"
 
 #. name for art
-#, fuzzy
 msgid "Artificial languages"
-msgstr "oto-pameské jazyky okrem pameských jazykov"
+msgstr "umelé jazyky"
 
 #. name for arw
 msgid "Arawak"
@@ -141,7 +139,7 @@ msgstr "ásámčina"
 
 #. name for ast
 msgid "Asturian; Bable; Leonese; Asturleonese"
-msgstr ""
+msgstr "astúrčina; bable; leónčina; astúrčina-leónčina"
 
 #. name for ath
 msgid "Athapascan languages"
@@ -204,13 +202,13 @@ msgid "Basa"
 msgstr "basa"
 
 #. name for bat
-#, fuzzy
 msgid "Baltic languages"
-msgstr "batacké jazyky"
+msgstr "baltské jazyky"
 
 #. name for bej
+#, fuzzy
 msgid "Beja; Bedawiyet"
-msgstr ""
+msgstr "bedža"
 
 #. name for bel, be
 msgid "Belarusian"
@@ -225,18 +223,16 @@ msgid "Bengali"
 msgstr "bengálčina"
 
 #. name for ber
-#, fuzzy
 msgid "Berber languages"
-msgstr "karenské jazyky"
+msgstr "berberské jazyky"
 
 #. name for bho
 msgid "Bhojpuri"
 msgstr "bhódžpurčina"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "jazyky tupi"
+msgstr "bihárske jazyky"
 
 # plurál
 #. name for bik
@@ -256,9 +252,8 @@ msgid "Siksika"
 msgstr "siksika"
 
 #. name for bnt
-#, fuzzy
 msgid "Bantu languages"
-msgstr "jazyky banda"
+msgstr "bantuské jazyky"
 
 #. name for bos, bs
 msgid "Bosnian"
@@ -301,9 +296,8 @@ msgid "Caddo"
 msgstr "kaddo"
 
 #. name for cai
-#, fuzzy
 msgid "Central American Indian languages"
-msgstr "indiánske jazyky strednej Ameriky (iné)"
+msgstr "indiánske jazyky strednej Ameriky"
 
 #. name for car
 msgid "Galibi Carib"
@@ -314,18 +308,16 @@ msgid "Catalan; Valencian"
 msgstr "katalánčina; valencijčina"
 
 #. name for cau
-#, fuzzy
 msgid "Caucasian languages"
-msgstr "wakašské jazyky"
+msgstr "kaukazské jazyky"
 
 #. name for ceb
 msgid "Cebuano"
 msgstr "cebuánčina"
 
 #. name for cel
-#, fuzzy
 msgid "Celtic languages"
-msgstr "čamaské jazyky"
+msgstr "keltské jazyky"
 
 #. name for cha, ch
 msgid "Chamorro"
@@ -364,8 +356,9 @@ msgid "Choctaw"
 msgstr "čoktavčina"
 
 #. name for chp
+#, fuzzy
 msgid "Chipewyan; Dene Suline"
-msgstr ""
+msgstr "čipevajčina"
 
 #. name for chr
 msgid "Cherokee"
@@ -402,19 +395,16 @@ msgid "Corsican"
 msgstr "korzičtina"
 
 #. name for cpe
-#, fuzzy
 msgid "Creoles and pidgins, English based"
-msgstr "kreolské jazyky a pidžiny na základe angličtiny (iné)"
+msgstr "kreolské jazyky a pidžiny na základe angličtiny"
 
 #. name for cpf
-#, fuzzy
 msgid "Creoles and pidgins, French-based"
-msgstr "kreolské jazyky a pidžiny na základe francúzštiny (iné)"
+msgstr "kreolské jazyky a pidžiny na základe francúzštiny"
 
 #. name for cpp
-#, fuzzy
 msgid "Creoles and pidgins, Portuguese-based"
-msgstr "kreolské jazyky a pidžiny na základe portugalčiny (iné)"
+msgstr "kreolské jazyky a pidžiny na základe portugalčiny"
 
 #. name for cre, cr
 msgid "Cree"
@@ -425,18 +415,16 @@ msgid "Crimean Tatar; Crimean Turkish"
 msgstr "krymská tatárčina; krymská turečtina"
 
 #. name for crp
-#, fuzzy
 msgid "Creoles and pidgins"
-msgstr "kreolské jazyky a pidžiny (iné)"
+msgstr "kreolské jazyky a pidžiny"
 
 #. name for csb
 msgid "Kashubian"
 msgstr "kašubčina"
 
 #. name for cus
-#, fuzzy
 msgid "Cushitic languages"
-msgstr "čamaské jazyky"
+msgstr "kušitské jazyky"
 
 #. name for ces, cs
 msgid "Czech"
@@ -485,9 +473,8 @@ msgid "Dogri"
 msgstr "dógrí"
 
 #. name for dra
-#, fuzzy
 msgid "Dravidian languages"
-msgstr "lužickosrbské jazyky"
+msgstr ""
 
 #. name for dsb
 msgid "Lower Sorbian"
@@ -578,9 +565,8 @@ msgid "Finnish"
 msgstr "fínčina"
 
 #. name for fiu
-#, fuzzy
 msgid "Finno-Ugrian languages"
-msgstr "lužickosrbské jazyky"
+msgstr "ugrofínske jazyky"
 
 #. name for fon
 msgid "Fon"
@@ -632,9 +618,8 @@ msgid "Gbaya"
 msgstr "gbaja"
 
 #. name for gem
-#, fuzzy
 msgid "Germanic languages"
-msgstr "čamaské jazyky"
+msgstr "germánske jazyky"
 
 #. name for kat, ka
 msgid "Georgian"
@@ -706,9 +691,8 @@ msgid "Guarani"
 msgstr "guaraní"
 
 #. name for gsw
-#, fuzzy
 msgid "Swiss German; Alemannic; Alsatian"
-msgstr "švajčiarska nemčina; alemančina"
+msgstr "švajčiarska nemčina; alemančina; alsaština"
 
 # http://209.85.129.104/search?q=cache:VS8RqjDUI34J:https://www.kis3g.sk/kodovniky/Kody_jazykovM04def.doc+afar%C4%8Dina&hl=sk&ct=clnk&cd=1&gl=sk&client=firefox-a
 # http://www.ethnologue.com/14/iso639/codes.asp
@@ -762,9 +746,8 @@ msgid "Hittite"
 msgstr "chetitčina"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
-msgstr "miaočina"
+msgstr ""
 
 #. name for hmo, ho
 msgid "Hiri Motu"
@@ -830,18 +813,16 @@ msgid "Interlingua (International Auxiliary Language Association)"
 msgstr "interlingua (International Auxiliary Language Association)"
 
 #. name for inc
-#, fuzzy
 msgid "Indic languages"
-msgstr "jazyky banda"
+msgstr "indické jazyky"
 
 #. name for ind, id
 msgid "Indonesian"
 msgstr "indonézština"
 
 #. name for ine
-#, fuzzy
 msgid "Indo-European languages"
-msgstr "irokézske jazyky"
+msgstr "indoeurópske jazyky"
 
 #. name for inh
 msgid "Ingush"
@@ -852,9 +833,8 @@ msgid "Inupiaq"
 msgstr "inupiaq"
 
 #. name for ira
-#, fuzzy
 msgid "Iranian languages"
-msgstr "irokézske jazyky"
+msgstr "iránske jazyky"
 
 #. name for iro
 msgid "Iroquoian languages"
@@ -937,9 +917,8 @@ msgid "Khasi"
 msgstr "khasijčina"
 
 #. name for khi
-#, fuzzy
 msgid "Khoisan languages"
-msgstr "oto-pameské jazyky okrem pameských jazykov"
+msgstr "khoisanské jazyky"
 
 #. name for khm, km
 msgid "Central Khmer"
@@ -1140,9 +1119,8 @@ msgid "Maori"
 msgstr "maorčina"
 
 #. name for map
-#, fuzzy
 msgid "Austronesian languages"
-msgstr "austrálske jazyky"
+msgstr "austronézske jazyky"
 
 #. name for mar, mr
 msgid "Marathi"
@@ -1181,14 +1159,12 @@ msgid "Minangkabau"
 msgstr "minangkabaučina"
 
 #. name for mis
-#, fuzzy
 msgid "Uncoded languages"
-msgstr "zandské jazyky"
+msgstr "jazyky bez kódu"
 
 #. name for mkh
-#, fuzzy
 msgid "Mon-Khmer languages"
-msgstr "jazyky kru"
+msgstr "monsko-khmérske jazyky"
 
 #. name for mlg, mg
 msgid "Malagasy"
@@ -1260,7 +1236,6 @@ msgstr "nahuaské jazyky"
 
 # keď si dal indiánske jazyky strednej Ameriky namiesto mezoamerické jazyky strednej Ameriky (čo nemusí byť nevyhnutne to isté) tak aby to bolo konzistentné
 #. name for nai
-#, fuzzy
 msgid "North American Indian languages"
 msgstr "indiánske jazyky severnej Ameriky"
 
@@ -1305,9 +1280,8 @@ msgid "Nias"
 msgstr "niasánčina"
 
 #. name for nic
-#, fuzzy
 msgid "Niger-Kordofanian languages"
-msgstr "nigersko-kordofánske jazyky (iné)"
+msgstr "nigersko-kordofánske jazyky"
 
 #. name for niu
 msgid "Niuean"
@@ -1319,7 +1293,7 @@ msgstr "nórsky nynorsk; nynorsk, nórsky"
 
 #. name for nob, nb
 msgid "Bokmål, Norwegian; Norwegian Bokmål"
-msgstr ""
+msgstr "bokmål, nórsky; nórsky bokmål"
 
 #. name for nog
 msgid "Nogai"
@@ -1339,7 +1313,7 @@ msgstr "N'ko"
 
 #. name for nso
 msgid "Pedi; Sepedi; Northern Sotho"
-msgstr ""
+msgstr "pedi; sepedi; severná sothčina"
 
 #. name for nub
 msgid "Nubian languages"
@@ -1370,9 +1344,8 @@ msgid "Nzima"
 msgstr "nzima"
 
 #. name for oci, oc
-#, fuzzy
 msgid "Occitan (post 1500)"
-msgstr "okcitánčina (po roku 1500); provensalčina"
+msgstr "okcitánčina (po roku 1500)"
 
 #. name for oji, oj
 msgid "Ojibwa"
@@ -1403,9 +1376,8 @@ msgid "Otomian languages"
 msgstr "oto-pameské jazyky okrem pameských jazykov"
 
 #. name for paa
-#, fuzzy
 msgid "Papuan languages"
-msgstr "mayské jazyky"
+msgstr "papuánske jazyky"
 
 #. name for pag
 msgid "Pangasinan"
@@ -1416,8 +1388,9 @@ msgid "Pahlavi"
 msgstr "pahlaví"
 
 #. name for pam
+#, fuzzy
 msgid "Pampanga; Kapampangan"
-msgstr ""
+msgstr "pampangančina"
 
 #. name for pan, pa
 msgid "Panjabi; Punjabi"
@@ -1440,9 +1413,8 @@ msgid "Persian"
 msgstr "perzština"
 
 #. name for phi
-#, fuzzy
 msgid "Philippine languages"
-msgstr "viaceré jazyky"
+msgstr "filipínske jazyky"
 
 #. name for phn
 msgid "Phoenician"
@@ -1469,14 +1441,12 @@ msgid "Prakrit languages"
 msgstr "prakrity"
 
 #. name for pro
-#, fuzzy
 msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
-msgstr "provensalčina, stará (do 1500)"
+msgstr "provensalčina, stará (do 1500); okcitánčina, stará (do roku 1500)"
 
 #. name for pus, ps
-#, fuzzy
 msgid "Pushto; Pashto"
-msgstr "paštčina"
+msgstr "paštčina; afgančina; paštó"
 
 #. name for qaa-qtz
 msgid "Reserved for local use"
@@ -1495,14 +1465,12 @@ msgid "Rapanui"
 msgstr "rapanujčina"
 
 #. name for rar
-#, fuzzy
 msgid "Rarotongan; Cook Islands Maori"
 msgstr "rarotongská maorijčina; maorijčina Cookových ostrovov"
 
 #. name for roa
-#, fuzzy
 msgid "Romance languages"
-msgstr "oto-pameské jazyky okrem pameských jazykov"
+msgstr "románske jazyky"
 
 #. name for roh, rm
 msgid "Romansh"
@@ -1542,9 +1510,8 @@ msgstr "jakutčina"
 
 # tu platí to isté ako pre severoamerické
 #. name for sai
-#, fuzzy
 msgid "South American Indian languages"
-msgstr "indiánske jazyky južnej Ameriky (iné)"
+msgstr "indiánske jazyky južnej Ameriky"
 
 #. name for sal
 msgid "Salishan languages"
@@ -1579,9 +1546,8 @@ msgid "Selkup"
 msgstr "selkupčina"
 
 #. name for sem
-#, fuzzy
 msgid "Semitic languages"
-msgstr "čamaské jazyky"
+msgstr "semitské jazyky"
 
 #. name for sga
 msgid "Irish, Old (to 900)"
@@ -1608,14 +1574,12 @@ msgid "Siouan languages"
 msgstr "siouské jazyky"
 
 #. name for sit
-#, fuzzy
 msgid "Sino-Tibetan languages"
-msgstr "siouské jazyky"
+msgstr "sino-tibetské jazyky"
 
 #. name for sla
-#, fuzzy
 msgid "Slavic languages"
-msgstr "čamaské jazyky"
+msgstr "slovanské jazyky"
 
 #. name for slk, sk
 msgid "Slovak"
@@ -1634,9 +1598,8 @@ msgid "Northern Sami"
 msgstr "severná saamčina"
 
 #. name for smi
-#, fuzzy
 msgid "Sami languages"
-msgstr "čamaské jazyky"
+msgstr "saamské jazyky"
 
 #. name for smj
 msgid "Lule Sami"
@@ -1703,9 +1666,8 @@ msgid "Serer"
 msgstr "serer"
 
 #. name for ssa
-#, fuzzy
 msgid "Nilo-Saharan languages"
-msgstr "sališské jazyky"
+msgstr "nílsko-saharské jazyky"
 
 #. name for ssw, ss
 msgid "Swati"
@@ -1748,9 +1710,8 @@ msgid "Tahitian"
 msgstr "tahitčina"
 
 #. name for tai
-#, fuzzy
 msgid "Tai languages"
-msgstr "jazyky tupi"
+msgstr ""
 
 #. name for tam, ta
 msgid "Tamil"
@@ -1861,9 +1822,8 @@ msgid "Turkish"
 msgstr "turečtina"
 
 #. name for tut
-#, fuzzy
 msgid "Altaic languages"
-msgstr "apačské jazyky"
+msgstr "altajské jazyky"
 
 #. name for tvl
 msgid "Tuvalu"
@@ -2018,9 +1978,8 @@ msgid "Zuni"
 msgstr "zuniština"
 
 #. name for zxx
-#, fuzzy
 msgid "No linguistic content; Not applicable"
-msgstr "bez lingvistického obsahu"
+msgstr "bez lingvistického obsahu; irelevantné"
 
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"

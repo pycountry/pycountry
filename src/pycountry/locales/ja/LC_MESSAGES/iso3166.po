@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
-"PO-Revision-Date: 2011-01-03 09:00+0900\n"
+"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"PO-Revision-Date: 2011-11-06 08:06+0900\n"
 "Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -220,7 +220,7 @@ msgstr "ボリビア"
 # オランダ領ボネール島、シントユースタティウス島、サバ島
 # カリブ海アンティル諸島にある島
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "ボネール、シントユースタティウス及びサバ"
 
 #. name for BIH
@@ -539,8 +539,8 @@ msgid "Fiji"
 msgstr "フィジー"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "フィジー諸島共和国"
+msgid "Republic of Fiji"
+msgstr "フィジー共和国"
 
 #. name for FIN
 msgid "Finland"
@@ -711,13 +711,9 @@ msgstr "香港"
 msgid "Hong Kong Special Administrative Region of China"
 msgstr "香港・中国特別行政区"
 
-#. name for HUN
+#. name for HUN, official_name for HUN
 msgid "Hungary"
 msgstr "ハンガリー"
-
-#. official_name for HUN
-msgid "Republic of Hungary"
-msgstr "ハンガリー共和国"
 
 #. name for ISL
 msgid "Iceland"
@@ -899,15 +895,7 @@ msgstr "リベリア"
 msgid "Republic of Liberia"
 msgstr "リベリア共和国"
 
-#. name for LBY
-msgid "Libyan Arab Jamahiriya"
-msgstr "リビア・アラブ・ジャマーヒリーヤ国"
-
-#. official_name for LBY
-msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "大リビア・アラブ社会主義人民ジャマーヒリーヤ国"
-
-#. common_name for LBY
+#. name for LBY, official_name for LBY
 msgid "Libya"
 msgstr "リビア"
 
@@ -1109,8 +1097,8 @@ msgid "Myanmar"
 msgstr "ミャンマー"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "ミャンマー連邦"
+msgid "Republic of Myanmar"
+msgstr "ミャンマー共和国"
 
 #. name for NAM
 msgid "Namibia"
@@ -1181,13 +1169,9 @@ msgstr "ナイジェリア連邦共和国"
 # ニュージーランド自由連合ニウエ
 # トンガの東280km
 # 日本は公式な国家として承認していない
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "ニウエ"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "ニウエ共和国"
 
 # オーストラリア領ノーフォーク島
 # シドニー北東1700km 太平洋上の島
@@ -1326,7 +1310,7 @@ msgstr "カタール国"
 # 仏領レユニオン島
 # インド洋西部、マダガスカル東に存在する
 #. name for REU
-msgid "Reunion"
+msgid "Réunion"
 msgstr "レユニオン"
 
 #. name for ROU
@@ -1463,13 +1447,9 @@ msgstr "シンガポール"
 msgid "Republic of Singapore"
 msgstr "シンガポール共和国"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "サンマルタン"
-
 # サンマルタンは北側がフランス領、南側がとオランダ領となっている
 # ここはオランダ領部分
-#. official_name for SXM
+#. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
 msgstr "サンマルタン (オランダ領)"
 
@@ -1548,6 +1528,15 @@ msgstr "スリナム"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "スリナム共和国"
+
+#. name for SSD
+msgid "South Sudan"
+msgstr "南スーダン"
+
+# 2011/7/9 日本との国交樹立 (2011/7/11 外務省広報より)
+#. official_name for SSD
+msgid "Republic of South Sudan"
+msgstr "南スーダン共和国"
 
 # ノルウェー領スヴァールバル諸島及びヤンマイエン島
 # スヴァールバル諸島はノルウェーの北、
@@ -1745,7 +1734,7 @@ msgid "Republic of Vanuatu"
 msgstr "バヌアツ共和国"
 
 #. name for VEN
-msgid "Venezuela, Bolivarian republic of"
+msgid "Venezuela, Bolivarian Republic of"
 msgstr "ベネズエラ・ボリバル共和国"
 
 #. official_name for VEN
