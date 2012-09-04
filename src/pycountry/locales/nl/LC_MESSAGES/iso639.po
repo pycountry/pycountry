@@ -1,4 +1,4 @@
-# translation of iso_639-3.17.nl.po to Dutch
+# translation of iso_639-3.36.nl.po to Dutch
 # Dutch translation of iso_639.
 # Copyright (C) 2003, 2004, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
@@ -6,14 +6,14 @@
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Luk Claes <luk.claes@ugent.be>, 2005.
 # Reinout van Schouwen <reinouts@gnome.org>, 2007.
-# Freek de Kruijf <f.de.kruijf@gmail.com>, 2006, 2007, 2008, 2009, 2010.
+# Freek de Kruijf <f.de.kruijf@gmail.com>, 2006, 2007, 2008, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2010-06-23 21:38+0200\n"
+"PO-Revision-Date: 2010-06-30 12:38+0200\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -93,7 +93,7 @@ msgstr "Amhaars, Amharisch"
 
 #. name for ang
 msgid "English, Old (ca. 450-1100)"
-msgstr "Engels, Oud (ca.450-1100)"
+msgstr "Engels, Oud (ca. 450-1100)"
 
 #. name for anp
 msgid "Angika"
@@ -110,7 +110,7 @@ msgstr "Arabisch"
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
 msgstr ""
-"Officiëel Aramees (700-300 v.Chr.); Keizerlijk Aramees (700-300 v.Chr.)"
+"Officieel Aramees (700-300 v.Chr.); Keizerlijk Aramees (700-300 v.Chr.)"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -368,7 +368,7 @@ msgstr "Cherokee"
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
-msgstr "Kerk-Slavisch; Oud Slavisch; Oud Bulgaars; Oud Kerk-Slavisch"
+msgstr "Kerkslavisch; Oud-Slavisch; Oud-Bulgaars; Oud-Kerkslavisch"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -576,11 +576,11 @@ msgstr "Frans"
 
 #. name for frm
 msgid "French, Middle (ca. 1400-1600)"
-msgstr "Frans, Middel (ca.1400-1600)"
+msgstr "Frans, Middel (ca. 1400-1600)"
 
 #. name for fro
 msgid "French, Old (842-ca. 1400)"
-msgstr "Frans, Oud (842-ca.1400)"
+msgstr "Frans, Oud (842-ca. 1400)"
 
 #. name for frr
 msgid "Northern Frisian"
@@ -652,11 +652,11 @@ msgstr "Manx"
 
 #. name for gmh
 msgid "German, Middle High (ca. 1050-1500)"
-msgstr "Duits, Middel Hoog (ca.1050-1500)"
+msgstr "Duits, Middel Hoog (ca. 1050-1500)"
 
 #. name for goh
 msgid "German, Old High (ca. 750-1050)"
-msgstr "Duits, Oud Hoog (ca.750-1050)"
+msgstr "Duits, Oud Hoog (ca. 750-1050)"
 
 #. name for gon
 msgid "Gondi"
@@ -680,7 +680,7 @@ msgstr "Grieks, Oud (tot 1453)"
 
 #. name for ell, el
 msgid "Greek, Modern (1453-)"
-msgstr "Grieks, Modern (1453-)"
+msgstr "Grieks, Modern (vanaf 1453)"
 
 #. name for grn, gn
 msgid "Guarani"
@@ -916,7 +916,7 @@ msgstr "Centraal Khmer"
 
 #. name for kho
 msgid "Khotanese;Sakan"
-msgstr "Khotanees;Sakan"
+msgstr "Khotanees; Sakan"
 
 #. name for kik, ki
 msgid "Kikuyu; Gikuyu"
@@ -1392,7 +1392,7 @@ msgstr "Palauaans"
 
 #. name for peo
 msgid "Persian, Old (ca. 600-400 B.C.)"
-msgstr "Oud Perzisch (ca.600-400 B.C.)"
+msgstr "Oud Perzisch (ca. 600-400 v.Chr.)"
 
 #. name for fas, fa
 msgid "Persian"
