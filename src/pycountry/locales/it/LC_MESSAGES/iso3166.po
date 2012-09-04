@@ -6,22 +6,22 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001
 # Danilo Piazzalunga <danilopiazza@libero.it>, 2004
 # Davide Viti <zinosat@tiscali.it>, 2006
-#
 # Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010, 2011, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-03-03 15:40+0100\n"
-"PO-Revision-Date: 2012-03-05 09:22+0100\n"
+"PO-Revision-Date: 2012-07-01 18:41+0200\n"
 "Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1360,7 +1360,7 @@ msgstr "Repubblica di Singapore"
 
 #. name for SXM, official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "Sint Maarten (parte danese)"
+msgstr "Sint Maarten (parte olandese)"
 
 #. name for SVK
 msgid "Slovakia"
