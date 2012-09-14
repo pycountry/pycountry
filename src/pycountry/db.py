@@ -46,6 +46,8 @@ class Database(object):
             entry_obj = self.data_class(entry, **mapped_data)
             self.objects.append(entry_obj)
 
+        tree.unlink()
+
         # Construct list of indices: primary single-column indices
         indices = []
         for key in self.field_map.values():
