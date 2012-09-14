@@ -1,4 +1,5 @@
 syntax:glob
+dist
 *.egg-info
 *.pyc
 *.swp
