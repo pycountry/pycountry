@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.14.4 (unreleased)
+0.14.4 (2012-09-14)
 -------------------
 
 - Explicitly unlink DOM tree to support (faster) memory deallocation. Thanks to
