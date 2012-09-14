@@ -4,7 +4,8 @@ Changes
 0.14.4 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Explicitly unlink DOM tree to support (faster) memory deallocation. Thanks to
+  Romuald Brunet.
 
 
 0.14.3 (2012-09-04)
