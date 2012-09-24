@@ -83,5 +83,5 @@ class Database(object):
 
     def get(self, **kw):
         assert len(kw) == 1, 'Only one criteria may be given.'
-        field, value = kw.items()[0]
+        field, value = tuple(kw.items())[0]
         return self.indices[field][value]
