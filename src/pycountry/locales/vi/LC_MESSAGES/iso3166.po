@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
-"PO-Revision-Date: 2012-03-10 23:59+0700\n"
-"Last-Translator: Hoang Nguyen <Minhhoang1004@gmail.com>\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"PO-Revision-Date: 2012-08-24 08:08+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
 "Language-Team: Vietnamese <>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -472,6 +472,10 @@ msgstr "Nước Cộng Hoà Ghi-nê Xích Đạo"
 #. name for ERI
 msgid "Eritrea"
 msgstr "Ê-ri-tơ-rê-a"
+
+#. official_name for ERI
+msgid "the State of Eritrea"
+msgstr "Quốc gia Eritrea"
 
 #. name for EST
 msgid "Estonia"

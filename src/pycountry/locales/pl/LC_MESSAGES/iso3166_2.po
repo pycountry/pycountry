@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2012-07-01 08:15+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -771,10 +771,6 @@ msgstr "Dżulfa"
 #. name for AZ-DAS
 msgid "Daşkəsən"
 msgstr "Daszkesan"
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
-msgstr "Deweczi"
 
 #. name for AZ-FUZ
 msgid "Füzuli"
@@ -2229,16 +2225,13 @@ msgstr "Kgatleng"
 msgid "Kweneng"
 msgstr "Kweneng"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr "Ngamiland"
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "Północno-Wschodni"
 
 #. name for BW-NW
-msgid "North-West (Botswana)"
+#, fuzzy
+msgid "North-West"
 msgstr "Północno-Zachodni"
 
 #. name for BW-SE
@@ -2246,8 +2239,9 @@ msgid "South-East"
 msgstr "Południowo-Wschodni"
 
 #. name for BW-SO
-msgid "Southern (Botswana)"
-msgstr "Południowy"
+#, fuzzy
+msgid "Southern"
+msgstr "Południowa"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2368,10 +2362,6 @@ msgstr "Kongo Centralne"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "Prowincja Równikowa"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "Tshopo"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -8831,7 +8821,7 @@ msgstr "Prowincja Północno-Wschodnia"
 msgid "Rift Valley"
 msgstr "Prowincja Rift Valley"
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "Prowincja Zachodnia"
 
@@ -17240,7 +17230,7 @@ msgstr "Nanumea"
 msgid "Niutao"
 msgstr "Niutao"
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr "Nui"
 
@@ -18753,11 +18743,11 @@ msgstr "Prowincja Przylądkowa Wschodnia"
 msgid "Free State"
 msgstr "Wolne Państwo"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "Gauteng"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "KwaZulu-Natal"
 

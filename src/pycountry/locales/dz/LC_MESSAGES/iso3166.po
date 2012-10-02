@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2010-06-25 14:33+0530\n"
 "Last-Translator: yumkee <ylhamo@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
@@ -474,6 +474,11 @@ msgstr "ཨི་ཀུཡེ་ཊོ་རི་ཡཱལ་ གི་ནི�
 #. name for ERI
 msgid "Eritrea"
 msgstr "ཨི་རི་ཊི།"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "ཡུ་ན་ཡེ་ཊེཊི་ སིཊེཊིསི་ཨཱོཕ་ཨ་མི་རི་ཀ"
 
 #. name for EST
 msgid "Estonia"

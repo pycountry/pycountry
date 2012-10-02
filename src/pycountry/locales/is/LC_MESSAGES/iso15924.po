@@ -1,25 +1,25 @@
-# translation of iso_15924-3.27.is.po to Icelandic
+# translation of iso_15924-3.38.is.po to Icelandic
 # Translation of ISO 15924 (script names) to  Icelandic
 #
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright © Free Software Foundation
 #
-# Sveinn í Felli <sveinki@nett.is>, 2010, 2011.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-02-09 22:36+0100\n"
-"PO-Revision-Date: 2011-08-16 19:57+0000\n"
+"PO-Revision-Date: 2012-08-17 08:47+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for Afak
@@ -220,7 +220,7 @@ msgstr "Híragana"
 
 #. name for Hluw
 msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
-msgstr ""
+msgstr "Anatólískt myndletur (Luwia myndletur, Hittite myndletur)"
 
 #. name for Hmng
 msgid "Pahawh Hmong"

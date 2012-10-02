@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2011-06-19 11:35-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -476,6 +476,11 @@ msgstr "Poblacht na Guine Meánchiorclaí"
 #. name for ERI
 msgid "Eritrea"
 msgstr "An Eiritré"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "Stáit Aontaithe Mheiriceá"
 
 #. name for EST
 msgid "Estonia"

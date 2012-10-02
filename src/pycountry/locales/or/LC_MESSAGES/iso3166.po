@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2010-04-07 12:26+0530\n"
 "Last-Translator: Manoj Kumar Giri <giri.manojkr@gmail.com>\n"
 "Language-Team: Oriya <translation-team-or@lists.sourceforge.net>\n"
@@ -471,6 +471,11 @@ msgstr "ବିଷୁବାଞ୍ଚଳ ଗିନୀ ଗଣତନ୍ତ୍ର"
 #. name for ERI
 msgid "Eritrea"
 msgstr "ଇରୀଟ୍ରିୟା"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "ଯୁକ୍ତ ରାଷ୍ଟ୍ର ଆମେରିକା"
 
 #. name for EST
 msgid "Estonia"
