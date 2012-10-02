@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2007-11-17 11:40+0200\n"
 "Last-Translator: Friedel Wolff <friedel@translate.org.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -478,6 +478,11 @@ msgstr "Republiek van Ekwatoriaal-Guinee"
 #, fuzzy
 msgid "Eritrea"
 msgstr "Eritreë"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "Verenigde State van Amerika"
 
 #. name for EST
 msgid "Estonia"

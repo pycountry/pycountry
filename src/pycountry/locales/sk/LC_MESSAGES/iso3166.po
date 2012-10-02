@@ -8,7 +8,7 @@
 #   Pavol Cvengros <orpheus@hq.alert.sk>, 2001.
 #   (translations from drakfw)
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011.
+#   Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2012.
 #
 # source:
 # http://www.geodesy.gov.sk
@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
-"PO-Revision-Date: 2011-11-21 11:57+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"PO-Revision-Date: 2012-08-25 04:11+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -481,6 +481,10 @@ msgstr "Republika Rovníkovej Guiney"
 #. name for ERI
 msgid "Eritrea"
 msgstr "Eritrea"
+
+#. official_name for ERI
+msgid "the State of Eritrea"
+msgstr "Eritrejský štát"
 
 #. name for EST
 msgid "Estonia"

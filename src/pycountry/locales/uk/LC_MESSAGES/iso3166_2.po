@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2012-06-05 18:16+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -774,10 +774,6 @@ msgstr "Джульфінський район"
 #. name for AZ-DAS
 msgid "Daşkəsən"
 msgstr "Дашкесанський район"
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
-msgstr "Дівічі"
 
 #. name for AZ-FUZ
 msgid "Füzuli"
@@ -2227,25 +2223,23 @@ msgstr "Кгатленг"
 msgid "Kweneng"
 msgstr "Квененг"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr "Нгаміланд"
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "Північно-східний округ"
 
 #. name for BW-NW
-msgid "North-West (Botswana)"
-msgstr "Північно-західний (Ботсвана)"
+#, fuzzy
+msgid "North-West"
+msgstr "Північно-Західна провінція"
 
 #. name for BW-SE
 msgid "South-East"
 msgstr "Південно-східний округ"
 
 #. name for BW-SO
-msgid "Southern (Botswana)"
-msgstr "Південна (Ботсвана)"
+#, fuzzy
+msgid "Southern"
+msgstr "Південна"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2366,10 +2360,6 @@ msgstr "Бас-Конго"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "Екваторіальна"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "Верхнє Конго"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -8823,7 +8813,7 @@ msgstr "Північно-Східна провінція"
 msgid "Rift Valley"
 msgstr "Рифт-Валлі"
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "Західна провінція"
 
@@ -17231,7 +17221,7 @@ msgstr "Нанумеа"
 msgid "Niutao"
 msgstr "Ніутао"
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr "Нуї"
 
@@ -18743,11 +18733,11 @@ msgstr "Східна Капська провінція"
 msgid "Free State"
 msgstr "Вільна держава"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "Гаутенг"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "Квазулу-Наталь"
 

@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2012-04-09 14:43+0200\n"
 "Last-Translator: Christian Perrier <bubulle@debian.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -780,10 +780,6 @@ msgstr "Julfa"
 #. name for AZ-DAS
 msgid "Daşkəsən"
 msgstr "Daskasan"
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
-msgstr "Davaci"
 
 #. name for AZ-FUZ
 msgid "Füzuli"
@@ -2233,16 +2229,12 @@ msgstr "Kgatleng"
 msgid "Kweneng"
 msgstr "Kweneng"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr "Ngamiland"
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "Nord-est"
 
 #. name for BW-NW
-msgid "North-West (Botswana)"
+msgid "North-West"
 msgstr "Nord-Ouest"
 
 #. name for BW-SE
@@ -2250,8 +2242,8 @@ msgid "South-East"
 msgstr "Sud-est"
 
 #. name for BW-SO
-msgid "Southern (Botswana)"
-msgstr "Sud-Est"
+msgid "Southern"
+msgstr "Sud"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2372,10 +2364,6 @@ msgstr "Bas-Congo"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "Équateur"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "Haut-Congo"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -8829,7 +8817,7 @@ msgstr "Kaskazini Mashariki Nord-Est"
 msgid "Rift Valley"
 msgstr "Vallée du Rift"
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "Magharibi occidental"
 
@@ -17237,7 +17225,7 @@ msgstr "Nanumea"
 msgid "Niutao"
 msgstr "Niutao"
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr "Nui"
 
@@ -18749,11 +18737,11 @@ msgstr "Cap-Oriental"
 msgid "Free State"
 msgstr "État-Libre"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "Gauteng"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "Kwazulu-Natal"
 

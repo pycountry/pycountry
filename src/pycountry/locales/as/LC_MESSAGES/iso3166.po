@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2010-04-05 17:41+0530\n"
 "Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
 "Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
@@ -471,6 +471,11 @@ msgstr "বিষুবীয় গিনি প্ৰজাতন্ত্ৰ"
 #. name for ERI
 msgid "Eritrea"
 msgstr "এৰিট্ৰিয়া"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "আমেৰিকা মাৰ্কিন যুক্তৰাষ্ট্ৰ"
 
 #. name for EST
 msgid "Estonia"

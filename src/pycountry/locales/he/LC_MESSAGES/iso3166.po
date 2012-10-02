@@ -12,22 +12,23 @@
 #   - Meni Livne <livne@kde.org>, 2000.
 #   Meital Bourvine <meitalbourvine@gmail.com>, 2007.
 #   Lior Kaplan <kaplan@debian.org>, 2005,2006, 2007, 2008, 2010, 2011, 2012.
+# Lior Kaplan <kaplan@debian.org>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: he\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
-"PO-Revision-Date: 2012-01-21 00:00+0200\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"PO-Revision-Date: 2012-09-21 12:59+0300\n"
 "Last-Translator: Lior Kaplan <kaplan@debian.org>\n"
 "Language-Team: Hebrew <>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.5\n"
+"Plural-Forms: \n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -480,6 +481,10 @@ msgstr "הרפובליקה של גינאה המשוונית"
 #. name for ERI
 msgid "Eritrea"
 msgstr "איריתריאה"
+
+#. official_name for ERI
+msgid "the State of Eritrea"
+msgstr "מדינת אריתריאה"
 
 #. name for EST
 msgid "Estonia"

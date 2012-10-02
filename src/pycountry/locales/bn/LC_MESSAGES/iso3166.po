@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
 "PO-Revision-Date: 2010-02-07 18:42+0600\n"
 "Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -475,6 +475,11 @@ msgstr "ইকুয়েটরিয়াল গিনি প্রজাতন্�
 #. name for ERI
 msgid "Eritrea"
 msgstr "ইরিত্রিয়া"
+
+#. official_name for ERI
+#, fuzzy
+msgid "the State of Eritrea"
+msgstr "মার্কিন যুক্তরাষ্ট্র"
 
 #. name for EST
 msgid "Estonia"

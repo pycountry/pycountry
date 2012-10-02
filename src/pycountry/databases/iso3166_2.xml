@@ -524,8 +524,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-DAS"	name="Daşkəsən" />
 	<iso_3166_2_entry
-		code="AZ-DAV"	name="Dəvəçi" />
-	<iso_3166_2_entry
 		code="AZ-FUZ"	name="Füzuli" />
 	<iso_3166_2_entry
 		code="AZ-GAD"	name="Gədəbəy" />
@@ -1374,15 +1372,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="BW-KW"	name="Kweneng" />
 	<iso_3166_2_entry
-		code="BW-NG"	name="Ngamiland" />
-	<iso_3166_2_entry
 		code="BW-NE"	name="North-East" />
 	<iso_3166_2_entry
-		code="BW-NW"	name="North-West (Botswana)" />
+		code="BW-NW"	name="North-West" />
 	<iso_3166_2_entry
 		code="BW-SE"	name="South-East" />
 	<iso_3166_2_entry
-		code="BW-SO"	name="Southern (Botswana)" />
+		code="BW-SO"	name="Southern" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Belarus -->
@@ -1471,8 +1467,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="CD-BC"	name="Bas-Congo" />
 	<iso_3166_2_entry
 		code="CD-EQ"	name="Équateur" />
-	<iso_3166_2_entry
-		code="CD-HC"	name="Haut-Congo" />
 	<iso_3166_2_entry
 		code="CD-KW"	name="Kasai-Occidental" />
 	<iso_3166_2_entry
@@ -2827,7 +2821,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Finland -->
 <iso_3166_country code="FI">
-<iso_3166_subset type="Reion">
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="FI-01"	name="Ahvenanmaan maakunta" />
 	<iso_3166_2_entry
@@ -5217,7 +5211,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="KE-700"	name="Rift Valley" />
 	<iso_3166_2_entry
-		code="KE-900"	name="Western Magharibi" />
+		code="KE-800"	name="Western Magharibi" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Kyrgystan -->
@@ -10114,7 +10108,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="TV-NIT"	name="Niutao" />
 	<iso_3166_2_entry
-		code="TV-NIU"	name="Nui" />
+		code="TV-NUI"	name="Nui" />
 	<iso_3166_2_entry
 		code="TV-NKF"	name="Nukufetau" />
 	<iso_3166_2_entry
@@ -11010,9 +11004,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ZA-FS"	name="Free State" />
 	<iso_3166_2_entry
-		code="ZA-GT"	name="Gauteng" />
+		code="ZA-GP"	name="Gauteng" />
 	<iso_3166_2_entry
-		code="ZA-NL"	name="Kwazulu-Natal" />
+		code="ZA-ZN"	name="Kwazulu-Natal" />
 	<iso_3166_2_entry
 		code="ZA-LP"	name="Limpopo" />
 	<iso_3166_2_entry

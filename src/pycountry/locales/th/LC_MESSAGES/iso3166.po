@@ -7,15 +7,15 @@
 #   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
 #   Translations from KDE:
 #   - Thanomsub Noppaburana <donga@midaassets.com>
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2011
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-03-03 15:40+0100\n"
-"PO-Revision-Date: 2011-08-15 17:09+0700\n"
+"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"PO-Revision-Date: 2012-08-24 07:31+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -474,6 +474,10 @@ msgstr "สาธารณรัฐอิเควทอเรียลกิน
 #. name for ERI
 msgid "Eritrea"
 msgstr "เอริเทรีย"
+
+#. official_name for ERI
+msgid "the State of Eritrea"
+msgstr "รัฐเอริเทรีย"
 
 #. name for EST
 msgid "Estonia"

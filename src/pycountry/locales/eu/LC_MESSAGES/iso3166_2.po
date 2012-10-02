@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2001-10-09 18:02GMT+1\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Euskara <linux-eu@chanae.alphanet.ch>\n"
@@ -870,10 +870,6 @@ msgstr "Kuba"
 
 #. name for AZ-DAS
 msgid "Daşkəsən"
-msgstr ""
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
 msgstr ""
 
 #. name for AZ-FUZ
@@ -2519,11 +2515,6 @@ msgstr ""
 msgid "Kweneng"
 msgstr "Suedia"
 
-#. name for BW-NG
-#, fuzzy
-msgid "Ngamiland"
-msgstr "Tailandia"
-
 #. name for BW-NE
 #, fuzzy
 msgid "North-East"
@@ -2531,7 +2522,7 @@ msgstr "Ipar Dakota"
 
 #. name for BW-NW
 #, fuzzy
-msgid "North-West (Botswana)"
+msgid "North-West"
 msgstr "Iparmendebaldeko Lurraldea"
 
 #. name for BW-SE
@@ -2541,8 +2532,8 @@ msgstr "Hego Dakota"
 
 #. name for BW-SO
 #, fuzzy
-msgid "Southern (Botswana)"
-msgstr "Iparmendebaldeko Lurraldea"
+msgid "Southern"
+msgstr "Iparraldeko Marianak"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2668,11 +2659,6 @@ msgstr "Kongo"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr ""
-
-#. name for CD-HC
-#, fuzzy
-msgid "Haut-Congo"
-msgstr "Kongo"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -9831,7 +9817,7 @@ msgstr ""
 msgid "Rift Valley"
 msgstr ""
 
-#. name for KE-900
+#. name for KE-800
 #, fuzzy
 msgid "Western Magharibi"
 msgstr "Mendebaldeko Sahara"
@@ -19192,7 +19178,7 @@ msgstr "Panama"
 msgid "Niutao"
 msgstr "Pitcairn"
 
-#. name for TV-NIU
+#. name for TV-NUI
 #, fuzzy
 msgid "Nui"
 msgstr "Nauru"
@@ -20847,11 +20833,11 @@ msgstr ""
 msgid "Free State"
 msgstr "Estatu Batuak"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr ""
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr ""
 

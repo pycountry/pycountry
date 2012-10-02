@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
-"PO-Revision-Date: 2009-09-18 22:35+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
+"PO-Revision-Date: 2012-09-02 18:35+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"Language-Team: MOST project <du-an-most@lists.hanoilug.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,12 +94,11 @@ msgstr "Balkh"
 
 #. name for AF-BAM
 msgid "Bāmyān"
-msgstr ""
+msgstr "Bāmyān"
 
 #. name for AF-DAY
-#, fuzzy
 msgid "Dāykundī"
-msgstr "Dāykondī"
+msgstr "Day Kundi"
 
 #. name for AF-FRA
 msgid "Farāh"
@@ -115,7 +114,7 @@ msgstr "Ghaznī"
 
 #. name for AF-GHO
 msgid "Ghōr"
-msgstr ""
+msgstr "Ghōr"
 
 #. name for AF-HEL
 msgid "Helmand"
@@ -131,7 +130,7 @@ msgstr "Jowzjān"
 
 #. name for AF-KAB
 msgid "Kābul"
-msgstr ""
+msgstr "Kabul"
 
 #. name for AF-KAN
 msgid "Kandahār"
@@ -143,15 +142,15 @@ msgstr "Kāpīsā"
 
 #. name for AF-KHO
 msgid "Khōst"
-msgstr ""
+msgstr "Khost"
 
 #. name for AF-KNR
 msgid "Kunar"
-msgstr ""
+msgstr "Kunar"
 
 #. name for AF-KDZ
 msgid "Kunduz"
-msgstr ""
+msgstr "Kunduz"
 
 #. name for AF-LAG
 msgid "Laghmān"
@@ -159,27 +158,23 @@ msgstr "Laghmān"
 
 #. name for AF-LOG
 msgid "Lōgar"
-msgstr ""
+msgstr "Logar"
 
 #. name for AF-NAN
-#, fuzzy
 msgid "Nangarhār"
-msgstr "Nyanga"
+msgstr "Nangarhar"
 
 #. name for AF-NIM
-#, fuzzy
 msgid "Nīmrōz"
-msgstr "Nīmrūz"
+msgstr "Nīmrōz"
 
 #. name for AF-NUR
-#, fuzzy
 msgid "Nūristān"
-msgstr "Nūrestān"
+msgstr "Nuristan"
 
 #. name for AF-URU
-#, fuzzy
 msgid "Uruzgān"
-msgstr "Hormozgān"
+msgstr "Uruzgan"
 
 #. name for AF-PIA
 #, fuzzy
@@ -219,7 +214,7 @@ msgstr "Hardap"
 
 #. name for AF-ZAB
 msgid "Zābul"
-msgstr ""
+msgstr "Zabul"
 
 #. name for AG-03, name for BB-03, name for DM-04, name for GD-03, name for VC-04
 msgid "Saint George"
@@ -251,7 +246,7 @@ msgstr "Ba-bu-đa"
 
 #. name for AG-11
 msgid "Redonda"
-msgstr ""
+msgstr "Redonda"
 
 #. name for AL-01, name for AL-BR
 msgid "Berat"
@@ -712,7 +707,7 @@ msgstr "Şəki"
 
 #. name for AZ-SR
 msgid "Şirvan"
-msgstr ""
+msgstr "Şirvan"
 
 #. name for AZ-YE, name for AZ-YEV
 msgid "Yevlax"
@@ -782,10 +777,6 @@ msgstr "Culfa"
 msgid "Daşkəsən"
 msgstr "Daşkəsən"
 
-#. name for AZ-DAV
-msgid "Dəvəçi"
-msgstr "Dəvəçi"
-
 #. name for AZ-FUZ
 msgid "Füzuli"
 msgstr "Füzuli"
@@ -804,7 +795,7 @@ msgstr "Göyçay"
 
 #. name for AZ-GYG
 msgid "Göygöl"
-msgstr ""
+msgstr "Göygöl"
 
 #. name for AZ-HAC
 msgid "Hacıqabul"
@@ -840,7 +831,7 @@ msgstr "Kəlbəcər"
 
 #. name for AZ-KAN
 msgid "Kǝngǝrli"
-msgstr ""
+msgstr "Kǝngǝrli"
 
 #. name for AZ-KUR
 msgid "Kürdəmir"
@@ -924,7 +915,7 @@ msgstr "Siyəzən"
 
 #. name for AZ-SBN
 msgid "Şabran"
-msgstr ""
+msgstr "Şabran"
 
 #. name for AZ-SAH
 msgid "Şahbuz"
@@ -985,7 +976,7 @@ msgstr "Republika Srpska"
 
 #. name for BA-05
 msgid "Bosansko-podrinjski kanton"
-msgstr ""
+msgstr "Tổng Podrinje Bosnia"
 
 #. name for BA-07
 #, fuzzy
@@ -994,27 +985,27 @@ msgstr "Hạt Dubrovačko-neretvanska"
 
 #. name for BA-10
 msgid "Kanton br. 10 (Livanjski kanton)"
-msgstr ""
+msgstr "Tổng 10 (tổng Livanjski)"
 
 #. name for BA-09
 msgid "Kanton Sarajevo"
-msgstr ""
+msgstr "Tổng Sarajevo"
 
 #. name for BA-02
 msgid "Posavski kanton"
-msgstr ""
+msgstr "Tổng Posavina"
 
 #. name for BA-06
 msgid "Srednjobosanski kanton"
-msgstr ""
+msgstr "Tổng Trung Bosnia"
 
 #. name for BA-03
 msgid "Tuzlanski kanton"
-msgstr ""
+msgstr "Tổng Tuzla"
 
 #. name for BA-01
 msgid "Unsko-sanski kanton"
-msgstr ""
+msgstr "Tổng Una-Sana"
 
 #. name for BA-08
 #, fuzzy
@@ -1023,11 +1014,11 @@ msgstr "Zapadna Bačka"
 
 #. name for BA-04
 msgid "Zeničko-dobojski kanton"
-msgstr ""
+msgstr "Tổng Zenica-Doboj"
 
 #. name for BA-BRC
 msgid "Brčko distrikt"
-msgstr ""
+msgstr "Quận Brčko"
 
 #. name for BB-01
 msgid "Christ Church"
@@ -1379,15 +1370,15 @@ msgstr "Thakurgaon zila"
 
 #. name for BE-BRU
 msgid "Bruxelles-Capitale, Région de;Brussels Hoofdstedelijk Gewest"
-msgstr ""
+msgstr "Vùng thủ đô Brussels"
 
 #. name for BE-VLG
 msgid "Vlaams Gewest"
-msgstr ""
+msgstr "Vùng Flemish"
 
 #. name for BE-WAL
 msgid "wallonne, Région"
-msgstr ""
+msgstr "Wallonie"
 
 #. name for BE-VAN
 msgid "Antwerpen"
@@ -1433,7 +1424,7 @@ msgstr "West-Vlaanderen"
 
 #. name for BF-01
 msgid "Boucle du Mouhoun"
-msgstr ""
+msgstr "Boucle du Mouhoun"
 
 #. name for BF-02
 #, fuzzy
@@ -1445,24 +1436,20 @@ msgid "Centre"
 msgstr "Centre"
 
 #. name for BF-04
-#, fuzzy
 msgid "Centre-Est"
-msgstr "Centre"
+msgstr "Đông Trung"
 
 #. name for BF-05
-#, fuzzy
 msgid "Centre-Nord"
-msgstr "Centre"
+msgstr "Bắc Trung"
 
 #. name for BF-06
-#, fuzzy
 msgid "Centre-Ouest"
-msgstr "Tây Cuvette"
+msgstr "Tây Trung"
 
 #. name for BF-07
-#, fuzzy
 msgid "Centre-Sud"
-msgstr "Centre"
+msgstr "Nam Trung"
 
 #. name for BF-08, name for RW-02
 msgid "Est"
@@ -1478,18 +1465,16 @@ msgid "Nord"
 msgstr "Miền Bắc"
 
 #. name for BF-11
-#, fuzzy
 msgid "Plateau-Central"
-msgstr "Cao Nguyên"
+msgstr "Plateau-Central"
 
 #. name for BF-12
 msgid "Sahel"
-msgstr ""
+msgstr "Sahel"
 
 #. name for BF-13
-#, fuzzy
 msgid "Sud-Ouest"
-msgstr "Miền Đông Nam"
+msgstr "Tây Nam"
 
 #. name for BF-BAL
 msgid "Balé"
@@ -2117,19 +2102,16 @@ msgid "Cat Island"
 msgstr "Đảo Cat"
 
 #. name for BS-CO
-#, fuzzy
 msgid "Central Abaco"
-msgstr "Miền Trung"
+msgstr "Trung Abaco"
 
 #. name for BS-CS
-#, fuzzy
 msgid "Central Andros"
-msgstr "Miền Trung Mindanao"
+msgstr "Trung Andros"
 
 #. name for BS-CE
-#, fuzzy
 msgid "Central Eleuthera"
-msgstr "Sông Trung"
+msgstr "Trung Eleuthera"
 
 #. name for BS-FP
 #, fuzzy
@@ -2138,7 +2120,7 @@ msgstr "Cảng Tự Do"
 
 #. name for BS-CK
 msgid "Crooked Island and Long Cay"
-msgstr ""
+msgstr "Đảo Crooked và Long Cay"
 
 #. name for BS-EG
 #, fuzzy
@@ -2160,7 +2142,7 @@ msgstr "Đảo Harbour"
 
 #. name for BS-HT
 msgid "Hope Town"
-msgstr ""
+msgstr "Hope Town"
 
 #. name for BS-IN
 msgid "Inagua"
@@ -2172,7 +2154,7 @@ msgstr "Đảo Dài"
 
 #. name for BS-MC
 msgid "Mangrove Cay"
-msgstr ""
+msgstr "Mangrove Cay"
 
 #. name for BS-MG
 msgid "Mayaguana"
@@ -2184,19 +2166,16 @@ msgid "Moore's Island"
 msgstr "Đảo Rodrigues"
 
 #. name for BS-NO
-#, fuzzy
 msgid "North Abaco"
-msgstr "Bắc Cotabato"
+msgstr "Bắc Abaco"
 
 #. name for BS-NS
-#, fuzzy
 msgid "North Andros"
-msgstr "Bắc Ayrshire"
+msgstr "Bắc Andros"
 
 #. name for BS-NE
-#, fuzzy
 msgid "North Eleuthera"
-msgstr "Miền Tây Bắc"
+msgstr "Bắc Eleuthera"
 
 #. name for BS-RI
 msgid "Ragged Island"
@@ -2204,35 +2183,31 @@ msgstr "Đảo Ragged"
 
 #. name for BS-RC
 msgid "Rum Cay"
-msgstr ""
+msgstr "Rum Cay"
 
 #. name for BS-SS, name for SV-SS
 msgid "San Salvador"
 msgstr "San Salvador"
 
 #. name for BS-SO
-#, fuzzy
 msgid "South Abaco"
-msgstr "South Cotabato"
+msgstr "Nam Abaco"
 
 #. name for BS-SA
-#, fuzzy
 msgid "South Andros"
-msgstr "Nam Ayrshire"
+msgstr "Nam Andros"
 
 #. name for BS-SE
-#, fuzzy
 msgid "South Eleuthera"
-msgstr "Nam Úc"
+msgstr "Nam Eleuthera"
 
 #. name for BS-SW
 msgid "Spanish Wells"
-msgstr ""
+msgstr "Spanish Wells"
 
 #. name for BS-WG
-#, fuzzy
 msgid "West Grand Bahama"
-msgstr "Western Samar"
+msgstr ""
 
 #. name for BT-33
 msgid "Bumthang"
@@ -2334,29 +2309,25 @@ msgstr "Kgatleng"
 msgid "Kweneng"
 msgstr "Kweneng"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr "Ngamiland"
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "Đông Bắc"
 
 #. name for BW-NW
-msgid "North-West (Botswana)"
-msgstr "Miền Tây Bắc (Bót-xouă-na)"
+msgid "North-West"
+msgstr "Tây Bắc"
 
 #. name for BW-SE
 msgid "South-East"
 msgstr "Đông Nam"
 
 #. name for BW-SO
-msgid "Southern (Botswana)"
-msgstr "Miền Nam (Bót-xouă-na)"
+msgid "Southern"
+msgstr "Nam Phương"
 
 #. name for BY-HM
 msgid "Horad Minsk"
-msgstr ""
+msgstr "Minxcơva (Minsk)"
 
 #. name for BY-BR
 msgid "Brèsckaja voblasc'"
@@ -2473,10 +2444,6 @@ msgstr "Bas-Congo"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "Équateur"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "Haut-Congo"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -7025,9 +6992,8 @@ msgid "Voiotia"
 msgstr "Ekiti"
 
 #. name for GR-72
-#, fuzzy
 msgid "Xanthi"
-msgstr "Giang Tây"
+msgstr "Xanthi"
 
 #. name for GR-21
 msgid "Zakynthos"
@@ -7126,19 +7092,16 @@ msgid "Bissau"
 msgstr "Bissau"
 
 #. name for GW-L
-#, fuzzy
 msgid "Leste"
-msgstr "Leyte"
+msgstr "Đông"
 
 #. name for GW-N
-#, fuzzy
 msgid "Norte"
-msgstr "Miền Bắc"
+msgstr "Bắc"
 
 #. name for GW-S
-#, fuzzy
 msgid "Sul"
-msgstr "Sulu"
+msgstr "Nam"
 
 #. name for GW-BA
 msgid "Bafatá"
@@ -7485,9 +7448,8 @@ msgid "Eger"
 msgstr "Eger"
 
 #. name for HU-ER
-#, fuzzy
 msgid "Érd"
-msgstr "Évora"
+msgstr "Érd"
 
 #. name for HU-GY
 msgid "Győr"
@@ -9059,7 +9021,7 @@ msgstr "Miền Đông Bắc Kaskazini Mashariki"
 msgid "Rift Valley"
 msgstr "Thung Lũng Nứt Rạn"
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "Miền Tây Magharibi"
 
@@ -12194,24 +12156,20 @@ msgid "Male"
 msgstr "Male"
 
 #. name for MV-US
-#, fuzzy
 msgid "Upper South"
-msgstr "Miền Đông Trên"
+msgstr "Nam Trên"
 
 #. name for MV-UN
-#, fuzzy
 msgid "Upper North"
-msgstr "Miền Bắc Xa"
+msgstr "Bắc Trên"
 
 #. name for MV-SC
-#, fuzzy
 msgid "South Central"
-msgstr "Nam Úc"
+msgstr "Trung Nam"
 
 #. name for MV-NC
-#, fuzzy
 msgid "North Central"
-msgstr "Miền Tây Bắc"
+msgstr "Trung Bắc"
 
 #. name for MV-02
 #, fuzzy
@@ -12299,19 +12257,16 @@ msgid "Vaavu"
 msgstr "Vaavu"
 
 #. name for MW-C
-#, fuzzy
 msgid "Central Region"
-msgstr "Sông Trung"
+msgstr "Vùng Trung"
 
 #. name for MW-N
-#, fuzzy
 msgid "Northern Region"
-msgstr "Vùng lãnh thổ Bắc"
+msgstr "Vùng Bắc Phương"
 
 #. name for MW-S
-#, fuzzy
 msgid "Southern Region"
-msgstr "Miền Nam Tagalog"
+msgstr "Vùng Nam Phương"
 
 #. name for MW-BA
 msgid "Balaka"
@@ -17684,7 +17639,7 @@ msgstr "Nanumea"
 msgid "Niutao"
 msgstr "Niutao"
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr "Nui"
 
@@ -18797,9 +18752,8 @@ msgid "An Giang"
 msgstr "An Giang"
 
 #. name for VN-43
-#, fuzzy
 msgid "Bà Rịa-Vũng Tàu"
-msgstr "Bà Rịa - Vũng Tàu"
+msgstr "Bà Rịa-Vũng Tàu"
 
 #. name for VN-54
 msgid "Bắc Giang"
@@ -19034,24 +18988,20 @@ msgid "Cần Thơ"
 msgstr "Cần Thơ"
 
 #. name for VN-DN
-#, fuzzy
 msgid "Đà Nẵng"
-msgstr "Đà Nẵng, thành phố"
+msgstr "Đà Nẵng"
 
 #. name for VN-HN
-#, fuzzy
 msgid "Hà Nội"
-msgstr "Hà Nam"
+msgstr "Hà Nội"
 
 #. name for VN-HP
-#, fuzzy
 msgid "Hải Phòng"
-msgstr "Hải Duong"
+msgstr "Hải Phòng"
 
 #. name for VN-SG
-#, fuzzy
 msgid "Hồ Chí Minh [Sài Gòn]"
-msgstr "Hồ Chí Minh, thành phố [Sài Gòn]"
+msgstr "Hồ Chí Minh [Sài Gòn]"
 
 #. name for VU-MAP
 msgid "Malampa"
@@ -19205,11 +19155,11 @@ msgstr "Đông Mũi Đất"
 msgid "Free State"
 msgstr "Bảng Tự Do"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "Gauteng"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "Kwazulu-Natal"
 

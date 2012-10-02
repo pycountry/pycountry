@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2009-06-27 18:21+0800\n"
 "Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
 "Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
@@ -791,10 +791,6 @@ msgstr ""
 
 #. name for AZ-DAS
 msgid "Daşkəsən"
-msgstr ""
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
 msgstr ""
 
 #. name for AZ-FUZ
@@ -2374,16 +2370,13 @@ msgstr "卡特伦"
 msgid "Kweneng"
 msgstr "奎嫩"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr "恩加米兰"
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "东北"
 
 #. name for BW-NW
-msgid "North-West (Botswana)"
+#, fuzzy
+msgid "North-West"
 msgstr "西北"
 
 #. name for BW-SE
@@ -2392,8 +2385,8 @@ msgstr "东南"
 
 #. name for BW-SO
 #, fuzzy
-msgid "Southern (Botswana)"
-msgstr "西北"
+msgid "Southern"
+msgstr "南方省"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2515,10 +2508,6 @@ msgstr "下刚果"
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "赤道"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "上刚果"
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -9266,7 +9255,7 @@ msgstr "东北省"
 msgid "Rift Valley"
 msgstr "裂谷省"
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "西部省"
 
@@ -18229,7 +18218,7 @@ msgstr "那努米亚"
 msgid "Niutao"
 msgstr "纽乌道乌"
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr "努伊"
 
@@ -19795,11 +19784,11 @@ msgstr "东开普省"
 msgid "Free State"
 msgstr "奥兰治自由邦"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "豪登省"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "夸祖鲁-纳塔尔省"
 

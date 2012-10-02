@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2007-08-08 16:06+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -816,10 +816,6 @@ msgstr ""
 
 #. name for AZ-DAS
 msgid "Daşkəsən"
-msgstr ""
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
 msgstr ""
 
 #. name for AZ-FUZ
@@ -2384,25 +2380,25 @@ msgstr ""
 msgid "Kweneng"
 msgstr ""
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr ""
-
 #. name for BW-NE
 msgid "North-East"
 msgstr ""
 
+# [geodesy]
 #. name for BW-NW
-msgid "North-West (Botswana)"
-msgstr ""
+#, fuzzy
+msgid "North-West"
+msgstr "Severná Dakota"
 
 #. name for BW-SE
 msgid "South-East"
 msgstr ""
 
+# [geodesy]
 #. name for BW-SO
-msgid "Southern (Botswana)"
-msgstr ""
+#, fuzzy
+msgid "Southern"
+msgstr "Severná Karolína"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2524,10 +2520,6 @@ msgstr ""
 
 #. name for CD-EQ
 msgid "Équateur"
-msgstr ""
-
-#. name for CD-HC
-msgid "Haut-Congo"
 msgstr ""
 
 #. name for CD-KW
@@ -9321,7 +9313,7 @@ msgstr ""
 msgid "Rift Valley"
 msgstr ""
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr ""
 
@@ -18061,7 +18053,7 @@ msgstr ""
 msgid "Niutao"
 msgstr ""
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr ""
 
@@ -19673,11 +19665,11 @@ msgstr ""
 msgid "Free State"
 msgstr ""
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr ""
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr ""
 

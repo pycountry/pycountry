@@ -5,14 +5,14 @@
 # Copyright (C)
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #     Translations taken from ICU SVN on 2007-09-09
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008-2010.
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008-2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-02-09 22:36+0100\n"
-"PO-Revision-Date: 2011-02-03 23:07+0200\n"
+"PO-Revision-Date: 2012-09-23 20:42+0200\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai\n"
 "Language: \n"
@@ -46,7 +46,7 @@ msgstr "บาหลี"
 
 #. name for Bamu
 msgid "Bamum"
-msgstr ""
+msgstr "บามุม"
 
 #. name for Bass
 msgid "Bassa Vah"
@@ -86,7 +86,7 @@ msgstr "บูฮิด"
 
 #. name for Cakm
 msgid "Chakma"
-msgstr ""
+msgstr "จักมา"
 
 #. name for Cans
 msgid "Unified Canadian Aboriginal Syllabics"
@@ -146,7 +146,7 @@ msgstr "ไฮราติกอียิปต์"
 
 #. name for Egyp
 msgid "Egyptian hieroglyphs"
-msgstr "ไฮโรกลิฟส์อียิปต์"
+msgstr "ไฮโรกลิฟอียิปต์"
 
 #. name for Elba
 msgid "Elbasan"
@@ -343,7 +343,7 @@ msgstr "ลิเดีย"
 
 #. name for Mand
 msgid "Mandaic, Mandaean"
-msgstr "แมนเดอิก, แมนดีอัน"
+msgstr "มันดาอิก, มันเดียน"
 
 #. name for Mani
 msgid "Manichaean"
@@ -358,14 +358,12 @@ msgid "Mende"
 msgstr ""
 
 #. name for Merc
-#, fuzzy
 msgid "Meroitic Cursive"
-msgstr "เมโรติก"
+msgstr "เมโรอิติกแบบตัวเขียนต่อเชื่อม"
 
 #. name for Mero
-#, fuzzy
 msgid "Meroitic Hieroglyphs"
-msgstr "ไฮโรกลิฟส์อียิปต์"
+msgstr "เมโรอิติกแบบไฮโรกลิฟ"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -385,7 +383,7 @@ msgstr ""
 
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
-msgstr ""
+msgstr "มณีปุรี"
 
 #. name for Mymr
 msgid "Myanmar (Burmese)"
@@ -417,7 +415,7 @@ msgstr "ออกัม"
 
 #. name for Olck
 msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
-msgstr ""
+msgstr "โอล จิกี (สันถาลี)"
 
 #. name for Orkh
 msgid "Old Turkic, Orkhon Runic"
@@ -461,7 +459,7 @@ msgstr "ฟินิเชียน"
 
 #. name for Plrd
 msgid "Miao (Pollard)"
-msgstr ""
+msgstr "ม้ง (พอลลาร์ด)"
 
 #. name for Prti
 msgid "Inscriptional Parthian"
@@ -477,7 +475,7 @@ msgstr "สงวนสำหรับการใช้งานเอกชน
 
 #. name for Rjng
 msgid "Rejang (Redjang, Kaganga)"
-msgstr ""
+msgstr "เรอจัง"
 
 #. name for Roro
 msgid "Rongorongo"
@@ -513,7 +511,7 @@ msgstr "เชเวียน (ชอว์)"
 
 #. name for Shrd
 msgid "Sharada, Śāradā"
-msgstr ""
+msgstr "ศารทา"
 
 #. name for Sind
 msgid "Khudawadi, Sindhi"
@@ -525,7 +523,7 @@ msgstr "สิงหล"
 
 #. name for Sora
 msgid "Sora Sompeng"
-msgstr ""
+msgstr "โสรา โสมเปงค์"
 
 #. name for Sund
 msgid "Sundanese"
@@ -557,7 +555,7 @@ msgstr "ตักบันวา"
 
 #. name for Takr
 msgid "Takri, Ṭākrī, Ṭāṅkrī"
-msgstr ""
+msgstr "ตากรี"
 
 #. name for Tale
 msgid "Tai Le"

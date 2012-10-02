@@ -66,7 +66,7 @@ because they provide a nested and typed structure.
 All subdivisons can be accessed directly:
 
   >>> len(pycountry.subdivisions)
-  4850
+  4847
   >>> list(pycountry.subdivisions)[0]
   <pycountry.db.Subdivision object at 0x...>
 

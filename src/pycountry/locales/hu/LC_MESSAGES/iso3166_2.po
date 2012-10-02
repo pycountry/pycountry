@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-04-09 14:32+0200\n"
+"POT-Creation-Date: 2012-08-25 16:22+0200\n"
 "PO-Revision-Date: 2010-02-01 09:57+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -784,10 +784,6 @@ msgstr "Culfa"
 #. name for AZ-DAS
 msgid "Daşkəsən"
 msgstr "Daşkəsən"
-
-#. name for AZ-DAV
-msgid "Dəvəçi"
-msgstr "Dəvəçi"
 
 #. name for AZ-FUZ
 msgid "Füzuli"
@@ -2332,18 +2328,14 @@ msgstr "Kgatleng District"
 msgid "Kweneng"
 msgstr "Kweneng"
 
-#. name for BW-NG
-msgid "Ngamiland"
-msgstr ""
-
 #. name for BW-NE
 msgid "North-East"
 msgstr "Észak-kelet"
 
 #. name for BW-NW
 #, fuzzy
-msgid "North-West (Botswana)"
-msgstr "Északnyugati határ"
+msgid "North-West"
+msgstr "Északnyugati"
 
 #. name for BW-SE
 msgid "South-East"
@@ -2351,8 +2343,8 @@ msgstr "Dél-kelet"
 
 #. name for BW-SO
 #, fuzzy
-msgid "Southern (Botswana)"
-msgstr "Északnyugati határ"
+msgid "Southern"
+msgstr "Dél"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -2473,10 +2465,6 @@ msgstr "Kongo Central "
 #. name for CD-EQ
 msgid "Équateur"
 msgstr "Ecuador"
-
-#. name for CD-HC
-msgid "Haut-Congo"
-msgstr "Orientale tartomány "
 
 #. name for CD-KW
 msgid "Kasai-Occidental"
@@ -9089,7 +9077,7 @@ msgstr ""
 msgid "Rift Valley"
 msgstr ""
 
-#. name for KE-900
+#. name for KE-800
 msgid "Western Magharibi"
 msgstr "Nyugat Magharibi"
 
@@ -17755,7 +17743,7 @@ msgstr "Panama"
 msgid "Niutao"
 msgstr ""
 
-#. name for TV-NIU
+#. name for TV-NUI
 msgid "Nui"
 msgstr ""
 
@@ -19283,11 +19271,11 @@ msgstr "Eastern Cape"
 msgid "Free State"
 msgstr "Free State"
 
-#. name for ZA-GT
+#. name for ZA-GP
 msgid "Gauteng"
 msgstr "Gauteng"
 
-#. name for ZA-NL
+#. name for ZA-ZN
 msgid "Kwazulu-Natal"
 msgstr "Kwazulu-Natal"
 
