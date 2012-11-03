@@ -1,24 +1,24 @@
 # Croatian translations of ISO 639  Language names
 # Copyright (C) 2000, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
+#
 # Vladimir Vuksan <vuksan@veus.hr>, 2000.
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2012-07-01 15:21+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
+"PO-Revision-Date: 2012-10-05 15:20+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KTranslator v 0.6.0\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
@@ -68,7 +68,7 @@ msgstr "akanski"
 
 #. name for akk
 msgid "Akkadian"
-msgstr ""
+msgstr "akadski"
 
 #. name for sqi, sq
 msgid "Albanian"
@@ -80,11 +80,11 @@ msgstr "aleutski"
 
 #. name for alg
 msgid "Algonquian languages"
-msgstr ""
+msgstr "algonkvijanski jezici"
 
 #. name for alt
 msgid "Southern Altai"
-msgstr ""
+msgstr "južnoaltajski"
 
 #. name for amh, am
 msgid "Amharic"
@@ -145,7 +145,7 @@ msgstr "asturski"
 
 #. name for ath
 msgid "Athapascan languages"
-msgstr ""
+msgstr "atapaskanski jezici"
 
 #. name for aus
 msgid "Australian languages"
@@ -222,6 +222,10 @@ msgstr ""
 #. name for ben, bn
 msgid "Bengali"
 msgstr "bengalski"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 msgid "Berber languages"
@@ -309,7 +313,7 @@ msgstr "katalonski; valencijski"
 
 #. name for cau
 msgid "Caucasian languages"
-msgstr ""
+msgstr "kavkaski jezici"
 
 #. name for ceb
 msgid "Cebuano"
@@ -333,7 +337,7 @@ msgstr "čečenski"
 
 #. name for chg
 msgid "Chagatai"
-msgstr ""
+msgstr "čagatajski"
 
 #. name for zho, zh
 msgid "Chinese"
@@ -367,7 +371,8 @@ msgstr ""
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
-msgstr "staroslavenski"
+msgstr ""
+"crkveni slavenski; staroslavenski; starobugarski; stari crkveni slavenski"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -375,7 +380,7 @@ msgstr "čuvaški"
 
 #. name for chy
 msgid "Cheyenne"
-msgstr ""
+msgstr "čejenski"
 
 #. name for cmc
 msgid "Chamic languages"
@@ -383,7 +388,7 @@ msgstr ""
 
 #. name for cop
 msgid "Coptic"
-msgstr ""
+msgstr "koptski"
 
 #. name for cor, kw
 msgid "Cornish"
@@ -395,15 +400,15 @@ msgstr "korzički"
 
 #. name for cpe
 msgid "Creoles and pidgins, English based"
-msgstr ""
+msgstr "kreolski i pidžini, temeljeni na engleskom"
 
 #. name for cpf
 msgid "Creoles and pidgins, French-based"
-msgstr ""
+msgstr "kreolski i pidžini, temeljeni na francuskom"
 
 #. name for cpp
 msgid "Creoles and pidgins, Portuguese-based"
-msgstr ""
+msgstr "kreolski i pidžini, temeljeni na portugalskom"
 
 #. name for cre, cr
 msgid "Cree"
@@ -415,7 +420,7 @@ msgstr "krimski tatarski; krimski turski"
 
 #. name for crp
 msgid "Creoles and pidgins"
-msgstr ""
+msgstr "kreolski i pidžini"
 
 #. name for csb
 msgid "Kashubian"
@@ -423,7 +428,7 @@ msgstr ""
 
 #. name for cus
 msgid "Cushitic languages"
-msgstr ""
+msgstr "kušitski jezici"
 
 #. name for ces, cs
 msgid "Czech"
@@ -471,7 +476,7 @@ msgstr ""
 
 #. name for dra
 msgid "Dravidian languages"
-msgstr ""
+msgstr "dravidijski jezici"
 
 #. name for dsb
 msgid "Lower Sorbian"
@@ -667,7 +672,7 @@ msgstr ""
 
 #. name for got
 msgid "Gothic"
-msgstr ""
+msgstr "gotički"
 
 #. name for grb
 msgid "Grebo"
@@ -735,7 +740,7 @@ msgstr "hindski"
 
 #. name for hit
 msgid "Hittite"
-msgstr ""
+msgstr "hititski"
 
 #. name for hmn
 msgid "Hmong; Mong"
@@ -879,7 +884,7 @@ msgstr ""
 
 #. name for kar
 msgid "Karen languages"
-msgstr ""
+msgstr "karenski jezici"
 
 #. name for kas, ks
 msgid "Kashmiri"
@@ -1067,7 +1072,7 @@ msgstr ""
 
 #. name for lus
 msgid "Lushai"
-msgstr ""
+msgstr "lušajski"
 
 #. name for mkd, mk
 msgid "Macedonian"
@@ -1155,7 +1160,7 @@ msgstr ""
 
 #. name for mlg, mg
 msgid "Malagasy"
-msgstr ""
+msgstr "malgaški"
 
 #. name for mlt, mt
 msgid "Maltese"
@@ -1447,7 +1452,7 @@ msgstr "radžastanski"
 
 #. name for rap
 msgid "Rapanui"
-msgstr ""
+msgstr "rapanujski"
 
 #. name for rar
 msgid "Rarotongan; Cook Islands Maori"
@@ -1503,7 +1508,7 @@ msgstr "sališanski jezici"
 
 #. name for sam
 msgid "Samaritan Aramaic"
-msgstr "samarijanski aramejski"
+msgstr "samaritanski aramejski"
 
 #. name for san, sa
 msgid "Sanskrit"
@@ -1559,7 +1564,7 @@ msgstr ""
 
 #. name for sit
 msgid "Sino-Tibetan languages"
-msgstr ""
+msgstr "sinotibetski jezici"
 
 #. name for sla
 msgid "Slavic languages"
@@ -1623,7 +1628,7 @@ msgstr "somalski"
 
 #. name for son
 msgid "Songhai languages"
-msgstr ""
+msgstr "songajski jezici"
 
 #. name for sot, st
 msgid "Sotho, Southern"
@@ -1635,7 +1640,7 @@ msgstr "španjolski; kastiljanski"
 
 #. name for srd, sc
 msgid "Sardinian"
-msgstr ""
+msgstr "sardinijski"
 
 #. name for srn
 msgid "Sranan Tongo"
@@ -1723,7 +1728,7 @@ msgstr ""
 
 #. name for tgk, tg
 msgid "Tajik"
-msgstr "tadžički"
+msgstr "tadžikistanski"
 
 #. name for tgl, tl
 msgid "Tagalog"
@@ -1731,7 +1736,7 @@ msgstr ""
 
 #. name for tha, th
 msgid "Thai"
-msgstr ""
+msgstr "tajlandski"
 
 #. name for bod, bo
 msgid "Tibetan"
@@ -1807,7 +1812,7 @@ msgstr "turski"
 
 #. name for tut
 msgid "Altaic languages"
-msgstr ""
+msgstr "altajski jezici"
 
 #. name for tvl
 msgid "Tuvalu"
@@ -1931,11 +1936,11 @@ msgstr ""
 
 #. name for ypk
 msgid "Yupik languages"
-msgstr ""
+msgstr "jupički jezici"
 
 #. name for zap
 msgid "Zapotec"
-msgstr ""
+msgstr "zapotečki"
 
 #. name for zbl
 msgid "Blissymbols; Blissymbolics; Bliss"
@@ -1963,7 +1968,7 @@ msgstr ""
 
 #. name for zxx
 msgid "No linguistic content; Not applicable"
-msgstr "nema lingvističkog sadržaja; nije primjenjivo"
+msgstr "nema jezičnog sadržaja; nije primjenjivo"
 
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"

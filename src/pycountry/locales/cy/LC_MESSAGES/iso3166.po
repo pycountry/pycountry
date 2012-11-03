@@ -13,13 +13,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-06-13 22:28-0000\n"
+"PO-Revision-Date: 2012-10-08 21:30-0000\n"
 "Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh\n"
-"Language: \n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -474,9 +475,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Unol Daleithiau America"
+msgstr "Gwladwriaeth Eritrea"
 
 #. name for EST
 msgid "Estonia"

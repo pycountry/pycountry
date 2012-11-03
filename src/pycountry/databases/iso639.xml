@@ -5,7 +5,7 @@ This file gives a list of all languages in the ISO 639
 standard, and is used to provide translations via gettext
 
 Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
-Copyright (C) 2004-2009 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2004-2012 Christian Perrier <bubulle@debian.org>
 Copyright (C) 2005-2008 Tobias Quathamer <toddy@debian.org>
 
     This file is free software; you can redistribute it and/or
@@ -33,6 +33,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2T_code		CDATA	#REQUIRED
 		iso_639_1_code		CDATA	#IMPLIED
 		name			CDATA	#REQUIRED
+		common_name		CDATA	#IMPLIED
 	>
 ]>
 
@@ -255,7 +256,8 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2B_code="ben"
 		iso_639_2T_code="ben"
 		iso_639_1_code="bn"
-		name="Bengali" />
+		name="Bengali"
+		common_name="Bangla" />
 	<iso_639_entry
 		iso_639_2B_code="ber"
 		iso_639_2T_code="ber"

@@ -114,7 +114,7 @@ Scripts (ISO 15924)
 Scripts are available from a database similar to the countries:
 
   >>> len(pycountry.scripts)
-  161
+  163
   >>> list(pycountry.scripts)[0]
   <pycountry.db.Script object at 0x...>
 
@@ -169,6 +169,12 @@ The languages database is similar too:
   u'arg'
   >>> aragonese.name
   u'Aragonese'
+
+  >>> bengali = pycountry.languages.get(alpha2='bn')
+  >>> bengali.name
+  u'Bengali'
+  >>> bengali.common_name
+  u'Bangla'
 
 Locales
 =======

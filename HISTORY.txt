@@ -4,8 +4,10 @@ Changes
 0.14.7 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Update to iso-codes 3.40.
 
+- Adapt Language objects to include `common_name` attribute added in iso-codes
+  3.40.
 
 0.14.6 (2012-10-02)
 -------------------

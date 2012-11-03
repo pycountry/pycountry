@@ -9,21 +9,21 @@
 #   Christophe Merlet (RedFox) <redfox@eikonex.org>, 2001.
 #   Cedric De Wilde <daique@tiscalinet.be>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010.
+#   Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2010-03-31 08:27+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
+"PO-Revision-Date: 2012-10-22 07:27+0200\n"
 "Last-Translator: Christian Perrier <bubulle@debian.org>\n"
-"Language-Team: fr <debian-l10n-french@lists.debian.org>\n"
-"Language: \n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
 #. name for aar, aa
@@ -226,6 +226,10 @@ msgstr "bemba"
 #. name for ben, bn
 msgid "Bengali"
 msgstr "bengali"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr "bangla"
 
 #. name for ber
 msgid "Berber languages"

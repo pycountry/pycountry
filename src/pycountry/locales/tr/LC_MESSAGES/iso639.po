@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
 "PO-Revision-Date: 2004-04-05 01:37+0300\n"
 "Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -229,6 +229,10 @@ msgstr "Bemba (Zaire)"
 #. name for ben, bn
 msgid "Bengali"
 msgstr "Bengalce"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 #, fuzzy

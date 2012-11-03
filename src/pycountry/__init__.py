@@ -52,6 +52,7 @@ class Languages(pycountry.db.Database):
     field_map = dict(iso_639_2B_code='bibliographic',
                      iso_639_2T_code='terminology',
                      iso_639_1_code='alpha2',
+                     common_name='common_name',
                      name='name')
     data_class_name = 'Language'
     xml_tag = 'iso_639_entry'

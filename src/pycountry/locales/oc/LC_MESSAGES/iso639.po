@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
 "PO-Revision-Date: 2008-11-10 00:58+0100\n"
 "Last-Translator: Joan Luc Labòrda <laborde@crpp.u-bordeaux.fr>\n"
 "Language-Team: OCCITAN <laborde@crpp.u-bordeaux.fr>\n"
@@ -224,6 +224,10 @@ msgstr ""
 #. name for ben, bn
 msgid "Bengali"
 msgstr "Bengalin"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 #, fuzzy

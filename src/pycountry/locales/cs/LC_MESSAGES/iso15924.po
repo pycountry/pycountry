@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-02-09 22:36+0100\n"
+"POT-Creation-Date: 2012-10-17 09:28+0200\n"
 "PO-Revision-Date: 2011-11-28 12:01+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -21,6 +21,10 @@ msgstr ""
 #. name for Afak
 msgid "Afaka"
 msgstr "Afaka"
+
+#. name for Aghb
+msgid "Caucasian Albanian"
+msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -227,8 +231,8 @@ msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
 msgstr "Japonské sylabické (alias pro hiragana + katakana)"
 
 #. name for Hung
-msgid "Old Hungarian"
-msgstr "Staromaďarské"
+msgid "Old Hungarian (Hungarian Runic)"
+msgstr ""
 
 #. name for Inds
 msgid "Indus (Harappan)"
@@ -337,6 +341,10 @@ msgstr "Lykijské"
 #. name for Lydi
 msgid "Lydian"
 msgstr "Lýdské"
+
+#. name for Mahj
+msgid "Mahajani"
+msgstr ""
 
 #. name for Mand
 msgid "Mandaic, Mandaean"
