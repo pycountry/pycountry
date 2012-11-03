@@ -8,14 +8,14 @@
 #   Simon Hürlimann <simon.huerlimann@access.unizh.ch>, 2004.
 #   Dennis Stampfer <seppy@debian.org>, 2004.
 #   Christian Stimming <stimming@tuhh.de>, 2006.
-#   Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011.
+#   Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2011-08-15 19:34+0200\n"
+"PO-Revision-Date: 2012-10-05 09:57+0200\n"
 "Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -478,9 +478,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Vereinigte Staaten von Amerika"
+msgstr "Staat Eritrea"
 
 #. name for EST
 msgid "Estonia"

@@ -42,6 +42,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="439"
 		name="Afaka" />
 	<iso_15924_entry
+		alpha_4_code="Aghb"
+		numeric_code="239"
+		name="Caucasian Albanian" />
+	<iso_15924_entry
 		alpha_4_code="Arab"
 		numeric_code="160"
 		name="Arabic" />
@@ -248,7 +252,7 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 	<iso_15924_entry
 		alpha_4_code="Hung"
 		numeric_code="176"
-		name="Old Hungarian" />
+		name="Old Hungarian (Hungarian Runic)" />
 	<iso_15924_entry
 		alpha_4_code="Inds"
 		numeric_code="610"
@@ -357,6 +361,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Lydi"
 		numeric_code="116"
 		name="Lydian" />
+	<iso_15924_entry
+		alpha_4_code="Mahj"
+		numeric_code="314"
+		name="Mahajani" />
 	<iso_15924_entry
 		alpha_4_code="Mand"
 		numeric_code="140"

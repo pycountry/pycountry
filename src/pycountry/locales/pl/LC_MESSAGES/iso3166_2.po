@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-08-25 16:22+0200\n"
-"PO-Revision-Date: 2012-07-01 08:15+0200\n"
+"PO-Revision-Date: 2012-10-04 18:17+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -2230,7 +2230,6 @@ msgid "North-East"
 msgstr "Północno-Wschodni"
 
 #. name for BW-NW
-#, fuzzy
 msgid "North-West"
 msgstr "Północno-Zachodni"
 
@@ -2239,9 +2238,8 @@ msgid "South-East"
 msgstr "Południowo-Wschodni"
 
 #. name for BW-SO
-#, fuzzy
 msgid "Southern"
-msgstr "Południowa"
+msgstr "Południowy"
 
 #. name for BY-HM
 msgid "Horad Minsk"
@@ -10556,7 +10554,7 @@ msgstr ""
 
 #. name for MC-CL
 msgid "La Colle"
-msgstr ""
+msgstr "La Colle"
 
 #. name for MC-GA
 msgid "La Gare"
@@ -10568,7 +10566,7 @@ msgstr ""
 
 #. name for MC-LA
 msgid "Larvotto"
-msgstr ""
+msgstr "Larvotto"
 
 #. name for MC-MA
 msgid "Malbousquet"
@@ -10580,7 +10578,7 @@ msgstr "Monaco-Ville"
 
 #. name for MC-MG
 msgid "Moneghetti"
-msgstr ""
+msgstr "Moneghetti"
 
 #. name for MC-MC
 msgid "Monte-Carlo"
@@ -10596,7 +10594,7 @@ msgstr ""
 
 #. name for MC-SR
 msgid "Saint-Roman"
-msgstr ""
+msgstr "Saint Roman"
 
 #. name for MC-SD
 msgid "Sainte-Dévote"

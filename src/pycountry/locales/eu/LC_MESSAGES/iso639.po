@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: xd-ISO_639-eu\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
 "PO-Revision-Date: 2008-07-14 18:20+0200\n"
 "Last-Translator: Xabier Bilbao <xabidu@gmail.com>\n"
 "Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
@@ -226,6 +226,10 @@ msgstr ""
 #. name for ben, bn
 msgid "Bengali"
 msgstr "Bengalera"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 #, fuzzy

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
 "PO-Revision-Date: 2010-12-22 17:41+0100\n"
 "Last-Translator: ivarela <maacub@gmail.com>\n"
 "Language-Team: Asturian <ubuntu-l10n-ast@lists.ubuntu.com>\n"
@@ -218,6 +218,10 @@ msgstr "Bemba"
 #. name for ben, bn
 msgid "Bengali"
 msgstr "Bengalí"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 msgid "Berber languages"

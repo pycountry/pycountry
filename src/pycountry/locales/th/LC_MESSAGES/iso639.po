@@ -6,15 +6,15 @@
 #   Free Software Foundation, Inc., 2002,2004
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
 #   Thanomsub Noppaburana <donga@midaassets.com> (Translations from KDE)
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2011
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2010-03-31 08:26+0200\n"
-"PO-Revision-Date: 2011-10-31 08:07+0700\n"
+"POT-Creation-Date: 2012-10-22 07:22+0200\n"
+"PO-Revision-Date: 2012-10-13 19:35+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroup.com>\n"
 "Language: th\n"
@@ -108,7 +108,7 @@ msgstr "อาหรับ"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr ""
+msgstr "อาราเมอิกราชการ (700-300 ปีก่อน ค.ศ.); อาราเมอิกจักรวรรดิ (700-300 ก่อน ค.ศ.)"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -221,6 +221,10 @@ msgstr ""
 #. name for ben, bn
 msgid "Bengali"
 msgstr "เบ็งกาลี"
+
+#. common_name for ben, bn
+msgid "Bangla"
+msgstr ""
 
 #. name for ber
 msgid "Berber languages"
@@ -688,7 +692,7 @@ msgstr ""
 
 #. name for gsw
 msgid "Swiss German; Alemannic; Alsatian"
-msgstr ""
+msgstr "เยอรมันสวิส; อะเลอแมนนิก; อัลเซเชียน"
 
 #. name for guj, gu
 msgid "Gujarati"
@@ -1632,7 +1636,7 @@ msgstr "เซโสโท"
 
 #. name for spa, es
 msgid "Spanish; Castilian"
-msgstr ""
+msgstr "สเปนคัสติเลียน"
 
 #. name for srd, sc
 msgid "Sardinian"
