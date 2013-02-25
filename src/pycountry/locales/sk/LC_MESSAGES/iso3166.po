@@ -1,26 +1,22 @@
 # Translation of ISO-3166 (country names) to Slovak
-#
 # This file is distributed under the same license as the iso-codes package.
-#
 # Copyright (C)
-#   Free Software Foundation, Inc., 2004
-#   Peter Mann <Peter.Mann@tuke.sk>, 2004, 2006.
-#   Pavol Cvengros <orpheus@hq.alert.sk>, 2001.
-#   (translations from drakfw)
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2012.
-#
+# Free Software Foundation, Inc., 2004
+# Peter Mann <Peter.Mann@tuke.sk>, 2004, 2006.
+# Pavol Cvengros <orpheus@hq.alert.sk>, 2001.
+# (translations from drakfw)
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
 # source:
 # http://www.geodesy.gov.sk
 # http://www.fao.org/ (historic names)
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-08-25 04:11+0100\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-13 14:02+0200\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -1160,12 +1156,12 @@ msgid "Republic of Palau"
 msgstr "Palauská republika"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "palestínske územie, Okupované"
+msgid "Palestine, State of"
+msgstr "Palestína"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Okupované palestínske územie"
+msgid "the State of Palestine"
+msgstr "Štát Palestína"
 
 #. name for PAN
 msgid "Panama"

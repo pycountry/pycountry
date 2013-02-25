@@ -156,7 +156,7 @@ Languages (ISO 639)
 The languages database is similar too:
 
   >>> len(pycountry.languages)
-  486
+  487
   >>> list(pycountry.languages)[0]
   <pycountry.db.Language object at 0x...>
 

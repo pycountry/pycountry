@@ -11,14 +11,15 @@
 #   Recai Oktaş <roktas@omu.edu.tr>, 2004.
 #   Mert Dirik <mertdirik@gmail.com>, 2008.
 #   İsmail Baydan <ibaydan@gmail.com>, 2011.
-#   Atila KOÇ <akoc@artielektronik.com.tr>, 2012.
+#   Atila KOÇ <akoc@artielektronik.com.tr>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-01-21 22:01+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-14 14:23+0200\n"
 "Last-Translator: Atila KOÇ <akoc@artielektronik.com.tr>\n"
 "Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
 "Language: tr\n"
@@ -479,9 +480,8 @@ msgid "Eritrea"
 msgstr "Eritre"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Amerika Birleşik Devletleri"
+msgstr "Eritre Devleti"
 
 #. name for EST
 msgid "Estonia"
@@ -1156,12 +1156,12 @@ msgid "Republic of Palau"
 msgstr "Palau Cumhuriyeti"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Filistin Özerk Bölgesi"
+msgid "Palestine, State of"
+msgstr "Filistin Devleti"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Filistin Özerk Bölgesi"
+msgid "the State of Palestine"
+msgstr "Filistin Devleti"
 
 #. name for PAN
 msgid "Panama"

@@ -13,9 +13,9 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2011-06-27 14:46+0200\n"
-"Last-Translator: Vasileiou Thomas <vathomas@wildmail.com>\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-12 14:46+0200\n"
+"Last-Translator: Nick Andrik <nick.andrik@gmail.com>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -481,9 +481,8 @@ msgid "Eritrea"
 msgstr "Ερυθραία"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Ηνωμένες Πολιτείες της Αμερικής"
+msgstr "Κράτος της Ερυθραίας"
 
 #. name for EST
 msgid "Estonia"
@@ -1163,12 +1162,12 @@ msgid "Republic of Palau"
 msgstr "Δημοκρατία του Παλάου"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Παλαιστινιακό Έδαφος, Κατεχόμενο"
+msgid "Palestine, State of"
+msgstr "Παλαιστίνη"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Κατεχόμενο Παλαιστινιακό Έδαφος"
+msgid "the State of Palestine"
+msgstr "Κράτος της Παλαιστίνης"
 
 #. name for PAN
 msgid "Panama"
@@ -1440,14 +1439,12 @@ msgid "Republic of Suriname"
 msgstr "Δημοκρατία του Σουρινάμ"
 
 #. name for SSD
-#, fuzzy
 msgid "South Sudan"
-msgstr "Δημοκρατία του Σουδάν"
+msgstr "Νότιο Σουδάν"
 
 #. official_name for SSD
-#, fuzzy
 msgid "Republic of South Sudan"
-msgstr "Δημοκρατία του Σουδάν"
+msgstr "Δημοκρατία του Νότιου Σουδάν"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"

@@ -5,24 +5,24 @@
 #
 # Copyright (C)
 #
-#   Mikel Olasagasti <hey_neken@mundurat.net>, 2004.
-#   Piarres Beobide Egaña <pi@beobide.net>, 2004,2006,2007, 2008, 2009, 2012.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2010.
+# Mikel Olasagasti <hey_neken@mundurat.net>, 2004.
+# Piarres Beobide Egaña <pi@beobide.net>, 2004,2006,2007, 2008, 2009, 2012.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2010, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-05-07 22:52+0200\n"
-"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-12 21:53+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <debian-l10n-basque@lists.debian.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Lokalize 1.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -194,11 +194,11 @@ msgstr "Bhutango Erresuma"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr "Bolivia, Nazio-anitzeko estatua"
+msgstr "Bolivia, Nazio-anitzeko Estatua"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr "Nazio anitzeko Boliviako estatua"
+msgstr "Nazio anitzeko Boliviako Estatua"
 
 #. common_name for BOL
 msgid "Bolivia"
@@ -477,9 +477,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Ameriketako Estatu Batuak"
+msgstr "Eritreako Estatua"
 
 #. name for EST
 msgid "Estonia"
@@ -1154,12 +1153,12 @@ msgid "Republic of Palau"
 msgstr "Palauko Errepublika"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestinar Lurraldea, okupatua"
+msgid "Palestine, State of"
+msgstr "Palestinako Estatua"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Okupatutako Palestinar Lurraldea"
+msgid "the State of Palestine"
+msgstr "Palestinako Estatua"
 
 #. name for PAN
 msgid "Panama"

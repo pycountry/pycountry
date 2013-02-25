@@ -1,4 +1,4 @@
-# translation of iso_3166-3.36.nl.po to Dutch
+# translation of iso_3166-3.40.nl.po to Dutch
 # Dutch translation of iso_3166.
 # Copyright (C) 2004, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-06-30 12:13+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2012-11-29 23:18+0100\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for AFG
@@ -475,9 +475,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Verenigde Staten van Amerika"
+msgstr "de Staat Eritrea"
 
 #. name for EST
 msgid "Estonia"
@@ -1152,12 +1151,13 @@ msgid "Republic of Palau"
 msgstr "Republiek Palau"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestina"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Westelijke Jordaanoever en Gazastrook"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "de Staat Eritrea"
 
 #. name for PAN
 msgid "Panama"

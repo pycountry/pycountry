@@ -4,7 +4,7 @@
 #
 # Copyright (C)
 #   Free Software Foundation, Inc., 2004
-#   Miroslav Kure <kurem@debian.cz>, 2004--2011
+#   Miroslav Kure <kurem@debian.cz>, 2004--2013
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2011-12-06 10:44+0100\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-17 10:37+0100\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -193,11 +193,11 @@ msgstr "Bhútánské království"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr "Bolívie, mnohonárodnostní stát"
+msgstr "Mnohonárodní stát Bolívie"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
-msgstr "Mnohonárodnostní stát Bolívie"
+msgstr "Mnohonárodní stát Bolívie"
 
 #. common_name for BOL
 msgid "Bolivia"
@@ -476,9 +476,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Spojené státy americké"
+msgstr "Stát Eritrea"
 
 #. name for EST
 msgid "Estonia"
@@ -730,7 +729,7 @@ msgstr "Izrael"
 
 #. official_name for ISR
 msgid "State of Israel"
-msgstr "Izraelský stát"
+msgstr "Stát Izrael"
 
 #. name for ITA
 msgid "Italy"
@@ -802,7 +801,7 @@ msgstr "Kuvajt"
 
 #. official_name for KWT
 msgid "State of Kuwait"
-msgstr "Kuvajtský stát"
+msgstr "Stát Kuvajt"
 
 #. name for KGZ
 msgid "Kyrgyzstan"
@@ -986,7 +985,7 @@ msgstr "Federativní státy Mikronésie"
 
 #. name for MDA
 msgid "Moldova, Republic of"
-msgstr "Moldavsko, republika"
+msgstr "Moldavská republika"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1153,12 +1152,12 @@ msgid "Republic of Palau"
 msgstr "Palauská republika"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestinské území, okupované"
+msgid "Palestine, State of"
+msgstr "Palestinský stát"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Okupované území Palestiny"
+msgid "the State of Palestine"
+msgstr "Stát Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1226,7 +1225,7 @@ msgstr "Katar"
 
 #. official_name for QAT
 msgid "State of Qatar"
-msgstr "Katarský stát"
+msgstr "Stát Katar"
 
 #. name for REU
 msgid "Réunion"
@@ -1622,7 +1621,7 @@ msgstr "Vanuatská republika"
 
 #. name for VEN
 msgid "Venezuela, Bolivarian Republic of"
-msgstr "Venezuela, bolívarovská republika"
+msgstr "Bolívarovská republika Venezuela"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"

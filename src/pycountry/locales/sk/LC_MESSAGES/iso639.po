@@ -2,16 +2,15 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # translation:
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011.
+# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2013.
 # bronto, 2007.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-22 07:22+0200\n"
-"PO-Revision-Date: 2011-11-21 11:42+0100\n"
+"POT-Creation-Date: 2013-01-11 07:25+0100\n"
+"PO-Revision-Date: 2013-02-13 13:55+0200\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -206,7 +205,6 @@ msgid "Baltic languages"
 msgstr "baltské jazyky"
 
 #. name for bej
-#, fuzzy
 msgid "Beja; Bedawiyet"
 msgstr "bedža"
 
@@ -224,7 +222,7 @@ msgstr "bengálčina"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "bengálčina"
 
 #. name for ber
 msgid "Berber languages"
@@ -360,7 +358,6 @@ msgid "Choctaw"
 msgstr "čoktavčina"
 
 #. name for chp
-#, fuzzy
 msgid "Chipewyan; Dene Suline"
 msgstr "čipevajčina"
 
@@ -478,7 +475,7 @@ msgstr "dógrí"
 
 #. name for dra
 msgid "Dravidian languages"
-msgstr ""
+msgstr "drávidské jazyky"
 
 #. name for dsb
 msgid "Lower Sorbian"
@@ -739,7 +736,7 @@ msgstr "hiligajnončina"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "himáčalské jazyky; západné pahárske jazyky"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -751,7 +748,7 @@ msgstr "chetitčina"
 
 #. name for hmn
 msgid "Hmong; Mong"
-msgstr ""
+msgstr "hmong"
 
 #. name for hmo, ho
 msgid "Hiri Motu"
@@ -791,7 +788,6 @@ msgid "Ido"
 msgstr "ido"
 
 #. name for iii, ii
-#, fuzzy
 msgid "Sichuan Yi; Nuosu"
 msgstr "s’čchuanská ioština"
 
@@ -804,7 +800,6 @@ msgid "Inuktitut"
 msgstr "inuktitut"
 
 #. name for ile, ie
-#, fuzzy
 msgid "Interlingue; Occidental"
 msgstr "interlingue"
 
@@ -1392,7 +1387,6 @@ msgid "Pahlavi"
 msgstr "pahlaví"
 
 #. name for pam
-#, fuzzy
 msgid "Pampanga; Kapampangan"
 msgstr "pampangančina"
 
@@ -1959,11 +1953,15 @@ msgstr "zapotéčtina"
 
 #. name for zbl
 msgid "Blissymbols; Blissymbolics; Bliss"
-msgstr ""
+msgstr "Bliss"
 
 #. name for zen
 msgid "Zenaga"
 msgstr "zenaga"
+
+#. name for zgh
+msgid "Standard Moroccan Tamazight"
+msgstr "štandardný marocký tamašek"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

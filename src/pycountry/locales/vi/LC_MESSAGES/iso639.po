@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-22 07:22+0200\n"
-"PO-Revision-Date: 2009-05-12 23:36+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"POT-Creation-Date: 2013-01-11 07:25+0100\n"
+"PO-Revision-Date: 2012-11-28 21:05+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"Language-Team: The MOST project <du-an-most@lists.hanoilug.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,7 +222,7 @@ msgstr "Tiếng Băng Gan"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "Tiếng Bengal"
 
 #. name for ber
 msgid "Berber languages"
@@ -233,9 +233,8 @@ msgid "Bhojpuri"
 msgstr "Tiếng Bo-giơ-pu-ri"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "Hệ ngôn ngữ Tai"
+msgstr "Hệ ngôn ngữ Bihari"
 
 #. name for bik
 msgid "Bikol"
@@ -729,7 +728,7 @@ msgstr "Tiếng Hi-li-gay-non"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "Tiếng Himachali; Tiếng Tây Pahari"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -740,9 +739,8 @@ msgid "Hittite"
 msgstr "Tiếng Hic-tic"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
-msgstr "Tiếng Miêu"
+msgstr "Tiếng H'Mong; Mông"
 
 #. name for hmo, ho
 msgid "Hiri Motu"
@@ -1948,6 +1946,10 @@ msgstr "Ký hiệu Bliss"
 #. name for zen
 msgid "Zenaga"
 msgstr "Tiếng Xe-na-ga"
+
+#. name for zgh
+msgid "Standard Moroccan Tamazight"
+msgstr ""
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

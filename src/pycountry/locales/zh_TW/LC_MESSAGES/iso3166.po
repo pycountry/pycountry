@@ -1,27 +1,28 @@
-# Translation of ISO-3166 (country names) to Traditional Chinese
+# Translation of ISO-3166 (country names) to Traditional Chinese.
+# Copyright (C) 2001 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
-# Copyright (C)
-#   Free Software Foundation, Inc., 2002, 2003
-#   Alastair McKinstry <mckinstry@computer.org>, 2002
+#   Free Software Foundation, Inc., 2002, 2003.
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
 #   Translations from KDE:
-#   - AceLan <acelan@kde.linux.org.tw>, 2001
-#   - Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001
-#   Tetralet <tetralet@gmail.com> 2004, 2007, 2008, 2009, 2010
-#   Wei-Lun Chao <chaoweilun@gmail.com> 2010, 2012
+#   - AceLan <acelan@kde.linux.org.tw>, 2001.
+#   - Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001.
+#   Tetralet <tetralet@gmail.com> 2004, 2007, 2008, 2009, 2010.
+#   Wei-Lun Chao <bluebat@member.fsf.org> 2010, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-04-10 23:13+0800\n"
-"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-12 23:13+0800\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -476,9 +477,8 @@ msgid "Eritrea"
 msgstr "厄利垂亞"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "美利堅合眾國"
+msgstr "厄利垂亞國"
 
 #. name for EST
 msgid "Estonia"
@@ -1153,12 +1153,13 @@ msgid "Republic of Palau"
 msgstr "帛琉共和國"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "巴勒斯坦佔領區"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "巴勒斯坦佔領區"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "厄利垂亞國"
 
 #. name for PAN
 msgid "Panama"

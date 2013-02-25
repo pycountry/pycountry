@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the iso-codes package.
 # Alastair McKinstry <mckinstry@computer.org>, 2002
 # Lisiane Sztoltz <lisiane@conectiva.com.br>
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-9.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-9, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2009-09-03 22:02+0300\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-12 11:18+0200\n"
 "Last-Translator: Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -1354,12 +1354,13 @@ msgid "Republic of Palau"
 msgstr "República de Palau"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestina, Território Ocupado da"
+msgid "Palestine, State of"
+msgstr "Palestina, Estado da"
 
+# US
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Território Ocupado da Palestina"
+msgid "the State of Palestine"
+msgstr "o Estado da Palestina"
 
 # PA
 #. name for PAN

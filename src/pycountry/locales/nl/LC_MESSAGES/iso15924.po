@@ -1,4 +1,4 @@
-# translation of iso_15924-3.35.nl.po to Dutch
+# translation of iso_15924-3.40.nl.po to Dutch
 # Translation of ISO 15924 (script names) to Dutch.
 #
 # This file is distributed under the same license as the iso-codes package.
@@ -13,14 +13,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-10-17 09:28+0200\n"
-"PO-Revision-Date: 2012-05-04 16:08+0200\n"
+"PO-Revision-Date: 2012-11-29 23:29+0100\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for Afak
@@ -29,7 +29,7 @@ msgstr "Afaka"
 
 #. name for Aghb
 msgid "Caucasian Albanian"
-msgstr ""
+msgstr "Kaukasisch Albanees"
 
 #. name for Arab
 msgid "Arabic"
@@ -238,7 +238,7 @@ msgstr "Japanse lettergrepen (alias voor Hiragana + Katakana)"
 
 #. name for Hung
 msgid "Old Hungarian (Hungarian Runic)"
-msgstr ""
+msgstr "Oudhongaars (Hongaarse runen)"
 
 #. name for Inds
 msgid "Indus (Harappan)"
@@ -350,7 +350,7 @@ msgstr "Lydisch"
 
 #. name for Mahj
 msgid "Mahajani"
-msgstr ""
+msgstr "Mahajani"
 
 #. name for Mand
 msgid "Mandaic, Mandaean"

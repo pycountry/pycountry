@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
 "PO-Revision-Date: 2012-10-19 10:14+0300\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -1157,12 +1157,13 @@ msgid "Republic of Palau"
 msgstr "Република Палау"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Палестинска територия, Окупирана"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Окупирана палестинска територия"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "Еритрея"
 
 #. name for PAN
 msgid "Panama"

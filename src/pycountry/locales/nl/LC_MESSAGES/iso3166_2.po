@@ -1,4 +1,4 @@
-# translation of iso_3166_2-3.37.nl.po to Dutch
+# translation of iso_3166_2-3.40.nl.po to Dutch
 # Dutch translation of iso_3166_2.
 # Copyright (C) 2005-2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
@@ -19,14 +19,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-08-25 16:22+0200\n"
-"PO-Revision-Date: 2012-07-01 21:33+0200\n"
+"PO-Revision-Date: 2012-11-29 23:19+0100\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for AD-07
@@ -2236,7 +2236,6 @@ msgid "North-East"
 msgstr "Noord-Oost"
 
 #. name for BW-NW
-#, fuzzy
 msgid "North-West"
 msgstr "Noord-West"
 
@@ -2245,7 +2244,6 @@ msgid "South-East"
 msgstr "Zuid-Oost"
 
 #. name for BW-SO
-#, fuzzy
 msgid "Southern"
 msgstr "Zuid"
 

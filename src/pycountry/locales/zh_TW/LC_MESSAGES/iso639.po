@@ -1,4 +1,4 @@
-# Traditional Chinese translation for ISO 639 Language names
+# Traditional Chinese translation for ISO 639 Language names.
 # Copyright (C) 2001 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # LI Daobing <lidaobing@gmail.com>, 2007.
@@ -8,16 +8,16 @@
 # JOE MAN <trmetal@yahoo.com.hk>, 2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
-# Wei-Lun Chao <chaoweilun@gmail.com>, 2009.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2009, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-22 07:22+0200\n"
-"PO-Revision-Date: 2009-07-03 00:07+0800\n"
-"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
+"POT-Creation-Date: 2013-01-11 07:25+0100\n"
+"PO-Revision-Date: 2013-02-12 23:07+0800\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr "孟加拉語"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "孟加拉語"
 
 #. name for ber
 msgid "Berber languages"
@@ -238,9 +238,8 @@ msgid "Bhojpuri"
 msgstr "博杰普里語"
 
 #. name for bih, bh
-#, fuzzy
 msgid "Bihari languages"
-msgstr "泰語諸語言"
+msgstr "比哈諸語言"
 
 #. name for bik
 msgid "Bikol"
@@ -340,7 +339,7 @@ msgstr "車臣語"
 
 #. name for chg
 msgid "Chagatai"
-msgstr "察合台語"
+msgstr "察合臺語"
 
 #. name for zho, zh
 msgid "Chinese"
@@ -734,7 +733,7 @@ msgstr "希利蓋農語"
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr ""
+msgstr "喜馬偕爾諸語言；西帕哈爾諸語言"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -745,7 +744,6 @@ msgid "Hittite"
 msgstr "赫梯語"
 
 #. name for hmn
-#, fuzzy
 msgid "Hmong; Mong"
 msgstr "苗語"
 
@@ -1399,7 +1397,7 @@ msgstr "帛琉語"
 
 #. name for peo
 msgid "Persian, Old (ca. 600-400 B.C.)"
-msgstr "古波斯語 (約西元前 600-400)"
+msgstr "古波斯語 (約公元前 600-400)"
 
 #. name for fas, fa
 msgid "Persian"
@@ -1703,7 +1701,7 @@ msgstr "大溪地語"
 
 #. name for tai
 msgid "Tai languages"
-msgstr "泰語諸語言"
+msgstr "壯傣諸語言"
 
 #. name for tam, ta
 msgid "Tamil"
@@ -1952,6 +1950,10 @@ msgstr "布利斯符號"
 #. name for zen
 msgid "Zenaga"
 msgstr "澤納加語"
+
+#. name for zgh
+msgid "Standard Moroccan Tamazight"
+msgstr ""
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
