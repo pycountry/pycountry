@@ -7,15 +7,15 @@
 #   Petr Cech <cech@debian.org> (Petr Čech), 2000.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #   Stanislav Brabec <utx@penguin.cz>, 2001.
-#   Miroslav Kure <kurem@debian.cz>, 2004--2009.
+#   Miroslav Kure <kurem@debian.cz>, 2004--2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-22 07:22+0200\n"
-"PO-Revision-Date: 2010-06-26 07:52+0200\n"
+"POT-Creation-Date: 2013-01-11 07:25+0100\n"
+"PO-Revision-Date: 2013-02-17 11:10+0100\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -227,7 +227,7 @@ msgstr "bengálština"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "bengálština (bangla)"
 
 #. name for ber
 msgid "Berber languages"
@@ -1950,6 +1950,10 @@ msgstr "blissymboly; blissymbolika; bliss"
 #. name for zen
 msgid "Zenaga"
 msgstr "zenaga"
+
+#. name for zgh
+msgid "Standard Moroccan Tamazight"
+msgstr "standardní marocký tamazight"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

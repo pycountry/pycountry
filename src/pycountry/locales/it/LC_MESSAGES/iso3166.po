@@ -1,20 +1,20 @@
 # Translation of ISO-3166 (country names) to Italian
-# Copyright (C) 2004-2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 2004-2008, 2009, 2010, 2011, 2012, 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Andrea Scialpi <solopec@tiscalinet.it>, 2001
 # (translations from drakfw)
 # Alastair McKinstry <mckinstry@computer.org>, 2001
 # Danilo Piazzalunga <danilopiazza@libero.it>, 2004
 # Davide Viti <zinosat@tiscali.it>, 2006
-# Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010, 2011, 2012.
+# Milo Casagrande <milo@casagrande.name>, 2008, 2009, 2010, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-10-05 09:41+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-17 14:28+0100\n"
 "Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -1163,12 +1163,12 @@ msgid "Republic of Palau"
 msgstr "Repubblica di Palau"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Territori palestinesi occupati"
+msgid "Palestine, State of"
+msgstr "Palestina, Stato di"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Territori palestinesi occupati"
+msgid "the State of Palestine"
+msgstr "Stato di Palestina"
 
 #. name for PAN
 msgid "Panama"

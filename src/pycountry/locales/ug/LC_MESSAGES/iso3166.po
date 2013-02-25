@@ -1,23 +1,24 @@
 # Translation of ISO 3166 (country names) to LANGUAGE
-# 
+#
 # This file is distributed under the same license as the iso-codes package.
-# 
+#
 # Copyright ©
 # Abduqadir Abliz <sahran.ug@gmail.com>, 2011.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2011-06-18 13:43+0900\n"
-"Last-Translator: Abduqadir Abliz  <sahran.ug@gmail.com>\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-13 11:28+0600\n"
+"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -472,9 +473,8 @@ msgid "Eritrea"
 msgstr "ئېرىترېيە"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "ئامېرىكا قوشما شتاتلىرى"
+msgstr "ئېرىترىيە دۆلىتى"
 
 #. name for EST
 msgid "Estonia"
@@ -1149,12 +1149,12 @@ msgid "Republic of Palau"
 msgstr "پالاۋ جۇمھۇرىيىتى"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "پەلەستىن"
+msgid "Palestine, State of"
+msgstr "پەلەستىن دۆلىتى"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "پەلەستىن ئىشغال قىلىنىۋېلىنغان زېمىنى"
+msgid "the State of Palestine"
+msgstr "پەلەستىن دۆلىتى"
 
 #. name for PAN
 msgid "Panama"
@@ -1421,14 +1421,12 @@ msgid "Republic of Suriname"
 msgstr "سۇرىنام جۇمھۇرىيىتى"
 
 #. name for SSD
-#, fuzzy
 msgid "South Sudan"
-msgstr "سۇدان جۇمھۇرىيىتى"
+msgstr "جەنۇبىي سۇدان "
 
 #. official_name for SSD
-#, fuzzy
 msgid "Republic of South Sudan"
-msgstr "سۇدان جۇمھۇرىيىتى"
+msgstr "جەنۇبىي سۇدان جۇمھۇرىيىتى"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"

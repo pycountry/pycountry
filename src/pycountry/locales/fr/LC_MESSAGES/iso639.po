@@ -9,14 +9,14 @@
 #   Christophe Merlet (RedFox) <redfox@eikonex.org>, 2001.
 #   Cedric De Wilde <daique@tiscalinet.be>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2012.
+#   Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-22 07:22+0200\n"
-"PO-Revision-Date: 2012-10-22 07:27+0200\n"
+"POT-Creation-Date: 2013-01-11 07:25+0100\n"
+"PO-Revision-Date: 2013-01-11 07:26+0100\n"
 "Last-Translator: Christian Perrier <bubulle@debian.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -1952,6 +1952,10 @@ msgstr "symboles Bliss"
 #. name for zen
 msgid "Zenaga"
 msgstr "zenaga"
+
+#. name for zgh
+msgid "Standard Moroccan Tamazight"
+msgstr "amazighe standard marocain"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

@@ -3,7 +3,7 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2002
 # Translations from KDE:
 #  - Thanomsub Noppaburana <donga@midaassets.com>
-# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2009.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013.
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-08-25 16:22+0200\n"
-"PO-Revision-Date: 2009-01-13 14:52+0700\n"
+"PO-Revision-Date: 2013-02-13 15:32+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -2922,7 +2922,6 @@ msgid "Guangxi"
 msgstr "กวางสี"
 
 #. name for CN-15
-#, fuzzy
 msgid "Nei Mongol"
 msgstr "มองโกเลียใน"
 
@@ -7749,7 +7748,6 @@ msgid "Andhra Pradesh"
 msgstr "อานธรประเทศ"
 
 #. name for IN-AR
-#, fuzzy
 msgid "Arunachal Pradesh"
 msgstr "อรุณาจัลประเทศ"
 
@@ -7759,43 +7757,37 @@ msgstr "อัสสัม"
 
 #. name for IN-BR
 msgid "Bihar"
-msgstr ""
+msgstr "พิหาร"
 
 #. name for IN-CT
-#, fuzzy
 msgid "Chhattisgarh"
-msgstr "จัณฑีครห์"
+msgstr "ฉัตตีสครห์"
 
 #. name for IN-GA
 msgid "Goa"
 msgstr "กัว"
 
 #. name for IN-GJ
-#, fuzzy
 msgid "Gujarat"
 msgstr "คุชราต"
 
 #. name for IN-HR
-#, fuzzy
 msgid "Haryana"
-msgstr "หรยาณา"
+msgstr "หริยาณา"
 
 #. name for IN-HP
-#, fuzzy
 msgid "Himachal Pradesh"
 msgstr "หิมาจัลประเทศ"
 
 #. name for IN-JK
-#, fuzzy
 msgid "Jammu and Kashmir"
 msgstr "ชัมมูและกัศมีร์"
 
 #. name for IN-JH
 msgid "Jharkhand"
-msgstr ""
+msgstr "ฌารขัณฑ์"
 
 #. name for IN-KA
-#, fuzzy
 msgid "Karnataka"
 msgstr "กรณาฏกะ"
 
@@ -7808,7 +7800,6 @@ msgid "Madhya Pradesh"
 msgstr "มัธยประเทศ"
 
 #. name for IN-MH
-#, fuzzy
 msgid "Maharashtra"
 msgstr "มหาราษฏระ"
 
@@ -7817,7 +7808,6 @@ msgid "Manipur"
 msgstr "มณีปุระ"
 
 #. name for IN-ML
-#, fuzzy
 msgid "Meghalaya"
 msgstr "เมฆาลัย"
 
@@ -7826,9 +7816,8 @@ msgid "Mizoram"
 msgstr "มิโซรัม"
 
 #. name for IN-NL
-#, fuzzy
 msgid "Nagaland"
-msgstr "ซาร์ลันด์"
+msgstr "นาคาแลนด์"
 
 #. name for IN-OR
 msgid "Orissa"
@@ -7839,7 +7828,6 @@ msgid "Punjab"
 msgstr "ปัญจาบ"
 
 #. name for IN-RJ
-#, fuzzy
 msgid "Rajasthan"
 msgstr "ราชสถาน"
 
@@ -7848,7 +7836,6 @@ msgid "Sikkim"
 msgstr "สิกขิม"
 
 #. name for IN-TN
-#, fuzzy
 msgid "Tamil Nadu"
 msgstr "ทมิฬนาฑู"
 
@@ -7857,9 +7844,8 @@ msgid "Tripura"
 msgstr "ตริปุระ"
 
 #. name for IN-UT
-#, fuzzy
 msgid "Uttarakhand"
-msgstr "อุตรดิตถ์"
+msgstr "อุตตราขัณฑ์"
 
 #. name for IN-UP
 msgid "Uttar Pradesh"
@@ -7874,17 +7860,14 @@ msgid "Andaman and Nicobar Islands"
 msgstr "หมู่เกาะอันดามันและนิโคบาร์"
 
 #. name for IN-CH
-#, fuzzy
 msgid "Chandigarh"
 msgstr "จัณฑีครห์"
 
 #. name for IN-DN
-#, fuzzy
 msgid "Dadra and Nagar Haveli"
 msgstr "ดาดราและนครหเวลี"
 
 #. name for IN-DD
-#, fuzzy
 msgid "Damen and Diu"
 msgstr "ดามันและดีอู"
 
@@ -7897,7 +7880,6 @@ msgid "Lakshadweep"
 msgstr "ลักษทวีป"
 
 #. name for IN-PY
-#, fuzzy
 msgid "Puducherry"
 msgstr "พอนดิเชอร์รี"
 
@@ -12383,7 +12365,7 @@ msgstr "ลาบวน"
 
 #. name for MY-16
 msgid "Wilayah Persekutuan Putrajaya"
-msgstr ""
+msgstr "ปุตราจายา"
 
 #. name for MY-01
 msgid "Johor"
@@ -14644,7 +14626,6 @@ msgid "Kurskaya oblast'"
 msgstr ""
 
 #. name for RU-LEN
-#, fuzzy
 msgid "Leningradskaya oblast'"
 msgstr "เลนินกราด"
 
@@ -14770,12 +14751,10 @@ msgid "Yaroslavskaya oblast'"
 msgstr ""
 
 #. name for RU-MOW
-#, fuzzy
 msgid "Moskva"
 msgstr "มอสโก"
 
 #. name for RU-SPE
-#, fuzzy
 msgid "Sankt-Peterburg"
 msgstr "เซนต์ปีเตอร์สเบิร์ก"
 

@@ -5,8 +5,7 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Claus Hindsgaul <claus_h@image.dk>, 2004.
 # Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2006.
-# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011.
-# Robert Jørgensgaard Engdahl <robert.j.engdahl@gmail.com>, 2012.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2012.
 #
 # This European Union Resource page was very helpful:
 # http://eur-op.eu.int/code/da/da-5000500.htm
@@ -17,15 +16,15 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-01-21 21:25+0100\n"
-"Last-Translator: Robert Jørgensgaard Engdahl <robert.j.engdahl@gmail.com>\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2012-11-17 11:34+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -208,8 +207,8 @@ msgstr "Den Plurinationale Stat Bolivia"
 msgid "Bolivia"
 msgstr "Bolivia"
 
-# Nederlandske Antiller, De  Består af: Bonaire, Curaçao,
-# Sint-Maarten (en del af øen hedder Saint-Martin og er et
+# Nederlandske Antiller, De  Består af: Bonaire, Curaçao, 
+# Sint-Maarten (en del af øen hedder Saint-Martin og er et 
 # selvstændigt fransk oversøisk område), Saba, Sint-Eustatius
 #. name for BES, official_name for BES
 msgid "Bonaire, Sint Eustatius and Saba"
@@ -485,9 +484,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Amerikas Forenede Stater"
+msgstr "Staten Eritrea"
 
 #. name for EST
 msgid "Estonia"
@@ -1164,12 +1162,13 @@ msgid "Republic of Palau"
 msgstr "Republikken Palau"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palæstinensiske Territorie, Besatte"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Det Besatte Palæstinensiske Territorie"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "Staten Eritrea"
 
 #. name for PAN
 msgid "Panama"
@@ -1836,10 +1835,10 @@ msgstr "Forskellige Amerikanske Stillehavsøer"
 msgid "USSR, Union of Soviet Socialist Republics"
 msgstr "USSR, Unionen af Sovjetiske Socialistrepublikker"
 
-# The Republic of Upper Volta (French: République de Haute-Volta)
-# was established on December 11, 1958, as a self-governing colony
-# within the French Community. Before attaining autonomy it had been
-# French Upper Volta and part of the French Union. On August 5, 1960
+# The Republic of Upper Volta (French: République de Haute-Volta) 
+# was established on December 11, 1958, as a self-governing colony 
+# within the French Community. Before attaining autonomy it had been 
+# French Upper Volta and part of the French Union. On August 5, 1960 
 # it attained full independence from France.
 #. historic names for HVO (withdrawn 1984)
 msgid "Upper Volta, Republic of"

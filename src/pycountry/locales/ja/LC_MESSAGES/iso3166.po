@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
 "PO-Revision-Date: 2011-11-06 08:06+0900\n"
 "Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -1227,16 +1227,14 @@ msgstr "パラオ"
 msgid "Republic of Palau"
 msgstr "パラオ共和国"
 
-# 外務省ではパレスチナ暫定自治政府 (Palestinian Interim Self-Government Authority) または
-# パレスチナ解放機構 (Palestine Liberation Organization) となっている。
-# ここでは地域を表すためパレスチナ占領地区とする。 (2010/9/6)
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "パレスチナ占領地区"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "パレスチナ占領地区"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "アメリカ合衆国"
 
 #. name for PAN
 msgid "Panama"

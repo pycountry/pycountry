@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ne_merge\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
 "PO-Revision-Date: 2011-02-22 16:39-0600\n"
 "Last-Translator: Shiva Prasad Pokharel <pokharelshiva@hotmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -1154,12 +1154,13 @@ msgid "Republic of Palau"
 msgstr "पालाउको गणराज्य"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "प्यालेस्टिनियन क्षेत्र, ओगटियो"
+msgid "Palestine, State of"
+msgstr ""
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "प्यालेस्टिनियन क्षेत्र ओगटियो"
+#, fuzzy
+msgid "the State of Palestine"
+msgstr "संयुक्त राज्य अमेरिका"
 
 #. name for PAN
 msgid "Panama"

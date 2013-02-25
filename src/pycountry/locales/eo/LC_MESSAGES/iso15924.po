@@ -1,9 +1,7 @@
 # Translation of ISO 15924 (script names) to Esperanto
-#
 # This file is distributed under the same license as the iso-codes package.
-#
-# Copyright (C)
-#   Edmund GRIMLEY EVANS <edmundo@rano.org>, 2007, 2009-2010.
+# Copyright (C) Edmund GRIMLEY EVANS <edmundo@rano.org>, 2007, 2009-2013.
+# Felipe Castro <fefcas@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
@@ -11,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2012-10-17 09:28+0200\n"
-"PO-Revision-Date: 2010-12-08 23:07+0000\n"
-"Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
+"PO-Revision-Date: 2013-01-27 11:47-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +19,11 @@ msgstr ""
 
 #. name for Afak
 msgid "Afaka"
-msgstr ""
+msgstr "Afaka"
 
 #. name for Aghb
 msgid "Caucasian Albanian"
-msgstr ""
+msgstr "Kaŭkaza albana"
 
 #. name for Arab
 msgid "Arabic"
@@ -221,24 +219,23 @@ msgstr "Rondaj kanaoj"
 
 #. name for Hluw
 msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
-msgstr ""
+msgstr "Anatolaj hieroglifoj (luvitaj hieroglifoj, hititaj hieroglifoj)"
 
 #. name for Hmng
 msgid "Pahawh Hmong"
 msgstr "Skribo de Pahawh"
 
 #. name for Hrkt
-#, fuzzy
 msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
-msgstr "Japana (= Hana + Rondaj kanaoj + Strekaj kanaoj)"
+msgstr "Japana silabaroj (= Hana + Rondaj kanaoj + Strekaj kanaoj)"
 
 #. name for Hung
 msgid "Old Hungarian (Hungarian Runic)"
-msgstr ""
+msgstr "Malnova hungara (hungara runeca)"
 
 #. name for Inds
 msgid "Indus (Harappan)"
-msgstr "Indusa"
+msgstr "Indusa (harapa)"
 
 #. name for Ital
 msgid "Old Italic (Etruscan, Oscan, etc.)"
@@ -369,9 +366,8 @@ msgid "Meroitic Cursive"
 msgstr "Meroa kursiva"
 
 #. name for Mero
-#, fuzzy
 msgid "Meroitic Hieroglyphs"
-msgstr "Merota hieroglifa"
+msgstr "Merotaj hieroglifoj"
 
 #. name for Mlym
 msgid "Malayalam"

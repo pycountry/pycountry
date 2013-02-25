@@ -8,14 +8,14 @@
 #   Simon Hürlimann <simon.huerlimann@access.unizh.ch>, 2004.
 #   Dennis Stampfer <seppy@debian.org>, 2004.
 #   Christian Stimming <stimming@tuhh.de>, 2006.
-#   Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+#   Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-08-23 07:39+0200\n"
-"PO-Revision-Date: 2012-10-05 09:57+0200\n"
+"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"PO-Revision-Date: 2013-02-12 10:13+0100\n"
 "Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1154,12 +1154,12 @@ msgid "Republic of Palau"
 msgstr "Republik Palau"
 
 #. name for PSE
-msgid "Palestinian Territory, Occupied"
-msgstr "Palästinensische Autonomiegebiete"
+msgid "Palestine, State of"
+msgstr "Palästina, Staat"
 
 #. official_name for PSE
-msgid "Occupied Palestinian Territory"
-msgstr "Palästinensische Autonomiegebiete"
+msgid "the State of Palestine"
+msgstr "Staat Palästina"
 
 #. name for PAN
 msgid "Panama"
