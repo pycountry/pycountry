@@ -3,6 +3,7 @@ dist
 report.xml
 htmlcov
 .coverage
+.tox
 *.egg-info
 *.pyc
 *.swp
