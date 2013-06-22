@@ -14,7 +14,7 @@ setup(
     description='ISO country, subdivision, language, currency and script '
                 'definitions and their translations',
     long_description=(
-        open(os.path.join('src', 'pycountry', 'README.txt')).read() + '\n' +
+        open('README').read() + '\n' +
         open('HISTORY.txt').read()),
     license='LGPL 2.1',
     keywords='country subdivision language currency iso 3166 639 4217 '
