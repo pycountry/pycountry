@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2012-08-24 08:08+0100\n"
 "Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
 "Language-Team: Vietnamese <>\n"
@@ -1168,6 +1168,11 @@ msgstr "Nước Cộng Hoà Pa-na-ma"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Pa-pu-a Niu Ghi-nê"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Quốc Gia Độc Lập Xa-mô-a"
 
 #. name for PRY
 msgid "Paraguay"

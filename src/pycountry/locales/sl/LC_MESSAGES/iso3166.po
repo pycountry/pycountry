@@ -1,19 +1,19 @@
 # Slovenian translations of ISO 3166 country names
-# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Translations from KDE:
 # Roman Maurer <roman.maurer@amis.net>, 2002.
-# Primož Peterlin <primozz.peterlin@gmail.com>, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Primož Peterlin <primozz.peterlin@gmail.com>, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
 #
-# $Id: iso_3166-3.39.sl.po,v 1.2 2012/10/28 21:42:14 peterlin Exp $
+# $Id: iso_3166-3.41.sl.po,v 1.2 2013/03/09 12:39:44 peterlin Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-10-28 22:42+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-09 13:39+0100\n"
 "Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
 "Language: sl\n"
@@ -1377,15 +1377,15 @@ msgstr "Palau"
 msgid "Republic of Palau"
 msgstr "Republika Palau"
 
+# PS
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina, država"
 
 # US
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Država Eritreja"
+msgstr "Država Palestina"
 
 # PA
 #. name for PAN
@@ -1401,6 +1401,11 @@ msgstr "Republika Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Nova Gvineja"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Neodvisna država Samoa"
 
 # PY
 #. name for PRY

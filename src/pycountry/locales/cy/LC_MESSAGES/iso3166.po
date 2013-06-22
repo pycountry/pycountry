@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-10-08 21:30-0000\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-04 10:54-0000\n"
 "Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh\n"
 "Language: cy\n"
@@ -1152,12 +1152,11 @@ msgstr "Gweriniaeth Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina, Gwladwriaeth"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Gwladwriaeth Eritrea"
+msgstr "Gwladwriaeth Palesteina"
 
 #. name for PAN
 msgid "Panama"
@@ -1170,6 +1169,11 @@ msgstr "Gweriniaeth Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Guinea Newydd"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Talaith Annibynol Samoa"
 
 #. name for PRY
 msgid "Paraguay"

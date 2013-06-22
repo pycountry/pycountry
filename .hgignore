@@ -1,5 +1,8 @@
 syntax:glob
 dist
+report.xml
+htmlcov
+.coverage
 *.egg-info
 *.pyc
 *.swp

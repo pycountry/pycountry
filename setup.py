@@ -1,5 +1,5 @@
 # vim:fileencoding=utf-8
-# Copyright (c) 2010 gocept gmbh & co. kg
+# Copyright (c) gocept gmbh & co. kg
 # See also LICENSE.txt
 
 import os.path
@@ -22,4 +22,9 @@ setup(
     zip_safe=False,
     packages=find_packages('src'),
     include_package_data=True,
-    package_dir={'': 'src'})
+    package_dir={'': 'src'},
+    install_requires=[
+        'pytest',
+        'pytest-capturelog',
+        'pytest-codecheckers',
+        'pytest-cov'])

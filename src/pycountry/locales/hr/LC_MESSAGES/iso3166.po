@@ -2,19 +2,20 @@
 #
 # This file is distributed under the same license as the iso-codes package.
 #
-# Copyright (C)
+# Copyright ©
 #
 #   Vlatko Kosturjak, 2001.
 #   Krunoslav Gernhard, 2004.
 #   Josip Rodin, 2008.
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-10-05 01:05+0200\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-04-18 14:06+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -22,8 +23,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Lokalize 1.4\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1155,12 +1156,11 @@ msgstr "Republika Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Država Eritreja"
+msgstr "Država Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1173,6 +1173,11 @@ msgstr "Republika Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Nova Gvineja"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Neovisna Država Samoa"
 
 #. name for PRY
 msgid "Paraguay"

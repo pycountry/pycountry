@@ -1,9 +1,11 @@
-# translation of iso_639-3.40.po to Icelandic
+# translation of iso_639-3.42.po to Icelandic
 # Icelandic translations of ISO 639 language names
+# Íslenskar þýðingar tungumála skv. ISO 639 staðli
 # This file is distributed under the same license as the iso-codes package.
 # Copyright (C) 2002-2013 Free Software Foundation, Inc.
 # Translations from KDE:
 # Þórarinn Rúnar Einarsson <thori@mindspring.com>
+#
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012, 2013.
 msgid ""
@@ -12,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2013-02-13 07:59+0000\n"
+"PO-Revision-Date: 2013-05-10 06:20+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -1952,7 +1954,7 @@ msgstr "Zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "Staðlað Marokkóskt Tamazight"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2013-01-27 01:00+0400\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-04 20:20+0400\n"
 "Last-Translator: Nik Kalach <nik.kalach@inbox.ru>\n"
 "Language-Team: Interlingua <translation-team-ia@lists.sourceforge.net>\n"
 "Language: ia\n"
@@ -29,7 +29,7 @@ msgstr "Republica Islamic de Afghanistan"
 
 #. name for ALA
 msgid "Åland Islands"
-msgstr "Insulas Aland"
+msgstr "Insulas Åland"
 
 #. name for ALB
 msgid "Albania"
@@ -1149,12 +1149,11 @@ msgstr "Republica de Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Stato de Eritrea"
+msgstr "Stato de Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1167,6 +1166,11 @@ msgstr "Republica de Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Nove Guinea"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Stato Independente de Samoa"
 
 #. name for PRY
 msgid "Paraguay"

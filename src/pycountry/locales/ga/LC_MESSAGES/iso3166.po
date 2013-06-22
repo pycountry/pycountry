@@ -5,15 +5,15 @@
 # Copyright (C)
 # Free Software Foundation, Inc., 2001,2003
 # Alastair McKinstry <mckinstry@debian>, 2001.
-# Kevin Scannell <kscanne@gmail.com>, 2008, 2009, 2010, 2011.
+# Kevin Scannell <kscanne@gmail.com>, 2008, 2009, 2010, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2011-06-19 11:35-0500\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-03 11:35-0600\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
@@ -205,7 +205,6 @@ msgid "Bolivia"
 msgstr "An Bholaiv"
 
 #. name for BES, official_name for BES
-#, fuzzy
 msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, San Eustatius agus Saba"
 
@@ -478,9 +477,8 @@ msgid "Eritrea"
 msgstr "An Eiritré"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Stáit Aontaithe Mheiriceá"
+msgstr "Stát na hEiritré"
 
 #. name for EST
 msgid "Estonia"
@@ -511,9 +509,8 @@ msgid "Fiji"
 msgstr "Fidsí"
 
 #. official_name for FJI
-#, fuzzy
 msgid "Republic of Fiji"
-msgstr "Poblacht Háítí"
+msgstr "Poblacht Fhidsí"
 
 #. name for FIN
 msgid "Finland"
@@ -1044,9 +1041,8 @@ msgid "Myanmar"
 msgstr "Maenmar"
 
 #. official_name for MMR
-#, fuzzy
 msgid "Republic of Myanmar"
-msgstr "Poblacht na Guáine"
+msgstr "Poblacht Mhaenmar"
 
 #. name for NAM
 msgid "Namibia"
@@ -1162,12 +1158,11 @@ msgstr "Poblacht Phalau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palaistíne, Stát na"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Stáit Aontaithe Mheiriceá"
+msgstr "Stát na Palaistíne"
 
 #. name for PAN
 msgid "Panama"
@@ -1180,6 +1175,11 @@ msgstr "Poblacht Phanama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Nua-Ghuine"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Stát Neamhspleách Samó"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1434,14 +1434,12 @@ msgid "Republic of Suriname"
 msgstr "Poblacht Suranam"
 
 #. name for SSD
-#, fuzzy
 msgid "South Sudan"
-msgstr "Poblacht na Súdáine"
+msgstr "An tSúdáin Theas"
 
 #. official_name for SSD
-#, fuzzy
 msgid "Republic of South Sudan"
-msgstr "Poblacht na Súdáine"
+msgstr "Poblacht na Súdáine Theas"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1634,11 +1632,11 @@ msgstr "Poblacht Vanuatú"
 
 #. name for VEN
 msgid "Venezuela, Bolivarian Republic of"
-msgstr "Veiniséala, Poblacht Bolivar"
+msgstr "Veiniséala, Poblacht Bholavarach"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
-msgstr "Poblacht Bolivar Veiniséala"
+msgstr "Poblacht Bholavarach Veiniséala"
 
 #. common_name for VEN
 msgid "Venezuela"

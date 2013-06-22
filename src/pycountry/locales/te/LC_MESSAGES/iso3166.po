@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2009-08-06 18:27+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
@@ -1172,6 +1172,11 @@ msgstr "రిపబ్లిక్ ఆఫ్ పనామా"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "పాపూ న్యూ గినీ"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "సామోఆ స్వతంత్ర రాజ్యము"
 
 #. name for PRY
 msgid "Paraguay"

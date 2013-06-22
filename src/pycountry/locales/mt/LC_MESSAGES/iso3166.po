@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2002-01-05 16:40+0000\n"
 "Last-Translator: Ramon Casha <ramon.casha@linux.org.mt>\n"
 "Language-Team: Maltese <mt@li.org>\n"
@@ -1267,6 +1267,11 @@ msgstr "Repubblika Dominikana"
 
 #. name for PNG
 msgid "Papua New Guinea"
+msgstr "Papwa-Ginea Ġdida"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
 msgstr "Papwa-Ginea Ġdida"
 
 #. name for PRY
