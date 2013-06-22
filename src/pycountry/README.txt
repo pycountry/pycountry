@@ -24,6 +24,12 @@ accessible through a Python API.
 
 Translation files for the various strings are included as well.
 
+Build status
+============
+
+pycountry
+    .. image:: https://builds.gocept.com/job/pycountry/badge/icon
+       :target: https://builds.gocept.com/job/pycountry/
 
 Countries (ISO 3166)
 ====================
