@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: wo\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2008-06-04 21:14+0200\n"
 "Last-Translator: Mouhamadou Mamoune Mbacke <mouhamadoumamoune@gmail.com>\n"
 "Language-Team: Wolof\n"
@@ -1175,6 +1175,11 @@ msgstr "Republik bu Panamaa"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papwa Nuweel Ginne"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Etaa bu Moomboppam bu Saamowa"
 
 #. name for PRY
 msgid "Paraguay"

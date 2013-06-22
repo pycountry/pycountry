@@ -1,10 +1,14 @@
 Changes
 =======
 
-0.14.9 (unreleased)
--------------------
+0.15 (unreleased)
+-----------------
 
-- Nothing changed yet.
+- Update to iso-codes 3.43.
+
+- Switch testing to pytest.
+
+- Make Python 3 compatible.
 
 
 0.14.8 (2013-02-25)

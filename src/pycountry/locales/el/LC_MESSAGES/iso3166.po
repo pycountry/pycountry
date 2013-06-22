@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2013-02-12 14:46+0200\n"
 "Last-Translator: Nick Andrik <nick.andrik@gmail.com>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
@@ -1180,6 +1180,11 @@ msgstr "Δημοκρατία του Παναμά"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Παπούα-Νέα Γουινέα"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Ανεξάρτητο Κράτος της Σαμόα"
 
 # or "Πάπουα-Νέα Γουινέα"
 # or "Παπουασία-Νέα Γουινέα"

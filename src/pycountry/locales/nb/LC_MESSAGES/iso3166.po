@@ -7,15 +7,15 @@
 # Knut Yrvin <knuty@skolelinux.no>, 2004.
 # Axel Bojer <axelb@skolelinux.no>, 2004.
 # Bjørn Steensrud <bjornst@powertech.no>, 2006.
-# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2007-2012.
+# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2007-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-11-11 12:31+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-14 08:28+0100\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -195,7 +195,7 @@ msgstr "Kongeriket Bhutan"
 
 #. name for BOL
 msgid "Bolivia, Plurinational State of"
-msgstr "Bolivia, Den flernasjonale stat"
+msgstr "Bolivia, den flernasjonale stat"
 
 #. official_name for BOL
 msgid "Plurinational State of Bolivia"
@@ -1155,12 +1155,11 @@ msgstr "Republikken Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina, staten"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Staten Eritrea"
+msgstr "Staten Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1173,6 +1172,11 @@ msgstr "Republikken Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Ny-Guinea"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Staten Samoa"
 
 #. name for PRY
 msgid "Paraguay"

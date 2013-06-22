@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the iso-codes package.
 # Andraz Tori <andraz.tori1@@guest.arnes.si> 2000.
 # Alastair McKinstry, <mckinstry@@computer.org>, 2001.
-# Primož Peterlin <primozz.peterlin@gmail.com> 2005, 2009, 2010, 2011.
-# $Id: iso_639-3.28.sl.po,v 1.3 2011/09/05 19:31:48 peterlin Exp $
+# Primož Peterlin <primozz.peterlin@gmail.com> 2005, 2009, 2010, 2011, 2013.
+# $Id: iso_639-3.41.sl.po,v 1.2 2013/03/09 12:36:42 peterlin Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2011-09-05 21:31+0200\n"
+"PO-Revision-Date: 2013-03-09 13:36+0100\n"
 "Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
 "Language: sl\n"
@@ -223,7 +223,7 @@ msgstr "bengalščina"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "bengalščina"
 
 #. name for ber
 msgid "Berber languages"
@@ -1949,7 +1949,7 @@ msgstr "zenaščina"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "standardni maroški tamazight"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

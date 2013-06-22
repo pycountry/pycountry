@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright ©
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2012-11-08 02:14+0100\n"
+"PO-Revision-Date: 2013-04-18 14:03+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. currency_name for AED
 msgid "UAE Dirham"
@@ -704,11 +704,11 @@ msgstr ""
 
 #. currency_name for XFO
 msgid "Gold-Franc"
-msgstr ""
+msgstr "Zlatni franak"
 
 #. currency_name for XFU
 msgid "UIC-Franc"
-msgstr ""
+msgstr "UIC franak"
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
@@ -976,7 +976,7 @@ msgstr "Latvijski rubalj"
 
 #. historic currency_name for MAF (withdrawn 1989-12), historic currency_name for MLF (withdrawn 1984-11)
 msgid "Mali Franc"
-msgstr ""
+msgstr "Malijski franak"
 
 #. historic currency_name for MGF (withdrawn unknown)
 msgid "Malagasy Franc"

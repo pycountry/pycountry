@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: he\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2012-09-21 12:59+0300\n"
 "Last-Translator: Lior Kaplan <kaplan@debian.org>\n"
 "Language-Team: Hebrew <>\n"
@@ -1177,6 +1177,11 @@ msgstr "הרפובליקה של פנמה"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "פפואה גינאה החדשה"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "המדינה העצמאית של סמואה"
 
 #. name for PRY
 msgid "Paraguay"

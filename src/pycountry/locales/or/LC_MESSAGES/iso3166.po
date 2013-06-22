@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
 "PO-Revision-Date: 2010-04-07 12:26+0530\n"
 "Last-Translator: Manoj Kumar Giri <giri.manojkr@gmail.com>\n"
 "Language-Team: Oriya <translation-team-or@lists.sourceforge.net>\n"
@@ -1171,6 +1171,11 @@ msgstr "ପାନାମା ଗଣତନ୍ତ୍ର"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "ପାପୁଆ ନ୍ଯୁ ଗିନୀ"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "ସାମୋଆ ସ୍ୱାଧିନ ରାଜ୍ୟ"
 
 #. name for PRY
 msgid "Paraguay"

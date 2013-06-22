@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the iso-codes package.
 # D. Dale Gulledge <dsplat@rochester.rr.com> (translations from drakfw), 2001.
 # Alastair McKInstry <mckinstry@computer.org>, 2001.
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2012.
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-04-04 22:45+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-04-10 16:57+0100\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -582,9 +582,8 @@ msgstr "Eritreo"
 
 # US
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Usono"
+msgstr "la Ŝtato Eritreo"
 
 # EE
 #. name for EST
@@ -1425,13 +1424,12 @@ msgstr "Respubliko Palaŭo"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestino, Ŝtato"
 
-# US
+# official_name for QAT
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Usono"
+msgstr "la Ŝtato Palestino"
 
 # PA
 #. name for PAN
@@ -1447,6 +1445,12 @@ msgstr "Respubliko Panamo"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papuo-Nov-Gvineo"
+
+# official_name for WSM
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Sendependa Ŝtato Samoo"
 
 # PY
 #. name for PRY

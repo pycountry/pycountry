@@ -4,15 +4,15 @@
 #
 # Copyright (C) 2010 Free Software Foundation, Inc.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-10-04 18:29+0300\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-04 18:29+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -1153,12 +1153,11 @@ msgstr "Республіка Палау"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Палестина, Держава"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Держава Еритрея"
+msgstr "Держава Палестина"
 
 #. name for PAN
 msgid "Panama"
@@ -1171,6 +1170,11 @@ msgstr "Республіка Панама"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Папуа-Нова Гвінея"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Незалежна Держава Самоа"
 
 #. name for PRY
 msgid "Paraguay"

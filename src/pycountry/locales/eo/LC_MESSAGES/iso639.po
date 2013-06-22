@@ -2,7 +2,7 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Alastair McKinstry <mckinstry@computer.org>, 2002
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2010
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2011, 2013
 #
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2010-04-06 23:10+0100\n"
+"PO-Revision-Date: 2013-04-10 16:54+0100\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -220,7 +220,7 @@ msgstr "Bengala"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "Bengala"
 
 #. name for ber
 msgid "Berber languages"
@@ -1718,7 +1718,7 @@ msgstr "Terena"
 
 #. name for tet
 msgid "Tetum"
-msgstr "Tetuma"
+msgstr "Tetuna"
 
 #. name for tgk, tg
 msgid "Tajik"
@@ -1946,7 +1946,7 @@ msgstr "Zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "Norma maroka berbera"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

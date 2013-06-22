@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 #    Copyright (C)
-#      Free Software Foundation, Inc., 2000-2010
+#      Free Software Foundation, Inc., 2000-2013
 #      Cezary Jackiewicz <cjackiewicz@poczta.onet.pl>, 2000-2001
 #      GNOME PL Team <translators@gnome.pl>, 2001
 #      Alastair McKinstry <mckinstry@computer.org>, 2001
 #      Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>, 2007
-#      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2012
+#      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2013
 #
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2012-11-04 17:07+0100\n"
+"PO-Revision-Date: 2013-03-04 19:08+0100\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -1955,7 +1955,7 @@ msgstr "zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "standardowy tamazight marokański"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"

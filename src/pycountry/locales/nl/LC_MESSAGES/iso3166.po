@@ -1,18 +1,18 @@
-# translation of iso_3166-3.40.nl.po to Dutch
+# translation of iso_3166-3.41.nl.po to Dutch
 # Dutch translation of iso_3166.
 # Copyright (C) 2004, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 #
 # Elros Cyriatan <cyriatan@fastmail.fm>, 2004.
 # Luk Claes <luk.claes@ugent.be>, 2005.
-# Freek de Kruijf <f.de.kruijf@gmail.com>, 2006, 2007, 2008, 2009, 2010, 2011,2012.
+# Freek de Kruijf <f.de.kruijf@gmail.com>, 2006, 2007, 2008, 2009, 2010, 2011,2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-11-29 23:18+0100\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-10 14:30+0100\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -1152,12 +1152,11 @@ msgstr "Republiek Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "de Staat Eritrea"
+msgstr "Staat Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1170,6 +1169,11 @@ msgstr "Republiek Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papoea-Nieuw-Guinea"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Onafhankelijke Staat Samoa"
 
 #. name for PRY
 msgid "Paraguay"

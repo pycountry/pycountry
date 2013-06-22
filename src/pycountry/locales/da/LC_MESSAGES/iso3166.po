@@ -5,7 +5,7 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Claus Hindsgaul <claus_h@image.dk>, 2004.
 # Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2006.
-# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2012.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2012, 2013.
 #
 # This European Union Resource page was very helpful:
 # http://eur-op.eu.int/code/da/da-5000500.htm
@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-02-12 07:20+0100\n"
-"PO-Revision-Date: 2012-11-17 11:34+0200\n"
+"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"PO-Revision-Date: 2013-03-20 11:34+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -1163,12 +1163,11 @@ msgstr "Republikken Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palæstina, staten"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Staten Eritrea"
+msgstr "Staten Palæstina"
 
 #. name for PAN
 msgid "Panama"
@@ -1181,6 +1180,11 @@ msgstr "Republikken Panama"
 #. name for PNG
 msgid "Papua New Guinea"
 msgstr "Papua Ny Guinea"
+
+#. official_name for PNG
+#, fuzzy
+msgid "Independent State of Papua New Guinea"
+msgstr "Den Uafhængige Stat Samoa"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1591,7 +1595,7 @@ msgstr "Forenede Arabiske Emirater"
 
 #. name for GBR
 msgid "United Kingdom"
-msgstr "Storbritanien"
+msgstr "Storbritannien"
 
 #. official_name for GBR
 msgid "United Kingdom of Great Britain and Northern Ireland"
