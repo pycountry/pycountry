@@ -10,14 +10,13 @@
 #   SZERVÁC Attila <sas@321.hu>, 2006.
 #   Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008.
 #   Gabor Kelemen <kelemeng@gnome.hu>, 2006, 2007.
-#   Kalman Kemenczy <kkemenczy@gmail.com>, 2010, 2011, 2012.
+#   Kalman Kemenczy <kkemenczy@gmail.com>, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166 3.43\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-05-15 15:44+0200\n"
-"PO-Revision-Date: 2012-08-16 07:43+0200\n"
+"PO-Revision-Date: 2013-06-22 12:25+0200\n"
 "Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -483,9 +482,8 @@ msgid "Eritrea"
 msgstr "Eritrea"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Amerikai Egyesült Államok"
+msgstr "Eritrea Állam"
 
 #. name for EST
 msgid "Estonia"
@@ -1161,12 +1159,11 @@ msgstr "Palaui Köztársaság"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palesztina"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Amerikai Egyesült Államok"
+msgstr "Palesztina"
 
 #. name for PAN
 msgid "Panama"
@@ -1181,9 +1178,8 @@ msgid "Papua New Guinea"
 msgstr "Pápua Új-Guinea"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Szamoai Független Állam"
+msgstr "Pápua Új-Guinea Független Állam"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1852,3 +1848,42 @@ msgstr "Jugoszlávia, Demokratikus Föderatív Jugoszláv Köztársaság"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Zaire-i Köztársaság"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Palesztin Nemzeti Hatóság"
+
+#~ msgid "Occupied Palestinian Territory"
+#~ msgstr "Palesztin Nemzeti Hatóság"
+
+#~ msgid "Republic of Hungary"
+#~ msgstr "Magyar Köztársaság"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "Líbiai Arab Jamahiriya"
+
+#~ msgid "Socialist People's Libyan Arab Jamahiriya"
+#~ msgstr "Líbiai Arab Szocialista Népi Közösség"
+
+#~ msgid "Sint Maarten"
+#~ msgstr "Szent Martin"
+
+#~ msgid "Republic of the Fiji Islands"
+#~ msgstr "Fidzsi-szigeteki Köztársaság"
+
+#~ msgid "Union of Myanmar"
+#~ msgstr "Mianmari Unió"
+
+#~ msgid "Republic of Niue"
+#~ msgstr "Niuei Köztársaság"
+
+#~ msgid "Republic of Bolivia"
+#~ msgstr "Bolíviai Köztársaság"
+
+#~ msgid "Republic of Montenegro"
+#~ msgstr "Montenegrói Köztársaság"
+
+#~ msgid "Kingdom of Nepal"
+#~ msgstr "Nepáli Királyság"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Szent Ilona"

@@ -8827,11 +8827,11 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="SH">
 <iso_3166_subset type="Geographical Entity">
 	<iso_3166_2_entry
-		code="SG-AC"	name="Ascension" />
+		code="SH-AC"	name="Ascension" />
 	<iso_3166_2_entry
-		code="SG-HL"	name="Saint Helena" />
+		code="SH-HL"	name="Saint Helena" />
 	<iso_3166_2_entry
-		code="SG-TA"	name="Tristan da Cunha" />
+		code="SH-TA"	name="Tristan da Cunha" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Slovenia -->
@@ -9421,25 +9421,25 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="SS">
 <iso_3166_subset type="state">
 	<iso_3166_2_entry
-		code="SD-EC"	name="Central Equatoria" />
+		code="SS-EC"	name="Central Equatoria" />
 	<iso_3166_2_entry
-		code="SD-EE8"	name="Eastern Equatoria" />
+		code="SS-EE8"	name="Eastern Equatoria" />
 	<iso_3166_2_entry
-		code="SD-JG"	name="Jonglei" />
+		code="SS-JG"	name="Jonglei" />
 	<iso_3166_2_entry
-		code="SD-LK"	name="Lakes" />
+		code="SS-LK"	name="Lakes" />
 	<iso_3166_2_entry
-		code="SD-BN"	name="Northern Bahr el-Ghazal" />
+		code="SS-BN"	name="Northern Bahr el-Ghazal" />
 	<iso_3166_2_entry
-		code="SD-UY"	name="Unity" />
+		code="SS-UY"	name="Unity" />
 	<iso_3166_2_entry
-		code="SD-NU"	name="Upper Nile" />
+		code="SS-NU"	name="Upper Nile" />
 	<iso_3166_2_entry
-		code="SD-WR"	name="Warrap" />
+		code="SS-WR"	name="Warrap" />
 	<iso_3166_2_entry
-		code="SD-BW"	name="Western Bahr el-Ghazal" />
+		code="SS-BW"	name="Western Bahr el-Ghazal" />
 	<iso_3166_2_entry
-		code="SD-EW"	name="Western Equatoria" />
+		code="SS-EW"	name="Western Equatoria" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Sao Tome and Principe -->

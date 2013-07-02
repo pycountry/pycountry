@@ -7,17 +7,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166 3.43\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-05-15 15:44+0200\n"
-"PO-Revision-Date: 2013-03-04 20:20+0400\n"
+"PO-Revision-Date: 2013-06-23 19:05+0400\n"
 "Last-Translator: Nik Kalach <nik.kalach@inbox.ru>\n"
 "Language-Team: Interlingua <translation-team-ia@lists.sourceforge.net>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1168,9 +1168,8 @@ msgid "Papua New Guinea"
 msgstr "Papua Nove Guinea"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Stato Independente de Samoa"
+msgstr "Stato Independente de Papua Nove Guinea"
 
 #. name for PRY
 msgid "Paraguay"
