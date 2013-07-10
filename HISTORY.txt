@@ -4,7 +4,8 @@ Changes
 0.17 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Refactor dependencies to avoid test dependencies screwing up other peoples'
+  projects by accidentally installing plugins.
 
 
 0.16 (2013-07-02)
