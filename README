@@ -24,6 +24,14 @@ accessible through a Python API.
 
 Translation files for the various strings are included as well.
 
+Data update policy
+==================
+
+No changes to the data will be accepted into pycountry. This is a pure wrapper
+around the ISO standard using the `pkg-isocodes` database from Debian *as is*.
+If you need changes to the politicial situation in the world, please talk to
+the ISO or Debian people, not me.
+
 Build status
 ============
 
