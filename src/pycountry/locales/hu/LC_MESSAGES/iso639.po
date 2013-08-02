@@ -9,11 +9,10 @@
 #   Kálmán Kéménczy <kkemenczy@novell.com>, 2007, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_639 3.44\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2011-06-05 17:28+0200\n"
+"PO-Revision-Date: 2013-07-14 08:58+0200\n"
 "Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com> \n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -225,7 +224,7 @@ msgstr "bengáli"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "bánglá"
 
 #. name for ber
 msgid "Berber languages"
@@ -368,9 +367,7 @@ msgid "Cherokee"
 msgstr "cseroki"
 
 #. name for chu, cu
-msgid ""
-"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
-"Slavonic"
+msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
 msgstr "egyházi szláv, régi szláv, régi bolgár, régi egyházi szláv"
 
 #. name for chv, cv
@@ -1951,7 +1948,7 @@ msgstr "zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "Marokkói tamazight"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
@@ -1976,3 +1973,123 @@ msgstr "nincs nyelvi tartalom; nem alkalmazható"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "zázá; dimilí; dimli; kirdkí; kirmándzskí; zázáki"
+
+#~ msgid "Afro-Asiatic (Other)"
+#~ msgstr "afro-ázsiai (egyéb)"
+
+#~ msgid "Aramaic"
+#~ msgstr "arámi"
+
+#~ msgid "Artificial (Other)"
+#~ msgstr "mesterséges (egyéb)"
+
+#~ msgid "Asturian; Bable"
+#~ msgstr "asztúriai; bábeli"
+
+#~ msgid "Baltic (Other)"
+#~ msgstr "balti (egyéb)"
+
+#~ msgid "Beja"
+#~ msgstr "bedzsa"
+
+#~ msgid "Berber (Other)"
+#~ msgstr "berber (egyéb)"
+
+#~ msgid "Bihari"
+#~ msgstr "bihári"
+
+#~ msgid "Bantu (Other)"
+#~ msgstr "bantu (egyéb)"
+
+#~ msgid "Caucasian (Other)"
+#~ msgstr "kaukázusi (egyéb)"
+
+#~ msgid "Celtic (Other)"
+#~ msgstr "kelta (egyéb)"
+
+#~ msgid "Chipewyan"
+#~ msgstr "csippevéj"
+
+#~ msgid "Cushitic (Other)"
+#~ msgstr "kúsita (egyéb)"
+
+#~ msgid "Dravidian (Other)"
+#~ msgstr "dravida (egyéb)"
+
+#~ msgid "Finno-Ugrian (Other)"
+#~ msgstr "finnugor (egyéb)"
+
+#~ msgid "Germanic (Other)"
+#~ msgstr "német (egyéb)"
+
+#~ msgid "Himachali"
+#~ msgstr "himacsali"
+
+#~ msgid "Indic (Other)"
+#~ msgstr "indoárja (egyéb)"
+
+#~ msgid "Indo-European (Other)"
+#~ msgstr "indo-európai (egyéb)"
+
+#~ msgid "Iranian (Other)"
+#~ msgstr "iráni (egyéb)"
+
+#~ msgid "Khoisan (Other)"
+#~ msgstr "koiszan (egyéb)"
+
+#~ msgid "Austronesian (Other)"
+#~ msgstr "ausztroázsiai (egyéb)"
+
+#~ msgid "Miscellaneous languages"
+#~ msgstr "egyéb nyelvek"
+
+#~ msgid "Mon-Khmer (Other)"
+#~ msgstr "mon-khmer (egyéb)"
+
+#~ msgid "Newari; Nepal Bhasa"
+#~ msgstr "newari; nepáli bhasa"
+
+#~ msgid "Norwegian Bokmål; Bokmål, Norwegian"
+#~ msgstr "norvég bokmal, bokmal, norvég"
+
+#~ msgid "N'ko"
+#~ msgstr "n'ko"
+
+#~ msgid "Northern Sotho, Pedi; Sepedi"
+#~ msgstr "északszoto, pedi; sepedi"
+
+#~ msgid "Papuan (Other)"
+#~ msgstr "pápua (egyéb)"
+
+#~ msgid "Pampanga"
+#~ msgstr "pampanga"
+
+#~ msgid "Philippine (Other)"
+#~ msgstr "fülöp-szigeteki (egyéb)"
+
+#~ msgid "Romance (Other)"
+#~ msgstr "újlatin nyelvek (egyéb)"
+
+#~ msgid "Semitic (Other)"
+#~ msgstr "sémi nyelvek (egyéb)"
+
+#~ msgid "Sino-Tibetan (Other)"
+#~ msgstr "sino-tibeti (egyéb)"
+
+#~ msgid "Slavic (Other)"
+#~ msgstr "szláv (egyéb)"
+
+#~ msgid "Sami languages (Other)"
+#~ msgstr "lapp nyelvek (egyéb)"
+
+#~ msgid "Nilo-Saharan (Other)"
+#~ msgstr "nílus-szaharai (egyéb)"
+
+#~ msgid "Tai (Other)"
+#~ msgstr "thai (egyéb)"
+
+#~ msgid "Altaic (Other)"
+#~ msgstr "altaji (egyéb)"
+
+#~ msgid "Walamo"
+#~ msgstr "valamo"

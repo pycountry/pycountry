@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ne_merge\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2011-02-22 16:39-0600\n"
 "Last-Translator: Shiva Prasad Pokharel <pokharelshiva@hotmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -1384,8 +1384,9 @@ msgid "Somalia"
 msgstr "सोमालिया"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "सोमाली गणराज्य"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "जर्मनीको संघीय गणराज्य"
 
 #. name for ZAF
 msgid "South Africa"

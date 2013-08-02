@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2008-05-03 21:08+0530\n"
 "Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
@@ -1386,8 +1386,9 @@ msgid "Somalia"
 msgstr "சோமாலியா"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "சோமாலி குடியரசு"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "ஐக்கிய ஜெர்மானிய குடியரசு"
 
 #. name for ZAF
 msgid "South Africa"

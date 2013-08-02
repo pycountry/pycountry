@@ -12,9 +12,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.43\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2013-06-22 10:50+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -669,7 +670,8 @@ msgstr "Hongkong"
 
 #. official_name for HKG
 msgid "Hong Kong Special Administrative Region of China"
-msgstr "Hongkong - Specjalny Region Administracyjny Chińskiej Republiki Ludowej"
+msgstr ""
+"Hongkong - Specjalny Region Administracyjny Chińskiej Republiki Ludowej"
 
 #. name for HUN, official_name for HUN
 msgid "Hungary"
@@ -1380,8 +1382,9 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "Republika Somalijska"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "Republika Federalna Niemiec"
 
 #. name for ZAF
 msgid "South Africa"

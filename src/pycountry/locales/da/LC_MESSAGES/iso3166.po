@@ -13,11 +13,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166-3.44\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-05-15 15:44+0200\n"
-"PO-Revision-Date: 2013-03-20 11:34+0200\n"
+"PO-Revision-Date: 2013-07-09 11:34+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -1181,10 +1180,10 @@ msgstr "Republikken Panama"
 msgid "Papua New Guinea"
 msgstr "Papua Ny Guinea"
 
+# http://publications.europa.eu/code/da/da-5000500.htm
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Den Uafhængige Stat Samoa"
+msgstr "Den Uafhængige Stat Papua Ny Guinea"
 
 #. name for PRY
 msgid "Paraguay"

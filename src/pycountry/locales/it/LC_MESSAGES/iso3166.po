@@ -10,9 +10,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166-3.43\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2013-06-25 14:36+0200\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -1395,8 +1396,9 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "Somalia"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "Repubblica federale di Germania"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1866,18 +1868,3 @@ msgstr "Repubblica socialista federale di Yugoslavia"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Repubblica dello Zaire"
-
-#~ msgid "Palestinian Territory, Occupied"
-#~ msgstr "Territori palestinesi occupati"
-
-#~ msgid "Occupied Palestinian Territory"
-#~ msgstr "Territori palestinesi occupati"
-
-#~ msgid "Republic of Hungary"
-#~ msgstr "Repubblica di Ungheria"
-
-#~ msgid "Libyan Arab Jamahiriya"
-#~ msgstr "Libia"
-
-#~ msgid "Socialist People's Libyan Arab Jamahiriya"
-#~ msgstr "Gran Giamahiria araba libica popolare socialista"
