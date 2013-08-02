@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2010-04-07 12:26+0530\n"
 "Last-Translator: Manoj Kumar Giri <giri.manojkr@gmail.com>\n"
 "Language-Team: Oriya <translation-team-or@lists.sourceforge.net>\n"
@@ -1383,8 +1383,9 @@ msgid "Somalia"
 msgstr "ସୋମାଲିୟା"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "ସୋମାଲି ଗଣତନ୍ତ୍ର"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "ଜର୍ମାନୀ ଫେଡେରାଲ ଗଣତନ୍ତ୍ର"
 
 #. name for ZAF
 msgid "South Africa"

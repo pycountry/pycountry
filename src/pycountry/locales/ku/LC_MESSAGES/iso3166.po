@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: ISO-falan-ku\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2008-09-21 19:00+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -1396,8 +1396,9 @@ msgid "Somalia"
 msgstr "Somalî"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "Komara Somalî"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "Komara Federal a Almanya"
 
 #. name for ZAF
 msgid "South Africa"

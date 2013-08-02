@@ -7,9 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.43\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2013-06-23 19:05+0400\n"
 "Last-Translator: Nik Kalach <nik.kalach@inbox.ru>\n"
 "Language-Team: Interlingua <translation-team-ia@lists.sourceforge.net>\n"
@@ -1376,8 +1377,9 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "Republica Somalian"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "Republica Federal de Germania"
 
 #. name for ZAF
 msgid "South Africa"

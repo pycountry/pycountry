@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2010-04-05 17:41+0530\n"
 "Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
 "Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
@@ -1383,8 +1383,9 @@ msgid "Somalia"
 msgstr "ছোমালিয়া"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "ছোমালি প্ৰজাতন্ত্ৰ"
+#, fuzzy
+msgid "Federal Republic of Somalia"
+msgstr "প্ৰজাতন্ত্ৰী যুক্তৰাষ্ট্ৰ জাইচ্‌লামিক্মানী"
 
 #. name for ZAF
 msgid "South Africa"
