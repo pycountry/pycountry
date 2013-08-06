@@ -13,17 +13,41 @@ LOCALES_DIR = os.path.join(os.path.dirname(__file__), 'locales')
 DATABASE_DIR = os.path.join(os.path.dirname(__file__), 'databases')
 
 
-class Countries(pycountry.db.Database):
+class CountriesBase(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
     field_map = dict(alpha_2_code='alpha2',
                      alpha_3_code='alpha3',
                      numeric_code='numeric',
-                     name='name',
                      official_name='official_name',
                      common_name='common_name')
     data_class_name = 'Country'
-    xml_tag = 'iso_3166_entry'
+
+
+class ExistingCountries(CountriesBase):
+    """Provides access to an ISO 3166 database (Countries)."""
+
+    field_map = dict(name='name',
+                     **CountriesBase.field_map)
+    xml_tags = 'iso_3166_entry'
+
+
+class HistoricCountries(CountriesBase):
+    """Provides access to an ISO 3166-3 database
+    (Countries that have been removed from the standard)."""
+
+    field_map = dict(alpha_4_code='alpha4',
+                     date_withdrawn='date_withdrawn',
+                     name='name',
+                     names='name',
+                     comment='comment',
+                     **CountriesBase.field_map)
+
+    # These fields are computed in a case-by-base basis
+    # `alpha2` is not set in ISO-3166-3, so, we extract it from `alpha4`
+    generated_fields = dict(alpha2=lambda x: x.alpha2 if hasattr(x, 'alpha2') else getattr(x, 'alpha4')[:2],
+                            deleted=lambda x: hasattr(x, 'date_withdrawn'))
+    xml_tags = ['iso_3166_entry', 'iso_3166_3_entry']
 
 
 class Scripts(pycountry.db.Database):
@@ -33,7 +57,7 @@ class Scripts(pycountry.db.Database):
                      numeric_code='numeric',
                      name='name')
     data_class_name = 'Script'
-    xml_tag = 'iso_15924_entry'
+    xml_tags = 'iso_15924_entry'
 
 
 class Currencies(pycountry.db.Database):
@@ -43,7 +67,7 @@ class Currencies(pycountry.db.Database):
                      numeric_code='numeric',
                      currency_name='name')
     data_class_name = 'Currency'
-    xml_tag = 'iso_4217_entry'
+    xml_tags = 'iso_4217_entry'
 
 
 class Languages(pycountry.db.Database):
@@ -55,7 +79,7 @@ class Languages(pycountry.db.Database):
                      common_name='common_name',
                      name='name')
     data_class_name = 'Language'
-    xml_tag = 'iso_639_entry'
+    xml_tags = 'iso_639_entry'
 
 
 class Subdivision(pycountry.db.Data):
@@ -84,7 +108,7 @@ class Subdivisions(pycountry.db.Database):
     # parent_code attribute is related to other subdivisons, *not*
     # the country!
 
-    xml_tag = 'iso_3166_2_entry'
+    xml_tags = 'iso_3166_2_entry'
     data_class_base = Subdivision
     data_class_name = 'Subdivision'
     field_map = dict(code='code',
@@ -103,7 +127,8 @@ class Subdivisions(pycountry.db.Database):
             divs.add(subdivision)
 
 
-countries = Countries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
+countries = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
+historic_countries = HistoricCountries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
 currencies = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
 languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))

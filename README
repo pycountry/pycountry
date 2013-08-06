@@ -10,6 +10,9 @@ pycountry provides the ISO databases for the standards:
 3166
   Countries
 
+3166-3
+  Deleted countries
+
 3166-2
   Subdivisions of countries
 
@@ -68,8 +71,31 @@ information included in the standard as attributes:
   >>> germany.official_name
   u'Federal Republic of Germany'
 
-Note that historic countries, defined by the ISO 3166-3 sub-standard are not
-included in this list.
+The `historic_countries` database contains former countries that have been
+removed from the standard and are now included in ISO 3166-3, in addition
+to the existing ones:
+
+ >>> ussr = pycountry.historic_countries.get(alpha2='SU')
+ >>> ussr
+ <pycountry.db.Country object at 0x...>
+ >>> ussr.alpha4
+ u'SUHH'
+ >>> ussr.alpha3
+ u'SUN'
+ >>> ussr.name
+ u'USSR, Union of Soviet Socialist Republics'
+ >>> ussr.date_withdrawn
+ u'1992-08-30'
+ >>> ussr.deleted
+ True
+ >>> russia = pycountry.historic_countries.get(alpha2='RU')
+ >>> russia
+ <pycountry.db.Country object at 0x...>
+ >>> russia.name
+ u'Russian Federation'
+ >>> russia.deleted
+ False
+
 
 Country subdivisions (ISO 3166-2)
 =================================
