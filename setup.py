@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version='0.19.dev0',
+    version='0.19',
     author='Christian Theune',
     author_email='ct@gocept.com',
     description='ISO country, subdivision, language, currency and script '
