@@ -32,6 +32,12 @@ class ExistingCountries(CountriesBase):
     xml_tags = 'iso_3166_entry'
 
 
+def choose_alpha2(record):
+    if hasattr(record, 'alpha2'):
+        return record.alpha2
+    return record.alpha4[:2]
+
+
 class HistoricCountries(CountriesBase):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
@@ -45,8 +51,10 @@ class HistoricCountries(CountriesBase):
 
     # These fields are computed in a case-by-base basis
     # `alpha2` is not set in ISO-3166-3, so, we extract it from `alpha4`
-    generated_fields = dict(alpha2=lambda x: x.alpha2 if hasattr(x, 'alpha2') else getattr(x, 'alpha4')[:2],
-                            deleted=lambda x: hasattr(x, 'date_withdrawn'))
+
+    generated_fields = dict(
+        alpha2=choose_alpha2,
+        deleted=lambda x: hasattr(x, 'date_withdrawn'))
     xml_tags = ['iso_3166_entry', 'iso_3166_3_entry']
 
 
@@ -128,7 +136,8 @@ class Subdivisions(pycountry.db.Database):
 
 
 countries = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
-historic_countries = HistoricCountries(os.path.join(DATABASE_DIR, 'iso3166.xml'))
+historic_countries = HistoricCountries(
+    os.path.join(DATABASE_DIR, 'iso3166.xml'))
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
 currencies = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
 languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))
