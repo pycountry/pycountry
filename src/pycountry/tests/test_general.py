@@ -83,3 +83,17 @@ def test_locales():
         'iso3166', pycountry.LOCALES_DIR, languages=['de'])
     german.install()
     assert __builtins__['_']('Germany') == 'Deutschland'
+
+
+def test_removed_countries():
+    ussr = pycountry.historic_countries.get(alpha2='SU')
+    assert isinstance(ussr, pycountry.db.Data)
+    assert ussr.alpha4 == u'SUHH'
+    assert ussr.alpha3 == u'SUN'
+    assert ussr.name == u'USSR, Union of Soviet Socialist Republics'
+    assert ussr.date_withdrawn == u'1992-08-30'
+    assert ussr.deleted
+    russia = pycountry.historic_countries.get(alpha2='RU')
+    assert isinstance(russia, pycountry.db.Data)
+    assert russia.name == u'Russian Federation'
+    assert not russia.deleted

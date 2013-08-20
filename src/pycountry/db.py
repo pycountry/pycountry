@@ -31,10 +31,14 @@ class Database(object):
     def __init__(self, filename):
         self.objects = []
         self.indices = {}
-        tags = [self.xml_tags] if isinstance(self.xml_tags, str) else self.xml_tags
 
-        self.data_class = type(self.data_class_name, (self.data_class_base,),
-                               {})
+        if isinstance(self.xml_tags, str):
+            tags = [self.xml_tags]
+        else:
+            tags = self.xml_tags
+
+        self.data_class = type(
+            self.data_class_name, (self.data_class_base,), {})
 
         f = open(filename, 'rb')
 
@@ -58,8 +62,8 @@ class Database(object):
             if key in self.no_index:
                 continue
             else:
-                # Slightly horrible hack: to evaluate `key` at definition time of
-                # the lambda I pass it as a keyword argument.
+                # Slightly horrible hack: to evaluate `key` at definition time
+                # of the lambda I pass it as a keyword argument.
                 getter = lambda x, key=key: getattr(x, key, None)
             indices.append((key, getter))
 
@@ -93,7 +97,7 @@ class Database(object):
             self.indices[key] = {}
 
         for obj in self.objects:
-            for name, rule in self.generated_fields.iteritems():
+            for name, rule in self.generated_fields.items():
                 value = rule(obj)
 
                 setattr(obj, name, value)
