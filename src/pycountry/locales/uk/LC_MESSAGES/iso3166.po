@@ -8,11 +8,10 @@
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-06-22 12:01+0300\n"
+"Project-Id-Version: iso_3166 3.45\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2013-08-01 15:09+0200\n"
+"PO-Revision-Date: 2013-08-04 16:43+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -20,8 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1380,9 +1378,8 @@ msgid "Somalia"
 msgstr "Сомалі"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Федеративна Республіка Німеччина"
+msgstr "Федеративна Республіка Сомалі"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1843,3 +1840,36 @@ msgstr "Соціалістична Федеративна Республіка �
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Республіка Заїр"
+
+#~ msgid "Somali Republic"
+#~ msgstr "Сомалійська Республіка"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Палестинські Території"
+
+#~ msgid "Occupied Palestinian Territory"
+#~ msgstr "Окуповані Палестинські Території"
+
+#~ msgid "Republic of Hungary"
+#~ msgstr "Угорська Республіка"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "Лівійська Арабська Джамахірія"
+
+#~ msgid "Socialist People's Libyan Arab Jamahiriya"
+#~ msgstr "Соціалістична Народна Лівійська Арабська Джамахірія"
+
+#~ msgid "Sint Maarten"
+#~ msgstr "Сінт-Мартен"
+
+#~ msgid "Republic of the Fiji Islands"
+#~ msgstr "Республіка Фіджі"
+
+#~ msgid "Union of Myanmar"
+#~ msgstr "Союз М’янма"
+
+#~ msgid "Republic of Niue"
+#~ msgstr "Республіка Ніуе"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Острів Святої Єлени"
