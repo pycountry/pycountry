@@ -10,10 +10,10 @@
 # Pavel Maryanov <acid_jack@ukr.net>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.44\n"
+"Project-Id-Version: iso_3166 3.45\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2013-05-15 15:44+0200\n"
-"PO-Revision-Date: 2013-07-07 08:16+0400\n"
+"POT-Creation-Date: 2013-08-01 15:09+0200\n"
+"PO-Revision-Date: 2013-08-06 08:16+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "Language: ru\n"
@@ -1380,8 +1380,8 @@ msgid "Somalia"
 msgstr "Сомали"
 
 #. official_name for SOM
-msgid "Somali Republic"
-msgstr "Сомалийская Респу́блика"
+msgid "Federal Republic of Somalia"
+msgstr "Федеративная Республика Сомали"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1842,6 +1842,9 @@ msgstr "Социалистическая Федеративная Республ
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Республика Заир"
+
+#~ msgid "Somali Republic"
+#~ msgstr "Сомалийская Респу́блика"
 
 #~ msgid "Palestinian Territory, Occupied"
 #~ msgstr "Палестина"

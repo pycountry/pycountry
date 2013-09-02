@@ -13,11 +13,10 @@
 #   Kalman Kemenczy <kkemenczy@gmail.com>, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-06-22 12:25+0200\n"
+"Project-Id-Version: iso_3166 3.45\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2013-08-01 15:09+0200\n"
+"PO-Revision-Date: 2013-08-04 18:57+0200\n"
 "Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -1387,9 +1386,8 @@ msgid "Somalia"
 msgstr "Szomália"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Német Szövetségi Köztársaság"
+msgstr "Szomáliai Szövetségi Köztársaság"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1850,3 +1848,45 @@ msgstr "Jugoszlávia, Demokratikus Föderatív Jugoszláv Köztársaság"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Zaire-i Köztársaság"
+
+#~ msgid "Somali Republic"
+#~ msgstr "Szomáli Demokratikus Köztársaság"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Palesztin Nemzeti Hatóság"
+
+#~ msgid "Occupied Palestinian Territory"
+#~ msgstr "Palesztin Nemzeti Hatóság"
+
+#~ msgid "Republic of Hungary"
+#~ msgstr "Magyar Köztársaság"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "Líbiai Arab Jamahiriya"
+
+#~ msgid "Socialist People's Libyan Arab Jamahiriya"
+#~ msgstr "Líbiai Arab Szocialista Népi Közösség"
+
+#~ msgid "Sint Maarten"
+#~ msgstr "Szent Martin"
+
+#~ msgid "Republic of the Fiji Islands"
+#~ msgstr "Fidzsi-szigeteki Köztársaság"
+
+#~ msgid "Union of Myanmar"
+#~ msgstr "Mianmari Unió"
+
+#~ msgid "Republic of Niue"
+#~ msgstr "Niuei Köztársaság"
+
+#~ msgid "Republic of Bolivia"
+#~ msgstr "Bolíviai Köztársaság"
+
+#~ msgid "Republic of Montenegro"
+#~ msgstr "Montenegrói Köztársaság"
+
+#~ msgid "Kingdom of Nepal"
+#~ msgstr "Nepáli Királyság"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Szent Ilona"

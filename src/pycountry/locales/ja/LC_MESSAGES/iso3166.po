@@ -6,13 +6,13 @@
 #   - Taiki Komoda <kom@kde.gr.jp>
 #   Kenshi Muto <kmuto@debian.org>, 2006-2007
 # Yasuaki Taniguchi <yasuakit@gmail.com>, 2010, 2011.
+# victory <victory.deb@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2011-11-06 08:06+0900\n"
+"Project-Id-Version: iso_3166 3.45\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2013-08-01 15:09+0200\n"
+"PO-Revision-Date: 2013-08-01 22:10+0900\n"
 "Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -507,9 +507,8 @@ msgid "Eritrea"
 msgstr "エリトリア国"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "アメリカ合衆国"
+msgstr "エリトリア国"
 
 #. name for EST
 msgid "Estonia"
@@ -1229,12 +1228,11 @@ msgstr "パラオ共和国"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "パレスチナ"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "アメリカ合衆国"
+msgstr "パレスチナ自治区"
 
 #. name for PAN
 msgid "Panama"
@@ -1250,9 +1248,8 @@ msgid "Papua New Guinea"
 msgstr "パプアニューギニア"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "サモア独立国"
+msgstr "パプアニューギニア独立国"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1486,9 +1483,8 @@ msgid "Somalia"
 msgstr "ソマリア"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "ドイツ連邦共和国"
+msgstr "ソマリア連邦共和国"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1996,3 +1992,37 @@ msgstr "ユーゴスラビア社会主義連邦共和国"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "ザイール共和国"
+
+#~ msgid "Republic of Hungary"
+#~ msgstr "ハンガリー共和国"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "リビア・アラブ・ジャマーヒリーヤ国"
+
+#~ msgid "Socialist People's Libyan Arab Jamahiriya"
+#~ msgstr "大リビア・アラブ社会主義人民ジャマーヒリーヤ国"
+
+# 外務省ではパレスチナ暫定自治政府 (Palestinian Interim Self-Government Authority) または
+# パレスチナ解放機構 (Palestine Liberation Organization) となっている。
+# ここでは地域を表すためパレスチナ占領地区とする。 (2010/9/6)
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "パレスチナ占領地区"
+
+#~ msgid "Occupied Palestinian Territory"
+#~ msgstr "パレスチナ占領地区"
+
+# 外務省では Republic of Somalia
+#~ msgid "Somali Republic"
+#~ msgstr "ソマリア共和国"
+
+#~ msgid "Sint Maarten"
+#~ msgstr "サンマルタン"
+
+#~ msgid "Republic of the Fiji Islands"
+#~ msgstr "マーシャル諸島共和国"
+
+#~ msgid "Union of Myanmar"
+#~ msgstr "ミャンマー連邦"
+
+#~ msgid "Republic of Niue"
+#~ msgstr "ナウル共和国"
