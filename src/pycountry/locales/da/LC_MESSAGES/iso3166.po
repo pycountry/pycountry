@@ -13,11 +13,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166-3.46\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-07-09 11:34+0200\n"
+"PO-Revision-Date: 2013-09-01 11:34+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -1394,9 +1393,8 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Forbundsrepublikken Tyskland"
+msgstr "Forbundsrepublikken Somalia"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1876,3 +1874,6 @@ msgstr "Jugoslavien, Den Føderale Socialistiske Republik"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Zaire, Republikken"
+
+#~ msgid "Somali Republic"
+#~ msgstr "Republikken Somalia"

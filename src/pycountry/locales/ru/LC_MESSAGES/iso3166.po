@@ -10,9 +10,10 @@
 # Pavel Maryanov <acid_jack@ukr.net>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.45\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2013-08-01 15:09+0200\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2013-07-13 08:15+0200\n"
 "PO-Revision-Date: 2013-08-06 08:16+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -21,7 +22,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1842,33 +1844,3 @@ msgstr "Социалистическая Федеративная Республ
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Республика Заир"
-
-#~ msgid "Somali Republic"
-#~ msgstr "Сомалийская Респу́блика"
-
-#~ msgid "Palestinian Territory, Occupied"
-#~ msgstr "Палестина"
-
-#~ msgid "Occupied Palestinian Territory"
-#~ msgstr "Палестинская оккупированная территория"
-
-#~ msgid "Republic of Hungary"
-#~ msgstr "Венгерская Республика"
-
-#~ msgid "Libyan Arab Jamahiriya"
-#~ msgstr "Ливийская Арабская Джамахирия"
-
-#~ msgid "Socialist People's Libyan Arab Jamahiriya"
-#~ msgstr "Социалистическая Народная Ливийская Арабская Джамахирия"
-
-#~ msgid "Sint Maarten"
-#~ msgstr "Синт-Мартен"
-
-#~ msgid "Republic of the Fiji Islands"
-#~ msgstr "Респу́блика Островов Фиджи"
-
-#~ msgid "Union of Myanmar"
-#~ msgstr "Союз Мьянма"
-
-#~ msgid "Republic of Niue"
-#~ msgstr "Республика Ниуэ"
