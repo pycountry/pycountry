@@ -78,7 +78,7 @@ class Database(object):
                 if value is None:
                     continue
                 if value in self.indices[name]:
-                    logger.error(
+                    logger.debug(
                         '%s %r already taken in index %r and will be '
                         'ignored. This is an error in the XML databases.' %
                         (self.data_class_name, value, name))

@@ -4,8 +4,9 @@ Changes
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Downgrade the warning message about duplication in the databases to 'debug'
+  as users of the library can't really do anything about it (except nagging
+  upstream DB maintainers).
 
 1.1 (2013-10-04)
 ----------------
