@@ -5,17 +5,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_15924 3.47\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2012-10-17 09:28+0200\n"
-"PO-Revision-Date: 2013-01-27 11:47-0300\n"
+"PO-Revision-Date: 2013-10-07 11:03-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. name for Afak
 msgid "Afaka"
@@ -251,7 +251,7 @@ msgstr "Japana (= Hana + Rondaj kanaoj + Strekaj kanaoj)"
 
 #. name for Jurc
 msgid "Jurchen"
-msgstr ""
+msgstr "Jurchen"
 
 #. name for Kali
 msgid "Kayah Li"
@@ -275,7 +275,7 @@ msgstr "Kanara"
 
 #. name for Khoj
 msgid "Khojki"
-msgstr ""
+msgstr "Khojki"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -343,7 +343,7 @@ msgstr "Lidia"
 
 #. name for Mahj
 msgid "Mahajani"
-msgstr ""
+msgstr "Mahajani"
 
 #. name for Mand
 msgid "Mandaic, Mandaean"
@@ -383,7 +383,7 @@ msgstr "Mongola"
 
 #. name for Mroo
 msgid "Mro, Mru"
-msgstr ""
+msgstr "Mro, Mru"
 
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
@@ -411,7 +411,7 @@ msgstr "Skribo N'Ko"
 
 #. name for Nshu
 msgid "Nüshu"
-msgstr ""
+msgstr "Nüshu"
 
 #. name for Ogam
 msgid "Ogham"
@@ -515,11 +515,11 @@ msgstr "Ŝava (Shaw)"
 
 #. name for Shrd
 msgid "Sharada, Śāradā"
-msgstr ""
+msgstr "Ŝarada"
 
 #. name for Sind
 msgid "Khudawadi, Sindhi"
-msgstr ""
+msgstr "Khudabadi, Sinda"
 
 #. name for Sinh
 msgid "Sinhala"
@@ -527,7 +527,7 @@ msgstr "Sinhala"
 
 #. name for Sora
 msgid "Sora Sompeng"
-msgstr ""
+msgstr "Sora Sompeng"
 
 #. name for Sund
 msgid "Sundanese"
@@ -559,7 +559,7 @@ msgstr "Tagbanva"
 
 #. name for Takr
 msgid "Takri, Ṭākrī, Ṭāṅkrī"
-msgstr ""
+msgstr "Takria"
 
 #. name for Tale
 msgid "Tai Le"
@@ -575,7 +575,7 @@ msgstr "Tamila"
 
 #. name for Tang
 msgid "Tangut"
-msgstr ""
+msgstr "Tanguta"
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -611,7 +611,7 @@ msgstr "Tibeta"
 
 #. name for Tirh
 msgid "Tirhuta"
-msgstr ""
+msgstr "Tirhuta"
 
 #. name for Ugar
 msgid "Ugaritic"
@@ -631,7 +631,7 @@ msgstr "Varanga"
 
 #. name for Wole
 msgid "Woleai"
-msgstr ""
+msgstr "Woleai"
 
 #. name for Xpeo
 msgid "Old Persian"
@@ -668,3 +668,24 @@ msgstr "Kodo por nedeterminita skribo"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Kodo por nekodita skribo"
+
+#~ msgid "(alias for Hiragana + Katakana)"
+#~ msgstr "Kanaoj"
+
+#~ msgid "Old Hungarian"
+#~ msgstr "Malnova hungara"
+
+#~ msgid "Sindhi"
+#~ msgstr "Sinda"
+
+#~ msgid "Orkhon"
+#~ msgstr "Orĥona"
+
+#~ msgid "Lanna, Tai Tham"
+#~ msgstr "Lanna"
+
+#~ msgid "Pollard Phonetic"
+#~ msgstr "Skribo de Pollard"
+
+#~ msgid "Tagalog"
+#~ msgstr "Tagaloga"
