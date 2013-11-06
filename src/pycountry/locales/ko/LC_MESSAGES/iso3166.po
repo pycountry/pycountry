@@ -15,11 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166 3.47\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-03-12 02:56+0900\n"
+"PO-Revision-Date: 2013-10-07 02:21+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <translation-team-ko@lists.sourceforge.net>\n"
 "Language: ko\n"
@@ -1176,9 +1175,8 @@ msgid "Papua New Guinea"
 msgstr "파푸아뉴기니"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "사모아"
+msgstr "파푸아뉴기니 독립국"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1385,9 +1383,8 @@ msgid "Somalia"
 msgstr "소말리아"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "독일 연방 공화국"
+msgstr "소말리아 연방 공화국"
 
 #. name for ZAF
 msgid "South Africa"
