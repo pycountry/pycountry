@@ -4,8 +4,11 @@ Changes
 1.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Upgrade to isocodes 3.49
 
+- Downgrade another warning message for the databases to 'debug' as users of
+  the library can't really do anything about it (except nagging upstream DB
+  maintainers).
 
 1.2 (2013-11-06)
 ----------------

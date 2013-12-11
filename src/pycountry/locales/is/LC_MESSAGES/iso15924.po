@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2012-10-17 09:28+0200\n"
+"POT-Creation-Date: 2013-11-11 15:46+0100\n"
 "PO-Revision-Date: 2013-02-13 07:52+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -29,6 +29,10 @@ msgstr "Afaka"
 #. name for Aghb
 msgid "Caucasian Albanian"
 msgstr "Kákasísk albanska"
+
+#. name for Ahom
+msgid "Ahom"
+msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -214,6 +218,10 @@ msgstr "Han (einfaldað tilbrigði)"
 msgid "Han (Traditional variant)"
 msgstr "Han (hefðbundið tilbrigði)"
 
+#. name for Hatr
+msgid "Hatran"
+msgstr ""
+
 #. name for Hebr
 msgid "Hebrew"
 msgstr "Hebreskt"
@@ -363,8 +371,8 @@ msgid "Mayan hieroglyphs"
 msgstr "Mayanskt myndletur"
 
 #. name for Mend
-msgid "Mende"
-msgstr "Mende"
+msgid "Mende Kikakui"
+msgstr ""
 
 #. name for Merc
 msgid "Meroitic Cursive"
@@ -377,6 +385,10 @@ msgstr "Meríótískt myndletur"
 #. name for Mlym
 msgid "Malayalam"
 msgstr "Malayanskt"
+
+#. name for Modi
+msgid "Modi, Moḍī"
+msgstr ""
 
 #. name for Moon
 msgid "Moon (Moon code, Moon script, Moon type)"
@@ -393,6 +405,10 @@ msgstr "Mro, Mru"
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "Meitei Mayek (Meithei, Meetei)"
+
+#. name for Mult
+msgid "Multani"
+msgstr ""
 
 #. name for Mymr
 msgid "Myanmar (Burmese)"
@@ -441,6 +457,10 @@ msgstr "Ósmanskt"
 #. name for Palm
 msgid "Palmyrene"
 msgstr "Palmýrenska"
+
+#. name for Pauc
+msgid "Pau Cin Hau"
+msgstr ""
 
 #. name for Perm
 msgid "Old Permic"
@@ -521,6 +541,10 @@ msgstr "Shavíska (Shaw)"
 #. name for Shrd
 msgid "Sharada, Śāradā"
 msgstr "Sharada, Śāradā"
+
+#. name for Sidd
+msgid "Siddham, Siddhaṃ, Siddhamātṛkā"
+msgstr ""
 
 #. name for Sind
 msgid "Khudawadi, Sindhi"

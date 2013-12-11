@@ -103,7 +103,7 @@ class Database(object):
                 setattr(obj, name, value)
 
                 if value in self.indices[name]:
-                    logger.error(
+                    logger.debug(
                         '%s %r already taken in index %r and will be '
                         'ignored.' % (self.data_class_name, value, name))
                 self.indices[name][value] = obj

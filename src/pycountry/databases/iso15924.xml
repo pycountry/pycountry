@@ -46,6 +46,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="239"
 		name="Caucasian Albanian" />
 	<iso_15924_entry
+		alpha_4_code="Ahom"
+		numeric_code="338"
+		name="Ahom" />
+	<iso_15924_entry
 		alpha_4_code="Arab"
 		numeric_code="160"
 		name="Arabic" />
@@ -230,6 +234,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="502"
 		name="Han (Traditional variant)" />
 	<iso_15924_entry
+		alpha_4_code="Hatr"
+		numeric_code="127"
+		name="Hatran" />
+	<iso_15924_entry
 		alpha_4_code="Hebr"
 		numeric_code="125"
 		name="Hebrew" />
@@ -380,7 +388,7 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 	<iso_15924_entry
 		alpha_4_code="Mend"
 		numeric_code="438"
-		name="Mende" />
+		name="Mende Kikakui" />
 	<iso_15924_entry
 		alpha_4_code="Merc"
 		numeric_code="101"
@@ -393,6 +401,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Mlym"
 		numeric_code="347"
 		name="Malayalam" />
+	<iso_15924_entry
+		alpha_4_code="Modi"
+		numeric_code="323"
+		name="Modi, Moḍī" />
 	<iso_15924_entry
 		alpha_4_code="Moon"
 		numeric_code="218"
@@ -409,6 +421,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Mtei"
 		numeric_code="337"
 		name="Meitei Mayek (Meithei, Meetei)" />
+	<iso_15924_entry
+		alpha_4_code="Mult"
+		numeric_code="323"
+		name="Multani" />
 	<iso_15924_entry
 		alpha_4_code="Mymr"
 		numeric_code="350"
@@ -457,6 +473,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Palm"
 		numeric_code="126"
 		name="Palmyrene" />
+	<iso_15924_entry
+		alpha_4_code="Pauc"
+		numeric_code="263"
+		name="Pau Cin Hau" />
 	<iso_15924_entry
 		alpha_4_code="Perm"
 		numeric_code="227"
@@ -537,6 +557,10 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		alpha_4_code="Shrd"
 		numeric_code="319"
 		name="Sharada, Śāradā" />
+	<iso_15924_entry
+		alpha_4_code="Sidd"
+		numeric_code="303"
+		name="Siddham, Siddhaṃ, Siddhamātṛkā" />
 	<iso_15924_entry
 		alpha_4_code="Sind"
 		numeric_code="318"

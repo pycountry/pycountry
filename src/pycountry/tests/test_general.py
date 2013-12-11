@@ -1,6 +1,13 @@
 import gettext
 import pycountry
 import pycountry.db
+import pytest
+
+
+@pytest.fixture(autouse=True, scope='session')
+def logging():
+    import logging
+    logging.basicConfig(level=logging.DEBUG)
 
 
 def test_country_list():
@@ -44,7 +51,7 @@ def test_query_subdivisions_of_country():
 
 
 def test_scripts():
-    assert len(pycountry.scripts) == 163
+    assert len(pycountry.scripts) == 169
     assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
 
     latin = pycountry.scripts.get(name='Latin')
