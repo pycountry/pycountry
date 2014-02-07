@@ -6,7 +6,7 @@
 #   Free Software Foundation, Inc., 2002,2004
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
 #   Thanomsub Noppaburana <donga@midaassets.com> (Translations from KDE)
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013
 #
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2012-10-13 19:35+0700\n"
+"PO-Revision-Date: 2013-12-30 16:14+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroup.com>\n"
 "Language: th\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #. name for afa
 msgid "Afro-Asiatic languages"
-msgstr ""
+msgstr "ตระกูลภาษาแอฟโฟร-เอเชียติก"
 
 #. name for afh
 msgid "Afrihili"
@@ -104,7 +104,7 @@ msgstr ""
 
 #. name for ara, ar
 msgid "Arabic"
-msgstr "อาหรับ"
+msgstr "อารบิก"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
@@ -256,7 +256,7 @@ msgstr ""
 
 #. name for bnt
 msgid "Bantu languages"
-msgstr ""
+msgstr "กลุ่มภาษาบันตู"
 
 #. name for bos, bs
 msgid "Bosnian"
@@ -382,7 +382,7 @@ msgstr ""
 
 #. name for cmc
 msgid "Chamic languages"
-msgstr ""
+msgstr "กลุ่มภาษาจาม"
 
 #. name for cop
 msgid "Coptic"
@@ -398,15 +398,15 @@ msgstr ""
 
 #. name for cpe
 msgid "Creoles and pidgins, English based"
-msgstr ""
+msgstr "ภาษาลูกผสมและภาษาแก้ขัด อิงภาษาอังกฤษ"
 
 #. name for cpf
 msgid "Creoles and pidgins, French-based"
-msgstr ""
+msgstr "ภาษาลูกผสมและภาษาแก้ขัด อิงภาษาฝรั่งเศส"
 
 #. name for cpp
 msgid "Creoles and pidgins, Portuguese-based"
-msgstr ""
+msgstr "ภาษาลูกผสมและภาษาแก้ขัด อิงภาษาโปรตุเกส"
 
 #. name for cre, cr
 msgid "Cree"
@@ -418,7 +418,7 @@ msgstr ""
 
 #. name for crp
 msgid "Creoles and pidgins"
-msgstr ""
+msgstr "ภาษาลูกผสมและภาษาแก้ขัด"
 
 #. name for csb
 msgid "Kashubian"
@@ -618,7 +618,7 @@ msgstr ""
 
 #. name for gem
 msgid "Germanic languages"
-msgstr "กลุ่มภาษาเยอรมันนิก"
+msgstr "กลุ่มภาษาเจอร์เมนิก"
 
 #. name for kat, ka
 msgid "Georgian"
@@ -708,7 +708,7 @@ msgstr ""
 
 #. name for hat, ht
 msgid "Haitian; Haitian Creole"
-msgstr ""
+msgstr "เฮติ; ลูกผสมเฮติ"
 
 #. name for hau, ha
 msgid "Hausa"
@@ -732,7 +732,7 @@ msgstr ""
 
 #. name for him
 msgid "Himachali languages; Western Pahari languages"
-msgstr "หิมาจัล; พิหารตะวันตก"
+msgstr "กลุ่มภาษาหิมาจลี; กลุ่มภาษาพิหารีตะวันตก"
 
 #. name for hin, hi
 msgid "Hindi"
@@ -816,7 +816,7 @@ msgstr "อินโดนีเซีย"
 
 #. name for ine
 msgid "Indo-European languages"
-msgstr "กลุ่มภาษาอินโดยูโรเปียน"
+msgstr "ตระกูลภาษาอินโดยูโรเปียน"
 
 #. name for inh
 msgid "Ingush"
@@ -928,7 +928,7 @@ msgstr ""
 
 #. name for kin, rw
 msgid "Kinyarwanda"
-msgstr "คินยาวันดา"
+msgstr "คินยารวันดา"
 
 #. name for kir, ky
 msgid "Kirghiz; Kyrgyz"
@@ -1112,7 +1112,7 @@ msgstr "เมารี"
 
 #. name for map
 msgid "Austronesian languages"
-msgstr "กลุ่มภาษาออสโตรเนเชียน"
+msgstr "ตระกูลภาษาออสโตรนีเซียน"
 
 #. name for mar, mr
 msgid "Marathi"
@@ -1216,7 +1216,7 @@ msgstr "มารวารี"
 
 #. name for myn
 msgid "Mayan languages"
-msgstr "ภาษามายัน"
+msgstr "ตระกูลภาษามายัน"
 
 #. name for myv
 msgid "Erzya"
@@ -1240,7 +1240,7 @@ msgstr "นาอูรู"
 
 #. name for nav, nv
 msgid "Navajo; Navaho"
-msgstr ""
+msgstr "นาวาโฮ"
 
 #. name for nbl, nr
 msgid "Ndebele, South; South Ndebele"
@@ -1304,7 +1304,7 @@ msgstr "เอ็นโก"
 
 #. name for nso
 msgid "Pedi; Sepedi; Northern Sotho"
-msgstr ""
+msgstr "ซูทูเหนือ"
 
 #. name for nub
 msgid "Nubian languages"
@@ -1368,7 +1368,7 @@ msgstr ""
 
 #. name for paa
 msgid "Papuan languages"
-msgstr ""
+msgstr "กลุ่มภาษาปาปัว"
 
 #. name for pag
 msgid "Pangasinan"
@@ -1460,7 +1460,7 @@ msgstr ""
 
 #. name for roa
 msgid "Romance languages"
-msgstr ""
+msgstr "กลุ่มภาษาโรมานซ์"
 
 #. name for roh, rm
 msgid "Romansh"
@@ -1564,7 +1564,7 @@ msgstr ""
 
 #. name for sit
 msgid "Sino-Tibetan languages"
-msgstr "กลุ่มภาษาไซโน-ทิเบตัน"
+msgstr "ตระกูลภาษาจีน-ทิเบต"
 
 #. name for sla
 msgid "Slavic languages"
@@ -1624,7 +1624,7 @@ msgstr "ซอกเดียน"
 
 #. name for som, so
 msgid "Somali"
-msgstr "โซมาลี"
+msgstr "โซมาเลีย"
 
 #. name for son
 msgid "Songhai languages"
@@ -1632,7 +1632,7 @@ msgstr ""
 
 #. name for sot, st
 msgid "Sotho, Southern"
-msgstr "เซโสโท"
+msgstr "ซูทูใต้"
 
 #. name for spa, es
 msgid "Spanish; Castilian"
@@ -1640,7 +1640,7 @@ msgstr "สเปนคัสติเลียน"
 
 #. name for srd, sc
 msgid "Sardinian"
-msgstr ""
+msgstr "ซาร์ดิเนีย"
 
 #. name for srn
 msgid "Sranan Tongo"
@@ -1656,11 +1656,11 @@ msgstr ""
 
 #. name for ssa
 msgid "Nilo-Saharan languages"
-msgstr ""
+msgstr "ตระกูลภาษาไนโล-ซาฮารัน"
 
 #. name for ssw, ss
 msgid "Swati"
-msgstr "ซีสวาติ"
+msgstr "สวาตี"
 
 #. name for suk
 msgid "Sukuma"
@@ -1688,7 +1688,7 @@ msgstr "สวีเดน"
 
 #. name for syc
 msgid "Classical Syriac"
-msgstr ""
+msgstr "ซีริแอกแบบฉบับ"
 
 #. name for syr
 msgid "Syriac"
@@ -1700,7 +1700,7 @@ msgstr "ตาฮิติ"
 
 #. name for tai
 msgid "Tai languages"
-msgstr "ภาษาตระกูลไท"
+msgstr "ตระกูลภาษาไท"
 
 #. name for tam, ta
 msgid "Tamil"
@@ -1796,7 +1796,7 @@ msgstr "ซองกา"
 
 #. name for tuk, tk
 msgid "Turkmen"
-msgstr "เติร์กเมน"
+msgstr "เติร์กเมนิสถาน"
 
 #. name for tum
 msgid "Tumbuka"
@@ -1812,7 +1812,7 @@ msgstr "ตุรกี"
 
 #. name for tut
 msgid "Altaic languages"
-msgstr ""
+msgstr "ตระกูลภาษาอัลไต"
 
 #. name for tvl
 msgid "Tuvalu"
@@ -1820,7 +1820,7 @@ msgstr "ตูวาลู"
 
 #. name for twi, tw
 msgid "Twi"
-msgstr "ทวี"
+msgstr "จวี"
 
 #. name for tyv
 msgid "Tuvinian"
@@ -1928,7 +1928,7 @@ msgstr ""
 
 #. name for yid, yi
 msgid "Yiddish"
-msgstr "ยีดิช"
+msgstr "ยิดดิช"
 
 #. name for yor, yo
 msgid "Yoruba"
