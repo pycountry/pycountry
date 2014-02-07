@@ -6,23 +6,20 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Christian Rose <menthos@menthos.com>, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2011.
-# Martin Bagge <brother@bsnet.se>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166 3.50\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2012-02-26 17:36+0100\n"
-"Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
+"PO-Revision-Date: 2014-01-06 14:24-0600\n"
+"Last-Translator: Mick Ohrberg <mick.ohrberg@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Swedish\n"
-"X-Poedit-Country: Sweden\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -573,9 +570,8 @@ msgstr "Eritrea"
 
 # US
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Amerikas förenta stater"
+msgstr "Staten Eritrea"
 
 # EE
 #. name for EST
@@ -1243,17 +1239,14 @@ msgstr "Moçambique"
 msgid "Republic of Mozambique"
 msgstr "Republiken Moçambique"
 
-# Baserat på wikipediaartikeln om namnet på Burma/Myanmar har jag valt att
-# använda det som anses vara det SVENSKA namnet på landet.
+# MM
 #. name for MMR
 msgid "Myanmar"
-msgstr "Burma"
+msgstr "Myanmar"
 
-# Baserat på wikipediaartikeln om namnet på Burma/Myanmar har jag valt att
-# använda det som anses vara det SVENSKA namnet på landet.
 #. official_name for MMR
 msgid "Republic of Myanmar"
-msgstr "Republiken Burma"
+msgstr "Republiken Myanmar"
 
 # NA
 #. name for NAM
@@ -1392,13 +1385,12 @@ msgstr "Republiken Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Staten Palestina"
 
-# US
+# official_name for QAT
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Amerikas förenta stater"
+msgstr "Staten Palestina"
 
 # PA
 #. name for PAN
@@ -1416,9 +1408,8 @@ msgstr "Papua Nya Guinea"
 
 # official_name for WSM
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Oberoende staten Samoa"
+msgstr "Oberoende staten Papua Nya Guinea"
 
 # PY
 #. name for PRY
@@ -1665,9 +1656,8 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Förbundsrepubliken Tyskland"
+msgstr "Förbundsrepubliken Somalia"
 
 # ZA
 #. name for ZAF
@@ -1723,7 +1713,7 @@ msgstr "Surinam"
 msgid "Republic of Suriname"
 msgstr "Republiken Surinam"
 
-# official_name for SDN
+# SD
 #. name for SSD
 msgid "South Sudan"
 msgstr "Sydsudan"

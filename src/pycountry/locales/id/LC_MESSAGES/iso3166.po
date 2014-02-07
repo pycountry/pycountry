@@ -2,22 +2,21 @@
 # Copyright (C)
 # This file is distributed under the same license as the iso-codes package.
 # Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2004-2006.
-# Andhika Padmawan <andhika.padmawan@gmail.com>, 2011-2012.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2011-2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_3166 3.50\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-02-12 15:24+0700\n"
-"Last-Translator: Mahyuddin Susanto <udienz@gmail.com>\n"
+"PO-Revision-Date: 2014-01-24 21:21+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: Plural-Forms: nplurals=1; plural=0;\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -1153,7 +1152,7 @@ msgstr "Negara Palestina"
 
 #. official_name for PSE
 msgid "the State of Palestine"
-msgstr "exitNegara Palestina"
+msgstr "Negara Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1168,9 +1167,8 @@ msgid "Papua New Guinea"
 msgstr "Papua Nugini"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Negara Independen Samoa"
+msgstr "Negara Independen Papua Nugini"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1377,9 +1375,8 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Republik Federal Jerman"
+msgstr "Republik Federal Somalia"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1840,3 +1837,45 @@ msgstr "Republik Federasi Sosialis Yugoslavia"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Republik Zaire"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Wilayah Palestina"
+
+#~ msgid "Occupied Palestinian Territory"
+#~ msgstr "Wilayah Palestina"
+
+#~ msgid "Somali Republic"
+#~ msgstr "Republik Somalia"
+
+#~ msgid "Republic of Hungary"
+#~ msgstr "Republik Hungaria"
+
+#~ msgid "Libyan Arab Jamahiriya"
+#~ msgstr "Libya"
+
+#~ msgid "Socialist People's Libyan Arab Jamahiriya"
+#~ msgstr "Rakyat Sosialis Libya Arab Jamahiriya"
+
+#~ msgid "Sint Maarten"
+#~ msgstr "Sint Maarten"
+
+#~ msgid "Republic of the Fiji Islands"
+#~ msgstr "Republik Kepulauan Fiji"
+
+#~ msgid "Union of Myanmar"
+#~ msgstr "Persatuan Myanmar"
+
+#~ msgid "Republic of Niue"
+#~ msgstr "Republik Niue"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Saint Helena"
+
+#~ msgid "Republic of Bolivia"
+#~ msgstr "Republik Bolivia"
+
+#~ msgid "Kingdom of Nepal"
+#~ msgstr "Kerajaan Nepal"
+
+#~ msgid "Republic of Montenegro"
+#~ msgstr "Republik Montenegro"

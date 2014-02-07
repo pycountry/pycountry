@@ -1,27 +1,24 @@
-# translation of iso_639-3.15.po to Bengali INDIA
-# Translation of ISO 639 (language names) to Bengali-India
+# Translation of ISO 639 (language names) to Bengali
 #
 # This file is distributed under the same license as the iso-codes package.
 #
-# Copyright (C)
+# Copyright ©
+# Nasir Khan <nasir.khan@bdosn.org>, 2013.
 #
-#   FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Runa Bhattacharjee <runabh@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2010-04-08 12:26+0530\n"
-"Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
-"Language-Team: Bengali (India) <discuss@lists.ankur.org.in>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-12-12 17:21+0600\n"
+"Last-Translator: Nasir Khan Saikat <nasir.khan@bdosn.org>\n"
+"Language-Team: Bengali <(nothing)>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. name for aar, aa
 msgid "Afar"
@@ -225,7 +222,7 @@ msgstr "বাংলা"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "বাংলা"
 
 #. name for ber
 msgid "Berber languages"

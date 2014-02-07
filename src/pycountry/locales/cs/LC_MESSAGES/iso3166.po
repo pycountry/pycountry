@@ -4,7 +4,7 @@
 #
 # Copyright (C)
 #   Free Software Foundation, Inc., 2004
-#   Miroslav Kure <kurem@debian.cz>, 2004--2013
+#   Miroslav Kure <kurem@debian.cz>, 2004--2014
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-02-17 10:37+0100\n"
+"PO-Revision-Date: 2014-01-28 20:08+0100\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -1172,9 +1172,8 @@ msgid "Papua New Guinea"
 msgstr "Papua Nová Guinea"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Nezávislý stát Samoa"
+msgstr "Nezávislý stát Papua-Nová Guinea"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1381,9 +1380,8 @@ msgid "Somalia"
 msgstr "Somálsko"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Spolková republika Německo"
+msgstr "Somálská federativní republika"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1407,7 +1405,7 @@ msgstr "Španělské království"
 
 #. name for LKA
 msgid "Sri Lanka"
-msgstr "Srí Lanka"
+msgstr "Šrí Lanka"
 
 #. official_name for LKA
 msgid "Democratic Socialist Republic of Sri Lanka"
