@@ -11,8 +11,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.50\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
 "PO-Revision-Date: 2014-01-24 21:14+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
@@ -367,8 +368,12 @@ msgid "Cherokee"
 msgstr "Cherokee"
 
 #. name for chu, cu
-msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
-msgstr "Gereja Slavic; Slavonic Kuno; Gereja Slavonic; Bulgaria Kuno; Gereja Tua Slavonic"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
+"Gereja Slavic; Slavonic Kuno; Gereja Slavonic; Bulgaria Kuno; Gereja Tua "
+"Slavonic"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -1973,102 +1978,3 @@ msgstr "Tak ada isi linguistik; Tak dapat diterapkan"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
-
-#~ msgid "Bihari"
-#~ msgstr "Bihari"
-
-#~ msgid "Himachali"
-#~ msgstr "Himachali"
-
-#~ msgid "Afro-Asiatic (Other)"
-#~ msgstr "Afro-Asiatik (Lainnya)"
-
-#~ msgid "Artificial (Other)"
-#~ msgstr "Buatan (Lainnya)"
-
-#~ msgid "Baltic (Other)"
-#~ msgstr "Baltik (Lainnya)"
-
-#~ msgid "Berber (Other)"
-#~ msgstr "Berber (Lainnya)"
-
-#~ msgid "Bantu (Other)"
-#~ msgstr "Bantu (Lainnya)"
-
-#~ msgid "Caucasian (Other)"
-#~ msgstr "Kaukasia (Lainnya)"
-
-#~ msgid "Celtic (Other)"
-#~ msgstr "Celtic (Lainnya)"
-
-#~ msgid "Cushitic (Other)"
-#~ msgstr "Cushitic (Lainnya)"
-
-#~ msgid "Dravidian (Other)"
-#~ msgstr "Dravidian (Lainnya)"
-
-#~ msgid "Finno-Ugrian (Other)"
-#~ msgstr "Finno-Ugrian (Lainnya)"
-
-#~ msgid "Germanic (Other)"
-#~ msgstr "Jermanik (Lainnya)"
-
-#~ msgid "Indic (Other)"
-#~ msgstr "Indic (Lainnya)"
-
-#~ msgid "Indo-European (Other)"
-#~ msgstr "Indo-Eropa (Lainnya)"
-
-#~ msgid "Iranian (Other)"
-#~ msgstr "Iran (Lainnya)"
-
-#~ msgid "Khoisan (Other)"
-#~ msgstr "Khoisan (Lainnya)"
-
-#~ msgid "Austronesian (Other)"
-#~ msgstr "Austronesia (Lainnya)"
-
-#~ msgid "Mon-Khmer (Other)"
-#~ msgstr "Mon-Khmer (Lainnya)"
-
-#~ msgid "Papuan (Other)"
-#~ msgstr "Papuan (Lainnya)"
-
-#~ msgid "Philippine (Other)"
-#~ msgstr "Filipina (Lainnya)"
-
-#~ msgid "Romance (Other)"
-#~ msgstr "Romance (Lainnya)"
-
-#~ msgid "Semitic (Other)"
-#~ msgstr "Semitic (Lainnya)"
-
-#~ msgid "Sino-Tibetan (Other)"
-#~ msgstr "Sino-Tibetan (Lainnya)"
-
-#~ msgid "Slavic (Other)"
-#~ msgstr "Slavic (Lainnya)"
-
-#~ msgid "Sami languages (Other)"
-#~ msgstr "Bahasa Sami (Lainnya)"
-
-#~ msgid "Nilo-Saharan (Other)"
-#~ msgstr "Nilo-Saharan (Lainnya)"
-
-#~ msgid "Tai (Other)"
-#~ msgstr "Tai (Lainnya)"
-
-#~ msgid "Altaic (Other)"
-#~ msgstr "Altaic (Lainnya)"
-
-#, fuzzy
-#~ msgid "Norwegian Bokmål; Bokmål, Norwegian"
-#~ msgstr "Korea"
-
-#, fuzzy
-#~ msgid "Walamo"
-#~ msgstr "Wallon"
-
-#, fuzzy
-#~ msgid "Aramaic"
-#~ msgstr "Arab"
