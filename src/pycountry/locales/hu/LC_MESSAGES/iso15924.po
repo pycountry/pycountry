@@ -3,42 +3,44 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Tobias Quathamer <toddy@debian.org>, 2007.
 #     Translations taken from ICU SVN on 2007-09-09
+#   Tobias Toedter <t.toedter@gmx.net>, 2007.
+# Balázs Úr <urbalazs@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-11-11 15:46+0100\n"
-"PO-Revision-Date: 2007-09-09 16:07+0200\n"
-"Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
-"Language-Team: Hungarian\n"
+"PO-Revision-Date: 2014-03-17 22:32+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. name for Afak
 msgid "Afaka"
-msgstr ""
+msgstr "Afaka"
 
 #. name for Aghb
 msgid "Caucasian Albanian"
-msgstr ""
+msgstr "Kaukázusi Albania"
 
 #. name for Ahom
 msgid "Ahom"
-msgstr ""
+msgstr "Ahom"
 
 #. name for Arab
 msgid "Arabic"
-msgstr ""
+msgstr "Arab"
 
 #. name for Armi
 msgid "Imperial Aramaic"
-msgstr ""
+msgstr "Birodalmi arámi"
 
 #. name for Armn
 msgid "Armenian"
@@ -46,19 +48,19 @@ msgstr "Örmény"
 
 #. name for Avst
 msgid "Avestan"
-msgstr ""
+msgstr "Avesztán"
 
 #. name for Bali
 msgid "Balinese"
-msgstr ""
+msgstr "Balinéz"
 
 #. name for Bamu
 msgid "Bamum"
-msgstr ""
+msgstr "Bamum"
 
 #. name for Bass
 msgid "Bassa Vah"
-msgstr ""
+msgstr "Bassa Vah"
 
 #. name for Batk
 msgid "Batak"
@@ -78,11 +80,11 @@ msgstr "Bopomofo"
 
 #. name for Brah
 msgid "Brahmi"
-msgstr ""
+msgstr "Brahmi"
 
 #. name for Brai
 msgid "Braille"
-msgstr "Vakírás"
+msgstr "Braille"
 
 #. name for Bugi
 msgid "Buginese"
@@ -90,11 +92,11 @@ msgstr "Buginéz"
 
 #. name for Buhd
 msgid "Buhid"
-msgstr ""
+msgstr "Buhid"
 
 #. name for Cakm
 msgid "Chakma"
-msgstr ""
+msgstr "Chakma"
 
 #. name for Cans
 msgid "Unified Canadian Aboriginal Syllabics"
@@ -102,19 +104,19 @@ msgstr "Egyesített kanadai őslakos jelek"
 
 #. name for Cari
 msgid "Carian"
-msgstr ""
+msgstr "Kariai"
 
 #. name for Cham
 msgid "Cham"
-msgstr ""
+msgstr "Cham"
 
 #. name for Cher
 msgid "Cherokee"
-msgstr "Cseroki"
+msgstr "Cherokee"
 
 #. name for Cirt
 msgid "Cirth"
-msgstr ""
+msgstr "Cirth"
 
 #. name for Copt
 msgid "Coptic"
@@ -130,20 +132,19 @@ msgstr "Cirill"
 
 #. name for Cyrs
 msgid "Cyrillic (Old Church Slavonic variant)"
-msgstr ""
+msgstr "Cirill (Régi templomi szláv változat)"
 
 #. name for Deva
-#, fuzzy
 msgid "Devanagari (Nagari)"
-msgstr "Devanagári"
+msgstr "Devanagari (Nagari)"
 
 #. name for Dsrt
 msgid "Deseret (Mormon)"
-msgstr ""
+msgstr "Deseret (Mormon)"
 
 #. name for Dupl
 msgid "Duployan shorthand, Duployan stenography"
-msgstr ""
+msgstr "Duployan gyorsítás, Duployan gyorsírás"
 
 #. name for Egyd
 msgid "Egyptian demotic"
@@ -159,25 +160,23 @@ msgstr "Egyiptomi hieroglifák"
 
 #. name for Elba
 msgid "Elbasan"
-msgstr ""
+msgstr "Elbasan"
 
 #. name for Ethi
-#, fuzzy
 msgid "Ethiopic (Geʻez)"
-msgstr "Etióp"
+msgstr "Etióp (Geʻez)"
 
 #. name for Geor
-#, fuzzy
 msgid "Georgian (Mkhedruli)"
-msgstr "Grúz kucsuri"
+msgstr "Grúz (Mkhedruli)"
 
 #. name for Geok
 msgid "Khutsuri (Asomtavruli and Nuskhuri)"
-msgstr ""
+msgstr "Khutsuri (Asomtavruli és Nuskhuri)"
 
 #. name for Glag
 msgid "Glagolitic"
-msgstr "Glagolitikus"
+msgstr "Glagolit"
 
 #. name for Goth
 msgid "Gothic"
@@ -189,7 +188,7 @@ msgstr "Görög"
 
 #. name for Gran
 msgid "Grantha"
-msgstr ""
+msgstr "Grantha"
 
 #. name for Gujr
 msgid "Gujarati"
@@ -201,29 +200,27 @@ msgstr "Gurmuki"
 
 #. name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
-msgstr ""
+msgstr "Hangul (Hangŭl, Hangeul)"
 
 #. name for Hani
 msgid "Han (Hanzi, Kanji, Hanja)"
-msgstr ""
+msgstr "Han (Hanzi, Kanji, Hanja)"
 
 #. name for Hano
 msgid "Hanunoo (Hanunóo)"
-msgstr ""
+msgstr "Hanunoo (Hanunóo)"
 
 #. name for Hans
-#, fuzzy
 msgid "Han (Simplified variant)"
-msgstr "Egyszerűsített Han"
+msgstr "Han (Egyszerűsített változat)"
 
 #. name for Hant
-#, fuzzy
 msgid "Han (Traditional variant)"
-msgstr "Hagyományos Han"
+msgstr "Han (Hagyományos változat)"
 
 #. name for Hatr
 msgid "Hatran"
-msgstr ""
+msgstr "Hatran"
 
 #. name for Hebr
 msgid "Hebrew"
@@ -235,27 +232,27 @@ msgstr "Hiragana"
 
 #. name for Hluw
 msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
-msgstr ""
+msgstr "Anatóliai hieroglifák (Luwian hieroglifák, Hittite hieroglifák)"
 
 #. name for Hmng
 msgid "Pahawh Hmong"
-msgstr ""
+msgstr "Pahawh Hmong"
 
 #. name for Hrkt
 msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
-msgstr ""
+msgstr "Japán szótagábécé (a Hiragana + Katakana álneve)"
 
 #. name for Hung
 msgid "Old Hungarian (Hungarian Runic)"
-msgstr ""
+msgstr "Régi magyar (Magyar rúnák)"
 
 #. name for Inds
 msgid "Indus (Harappan)"
-msgstr ""
+msgstr "Indus (Harappan)"
 
 #. name for Ital
 msgid "Old Italic (Etruscan, Oscan, etc.)"
-msgstr ""
+msgstr "Régi itáliai (Etruszk, Oscan, stb.)"
 
 #. name for Java
 msgid "Javanese"
@@ -263,15 +260,15 @@ msgstr "Jávai"
 
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
-msgstr ""
+msgstr "Japán (a Han + Hiragana + Katakana álneve)"
 
 #. name for Jurc
 msgid "Jurchen"
-msgstr ""
+msgstr "Jurchen"
 
 #. name for Kali
 msgid "Kayah Li"
-msgstr ""
+msgstr "Kayah Li"
 
 #. name for Kana
 msgid "Katakana"
@@ -279,7 +276,7 @@ msgstr "Katakana"
 
 #. name for Khar
 msgid "Kharoshthi"
-msgstr ""
+msgstr "Kharoshthi"
 
 #. name for Khmr
 msgid "Khmer"
@@ -291,36 +288,35 @@ msgstr "Kannada"
 
 #. name for Khoj
 msgid "Khojki"
-msgstr ""
+msgstr "Khojki"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
-msgstr ""
+msgstr "Koreai (a Hangul + Han álneve)"
 
 #. name for Kpel
 msgid "Kpelle"
-msgstr ""
+msgstr "Kpelle"
 
 #. name for Kthi
 msgid "Kaithi"
-msgstr ""
+msgstr "Kaithi"
 
 #. name for Lana
 msgid "Tai Tham (Lanna)"
-msgstr ""
+msgstr "Tai Tham (Lanna)"
 
 #. name for Laoo
 msgid "Lao"
 msgstr "Lao"
 
 #. name for Latf
-#, fuzzy
 msgid "Latin (Fraktur variant)"
-msgstr "Fraktur latin"
+msgstr "Latin (Fraktur változat)"
 
 #. name for Latg
 msgid "Latin (Gaelic variant)"
-msgstr ""
+msgstr "Latin (Kelta változat)"
 
 #. name for Latn
 msgid "Latin"
@@ -328,7 +324,7 @@ msgstr "Latin"
 
 #. name for Lepc
 msgid "Lepcha (Róng)"
-msgstr ""
+msgstr "Lepcha (Róng)"
 
 #. name for Limb
 msgid "Limbu"
@@ -344,11 +340,11 @@ msgstr "Lineáris B"
 
 #. name for Lisu
 msgid "Lisu (Fraser)"
-msgstr ""
+msgstr "Lisu (Fraser)"
 
 #. name for Loma
 msgid "Loma"
-msgstr ""
+msgstr "Loma"
 
 #. name for Lyci
 msgid "Lycian"
@@ -356,19 +352,19 @@ msgstr "Líciai"
 
 #. name for Lydi
 msgid "Lydian"
-msgstr ""
+msgstr "Lüd"
 
 #. name for Mahj
 msgid "Mahajani"
-msgstr ""
+msgstr "Mahajani"
 
 #. name for Mand
 msgid "Mandaic, Mandaean"
-msgstr ""
+msgstr "Mandeus, Mandaean"
 
 #. name for Mani
 msgid "Manichaean"
-msgstr ""
+msgstr "Manichaean"
 
 #. name for Maya
 msgid "Mayan hieroglyphs"
@@ -376,17 +372,15 @@ msgstr "Maja hieroglifák"
 
 #. name for Mend
 msgid "Mende Kikakui"
-msgstr ""
+msgstr "Mende Kikakui"
 
 #. name for Merc
-#, fuzzy
 msgid "Meroitic Cursive"
-msgstr "Meroitikus"
+msgstr "Meroita dőlt"
 
 #. name for Mero
-#, fuzzy
 msgid "Meroitic Hieroglyphs"
-msgstr "Egyiptomi hieroglifák"
+msgstr "Meroita hieroglifák"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -394,11 +388,11 @@ msgstr "Malajálam"
 
 #. name for Modi
 msgid "Modi, Moḍī"
-msgstr ""
+msgstr "Modi, Moḍī"
 
 #. name for Moon
 msgid "Moon (Moon code, Moon script, Moon type)"
-msgstr ""
+msgstr "Moon (Moon kód, Moon szkript, Moon típus)"
 
 #. name for Mong
 msgid "Mongolian"
@@ -406,39 +400,39 @@ msgstr "Mongol"
 
 #. name for Mroo
 msgid "Mro, Mru"
-msgstr ""
+msgstr "Mro, Mru"
 
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
-msgstr ""
+msgstr "Meitei Mayek (Meithei, Meetei)"
 
 #. name for Mult
 msgid "Multani"
-msgstr ""
+msgstr "Multani"
 
 #. name for Mymr
 msgid "Myanmar (Burmese)"
-msgstr ""
+msgstr "Mianmar (Burmai)"
 
 #. name for Narb
 msgid "Old North Arabian (Ancient North Arabian)"
-msgstr ""
+msgstr "Régi északi arab (Ősi északi arab)"
 
 #. name for Nbat
 msgid "Nabataean"
-msgstr ""
+msgstr "Nabateus"
 
 #. name for Nkgb
 msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
-msgstr ""
+msgstr "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
 
 #. name for Nkoo
 msgid "N’Ko"
-msgstr "N'ko"
+msgstr "N’Ko"
 
 #. name for Nshu
 msgid "Nüshu"
-msgstr ""
+msgstr "Nüshu"
 
 #. name for Ogam
 msgid "Ogham"
@@ -446,118 +440,115 @@ msgstr "Ogham"
 
 #. name for Olck
 msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
-msgstr ""
+msgstr "Ol Chiki (Ol Cemet’, Ol, Santali)"
 
 #. name for Orkh
 msgid "Old Turkic, Orkhon Runic"
-msgstr ""
+msgstr "Régi török, Orkon rúnák"
 
 #. name for Orya
 msgid "Oriya"
-msgstr "Oriya"
+msgstr "Orija"
 
 #. name for Osma
 msgid "Osmanya"
-msgstr "Oszmán"
+msgstr "Szomáli"
 
 #. name for Palm
 msgid "Palmyrene"
-msgstr ""
+msgstr "Palmyrene"
 
 #. name for Pauc
 msgid "Pau Cin Hau"
-msgstr ""
+msgstr "Pau Cin Hau"
 
 #. name for Perm
 msgid "Old Permic"
-msgstr ""
+msgstr "Régi permi"
 
 #. name for Phag
 msgid "Phags-pa"
-msgstr ""
+msgstr "Phags-pa"
 
 #. name for Phli
 msgid "Inscriptional Pahlavi"
-msgstr ""
+msgstr "Feliratos pahlavi"
 
 #. name for Phlp
 msgid "Psalter Pahlavi"
-msgstr ""
+msgstr "Zsoltáros pahlavi"
 
 #. name for Phlv
 msgid "Book Pahlavi"
-msgstr ""
+msgstr "Könyv pahlavi"
 
 #. name for Phnx
 msgid "Phoenician"
-msgstr "Főniciai"
+msgstr "Föníciai"
 
 #. name for Plrd
 msgid "Miao (Pollard)"
-msgstr ""
+msgstr "Miao (Pollard)"
 
 #. name for Prti
-#, fuzzy
 msgid "Inscriptional Parthian"
-msgstr "Hagyományos Han"
+msgstr "Feliratos pártus"
 
 #. name for Qaaa
 msgid "Reserved for private use (start)"
-msgstr ""
+msgstr "Magánjellegű használatra foglalt (kezdet)"
 
 #. name for Qabx
 msgid "Reserved for private use (end)"
-msgstr ""
+msgstr "Magánjellegű használatra foglalt (vége)"
 
 #. name for Rjng
 msgid "Rejang (Redjang, Kaganga)"
-msgstr ""
+msgstr "Rejang (Redjang, Kaganga)"
 
 #. name for Roro
 msgid "Rongorongo"
-msgstr ""
+msgstr "Rongorongo"
 
 #. name for Runr
 msgid "Runic"
-msgstr "Runikus"
+msgstr "Rúnák"
 
 #. name for Samr
 msgid "Samaritan"
-msgstr ""
+msgstr "Szamaritánus"
 
 #. name for Sara
 msgid "Sarati"
 msgstr "Szarati"
 
 #. name for Sarb
-#, fuzzy
 msgid "Old South Arabian"
-msgstr "Ómagyar"
+msgstr "Régi déli arab"
 
 #. name for Saur
 msgid "Saurashtra"
-msgstr ""
+msgstr "Saurashtra"
 
 #. name for Sgnw
 msgid "SignWriting"
 msgstr "Jelírás"
 
 #. name for Shaw
-#, fuzzy
 msgid "Shavian (Shaw)"
-msgstr "Shaw ábécé"
+msgstr "Shaw-i (Shaw)"
 
 #. name for Shrd
 msgid "Sharada, Śāradā"
-msgstr ""
+msgstr "Sharada, Śāradā"
 
 #. name for Sidd
 msgid "Siddham, Siddhaṃ, Siddhamātṛkā"
-msgstr ""
+msgstr "Siddham, Siddhaṃ, Siddhamātṛkā"
 
 #. name for Sind
 msgid "Khudawadi, Sindhi"
-msgstr ""
+msgstr "Khudawadi, Sindhi"
 
 #. name for Sinh
 msgid "Sinhala"
@@ -565,7 +556,7 @@ msgstr "Szingaléz"
 
 #. name for Sora
 msgid "Sora Sompeng"
-msgstr ""
+msgstr "Sora Sompeng"
 
 #. name for Sund
 msgid "Sundanese"
@@ -573,23 +564,23 @@ msgstr "Szundanéz"
 
 #. name for Sylo
 msgid "Syloti Nagri"
-msgstr ""
+msgstr "Syloti Nagri"
 
 #. name for Syrc
 msgid "Syriac"
-msgstr "Szíriai"
+msgstr "Szír"
 
 #. name for Syre
 msgid "Syriac (Estrangelo variant)"
-msgstr ""
+msgstr "Szír (Estrangelo változat)"
 
 #. name for Syrj
 msgid "Syriac (Western variant)"
-msgstr ""
+msgstr "Szír (Nyugati változat)"
 
 #. name for Syrn
 msgid "Syriac (Eastern variant)"
-msgstr ""
+msgstr "Szír (Keleti változat)"
 
 #. name for Tagb
 msgid "Tagbanwa"
@@ -597,7 +588,7 @@ msgstr "Tagbanwa"
 
 #. name for Takr
 msgid "Takri, Ṭākrī, Ṭāṅkrī"
-msgstr ""
+msgstr "Takri, Ṭākrī, Ṭāṅkrī"
 
 #. name for Tale
 msgid "Tai Le"
@@ -605,7 +596,7 @@ msgstr "Tai Le"
 
 #. name for Talu
 msgid "New Tai Lue"
-msgstr ""
+msgstr "Új Tai Lue"
 
 #. name for Taml
 msgid "Tamil"
@@ -613,12 +604,11 @@ msgstr "Tamil"
 
 #. name for Tang
 msgid "Tangut"
-msgstr ""
+msgstr "Tangut"
 
 #. name for Tavt
-#, fuzzy
 msgid "Tai Viet"
-msgstr "Tai Le"
+msgstr "Tai Viet"
 
 #. name for Telu
 msgid "Telugu"
@@ -626,15 +616,15 @@ msgstr "Telugu"
 
 #. name for Teng
 msgid "Tengwar"
-msgstr ""
+msgstr "Tengwar"
 
 #. name for Tfng
 msgid "Tifinagh (Berber)"
-msgstr ""
+msgstr "Tifinagh (Berber)"
 
 #. name for Tglg
 msgid "Tagalog (Baybayin, Alibata)"
-msgstr ""
+msgstr "Tagalog (Baybayin, Alibata)"
 
 #. name for Thaa
 msgid "Thaana"
@@ -642,7 +632,7 @@ msgstr "Thaana"
 
 #. name for Thai
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #. name for Tibt
 msgid "Tibetan"
@@ -650,15 +640,15 @@ msgstr "Tibeti"
 
 #. name for Tirh
 msgid "Tirhuta"
-msgstr ""
+msgstr "Tirhuta"
 
 #. name for Ugar
 msgid "Ugaritic"
-msgstr "Ugari"
+msgstr "Ugariti"
 
 #. name for Vaii
 msgid "Vai"
-msgstr ""
+msgstr "Vai"
 
 #. name for Visp
 msgid "Visible Speech"
@@ -666,11 +656,11 @@ msgstr "Látható beszéd"
 
 #. name for Wara
 msgid "Warang Citi (Varang Kshiti)"
-msgstr ""
+msgstr "Warang Citi (Varang Kshiti)"
 
 #. name for Wole
 msgid "Woleai"
-msgstr ""
+msgstr "Woleai"
 
 #. name for Xpeo
 msgid "Old Persian"
@@ -678,33 +668,32 @@ msgstr "Óperzsa"
 
 #. name for Xsux
 msgid "Cuneiform, Sumero-Akkadian"
-msgstr ""
+msgstr "Cuneiform, Sumero-Akkadian"
 
 #. name for Yiii
 msgid "Yi"
-msgstr "Ji"
+msgstr "Yi"
 
 #. name for Zinh
 msgid "Code for inherited script"
-msgstr ""
+msgstr "Kód az örökölt szkripthez"
 
 #. name for Zmth
 msgid "Mathematical notation"
-msgstr ""
+msgstr "Matematikai jelölés"
 
 #. name for Zsym
-#, fuzzy
 msgid "Symbols"
-msgstr "Bliss jelképrendszer"
+msgstr "Szimbólumok"
 
 #. name for Zxxx
 msgid "Code for unwritten documents"
-msgstr ""
+msgstr "Kód az íratlan dokumentumokhoz"
 
 #. name for Zyyy
 msgid "Code for undetermined script"
-msgstr ""
+msgstr "Kód a meghatározatlan szkripthez"
 
 #. name for Zzzz
 msgid "Code for uncoded script"
-msgstr ""
+msgstr "Kód a kódolatlan szkripthez"

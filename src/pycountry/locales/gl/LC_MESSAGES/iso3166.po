@@ -11,21 +11,21 @@
 #   Free Software Foundation, Inc., 2002,2003.
 #   Alastair McKinstry, <mckinstry@computer.org>, 2002.
 #   Jacobo Tarrío <jtarrio@debian.org>, 2005, 2006, 2007, 2008.
-#   Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2012, 2013.
+#   Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2013-03-09 11:24+0100\n"
+"PO-Revision-Date: 2014-03-13 23:32+0100\n"
 "Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. name for AFG
@@ -1177,9 +1177,8 @@ msgid "Papua New Guinea"
 msgstr "Papúa Nova Guinea"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Estado Independente de Samoa"
+msgstr "Estado Independente de Papúa Nova Guinea"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1386,9 +1385,8 @@ msgid "Somalia"
 msgstr "Somalia"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "República Federal de Alemaña"
+msgstr "República Federal de Somalia"
 
 #. name for ZAF
 msgid "South Africa"

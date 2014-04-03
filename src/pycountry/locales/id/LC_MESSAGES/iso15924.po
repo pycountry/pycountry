@@ -8,8 +8,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924-3.50\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_15924\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2013-11-11 15:46+0100\n"
 "PO-Revision-Date: 2014-01-26 08:59+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
@@ -694,27 +695,3 @@ msgstr "Kode untuk naskah yang belum ditentukan"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Kode untuk naskah yang tidak terkodekan"
-
-#~ msgid "Old Hungarian"
-#~ msgstr "Hungaria lama"
-
-#~ msgid "Mende"
-#~ msgstr "Mende"
-
-#~ msgid "(alias for Hiragana + Katakana)"
-#~ msgstr "(alias untuk Hiragana + Katakana)"
-
-#~ msgid "Sindhi"
-#~ msgstr "Sindhi"
-
-#~ msgid "Orkhon"
-#~ msgstr "Orkhon"
-
-#~ msgid "Lanna, Tai Tham"
-#~ msgstr "Lanna, Tai Tham"
-
-#~ msgid "Pollard Phonetic"
-#~ msgstr "Ponetik Pollard"
-
-#~ msgid "Tagalog"
-#~ msgstr "Tagalog"
