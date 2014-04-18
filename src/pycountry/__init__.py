@@ -8,9 +8,15 @@ import os.path
 
 import pycountry.db
 
+try:
+    from pkg_resources import resource_filename
+except ImportError:
+    def resource_filename(package_or_requirement, resource_name):
+        return os.path.join(os.path.dirname(__file__), resource_name)
 
-LOCALES_DIR = os.path.join(os.path.dirname(__file__), 'locales')
-DATABASE_DIR = os.path.join(os.path.dirname(__file__), 'databases')
+
+LOCALES_DIR = resource_filename('pycountry', 'locales')
+DATABASE_DIR = resource_filename('pycountry', 'databases')
 
 
 class CountriesBase(pycountry.db.Database):
