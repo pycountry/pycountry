@@ -5,20 +5,21 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Christian Stimming <stimming@tuhh.de>, 2006.
 # Tobias Quathamer <toddy@debian.org>, 2006, 2008, 2011.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2010-04-05 14:35+0200\n"
-"PO-Revision-Date: 2011-08-15 19:49+0200\n"
-"Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
+"PO-Revision-Date: 2014-03-20 14:42+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. currency_name for AED
@@ -59,11 +60,11 @@ msgstr "Arubanischer Gulden"
 
 #. currency_name for AZN, historic currency_name for AZM (withdrawn unknown)
 msgid "Azerbaijanian Manat"
-msgstr "Aserbeidschan Manat"
+msgstr "Aserbeidschanischer Manat"
 
 #. currency_name for BAM
 msgid "Convertible Marks"
-msgstr "Konvertible Mark"
+msgstr "Konvertierbare Mark"
 
 #. currency_name for BBD
 msgid "Barbados Dollar"
@@ -131,7 +132,7 @@ msgstr "Kanadischer Dollar"
 
 #. currency_name for CDF
 msgid "Congolese Franc"
-msgstr "Kongo-Franc"
+msgstr "Kongolesischer Franc"
 
 #. currency_name for CHE
 msgid "WIR Euro"
@@ -159,7 +160,7 @@ msgstr "Renminbi-Yuan"
 
 #. currency_name for COP
 msgid "Colombian Peso"
-msgstr "Kolumbischer Peso"
+msgstr "Kolumbianischer Peso"
 
 #. currency_name for COU
 msgid "Unidad de Valor Real"
@@ -227,7 +228,7 @@ msgstr "Fidschi-Dollar"
 
 #. currency_name for FKP
 msgid "Falkland Islands Pound"
-msgstr "Falkland Pfund"
+msgstr "Falkland-Pfund"
 
 #. currency_name for GBP
 msgid "Pound Sterling"
@@ -287,7 +288,7 @@ msgstr "Rupie"
 
 #. currency_name for ILS
 msgid "New Israeli Sheqel"
-msgstr "Schekel"
+msgstr "Neuer Israelischer Schekel"
 
 #. currency_name for INR
 msgid "Indian Rupee"
@@ -395,7 +396,7 @@ msgstr "Moldau Leu"
 
 #. currency_name for MGA
 msgid "Malagasy Ariary"
-msgstr "Madagassischer Ariary"
+msgstr "Madagaskar-Ariary"
 
 #. currency_name for MKD
 msgid "Denar"
@@ -427,7 +428,7 @@ msgstr "Mauritius-Rupie"
 
 #. currency_name for MVR
 msgid "Rufiyaa"
-msgstr "Rufiyaa"
+msgstr "Malediven-Rufiyaa"
 
 #. currency_name for MWK
 msgid "Kwacha"
@@ -447,7 +448,7 @@ msgstr "Malaysischer Ringgit"
 
 #. currency_name for MZN
 msgid "Metical"
-msgstr "Metical"
+msgstr "Mosambik-Metical"
 
 #. currency_name for NAD
 msgid "Namibia Dollar"
@@ -499,7 +500,7 @@ msgstr "Pakistanische Rupie"
 
 #. currency_name for PLN
 msgid "Zloty"
-msgstr "Zloty"
+msgstr "Złoty"
 
 #. currency_name for PYG
 msgid "Guarani"
@@ -619,27 +620,27 @@ msgstr "Tansanischer Schilling"
 
 #. currency_name for UAH
 msgid "Hryvnia"
-msgstr "Hrywnja"
+msgstr "Hryvnia"
 
 #. currency_name for UGX
 msgid "Uganda Shilling"
-msgstr "Uganda-Schilling"
+msgstr "Ugandischer Schilling"
 
 #. currency_name for USD
 msgid "US Dollar"
-msgstr "US Dollar"
+msgstr "US-Dollar"
 
 #. currency_name for USN
 msgid "US Dollar (Next day)"
-msgstr "US Dollar (Nächster Tag)"
+msgstr "US-Dollar (Nächster Tag)"
 
 #. currency_name for USS
 msgid "US Dollar (Same day)"
-msgstr "US Dollar (Gleicher Tag)"
+msgstr "US-Dollar (Gleicher Tag)"
 
 #. currency_name for UYI
 msgid "Uruguay Peso en Unidades Indexadas"
-msgstr "Uruguay Peso en Unidades Indexadas"
+msgstr "Uruguayischer Peso"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
@@ -647,11 +648,11 @@ msgstr "Uruguayischer Peso"
 
 #. currency_name for UZS
 msgid "Uzbekistan Sum"
-msgstr "Usbekischer Soʻm"
+msgstr "Usbekischer Sum"
 
 #. currency_name for VEF
 msgid "Bolivar Fuerte"
-msgstr "Bolívar Fuerte"
+msgstr "Venezolanischer Bolivar"
 
 #. currency_name for VND
 msgid "Dong"
@@ -667,7 +668,7 @@ msgstr "Tala"
 
 #. currency_name for XAF
 msgid "CFA Franc BEAC"
-msgstr "CFA Franc (Äquatorial)"
+msgstr "CFA-Franc (Äquatorial)"
 
 #. currency_name for XAG
 msgid "Silver"
@@ -679,7 +680,7 @@ msgstr "Gold"
 
 #. currency_name for XBA
 msgid "European Composite Unit (EURCO)"
-msgstr "European Composite Unit (EURCO)"
+msgstr "Europäische Rechnungseinheit (EURCO)"
 
 #. currency_name for XBB
 msgid "European Monetary Unit (E.M.U.-6)"
@@ -699,7 +700,7 @@ msgstr "Ostkaribischer Dollar"
 
 #. currency_name for XDR
 msgid "Special Drawing Rights"
-msgstr "Sonderziehungsrecht"
+msgstr "Sonderziehungsrechte des IWF"
 
 #. currency_name for XFO
 msgid "Gold-Franc"
@@ -711,7 +712,7 @@ msgstr "UIC-Franc"
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
-msgstr "CFA Franc (West)"
+msgstr "CFA-Franc (West)"
 
 #. currency_name for XPD
 msgid "Palladium"
@@ -719,7 +720,7 @@ msgstr "Palladium"
 
 #. currency_name for XPF
 msgid "CFP Franc"
-msgstr "CFP Franc"
+msgstr "CFP-Franc"
 
 #. currency_name for XPT
 msgid "Platinum"
@@ -755,7 +756,7 @@ msgstr "Andorranische Peseta"
 
 #. historic currency_name for ADF (withdrawn unknown)
 msgid "Andorran Franc"
-msgstr "Andorrischer Franc"
+msgstr "Andorranischer Franc"
 
 #. historic currency_name for ALK (withdrawn 1989-12)
 msgid "Albanian Old Lek"
@@ -779,7 +780,7 @@ msgstr "Argentinischer Austral"
 
 #. historic currency_name for ARM (withdrawn unknown)
 msgid "Argentine peso moneda nacional"
-msgstr "Argentinischer Peso moneda nacional"
+msgstr "Argentine peso moneda nacional"
 
 #. historic currency_name for ARL (withdrawn unknown)
 msgid "Argentine peso ley"
@@ -795,11 +796,11 @@ msgstr "Österreichischer Schilling"
 
 #. historic currency_name for BAD (withdrawn 1997-07)
 msgid "Bosnia and Herzegovina Dinar"
-msgstr "Bosnien und Herzegowina Dinar"
+msgstr "Bosnien-und-Herzegowina-Dinar"
 
 #. historic currency_name for BEC (withdrawn 1990-03)
 msgid "Belgian Franc Convertible"
-msgstr "Belgischer Franc (konvertibel)"
+msgstr "Belgischer Franc (konvertierbar)"
 
 #. historic currency_name for BEF (withdrawn 2002-03)
 msgid "Belgian Franc"
@@ -807,7 +808,7 @@ msgstr "Belgischer Franc"
 
 #. historic currency_name for BEL (withdrawn 1990-03)
 msgid "Belgian Franc Financial"
-msgstr "Belgischer Franc (Finanz)"
+msgstr "Belgischer Franc (Finanzwesen)"
 
 #. historic currency_name for BGJ (withdrawn 1990)
 msgid "Bulgarian Lev A/52"
@@ -823,7 +824,7 @@ msgstr "Bulgarischer Lev A/99"
 
 #. historic currency_name for BOP (withdrawn 1987-02)
 msgid "Bolivian Peso"
-msgstr "Bolivischer Peso"
+msgstr "Bolivianischer Peso"
 
 #. historic currency_name for BRB (withdrawn 1986-03), historic currency_name for BRE (withdrawn 1993-03)
 msgid "Brazilian Cruzeiro"
@@ -843,7 +844,7 @@ msgstr "Brasilianischer Cruzeiro"
 
 #. historic currency_name for BYB (withdrawn 1999)
 msgid "Belarussian Rouble"
-msgstr "Belarus-Rubel"
+msgstr "Weißrussischer Rubel"
 
 #. historic currency_name for CNX (withdrawn 1989-12)
 msgid "Chinese Peoples Bank Dollar"
@@ -871,19 +872,19 @@ msgstr "Ecuadorianischer Sucre"
 
 #. historic currency_name for ECV (withdrawn unknown)
 msgid "Ecuador Unidad de Valor Constante UVC"
-msgstr "Ecuador Unidad de Valor Constante UVC"
+msgstr "Ekuador, Unidad de Valor Constante UVC"
 
 #. historic currency_name for ESA (withdrawn 1981)
 msgid "Spanish Peseta ('A' Account)"
-msgstr "Spanische Pesete ('A' Konto)"
+msgstr "Spanische Peseta (»A«-Konto)"
 
 #. historic currency_name for ESB (withdrawn 1994-12)
 msgid "Spanish Peseta (convertible)"
-msgstr "Spanische Pesete (konvertibel)"
+msgstr "Spanische Peseta (konvertibel)"
 
 #. historic currency_name for ESP (withdrawn 2002-03)
 msgid "Spanish Peseta"
-msgstr "Spanische Pesete"
+msgstr "Spanische Peseta"
 
 #. historic currency_name for FIM (withdrawn 2002-03)
 msgid "Finnish Markka"
@@ -907,7 +908,7 @@ msgstr "Äquatorialguinea Ekwele Guineana"
 
 #. historic currency_name for GHC (withdrawn unknown)
 msgid "Cedi"
-msgstr "Ghana Cedi"
+msgstr "Cedi"
 
 #. historic currency_name for GRD (withdrawn 2002-03)
 msgid "Greek Drachma"
@@ -915,7 +916,7 @@ msgstr "Griechische Drachme"
 
 #. historic currency_name for GWE (withdrawn 1981)
 msgid "Guinea Escudo"
-msgstr "Portugiesisch Guinea Escudo"
+msgstr "Portugiesischer Guinea-Escudo"
 
 #. historic currency_name for GWP (withdrawn 1997-04)
 msgid "Guinea-Bissau Peso"
@@ -947,11 +948,11 @@ msgstr "Italienische Lira"
 
 #. historic currency_name for LAJ (withdrawn 1989-12)
 msgid "Lao kip"
-msgstr "Lao Kip"
+msgstr "Lao-Kip"
 
 #. historic currency_name for LSM (withdrawn 1985-05)
 msgid "Lesotho Maloti"
-msgstr "Lesotho Maloti"
+msgstr "Lesotho-Maloti"
 
 #. historic currency_name for LTT (withdrawn 1993-07)
 msgid "Lithuanian Talonas"
@@ -967,7 +968,7 @@ msgstr "Luxemburgischer Franc"
 
 #. historic currency_name for LUL (withdrawn 1990-03)
 msgid "Luxembourg Financial Franc"
-msgstr "Luxemburgischer Franc (Finanz)"
+msgstr "Luxemburgischer Franc (Finanzwesen)"
 
 #. historic currency_name for LVR (withdrawn 1994-12)
 msgid "Latvian Ruble"
@@ -991,11 +992,11 @@ msgstr "Malediven-Rupie"
 
 #. historic currency_name for MZE (withdrawn 1981)
 msgid "Mozambique Escudo"
-msgstr "Mozambikanischer Escudo"
+msgstr "Mosambikanischer Escudo"
 
 #. historic currency_name for MZM (withdrawn unknown)
 msgid "Mozambique Metical"
-msgstr "Mozambikanischer Metical"
+msgstr "Mosambikanischer Metical"
 
 #. historic currency_name for NIC (withdrawn 1990-10)
 msgid "Nicaraguan Cordoba"
@@ -1087,11 +1088,11 @@ msgstr "Uruguayanischer Peso"
 
 #. historic currency_name for VEB (withdrawn 2008-01-01)
 msgid "Venezuela Bolívar"
-msgstr "Venezuela Bolívar"
+msgstr "Venezolanischer Bolivar"
 
 #. historic currency_name for VNC (withdrawn 1990)
 msgid "Viet Nam Old Dong"
-msgstr "Alter Vietnamescher Dong"
+msgstr "Alter Vietnamesischer Dong"
 
 #. historic currency_name for XEU (withdrawn 1999-01)
 msgid "European Currency Unit ECU"
@@ -1111,7 +1112,7 @@ msgstr "Jugoslawischer Dinar"
 
 #. historic currency_name for ZAL (withdrawn 1995-03)
 msgid "South African Financial Rand"
-msgstr "Rand (Finanz)"
+msgstr "Rand (Finanzwesen)"
 
 #. historic currency_name for ZRN (withdrawn 1999-06)
 msgid "New Zaire"
