@@ -4,8 +4,10 @@ Changes
 1.6 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Update to isocodes 3.52.
 
+- Add Python 3.4 tox testing.
+  Supported Python versions are now: 2.6, 2.7, 3.3, 3.4
 
 1.5 (2014-04-03)
 ----------------
