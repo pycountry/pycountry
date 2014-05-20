@@ -4,7 +4,8 @@ Changes
 1.7 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Change database access to better support setuptools and py2exe (and similar
+  tools). Thanks to @MarioVilas.
 
 
 1.6 (2014-05-02)
