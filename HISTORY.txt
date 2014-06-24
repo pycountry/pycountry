@@ -4,6 +4,8 @@ Changes
 1.7 (unreleased)
 ----------------
 
+- Update to iso-codes 3.54.
+
 - Change database access to better support setuptools and py2exe (and similar
   tools). Thanks to @MarioVilas.
 
