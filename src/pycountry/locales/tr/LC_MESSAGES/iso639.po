@@ -11,8 +11,9 @@
 #   Volkan Gezer <volkangezer@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.53\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"Project-Id-Version: iso_639\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
 "PO-Revision-Date: 2013-08-01 23:39+0200\n"
 "Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
@@ -110,7 +111,8 @@ msgstr "Arapça"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr "Resmi Arami Dili (700-300 M.Ö.); İmparatorluk Arami Dili (700-300 M.Ö.)"
+msgstr ""
+"Resmi Arami Dili (700-300 M.Ö.); İmparatorluk Arami Dili (700-300 M.Ö.)"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -370,8 +372,12 @@ msgid "Cherokee"
 msgstr "Cherokee (Kuzey Amerika yerlileri)"
 
 #. name for chu, cu
-msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
-msgstr "Kilise Slavcası; Eski Slavca; Kilise Slavcası; Eski Bulgarca; Eski Kilise Slavcası"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
+"Kilise Slavcası; Eski Slavca; Kilise Slavcası; Eski Bulgarca; Eski Kilise "
+"Slavcası"
 
 #. name for chv, cv
 msgid "Chuvash"
@@ -819,7 +825,7 @@ msgstr "Hint dilleri"
 
 #. name for ind, id
 msgid "Indonesian"
-msgstr "Endonezyaca"
+msgstr "Endonezce"
 
 #. name for ine
 msgid "Indo-European languages"
@@ -1997,52 +2003,3 @@ msgstr "Dil içeriği yok; Kullanılabilir değil"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
-
-#~ msgid "Artificial (Other)"
-#~ msgstr "Yapay (Diğer)"
-
-#~ msgid "Asturian; Bable"
-#~ msgstr "Asturyanca; Babel (İspanya)"
-
-#~ msgid "Baltic (Other)"
-#~ msgstr "Baltık (Diğer)"
-
-#~ msgid "Beja"
-#~ msgstr "Beja (Eritre, Sudan)"
-
-#~ msgid "Berber (Other)"
-#~ msgstr "Berberice (Diğer)"
-
-#~ msgid "Bihari"
-#~ msgstr "Bihari (Hindistan)"
-
-#~ msgid "Bantu (Other)"
-#~ msgstr "Bantu; Zaire dili (Diğer)"
-
-#~ msgid "Caucasian (Other)"
-#~ msgstr "Kafkas dilleri (Diğer)"
-
-#~ msgid "Celtic (Other)"
-#~ msgstr "Kelt dili (Diğer)"
-
-#~ msgid "Chipewyan"
-#~ msgstr "Chipewyan (Kuzey Amerika yerlileri)"
-
-#~ msgid "Cushitic (Other)"
-#~ msgstr "Cushitic; Etiyopya (Diğer)"
-
-#~ msgid "Dravidian (Other)"
-#~ msgstr "Dravidian (Diğer; Hindistan ve Sri Lanka)"
-
-#~ msgid "Finno-Ugrian (Other)"
-#~ msgstr "Fin-Ural (Diğer)"
-
-#~ msgid "Germanic (Other)"
-#~ msgstr "Germence (Diğer)"
-
-#, fuzzy
-#~ msgid "Norwegian Bokmål; Bokmål, Norwegian"
-#~ msgstr "Norveççe"
-
-#~ msgid "Aramaic"
-#~ msgstr "Aramice"

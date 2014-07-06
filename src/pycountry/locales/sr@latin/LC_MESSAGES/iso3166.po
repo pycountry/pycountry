@@ -1,21 +1,24 @@
-# Serbian translation of `iso_3166'.
+# Translation of ISO 3166 to Serbian.
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
 # Milos Komarcevic <kmilos@gmail.com>, Caslav Ilic <caslav.ilic@gmx.net>, 2009.
 # Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2012.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-07-13 08:15+0200\n"
-"PO-Revision-Date: 2012-01-12 11:55-0500\n"
-"Last-Translator: Aleksandar Jelenak <aleksandar.jelenak@gmail.com>\n"
-"Language-Team: Serbian <gnu@prevod.org>\n"
+"PO-Revision-Date: 2014-04-07 10:09+0200\n"
+"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <(nothing)>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. name for AFG
 msgid "Afghanistan"
@@ -27,7 +30,7 @@ msgstr "Islamska Republika Avganistan"
 
 #. name for ALA
 msgid "Åland Islands"
-msgstr "Olandska ostrva"
+msgstr "Ostrva Aland"
 
 #. name for ALB
 msgid "Albania"
@@ -83,7 +86,7 @@ msgstr "Argentina"
 
 #. official_name for ARG
 msgid "Argentine Republic"
-msgstr "Argentinska Republika"
+msgstr "Republika Argentina"
 
 #. name for ARM
 msgid "Armenia"
@@ -211,15 +214,15 @@ msgstr "Republika Bosna i Hercegovina"
 
 #. name for BWA
 msgid "Botswana"
-msgstr "Botsvana"
+msgstr "Bocvana"
 
 #. official_name for BWA
 msgid "Republic of Botswana"
-msgstr "Republika Botsvana"
+msgstr "Republika Bocvana"
 
 #. name for BVT
 msgid "Bouvet Island"
-msgstr "Buve ostrvo"
+msgstr "Ostrvo Bov"
 
 #. name for BRA
 msgid "Brazil"
@@ -235,7 +238,7 @@ msgstr "Britanska Indijska Okeanska Teritorija"
 
 #. name for BRN
 msgid "Brunei Darussalam"
-msgstr "Sultanat Brunei"
+msgstr "Sultanat Bruneji"
 
 #. name for BGR
 msgid "Bulgaria"
@@ -283,15 +286,15 @@ msgstr "Zelenortska ostrva"
 
 #. official_name for CPV
 msgid "Republic of Cape Verde"
-msgstr "Zelenortska Republika"
+msgstr "Republika Zelenortska ostrva"
 
 #. name for CYM
 msgid "Cayman Islands"
-msgstr "Kajmanska ostrva"
+msgstr "Ostrva Kajman"
 
 #. name for CAF
 msgid "Central African Republic"
-msgstr "Centralna Afrička Republika"
+msgstr "Centralnoafrička Republika"
 
 #. name for TCD
 msgid "Chad"
@@ -323,7 +326,7 @@ msgstr "Božićno ostrvo"
 
 #. name for CCK
 msgid "Cocos (Keeling) Islands"
-msgstr "Kokos (Kiling) ostrva"
+msgstr "Kokosova ostrva"
 
 #. name for COL
 msgid "Colombia"
@@ -355,7 +358,7 @@ msgstr "Kongo, Demokratska Republika"
 
 #. name for COK
 msgid "Cook Islands"
-msgstr "Kukova ostrva"
+msgstr "Ostrva Kuk"
 
 #. name for CRI
 msgid "Costa Rica"
@@ -470,9 +473,8 @@ msgid "Eritrea"
 msgstr "Eritreja"
 
 #. official_name for ERI
-#, fuzzy
 msgid "the State of Eritrea"
-msgstr "Sjedinjene Američke Države"
+msgstr "Država Eritreja"
 
 #. name for EST
 msgid "Estonia"
@@ -492,7 +494,7 @@ msgstr "Federativna Demokratska Republika Etiopija"
 
 #. name for FLK
 msgid "Falkland Islands (Malvinas)"
-msgstr "Foklandska ostrva (Malvini)"
+msgstr "Folklandska ostrva (Malvini)"
 
 #. name for FRO
 msgid "Faroe Islands"
@@ -580,7 +582,7 @@ msgstr "Grčka"
 
 #. official_name for GRC
 msgid "Hellenic Republic"
-msgstr "Grčka Republika"
+msgstr "Republika Grčka"
 
 #. name for GRL
 msgid "Greenland"
@@ -596,7 +598,7 @@ msgstr "Gvadalupa"
 
 #. name for GUM
 msgid "Guam"
-msgstr "Guam"
+msgstr "Giam"
 
 #. name for GTM
 msgid "Guatemala"
@@ -608,7 +610,7 @@ msgstr "Republika Gvatemala"
 
 #. name for GGY
 msgid "Guernsey"
-msgstr "Gernzi"
+msgstr "Gernsi"
 
 #. name for GIN
 msgid "Guinea"
@@ -644,7 +646,7 @@ msgstr "Republika Haiti"
 
 #. name for HMD
 msgid "Heard Island and McDonald Islands"
-msgstr "Herd ostrvo i Mekdonald ostrva"
+msgstr "Ostrvo Herd i ostrva Mekdonald"
 
 #. name for VAT
 msgid "Holy See (Vatican City State)"
@@ -732,7 +734,7 @@ msgstr "Italija"
 
 #. official_name for ITA
 msgid "Italian Republic"
-msgstr "Italijanska Republika"
+msgstr "Republika Italija"
 
 #. name for JAM
 msgid "Jamaica"
@@ -812,11 +814,11 @@ msgstr "Laoška Narodna Demokratska Republika"
 
 #. name for LVA
 msgid "Latvia"
-msgstr "Latvija"
+msgstr "Letonija"
 
 #. official_name for LVA
 msgid "Republic of Latvia"
-msgstr "Republika Latvija"
+msgstr "Republika Letonija"
 
 #. name for LBN
 msgid "Lebanon"
@@ -936,7 +938,7 @@ msgstr "Maršalska ostrva"
 
 #. official_name for MHL
 msgid "Republic of the Marshall Islands"
-msgstr "Republika Maršalska Ostrva"
+msgstr "Republika Maršalska ostrva"
 
 #. name for MTQ
 msgid "Martinique"
@@ -960,7 +962,7 @@ msgstr "Republika Mauricijus"
 
 #. name for MYT
 msgid "Mayotte"
-msgstr "Majote"
+msgstr "Majot"
 
 #. name for MEX
 msgid "Mexico"
@@ -1008,7 +1010,7 @@ msgstr "Crna Gora"
 
 #. name for MSR
 msgid "Montserrat"
-msgstr "Montserat"
+msgstr "Monserat"
 
 #. name for MAR
 msgid "Morocco"
@@ -1028,11 +1030,11 @@ msgstr "Republika Mozambik"
 
 #. name for MMR
 msgid "Myanmar"
-msgstr "Mjanmar"
+msgstr "Burma"
 
 #. official_name for MMR
 msgid "Republic of Myanmar"
-msgstr "Republika Mjanmar"
+msgstr "Republika Burma"
 
 #. name for NAM
 msgid "Namibia"
@@ -1104,15 +1106,15 @@ msgstr "Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
-msgstr "Norfolk ostrvo"
+msgstr "Ostrvo Norfolk"
 
 #. name for MNP
 msgid "Northern Mariana Islands"
-msgstr "Severna Marijanska ostrva"
+msgstr "Ostrva Severna Marijana"
 
 #. official_name for MNP
 msgid "Commonwealth of the Northern Mariana Islands"
-msgstr "Komonvelt Severnih Marijanskih Ostrva"
+msgstr "Komonvelt ostrva Severne Marijane"
 
 #. name for NOR
 msgid "Norway"
@@ -1148,12 +1150,11 @@ msgstr "Republika Palau"
 
 #. name for PSE
 msgid "Palestine, State of"
-msgstr ""
+msgstr "Palestina, Država"
 
 #. official_name for PSE
-#, fuzzy
 msgid "the State of Palestine"
-msgstr "Sjedinjene Američke Države"
+msgstr "Država Palestina"
 
 #. name for PAN
 msgid "Panama"
@@ -1168,9 +1169,8 @@ msgid "Papua New Guinea"
 msgstr "Papua Nova Gvineja"
 
 #. official_name for PNG
-#, fuzzy
 msgid "Independent State of Papua New Guinea"
-msgstr "Nezavisna Država Samoa"
+msgstr "Nezavisna Država Papua Nova Gvineja"
 
 #. name for PRY
 msgid "Paraguay"
@@ -1198,7 +1198,7 @@ msgstr "Republika Filipini"
 
 #. name for PCN
 msgid "Pitcairn"
-msgstr "Pitkern"
+msgstr "Pitkarn"
 
 #. name for POL
 msgid "Poland"
@@ -1254,7 +1254,7 @@ msgstr "Sveti Bartolomej"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Sveta Helena, Asension, i Tristan da Kunja"
+msgstr "Sveta Jelena, Asansion i Tristan da Kuna"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1274,7 +1274,7 @@ msgstr "Sveti Pjer i Mikelon"
 
 #. name for VCT
 msgid "Saint Vincent and the Grenadines"
-msgstr "Sveti Vinsent i Grenadinci"
+msgstr "Sveti Vinsent i Grenadini"
 
 #. name for WSM
 msgid "Samoa"
@@ -1294,11 +1294,11 @@ msgstr "Republika San Marino"
 
 #. name for STP
 msgid "Sao Tome and Principe"
-msgstr "Sao Tome i Prinsipe"
+msgstr "Sao Tome i Principe"
 
 #. official_name for STP
 msgid "Democratic Republic of Sao Tome and Principe"
-msgstr "Demokratska Republika Sao Tome i Prinsipe"
+msgstr "Demokratska Republika Sao Tome i Principe"
 
 #. name for SAU
 msgid "Saudi Arabia"
@@ -1370,16 +1370,15 @@ msgstr "Republika Slovenija"
 
 #. name for SLB
 msgid "Solomon Islands"
-msgstr "Solomonska ostrva"
+msgstr "Ostrva Solomon"
 
 #. name for SOM
 msgid "Somalia"
 msgstr "Somalija"
 
 #. official_name for SOM
-#, fuzzy
 msgid "Federal Republic of Somalia"
-msgstr "Federativna Republika Nemačka"
+msgstr "Federativna Republika Somalija"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1439,11 +1438,11 @@ msgstr "Svalbard i Jan Majen"
 
 #. name for SWZ
 msgid "Swaziland"
-msgstr "Svaziland"
+msgstr "Svazilend"
 
 #. official_name for SWZ
 msgid "Kingdom of Swaziland"
-msgstr "Kraljevina Svaziland"
+msgstr "Kraljevina Svazilend"
 
 #. name for SWE
 msgid "Sweden"
@@ -1555,7 +1554,7 @@ msgstr "Turkmenistan"
 
 #. name for TCA
 msgid "Turks and Caicos Islands"
-msgstr "Turks i Kaikos ostrva"
+msgstr "Ostrva Turks i Kaikos"
 
 #. name for TUV
 msgid "Tuvalu"
@@ -1595,7 +1594,7 @@ msgstr "Sjedinjene Američke Države"
 
 #. name for UMI
 msgid "United States Minor Outlying Islands"
-msgstr "Mala Spoljašnja Ostrva Sjedinjenih Država"
+msgstr "Manja Spoljašnja Ostrva Sjedinjenih Država"
 
 #. name for URY
 msgid "Uruguay"
@@ -1647,7 +1646,7 @@ msgstr "Devičanska ostrva, Britanska"
 
 #. official_name for VGB
 msgid "British Virgin Islands"
-msgstr "Britanska Devičanska Ostrva"
+msgstr "Britanska Devičanska ostrva"
 
 #. name for VIR
 msgid "Virgin Islands, U.S."
@@ -1655,11 +1654,11 @@ msgstr "Devičanska ostrva, Američka"
 
 #. official_name for VIR
 msgid "Virgin Islands of the United States"
-msgstr "Devičanska Ostrva Sjedinjenih Država"
+msgstr "Devičanska ostrva Sjedinjenih Država"
 
 #. name for WLF
 msgid "Wallis and Futuna"
-msgstr "Volis i Futuna"
+msgstr "Valis i Futuna"
 
 #. name for ESH
 msgid "Western Sahara"
@@ -1723,7 +1722,7 @@ msgstr "Istočni Timor"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr "Francuska, Metropolitanska"
+msgstr "Francuska, Metropolis"
 
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
@@ -1775,7 +1774,7 @@ msgstr "Panama, Republika"
 
 #. historic names for PCZ (withdrawn 1980)
 msgid "Panama Canal Zone"
-msgstr "Kanalska zona Panama"
+msgstr "Panamska zona kanala"
 
 #. historic names for ROM (withdrawn 2002-02-01)
 msgid "Romania, Socialist Republic of"
@@ -1783,7 +1782,7 @@ msgstr "Rumunija, Socijalistička Republika"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr "Sveti Kits-Nevis-Angvila"
+msgstr "Sveti Kits-Nevis-Angila"
 
 #. historic names for SCG (withdrawn 2006-06-05)
 msgid "Serbia and Montenegro"
