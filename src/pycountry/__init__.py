@@ -113,6 +113,8 @@ class Subdivision(pycountry.db.Data):
 
     @property
     def parent(self):
+        if not self.parent_code:
+            return None
         return subdivisions.get(code=self.parent_code)
 
 
