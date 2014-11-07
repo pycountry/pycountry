@@ -42,9 +42,10 @@ pycountry
     .. image:: https://builds.gocept.com/job/pycountry/badge/icon
        :target: https://builds.gocept.com/job/pycountry/
 
-Report bugs in the `gocept bugtracker
-<https://projects.gocept.com/projects/pycountry/>`_. The code lives in a
-`bitbucket Mercurial repository <https://bitbucket.org/gocept/pycountry>`_.
+The code lives in a `bitbucket Mercurial repository
+<https://bitbucket.org/gocept/pycountry>`_, and issues must be reported in
+`project bugtracker
+<https://bitbucket.org/gocept/pycountry/issues?status=new&status=open>`_.
 
 Countries (ISO 3166)
 ====================
