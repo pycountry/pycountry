@@ -4,7 +4,9 @@ Changes
 1.9 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Parent-less top-level subdivisions no longer raise a ``KeyError: None``
+  exception on ``parent`` attribute lookup. Normalize return value to ``None``
+  instead.
 
 
 1.8 (2014-07-06)
