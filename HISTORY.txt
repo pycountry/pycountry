@@ -1,7 +1,7 @@
 Changes
 =======
 
-1.10 (unreleased)
+1.10 (2014-11-10)
 -----------------
 
 - Parent-less top-level subdivisions no longer raise a ``KeyError: None``
