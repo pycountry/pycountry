@@ -73,16 +73,15 @@ def test_currencies():
 
 
 def test_languages():
-    assert len(pycountry.languages) == 487
+    assert len(pycountry.languages) == 7874
     assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
-    aragonese = pycountry.languages.get(alpha2='an')
-    assert aragonese.alpha2 == u'an'
-    assert aragonese.bibliographic == u'arg'
-    assert aragonese.terminology == u'arg'
+    aragonese = pycountry.languages.get(iso639_1_code='an')
+    assert aragonese.iso639_1_code == u'an'
+    assert aragonese.iso639_3_code == u'arg'
     assert aragonese.name == u'Aragonese'
 
-    bengali = pycountry.languages.get(alpha2='bn')
+    bengali = pycountry.languages.get(iso639_1_code='bn')
     assert bengali.name == u'Bengali'
     assert bengali.common_name == u'Bangla'
 

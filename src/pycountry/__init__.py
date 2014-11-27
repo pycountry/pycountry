@@ -83,18 +83,23 @@ class Currencies(pycountry.db.Database):
     data_class_name = 'Currency'
     xml_tags = 'iso_4217_entry'
 
-
 class Languages(pycountry.db.Database):
-    """Providess access to an ISO 639-1/2 database (Languages)."""
+    """Providess access to an ISO 639-1/2T/3 database (Languages)."""
 
-    field_map = dict(iso_639_2B_code='bibliographic',
-                     iso_639_2T_code='terminology',
-                     iso_639_1_code='alpha2',
-                     common_name='common_name',
-                     name='name')
+    field_map = dict(id='iso639_3_code',
+                     part1_code='iso639_1_code',
+                     part2_code='iso639_2T_code',
+                     status='status',
+                     scope='scope',
+                     type='type',
+                     inverted_name='inverted_name',
+                     reference_name='reference_name',
+                     name='name',
+                     common_name='common_name'
+                     )
+    no_index = ['terminology', 'status', 'scope', 'type', 'inverted_name', 'reference_name', 'common_name']
     data_class_name = 'Language'
-    xml_tags = 'iso_639_entry'
-
+    xml_tags = 'iso_639_3_entry'
 
 class Subdivision(pycountry.db.Data):
 
@@ -148,5 +153,5 @@ historic_countries = HistoricCountries(
     os.path.join(DATABASE_DIR, 'iso3166.xml'))
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.xml'))
 currencies = Currencies(os.path.join(DATABASE_DIR, 'iso4217.xml'))
-languages = Languages(os.path.join(DATABASE_DIR, 'iso639.xml'))
+languages = Languages(os.path.join(DATABASE_DIR, 'iso639_3.xml'))
 subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166_2.xml'))
