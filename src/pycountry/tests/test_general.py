@@ -73,6 +73,12 @@ def test_currencies():
 
 
 def test_languages():
+    for language in pycountry.languages:
+        try:
+            assert language.iso639_3_code == language.iso639_2T_code
+        except AttributeError:
+            pass
+
     assert len(pycountry.languages) == 7874
     assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
