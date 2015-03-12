@@ -64,7 +64,8 @@ class Database(object):
             else:
                 # Slightly horrible hack: to evaluate `key` at definition time
                 # of the lambda I pass it as a keyword argument.
-                getter = lambda x, key=key: getattr(x, key, None)
+                def getter(x, key=key):
+                    return getattr(x, key, None)
             indices.append((key, getter))
 
         # Create indices
