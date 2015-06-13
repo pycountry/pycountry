@@ -1,11 +1,8 @@
 # vim:fileencoding=utf-8
-# Copyright (c) 2008 gocept gmbh & co. kg
-# See also LICENSE.txt
-# $Id$
-"""Generic database code."""
 
-import logging
+from contextlib import closing
 from xml.dom import minidom
+import logging
 
 logger = logging.getLogger('pycountry.db')
 
@@ -40,9 +37,8 @@ class Database(object):
         self.data_class = type(
             self.data_class_name, (self.data_class_base,), {})
 
-        f = open(filename, 'rb')
-
-        tree = minidom.parse(f)
+        with closing(open(filename, 'rb')) as f:
+            tree = minidom.parse(f)
 
         for tag in tags:
             for entry in tree.getElementsByTagName(tag):
