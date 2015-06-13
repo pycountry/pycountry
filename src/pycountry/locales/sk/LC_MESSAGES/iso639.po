@@ -2,7 +2,7 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # translation:
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2013.
+# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2013, 2014.
 # bronto, 2007.
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2013-01-11 07:25+0100\n"
-"PO-Revision-Date: 2013-02-13 13:55+0200\n"
+"PO-Revision-Date: 2014-11-13 01:40+0200\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -909,7 +909,7 @@ msgstr "kazaština"
 
 #. name for kbd
 msgid "Kabardian"
-msgstr "kabardčina"
+msgstr "kabardo-čerkeština"
 
 #. name for kha
 msgid "Khasi"
@@ -924,13 +924,12 @@ msgid "Central Khmer"
 msgstr "kambodžská khmérčina"
 
 #. name for kho
-#, fuzzy
 msgid "Khotanese;Sakan"
-msgstr "kotčina"
+msgstr "kotčina;sačtina"
 
 #. name for kik, ki
 msgid "Kikuyu; Gikuyu"
-msgstr "kikuju"
+msgstr "kikujčina; kikuju; gikuyu"
 
 #. name for kin, rw
 msgid "Kinyarwanda"
@@ -1063,7 +1062,7 @@ msgstr "luba-katančina"
 
 #. name for lug, lg
 msgid "Ganda"
-msgstr "ganda"
+msgstr "gandčina"
 
 #. name for lui
 msgid "Luiseno"
@@ -1709,7 +1708,7 @@ msgstr "tahitčina"
 
 #. name for tai
 msgid "Tai languages"
-msgstr ""
+msgstr "thajské jazyky"
 
 #. name for tam, ta
 msgid "Tamil"
