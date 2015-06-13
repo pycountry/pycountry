@@ -4,7 +4,8 @@ Changes
 1.13 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Ensure immediate closing of file descriptors when loading
+  a database (as requested in #13106).
 
 
 1.12 (2015-06-13)
