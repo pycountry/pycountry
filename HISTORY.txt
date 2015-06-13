@@ -4,7 +4,9 @@ Changes
 1.12 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add support for ISO 639 3, dropping the old ISO 639 support.
+  This is an incompatible API change! (Thanks to Justin Wagner for
+  the work!)
 
 
 1.11 (2015-06-13)
