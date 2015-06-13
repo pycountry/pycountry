@@ -1,8 +1,8 @@
 # vim:fileencoding=utf-8
-# Copyright (c) gocept gmbh & co. kg
+# Copyright -2014 (c) gocept gmbh & co. kg
+# Copyright 2015- (c) Flying Circus Internet Operations GmbH
 # See also LICENSE.txt
 
-import os.path
 from setuptools import setup, find_packages
 
 
@@ -10,7 +10,7 @@ setup(
     name='pycountry',
     version='1.12.dev0',
     author='Christian Theune',
-    author_email='ct@gocept.com',
+    author_email='ct@flyingcircus.io',
     description='ISO country, subdivision, language, currency and script '
                 'definitions and their translations',
     long_description=(
