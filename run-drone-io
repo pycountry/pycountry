@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+pip install setuptools==17.1.1 --use-mirrors
+pip install zc.buildout==2.3.1 --use-mirrors
+pip install virtualenv==13.0.3 --use-mirrors
+buildout
+bin/py.test
