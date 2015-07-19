@@ -4,6 +4,11 @@ Changes
 1.13 (unreleased)
 -----------------
 
+- Stop bundling the source PO files in the sdist to make the distribution
+  smaller. (#13371)
+
+- Update to iso-codes 3.59.
+
 - Ensure immediate closing of file descriptors when loading
   a database (as requested in #13106).
 

@@ -54,8 +54,8 @@ for standard, standard_dir in STANDARDS.items():
 
         shutil.copyfile(src, dst)
         print src, " -> ", dst
-
         subprocess.check_call(['msgfmt', dst, '-o', dst_mo])
+        os.unlink(dst)
 
 
 # Generate the MO files.
