@@ -22,7 +22,7 @@ class Database(object):
     generated_fields = dict()
     data_class_base = Data
     data_class_name = None
-    xml_tag = None
+    xml_tags = None
     no_index = []
 
     def __init__(self, filename):
