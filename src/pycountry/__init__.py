@@ -137,8 +137,8 @@ class Subdivisions(pycountry.db.Database):
                      parent='parent_code')
     no_index = ['name', 'parent_code']
 
-    def __init__(self, *args, **kw):
-        super(Subdivisions, self).__init__(*args, **kw)
+    def _load(self, *args, **kw):
+        super(Subdivisions, self)._load(*args, **kw)
 
         # Add index for the country code.
         self.indices['country_code'] = {}

@@ -15,6 +15,14 @@ class Data(object):
             setattr(self, key, value)
 
 
+def lazy_load(f):
+    def load_if_needed(self, *args, **kw):
+        if not self._is_loaded:
+            self._load()
+        return f(self, *args, **kw)
+    return load_if_needed
+
+
 class Database(object):
 
     # Override those names in sub-classes for specific ISO database.
@@ -26,6 +34,10 @@ class Database(object):
     no_index = []
 
     def __init__(self, filename):
+        self.filename = filename
+        self._is_loaded = False
+
+    def _load(self):
         self.objects = []
         self.indices = {}
 
@@ -37,7 +49,7 @@ class Database(object):
         self.data_class = type(
             self.data_class_name, (self.data_class_base,), {})
 
-        with closing(open(filename, 'rb')) as f:
+        with closing(open(self.filename, 'rb')) as f:
             tree = minidom.parse(f)
 
         for tag in tags:
@@ -81,15 +93,10 @@ class Database(object):
                         (self.data_class_name, value, name))
                 self.indices[name][value] = obj
 
-        self.add_generated_fields()
+        self._add_generated_fields()
+        self._is_loaded = True
 
-    def __iter__(self):
-        return iter(self.objects)
-
-    def __len__(self):
-        return len(self.objects)
-
-    def add_generated_fields(self):
+    def _add_generated_fields(self):
         for key in self.generated_fields:
             self.indices[key] = {}
 
@@ -105,6 +112,17 @@ class Database(object):
                         'ignored.' % (self.data_class_name, value, name))
                 self.indices[name][value] = obj
 
+    # Public API
+
+    @lazy_load
+    def __iter__(self):
+        return iter(self.objects)
+
+    @lazy_load
+    def __len__(self):
+        return len(self.objects)
+
+    @lazy_load
     def get(self, **kw):
         assert len(kw) == 1, 'Only one criteria may be given.'
         field, value = kw.popitem()

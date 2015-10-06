@@ -4,7 +4,12 @@ Changes
 1.16 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Update to iso-codes 3.62.
+
+- Big initial performance improvement after initial draft from
+  @lucaswiman. We're now lazy loading the databases which makes
+  pycountry import extremely cheap and after that we only load
+  the databases you actually use.
 
 
 1.15 (2015-09-08)
