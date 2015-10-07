@@ -1,7 +1,7 @@
 Changes
 =======
 
-1.17 (unreleased)
+1.17 (2015-10-07)
 -----------------
 
 - Fix memory leak of XML dom elements. Thanks to @rhathe for noticing
