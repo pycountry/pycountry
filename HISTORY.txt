@@ -4,7 +4,8 @@ Changes
 1.17 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Fix memory leak of XML dom elements. Thanks to @rhathe for noticing
+  the superfluous memory consumption. (Fixes #13377)
 
 
 1.16 (2015-10-06)
