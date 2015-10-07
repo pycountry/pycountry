@@ -10,7 +10,6 @@ logger = logging.getLogger('pycountry.db')
 class Data(object):
 
     def __init__(self, element, **kw):
-        self._element = element
         for key, value in kw.items():
             setattr(self, key, value)
 
