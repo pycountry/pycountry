@@ -4,7 +4,9 @@ Changes
 1.18 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Update to iso-codes 3.63.
+
+- Add Python 3.5 to the tox configuration.
 
 
 1.17 (2015-10-07)
