@@ -111,3 +111,12 @@ def test_removed_countries():
     assert isinstance(russia, pycountry.db.Data)
     assert russia.name == u'Russian Federation'
     assert not russia.deleted
+
+
+def test_get():
+    c = pycountry.countries
+    try:
+        c.get(alpha2='DE', alpha3='DEU')
+    except TypeError:
+        pass
+    assert c.get(alpha2='DE') == c.get(alpha3='DEU')

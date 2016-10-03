@@ -123,6 +123,7 @@ class Database(object):
 
     @lazy_load
     def get(self, **kw):
-        assert len(kw) == 1, 'Only one criteria may be given.'
+        if len(kw) != 1:
+            raise TypeError('Only one criteria may be given')
         field, value = kw.popitem()
         return self.indices[field][value]
