@@ -9,9 +9,26 @@ logger = logging.getLogger('pycountry.db')
 
 class Data(object):
 
-    def __init__(self, element, **kw):
-        for key, value in kw.items():
-            setattr(self, key, value)
+    def __init__(self, element, **fields):
+        self._fields = fields
+
+    def __getattr__(self, key):
+        if key not in self._fields:
+            raise AttributeError
+        return self._fields[key]
+
+    def __setattr__(self, key, value):
+        if key != '_fields':
+            self._fields[key] = value
+        super(Data, self).__setattr__(key, value)
+
+    def __repr__(self):
+        cls_name = self.__class__.__name__
+        fields = ', '.join('%s=%r' % i for i in sorted(self._fields.items()))
+        return '%s(%s)' % (cls_name, fields)
+
+    def __dir__(self):
+        return dir(self.__class__) + list(self._fields)
 
 
 def lazy_load(f):
