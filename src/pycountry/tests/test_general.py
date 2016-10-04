@@ -1,4 +1,5 @@
 import gettext
+import re
 import pycountry
 import pycountry.db
 import pytest
@@ -111,3 +112,18 @@ def test_removed_countries():
     assert isinstance(russia, pycountry.db.Data)
     assert russia.name == u'Russian Federation'
     assert not russia.deleted
+
+
+def test_repr():
+    assert re.match("Country\\(alpha2=u?'DE', "
+                    "alpha3=u?'DEU', "
+                    "name=u?'Germany', "
+                    "numeric=u?'276', "
+                    "official_name=u?'Federal Republic of Germany'\\)",
+                    repr(pycountry.countries.get(alpha2='DE')))
+
+
+def test_dir():
+    germany = pycountry.countries.get(alpha2='DE')
+    for n in 'alpha2', 'alpha3', 'name', 'numeric', 'official_name':
+        assert n in dir(germany)

@@ -103,9 +103,8 @@ class Languages(pycountry.db.Database):
 
 class Subdivision(pycountry.db.Data):
 
-    parent_code = None
-
     def __init__(self, element, **kw):
+        kw.setdefault('parent_code', None)
         super(Subdivision, self).__init__(element, **kw)
         self.type = element.parentNode.attributes.get('type').value
         self.country_code = self.code.split('-')[0]

@@ -57,14 +57,14 @@ upon import of pycountry and works as an iterable:
   >>> len(pycountry.countries)
   249
   >>> list(pycountry.countries)[0]
-  <pycountry.db.Country object at 0x...>
+  Country(alpha2=u'AF', alpha3=u'AFG', name=u'Afghanistan', numeric=u'004', official_name=u'Islamic Republic of Afghanistan')
 
 Specific countries can be looked up by their various codes and provide the
 information included in the standard as attributes:
 
   >>> germany = pycountry.countries.get(alpha2='DE')
   >>> germany
-  <pycountry.db.Country object at 0x...>
+  Country(alpha2=u'DE', alpha3=u'DEU', name=u'Germany', numeric=u'276', official_name=u'Federal Republic of Germany')
   >>> germany.alpha2
   u'DE'
   >>> germany.alpha3
@@ -82,7 +82,7 @@ to the existing ones:
 
  >>> ussr = pycountry.historic_countries.get(alpha2='SU')
  >>> ussr
- <pycountry.db.Country object at 0x...>
+ Country(alpha2=u'SU', alpha3=u'SUN', alpha4=u'SUHH', date_withdrawn=u'1992-08-30', deleted=True, name=u'USSR, Union of Soviet Socialist Republics', numeric=u'810')
  >>> ussr.alpha4
  u'SUHH'
  >>> ussr.alpha3
@@ -95,7 +95,7 @@ to the existing ones:
  True
  >>> russia = pycountry.historic_countries.get(alpha2='RU')
  >>> russia
- <pycountry.db.Country object at 0x...>
+ Country(alpha2=u'RU', alpha3=u'RUS', deleted=False, name=u'Russian Federation', numeric=u'643')
  >>> russia.name
  u'Russian Federation'
  >>> russia.deleted
@@ -113,7 +113,7 @@ All subdivisons can be accessed directly:
   >>> len(pycountry.subdivisions)
   4847
   >>> list(pycountry.subdivisions)[0]
-  <pycountry.db.Subdivision object at 0x...>
+  Subdivision(code=u'AD-07', country_code=u'AD', name=u'Andorra la Vella', parent_code=None, type=u'Parish')
 
 Subdivisions can be accessed using their unique code and provide at least
 their code, name and type:
@@ -126,7 +126,7 @@ their code, name and type:
   >>> de_st.type
   u'State'
   >>> de_st.country
-  <pycountry.db.Country object at 0x...>
+  Country(alpha2=u'DE', alpha3=u'DEU', name=u'Germany', numeric=u'276', official_name=u'Federal Republic of Germany')
 
 Some subdivisions specify another subdivision as a parent:
 
@@ -140,7 +140,7 @@ Some subdivisions specify another subdivision as a parent:
   >>> al_br.parent_code
   u'AL-09'
   >>> al_br.parent
-  <pycountry.db.Subdivision object at 0x...>
+  Subdivision(code=u'AL-09', country_code=u'AL', name=u'Dib\xebr', parent_code=None, type=u'County')
   >>> al_br.parent.name
   u'Dib\xebr'
 
@@ -159,13 +159,13 @@ Scripts (ISO 15924)
 Scripts are available from a database similar to the countries:
 
   >>> len(pycountry.scripts)
-  163
+  169
   >>> list(pycountry.scripts)[0]
-  <pycountry.db.Script object at 0x...>
+  Script(alpha4=u'Afak', name=u'Afaka', numeric=u'439')
 
   >>> latin = pycountry.scripts.get(name='Latin')
   >>> latin
-  <pycountry.db.Script object at 0x...>
+  Script(alpha4=u'Latn', name=u'Latin', numeric=u'215')
   >>> latin.alpha4
   u'Latn'
   >>> latin.name
@@ -182,11 +182,10 @@ The currencies database is, again, similar to the ones before:
   >>> len(pycountry.currencies)
   182
   >>> list(pycountry.currencies)[0]
-  <pycountry.db.Currency object at 0x...>
-
+  Currency(letter=u'AED', name=u'UAE Dirham', numeric=u'784')
   >>> argentine_peso = pycountry.currencies.get(letter='ARS')
   >>> argentine_peso
-  <pycountry.db.Currency object at 0x...>
+  Currency(letter=u'ARS', name=u'Argentine Peso', numeric=u'032')
   >>> argentine_peso.letter
   u'ARS'
   >>> argentine_peso.name
@@ -203,7 +202,7 @@ The languages database is similar too:
   >>> len(pycountry.languages)
   7874
   >>> list(pycountry.languages)[0]
-  <pycountry.db.Language object at 0x...>
+  Language(iso639_3_code=u'aaa', name=u'Ghotuo', reference_name=u'Ghotuo', scope=u'I', status=u'Active', type=u'L')
 
   >>> aragonese = pycountry.languages.get(iso639_1_code='an')
   >>> aragonese.iso639_1_code
