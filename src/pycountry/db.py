@@ -127,3 +127,25 @@ class Database(object):
             raise TypeError('Only one criteria may be given')
         field, value = kw.popitem()
         return self.indices[field][value]
+
+    @lazy_load
+    def lookup(self, value):
+        keys = sorted(set(self.field_map.values()).union(
+                      set(self.generated_fields)).difference(
+                      set(self.no_index)))
+        # try relatively quick exact matches first
+        for key in keys:
+            try:
+                return self.indices[key][value]
+            except LookupError:
+                pass
+        # then try slower case-insensitive lookups
+        for key in keys:
+            d = self.indices[key]
+            for k, v in d.items():
+                try:
+                    if k.lower() == value.lower():
+                        return v
+                except AttributeError:
+                    pass
+        raise LookupError('Could not find a record for %r' % value)
