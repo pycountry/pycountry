@@ -236,3 +236,15 @@ Here is an example translating language names:
   >>> german.install()
   >>> _('Germany')
   'Deutschland'
+
+Lookups
+=======
+
+For each database (countries, languages, scripts, etc.), you can also look up
+entities case insensitively without knowing which key the value may match.  For
+example:
+
+  >>> pycountry.countries.lookup('de')
+  <pycountry.db.Country object at 0x...>
+
+The search ends with the first match, which is returned.
