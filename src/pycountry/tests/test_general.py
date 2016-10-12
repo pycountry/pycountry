@@ -131,10 +131,8 @@ def test_dir():
 
 def test_get():
     c = pycountry.countries
-    try:
+    with pytest.raises(TypeError):
         c.get(alpha2='DE', alpha3='DEU')
-    except TypeError:
-        pass
     assert c.get(alpha2='DE') == c.get(alpha3='DEU')
 
 
@@ -157,11 +155,7 @@ def test_lookup():
     assert latin == pycountry.scripts.lookup('latn')
     al_bu = pycountry.subdivisions.get(code='AL-BU')
     assert al_bu == pycountry.subdivisions.lookup('al-bu')
-    try:
+    with pytest.raises(LookupError):
         pycountry.countries.lookup('bogus country')
-    except LookupError:
-        pass
-    try:
+    with pytest.raises(LookupError):
         pycountry.countries.lookup(12345)
-    except LookupError:
-        pass
