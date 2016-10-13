@@ -127,3 +127,35 @@ def test_dir():
     germany = pycountry.countries.get(alpha2='DE')
     for n in 'alpha2', 'alpha3', 'name', 'numeric', 'official_name':
         assert n in dir(germany)
+
+
+def test_get():
+    c = pycountry.countries
+    with pytest.raises(TypeError):
+        c.get(alpha2='DE', alpha3='DEU')
+    assert c.get(alpha2='DE') == c.get(alpha3='DEU')
+
+
+def test_lookup():
+    c = pycountry.countries
+    g = c.get(alpha2='DE')
+    assert g == c.lookup('de')
+    assert g == c.lookup('DEU')
+    assert g == c.lookup('276')
+    assert g == c.lookup('germany')
+    assert g == c.lookup('Federal Republic of Germany')
+    # try a generated field
+    bqaq = pycountry.historic_countries.get(alpha4='BQAQ')
+    assert bqaq == pycountry.historic_countries.lookup('bq')
+    german = pycountry.languages.get(iso639_1_code='de')
+    assert german == pycountry.languages.lookup('De')
+    euro = pycountry.currencies.get(letter='EUR')
+    assert euro == pycountry.currencies.lookup('euro')
+    latin = pycountry.scripts.get(name='Latin')
+    assert latin == pycountry.scripts.lookup('latn')
+    al_bu = pycountry.subdivisions.get(code='AL-BU')
+    assert al_bu == pycountry.subdivisions.lookup('al-bu')
+    with pytest.raises(LookupError):
+        pycountry.countries.lookup('bogus country')
+    with pytest.raises(LookupError):
+        pycountry.countries.lookup(12345)
