@@ -4,7 +4,7 @@ pycountry
 
 pycountry provides the ISO databases for the standards:
 
-639
+639-3
   Languages
 
 3166
@@ -185,8 +185,8 @@ The currencies database is, again, similar to the ones before:
   '032'
 
 
-Languages (ISO 639)
-===================
+Languages (ISO 639-3)
+=====================
 
 The languages database is similar too:
 
