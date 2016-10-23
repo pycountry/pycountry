@@ -57,49 +57,40 @@ upon import of pycountry and works as an iterable:
   >>> len(pycountry.countries)
   249
   >>> list(pycountry.countries)[0]
-  Country(alpha2=u'AF', alpha3=u'AFG', name=u'Afghanistan', numeric=u'004', official_name=u'Islamic Republic of Afghanistan')
+  Country(alpha_2='AF', alpha_3='AFG', name='Afghanistan', numeric='004', official_name='Islamic Republic of Afghanistan')
 
 Specific countries can be looked up by their various codes and provide the
 information included in the standard as attributes:
 
-  >>> germany = pycountry.countries.get(alpha2='DE')
+  >>> germany = pycountry.countries.get(alpha_2='DE')
   >>> germany
-  Country(alpha2=u'DE', alpha3=u'DEU', name=u'Germany', numeric=u'276', official_name=u'Federal Republic of Germany')
-  >>> germany.alpha2
-  u'DE'
-  >>> germany.alpha3
-  u'DEU'
+  Country(alpha_2='DE', alpha_3='DEU', name='Germany', numeric='276', official_name='Federal Republic of Germany')
+  >>> germany.alpha_2
+  'DE'
+  >>> germany.alpha_3
+  'DEU'
   >>> germany.numeric
-  u'276'
+  '276'
   >>> germany.name
-  u'Germany'
+  'Germany'
   >>> germany.official_name
-  u'Federal Republic of Germany'
+  'Federal Republic of Germany'
 
 The `historic_countries` database contains former countries that have been
-removed from the standard and are now included in ISO 3166-3, in addition
-to the existing ones:
+removed from the standard and are now included in ISO 3166-3, excluding
+existing ones:
 
- >>> ussr = pycountry.historic_countries.get(alpha2='SU')
+ >>> ussr = pycountry.historic_countries.get(alpha_2='SU')
  >>> ussr
- Country(alpha2=u'SU', alpha3=u'SUN', alpha4=u'SUHH', date_withdrawn=u'1992-08-30', deleted=True, name=u'USSR, Union of Soviet Socialist Republics', numeric=u'810')
- >>> ussr.alpha4
- u'SUHH'
- >>> ussr.alpha3
- u'SUN'
+ Country(alpha_3='SUN', alpha_4='SUHH', date_withdrawn='1992-08-30', name='USSR, Union of Soviet Socialist Republics', numeric='810')
+ >>> ussr.alpha_4
+ 'SUHH'
+ >>> ussr.alpha_3
+ 'SUN'
  >>> ussr.name
- u'USSR, Union of Soviet Socialist Republics'
+ 'USSR, Union of Soviet Socialist Republics'
  >>> ussr.date_withdrawn
- u'1992-08-30'
- >>> ussr.deleted
- True
- >>> russia = pycountry.historic_countries.get(alpha2='RU')
- >>> russia
- Country(alpha2=u'RU', alpha3=u'RUS', deleted=False, name=u'Russian Federation', numeric=u'643')
- >>> russia.name
- u'Russian Federation'
- >>> russia.deleted
- False
+ '1992-08-30'
 
 
 Country subdivisions (ISO 3166-2)
@@ -113,36 +104,36 @@ All subdivisons can be accessed directly:
   >>> len(pycountry.subdivisions)
   4847
   >>> list(pycountry.subdivisions)[0]
-  Subdivision(code=u'AD-07', country_code=u'AD', name=u'Andorra la Vella', parent_code=None, type=u'Parish')
+  Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
 Subdivisions can be accessed using their unique code and provide at least
 their code, name and type:
 
-  >>> de_st= pycountry.subdivisions.get(code='DE-ST')
+  >>> de_st = pycountry.subdivisions.get(code='DE-ST')
   >>> de_st.code
-  u'DE-ST'
+  'DE-ST'
   >>> de_st.name
-  u'Sachsen-Anhalt'
+  'Sachsen-Anhalt'
   >>> de_st.type
-  u'State'
+  'State'
   >>> de_st.country
-  Country(alpha2=u'DE', alpha3=u'DEU', name=u'Germany', numeric=u'276', official_name=u'Federal Republic of Germany')
+  Country(alpha_2='DE', alpha_3='DEU', name='Germany', numeric='276', official_name='Federal Republic of Germany')
 
 Some subdivisions specify another subdivision as a parent:
 
   >>> al_br = pycountry.subdivisions.get(code='AL-BU')
   >>> al_br.code
-  u'AL-BU'
+  'AL-BU'
   >>> al_br.name
-  u'Bulqiz\xeb'
+  'Bulqiz\xeb'
   >>> al_br.type
-  u'District'
+  'District'
   >>> al_br.parent_code
-  u'AL-09'
+  'AL-09'
   >>> al_br.parent
-  Subdivision(code=u'AL-09', country_code=u'AL', name=u'Dib\xebr', parent_code=None, type=u'County')
+  Subdivision(code='AL-09', country_code='AL', name='Dib\xebr', parent_code=None, type='County')
   >>> al_br.parent.name
-  u'Dib\xebr'
+  'Dib\xebr'
 
 The divisions of a single country can be queried using the country_code index:
 
@@ -161,17 +152,17 @@ Scripts are available from a database similar to the countries:
   >>> len(pycountry.scripts)
   169
   >>> list(pycountry.scripts)[0]
-  Script(alpha4=u'Afak', name=u'Afaka', numeric=u'439')
+  Script(alpha_4='Afak', name='Afaka', numeric='439')
 
   >>> latin = pycountry.scripts.get(name='Latin')
   >>> latin
-  Script(alpha4=u'Latn', name=u'Latin', numeric=u'215')
+  Script(alpha_4='Latn', name='Latin', numeric='215')
   >>> latin.alpha4
-  u'Latn'
+  'Latn'
   >>> latin.name
-  u'Latin'
+  'Latin'
   >>> latin.numeric
-  u'215'
+  '215'
 
 
 Currencies (ISO 4217)
@@ -182,16 +173,16 @@ The currencies database is, again, similar to the ones before:
   >>> len(pycountry.currencies)
   182
   >>> list(pycountry.currencies)[0]
-  Currency(letter=u'AED', name=u'UAE Dirham', numeric=u'784')
+  Currency(letter='AED', name='UAE Dirham', numeric='784')
   >>> argentine_peso = pycountry.currencies.get(letter='ARS')
   >>> argentine_peso
-  Currency(letter=u'ARS', name=u'Argentine Peso', numeric=u'032')
+  Currency(letter='ARS', name='Argentine Peso', numeric='032')
   >>> argentine_peso.letter
-  u'ARS'
+  'ARS'
   >>> argentine_peso.name
-  u'Argentine Peso'
+  'Argentine Peso'
   >>> argentine_peso.numeric
-  u'032'
+  '032'
 
 
 Languages (ISO 639)
@@ -202,23 +193,21 @@ The languages database is similar too:
   >>> len(pycountry.languages)
   7874
   >>> list(pycountry.languages)[0]
-  Language(iso639_3_code=u'aaa', name=u'Ghotuo', reference_name=u'Ghotuo', scope=u'I', status=u'Active', type=u'L')
+  Language(alpha_3='aaa', name='Ghotuo', scope='I', type='L')
 
-  >>> aragonese = pycountry.languages.get(iso639_1_code='an')
-  >>> aragonese.iso639_1_code
-  u'an'
-  >>> aragonese.iso639_2T_code
-  u'arg'
-  >>> aragonese.iso639_3_code
-  u'arg'
+  >>> aragonese = pycountry.languages.get(alpha_2='an')
+  >>> aragonese.alpha_2
+  'an'
+  >>> aragonese.alpha_3
+  'arg'
   >>> aragonese.name
-  u'Aragonese'
+  'Aragonese'
 
   >>> bengali = pycountry.languages.get(iso639_1_code='bn')
   >>> bengali.name
-  u'Bengali'
+  'Bengali'
   >>> bengali.common_name
-  u'Bangla'
+  'Bangla'
 
 Locales
 =======
