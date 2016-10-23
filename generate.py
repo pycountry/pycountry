@@ -21,27 +21,24 @@ database_dir = os.path.join(base_dir, 'databases')
 locales_dir = os.path.join(base_dir, 'locales')
 
 
-STANDARDS = {'639_3':  os.path.join(data_dir, 'iso_639_3'),
-             '3166': os.path.join(data_dir, 'iso_3166'),
-             '3166_2': os.path.join(data_dir, 'iso_3166_2'),
-             '4217': os.path.join(data_dir, 'iso_4217'),
-             '15924': os.path.join(data_dir, 'iso_15924')}
-
+STANDARDS = ['639-3', '3166-1', '3166-2', '3166-3', '4217', '15924']
 
 # Put the database files in place
 if not os.path.exists(database_dir):
     os.mkdir(database_dir)
 
-for standard, standard_dir in STANDARDS.items():
-    src = os.path.join(standard_dir, 'iso_%s.xml' % standard)
-    dst = os.path.join(database_dir, 'iso%s.xml' % standard)
+for standard in STANDARDS:
+    src = os.path.join(data_dir, 'data', 'iso_%s.json' % standard)
+    print(src)
+    dst = os.path.join(database_dir, 'iso%s.json' % standard)
     shutil.copyfile(src, dst)
 
 
 # Put the PO files in place and compile them
-for standard, standard_dir in STANDARDS.items():
-    for src in glob.glob(os.path.join(standard_dir, '*.po')):
-        print src
+for standard in STANDARDS:
+    for src in glob.glob(
+            os.path.join(data_dir, 'iso_{}'.format(standard), '*.po')):
+        print(src)
         dir, locale = os.path.split(src)
         locale = locale.replace('.po', '')
 
@@ -53,7 +50,7 @@ for standard, standard_dir in STANDARDS.items():
         dst_mo = dst.replace('.po', '.mo')
 
         shutil.copyfile(src, dst)
-        print src, " -> ", dst
+        print(src + " -> " + dst)
         subprocess.check_call(['msgfmt', dst, '-o', dst_mo])
         os.unlink(dst)
 

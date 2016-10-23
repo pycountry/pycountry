@@ -17,16 +17,16 @@ def test_country_list():
 
 
 def test_germany_has_all_attributes():
-    germany = pycountry.countries.get(alpha2='DE')
-    assert germany.alpha2 == u'DE'
-    assert germany.alpha3 == u'DEU'
+    germany = pycountry.countries.get(alpha_2='DE')
+    assert germany.alpha_2 == u'DE'
+    assert germany.alpha_3 == u'DEU'
     assert germany.numeric == u'276'
     assert germany.name == u'Germany'
     assert germany.official_name == u'Federal Republic of Germany'
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4847
+    assert len(pycountry.subdivisions) == 4837
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
@@ -35,7 +35,7 @@ def test_subdivisions_directly_accessible():
     assert de_st.type == u'State'
     assert de_st.parent is None
     assert de_st.parent_code is None
-    assert de_st.country is pycountry.countries.get(alpha2='DE')
+    assert de_st.country is pycountry.countries.get(alpha_2='DE')
 
 
 def test_subdivisions_have_subdivision_as_parent():
@@ -54,7 +54,7 @@ def test_query_subdivisions_of_country():
 
 
 def test_scripts():
-    assert len(pycountry.scripts) == 169
+    assert len(pycountry.scripts) == 182
     assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
 
     latin = pycountry.scripts.get(name='Latin')
@@ -64,7 +64,7 @@ def test_scripts():
 
 
 def test_currencies():
-    assert len(pycountry.currencies) == 182
+    assert len(pycountry.currencies) == 170
     assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(letter='ARS')
@@ -74,21 +74,15 @@ def test_currencies():
 
 
 def test_languages():
-    for language in pycountry.languages:
-        try:
-            assert language.iso639_3_code == language.iso639_2T_code
-        except AttributeError:
-            pass
-
-    assert len(pycountry.languages) == 7874
+    assert len(pycountry.languages) == 7847
     assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
-    aragonese = pycountry.languages.get(iso639_1_code='an')
-    assert aragonese.iso639_1_code == u'an'
-    assert aragonese.iso639_3_code == u'arg'
+    aragonese = pycountry.languages.get(alpha_2='an')
+    assert aragonese.alpha_2 == u'an'
+    assert aragonese.alpha_3 == u'arg'
     assert aragonese.name == u'Aragonese'
 
-    bengali = pycountry.languages.get(iso639_1_code='bn')
+    bengali = pycountry.languages.get(alpha_2='bn')
     assert bengali.name == u'Bengali'
     assert bengali.common_name == u'Bangla'
 
@@ -101,55 +95,51 @@ def test_locales():
 
 
 def test_removed_countries():
-    ussr = pycountry.historic_countries.get(alpha2='SU')
+    ussr = pycountry.historic_countries.get(alpha_2='SU')
     assert isinstance(ussr, pycountry.db.Data)
-    assert ussr.alpha4 == u'SUHH'
-    assert ussr.alpha3 == u'SUN'
+    assert ussr.alpha_4 == u'SUHH'
+    assert ussr.alpha_3 == u'SUN'
     assert ussr.name == u'USSR, Union of Soviet Socialist Republics'
     assert ussr.date_withdrawn == u'1992-08-30'
     assert ussr.deleted
-    russia = pycountry.historic_countries.get(alpha2='RU')
-    assert isinstance(russia, pycountry.db.Data)
-    assert russia.name == u'Russian Federation'
-    assert not russia.deleted
 
 
 def test_repr():
-    assert re.match("Country\\(alpha2=u?'DE', "
-                    "alpha3=u?'DEU', "
+    assert re.match("Country\\(alpha_2=u?'DE', "
+                    "alpha_3=u?'DEU', "
                     "name=u?'Germany', "
                     "numeric=u?'276', "
                     "official_name=u?'Federal Republic of Germany'\\)",
-                    repr(pycountry.countries.get(alpha2='DE')))
+                    repr(pycountry.countries.get(alpha_2='DE')))
 
 
 def test_dir():
-    germany = pycountry.countries.get(alpha2='DE')
-    for n in 'alpha2', 'alpha3', 'name', 'numeric', 'official_name':
+    germany = pycountry.countries.get(alpha_2='DE')
+    for n in 'alpha_2', 'alpha_3', 'name', 'numeric', 'official_name':
         assert n in dir(germany)
 
 
 def test_get():
     c = pycountry.countries
     with pytest.raises(TypeError):
-        c.get(alpha2='DE', alpha3='DEU')
-    assert c.get(alpha2='DE') == c.get(alpha3='DEU')
+        c.get(alpha_2='DE', alpha_3='DEU')
+    assert c.get(alpha_2='DE') == c.get(alpha_3='DEU')
 
 
 def test_lookup():
     c = pycountry.countries
-    g = c.get(alpha2='DE')
+    g = c.get(alpha_2='DE')
     assert g == c.lookup('de')
     assert g == c.lookup('DEU')
     assert g == c.lookup('276')
     assert g == c.lookup('germany')
     assert g == c.lookup('Federal Republic of Germany')
     # try a generated field
-    bqaq = pycountry.historic_countries.get(alpha4='BQAQ')
-    assert bqaq == pycountry.historic_countries.lookup('bq')
-    german = pycountry.languages.get(iso639_1_code='de')
+    bqaq = pycountry.historic_countries.get(alpha_4='BQAQ')
+    assert bqaq == pycountry.historic_countries.lookup('atb')
+    german = pycountry.languages.get(alpha_2='de')
     assert german == pycountry.languages.lookup('De')
-    euro = pycountry.currencies.get(letter='EUR')
+    euro = pycountry.currencies.get(alpha_3='EUR')
     assert euro == pycountry.currencies.lookup('euro')
     latin = pycountry.scripts.get(name='Latin')
     assert latin == pycountry.scripts.lookup('latn')

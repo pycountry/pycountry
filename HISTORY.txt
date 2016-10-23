@@ -1,308 +1,41 @@
 Changes
 =======
 
-1.21 (unreleased)
------------------
-
-- Nothing changed yet.
-
-
-1.20 (2016-02-03)
------------------
-
-- Update to iso-codes 3.65.
-
-
-1.19 (2016-01-06)
------------------
-
-- Update to iso-codes 3.64.
-
-
-1.18 (2015-11-04)
------------------
-
-- Update to iso-codes 3.63.
-
-- Add Python 3.5 to the tox configuration.
-
-
-1.17 (2015-10-07)
------------------
-
-- Fix memory leak of XML dom elements. Thanks to @rhathe for noticing
-  the superfluous memory consumption. (Fixes #13377)
-
-
-1.16 (2015-10-06)
------------------
-
-- Update to iso-codes 3.62.
-
-- Big initial performance improvement after initial draft from
-  @lucaswiman. We're now lazy loading the databases which makes
-  pycountry import extremely cheap and after that we only load
-  the databases you actually use.
-
-
-1.15 (2015-09-08)
------------------
-
-- Update to iso-codes 3.61.
-
-
-1.14 (2015-08-09)
------------------
-
-- Update to iso-codes 3.60.
-
-
-1.13 (2015-07-19)
------------------
-
-- Stop bundling the source PO files in the sdist to make the distribution
-  smaller. (#13371)
-
-- Update to iso-codes 3.59.
-
-- Ensure immediate closing of file descriptors when loading
-  a database (as requested in #13106).
-
-
-1.12 (2015-06-13)
------------------
-
-- Add support for ISO 639 3, dropping the old ISO 639 support.
-  This is an incompatible API change! (Thanks to Justin Wagner for
-  the work!)
-
-
-1.11 (2015-06-13)
------------------
-
-- Update to iso-codes 3.58.
-
-
-1.10 (2014-11-10)
------------------
-
-- Parent-less top-level subdivisions no longer raise a ``KeyError: None``
-  exception on ``parent`` attribute lookup. Normalize return value to ``None``
-  instead.
-
-1.9 (2014-11-10)
-----------------
-
-
-- Update to iso-codes 3.57.
-
-
-1.8 (2014-07-06)
-----------------
-
-- Update to iso-codes 3.55.
-
-
-1.7 (2014-06-24)
-----------------
-
-- Update to iso-codes 3.54.
-
-- Change database access to better support setuptools and py2exe (and similar
-  tools). Thanks to @MarioVilas.
-
-
-1.6 (2014-05-02)
-----------------
-
-- Update to isocodes 3.52.
-
-- Add Python 3.4 tox testing.
-  Supported Python versions are now: 2.6, 2.7, 3.3, 3.4
-
-1.5 (2014-04-03)
-----------------
-
-- Update to isocodes 3.52.
-
-
-1.4 (2014-02-07)
-----------------
-
-- Upgrade to isocodes 3.51.
-
-
-1.3 (2013-12-11)
-----------------
-
-- Upgrade to isocodes 3.49
-
-- Downgrade another warning message for the databases to 'debug' as users of
-  the library can't really do anything about it (except nagging upstream DB
-  maintainers).
-
-1.2 (2013-11-06)
-----------------
-
-- Downgrade the warning message about duplication in the databases to 'debug'
-  as users of the library can't really do anything about it (except nagging
-  upstream DB maintainers).
-
-1.1 (2013-10-04)
-----------------
-
-- Update database to isocodes 3.47
-
-
-1.0 (2013-09-02)
-----------------
-
-- Update database to isocodes 3.46
-
-
-0.19 (2013-08-20)
------------------
-
-- Provide acess to historical country information (ISO 3166-3). Thanks to
-  @pferreir who provided the pull request.
-
-
-0.18 (2013-08-02)
------------------
-
-- Switch buildout to 2.2, enforce using setuptools
-
-- Update to iso-codes 3.45.
-
-0.17 (2013-07-10)
------------------
-
-- Refactor dependencies to avoid test dependencies screwing up other peoples'
-  projects by accidentally installing plugins.
-
-
-0.16 (2013-07-02)
------------------
-
-- Update to iso-codes 3.44.
-
-
-0.15 (2013-06-22)
------------------
-
-- Update to iso-codes 3.43.
-
-- Switch testing to pytest.
-
-- Make Python 3 compatible.
-
-
-0.14.8 (2013-02-25)
--------------------
-
-- Update to iso-codes 3.41.
-
-
-0.14.7 (2012-11-03)
--------------------
-
-- Update to iso-codes 3.40.
-
-- Adapt Language objects to include `common_name` attribute added in iso-codes
-  3.40.
-
-0.14.6 (2012-10-02)
--------------------
-
-- Update to iso-codes 3.39.
-
-
-0.14.5 (2012-09-14)
--------------------
-
-- Re-add the patch that should have been 0.14.4. Migrating to mercurial caused
-  me to miss it.
-
-
-0.14.4 (2012-09-14)
--------------------
-
-- Explicitly unlink DOM tree to support (faster) memory deallocation. Thanks to
-  Romuald Brunet.
-
-
-0.14.3 (2012-09-04)
--------------------
-
-- Update data to iso-codes 3.38.
-
-
-0.14.2 (2012-07-18)
--------------------
-
-- Update data to iso-codes 3.37.
-
-
-0.14.1 (2011-07-15)
--------------------
-
-- Nothing changed yet.
-
-
-0.14 (2011-07-06)
------------------
-
-- Update data to iso-codes 3.26.
-
-
-0.13 (2010-04-23)
------------------
-
-- Applied patch from Pedro Araujo which removes the somewhat superfluous
-  dependency on lxml to the builtin minidom. This seems to consistently turn
-  all strings into unicode even if they only contain ASCII characters.
-
-
-0.12.1 (2010-04-21)
--------------------
-
-- Remedy brown-bag release 0.12 which was missing all data files due to a bad
-  interaction between the build system for the data and zest.releaeser's
-  full-release script.
-
-
-0.12 (2010-04-20)
------------------
-
-- Follow Debian repository to git.
-
-- Upgrade data to revision 770fa9cd603f90f9fb982b32fe6f45d253f1d33e as
-  requested by #5488 and others.
-
-- Reflect subdivision changes with how they reference their parents in the XML
-  (they used to use space as a separator but now use a hyphen).
-
-- Refactor index building structures a bit.
-
-- Remove superfluous 'code' index from subdivision database. (Together with
-  the data upgrade this also gets rid of all the annoying warnings as
-  described in #6667).
-
-- Some light PEP 8 improvements.
-
-0.11 (2009-03-03)
------------------
-
-- Updated Debian repository to r1752.
-
-
-0.10 (2008-06-26)
------------------
-
-- Added support for country subdivisions (ISO 3166-2).
-
-
-0.9
----
-
-- Initial release
+16.10.23.dev0 (unreleased)
+--------------------------
+
+This is a major change. The upstream packages have been revamped from the
+former XML databases to use JSON. They adapted their schemata a bit and thus
+made some of the structures in pycountry superfluous (yay!). Memory usage went
+down when all databases are loaded (32.7 MiB down from 83.6 MiB) and
+performance has gone up (not measured scientifically, but it's noticable when
+loading the DBs in an interactive session).
+
+To mark this major change, I'm also switch from the existing (not useful)
+SemVer-based version numbers to CalVer-based numbers using YY.MM.DD.micro as
+the pattern.
+
+To avoid adding more complexity I have removed code that really only was
+necessary because of the complexity of using the XML databases.
+
+Here's what you need to know:
+
+- I updated to iso-codes 3.70 which is a lot fresher than the
+  last release.
+
+- Attribute names have changed. There is no longer a mapping
+  going on between the sources and the object attributes. Take
+  a look at the JSON files (or inspect the objects) to see
+  which fields are supported.
+
+  You can also inspect the automatically build indexes (db.indices) to see all
+  keys in a database. Not every object supports every attribute - this depends
+  on the quality of the data from pkg-isocodes.
+
+  Attribute names are more coherent now, too. Note that "alpha2", "alpha4",
+  etc. are now using an underscore as that's the pattern in the upstream
+  packages. So it's "alpha_2" now.
+
+- HistoricCountries no longer includes countries that still
+  exist. I removed the computed fields that were meant to
+  make it easy to filter.
