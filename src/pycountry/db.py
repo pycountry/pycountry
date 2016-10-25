@@ -6,6 +6,11 @@ import json
 
 logger = logging.getLogger('pycountry.db')
 
+try:
+    unicode
+except NameError:
+    unicode = str
+
 
 class Data(object):
 
@@ -58,7 +63,7 @@ class Database(object):
         self.data_class = type(
             self.data_class_name, (self.data_class_base,), {})
 
-        with closing(open(self.filename, 'rb')) as f:
+        with closing(open(self.filename, 'r')) as f:
             tree = json.load(f)
 
         for entry in tree[self.root_key]:
