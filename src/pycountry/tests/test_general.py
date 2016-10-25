@@ -26,7 +26,7 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4837
+    assert len(pycountry.subdivisions) == 4847
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
@@ -58,7 +58,7 @@ def test_scripts():
     assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
 
     latin = pycountry.scripts.get(name='Latin')
-    assert latin.alpha4 == u'Latn'
+    assert latin.alpha_4 == u'Latn'
     assert latin.name == u'Latin'
     assert latin.numeric == u'215'
 
@@ -67,8 +67,8 @@ def test_currencies():
     assert len(pycountry.currencies) == 170
     assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
 
-    argentine_peso = pycountry.currencies.get(letter='ARS')
-    assert argentine_peso.letter == u'ARS'
+    argentine_peso = pycountry.currencies.get(alpha_3='ARS')
+    assert argentine_peso.alpha_3 == u'ARS'
     assert argentine_peso.name == u'Argentine Peso'
     assert argentine_peso.numeric == u'032'
 
@@ -95,13 +95,13 @@ def test_locales():
 
 
 def test_removed_countries():
-    ussr = pycountry.historic_countries.get(alpha_2='SU')
+    ussr = pycountry.historic_countries.get(alpha_3='SUN')
     assert isinstance(ussr, pycountry.db.Data)
     assert ussr.alpha_4 == u'SUHH'
     assert ussr.alpha_3 == u'SUN'
     assert ussr.name == u'USSR, Union of Soviet Socialist Republics'
-    assert ussr.date_withdrawn == u'1992-08-30'
-    assert ussr.deleted
+    assert ussr.withdrawal_date == u'1992-08-30'
+#   assert ussr.deleted
 
 
 def test_repr():
