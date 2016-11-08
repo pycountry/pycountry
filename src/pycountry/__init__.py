@@ -59,7 +59,10 @@ class Languages(pycountry.db.Database):
 class Subdivision(pycountry.db.Data):
 
     def __init__(self, **kw):
-        kw.setdefault('parent_code', None)
+        if 'parent' in kw:
+            kw['parent_code'] = kw['parent']
+        else:
+            kw['parent_code'] = None
         super(Subdivision, self).__init__(**kw)
         self.country_code = self.code.split('-')[0]
         if self.parent_code is not None:
