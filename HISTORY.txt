@@ -1,10 +1,33 @@
 Changes
 =======
 
-16.10.23rc4 (unreleased)
-------------------------
+16.11.8rc1 (unreleased)
+-----------------------
 
-- Nothing changed yet.
+This release was heavily supported by @zware who fixed some of the issues
+I overlooked in the last releases and a few enhancements.
+
+* All data objects now have a repr() that includes all values. (@zware)
+
+* All database objects now have a lookup method that takes a value and
+  returns the first data object that has an attribute that matches the value.
+  Note that searching is halted when the first match is found. (@zware)
+
+* Clean up historical countries: the deleted flag is gone and there is no
+  database that holds both historical and present countries any longer.
+  The record formats are too different to keep this facade up reasonably well.
+
+* Fix parent lookup for subdivisions.
+
+* Update README to correctly show the updated field names.
+
+* Update pins for the packages we depend on.
+
+* Reduce Python test coverage to Python 2.7 and 3.5 -- I can't sustain
+  running a bazillion Python versions all the time forever.
+
+* Fix Python 3 compatibility (@zware)
+
 
 
 16.10.23rc3 (2016-10-23)

@@ -80,16 +80,16 @@ The `historic_countries` database contains former countries that have been
 removed from the standard and are now included in ISO 3166-3, excluding
 existing ones:
 
- >>> ussr = pycountry.historic_countries.get(alpha_2='SU')
+ >>> ussr = pycountry.historic_countries.get(alpha_3='SUN')
  >>> ussr
- Country(alpha_3='SUN', alpha_4='SUHH', date_withdrawn='1992-08-30', name='USSR, Union of Soviet Socialist Republics', numeric='810')
+ Country(alpha_3='SUN', alpha_4='SUHH', withdrawal_date='1992-08-30', name='USSR, Union of Soviet Socialist Republics', numeric='810')
  >>> ussr.alpha_4
  'SUHH'
  >>> ussr.alpha_3
  'SUN'
  >>> ussr.name
  'USSR, Union of Soviet Socialist Republics'
- >>> ussr.date_withdrawn
+ >>> ussr.withdrawal_date
  '1992-08-30'
 
 
@@ -173,11 +173,11 @@ The currencies database is, again, similar to the ones before:
   >>> len(pycountry.currencies)
   182
   >>> list(pycountry.currencies)[0]
-  Currency(letter='AED', name='UAE Dirham', numeric='784')
-  >>> argentine_peso = pycountry.currencies.get(letter='ARS')
+  Currency(alpha_3='AED', name='UAE Dirham', numeric='784')
+  >>> argentine_peso = pycountry.currencies.get(alpha_3='ARS')
   >>> argentine_peso
-  Currency(letter='ARS', name='Argentine Peso', numeric='032')
-  >>> argentine_peso.letter
+  Currency(alpha_3='ARS', name='Argentine Peso', numeric='032')
+  >>> argentine_peso.alpha_3
   'ARS'
   >>> argentine_peso.name
   'Argentine Peso'

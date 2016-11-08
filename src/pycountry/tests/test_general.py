@@ -101,7 +101,6 @@ def test_removed_countries():
     assert ussr.alpha_3 == u'SUN'
     assert ussr.name == u'USSR, Union of Soviet Socialist Republics'
     assert ussr.withdrawal_date == u'1992-08-30'
-#   assert ussr.deleted
 
 
 def test_repr():
