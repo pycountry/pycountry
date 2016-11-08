@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version='16.11.8rc1.dev0',
+    version='16.11.08',
     author='Christian Theune',
     author_email='ct@flyingcircus.io',
     description='ISO country, subdivision, language, currency and script '
