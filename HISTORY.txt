@@ -1,8 +1,8 @@
 Changes
 =======
 
-16.11.9 (unreleased)
---------------------
+16.11.27 (2016-11-27)
+---------------------
 
 - Fix encoding issue on Python 3 (which seems to have been limited to
   some platforms.) Via PR17, fixes #13386.
