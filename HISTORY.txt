@@ -1,10 +1,24 @@
 Changes
 =======
 
-16.11.9 (unreleased)
---------------------
+16.11.27.1 (unreleased)
+---------------------
 
-- Nothing changed yet.
+- 16.11.27 was a brown bag release. I merged the PRs online, but didn't
+  pull them. Well. This is what 16.11.27 actually should have been.
+
+
+16.11.27 (2016-11-27)
+---------------------
+
+- Fix encoding issue on Python 3 (which seems to have been limited to
+  some platforms.) Via PR17, fixes #13386.
+  Thanks to @masroore and @hiaselhans.
+
+- Documentation fix: iso639_1_code is not a valid key for languages any
+  more. Fixes #13387, thanks to @jmitzka.
+
+- Update to iso-codes-3.71.
 
 
 16.11.08 (2016-11-08)
