@@ -4,7 +4,14 @@ Changes
 16.11.9 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Fix encoding issue on Python 3 (which seems to have been limited to
+  some platforms.) Via PR17, fixes #13386.
+  Thanks to @masroore and @hiaselhans.
+
+- Documentation fix: iso639_1_code is not a valid key for languages any
+  more. Fixes #13387, thanks to @jmitzka.
+
+- Update to iso-codes-3.71.
 
 
 16.11.08 (2016-11-08)

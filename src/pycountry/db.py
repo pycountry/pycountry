@@ -1,6 +1,5 @@
 # vim:fileencoding=utf-8
 
-from contextlib import closing
 import logging
 import json
 
@@ -63,7 +62,7 @@ class Database(object):
         self.data_class = type(
             self.data_class_name, (self.data_class_base,), {})
 
-        with closing(open(self.filename, 'r')) as f:
+        with open(self.filename, 'r') as f:
             tree = json.load(f)
 
         for entry in tree[self.root_key]:
