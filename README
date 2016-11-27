@@ -203,7 +203,7 @@ The languages database is similar too:
   >>> aragonese.name
   'Aragonese'
 
-  >>> bengali = pycountry.languages.get(iso639_1_code='bn')
+  >>> bengali = pycountry.languages.get(alpha_2='bn')
   >>> bengali.name
   'Bengali'
   >>> bengali.common_name
