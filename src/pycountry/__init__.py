@@ -35,21 +35,21 @@ class HistoricCountries(pycountry.db.Database):
 
 
 class Scripts(pycountry.db.Database):
-    """Providess access to an ISO 15924 database (Scripts)."""
+    """Provides access to an ISO 15924 database (Scripts)."""
 
     data_class_name = 'Script'
     root_key = '15924'
 
 
 class Currencies(pycountry.db.Database):
-    """Providess access to an ISO 4217 database (Currencies)."""
+    """Provides access to an ISO 4217 database (Currencies)."""
 
     data_class_name = 'Currency'
     root_key = '4217'
 
 
 class Languages(pycountry.db.Database):
-    """Providess access to an ISO 639-1/2T/3 database (Languages)."""
+    """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index = ['status', 'scope', 'type', 'inverted_name', 'common_name']
     data_class_name = 'Language'
