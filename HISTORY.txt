@@ -7,6 +7,8 @@ Changes
 - Return empty lists from the subdivision database if the country exists
   but does not have any subdivisions. Fixes #13374.
 
+- Some typo fixes. Thanks to @VictorMireyev.
+
 - Update to iso-codes-3.72.
 
 
