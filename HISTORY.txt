@@ -4,7 +4,10 @@ Changes
 16.11.28 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Return empty lists from the subdivision database if the country exists
+  but does not have any subdivisions. Fixes #13374.
+
+- Update to iso-codes-3.72.
 
 
 16.11.27.1 (2016-11-27)

@@ -26,7 +26,7 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4854
+    assert len(pycountry.subdivisions) == 4841
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
@@ -148,3 +148,18 @@ def test_lookup():
         pycountry.countries.lookup('bogus country')
     with pytest.raises(LookupError):
         pycountry.countries.lookup(12345)
+
+
+def test_subdivision_parent():
+    s = pycountry.subdivisions
+    sd = s.get(code='CV-BV')
+    assert sd.parent_code == 'CV-B'
+    assert sd.parent is s.get(code=sd.parent_code)
+
+
+def test_subdivision_empty_list():
+    s = pycountry.subdivisions
+    assert len(s.get(country_code='DE')) == 16
+    assert len(s.get(country_code='JE')) == 0
+    with pytest.raises(KeyError):
+        s.get(country_code='FOOBAR')
