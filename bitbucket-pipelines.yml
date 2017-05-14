@@ -9,6 +9,7 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - pip install zc.buildout==2.9.3
-          - buildout
-          - tox
+          - virtualenv --python=python2.7
+          - bin/pip install zc.buildout==2.9.3
+          - bin/buildout
+          - bin/tox
