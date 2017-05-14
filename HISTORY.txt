@@ -1,11 +1,16 @@
 Changes
 =======
 
-17.1.9 (unreleased)
+17.05.14 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Update to iso-codes 3.75, which fixes #13389 again.
+  (bad parent codes for GB).
 
+- Switch from building on drone.io (discontinued service) to
+  bitbucket's Pipelines.
+
+- Update pytest dependencies to get rid of API warnings.
 
 17.01.08 (2017-01-08)
 ---------------------

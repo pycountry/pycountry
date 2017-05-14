@@ -1,5 +1,6 @@
 # vim:fileencoding=utf-8
 # Copyright (c) 2008 gocept gmbh & co. kg
+# Copyright (c) 2014+ Christian Theune, christian@theune.cc
 # See also LICENSE.txt
 # $Id$
 """Generate the necessary data files and directory structures from the Debian
@@ -10,9 +11,21 @@ import os.path
 import shutil
 import subprocess
 
+REVISION = 'iso-codes-3.75'
 
 data_dir = 'parts/data'
 base_dir = os.path.join('src', 'pycountry')
+
+if not os.path.exists(data_dir):
+    subprocess.check_call(
+        ['git', 'clone', 'git://git.debian.org/git/iso-codes/iso-codes.git',
+         data_dir])
+
+subprocess.check_call(
+    ['git', '-C', data_dir, 'fetch'])
+subprocess.check_call(
+    ['git', '-C', data_dir, 'checkout', REVISION])
+
 
 assert os.path.exists(base_dir), 'pycountry src directory not found'
 assert os.path.exists(data_dir), 'pkg-isocodes data directory not found'
