@@ -12,5 +12,6 @@ pipelines:
           - virtualenv --python=python2.7 .
           - bin/pip install zc.buildout==2.9.3
           - bin/pip install pyparsing==2.1.10
+          - bin/pip install virtualenv
           - bin/buildout
           - bin/tox
