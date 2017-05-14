@@ -3,12 +3,12 @@
 # Only use spaces to indent your .yml configuration.
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
-image: python:3.5.1
+image: themattrix/tox
 
 pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - pip install zc.buildout
-          - bin/buildout
-          - bin/tox
+          - pip install zc.buildout==2.9.3
+          - buildout
+          - tox
