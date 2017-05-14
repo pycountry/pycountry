@@ -9,7 +9,7 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - virtualenv --python=python2.7 .
+          - virtualenv --no-site-packages --python=python2.7 .
           - bin/pip install zc.buildout==2.9.3
           - bin/buildout
           - bin/tox
