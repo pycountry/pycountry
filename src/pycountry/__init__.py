@@ -27,9 +27,6 @@ class HistoricCountries(pycountry.db.Database):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    # These fields are computed in a case-by-base basis
-    # `alpha_2` is not set in ISO-3166-3, so, we extract it from `alpha4`
-
     data_class_name = 'Country'
     root_key = '3166-3'
 
