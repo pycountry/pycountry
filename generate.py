@@ -11,14 +11,14 @@ import os.path
 import shutil
 import subprocess
 
-REVISION = 'iso-codes-3.76'
+REVISION = 'iso-codes-3.78'
 
 data_dir = 'parts/data'
 base_dir = os.path.join('src', 'pycountry')
 
 if not os.path.exists(data_dir):
     subprocess.check_call(
-        ['git', 'clone', 'git://git.debian.org/git/iso-codes/iso-codes.git',
+        ['git', 'clone', 'https://salsa.debian.org/iso-codes-team/iso-codes.git',
          data_dir])
 
 subprocess.check_call(
