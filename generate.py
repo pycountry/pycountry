@@ -11,7 +11,7 @@ import os.path
 import shutil
 import subprocess
 
-REVISION = 'iso-codes-3.78'
+REVISION = 'iso-codes-3.79'
 
 data_dir = 'parts/data'
 base_dir = os.path.join('src', 'pycountry')
