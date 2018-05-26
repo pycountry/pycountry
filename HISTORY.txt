@@ -5,7 +5,7 @@ Changes
 --------------------
 
 - Fix #13394: incorrect KeyError shadowing in Subdivisions.get()
-
+- Fix #13398: make lazy loading thread-safe.
 
 18.5.20 (2018-05-20)
 --------------------
