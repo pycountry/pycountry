@@ -1,7 +1,7 @@
 Changes
 =======
 
-18.5.21 (unreleased)
+18.5.26 (2018-05-26)
 --------------------
 
 - Fix #13394: incorrect KeyError shadowing in Subdivisions.get()
