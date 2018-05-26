@@ -123,6 +123,8 @@ def test_get():
     with pytest.raises(TypeError):
         c.get(alpha_2='DE', alpha_3='DEU')
     assert c.get(alpha_2='DE') == c.get(alpha_3='DEU')
+    with pytest.raises(KeyError):
+        c.get(alpha_2='Foo')
 
 
 def test_lookup():
@@ -155,6 +157,12 @@ def test_subdivision_parent():
     sd = s.get(code='CV-BV')
     assert sd.parent_code == 'CV-B'
     assert sd.parent is s.get(code=sd.parent_code)
+
+
+def test_subdivision_missing_code_raises_keyerror():
+    s = pycountry.subdivisions
+    with pytest.raises(KeyError):
+        s.get(code='US-ZZ')
 
 
 def test_subdivision_empty_list():
