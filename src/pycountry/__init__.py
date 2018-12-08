@@ -98,16 +98,15 @@ class Subdivisions(pycountry.db.Database):
             divs.add(subdivision)
 
     def get(self, **kw):
-        try:
-            return super(Subdivisions, self).get(**kw)
-        except KeyError:
-            # This propagates a KeyError if the country does not exist and
-            # returns an empty list if it exists but it does not have (or we do
-            # not know about)  any sub-divisions.
-            if 'country_code' in kw:
-                countries.get(alpha_2=kw['country_code'])
+        default = kw.setdefault('default', None)
+        subdivisions = super(Subdivisions, self).get(**kw)
+        if subdivisions is default and 'country_code' in kw:
+            # This handles the case where we know about a country but there
+            # are no subdivisions: we return an empty list in this case
+            # (sticking to the expected type here) instead of None.
+            if countries.get(alpha_2=kw['country_code']) is not None:
                 return []
-            raise
+        return subdivisions
 
 
 countries = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166-1.json'))
