@@ -102,10 +102,19 @@ class Database(object):
 
     @lazy_load
     def get(self, **kw):
+        kw.setdefault('default', None)
+        default = kw.pop('default')
         if len(kw) != 1:
             raise TypeError('Only one criteria may be given')
         field, value = kw.popitem()
-        return self.indices[field][value]
+        index = self.indices[field]
+        try:
+            return index[value]
+        except KeyError:
+            # Pythonic APIs implementing get() shouldn't raise KeyErrors.
+            # Those are a bit unexpected and they should rather support
+            # returning `None` by default and allow customization.
+            return default
 
     @lazy_load
     def lookup(self, value):

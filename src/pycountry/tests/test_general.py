@@ -26,7 +26,7 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4835
+    assert len(pycountry.subdivisions) == 4836
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
@@ -123,8 +123,9 @@ def test_get():
     with pytest.raises(TypeError):
         c.get(alpha_2='DE', alpha_3='DEU')
     assert c.get(alpha_2='DE') == c.get(alpha_3='DEU')
-    with pytest.raises(KeyError):
-        c.get(alpha_2='Foo')
+    assert c.get(alpha_2='Foo') is None
+    tracer = object()
+    assert c.get(alpha_2='Foo', default=tracer) is tracer
 
 
 def test_lookup():
@@ -161,13 +162,11 @@ def test_subdivision_parent():
 
 def test_subdivision_missing_code_raises_keyerror():
     s = pycountry.subdivisions
-    with pytest.raises(KeyError):
-        s.get(code='US-ZZ')
+    assert s.get(code='US-ZZ') is None
 
 
 def test_subdivision_empty_list():
     s = pycountry.subdivisions
     assert len(s.get(country_code='DE')) == 16
     assert len(s.get(country_code='JE')) == 0
-    with pytest.raises(KeyError):
-        s.get(country_code='FOOBAR')
+    assert s.get(country_code='FOOBAR') is None

@@ -4,7 +4,31 @@ Changes
 18.5.27 (unreleased)
 --------------------
 
-- update to iso-codes 4.1.
+WARNING: This release contains a subtle but important API change that may break
+integrations!
+
+Looking at #13416 I realized that I made a terrible API design choice with
+respect to how the `get` function should behave in Python. Probably under the
+influence of either too little or too much whiskey I went and implemented `get`
+so that it raises a KeyError instead of doing the Pythonic thing and returning
+None and allowing to customize the `default`. There was a bit of back-and-forth
+around this code in previous releases (specifically touching edge cases to
+have the Subdivision API behave "reasonably", although there doesn't seem
+to be *one* right way there.)
+
+Anyway, when preparing this release and reviewing #13416 and the other related
+issues and changes from the past I noticed my mistake an decide to fix it
+going forward.
+
+So, from now on `get` will behave as expected in Python and yes, this means
+you will have to update your integration code carefully now checking for
+`None` returns instead of expecting KeyErrors. This is work, but I think it's
+worthwhile to uphold this convention within the Python community.
+
+- Switch API from "get + KeyError" to " get + default=None". This is
+  a subtle API-breaking change. Please update carefully. (#13416)
+
+- Update to iso-codes 4.1.
 
 
 18.5.26 (2018-05-26)
