@@ -89,6 +89,8 @@ The `historic_countries` database contains former countries that have been
 removed from the standard and are now included in ISO 3166-3, excluding
 existing ones:
 
+.. code:: pycon
+
  >>> ussr = pycountry.historic_countries.get(alpha_3='SUN')
  >>> ussr
  Country(alpha_3='SUN', alpha_4='SUHH', withdrawal_date='1992-08-30', name='USSR, Union of Soviet Socialist Republics', numeric='810')
@@ -110,6 +112,8 @@ because they provide a nested and typed structure.
 
 All subdivisons can be accessed directly:
 
+.. code:: pycon
+
   >>> len(pycountry.subdivisions)
   4847
   >>> list(pycountry.subdivisions)[0]
@@ -117,6 +121,8 @@ All subdivisons can be accessed directly:
 
 Subdivisions can be accessed using their unique code and provide at least
 their code, name and type:
+
+.. code:: pycon
 
   >>> de_st = pycountry.subdivisions.get(code='DE-ST')
   >>> de_st.code
@@ -129,6 +135,8 @@ their code, name and type:
   Country(alpha_2='DE', alpha_3='DEU', name='Germany', numeric='276', official_name='Federal Republic of Germany')
 
 Some subdivisions specify another subdivision as a parent:
+
+.. code:: pycon
 
   >>> al_br = pycountry.subdivisions.get(code='AL-BU')
   >>> al_br.code
@@ -146,6 +154,8 @@ Some subdivisions specify another subdivision as a parent:
 
 The divisions of a single country can be queried using the country_code index:
 
+.. code:: pycon
+
   >>> len(pycountry.subdivisions.get(country_code='DE'))
   16
 
@@ -157,6 +167,8 @@ Scripts (ISO 15924)
 -------------------
 
 Scripts are available from a database similar to the countries:
+
+.. code:: pycon
 
   >>> len(pycountry.scripts)
   169
@@ -179,6 +191,8 @@ Currencies (ISO 4217)
 
 The currencies database is, again, similar to the ones before:
 
+.. code:: pycon
+
   >>> len(pycountry.currencies)
   182
   >>> list(pycountry.currencies)[0]
@@ -198,6 +212,8 @@ Languages (ISO 639-3)
 ---------------------
 
 The languages database is similar too:
+
+.. code:: pycon
 
   >>> len(pycountry.languages)
   7874
@@ -228,6 +244,8 @@ to Python's gettext module.
 
 Here is an example translating language names:
 
+.. code:: pycon
+
   >>> import gettext
   >>> german = gettext.translation('iso3166', pycountry.LOCALES_DIR,
   ...                              languages=['de'])
@@ -241,6 +259,8 @@ Lookups
 For each database (countries, languages, scripts, etc.), you can also look up
 entities case insensitively without knowing which key the value may match.  For
 example:
+
+.. code:: pycon
 
   >>> pycountry.countries.lookup('de')
   <pycountry.db.Country object at 0x...>
