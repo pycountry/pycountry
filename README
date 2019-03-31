@@ -1,4 +1,3 @@
-=========
 pycountry
 =========
 
@@ -22,13 +21,14 @@ pycountry provides the ISO databases for the standards:
 15924
   Scripts
 
-The package includes a copy from Debian's `pkg-isocodes` and makes the data
+The package includes a copy from Debian's `pkg-isocodes
+<https://salsa.debian.org/iso-codes-team/iso-codes>`_ and makes the data
 accessible through a Python API.
 
 Translation files for the various strings are included as well.
 
 Data update policy
-==================
+------------------
 
 No changes to the data will be accepted into pycountry. This is a pure wrapper
 around the ISO standard using the `pkg-isocodes` database from Debian *as is*.
@@ -36,7 +36,7 @@ If you need changes to the politicial situation in the world, please talk to
 the ISO or Debian people, not me.
 
 Donations / Monetary Support
-============================
+----------------------------
 
 This is a small project that I maintain in my personal time. I am not
 interested in personal financial gain. However, if you would like to support
@@ -45,7 +45,7 @@ the project then I would love if you would donate to `Feminist Frequency
 did so, so that others can follow your path.
 
 Contributions
-=============
+-------------
 
 The code lives in a `bitbucket Mercurial repository
 <https://bitbucket.org/flyingcircus/pycountry>`_, and issues must be reported in
@@ -53,10 +53,12 @@ The code lives in a `bitbucket Mercurial repository
 <https://bitbucket.org/flyingcircus/pycountry/issues?status=new&status=open>`_.
 
 Countries (ISO 3166)
-====================
+--------------------
 
 Countries are accessible through a database object that is already configured
 upon import of pycountry and works as an iterable:
+
+.. code:: pycon
 
   >>> import pycountry
   >>> len(pycountry.countries)
@@ -66,6 +68,8 @@ upon import of pycountry and works as an iterable:
 
 Specific countries can be looked up by their various codes and provide the
 information included in the standard as attributes:
+
+.. code:: pycon
 
   >>> germany = pycountry.countries.get(alpha_2='DE')
   >>> germany
@@ -99,7 +103,7 @@ existing ones:
 
 
 Country subdivisions (ISO 3166-2)
-=================================
+---------------------------------
 
 The country subdivisions are a little more complex than the countries itself
 because they provide a nested and typed structure.
@@ -150,7 +154,7 @@ The divisions of a single country can be queried using the country_code index:
 
 
 Scripts (ISO 15924)
-===================
+-------------------
 
 Scripts are available from a database similar to the countries:
 
@@ -171,7 +175,7 @@ Scripts are available from a database similar to the countries:
 
 
 Currencies (ISO 4217)
-=====================
+---------------------
 
 The currencies database is, again, similar to the ones before:
 
@@ -191,7 +195,7 @@ The currencies database is, again, similar to the ones before:
 
 
 Languages (ISO 639-3)
-=====================
+---------------------
 
 The languages database is similar too:
 
@@ -215,7 +219,7 @@ The languages database is similar too:
   'Bangla'
 
 Locales
-=======
+-------
 
 Locales are available in the `pycountry.LOCALES_DIR` subdirectory of this
 package. The translation domains are called `isoXXX` according to the standard
@@ -232,7 +236,7 @@ Here is an example translating language names:
   'Deutschland'
 
 Lookups
-=======
+-------
 
 For each database (countries, languages, scripts, etc.), you can also look up
 entities case insensitively without knowing which key the value may match.  For
