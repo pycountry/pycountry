@@ -20,3 +20,5 @@ pycountry.xcodeproj
 pip-selfcheck.json
 index.html
 .cache
+.pytest_cache
+pyvenv.cfg
