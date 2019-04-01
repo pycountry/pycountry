@@ -2,7 +2,7 @@
 """pycountry"""
 
 import os.path
-
+import unicodedata
 import pycountry.db
 
 try:
@@ -16,11 +16,85 @@ LOCALES_DIR = resource_filename('pycountry', 'locales')
 DATABASE_DIR = resource_filename('pycountry', 'databases')
 
 
+def remove_accents(input_str):
+    # Borrowed from https://stackoverflow.com/a/517974/1509718
+    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
+
+
 class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
     data_class_name = 'Country'
     root_key = '3166-1'
+
+    def search_fuzzy(self, query):
+        query = remove_accents(query.strip().lower())
+
+        # A country-code to points mapping for later sorting countries
+        # based on the query's matching incidence.
+        results = {}
+
+        def add_result(country, points):
+            results.setdefault(country.alpha_2, 0)
+            results[country.alpha_2] += points
+
+        # Prio 1: exact matches on country names
+        try:
+            add_result(countries.lookup(query), 50)
+        except LookupError:
+            pass
+
+        # Prio 2: exact matches on subdivision names
+        for candidate in subdivisions:
+            for v in candidate._fields.values():
+                if v is None:
+                    continue
+                v = remove_accents(v.lower())
+                # Some names include alternative versions which we want to
+                # match exactly.
+                for v in v.split(';'):
+                    if v == query:
+                        add_result(candidate.country, 49)
+                        break
+
+        # Prio 3: partial matches on country names
+        for candidate in countries:
+            # Higher priority for a match on the common name
+            for v in [candidate._fields.get('name'),
+                      candidate._fields.get('official_name')]:
+                if v is None:
+                    continue
+                v = remove_accents(v.lower())
+                if query in v:
+                    # This prefers countries with a match early in their name
+                    # and also balances against countries with a number of
+                    # partial matches and their name containing 'new' in the
+                    # middle
+                    add_result(candidate, max([5, 30-(2*v.find(query))]))
+                    break
+
+        # Prio 4: partial matches on subdivision names
+        for candidate in subdivisions:
+            v = candidate._fields.get('name')
+            if v is None:
+                continue
+            v = remove_accents(v.lower())
+            if query in v:
+                add_result(candidate.country, max([1, 5-v.find(query)]))
+
+        if not results:
+            raise LookupError(query)
+        import pprint
+        pprint.pprint(results)
+        results = [
+            countries.get(alpha_2=x[0])
+            # sort by points first by alpha2 code second, ensure stable results
+            # the min allows us to sort reversely on the points but ascending
+            # on the country code.
+            for x in sorted(results.items(),
+                            key=lambda x: (-x[1], x[0]))]
+        return results
 
 
 class HistoricCountries(pycountry.db.Database):

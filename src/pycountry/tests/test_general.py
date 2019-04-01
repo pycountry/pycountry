@@ -16,6 +16,40 @@ def test_country_list():
     assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
 
 
+def test_country_fuzzy_search():
+    results = pycountry.countries.search_fuzzy(u'England')
+    assert len(results) == 1
+    assert results[0] == pycountry.countries.get(alpha_2='GB')
+
+    # Match alternative names exactly and thus GB ends up with Wales
+    # before Australia.
+    results = pycountry.countries.search_fuzzy(u'Wales')
+    assert len(results) == 2
+    assert results[0] == pycountry.countries.get(alpha_2='GB')
+    assert results[1] == pycountry.countries.get(alpha_2='AU')
+
+    # Match with accents removed, first a country with a partial match in the
+    # country name, then a country with multiple subdivision partial matches,
+    # and then a country with a single subdivision match.
+    results = pycountry.countries.search_fuzzy(u'Cote')
+    assert len(results) == 3
+    assert results[0] == pycountry.countries.get(alpha_2='CI')
+    assert results[1] == pycountry.countries.get(alpha_2='FR')
+    assert results[2] == pycountry.countries.get(alpha_2='HN')
+
+    # A somewhat carefully balanced point system allows for a (bias-based)
+    # graceful sorting of common substrings being used in multiple matches:
+    results = pycountry.countries.search_fuzzy(u'New')
+    assert results[0] == pycountry.countries.get(alpha_2='NC')
+    assert results[1] == pycountry.countries.get(alpha_2='NZ')
+    assert results[2] == pycountry.countries.get(alpha_2='PG')
+    assert results[3] == pycountry.countries.get(alpha_2='GB')
+    assert results[4] == pycountry.countries.get(alpha_2='US')
+    assert results[5] == pycountry.countries.get(alpha_2='CA')
+    assert results[6] == pycountry.countries.get(alpha_2='AU')
+    assert results[7] == pycountry.countries.get(alpha_2='MH')
+
+
 def test_germany_has_all_attributes():
     germany = pycountry.countries.get(alpha_2='DE')
     assert germany.alpha_2 == u'DE'
