@@ -1,3 +1,4 @@
 include *.txt
-recursive-include src/pycountry *
-global-exclude src/pycountry *.pyc
+include *.rst
+graft src/pycountry
+global-exclude *.py[co]
