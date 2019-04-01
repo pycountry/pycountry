@@ -104,6 +104,23 @@ existing ones:
  '1992-08-30'
 
 
+There's also a "fuzzy" search to help people discover "proper" countries for
+names that might only actually be subdivisions. The fuzziness also includes
+normalizing unicode accents. There's also a bit of prioritization included
+to prefer matches on country names before subdivision names and have countries
+with more matches be listed before ones with fewer matches:
+
+.. code:: pycon
+
+  >>> pycountry.countries.search_fuzzy('England')
+  [Country(alpha_2='GB', alpha_3='GBR', name='United Kingdom', numeric='826', official_name='United Kingdom of Great Britain and Northern Ireland')]
+
+  >>> pycountry.countries.search_fuzzy('Cote')
+  [Country(alpha_2='CI', alpha_3='CIV', name="Côte d'Ivoire", numeric='384', official_name="Republic of Côte d'Ivoire"),
+   Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
+   Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
+
+
 Country subdivisions (ISO 3166-2)
 ---------------------------------
 

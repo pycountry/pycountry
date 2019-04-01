@@ -4,7 +4,13 @@ Changes
 18.12.9 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Add `search_fuzzy()` function to the countries database. This allows
+  for dealing with user searches that aren't really aware of ISO 3166 (so,
+  like, actual human beings). A bit of character normalization and prioritizing
+  matches between multiple criteria allows building somewhat reasonable
+  suggestion/autocompletion lists. (#13418)
+
+  Caveat emptor: no attention has been paid to performance in this feature.
 
 
 18.12.8 (2018-12-08)
