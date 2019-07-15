@@ -5,6 +5,7 @@ import os.path
 import unicodedata
 import pycountry.db
 
+
 try:
     from pkg_resources import resource_filename
 except ImportError:
@@ -127,6 +128,14 @@ class Languages(pycountry.db.Database):
     root_key = '639-3'
 
 
+class LanguageFamilies(pycountry.db.Database):
+    """Provides access to an ISO 639-5 database
+       (Language Families and Groups)."""
+
+    data_class_name = 'LanguageFamily'
+    root_key = '639-5'
+
+
 class Subdivision(pycountry.db.Data):
 
     def __init__(self, **kw):
@@ -184,9 +193,14 @@ class Subdivisions(pycountry.db.Database):
 
 
 countries = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166-1.json'))
+subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166-2.json'))
 historic_countries = HistoricCountries(
     os.path.join(DATABASE_DIR, 'iso3166-3.json'))
-scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.json'))
+
 currencies = Currencies(os.path.join(DATABASE_DIR, 'iso4217.json'))
+
 languages = Languages(os.path.join(DATABASE_DIR, 'iso639-3.json'))
-subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166-2.json'))
+language_families = LanguageFamilies(
+    os.path.join(DATABASE_DIR, 'iso639-5.json'))
+
+scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.json'))
