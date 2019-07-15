@@ -3,6 +3,8 @@
 # Copyright 2015- (c) Flying Circus Internet Operations GmbH
 # See also LICENSE.txt
 
+from io import open
+
 from setuptools import setup, find_packages
 
 
