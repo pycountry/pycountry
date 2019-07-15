@@ -1,8 +1,14 @@
 Changes
 =======
 
-18.12.9 (unreleased)
+19.4.28 (unreleased)
 --------------------
+
+- Update to iso-codes 4.3.
+
+- Add support for ISO 639-5 (Language Families and Groups).
+
+- Drop support for Python 2.
 
 - Add `search_fuzzy()` function to the countries database. This allows
   for dealing with user searches that aren't really aware of ISO 3166 (so,

@@ -11,7 +11,7 @@ import os.path
 import shutil
 import subprocess
 
-REVISION = 'iso-codes-4.1'
+REVISION = 'iso-codes-4.3'
 
 data_dir = 'parts/data'
 base_dir = os.path.join('src', 'pycountry')
@@ -34,7 +34,7 @@ database_dir = os.path.join(base_dir, 'databases')
 locales_dir = os.path.join(base_dir, 'locales')
 
 
-STANDARDS = ['639-3', '3166-1', '3166-2', '3166-3', '4217', '15924']
+STANDARDS = ['639-3', '639-5', '3166-1', '3166-2', '3166-3', '4217', '15924']
 
 # Put the database files in place
 if not os.path.exists(database_dir):

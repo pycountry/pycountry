@@ -60,7 +60,7 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4836
+    assert len(pycountry.subdivisions) == 4844
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
@@ -119,6 +119,15 @@ def test_languages():
     bengali = pycountry.languages.get(alpha_2='bn')
     assert bengali.name == u'Bengali'
     assert bengali.common_name == u'Bangla'
+
+
+def test_language_families():
+    assert len(pycountry.language_families) == 115
+    assert isinstance(list(pycountry.language_families)[0], pycountry.db.Data)
+
+    aragonese = pycountry.languages.get(alpha_3='arg')
+    assert aragonese.alpha_3 == u'arg'
+    assert aragonese.name == u'Aragonese'
 
 
 def test_locales():
