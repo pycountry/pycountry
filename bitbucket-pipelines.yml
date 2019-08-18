@@ -9,8 +9,8 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - virtualenv --python=python3 .
+          - python3 -m venv .
           - bin/pip install zc.buildout==2.13.1
           - bin/pip install virtualenv
           - bin/buildout
-          - bin/tox
+          - bin/py.test
