@@ -86,8 +86,7 @@ class ExistingCountries(pycountry.db.Database):
 
         if not results:
             raise LookupError(query)
-        import pprint
-        pprint.pprint(results)
+
         results = [
             countries.get(alpha_2=x[0])
             # sort by points first by alpha2 code second, ensure stable results
