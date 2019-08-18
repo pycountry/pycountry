@@ -4,7 +4,10 @@ Changes
 19.7.16 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Fix installation on systems that don't have UTF-8
+  as default encoding. (#13422)
+
+- Remove superfluous print debugging output. (#13424)
 
 
 19.7.15 (2019-07-15)
