@@ -1,7 +1,7 @@
 pycountry
 =========
 
-.. image: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
+.. image:: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
 
 pycountry provides the ISO databases for the standards:
 
