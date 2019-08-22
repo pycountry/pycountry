@@ -1,7 +1,7 @@
 pycountry
 =========
 
-.. image:: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
+.. image:g: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
 
 pycountry provides the ISO databases for the standards:
 
@@ -49,10 +49,12 @@ did so, so that others can follow your path.
 Contributions
 -------------
 
-The code lives in a `bitbucket Mercurial repository
-<https://bitbucket.org/flyingcircus/pycountry>`_, and issues must be reported in
-`project bugtracker
-<https://bitbucket.org/flyingcircus/pycountry/issues?status=new&status=open>`_.
+The code lives in a `git repository on GitHub
+<https://github.com/flyingcircusio/pycountry>`_, and issues must be reported in there as well.
+
+Some old issues still live in the
+`Bitbucket project bugtracker
+<https://bitbucket.org/flyingcircus/pycountry/issues?status=new&status=open>`_ but please do not report new issues there.
 
 Countries (ISO 3166)
 --------------------
