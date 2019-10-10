@@ -119,15 +119,15 @@ class Database(object):
     @lazy_load
     def lookup(self, value):
         # try relatively quick exact matches first
-        if isinstance(value, (str, unicode)):
-            value = value.lower()
-
         for key in self.indices:
             try:
                 return self.indices[key][value]
             except LookupError:
                 pass
         # then try slower case-insensitive lookups
+        if isinstance(value, (str, unicode)):
+            value = value.lower()
+
         for candidate in self:
             for v in candidate._fields.values():
                 if v is None:
