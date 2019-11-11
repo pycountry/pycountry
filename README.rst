@@ -270,8 +270,7 @@ Here is an example translating language names:
   >>> import gettext
   >>> german = gettext.translation('iso3166', pycountry.LOCALES_DIR,
   ...                              languages=['de'])
-  >>> german.install()
-  >>> _('Germany')
+  >>> german.gettext('Germany')
   'Deutschland'
 
 Lookups
