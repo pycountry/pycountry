@@ -5220,7 +5220,7 @@
     },
     {
       "code": "DO-01",
-      "name": "Distrito Nacional (Santo Domingo)",
+      "name": "Distrito Nacional",
       "type": "District"
     },
     {
@@ -5230,7 +5230,7 @@
     },
     {
       "code": "DO-03",
-      "name": "Bahoruco",
+      "name": "Baoruco",
       "type": "Province"
     },
     {
@@ -5250,12 +5250,12 @@
     },
     {
       "code": "DO-07",
-      "name": "La Estrelleta [Elías Piña]",
+      "name": "Elías Piña",
       "type": "Province"
     },
     {
       "code": "DO-08",
-      "name": "El Seybo [El Seibo]",
+      "name": "El Seibo",
       "type": "Province"
     },
     {
@@ -5310,7 +5310,7 @@
     },
     {
       "code": "DO-19",
-      "name": "Salcedo",
+      "name": "Hermanas Mirabal",
       "type": "Province"
     },
     {
@@ -5366,6 +5366,16 @@
     {
       "code": "DO-30",
       "name": "Hato Mayor",
+      "type": "Province"
+    },
+    {
+      "code": "DO-31",
+      "name": "San José de Ocoa",
+      "type": "Province"
+    },
+    {
+      "code": "DO-32",
+      "name": "Santo Domingo",
       "type": "Province"
     },
     {
@@ -5865,7 +5875,7 @@
     },
     {
       "code": "EG-HU",
-      "name": "Ḩulwān",
+      "name": "Ḩulwān",
       "type": "Governorate"
     },
     {
@@ -14058,7 +14068,7 @@
     },
     {
       "code": "LY-WA",
-      "name": "Al Wāḩāt",
+      "name": "Al Wāḩāt",
       "type": "Popularates"
     },
     {
@@ -22062,12 +22072,12 @@
     },
     {
       "code": "TD-BA",
-      "name": "Al Baṭḩah",
+      "name": "Al Baṭḩah",
       "type": "Region"
     },
     {
       "code": "TD-BG",
-      "name": "Baḩr al Ghazāl",
+      "name": "Baḩr al Ghazāl",
       "type": "Region"
     },
     {
@@ -22102,7 +22112,7 @@
     },
     {
       "code": "TD-LC",
-      "name": "Al Buḩayrah",
+      "name": "Al Buḩayrah",
       "type": "Region"
     },
     {
@@ -25317,7 +25327,7 @@
     },
     {
       "code": "YE-DA",
-      "name": "Aḑ Ḑāli‘",
+      "name": "Aḑ Ḑāli‘",
       "type": "Governorate"
     },
     {
