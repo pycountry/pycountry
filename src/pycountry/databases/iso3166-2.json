@@ -5219,14 +5219,14 @@
       "type": "Parish"
     },
     {
-      "code": "DO-01",
+      "code": "DO-DN",
       "name": "Distrito Nacional",
       "type": "District"
     },
     {
-      "code": "DO-01-01",
+      "code": "DO-SDG",
       "name": "Santo Domingo de Guzmán",
-      "parent": "01",
+      "parent": "DN",
       "type": "Municipality"
     },
     {
