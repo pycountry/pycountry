@@ -5227,7 +5227,427 @@
       "code": "DO-01-01",
       "name": "Santo Domingo de Guzmán",
       "parent": "01",
-      "type": "Municipality"
+      "type": "Borough"
+    },
+    {
+      "code": "DO-01-01-01",
+      "name": "Los Peralejos",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-02",
+      "name": "Palma Real",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-03",
+      "name": "Arroyo Manzano",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-04",
+      "name": "Altos de Arroyo Hondo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-05",
+      "name": "Los Ríos",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-06",
+      "name": "Puerto Isabela",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-07",
+      "name": "Honduras del Oeste",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-08",
+      "name": "Honduras del Norte",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-09",
+      "name": "Parque Mirador Sur",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-10",
+      "name": "Los Cacicazgos",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-11",
+      "name": "Renacimiento",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-12",
+      "name": "Los Restauradores",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-13",
+      "name": "San Jerónimo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-14",
+      "name": "Los Jardines",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-15",
+      "name": "Jardín Botánico",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-16",
+      "name": "Nuevo Arroyo Hondo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-17",
+      "name": "Cerros de Arroyo Hondo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-18",
+      "name": "Viejo Arroyo Hondo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-19",
+      "name": "Paraíso",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-20",
+      "name": "Julieta Morales",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-21",
+      "name": "Los Prados",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-22",
+      "name": "El Millón",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-23",
+      "name": "Mirador Norte",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-24",
+      "name": "Mirador Sur",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-25",
+      "name": "Buenos Aires Mirador",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-26",
+      "name": "Miramar",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-27",
+      "name": "Tropical Metaldom",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-28",
+      "name": "Jardines del Sur",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-29",
+      "name": "Atala",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-30",
+      "name": "Bella Vista",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-31",
+      "name": "Quisqueya",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-32",
+      "name": "Piantini",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-33",
+      "name": "La Julia",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-34",
+      "name": "Nuestra Señora de La Paz",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-35",
+      "name": "General Antonio Duvergé",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-36",
+      "name": "30 de Mayo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-37",
+      "name": "Cacique",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-38",
+      "name": "Centro de Los Héroes",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-39",
+      "name": "Mata Hambre",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-40",
+      "name": "Ciudad Universitaria",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-41",
+      "name": "La Esperilla",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-42",
+      "name": "Ensanche Naco",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-43",
+      "name": "Centro Olímpico Juan Pablo Duarte",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-44",
+      "name": "La Fe",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-45",
+      "name": "La Agustina",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-46",
+      "name": "Cristo Rey",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-47",
+      "name": "Jardín Zoológico",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-48",
+      "name": "La Zurza",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-49",
+      "name": "Villas Agrícolas",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-50",
+      "name": "Villa Juana",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-51",
+      "name": "Miraflores",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-52",
+      "name": "San Juan Bosco",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-53",
+      "name": "Gascue",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-54",
+      "name": "Ciudad Nueva",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-55",
+      "name": "San Carlos",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-56",
+      "name": "Villa Consuelo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-57",
+      "name": "Ensanche Luperón",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-58",
+      "name": "Ensanche Capotillo",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-59",
+      "name": "Simón Bolívar",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-60",
+      "name": "24 de Abril",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-61",
+      "name": "Ensanche Espaillat",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-62",
+      "name": "María Auxiliadora",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-63",
+      "name": "Mejoramiento Social",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-64",
+      "name": "Villa Francisca",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-65",
+      "name": "Ciudad Colónial",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-01-01-66",
+      "name": "Domingo Savio",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-67",
+      "name": "Gualey",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-68",
+      "name": "La Isabela",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-69",
+      "name": "La Hondonada",
+      "parent": "01-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-01-01-70",
+      "name": "San Diego",
+      "parent": "01-01",
+      "type": "Autonomous sector"
     },
     {
       "code": "DO-02",
@@ -5383,6 +5803,852 @@
       "code": "DO-32",
       "name": "Santo Domingo",
       "type": "Province"
+    },
+    {
+      "code": "DO-32-01",
+      "name": "Santo Domingo Este",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-01-01",
+      "name": "Villa Duarte",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-02",
+      "name": "Ensanche Ozama",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-03",
+      "name": "Los Mina Norte",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-04",
+      "name": "Los Mina Sur",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-05",
+      "name": "Alma Rosa",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-06",
+      "name": "Las Américas",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-07",
+      "name": "Sans Soucí",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-08",
+      "name": "Los Tres Brazos",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-09",
+      "name": "Faro a Colón",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-10",
+      "name": "Los Mameyes",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-11",
+      "name": "Isabelita",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-12",
+      "name": "Los Tres Ojos",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-13",
+      "name": "Villa Faro",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-14",
+      "name": "Mendoza",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-15",
+      "name": "Cancino",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-16",
+      "name": "Los Trinitarios",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-17",
+      "name": "El Cachón de la Rubia",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-18",
+      "name": "Cancino Afuera",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-19",
+      "name": "Cancino Adentro",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-20",
+      "name": "El Tamarindo",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-21",
+      "name": "San José de Mendoza",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-22",
+      "name": "Prado Oriental",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-23",
+      "name": "Brisa Oriental",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-24",
+      "name": "Juan López",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-25",
+      "name": "Hainamosa",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-26",
+      "name": "El Almirante",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-27",
+      "name": "Los Frailes",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-28",
+      "name": "Las Canas",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-29",
+      "name": "San Luis",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-30",
+      "name": "San Isidro",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-01-31",
+      "name": "El Naranjo",
+      "parent": "32-01",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02",
+      "name": "Santo Domingo Norte",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-02-01",
+      "name": "Villa Mella",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-02",
+      "name": "Santa Cruz",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-03",
+      "name": "Sabana Perdida",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-04",
+      "name": "El Edén",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-05",
+      "name": "Guaricano",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-06",
+      "name": "San Felipe",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-07",
+      "name": "Licey",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-08",
+      "name": "Sierra Prieta",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-09",
+      "name": "Duquesa",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-10",
+      "name": "La Jagua",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-11",
+      "name": "La Victoria",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-12",
+      "name": "Mal Nombre",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-13",
+      "name": "La Virgen",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-14",
+      "name": "Mata Mamón",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-15",
+      "name": "La Bomba",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-16",
+      "name": "Guanuma",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-17",
+      "name": "Hacienda Estrella",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-02-18",
+      "name": "La Ceiba",
+      "parent": "32-02",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03",
+      "name": "Santo Domingo Oeste",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-03-01",
+      "name": "Santo Domingo Country Club",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-02",
+      "name": "La Altagracia",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-03",
+      "name": "Engombe",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-04",
+      "name": "La Rosa",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-05",
+      "name": "Las Caobas",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-06",
+      "name": "Alameda",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-07",
+      "name": "Enriquillo",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-08",
+      "name": "Buenos Aires de Herrera",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-09",
+      "name": "Herrera",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-10",
+      "name": "Zona Industrial Herrera",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-11",
+      "name": "Juan Pablo Duarte",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-12",
+      "name": "Costa Verde",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-13",
+      "name": "San Miguel",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-14",
+      "name": "Bayona",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-15",
+      "name": "Manoguayabo",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-03-16",
+      "name": "Finca de Engombe",
+      "parent": "32-03",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-04",
+      "name": "Boca Chica",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-04-01",
+      "name": "Boca Chica",
+      "parent": "32-04",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-04-02",
+      "name": "Andrés",
+      "parent": "32-04",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-04-03",
+      "name": "Cruce de Boca Chica",
+      "parent": "32-04",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-04-04",
+      "name": "La Malena",
+      "parent": "32-04",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-05",
+      "name": "La Caleta",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-05-01",
+      "name": "La Caleta",
+      "parent": "32-05",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-05-02",
+      "name": "El Valiente",
+      "parent": "32-05",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-05-03",
+      "name": "Campo Lindo",
+      "parent": "32-05",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06",
+      "name": "San Antonio de Guerra",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-06-01",
+      "name": "Guerra Centro",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06-02",
+      "name": "El Toro",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06-03",
+      "name": "La Joya",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06-04",
+      "name": "Enjuagador",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06-05",
+      "name": "Mata de Palma",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-06-06",
+      "name": "Bella Vista",
+      "parent": "32-06",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-07",
+      "name": "Los Alcarrizos",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-07-01",
+      "name": "Savica",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-02",
+      "name": "Barriolandia",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-03",
+      "name": "Pueblo Nuevo",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-04",
+      "name": "Las Mercedes",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-05",
+      "name": "Los Libertadores",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-06",
+      "name": "Altos de Chavón",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-07",
+      "name": "Los Americanos",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-08",
+      "name": "Nuevo Amanecer",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-09",
+      "name": "Nazareno",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-10",
+      "name": "Lebrón",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-11",
+      "name": "La Unión",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-12",
+      "name": "La Fe",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-13",
+      "name": "La Piña",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-14",
+      "name": "Valle Encantado",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-15",
+      "name": "Residencial Los Cerros",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-16",
+      "name": "La Esperanza",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-17",
+      "name": "Residencial Los Hidalgos",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-18",
+      "name": "Paraíso",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-19",
+      "name": "Santa Rosa",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-20",
+      "name": "Palmarejo",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-21",
+      "name": "Palmarejito",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-22",
+      "name": "Santa Bárbara",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-23",
+      "name": "Villa Linda",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-24",
+      "name": "Pantoja",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-25",
+      "name": "Urbanización Don Gregorio",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-26",
+      "name": "Villa El Palmar",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-27",
+      "name": "Urbanización Proyecto INVI-CEA",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-27",
+      "name": "Villa Morada",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-28",
+      "name": "Urbanización Villa Pantoja",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-29",
+      "name": "La Redención",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-30",
+      "name": "Las Colinas",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-31",
+      "name": "Pantoja I",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-32",
+      "name": "Vista Verde",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-33",
+      "name": "Vista Verde",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-34",
+      "name": "José Contreras",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-35",
+      "name": "Reparto Samaria",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-07-36",
+      "name": "Residencial Don Miguel",
+      "parent": "32-07",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08",
+      "name": "Pedro Brand",
+      "parent": "32",
+      "type": "Borough"
+    },
+    {
+      "code": "DO-32-08-01",
+      "name": "Pedro Brand",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-02",
+      "name": "Los Cocos",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-03",
+      "name": "Los Corozos",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-04",
+      "name": "San Miguel",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-05",
+      "name": "Piedra Gorda",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-06",
+      "name": "La Polonia",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-07",
+      "name": "Frasquito Gómez",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-08",
+      "name": "Frasquito Gómez",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-09",
+      "name": "Santa Cruz",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-10",
+      "name": "La Guáyiga",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-11",
+      "name": "Los García",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-12",
+      "name": "El Pedregal",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-08-13",
+      "name": "Yacó",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+   {
+      "code": "DO-32-08-14",
+      "name": "La Cuaba",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-15",
+      "name": "Los Aguacates",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-16",
+      "name": "La Estancia",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-17",
+      "name": "El Limón",
+      "parent": "32-08",
+      "type": "Autonomous sector"
+    },
+    {
+      "code": "DO-32-08-18",
+      "name": "El Limón",
+      "parent": "32-08",
+      "type": "Autonomous sector"
     },
     {
       "code": "DZ-01",
