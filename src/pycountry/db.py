@@ -132,6 +132,9 @@ class Database(object):
             for v in candidate._fields.values():
                 if v is None:
                     continue
-                if v.lower() == value:
+                if isinstance(v, list):
+                    if value in v:
+                        return candidate
+                elif v.lower() == value:
                     return candidate
         raise LookupError('Could not find a record for %r' % value)

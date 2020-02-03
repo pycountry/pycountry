@@ -1,17 +1,16 @@
 # vim:fileencoding=utf-8
 """pycountry"""
 
+import gettext
 import os.path
 import unicodedata
 import pycountry.db
-
 
 try:
     from pkg_resources import resource_filename
 except ImportError:
     def resource_filename(package_or_requirement, resource_name):
         return os.path.join(os.path.dirname(__file__), resource_name)
-
 
 LOCALES_DIR = resource_filename('pycountry', 'locales')
 DATABASE_DIR = resource_filename('pycountry', 'databases')
@@ -63,7 +62,8 @@ class ExistingCountries(pycountry.db.Database):
         for candidate in countries:
             # Higher priority for a match on the common name
             for v in [candidate._fields.get('name'),
-                      candidate._fields.get('official_name')]:
+                      candidate._fields.get('official_name'),
+                      *candidate._fields.get('translations', [])]:
                 if v is None:
                     continue
                 v = remove_accents(v.lower())
@@ -72,7 +72,7 @@ class ExistingCountries(pycountry.db.Database):
                     # and also balances against countries with a number of
                     # partial matches and their name containing 'new' in the
                     # middle
-                    add_result(candidate, max([5, 30-(2*v.find(query))]))
+                    add_result(candidate, max([5, 30 - (2 * v.find(query))]))
                     break
 
         # Prio 4: partial matches on subdivision names
@@ -82,7 +82,7 @@ class ExistingCountries(pycountry.db.Database):
                 continue
             v = remove_accents(v.lower())
             if query in v:
-                add_result(candidate.country, max([1, 5-v.find(query)]))
+                add_result(candidate.country, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
@@ -159,7 +159,6 @@ class Subdivision(pycountry.db.Data):
 
 
 class Subdivisions(pycountry.db.Database):
-
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisons, *not*
     # the country!
@@ -203,3 +202,10 @@ language_families = LanguageFamilies(
     os.path.join(DATABASE_DIR, 'iso639-5.json'))
 
 scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.json'))
+
+
+def install_translations_for_countries(languages):
+    # Add translations to countries
+    langs = [gettext.translation('iso3166', LOCALES_DIR, languages=[lang]) for lang in languages]
+    for country in countries:
+        country.translations = [lang.gettext(country.name).lower() for lang in langs]
