@@ -206,6 +206,8 @@ scripts = Scripts(os.path.join(DATABASE_DIR, 'iso15924.json'))
 
 def install_translations_for_countries(languages):
     # Add translations to countries
-    langs = [gettext.translation('iso3166', LOCALES_DIR, languages=[lang]) for lang in languages]
+    langs = [gettext.translation('iso3166', LOCALES_DIR, languages=[lang])
+             for lang in languages]
     for country in countries:
-        country.translations = [lang.gettext(country.name).lower() for lang in langs]
+        country.translations = [lang.gettext(country.name).lower()
+                                for lang in langs]
