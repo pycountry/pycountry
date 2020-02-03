@@ -220,3 +220,6 @@ def test_translations():
     assert pycountry.countries.lookup('frankreich').alpha_2 == 'FR'
     assert pycountry.countries.lookup('Francia').alpha_2 == 'FR'
     assert pycountry.countries.lookup('فرنسا').alpha_2 == 'FR'
+
+    # test fuzzy
+    assert pycountry.countries.search_fuzzy('frankrei')[0].alpha_2 == 'FR'
