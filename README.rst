@@ -5,23 +5,12 @@ pycountry
 
 pycountry provides the ISO databases for the standards:
 
-639-3
-  Languages
-
-3166
-  Countries
-
-3166-3
-  Deleted countries
-
-3166-2
-  Subdivisions of countries
-
-4217
-  Currencies
-
-15924
-  Scripts
+* `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
+* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Countries
+* `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ Deleted countries
+* `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ Subdivisions of countries
+* `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ Currencies
+* `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ Scripts
 
 The package includes a copy from Debian's `pkg-isocodes
 <https://salsa.debian.org/iso-codes-team/iso-codes>`_ and makes the data
