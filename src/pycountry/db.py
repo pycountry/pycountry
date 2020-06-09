@@ -5,15 +5,11 @@ import json
 import logging
 import threading
 
+
 logger = logging.getLogger('pycountry.db')
 
-try:
-    unicode
-except NameError:
-    unicode = str
 
-
-class Data(object):
+class Data:
 
     def __init__(self, **fields):
         self._fields = fields
@@ -46,7 +42,7 @@ def lazy_load(f):
     return load_if_needed
 
 
-class Database(object):
+class Database:
 
     data_class_base = Data
     data_class_name = None
@@ -119,7 +115,7 @@ class Database(object):
     @lazy_load
     def lookup(self, value):
         # try relatively quick exact matches first
-        if isinstance(value, (str, unicode)):
+        if isinstance(value, str):
             value = value.lower()
 
         for key in self.indices:
