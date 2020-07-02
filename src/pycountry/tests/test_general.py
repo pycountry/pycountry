@@ -120,6 +120,9 @@ def test_languages():
     assert bengali.name == u'Bengali'
     assert bengali.common_name == u'Bangla'
 
+    # this tests the slow search path in lookup()
+    bengali2 = pycountry.languages.lookup('bAngLa')
+    assert bengali2 == bengali
 
 def test_language_families():
     assert len(pycountry.language_families) == 115

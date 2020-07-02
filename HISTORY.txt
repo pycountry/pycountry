@@ -8,7 +8,7 @@ Changes
 
 - PR 9: Clean up the normalization (lower casing) of values in indexes and searches.
   See PR https://github.com/flyingcircusio/pycountry/pull/9 for detailed
-  discussion.
+  discussion. This also fixed issue #8.
 
 - Smaller cleanups and build environment version bumps.
 
