@@ -85,13 +85,13 @@ def test_subdivisions_directly_accessible():
 
 
 def test_subdivisions_have_subdivision_as_parent():
-    al_br = pycountry.subdivisions.get(code='AL-BU')
-    assert al_br.code == u'AL-BU'
-    assert al_br.name == u'Bulqiz\xeb'
-    assert al_br.type == u'District'
-    assert al_br.parent_code == u'AL-09'
-    assert al_br.parent is pycountry.subdivisions.get(code='AL-09')
-    assert al_br.parent.name == u'Dib\xebr'
+    al_bu = pycountry.subdivisions.get(code='AL-BU')
+    assert al_bu.code == u'AL-BU'
+    assert al_bu.name == u'Bulqiz\xeb'
+    assert al_bu.type == u'District'
+    assert al_bu.parent_code == u'AL-09'
+    assert al_bu.parent is pycountry.subdivisions.get(code='AL-09')
+    assert al_bu.parent.name == u'Dib\xebr'
 
 
 def test_query_subdivisions_of_country():
