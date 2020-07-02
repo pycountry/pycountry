@@ -4,6 +4,8 @@ Changes
 19.8.19 (unreleased)
 --------------------
 
+- Add fuzzy search to historic countries. (Fixe issue #26)
+
 - Update to iso-codes 4.5.0.
 
 - PR 9: Clean up the normalization (lower casing) of values in indexes and searches.

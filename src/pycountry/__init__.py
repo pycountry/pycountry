@@ -42,7 +42,7 @@ class ExistingCountries(pycountry.db.Database):
 
         # Prio 1: exact matches on country names
         try:
-            add_result(countries.lookup(query), 50)
+            add_result(self.lookup(query), 50)
         except LookupError:
             pass
 
@@ -60,10 +60,11 @@ class ExistingCountries(pycountry.db.Database):
                         break
 
         # Prio 3: partial matches on country names
-        for candidate in countries:
+        for candidate in self:
             # Higher priority for a match on the common name
             for v in [candidate._fields.get('name'),
-                      candidate._fields.get('official_name')]:
+                      candidate._fields.get('official_name'),
+                      candidate._fields.get('comment')]:
                 if v is None:
                     continue
                 v = remove_accents(v.lower())
@@ -88,7 +89,7 @@ class ExistingCountries(pycountry.db.Database):
             raise LookupError(query)
 
         results = [
-            countries.get(alpha_2=x[0])
+            self.get(alpha_2=x[0])
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.
@@ -97,7 +98,7 @@ class ExistingCountries(pycountry.db.Database):
         return results
 
 
-class HistoricCountries(pycountry.db.Database):
+class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 

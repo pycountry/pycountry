@@ -55,6 +55,13 @@ def test_country_fuzzy_search():
     assert results[0] == pycountry.countries.get(alpha_2='US')
 
 
+def test_historic_country_fuzzy_search():
+    results = pycountry.historic_countries.search_fuzzy(u'burma')
+    assert len(results) == 1
+    assert results[0] == pycountry.historic_countries.get(alpha_4='BUMM')
+
+
+
 def test_germany_has_all_attributes():
     germany = pycountry.countries.get(alpha_2='DE')
     assert germany.alpha_2 == u'DE'
