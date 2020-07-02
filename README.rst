@@ -41,10 +41,6 @@ Contributions
 The code lives in a `git repository on GitHub
 <https://github.com/flyingcircusio/pycountry>`_, and issues must be reported in there as well.
 
-Some old issues still live in the
-`Bitbucket project bugtracker
-<https://bitbucket.org/flyingcircus/pycountry/issues?status=new&status=open>`_ but please do not report new issues there.
-
 Countries (ISO 3166)
 --------------------
 
