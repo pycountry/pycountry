@@ -23,7 +23,7 @@ Data update policy
 
 No changes to the data will be accepted into pycountry. This is a pure wrapper
 around the ISO standard using the `pkg-isocodes` database from Debian *as is*.
-If you need changes to the politicial situation in the world, please talk to
+If you need changes to the political situation in the world, please talk to
 the ISO or Debian people, not me.
 
 Donations / Monetary Support
