@@ -4,6 +4,21 @@ Changes
 19.8.19 (unreleased)
 --------------------
 
+- Update to iso-codes 4.5.0.
+
+- PR 9: Clean up the normalization (lower casing) of values in indexes and searches.
+  See PR https://github.com/flyingcircusio/pycountry/pull/9 for detailed
+  discussion.
+
+- Smaller cleanups and build environment version bumps.
+
+- PR 35: Python 3-only cleanups and updated Python minor version compatibility
+  (thanks, Djailla)
+
+- PR 33: Remove defunct bugtracker link from README (thanks, jwilk)
+
+- P3 32: (Somewhat hilarious) Typo (thanks, jwilk)
+
 - Moved to Git/Github; switched from Bitbucket Pipelines to Travis builds.
 
 
