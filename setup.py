@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pycountry',
-    version='19.8.19.dev0',
+    version='20.7.2',
     author='Christian Theune',
     author_email='ct@flyingcircus.io',
     description='ISO country, subdivision, language, currency and script '
