@@ -74,6 +74,9 @@ class Database:
             self.objects.append(obj)
             # Inject into index.
             for key, value in entry.items():
+                # Lookups and searches are case insensitive. Normalize 
+                # here.
+                value = value.lower()
                 if key in self.no_index:
                     continue
                 index = self.indices.setdefault(key, {})
@@ -103,31 +106,41 @@ class Database:
         if len(kw) != 1:
             raise TypeError('Only one criteria may be given')
         field, value = kw.popitem()
+        if not isinstance(value, str):
+            raise LookupError()
+        # Normalize for case-insensitivity
+        value = value.lower()
         index = self.indices[field]
         try:
             return index[value]
         except KeyError:
-            # Pythonic APIs implementing get() shouldn't raise KeyErrors.
+            # Pythonic APIs implementing     get() shouldn't raise KeyErrors.
             # Those are a bit unexpected and they should rather support
             # returning `None` by default and allow customization.
             return default
 
     @lazy_load
     def lookup(self, value):
-        # try relatively quick exact matches first
-        if isinstance(value, str):
-            value = value.lower()
+        if not isinstance(value, str):
+            raise LookupError()
 
+        # Normalize for case-insensitivity
+        value = value.lower()
+
+        # Use indexes first
         for key in self.indices:
             try:
                 return self.indices[key][value]
             except LookupError:
                 pass
-        # then try slower case-insensitive lookups
+
+        # Use non-indexed values now. Avoid going through indexed values.
         for candidate in self:
-            for v in candidate._fields.values():
+            for k in self.no_index:
+                v = candidate._fields.get(k)
                 if v is None:
                     continue
                 if v.lower() == value:
                     return candidate
+
         raise LookupError('Could not find a record for %r' % value)

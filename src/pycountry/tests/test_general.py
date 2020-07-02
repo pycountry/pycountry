@@ -174,6 +174,7 @@ def test_get():
 def test_lookup():
     c = pycountry.countries
     g = c.get(alpha_2='DE')
+    assert g == c.get(alpha_2='de')
     assert g == c.lookup('de')
     assert g == c.lookup('DEU')
     assert g == c.lookup('276')
@@ -194,6 +195,8 @@ def test_lookup():
         pycountry.countries.lookup('bogus country')
     with pytest.raises(LookupError):
         pycountry.countries.lookup(12345)
+    with pytest.raises(LookupError):
+        pycountry.countries.get(alpha_2=12345)
 
 
 def test_subdivision_parent():

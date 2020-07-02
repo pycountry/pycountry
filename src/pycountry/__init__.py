@@ -89,9 +89,9 @@ class ExistingCountries(pycountry.db.Database):
 
         results = [
             countries.get(alpha_2=x[0])
-            # sort by points first by alpha2 code second, ensure stable results
-            # the min allows us to sort reversely on the points but ascending
-            # on the country code.
+            # sort by points first, by alpha2 code second, and to ensure stable
+            # results the negative value allows us to sort reversely on the
+            # points but ascending on the country code.
             for x in sorted(results.items(),
                             key=lambda x: (-x[1], x[0]))]
         return results
@@ -176,7 +176,7 @@ class Subdivisions(pycountry.db.Database):
         self.indices['country_code'] = {}
         for subdivision in self:
             divs = self.indices['country_code'].setdefault(
-                subdivision.country_code, set())
+                subdivision.country_code.lower(), set())
             divs.add(subdivision)
 
     def get(self, **kw):
