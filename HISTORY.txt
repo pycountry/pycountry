@@ -4,6 +4,9 @@ Changes
 19.8.19 (unreleased)
 --------------------
 
+- Add (auto-generated) __version__ attribute to the main module.
+  (Fixes issue #4)
+
 - Add fuzzy search to historic countries. (Fixe issue #26)
 
 - Update to iso-codes 4.5.0.

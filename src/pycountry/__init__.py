@@ -4,11 +4,15 @@
 import os.path
 import unicodedata
 import pycountry.db
+import pkg_resources
 
 
 try:
-    from pkg_resources import resource_filename
+    import pkg_resources
+    resource_filename = pkg_resources.resource_filename
+    __version__ = pkg_resources.get_distribution("pycountry").version
 except ImportError:
+    __version__ = 'n/a'
     def resource_filename(package_or_requirement, resource_name):
         return os.path.join(os.path.dirname(__file__), resource_name)
 
