@@ -49,6 +49,11 @@ def test_country_fuzzy_search():
     assert results[6] == pycountry.countries.get(alpha_2='AU')
     assert results[7] == pycountry.countries.get(alpha_2='MH')
 
+    # bug #34, likely about capitalization that was broken
+    results = pycountry.countries.search_fuzzy(u'united states of america')
+    assert len(results) == 1
+    assert results[0] == pycountry.countries.get(alpha_2='US')
+
 
 def test_germany_has_all_attributes():
     germany = pycountry.countries.get(alpha_2='DE')
