@@ -224,3 +224,13 @@ def test_subdivision_empty_list():
     assert len(s.get(country_code='DE')) == 16
     assert len(s.get(country_code='JE')) == 0
     assert s.get(country_code='FOOBAR') is None
+
+
+def test_translations():
+    pycountry.install_translations_for_countries(['de', 'es', 'ar'])
+    assert pycountry.countries.lookup('frankreich').alpha_2 == 'FR'
+    assert pycountry.countries.lookup('Francia').alpha_2 == 'FR'
+    assert pycountry.countries.lookup('فرنسا').alpha_2 == 'FR'
+
+    # test fuzzy
+    assert pycountry.countries.search_fuzzy('frankrei')[0].alpha_2 == 'FR'
