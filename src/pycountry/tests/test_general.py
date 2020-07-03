@@ -61,7 +61,6 @@ def test_historic_country_fuzzy_search():
     assert results[0] == pycountry.historic_countries.get(alpha_4='BUMM')
 
 
-
 def test_germany_has_all_attributes():
     germany = pycountry.countries.get(alpha_2='DE')
     assert germany.alpha_2 == u'DE'
@@ -135,6 +134,7 @@ def test_languages():
     # this tests the slow search path in lookup()
     bengali2 = pycountry.languages.lookup('bAngLa')
     assert bengali2 == bengali
+
 
 def test_language_families():
     assert len(pycountry.language_families) == 115

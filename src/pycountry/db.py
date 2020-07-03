@@ -74,7 +74,7 @@ class Database:
             self.objects.append(obj)
             # Inject into index.
             for key, value in entry.items():
-                # Lookups and searches are case insensitive. Normalize 
+                # Lookups and searches are case insensitive. Normalize
                 # here.
                 value = value.lower()
                 if key in self.no_index:

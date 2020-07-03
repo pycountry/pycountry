@@ -12,6 +12,7 @@ try:
     __version__ = pkg_resources.get_distribution("pycountry").version
 except ImportError:
     __version__ = 'n/a'
+
     def resource_filename(package_or_requirement, resource_name):
         return os.path.join(os.path.dirname(__file__), resource_name)
 
