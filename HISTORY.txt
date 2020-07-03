@@ -11,7 +11,7 @@ Changes
 -------------------
 
 - Fix bug #37: (accidental) unconditional pkg_resources import.
-
+  (thanks, crbunney)
 
 20.7.2 (2020-07-02)
 -------------------
