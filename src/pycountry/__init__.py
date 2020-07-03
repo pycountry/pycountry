@@ -4,7 +4,6 @@
 import os.path
 import unicodedata
 import pycountry.db
-import pkg_resources
 
 
 try:
