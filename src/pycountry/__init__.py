@@ -10,7 +10,7 @@ try:
     import pkg_resources
     resource_filename = pkg_resources.resource_filename
     __version__ = pkg_resources.get_distribution("pycountry").version
-except ImportError:
+except (ImportError, pkg_resources.DistributionNotFound):
     __version__ = 'n/a'
 
     def resource_filename(package_or_requirement, resource_name):
