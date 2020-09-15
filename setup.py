@@ -38,6 +38,7 @@ setup(
         'Topic :: Software Development :: Internationalization',
         'Topic :: Software Development :: Localization',
     ],
+    url='https://github.com/flyingcircusio/pycountry',
     zip_safe=False,
     packages=find_packages('src'),
     include_package_data=True,
