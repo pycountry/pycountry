@@ -18,6 +18,7 @@ setup(
     long_description=(
         open('README.rst', encoding='utf-8').read() + '\n' +
         open('HISTORY.txt', encoding='utf-8').read()),
+    url='https://github.com/flyingcircusio/pycountry',
     license='LGPL 2.1',
     keywords='country subdivision language currency iso 3166 639 4217 '
              '15924 3166-2',
@@ -38,6 +39,7 @@ setup(
         'Topic :: Software Development :: Internationalization',
         'Topic :: Software Development :: Localization',
     ],
+    python_requires='>=3.5, <4',
     zip_safe=False,
     packages=find_packages('src'),
     include_package_data=True,
