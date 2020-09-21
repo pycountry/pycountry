@@ -40,6 +40,7 @@ setup(
         'Topic :: Software Development :: Localization',
     ],
     python_requires='>=3.5, <4',
+    install_requires=['setuptools'],  # pkg_resources
     zip_safe=False,
     packages=find_packages('src'),
     include_package_data=True,
