@@ -237,3 +237,12 @@ def test_has_version_attribute():
     assert pycountry.__version__ != 'n/a'
     assert len(pycountry.__version__) >= 5
     assert '.' in pycountry.__version__
+
+
+def test_subdivision_with_country():
+    s = pycountry.subdivisions
+    assert len(s.get(country='US')) == 57
+    fl = pycountry.subdivisions.get(code='US-FL')
+    state = 'Florida'
+    assert s.get(country='US')[state.lower()] == fl
+    assert s.get(country='FOOBAR') is None
