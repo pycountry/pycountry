@@ -168,6 +168,17 @@ The divisions of a single country can be queried using the country_code index:
   >>> len(pycountry.subdivisions.get(country_code='US'))
   57
 
+The divisions of a single country can be queried using the country index which
+returns a dictionary so we can search states in a country:
+
+.. code:: pycon
+
+  >>> len(pycountry.subdivisions.get(country='US'))
+  57
+
+  >>> pycountry.subdivisions.get(country='US')['florida']
+  Subdivision(code='US-FL', country_code='US', name='Florida', parent_code=None, type='State')
+
 
 Scripts (ISO 15924)
 -------------------
