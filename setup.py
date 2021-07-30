@@ -5,8 +5,7 @@
 
 from io import open
 
-from setuptools import setup, find_packages
-
+from setuptools import find_packages, setup
 
 setup(
     name='pycountry',
@@ -32,14 +31,14 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Software Development :: Internationalization',
         'Topic :: Software Development :: Localization',
     ],
-    python_requires='>=3.5, <4',
+    python_requires='>=3.6, <4',
     install_requires=['setuptools'],  # pkg_resources
     zip_safe=False,
     packages=find_packages('src'),
