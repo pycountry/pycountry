@@ -9,16 +9,16 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='pycountry',
-    version='20.7.4.dev0',
+    name='iroin-pycountry',
+    version='20.7.6',
     author='Christian Theune',
-    author_email='ct@flyingcircus.io',
+    author_email='oss@iroin.io',
     description='ISO country, subdivision, language, currency and script '
                 'definitions and their translations',
     long_description=(
         open('README.rst', encoding='utf-8').read() + '\n' +
         open('HISTORY.txt', encoding='utf-8').read()),
-    url='https://github.com/flyingcircusio/pycountry',
+    url='https://github.com/iroin/pycountry',
     license='LGPL 2.1',
     keywords='country subdivision language currency iso 3166 639 4217 '
              '15924 3166-2',

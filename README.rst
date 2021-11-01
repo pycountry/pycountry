@@ -1,6 +1,16 @@
 pycountry
 =========
 
+Publish
+------------------
+
+* Clone the project
+* Adjust Version in setup.py
+* Run `make`
+* Run `python3 -m pip install --upgrade twine`
+* Run `python3 -m twine upload --repository testpypi dist/*` to upload the package to pypi
+
+
 .. image:g: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
 
 pycountry provides the ISO databases for the standards:
