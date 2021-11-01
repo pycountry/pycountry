@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='iroin-pycountry',
+    name='iroin_pycountry',
     version='20.7.6',
     author='Christian Theune',
     author_email='oss@iroin.io',
