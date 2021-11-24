@@ -84,13 +84,13 @@ def test_subdivisions_directly_accessible():
 
 
 def test_subdivisions_have_subdivision_as_parent():
-    al_bu = pycountry.subdivisions.get(code='AL-BU')
-    assert al_bu.code == u'AL-BU'
-    assert al_bu.name == u'Bulqiz\xeb'
-    assert al_bu.type == u'District'
-    assert al_bu.parent_code == u'AL-09'
-    assert al_bu.parent is pycountry.subdivisions.get(code='AL-09')
-    assert al_bu.parent.name == u'Dib\xebr'
+    fr_01 = pycountry.subdivisions.get(code='FR-01')
+    assert fr_01.code == u'FR-01'
+    assert fr_01.name == u'Ain'
+    assert fr_01.type == u'Metropolitan department'
+    assert fr_01.parent_code == u'FR-ARA'
+    assert fr_01.parent is pycountry.subdivisions.get(code='FR-ARA')
+    assert fr_01.parent.name == u'Auvergne-Rhône-Alpes'
 
 
 def test_query_subdivisions_of_country():
@@ -205,8 +205,8 @@ def test_lookup():
     assert euro == pycountry.currencies.lookup('euro')
     latin = pycountry.scripts.get(name='Latin')
     assert latin == pycountry.scripts.lookup('latn')
-    al_bu = pycountry.subdivisions.get(code='AL-BU')
-    assert al_bu == pycountry.subdivisions.lookup('al-bu')
+    fr_ara = pycountry.subdivisions.get(code='FR-ARA')
+    assert fr_ara == pycountry.subdivisions.lookup('fr-ara')
     with pytest.raises(LookupError):
         pycountry.countries.lookup('bogus country')
     with pytest.raises(LookupError):
