@@ -77,7 +77,7 @@ def test_subdivisions_directly_accessible():
     de_st = pycountry.subdivisions.get(code='DE-ST')
     assert de_st.code == u'DE-ST'
     assert de_st.name == u'Sachsen-Anhalt'
-    assert de_st.type == u'State'
+    assert de_st.type == u'Land'
     assert de_st.parent is None
     assert de_st.parent_code is None
     assert de_st.country is pycountry.countries.get(alpha_2='DE')
