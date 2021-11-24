@@ -17,16 +17,16 @@ def test_country_list():
 
 
 def test_country_fuzzy_search():
-    results = pycountry.countries.search_fuzzy(u'England')
+    results = pycountry.countries.search_fuzzy(u'Overijssel')
     assert len(results) == 1
-    assert results[0] == pycountry.countries.get(alpha_2='GB')
+    assert results[0] == pycountry.countries.get(alpha_2='NL')
 
-    # Match alternative names exactly and thus GB ends up with Wales
-    # before Australia.
-    results = pycountry.countries.search_fuzzy(u'Wales')
+    # Match alternative names exactly and thus NL ends up with
+    # "Sint Maarten" before SX with "Sint Maarten (Dutch part)"
+    results = pycountry.countries.search_fuzzy(u'Sint Maarten')
     assert len(results) == 2
-    assert results[0] == pycountry.countries.get(alpha_2='GB')
-    assert results[1] == pycountry.countries.get(alpha_2='AU')
+    assert results[0] == pycountry.countries.get(alpha_2='NL')
+    assert results[1] == pycountry.countries.get(alpha_2='SX')
 
     # Match with accents removed, first a country with a partial match in the
     # country name, then a country with multiple subdivision partial matches,
