@@ -164,6 +164,7 @@ def test_removed_countries():
 def test_repr():
     assert re.match("Country\\(alpha_2=u?'DE', "
                     "alpha_3=u?'DEU', "
+                    "flag='..', "
                     "name=u?'Germany', "
                     "numeric=u?'276', "
                     "official_name=u?'Federal Republic of Germany'\\)",
