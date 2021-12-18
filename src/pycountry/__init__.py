@@ -74,7 +74,7 @@ class ExistingCountries(pycountry.db.Database):
         return(wik_redirs)
 
 
-    def search_fuzzy(self, query):
+    def search_fuzzy(self, query:str, shortcircuit=False):
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -91,16 +91,29 @@ class ExistingCountries(pycountry.db.Database):
 
         # Prio 1: exact matches on country names
         try:
-            add_result(self.lookup(query), 50)
+            country = self.lookup(query)
+            if country:
+                if shortcircuit:
+                    return [country]
+                else:
+                    add_result(country, 50)
         except LookupError:
             pass
 
         # Prio 1.5: exact matches on wikipedia redirect names:
         if self.__class__ == ExistingCountries: # assuming data for historic countries not generated.
             if query in self.wikipedia_redirects():
-                add_result(self.wikipedia_redirects()[query], 49, is_already_alpha_2=True)
+                countrycode = self.wikipedia_redirects()[query]
+                if shortcircuit:
+                    return [self.lookup(countrycode)]
+                else:
+                    add_result(countrycode, 49, is_already_alpha_2=True)
             elif normalize(query) in self.wikipedia_redirects(aggressively_normalize = True):
-                add_result(self.wikipedia_redirects(aggressively_normalize = True)[normalize(query)], 45, is_already_alpha_2=True)
+                countrycode = self.wikipedia_redirects(aggressively_normalize = True)[normalize(query)]
+                if shortcircuit:
+                    return [self.lookup(countrycode)]
+                else:
+                    add_result(countrycode, 45, is_already_alpha_2=True)
 
 
         # Prio 2: exact matches on subdivision names
