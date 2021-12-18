@@ -20,9 +20,11 @@ except ImportError:
         return os.path.join(os.path.dirname(__file__), resource_name)
 
 
+
+
 LOCALES_DIR = resource_filename('pycountry', 'locales')
 DATABASE_DIR = resource_filename('pycountry', 'databases')
-
+LEXRES_DIR = resource_filename('pycountry', 'lexical_resources')
 
 def remove_accents(input_str):
     # Borrowed from https://stackoverflow.com/a/517974/1509718
@@ -57,7 +59,7 @@ class ExistingCountries(pycountry.db.Database):
     @cache # this is important, otherwise it'll regenerate the database every time it's queried!
     def wikipedia_redirects(self, aggressively_normalize=False):
         wik_redirs = dict()
-        with open("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab", "rt") as f:
+        with open(os.path.join(LEXRES_DIR, "existingcountries_wikipedia_redirects.tab"), "rt") as f:
             for line in f:
                 [twoletter, displaytitle, alias] = line.strip().split("\t")
                 if aggressively_normalize:
