@@ -2,7 +2,10 @@
 """pycountry"""
 
 import os.path
+import re
 import unicodedata
+from functools import cache
+
 import pycountry.db
 
 
@@ -26,12 +29,48 @@ def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
 
+re_nonalpha = re.compile("\W+")
+re_stopwords = re.compile("(and|or|the|of)", re.IGNORECASE)
+
+def normalize(s):
+    s = remove_accents(s.strip().lower())
+    s = re_stopwords.sub(" ", s)
+    s = re_nonalpha.sub(" ", s) # this also combines multiple spaces
+    return s
+
+
+class Country(): # this is just to make life easier for IDEs etc.
+    alpha_2:str = property()
+    alpha_3:str = property()
+    name:str = property()
+    official_name:str = property()
+    numeric:str = property()
+
 
 class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
     data_class_name = 'Country'
     root_key = '3166-1'
+
+
+    @cache # this is important, otherwise it'll regenerate the database every time it's queried!
+    def wikipedia_redirects(self, aggressively_normalize=False):
+        wik_redirs = dict()
+        with open("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab", "rt") as f:
+            for line in f:
+                [twoletter, displaytitle, alias] = line.strip().split("\t")
+                if aggressively_normalize:
+                    term = normalize(alias)
+                else:
+                    term = remove_accents(alias.strip().lower())
+
+                if term in wik_redirs and wik_redirs[term] != twoletter:
+                    print("clash! {} and {} both can be got to from {}")
+                else:
+                    wik_redirs[term] = twoletter
+        return(wik_redirs)
+
 
     def search_fuzzy(self, query):
         query = remove_accents(query.strip().lower())
@@ -40,15 +79,27 @@ class ExistingCountries(pycountry.db.Database):
         # based on the query's matching incidence.
         results = {}
 
-        def add_result(country, points):
-            results.setdefault(country.alpha_2, 0)
-            results[country.alpha_2] += points
+        def add_result(country, points, is_already_alpha_2 = False):
+            if is_already_alpha_2:
+                a2 = country
+            else:
+                a2 = country.alpha_2
+            results.setdefault(a2, 0)
+            results[a2] += points
 
         # Prio 1: exact matches on country names
         try:
             add_result(self.lookup(query), 50)
         except LookupError:
             pass
+
+        # Prio 1.5: exact matches on wikipedia redirect names:
+        if self.__class__ == ExistingCountries: # assuming data for historic countries not generated.
+            if query in self.wikipedia_redirects():
+                add_result(self.wikipedia_redirects()[query], 49, is_already_alpha_2=True)
+            elif normalize(query) in self.wikipedia_redirects(aggressively_normalize = True):
+                add_result(self.wikipedia_redirects(aggressively_normalize = True)[normalize(query)], 45, is_already_alpha_2=True)
+
 
         # Prio 2: exact matches on subdivision names
         for candidate in subdivisions:
@@ -60,7 +111,7 @@ class ExistingCountries(pycountry.db.Database):
                 # match exactly.
                 for v in v.split(';'):
                     if v == query:
-                        add_result(candidate.country, 49)
+                        add_result(candidate.country, 40)
                         break
 
         # Prio 3: partial matches on country names
@@ -196,7 +247,7 @@ class Subdivisions(pycountry.db.Database):
         return subdivisions
 
 
-countries = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166-1.json'))
+countries:list[Country] = ExistingCountries(os.path.join(DATABASE_DIR, 'iso3166-1.json'))
 subdivisions = Subdivisions(os.path.join(DATABASE_DIR, 'iso3166-2.json'))
 historic_countries = HistoricCountries(
     os.path.join(DATABASE_DIR, 'iso3166-3.json'))
