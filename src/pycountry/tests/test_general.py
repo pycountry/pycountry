@@ -17,16 +17,16 @@ def test_country_list():
 
 
 def test_country_fuzzy_search():
-    results = pycountry.countries.search_fuzzy(u'England')
+    results = pycountry.countries.search_fuzzy(u'Overijssel')
     assert len(results) == 1
-    assert results[0] == pycountry.countries.get(alpha_2='GB')
+    assert results[0] == pycountry.countries.get(alpha_2='NL')
 
-    # Match alternative names exactly and thus GB ends up with Wales
-    # before Australia.
-    results = pycountry.countries.search_fuzzy(u'Wales')
+    # Match alternative names exactly and thus NL ends up with
+    # "Sint Maarten" before SX with "Sint Maarten (Dutch part)"
+    results = pycountry.countries.search_fuzzy(u'Sint Maarten')
     assert len(results) == 2
-    assert results[0] == pycountry.countries.get(alpha_2='GB')
-    assert results[1] == pycountry.countries.get(alpha_2='AU')
+    assert results[0] == pycountry.countries.get(alpha_2='NL')
+    assert results[1] == pycountry.countries.get(alpha_2='SX')
 
     # Match with accents removed, first a country with a partial match in the
     # country name, then a country with multiple subdivision partial matches,
@@ -47,7 +47,9 @@ def test_country_fuzzy_search():
     assert results[4] == pycountry.countries.get(alpha_2='US')
     assert results[5] == pycountry.countries.get(alpha_2='CA')
     assert results[6] == pycountry.countries.get(alpha_2='AU')
-    assert results[7] == pycountry.countries.get(alpha_2='MH')
+    assert results[7] == pycountry.countries.get(alpha_2='BS')
+    assert results[8] == pycountry.countries.get(alpha_2='TW')
+    assert results[9] == pycountry.countries.get(alpha_2='MH')
 
     # bug #34, likely about capitalization that was broken
     results = pycountry.countries.search_fuzzy(u'united states of america')
@@ -71,26 +73,26 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 4883
+    assert len(pycountry.subdivisions) == 5123
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code='DE-ST')
     assert de_st.code == u'DE-ST'
     assert de_st.name == u'Sachsen-Anhalt'
-    assert de_st.type == u'State'
+    assert de_st.type == u'Land'
     assert de_st.parent is None
     assert de_st.parent_code is None
     assert de_st.country is pycountry.countries.get(alpha_2='DE')
 
 
 def test_subdivisions_have_subdivision_as_parent():
-    al_bu = pycountry.subdivisions.get(code='AL-BU')
-    assert al_bu.code == u'AL-BU'
-    assert al_bu.name == u'Bulqiz\xeb'
-    assert al_bu.type == u'District'
-    assert al_bu.parent_code == u'AL-09'
-    assert al_bu.parent is pycountry.subdivisions.get(code='AL-09')
-    assert al_bu.parent.name == u'Dib\xebr'
+    fr_01 = pycountry.subdivisions.get(code='FR-01')
+    assert fr_01.code == u'FR-01'
+    assert fr_01.name == u'Ain'
+    assert fr_01.type == u'Metropolitan department'
+    assert fr_01.parent_code == u'FR-ARA'
+    assert fr_01.parent is pycountry.subdivisions.get(code='FR-ARA')
+    assert fr_01.parent.name == u'Auvergne-Rhône-Alpes'
 
 
 def test_query_subdivisions_of_country():
@@ -164,6 +166,7 @@ def test_removed_countries():
 def test_repr():
     assert re.match("Country\\(alpha_2=u?'DE', "
                     "alpha_3=u?'DEU', "
+                    "flag='..', "
                     "name=u?'Germany', "
                     "numeric=u?'276', "
                     "official_name=u?'Federal Republic of Germany'\\)",
@@ -204,8 +207,8 @@ def test_lookup():
     assert euro == pycountry.currencies.lookup('euro')
     latin = pycountry.scripts.get(name='Latin')
     assert latin == pycountry.scripts.lookup('latn')
-    al_bu = pycountry.subdivisions.get(code='AL-BU')
-    assert al_bu == pycountry.subdivisions.lookup('al-bu')
+    fr_ara = pycountry.subdivisions.get(code='FR-ARA')
+    assert fr_ara == pycountry.subdivisions.lookup('fr-ara')
     with pytest.raises(LookupError):
         pycountry.countries.lookup('bogus country')
     with pytest.raises(LookupError):
