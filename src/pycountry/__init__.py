@@ -179,10 +179,15 @@ class Subdivisions(pycountry.db.Database):
 
         # Add index for the country code.
         self.indices['country_code'] = {}
+        # Add index for lookup by country_code and state.
+        self.indices['country'] = {}
         for subdivision in self:
             divs = self.indices['country_code'].setdefault(
                 subdivision.country_code.lower(), set())
             divs.add(subdivision)
+            country_state_mapping = self.indices['country'].setdefault(
+                subdivision.country_code.lower(), {})
+            country_state_mapping[subdivision.name.lower()] = subdivision
 
     def get(self, **kw):
         default = kw.setdefault('default', None)
