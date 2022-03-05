@@ -8,19 +8,21 @@ from io import open
 from setuptools import find_packages, setup
 
 setup(
-    name='pycountry',
-    version='20.7.4.dev0',
-    author='Christian Theune',
-    author_email='ct@flyingcircus.io',
-    description='ISO country, subdivision, language, currency and script '
-                'definitions and their translations',
+    name="pycountry",
+    version="22.1.11.dev0",
+    author="Christian Theune",
+    author_email="ct@flyingcircus.io",
+    description="ISO country, subdivision, language, currency and script "
+    "definitions and their translations",
     long_description=(
-        open('README.rst', encoding='utf-8').read() + '\n' +
-        open('HISTORY.txt', encoding='utf-8').read()),
-    url='https://github.com/flyingcircusio/pycountry',
-    license='LGPL 2.1',
-    keywords='country subdivision language currency iso 3166 639 4217 '
-             '15924 3166-2',
+        open("README.rst", encoding="utf-8").read()
+        + "\n"
+        + open("HISTORY.txt", encoding="utf-8").read()
+    ),
+    url="https://github.com/flyingcircusio/pycountry",
+    license="LGPL 2.1",
+    keywords="country subdivision language currency iso 3166 639 4217 "
+    "15924 3166-2",
     classifiers=[
         # See: https://pypi.python.org/pypi?:action=list_classifiers
         'Development Status :: 5 - Production/Stable',
@@ -42,6 +44,7 @@ setup(
     python_requires='>=3.6, <4',
     install_requires=['setuptools'],  # pkg_resources
     zip_safe=False,
-    packages=find_packages('src'),
+    packages=find_packages("src"),
     include_package_data=True,
-    package_dir={'': 'src'})
+    package_dir={"": "src"},
+)
