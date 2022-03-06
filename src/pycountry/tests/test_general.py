@@ -155,7 +155,7 @@ def test_locales():
         "iso3166", pycountry.LOCALES_DIR, languages=["de"]
     )
     german.install()
-    assert __builtins__["_"]("Germany") == "Deutschland"
+    assert _("Germany") == "Deutschland"
 
 
 def test_removed_countries():
