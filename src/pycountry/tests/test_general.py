@@ -14,6 +14,12 @@ def logging():
     logging.basicConfig(level=logging.DEBUG)
 
 
+def test_typing():
+    # data_class must be available before data is accessed,
+    # so that it can be used on typing annotations
+    country: pycountry.countries.data_class
+    country = pycountry.countries.get(alpha_2="BR")
+
 def test_country_list():
     assert len(pycountry.countries) == 249
     assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)

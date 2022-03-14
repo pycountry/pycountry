@@ -62,7 +62,7 @@ class Database:
         self.index_names = set()
         self.indices = {}
 
-        self.data_class = type(
+        self._data_class = type(
             self.data_class_name, (self.data_class_base,), {}
         )
 
@@ -70,7 +70,7 @@ class Database:
             tree = json.load(f)
 
         for entry in tree[self.root_key]:
-            obj = self.data_class(**entry)
+            obj = self._data_class(**entry)
             self.objects.append(obj)
             # Inject into index.
             for key, value in entry.items():
@@ -91,6 +91,11 @@ class Database:
         self._is_loaded = True
 
     # Public API
+
+    @property
+    @lazy_load
+    def data_class(self):
+        return self._data_class
 
     @lazy_load
     def __iter__(self):
