@@ -152,7 +152,7 @@ def test_language_families():
 
 def test_locales():
     german = gettext.translation(
-        "iso3166", pycountry.LOCALES_DIR, languages=["de"]
+        "iso3166-1", pycountry.LOCALES_DIR, languages=["de"]
     )
     german.install()
     assert _("Germany") == "Deutschland"

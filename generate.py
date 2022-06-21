@@ -10,11 +10,13 @@ import glob
 import os.path
 import shutil
 import subprocess
+from os.path import join
 
 REVISION = "v4.9.0"
 
 data_dir = "parts/data"
 base_dir = os.path.join("src", "pycountry")
+resources_dir = os.path.join("resources", "pycountry")
 
 if not os.path.exists(data_dir):
     subprocess.check_call(
@@ -32,9 +34,10 @@ subprocess.check_call(["git", "-C", data_dir, "checkout", REVISION])
 
 assert os.path.exists(base_dir), "pycountry src directory not found"
 assert os.path.exists(data_dir), "pkg-isocodes data directory not found"
+os.makedirs(resources_dir)
 
-database_dir = os.path.join(base_dir, "databases")
-locales_dir = os.path.join(base_dir, "locales")
+database_dir = os.path.join(resources_dir, "databases")
+locales_dir = os.path.join(resources_dir, "locales")
 
 
 STANDARDS = ["639-3", "639-5", "3166-1", "3166-2", "3166-3", "4217", "15924"]
@@ -45,7 +48,6 @@ if not os.path.exists(database_dir):
 
 for standard in STANDARDS:
     src = os.path.join(data_dir, "data", "iso_%s.json" % standard)
-    print(src)
     dst = os.path.join(database_dir, "iso%s.json" % standard)
     shutil.copyfile(src, dst)
 
@@ -55,7 +57,6 @@ for standard in STANDARDS:
     for src in glob.glob(
         os.path.join(data_dir, "iso_{}".format(standard), "*.po")
     ):
-        print(src)
         dir, locale = os.path.split(src)
         locale = locale.replace(".po", "")
 
@@ -68,7 +69,11 @@ for standard in STANDARDS:
 
         shutil.copyfile(src, dst)
         print(src + " -> " + dst)
-        subprocess.check_call(["msgfmt", dst, "-o", dst_mo])
+        subprocess.check_call(["msgfmt.exe", dst, "-o", dst_mo])
+        # use this when on windows:
+        # subprocess.check_call(
+        #    [join("C:\\", "Program Files (x86)", "GnuWin32", "bin", "msgfmt.exe"), dst, "-o",
+        #    dst_mo])
         os.unlink(dst)
 
 

@@ -2,6 +2,8 @@
 """pycountry"""
 
 import os.path
+from os.path import join
+
 import unicodedata
 
 import pycountry.db
@@ -10,6 +12,7 @@ try:
     import pkg_resources
 
     resource_filename = pkg_resources.resource_filename
+
 except ImportError:
 
     def resource_filename(package_or_requirement, resource_name):
@@ -22,8 +25,8 @@ else:
         __version__ = "n/a"
 
 
-LOCALES_DIR = resource_filename("pycountry", "locales")
-DATABASE_DIR = resource_filename("pycountry", "databases")
+LOCALES_DIR = join("resources", "pycountry", "locales")#resource_filename("pycountry", "locales")
+DATABASE_DIR = join("resources", "pycountry", "databases")#resource_filename("pycountry", "databases")
 
 
 def remove_accents(input_str):
@@ -201,7 +204,6 @@ class Subdivisions(pycountry.db.Database):
             if countries.get(alpha_2=kw["country_code"]) is not None:
                 return []
         return subdivisions
-
 
 countries = ExistingCountries(os.path.join(DATABASE_DIR, "iso3166-1.json"))
 subdivisions = Subdivisions(os.path.join(DATABASE_DIR, "iso3166-2.json"))

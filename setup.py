@@ -2,7 +2,7 @@
 # Copyright -2014 (c) gocept gmbh & co. kg
 # Copyright 2015- (c) Flying Circus Internet Operations GmbH
 # See also LICENSE.txt
-
+from glob import glob
 from io import open
 
 from setuptools import find_packages, setup
@@ -47,4 +47,8 @@ setup(
     packages=find_packages("src"),
     include_package_data=True,
     package_dir={"": "src"},
+    data_files=[
+        ('resources/pycountry/databases', glob('resources/pycountry/databases/*')),
+        ('resources/pycountry/locales', glob('resources/pycountry/locales/**/*', recursive=True)),
+    ]
 )
