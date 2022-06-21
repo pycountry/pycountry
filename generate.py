@@ -69,7 +69,7 @@ for standard in STANDARDS:
 
         shutil.copyfile(src, dst)
         print(src + " -> " + dst)
-        subprocess.check_call(["msgfmt.exe", dst, "-o", dst_mo])
+        subprocess.check_call(["msgfmt", dst, "-o", dst_mo])
         # use this when on windows:
         # subprocess.check_call(
         #    [join("C:\\", "Program Files (x86)", "GnuWin32", "bin", "msgfmt.exe"), dst, "-o",

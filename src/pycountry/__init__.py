@@ -25,8 +25,8 @@ else:
         __version__ = "n/a"
 
 
-LOCALES_DIR = join("resources", "pycountry", "locales")#resource_filename("pycountry", "locales")
-DATABASE_DIR = join("resources", "pycountry", "databases")#resource_filename("pycountry", "databases")
+LOCALES_DIR = join("resources", "pycountry", "locales")
+DATABASE_DIR = join("resources", "pycountry", "databases")
 
 
 def remove_accents(input_str):
