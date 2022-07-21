@@ -8027,6 +8027,11 @@
       "type": "London borough"
     },
     {
+      "code": "GB-ENG",
+      "name": "England",
+      "type": "Country"
+    },
+    {
       "code": "GB-ERW",
       "name": "East Renfrewshire",
       "type": "Council area"
@@ -8377,6 +8382,11 @@
       "type": "Unitary authority"
     },
     {
+      "code": "GB-NIR",
+      "name": "Northern Ireland",
+      "type": "Province"
+    },
+    {
       "code": "GB-NTT",
       "name": "Nottinghamshire",
       "type": "Two-tier county"
@@ -8505,6 +8515,11 @@
       "code": "GB-SCB",
       "name": "Scottish Borders",
       "type": "Council area"
+    },
+    {
+      "code": "GB-SCT",
+      "name": "Scotland",
+      "type": "Country"
     },
     {
       "code": "GB-SFK",
@@ -8715,6 +8730,11 @@
       "code": "GB-WLN",
       "name": "West Lothian",
       "type": "Council area"
+    },
+    {
+      "code": "GB-WLS",
+      "name": "Wales",
+      "type": "Country"
     },
     {
       "code": "GB-WLV",
