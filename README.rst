@@ -281,6 +281,6 @@ The search ends with the first match, which is returned.
 PyInstaller Compatibility
 -------------------------
 
-Some users have reported issues using PyCountry with PyInstaller guidance on 
-how to handle the issues can be found in the `PyInstaller Google Group 
+Some users have reported issues using PyCountry with PyInstaller guidance on
+how to handle the issues can be found in the `PyInstaller Google Group
 <https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
