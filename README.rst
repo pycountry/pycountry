@@ -92,7 +92,7 @@ with more matches be listed before ones with fewer matches:
 
 
 Historic Countries (ISO 3166-3)
---------------------
+-------------------------------
 
 The `historic_countries` database contains former countries that have been
 removed from the standard and are now included in ISO 3166-3, excluding
@@ -261,9 +261,6 @@ Here is an example translating language names:
   >>> german.install()
   >>> _('Germany')
   'Deutschland'
-
-The most recent locale translations for countries and historic countries are 
-available in the iso3166-1.mo and iso3166-3.mo files respectively. 
 
 
 Lookups

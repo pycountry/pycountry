@@ -11,6 +11,8 @@ Changes
 -------------------
 
 - Update to iso-codes 4.11.0.
+- Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo files
+  for Country and Historic Country Translations respectively. 
 
 
 22.3.5 (2022-03-05)
