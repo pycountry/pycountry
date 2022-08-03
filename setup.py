@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="pycountry",
-    version="22.3.6.dev0",
+    version="22.3.6",
     author="Christian Theune",
     author_email="ct@flyingcircus.io",
     description="ISO country, subdivision, language, currency and script "
