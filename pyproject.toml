@@ -1,6 +1,69 @@
+[build-system]
+requires = ["hatchling>=1.8.0", "hatch-fancy-pypi-readme"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pycountry"
+version = "22.3.6.dev0"
+description = "ISO country, subdivision, language, currency and script definitions and their translations"
+license = "LGPL-2.1-only"
+requires-python = ">=3.7, <4"
+authors = [
+  { name = "Christian Theune", email = "ct@flyingcircus.io" },
+]
+keywords = [
+  "15924",
+  "3166",
+  "3166-2",
+  "4217",
+  "639",
+  "country",
+  "currency",
+  "iso",
+  "language",
+  "subdivision",
+]
+classifiers = [
+  # See: https://pypi.org/classifiers/
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Internationalization",
+  "Topic :: Software Development :: Localization",
+]
+dependencies = [
+  "setuptools",  # pkg_resources
+]
+dynamic = ["readme"]
+
+[project.urls]
+Homepage = "https://github.com/flyingcircusio/pycountry"
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/x-rst"
+fragments = [
+  { path = "README.rst" },
+  { path = "HISTORY.txt" },
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "*.rst",
+  "*.txt",
+]
+
 [tool.black]
 line-length = 80
-target-version = ['py36', 'py37', 'py38']
+target-version = ["py37", "py38"]
 
 [tool.isort]
 profile = "black"
