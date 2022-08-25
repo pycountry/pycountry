@@ -20,9 +20,9 @@ def test_country_list():
 
 
 def test_country_fuzzy_search():
-    results = pycountry.countries.search_fuzzy("Overijssel")
+    results = pycountry.countries.search_fuzzy("England")
     assert len(results) == 1
-    assert results[0] == pycountry.countries.get(alpha_2="NL")
+    assert results[0] == pycountry.countries.get(alpha_2="GB")
 
     # Match alternative names exactly and thus NL ends up with
     # "Sint Maarten" before SX with "Sint Maarten (Dutch part)"
@@ -76,7 +76,7 @@ def test_germany_has_all_attributes():
 
 
 def test_subdivisions_directly_accessible():
-    assert len(pycountry.subdivisions) == 5123
+    assert len(pycountry.subdivisions) == 5127
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
