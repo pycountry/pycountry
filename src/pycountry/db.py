@@ -31,6 +31,14 @@ class Data:
         return dir(self.__class__) + list(self._fields)
 
 
+class Country(Data):
+    def __getattr__(self, key):
+        if key in ("common_name", "official_name"):
+            if key not in self._fields:
+                return self._fields["name"]
+        return super().__getattr__(key)
+
+
 def lazy_load(f):
     def load_if_needed(self, *args, **kw):
         if not self._is_loaded:
@@ -43,6 +51,7 @@ def lazy_load(f):
 
 class Database:
 
+    data_class = None
     data_class_base = Data
     data_class_name = None
     root_key = None
@@ -62,9 +71,10 @@ class Database:
         self.index_names = set()
         self.indices = {}
 
-        self.data_class = type(
-            self.data_class_name, (self.data_class_base,), {}
-        )
+        if not self.data_class:
+            self.data_class = type(
+                self.data_class_name, (self.data_class_base,), {}
+            )
 
         with open(self.filename, "r", encoding="utf-8") as f:
             tree = json.load(f)

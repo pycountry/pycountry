@@ -35,7 +35,7 @@ def remove_accents(input_str):
 class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    data_class_name = "Country"
+    data_class = pycountry.db.Country
     root_key = "3166-1"
 
     def search_fuzzy(self, query):

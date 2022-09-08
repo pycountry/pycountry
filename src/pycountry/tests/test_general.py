@@ -73,6 +73,29 @@ def test_germany_has_all_attributes():
     assert germany.numeric == "276"
     assert germany.name == "Germany"
     assert germany.official_name == "Federal Republic of Germany"
+    assert germany.common_name == "Germany"
+
+
+def test_missing_common_official_use_same():
+    aruba = pycountry.countries.get(alpha_2="AW")
+    assert aruba.alpha_2 == "AW"
+    assert aruba.name == "Aruba"
+    assert aruba.official_name == "Aruba"
+    assert aruba.common_name == "Aruba"
+
+
+def test_missing_common_official_use_different():
+    aruba = pycountry.countries.get(alpha_2="VN")
+    assert aruba.alpha_2 == "VN"
+    assert aruba.name == "Viet Nam"
+    assert aruba.official_name == "Socialist Republic of Viet Nam"
+    assert aruba.common_name == "Vietnam"
+
+
+def test_country_missing_attribute():
+    germany = pycountry.countries.get(alpha_2="DE")
+    with pytest.raises(AttributeError):
+        _ = germany.foo
 
 
 def test_subdivisions_directly_accessible():
