@@ -278,6 +278,37 @@ example:
 The search ends with the first match, which is returned.
 
 
+Dict Compatibility
+------------------
+
+You can cast each object type into a `dict`:
+
+.. code:: pycon
+
+ >>> country = pycountry.countries.lookup('de')
+ >>> dict(country)
+ {'alpha_2': 'DE', 'name': 'Germany', ...}
+
+
+Custom Countries
+----------------
+
+While pycountry will not be adding non-ISO values to its standard library,
+you can add or remove entries at runtime to fit your needs.
+
+Add a non-ISO country:
+
+.. code:: pycon
+
+ >>> pycountry.countries.add_entry(alpha_2="XK", alpha_3="XXK", name="Kosovo", numeric="926")
+
+Remove a country from a database:
+
+.. code:: pycon
+
+ >>> pycountry.countries.remove_entry(alpha_2="XK")
+
+
 PyInstaller Compatibility
 -------------------------
 
