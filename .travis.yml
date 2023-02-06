@@ -1,10 +1,11 @@
 language: python
 python:
-  - "3.6"      # current detault Python on Travis CI
   - "3.7"
   - "3.8"
   - "3.9"
-  - "3.10-dev"  # 3.10 development branch
+  - "3.10"
+  - "3.11"
+  - "3.11-dev"
   - "nightly"  # nightly build
 
 install:

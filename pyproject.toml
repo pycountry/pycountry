@@ -1,6 +1,5 @@
 [tool.black]
 line-length = 80
-target-version = ['py36', 'py37', 'py38']
 
 [tool.isort]
 profile = "black"
@@ -23,11 +22,11 @@ classifiers = [
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Topic :: Software Development :: Internationalization",
         "Topic :: Software Development :: Localization"
         ]
