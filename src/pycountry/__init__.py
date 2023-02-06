@@ -1,4 +1,3 @@
-# vim:fileencoding=utf-8
 """pycountry"""
 
 import os.path
@@ -153,10 +152,10 @@ class Subdivision(pycountry.db.Data):
             kw["parent_code"] = kw["parent"]
         else:
             kw["parent_code"] = None
-        super(Subdivision, self).__init__(**kw)
+        super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
         if self.parent_code is not None:
-            self.parent_code = "%s-%s" % (self.country_code, self.parent_code)
+            self.parent_code = f"{self.country_code}-{self.parent_code}"
 
     @property
     def country(self):
@@ -181,7 +180,7 @@ class Subdivisions(pycountry.db.Database):
     root_key = "3166-2"
 
     def _load(self, *args, **kw):
-        super(Subdivisions, self)._load(*args, **kw)
+        super()._load(*args, **kw)
 
         # Add index for the country code.
         self.indices["country_code"] = {}
@@ -193,7 +192,7 @@ class Subdivisions(pycountry.db.Database):
 
     def get(self, **kw):
         default = kw.setdefault("default", None)
-        subdivisions = super(Subdivisions, self).get(**kw)
+        subdivisions = super().get(**kw)
         if subdivisions is default and "country_code" in kw:
             # This handles the case where we know about a country but there
             # are no subdivisions: we return an empty list in this case
