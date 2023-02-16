@@ -162,7 +162,7 @@
     },
     {
       "code": "AF-KNR",
-      "name": "Kunaṟ",
+      "name": "Kunar",
       "type": "Province"
     },
     {
@@ -7371,7 +7371,7 @@
       "type": "Metropolitan department"
     },
     {
-      "code": "FR-75",
+      "code": "FR-75C",
       "name": "Paris",
       "parent": "IDF",
       "type": "Metropolitan department"
@@ -13444,88 +13444,103 @@
       "type": "Governorate"
     },
     {
-      "code": "KZ-AKM",
+      "code": "KZ-11",
       "name": "Akmolinskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-AKT",
+      "code": "KZ-15",
       "name": "Aktjubinskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-ALA",
+      "code": "KZ-75",
       "name": "Almaty",
       "type": "City"
     },
     {
-      "code": "KZ-ALM",
+      "code": "KZ-19",
       "name": "Almatinskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-AST",
+      "code": "KZ-71",
       "name": "Nur-Sultan",
       "type": "City"
     },
     {
-      "code": "KZ-ATY",
+      "code": "KZ-23",
       "name": "Atyrauskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-KAR",
+      "code": "KZ-35",
       "name": "Karagandinskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-KUS",
+      "code": "KZ-39",
       "name": "Kostanajskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-KZY",
+      "code": "KZ-43",
       "name": "Kyzylordinskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-MAN",
+      "code": "KZ-47",
       "name": "Mangghystaū oblysy",
       "type": "Region"
     },
     {
-      "code": "KZ-PAV",
+      "code": "KZ-55",
       "name": "Pavlodar oblysy",
       "type": "Region"
     },
     {
-      "code": "KZ-SEV",
+      "code": "KZ-59",
       "name": "Severo-Kazahstanskaja oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-SHY",
+      "code": "KZ-79",
       "name": "Shymkent",
       "type": "City"
     },
     {
-      "code": "KZ-VOS",
+      "code": "KZ-63",
       "name": "Shyghys Qazaqstan oblysy",
       "type": "Region"
     },
     {
-      "code": "KZ-YUZ",
+      "code": "KZ-61",
       "name": "Turkestankaya oblast'",
       "type": "Region"
     },
     {
-      "code": "KZ-ZAP",
+      "code": "KZ-27",
       "name": "Batys Qazaqstan oblysy",
       "type": "Region"
     },
     {
-      "code": "KZ-ZHA",
+      "code": "KZ-31",
       "name": "Zhambyl oblysy",
+      "type": "Region"
+    },
+    {
+      "code": "KZ-10",
+      "name": "Abay oblysy",
+      "type": "Region"
+    },
+    {
+      "code": "KZ-33",
+      "name": "Zhetisū oblysy",
+      "type": "Region"
+    },
+    {
+      "code": "KZ-62",
+      "name": "Ulytaū oblysy",
       "type": "Region"
     },
     {
