@@ -34,8 +34,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.7"
-importlib-metadata = "^6.1.0"
-importlib-resources = "^5.12.0"
+importlib-metadata = {version = "^6.1.0", python = "<3.8"}
+importlib-resources = {version = "^5.12.0", python = "<3.9"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.3"

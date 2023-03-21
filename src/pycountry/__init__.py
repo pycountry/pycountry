@@ -4,14 +4,28 @@
 import os.path
 import unicodedata
 
-import importlib_metadata
-import importlib_resources
-
 import pycountry.db
+
+# TODO: Remove the importlib_metadata fallback once support for Python 3.7 is dropped
+try:
+    from importlib import metadata as importlib_metadata
+except ModuleNotFoundError:
+    import importlib_metadata
+
+# We prioritise importing the backported `importlib_resources`
+# because the function we use (`importlib.resources.files`) is only
+# available from Python 3.9, but the module itself exists since 3.7.
+# We install `importlib_resources` on Python < 3.9.
+# TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
+try:
+    import importlib_resources
+except ModuleNotFoundError:
+    from importlib import resources as importlib_resources
 
 
 def resource_filename(package_or_requirement, resource_name):
     return str(importlib_resources.files(package_or_requirement) / resource_name)
+
 
 def get_version(distribution_name):
     try:
