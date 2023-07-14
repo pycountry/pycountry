@@ -26,10 +26,13 @@ LOCALES_DIR = resource_filename("pycountry", "locales")
 DATABASE_DIR = resource_filename("pycountry", "databases")
 
 
-def remove_accents(input_str):
-    # Borrowed from https://stackoverflow.com/a/517974/1509718
-    nfkd_form = unicodedata.normalize("NFKD", input_str)
-    return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
+def remove_accents(input_str: str):
+    output_str = input_str
+    if not input_str.isascii():
+        # Borrowed from https://stackoverflow.com/a/517974/1509718
+        nfkd_form = unicodedata.normalize("NFKD", input_str)
+        output_str = "".join([c for c in nfkd_form if not unicodedata.combining(c)])
+    return output_str
 
 
 class ExistingCountries(pycountry.db.Database):
