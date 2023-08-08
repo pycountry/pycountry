@@ -5,25 +5,16 @@ import os.path
 import unicodedata
 
 import pycountry.db
+from importlib import metadata
 
 try:
-    import pkg_resources
-
-    resource_filename = pkg_resources.resource_filename
-except ImportError:
-
-    def resource_filename(package_or_requirement, resource_name):
-        return os.path.join(os.path.dirname(__file__), resource_name)
-
-else:
-    try:
-        __version__ = pkg_resources.get_distribution("pycountry").version
-    except pkg_resources.DistributionNotFound:
-        __version__ = "n/a"
+    __version__ = metadata.version("pycountry")
+except metadata.PackageNotFoundError:
+    __version__ = "n/a"
 
 
-LOCALES_DIR = resource_filename("pycountry", "locales")
-DATABASE_DIR = resource_filename("pycountry", "databases")
+LOCALES_DIR = os.path.join(os.path.dirname(__file__), "locales")
+DATABASE_DIR = os.path.join(os.path.dirname(__file__), "databases")
 
 
 def remove_accents(input_str):
