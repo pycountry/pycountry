@@ -1,9 +1,6 @@
-# vim:fileencoding=utf-8
-
 import json
 import logging
 import threading
-from io import open
 
 logger = logging.getLogger("pycountry.db")
 
@@ -20,12 +17,12 @@ class Data:
     def __setattr__(self, key, value):
         if key != "_fields":
             self._fields[key] = value
-        super(Data, self).__setattr__(key, value)
+        super().__setattr__(key, value)
 
     def __repr__(self):
         cls_name = self.__class__.__name__
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
-        return "%s(%s)" % (cls_name, fields)
+        return f"{cls_name}({fields})"
 
     def __dir__(self):
         return dir(self.__class__) + list(self._fields)
@@ -65,7 +62,7 @@ class Database:
             self.data_class_name, (self.data_class_base,), {}
         )
 
-        with open(self.filename, "r", encoding="utf-8") as f:
+        with open(self.filename, encoding="utf-8") as f:
             tree = json.load(f)
 
         for entry in tree[self.root_key]:
