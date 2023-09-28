@@ -6,11 +6,7 @@ import unicodedata
 
 import pycountry.db
 
-# TODO: Remove the importlib_metadata fallback once support for Python 3.7 is dropped
-try:
-    from importlib import metadata as importlib_metadata
-except ModuleNotFoundError:
-    import importlib_metadata
+from importlib import metadata as importlib_metadata
 
 # We prioritise importing the backported `importlib_resources`
 # because the function we use (`importlib.resources.files`) is only
