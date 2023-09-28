@@ -2,10 +2,9 @@
 
 import os.path
 import unicodedata
+from importlib import metadata as importlib_metadata
 
 import pycountry.db
-
-from importlib import metadata as importlib_metadata
 
 # We prioritise importing the backported `importlib_resources`
 # because the function we use (`importlib.resources.files`) is only
@@ -19,7 +18,9 @@ except ModuleNotFoundError:
 
 
 def resource_filename(package_or_requirement, resource_name):
-    return str(importlib_resources.files(package_or_requirement) / resource_name)
+    return str(
+        importlib_resources.files(package_or_requirement) / resource_name
+    )
 
 
 def get_version(distribution_name):
