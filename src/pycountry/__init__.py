@@ -6,24 +6,37 @@ import unicodedata
 
 import pycountry.db
 
+# TODO: Remove the importlib_metadata fallback once support for Python 3.7 is dropped
 try:
-    import pkg_resources
+    from importlib import metadata as importlib_metadata
+except ModuleNotFoundError:
+    import importlib_metadata
 
-    resource_filename = pkg_resources.resource_filename
-except ImportError:
+# We prioritise importing the backported `importlib_resources`
+# because the function we use (`importlib.resources.files`) is only
+# available from Python 3.9, but the module itself exists since 3.7.
+# We install `importlib_resources` on Python < 3.9.
+# TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
+try:
+    import importlib_resources
+except ModuleNotFoundError:
+    from importlib import resources as importlib_resources
 
-    def resource_filename(package_or_requirement, resource_name):
-        return os.path.join(os.path.dirname(__file__), resource_name)
 
-else:
+def resource_filename(package_or_requirement, resource_name):
+    return str(importlib_resources.files(package_or_requirement) / resource_name)
+
+
+def get_version(distribution_name):
     try:
-        __version__ = pkg_resources.get_distribution("pycountry").version
-    except pkg_resources.DistributionNotFound:
-        __version__ = "n/a"
+        return importlib_metadata.version(distribution_name)
+    except importlib_metadata.PackageNotFoundError:
+        return "n/a"
 
 
 LOCALES_DIR = resource_filename("pycountry", "locales")
 DATABASE_DIR = resource_filename("pycountry", "databases")
+__version__ = get_version("pycountry")
 
 
 def remove_accents(input_str):
