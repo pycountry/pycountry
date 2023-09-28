@@ -1,14 +1,14 @@
 Changes
 =======
 
-22.9.30 (unreleased)
+23.9.28 (unreleased)
 -------------------
 
-- Nothing changed, yet.
+- Dropped support for end-of-life Python 3.6 and 3.7.
 
+- Added support for Python 3.11
 
-22.9.29 (2022-09-29)
---------------------
+- Added explicit dependency on setuptools.
 
 - Fix tests.
 

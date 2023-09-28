@@ -1,5 +1,6 @@
 [tool.black]
 line-length = 80
+target-version = ['py38']
 
 [tool.isort]
 profile = "black"
@@ -7,7 +8,7 @@ line_length = 80
 
 [tool.poetry]
 name = "pycountry"
-version = "22.3.6.dev0"
+version = "23.9.28.dev0"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 authors = ["Christian Theune <ct@flyingcircus.io>"]
 license = "LGPL 2.1"
@@ -22,7 +23,6 @@ classifiers = [
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
@@ -32,7 +32,7 @@ classifiers = [
         ]
 
 [tool.poetry.dependencies]
-python = ">=3.7"
+python = ">=3.8"
 setuptools = "^65.4.0"
 
 [tool.poetry.dev-dependencies]
