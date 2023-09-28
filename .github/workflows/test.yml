@@ -31,11 +31,25 @@ jobs:
 
     # Poetry bootstrap taken from
     # https://jacobian.org/til/github-actions-poetry/
+
+      - name: cache poetry install
+        uses: actions/cache@v2
+        with:
+          path: ~/.local
+          key: poetry-1.6.1-py${{ matrix.python-version }}
       - uses: snok/install-poetry@v1
         with:
           version: 1.6.1
           virtualenvs-create: true
           virtualenvs-in-project: true
+      - name: cache deps
+        id: cache-deps
+        uses: actions/cache@v2
+        with:
+          path: .venv
+          key: py${{ matrix.python-version}}deps-${{ hashFiles('**/poetry.lock') }}
       - run: poetry install --no-interaction --no-root
+        if: steps.cache-deps.outputs.cache-hit != 'true'
+
       - run: poetry install
       - run: poetry run pytest -vv
