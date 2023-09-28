@@ -8,7 +8,9 @@ Changes
 
 - Added support for Python 3.11
 
-- Added explicit dependency on setuptools.
+- Added dependency on importlib-resources for Python 3.8.
+
+- Dropped implicit dependency on setuptools for pkg_resources.
 
 - Fix tests.
 
