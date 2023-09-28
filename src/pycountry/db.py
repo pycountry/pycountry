@@ -42,7 +42,6 @@ def lazy_load(f):
 
 
 class Database:
-
     data_class_base = Data
     data_class_name = None
     root_key = None
