@@ -31,3 +31,7 @@ lint:
 .PHONY: test
 test:
 	$(TOX)
+
+.PHONY: clean
+clean:
+	git clean -fdX
