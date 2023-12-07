@@ -6,7 +6,7 @@ Changes
 
 - Dropped support for end-of-life Python 3.6 and 3.7.
 
-- Added support for Python 3.11
+- Added support for Python 3.11 and Python 3.12.
 
 - Added dependency on importlib-resources for Python 3.8.
 
