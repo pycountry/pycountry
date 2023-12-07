@@ -12,8 +12,6 @@ Changes
 
 - Dropped implicit dependency on setuptools for pkg_resources.
 
-- Fix tests.
-
 - Update to iso-codes 4.11.0.
 
 - Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo
@@ -21,7 +19,6 @@ Changes
 
   Warning: This requires an update in your application code when you previously
   used to access the iso3166 gettext data.
-
 
 
 22.3.5 (2022-03-05)
@@ -41,6 +38,7 @@ Changes
 
 - Fix bug #37: (accidental) unconditional pkg_resources import.
   (thanks, crbunney)
+
 
 20.7.2 (2020-07-02)
 -------------------
