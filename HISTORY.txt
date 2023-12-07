@@ -11,6 +11,7 @@ Changes
 - Added dependency on importlib-resources for Python 3.8.
 
 - Dropped implicit dependency on setuptools for pkg_resources.
+  (Thanks to D3X!)
 
 - Update to iso-codes 4.15.0. (Thanks to alanorth!)
 
