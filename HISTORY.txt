@@ -12,7 +12,7 @@ Changes
 
 - Dropped implicit dependency on setuptools for pkg_resources.
 
-- Update to iso-codes 4.11.0.
+- Update to iso-codes 4.15.0. (Thanks to alanorth!)
 
 - Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo
   files for Country and Historic Country Translations respectively.
