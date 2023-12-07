@@ -10,7 +10,7 @@ import os.path
 import shutil
 import subprocess
 
-REVISION = "v4.11.0"
+REVISION = "v4.15.0"
 
 data_dir = "parts/data"
 base_dir = os.path.join("src", "pycountry")
