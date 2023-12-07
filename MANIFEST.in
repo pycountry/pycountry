@@ -1,4 +1,0 @@
-include *.txt
-include *.rst
-graft src/pycountry
-global-exclude *.py[co]
