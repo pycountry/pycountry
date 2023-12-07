@@ -8,13 +8,13 @@ line_length = 80
 
 [tool.poetry]
 name = "pycountry"
-version = "23.9.28.dev0"
+version = "23.12.07"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 authors = ["Christian Theune <ct@flyingcircus.io>"]
 license = "LGPL 2.1"
 readme = "README.rst"
 repository = "https://github.com/flyingcircusio/pycountry"
-keywords = [ "country", "subdivision", "language", "currency", "iso", "3166", "639", "4217", "15924", "3166-2"]
+keywords = [ "country", "subdivision", "language", "currency", "iso", "3166", "639", "4217", "15924", "3166-1","3166-2", "3166-3"]
 classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
