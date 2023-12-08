@@ -58,7 +58,9 @@ class Database:
     root_key: Optional[str] = None
     no_index: List[str] = []
 
-    def __init__(self, filename: str, data_class_name: Optional[str] = None) -> None:
+    def __init__(
+        self, filename: str, data_class_name: Optional[str] = None
+    ) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
