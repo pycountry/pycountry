@@ -36,7 +36,9 @@ def test_no_results_lookup_error():
         )
 
     DATABASE_DIR = resource_filename("pycountry", "databases")
-    countries = pycountry.ExistingCountries(os.path.join(DATABASE_DIR, "iso3166-1.json"))
+    countries = pycountry.ExistingCountries(
+        os.path.join(DATABASE_DIR, "iso3166-1.json")
+    )
 
     query = "nonexistent query"
     with pytest.raises(LookupError):
