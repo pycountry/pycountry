@@ -29,6 +29,30 @@ class Data:
         return dir(self.__class__) + list(self._fields)
 
 
+class Script(Data):
+    pass
+
+
+class Currency(Data):
+    pass
+
+
+class Language(Data):
+    pass
+
+
+class LanguageFamily(Data):
+    pass
+
+
+class Country(Data):
+    def __getattr__(self, key):
+        if key in ("common_name", "official_name"):
+            if key not in self._fields:
+                return self._fields["name"]
+        return super().__getattr__(key)
+
+      
 def lazy_load(f: Type) -> Type:
     def load_if_needed(self: Type, *args: Type, **kw: Type) -> Type:
         if not self._is_loaded:
@@ -40,6 +64,7 @@ def lazy_load(f: Type) -> Type:
 
 
 class Database:
+    data_class = None
     data_class_base: Type = Data
     data_class_name: Optional[str] = None
     root_key: Optional[str] = None
@@ -59,9 +84,10 @@ class Database:
         self.index_names = set()
         self.indices = {}
 
-        self.data_class = type(
-            self.data_class_name, (self.data_class_base,), {}
-        )
+        if not self.data_class:
+            self.data_class = type(
+                self.data_class_name, (self.data_class_base,), {}
+            )
 
         with open(self.filename, encoding="utf-8") as f:
             tree = json.load(f)

@@ -46,8 +46,8 @@ def remove_accents(input_str: str) -> str:
 class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    data_class_name: str = "Country"
-    root_key: str = "3166-1"
+    data_class = pycountry.db.Country
+    root_key = "3166-1"
 
     def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
@@ -124,21 +124,21 @@ class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    data_class_name = "Country"
+    data_class = pycountry.db.Country
     root_key = "3166-3"
 
 
 class Scripts(pycountry.db.Database):
     """Provides access to an ISO 15924 database (Scripts)."""
 
-    data_class_name = "Script"
+    data_class = pycountry.db.Script
     root_key = "15924"
 
 
 class Currencies(pycountry.db.Database):
     """Provides access to an ISO 4217 database (Currencies)."""
 
-    data_class_name = "Currency"
+    data_class = pycountry.db.Currency
     root_key = "4217"
 
 
@@ -146,7 +146,7 @@ class Languages(pycountry.db.Database):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
-    data_class_name = "Language"
+    data_class = pycountry.db.Language
     root_key = "639-3"
 
 
@@ -154,7 +154,7 @@ class LanguageFamilies(pycountry.db.Database):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
-    data_class_name = "LanguageFamily"
+    data_class = pycountry.db.LanguageFamily
     root_key = "639-5"
 
 
@@ -186,7 +186,7 @@ class Subdivisions(pycountry.db.Database):
     # the country!
 
     data_class_base = Subdivision
-    data_class_name = "Subdivision"
+    data_class = pycountry.Subdivision
     no_index = ["name", "parent_code", "parent", "type"]
     root_key = "3166-2"
 
