@@ -91,7 +91,7 @@ with more matches be listed before ones with fewer matches:
    Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
    Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
 
-Attributes for the country class can be accessed via the `__getattr__` method. An attribute error will be raised if the called attribute is not a key for the given country class, except in the case of a missing 'common_name' or 'official_name' in which case the `__getattr__` method will return 'name'
+Attributes for the country class can be accessed using the `__getattr__` method. If the requested attribute is a key for the country class, it will return the corresponding value. In the special cases of missing 'common_name' or 'official_name' attributes, `__getattr__` will return 'name'. Here are some examples:
 
 .. code:: pycon
 
@@ -109,12 +109,7 @@ Attributes for the country class can be accessed via the `__getattr__` method. A
   >>> aland.__getattr__('flag')
   '🇦🇽'
 
-  >>> aland.__getattr__('')
-  Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-    . . .
-        raise AttributeError
-  AttributeError
+  >>> aland.__getattr__('')  # Raises AttributeError
 
 Historic Countries (ISO 3166-3)
 -------------------------------
