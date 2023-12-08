@@ -28,6 +28,22 @@ class Data:
         return dir(self.__class__) + list(self._fields)
 
 
+class Script(Data):
+    pass
+
+
+class Currency(Data):
+    pass
+
+
+class Language(Data):
+    pass
+
+
+class LanguageFamily(Data):
+    pass
+
+
 class Country(Data):
     def __getattr__(self, key):
         if key in ("common_name", "official_name"):

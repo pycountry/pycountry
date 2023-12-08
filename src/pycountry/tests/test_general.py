@@ -269,3 +269,28 @@ def test_has_version_attribute():
     assert pycountry.__version__ != "n/a"
     assert len(pycountry.__version__) >= 5
     assert "." in pycountry.__version__
+
+
+def test_is_instance_of_language():
+    english = pycountry.languages.get(alpha_2="en")
+    assert isinstance(english, pycountry.db.Language)
+
+
+def test_is_instance_of_country():
+    united_states = pycountry.countries.get(alpha_2="US")
+    assert isinstance(united_states, pycountry.db.Country)
+
+
+def test_is_instance_of_subdivision():
+    de_st = pycountry.subdivisions.get(code="DE-ST")
+    assert isinstance(de_st, pycountry.Subdivision)
+
+
+def test_is_instance_of_script():
+    latin = pycountry.scripts.get(name="Latin")
+    assert isinstance(latin, pycountry.db.Script)
+
+
+def test_is_instance_of_currency():
+    argentine_peso = pycountry.currencies.get(alpha_3="ARS")
+    assert isinstance(argentine_peso, pycountry.db.Currency)
