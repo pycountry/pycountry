@@ -1,8 +1,68 @@
 Changes
 =======
 
-19.8.19 (unreleased)
+23.12.7 (2023-12-07)
 --------------------
+
+- Dropped support for end-of-life Python 3.6 and 3.7.
+
+- Added support for Python 3.11 and Python 3.12.
+
+- Added dependency on importlib-resources for Python 3.8.
+
+- Dropped implicit dependency on setuptools for pkg_resources.
+  (Thanks to D3X!)
+
+- Update to iso-codes 4.15.0. (Thanks to alanorth!)
+
+- Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo
+  files for Country and Historic Country Translations respectively.
+
+  Warning: This requires an update in your application code when you previously
+  used to access the iso3166 gettext data.
+
+
+22.3.5 (2022-03-05)
+-------------------
+
+- Update to iso-codes 4.9.0.
+
+
+22.1.10 (2022-01-10)
+--------------------
+
+- Update to iso-codes 4.8.0. (Thanks to llimeht!)
+
+
+20.7.3 (2020-07-03)
+-------------------
+
+- Fix bug #37: (accidental) unconditional pkg_resources import.
+  (thanks, crbunney)
+
+
+20.7.2 (2020-07-02)
+-------------------
+
+- Add (auto-generated) __version__ attribute to the main module.
+  (Fixes issue #4)
+
+- Add fuzzy search to historic countries. (Fixe issue #26)
+
+- Update to iso-codes 4.5.0.
+
+- PR 9: Clean up the normalization (lower casing) of values in indexes and searches.
+  See PR https://github.com/flyingcircusio/pycountry/pull/9 for detailed
+  discussion. This also fixed issue #8.
+
+- Smaller cleanups and build environment version bumps.
+
+- PR 35: Python 3-only cleanups and updated Python minor version compatibility
+  (thanks, Djailla)
+
+- PR 33: Remove defunct bugtracker link from README (thanks, jwilk)
+
+- PR 32: (Somewhat hilarious) Typo (thanks, jwilk)
 
 - Moved to Git/Github; switched from Bitbucket Pipelines to Travis builds.
 

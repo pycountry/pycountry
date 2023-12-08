@@ -5,23 +5,13 @@ pycountry
 
 pycountry provides the ISO databases for the standards:
 
-639-3
-  Languages
-
-3166
-  Countries
-
-3166-3
-  Deleted countries
-
-3166-2
-  Subdivisions of countries
-
-4217
-  Currencies
-
-15924
-  Scripts
+* `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
+* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
+* `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ Countries
+* `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ Deleted countries
+* `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ Subdivisions of countries
+* `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ Currencies
+* `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ Scripts
 
 The package includes a copy from Debian's `pkg-isocodes
 <https://salsa.debian.org/iso-codes-team/iso-codes>`_ and makes the data
@@ -34,7 +24,7 @@ Data update policy
 
 No changes to the data will be accepted into pycountry. This is a pure wrapper
 around the ISO standard using the `pkg-isocodes` database from Debian *as is*.
-If you need changes to the politicial situation in the world, please talk to
+If you need changes to the political situation in the world, please talk to
 the ISO or Debian people, not me.
 
 Donations / Monetary Support
@@ -52,12 +42,8 @@ Contributions
 The code lives in a `git repository on GitHub
 <https://github.com/flyingcircusio/pycountry>`_, and issues must be reported in there as well.
 
-Some old issues still live in the
-`Bitbucket project bugtracker
-<https://bitbucket.org/flyingcircus/pycountry/issues?status=new&status=open>`_ but please do not report new issues there.
-
-Countries (ISO 3166)
---------------------
+Countries (ISO 3166-1)
+----------------------
 
 Countries are accessible through a database object that is already configured
 upon import of pycountry and works as an iterable:
@@ -89,6 +75,26 @@ information included in the standard as attributes:
   >>> germany.official_name
   'Federal Republic of Germany'
 
+There's also a "fuzzy" search to help people discover "proper" countries for
+names that might only actually be subdivisions. The fuzziness also includes
+normalizing unicode accents. There's also a bit of prioritization included
+to prefer matches on country names before subdivision names and have countries
+with more matches be listed before ones with fewer matches:
+
+.. code:: pycon
+
+  >>> pycountry.countries.search_fuzzy('England')
+  [Country(alpha_2='GB', alpha_3='GBR', name='United Kingdom', numeric='826', official_name='United Kingdom of Great Britain and Northern Ireland')]
+
+  >>> pycountry.countries.search_fuzzy('Cote')
+  [Country(alpha_2='CI', alpha_3='CIV', name="Côte d'Ivoire", numeric='384', official_name="Republic of Côte d'Ivoire"),
+   Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
+   Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
+
+
+Historic Countries (ISO 3166-3)
+-------------------------------
+
 The `historic_countries` database contains former countries that have been
 removed from the standard and are now included in ISO 3166-3, excluding
 existing ones:
@@ -106,23 +112,6 @@ existing ones:
  'USSR, Union of Soviet Socialist Republics'
  >>> ussr.withdrawal_date
  '1992-08-30'
-
-
-There's also a "fuzzy" search to help people discover "proper" countries for
-names that might only actually be subdivisions. The fuzziness also includes
-normalizing unicode accents. There's also a bit of prioritization included
-to prefer matches on country names before subdivision names and have countries
-with more matches be listed before ones with fewer matches:
-
-.. code:: pycon
-
-  >>> pycountry.countries.search_fuzzy('England')
-  [Country(alpha_2='GB', alpha_3='GBR', name='United Kingdom', numeric='826', official_name='United Kingdom of Great Britain and Northern Ireland')]
-
-  >>> pycountry.countries.search_fuzzy('Cote')
-  [Country(alpha_2='CI', alpha_3='CIV', name="Côte d'Ivoire", numeric='384', official_name="Republic of Côte d'Ivoire"),
-   Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
-   Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
 
 
 Country subdivisions (ISO 3166-2)
@@ -268,10 +257,11 @@ Here is an example translating language names:
 .. code:: pycon
 
   >>> import gettext
-  >>> german = gettext.translation('iso3166', pycountry.LOCALES_DIR,
+  >>> german = gettext.translation('iso3166-1', pycountry.LOCALES_DIR,
   ...                              languages=['de'])
   >>> german.gettext('Germany')
   'Deutschland'
+
 
 Lookups
 -------
@@ -286,3 +276,11 @@ example:
   <pycountry.db.Country object at 0x...>
 
 The search ends with the first match, which is returned.
+
+
+PyInstaller Compatibility
+-------------------------
+
+Some users have reported issues using PyCountry with PyInstaller guidance on
+how to handle the issues can be found in the `PyInstaller Google Group
+<https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
