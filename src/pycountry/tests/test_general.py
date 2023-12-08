@@ -1,6 +1,6 @@
 import gettext
-import re
 import os.path
+import re
 
 import pytest
 
@@ -287,12 +287,12 @@ def test_has_version_attribute():
 
 def test_is_instance_of_language():
     english = pycountry.languages.get(alpha_2="en")
-    assert isinstance(english, pycountry.db.Language)
+    assert isinstance(english, pycountry.Language)
 
 
 def test_is_instance_of_country():
     united_states = pycountry.countries.get(alpha_2="US")
-    assert isinstance(united_states, pycountry.db.Country)
+    assert isinstance(united_states, pycountry.Country)
 
 
 def test_is_instance_of_subdivision():
@@ -302,12 +302,12 @@ def test_is_instance_of_subdivision():
 
 def test_is_instance_of_script():
     latin = pycountry.scripts.get(name="Latin")
-    assert isinstance(latin, pycountry.db.Script)
+    assert isinstance(latin, pycountry.Script)
 
 
 def test_is_instance_of_currency():
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
-    assert isinstance(argentine_peso, pycountry.db.Currency)
+    assert isinstance(argentine_peso, pycountry.Currency)
 
 
 def test_add_entry():

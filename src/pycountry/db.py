@@ -34,22 +34,6 @@ class Data:
             yield field, getattr(self, field)
 
 
-class Script(Data):
-    pass
-
-
-class Currency(Data):
-    pass
-
-
-class Language(Data):
-    pass
-
-
-class LanguageFamily(Data):
-    pass
-
-
 class Country(Data):
     def __getattr__(self, key):
         if key in ("common_name", "official_name"):
@@ -79,10 +63,11 @@ class Database:
         self._is_loaded = False
         self._load_lock = threading.Lock()
 
-        # create data class
-        self.data_class = type(
-            self.data_class_name, (self.data_class_base,), {}
-        )
+        # create data class if data_class_name is provided
+        if data_class_name:
+            self.data_class = type(data_class_name, (self.data_class_base,), {})
+        else:
+            self.data_class = None
 
     def _clear(self):
         self._is_loaded = False

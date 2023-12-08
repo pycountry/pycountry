@@ -143,8 +143,9 @@ class Scripts(pycountry.db.Database):
 class Currencies(pycountry.db.Database):
     """Provides access to an ISO 4217 database (Currencies)."""
 
-    data_class = pycountry.db.Currency
-    root_key = "4217"
+    def __init__(self, filename: str) -> None:
+        super().__init__(filename, data_class_name="Currency")
+        self.root_key = "4217"
 
 
 class Languages(pycountry.db.Database):
