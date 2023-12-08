@@ -85,11 +85,11 @@ def test_missing_common_official_use_same():
 
 
 def test_missing_common_official_use_different():
-    aruba = pycountry.countries.get(alpha_2="VN")
-    assert aruba.alpha_2 == "VN"
-    assert aruba.name == "Viet Nam"
-    assert aruba.official_name == "Socialist Republic of Viet Nam"
-    assert aruba.common_name == "Vietnam"
+    vietnam = pycountry.countries.get(alpha_2="VN")
+    assert vietnam.alpha_2 == "VN"
+    assert vietnam.name == "Viet Nam"
+    assert vietnam.official_name == "Socialist Republic of Viet Nam"
+    assert vietnam.common_name == "Vietnam"
 
 
 def test_country_missing_attribute():
