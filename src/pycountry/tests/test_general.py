@@ -202,6 +202,19 @@ def test_repr():
     )
 
 
+def test_dict():
+    country = pycountry.countries.get(alpha_2="DE")
+    exp = {
+        "alpha_2": "DE",
+        "alpha_3": "DEU",
+        "name": "Germany",
+        "numeric": "276",
+        "official_name": "Federal Republic of Germany",
+        "flag": country.flag,
+    }
+    assert dict(country) == exp
+
+
 def test_dir():
     germany = pycountry.countries.get(alpha_2="DE")
     for n in "alpha_2", "alpha_3", "name", "numeric", "official_name":

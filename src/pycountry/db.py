@@ -28,6 +28,11 @@ class Data:
     def __dir__(self) -> List[str]:
         return dir(self.__class__) + list(self._fields)
 
+    def __iter__(self):
+        # allow casting into a dict
+        for field in self._fields:
+            yield field, getattr(self, field)
+
 
 class Script(Data):
     pass
@@ -75,19 +80,23 @@ class Database:
         self._is_loaded = False
         self._load_lock = threading.Lock()
 
+        # create data class
+        self.data_class = type(
+            self.data_class_name, (self.data_class_base,), {}
+        )
+
+    def _clear(self):
+        self._is_loaded = False
+        self.objects = []
+        self.index_names = set()
+        self.indices = {}
+
     def _load(self) -> None:
         if self._is_loaded:
             # Help keeping the _load_if_needed code easier
             # to read.
             return
-        self.objects = []
-        self.index_names = set()
-        self.indices = {}
-
-        if not self.data_class:
-            self.data_class = type(
-                self.data_class_name, (self.data_class_base,), {}
-            )
+        self._clear()
 
         with open(self.filename, encoding="utf-8") as f:
             tree = json.load(f)
@@ -97,12 +106,12 @@ class Database:
             self.objects.append(obj)
             # Inject into index.
             for key, value in entry.items():
-                # Lookups and searches are case insensitive. Normalize
-                # here.
-                value = value.lower()
                 if key in self.no_index:
                     continue
+                # Lookups and searches are case insensitive. Normalize
+                # here.
                 index = self.indices.setdefault(key, {})
+                value = value.lower()
                 if value in index:
                     logger.debug(
                         "%s %r already taken in index %r and will be "
@@ -114,6 +123,45 @@ class Database:
         self._is_loaded = True
 
     # Public API
+
+    @lazy_load
+    def add_entry(self, **kw):
+        # create the object with the correct dynamic type
+        obj = self.data_class(**kw)
+
+        # append object
+        self.objects.append(obj)
+
+        # update indices
+        for key, value in kw.items():
+            if key in self.no_index:
+                continue
+            value = value.lower()
+            index = self.indices.setdefault(key, {})
+            index[value] = obj
+
+    @lazy_load
+    def remove_entry(self, **kw):
+        # make sure that we receive None if no entry found
+        if "default" in kw:
+            del kw["default"]
+        obj = self.get(**kw)
+        if not obj:
+            raise KeyError(
+                f"{self.data_class_name} not found and cannot be removed: {kw}"
+            )
+
+        # remove object
+        self.objects.remove(obj)
+
+        # update indices
+        for key, value in obj:
+            if key in self.no_index:
+                continue
+            value = value.lower()
+            index = self.indices.setdefault(key, {})
+            if value in index:
+                del index[value]
 
     @lazy_load
     def __iter__(self) -> Type:
