@@ -6,7 +6,8 @@ pycountry
 pycountry provides the ISO databases for the standards:
 
 * `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
-* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Countries
+* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
+* `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ Countries
 * `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ Deleted countries
 * `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ Subdivisions of countries
 * `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ Currencies
@@ -42,7 +43,7 @@ The code lives in a `git repository on GitHub
 <https://github.com/flyingcircusio/pycountry>`_, and issues must be reported in there as well.
 
 Countries (ISO 3166-1)
---------------------
+----------------------
 
 Countries are accessible through a database object that is already configured
 upon import of pycountry and works as an iterable:

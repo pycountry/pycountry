@@ -1,4 +1,3 @@
-# vim:fileencoding=utf-8
 # Copyright (c) 2008 gocept gmbh & co. kg
 # Copyright (c) 2014+ Christian Theune, christian@theune.cc
 # See also LICENSE.txt
@@ -11,7 +10,7 @@ import os.path
 import shutil
 import subprocess
 
-REVISION = "v4.11.0"
+REVISION = "v4.15.0"
 
 data_dir = "parts/data"
 base_dir = os.path.join("src", "pycountry")
@@ -52,9 +51,7 @@ for standard in STANDARDS:
 
 # Put the PO files in place and compile them
 for standard in STANDARDS:
-    for src in glob.glob(
-        os.path.join(data_dir, "iso_{}".format(standard), "*.po")
-    ):
+    for src in glob.glob(os.path.join(data_dir, f"iso_{standard}", "*.po")):
         print(src)
         dir, locale = os.path.split(src)
         locale = locale.replace(".po", "")

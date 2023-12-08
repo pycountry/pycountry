@@ -1,29 +1,38 @@
-# vim:fileencoding=utf-8
 """pycountry"""
 
 import os.path
 import unicodedata
+from importlib import metadata as importlib_metadata
 
 import pycountry.db
 
+# We prioritise importing the backported `importlib_resources`
+# because the function we use (`importlib.resources.files`) is only
+# available from Python 3.9, but the module itself exists since 3.7.
+# We install `importlib_resources` on Python < 3.9.
+# TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
 try:
-    import pkg_resources
+    import importlib_resources
+except ModuleNotFoundError:
+    from importlib import resources as importlib_resources
 
-    resource_filename = pkg_resources.resource_filename
-except ImportError:
 
-    def resource_filename(package_or_requirement, resource_name):
-        return os.path.join(os.path.dirname(__file__), resource_name)
+def resource_filename(package_or_requirement, resource_name):
+    return str(
+        importlib_resources.files(package_or_requirement) / resource_name
+    )
 
-else:
+
+def get_version(distribution_name):
     try:
-        __version__ = pkg_resources.get_distribution("pycountry").version
-    except pkg_resources.DistributionNotFound:
-        __version__ = "n/a"
+        return importlib_metadata.version(distribution_name)
+    except importlib_metadata.PackageNotFoundError:
+        return "n/a"
 
 
 LOCALES_DIR = resource_filename("pycountry", "locales")
 DATABASE_DIR = resource_filename("pycountry", "databases")
+__version__ = get_version("pycountry")
 
 
 def remove_accents(input_str):
@@ -153,10 +162,10 @@ class Subdivision(pycountry.db.Data):
             kw["parent_code"] = kw["parent"]
         else:
             kw["parent_code"] = None
-        super(Subdivision, self).__init__(**kw)
+        super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
         if self.parent_code is not None:
-            self.parent_code = "%s-%s" % (self.country_code, self.parent_code)
+            self.parent_code = f"{self.country_code}-{self.parent_code}"
 
     @property
     def country(self):
@@ -170,7 +179,6 @@ class Subdivision(pycountry.db.Data):
 
 
 class Subdivisions(pycountry.db.Database):
-
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
@@ -181,7 +189,7 @@ class Subdivisions(pycountry.db.Database):
     root_key = "3166-2"
 
     def _load(self, *args, **kw):
-        super(Subdivisions, self)._load(*args, **kw)
+        super()._load(*args, **kw)
 
         # Add index for the country code.
         self.indices["country_code"] = {}
@@ -193,7 +201,7 @@ class Subdivisions(pycountry.db.Database):
 
     def get(self, **kw):
         default = kw.setdefault("default", None)
-        subdivisions = super(Subdivisions, self).get(**kw)
+        subdivisions = super().get(**kw)
         if subdivisions is default and "country_code" in kw:
             # This handles the case where we know about a country but there
             # are no subdivisions: we return an empty list in this case

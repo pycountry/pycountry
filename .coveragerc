@@ -1,6 +1,13 @@
+[paths]
+source =
+   src
+   */site-packages
+
 [run]
 branch = true
 source = pycountry
 
 [report]
+show_missing = true
 precision = 2
+fail_under = 95
