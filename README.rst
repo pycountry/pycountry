@@ -91,6 +91,25 @@ with more matches be listed before ones with fewer matches:
    Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
    Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
 
+Attributes for the country class can be accessed using the `__getattr__` method. If the requested attribute is a key for the country class, it will return the corresponding value. In the special cases of missing 'common_name' or 'official_name' attributes, `__getattr__` will return 'name'. Here are some examples:
+
+.. code:: pycon
+
+  >>> aland = pycountry.countries.get(alpha_2='AX')
+
+  >>> print(aland)
+  Country(alpha_2='AX', alpha_3='ALA', flag='🇦🇽', name='Åland Islands', numeric='248')
+
+  >>> aland.__getattr__('common_name')
+  'Åland Islands'
+
+  >>> aland.__getattr__('official_name')
+  'Åland Islands'
+
+  >>> aland.__getattr__('flag')
+  '🇦🇽'
+
+  >>> aland.__getattr__('')  # Raises AttributeError
 
 Historic Countries (ISO 3166-3)
 -------------------------------
@@ -129,7 +148,7 @@ All subdivisons can be accessed directly:
   >>> list(pycountry.subdivisions)[0]
   Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
-Subdivisions can be accessed using their unique code and provide at least
+Subdivisions can be accessed using their unique code. The resulting object will provide at least
 their code, name and type:
 
 .. code:: pycon
