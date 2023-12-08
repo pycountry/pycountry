@@ -1,30 +1,31 @@
 import json
 import logging
 import threading
+from typing import Dict, List, Optional, Type
 
 logger = logging.getLogger("pycountry.db")
 
 
 class Data:
-    def __init__(self, **fields):
+    def __init__(self, **fields: str):
         self._fields = fields
 
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key not in self._fields:
             raise AttributeError
         return self._fields[key]
 
-    def __setattr__(self, key, value):
+    def __setattr__(self, key: str, value: str) -> None:
         if key != "_fields":
             self._fields[key] = value
         super().__setattr__(key, value)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         cls_name = self.__class__.__name__
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
-    def __dir__(self):
+    def __dir__(self) -> List[str]:
         return dir(self.__class__) + list(self._fields)
 
 
@@ -51,9 +52,9 @@ class Country(Data):
                 return self._fields["name"]
         return super().__getattr__(key)
 
-
-def lazy_load(f):
-    def load_if_needed(self, *args, **kw):
+      
+def lazy_load(f: Type) -> Type:
+    def load_if_needed(self: Type, *args: Type, **kw: Type) -> Type:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -64,17 +65,17 @@ def lazy_load(f):
 
 class Database:
     data_class = None
-    data_class_base = Data
-    data_class_name = None
-    root_key = None
-    no_index = []
+    data_class_base: Type = Data
+    data_class_name: Optional[str] = None
+    root_key: Optional[str] = None
+    no_index: List[str] = []
 
-    def __init__(self, filename):
+    def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
 
-    def _load(self):
+    def _load(self) -> None:
         if self._is_loaded:
             # Help keeping the _load_if_needed code easier
             # to read.
@@ -115,15 +116,15 @@ class Database:
     # Public API
 
     @lazy_load
-    def __iter__(self):
+    def __iter__(self) -> Type:
         return iter(self.objects)
 
     @lazy_load
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.objects)
 
     @lazy_load
-    def get(self, **kw):
+    def get(self, **kw: str) -> Type:
         kw.setdefault("default", None)
         default = kw.pop("default")
         if len(kw) != 1:
@@ -143,7 +144,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value):
+    def lookup(self, value: str) -> Type:
         if not isinstance(value, str):
             raise LookupError()
 

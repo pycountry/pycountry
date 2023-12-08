@@ -3,6 +3,7 @@
 import os.path
 import unicodedata
 from importlib import metadata as importlib_metadata
+from typing import Dict, List, Optional, Type
 
 import pycountry.db
 
@@ -17,25 +18,26 @@ except ModuleNotFoundError:
     from importlib import resources as importlib_resources
 
 
-def resource_filename(package_or_requirement, resource_name):
+def resource_filename(package_or_requirement: str, resource_name: str) -> str:
     return str(
         importlib_resources.files(package_or_requirement) / resource_name
     )
 
 
-def get_version(distribution_name):
+def get_version(distribution_name: str) -> Optional[str]:
     try:
         return importlib_metadata.version(distribution_name)
     except importlib_metadata.PackageNotFoundError:
         return "n/a"
 
 
-LOCALES_DIR = resource_filename("pycountry", "locales")
-DATABASE_DIR = resource_filename("pycountry", "databases")
-__version__ = get_version("pycountry")
+# Variable annotations
+LOCALES_DIR: str = resource_filename("pycountry", "locales")
+DATABASE_DIR: str = resource_filename("pycountry", "databases")
+__version__: Optional[str] = get_version("pycountry")
 
 
-def remove_accents(input_str):
+def remove_accents(input_str: str) -> str:
     # Borrowed from https://stackoverflow.com/a/517974/1509718
     nfkd_form = unicodedata.normalize("NFKD", input_str)
     return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
@@ -47,14 +49,14 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query):
+    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
         # based on the query's matching incidence.
-        results = {}
+        results: dict[str, int] = {}
 
-        def add_result(country, points):
+        def add_result(country: Type["ExistingCountries"], points: int) -> None:
             results.setdefault(country.alpha_2, 0)
             results[country.alpha_2] += points
 
@@ -211,17 +213,22 @@ class Subdivisions(pycountry.db.Database):
         return subdivisions
 
 
-countries = ExistingCountries(os.path.join(DATABASE_DIR, "iso3166-1.json"))
-subdivisions = Subdivisions(os.path.join(DATABASE_DIR, "iso3166-2.json"))
-historic_countries = HistoricCountries(
+# Initialize instances with type hints
+countries: ExistingCountries = ExistingCountries(
+    os.path.join(DATABASE_DIR, "iso3166-1.json")
+)
+subdivisions: Subdivisions = Subdivisions(
+    os.path.join(DATABASE_DIR, "iso3166-2.json")
+)
+historic_countries: HistoricCountries = HistoricCountries(
     os.path.join(DATABASE_DIR, "iso3166-3.json")
 )
 
-currencies = Currencies(os.path.join(DATABASE_DIR, "iso4217.json"))
+currencies: Currencies = Currencies(os.path.join(DATABASE_DIR, "iso4217.json"))
 
-languages = Languages(os.path.join(DATABASE_DIR, "iso639-3.json"))
-language_families = LanguageFamilies(
+languages: Languages = Languages(os.path.join(DATABASE_DIR, "iso639-3.json"))
+language_families: LanguageFamilies = LanguageFamilies(
     os.path.join(DATABASE_DIR, "iso639-5.json")
 )
 
-scripts = Scripts(os.path.join(DATABASE_DIR, "iso15924.json"))
+scripts: Scripts = Scripts(os.path.join(DATABASE_DIR, "iso15924.json"))
