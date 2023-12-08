@@ -91,6 +91,30 @@ with more matches be listed before ones with fewer matches:
    Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
    Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
 
+Attributes for the country class can be accessed via the `__getattr__` method. An attribute error will be raised if the called attribute is not a key for the given country class, except in the case of a missing 'common_name' or 'official_name' in which case the `__getattr__` method will return 'name'
+
+.. code:: pycon
+
+  >>> aland = pycountry.countries.get(alpha_2='AX')
+
+  >>> print(aland)
+  Country(alpha_2='AX', alpha_3='ALA', flag='🇦🇽', name='Åland Islands', numeric='248')
+
+  >>> aland.__getattr__('common_name')
+  'Åland Islands'
+  
+  >>> aland.__getattr__('official_name')
+  'Åland Islands'
+  
+  >>> aland.__getattr__('flag')
+  '🇦🇽'
+
+  >>> aland.__getattr__('')
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    . . .
+        raise AttributeError
+  AttributeError
 
 Historic Countries (ISO 3166-3)
 -------------------------------
