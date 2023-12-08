@@ -62,6 +62,7 @@ class Database:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
+        self.data_class_name = data_class_name
 
         # create data class if data_class_name is provided
         if data_class_name:
