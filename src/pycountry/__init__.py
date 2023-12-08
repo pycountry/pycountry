@@ -130,9 +130,8 @@ class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Country")
-        self.root_key = "3166-3"
+    data_class_name = "Country"
+    root_key = "3166-3"
 
 
 class Scripts(pycountry.db.Database):
