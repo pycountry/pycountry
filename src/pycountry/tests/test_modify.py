@@ -1,5 +1,7 @@
-import pycountry
 import os.path
+
+import pycountry
+
 
 def test_add_entry():
     pycountry.countries._clear()
@@ -21,12 +23,12 @@ def test_remove_entry():
 
     assert pycountry.countries.get(alpha_2="DE") is None
 
+
 def test_no_results_lookup_error():
     try:
         import importlib_resources
     except ModuleNotFoundError:
         from importlib import resources as importlib_resources
-
 
     def resource_filename(package_or_requirement, resource_name):
         return str(
