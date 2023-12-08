@@ -66,9 +66,6 @@ class ExistingCountries(pycountry.db.Database):
         except LookupError:
             pass
 
-        # Add type hints for subdivisions
-        subdivisions: List[Subdivision] = []
-
         # Prio 2: exact matches on subdivision names
         for candidate in subdivisions:
             for v in candidate._fields.values():
