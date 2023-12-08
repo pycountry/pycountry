@@ -148,7 +148,7 @@ All subdivisons can be accessed directly:
   >>> list(pycountry.subdivisions)[0]
   Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
-Subdivisions can be accessed using their unique code and provide at least
+Subdivisions can be accessed using their unique code. The resulting object will provide at least
 their code, name and type:
 
 .. code:: pycon
