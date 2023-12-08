@@ -129,15 +129,17 @@ class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    data_class = pycountry.db.Country
-    root_key = "3166-3"
+    def __init__(self, filename: str) -> None:
+        super().__init__(filename, data_class_name="Country")
+        self.root_key = "3166-3"
 
 
 class Scripts(pycountry.db.Database):
     """Provides access to an ISO 15924 database (Scripts)."""
 
-    data_class = pycountry.db.Script
-    root_key = "15924"
+    def __init__(self, filename: str) -> None:
+        super().__init__(filename, data_class_name="Script")
+        self.root_key = "15924"
 
 
 class Currencies(pycountry.db.Database):
@@ -152,16 +154,19 @@ class Languages(pycountry.db.Database):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
-    data_class = pycountry.db.Language
-    root_key = "639-3"
+
+    def __init__(self, filename: str) -> None:
+        super().__init__(filename, data_class_name="Language")
+        self.root_key = "639-3"
 
 
 class LanguageFamilies(pycountry.db.Database):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
-    data_class = pycountry.db.LanguageFamily
-    root_key = "639-5"
+    def __init__(self, filename: str) -> None:
+        super().__init__(filename, data_class_name="LanguageFamily")
+        self.root_key = "639-5"
 
 
 class Subdivision(pycountry.db.Data):
