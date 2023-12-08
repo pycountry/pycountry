@@ -137,7 +137,7 @@ def test_scripts():
 
 
 def test_currencies():
-    assert len(pycountry.currencies) == 170
+    assert len(pycountry.currencies) == 181
     assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
@@ -147,7 +147,7 @@ def test_currencies():
 
 
 def test_languages():
-    assert len(pycountry.languages) == 7847
+    assert len(pycountry.languages) == 7910
     assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_2="an")
@@ -175,7 +175,7 @@ def test_language_families():
 
 def test_locales():
     german = gettext.translation(
-        "iso3166", pycountry.LOCALES_DIR, languages=["de"]
+        "iso3166-1", pycountry.LOCALES_DIR, languages=["de"]
     )
     german.install()
     assert _("Germany") == "Deutschland"
