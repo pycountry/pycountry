@@ -102,10 +102,10 @@ Attributes for the country class can be accessed via the `__getattr__` method. A
 
   >>> aland.__getattr__('common_name')
   'Åland Islands'
-  
+
   >>> aland.__getattr__('official_name')
   'Åland Islands'
-  
+
   >>> aland.__getattr__('flag')
   '🇦🇽'
 
