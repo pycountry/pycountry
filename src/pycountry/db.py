@@ -55,7 +55,9 @@ class Database:
         self._load_lock = threading.Lock()
 
         # create data class
-        self.data_class = type(self.data_class_name, (self.data_class_base,), {})
+        self.data_class = type(
+            self.data_class_name, (self.data_class_base,), {}
+        )
 
     def _clear(self):
         self._is_loaded = False
