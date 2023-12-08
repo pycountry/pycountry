@@ -1,15 +1,14 @@
 import os.path
-
-import wikipediaapi
-import pycountry
-
 import re
-import requests
 
+import requests
+import wikipediaapi
+
+import pycountry
 
 # This file only needs to be run in order to generate the lexical resources in the /lexical_resources directory
 
-wiki = wikipediaapi.Wikipedia('en')
+wiki = wikipediaapi.Wikipedia("en")
 
 
 def getredirectsfor(p):
@@ -17,12 +16,7 @@ def getredirectsfor(p):
     S = requests.Session()
     URL = "https://en.wikipedia.org/w/api.php"
 
-    PARAMS = {
-        "action": "query",
-        "format": "json",
-        "titles": p,
-        "prop": "redirects"
-    }
+    PARAMS = {"action": "query", "format": "json", "titles": p, "prop": "redirects"}
 
     R = S.get(url=URL, params=PARAMS)
     DATA = R.json()
@@ -37,10 +31,10 @@ def getredirectsfor(p):
 
 
 def make_redirects_lexical_resource(filename):
-    with open(filename, "wt") as f:
+    with open(filename, "w") as f:
         for c in pycountry.countries:
             print(c)
-            if hasattr(c,"official_name"):
+            if hasattr(c, "official_name"):
                 o_name = c.official_name
             else:
                 o_name = c.name
@@ -55,23 +49,74 @@ def make_redirects_lexical_resource(filename):
                 f.write("\t".join([twoletter, displaytitle, a]) + "\n")
 
 
-
 UNNEEDED_PREFIXES = {
-"administrative subdivisions", "air force", "architecture", "arrondissements and communes", "autonomous province",
-"biodiversity", "capital", "caribbean islands", "caribbean special municipalities", "chief justice", "cockpit",
-"commune", "countries", "departements", "districts and dependencies", "environment", "extreme points",
-"federal states", "greek cypriot administration", "imperial principality", "judiciary",
-"indigenous cultures, kingdoms and ethnic groups", "integral overseas areas", "islamic govermnet", "island area",
-"overseas collectivity", "political history", "proposed state", "quarters", "special municipality", "states",
-"subdivision", "tfyr", "the souvereign military order", "trust territory", "climate", "list", "navy", "regions",
-"collectivity", "districts", "foreign relations", "government", "parishes", "politics", "provinces", "principality",
-"transnational issues", "people", "bibliography", "culture", "languages", "demographics", "economy", "geography",
-"etymology", "history", "name", "administrative divisions", "subdivisions", "military"}
+    "administrative subdivisions",
+    "air force",
+    "architecture",
+    "arrondissements and communes",
+    "autonomous province",
+    "biodiversity",
+    "capital",
+    "caribbean islands",
+    "caribbean special municipalities",
+    "chief justice",
+    "cockpit",
+    "commune",
+    "countries",
+    "departements",
+    "districts and dependencies",
+    "environment",
+    "extreme points",
+    "federal states",
+    "greek cypriot administration",
+    "imperial principality",
+    "judiciary",
+    "indigenous cultures, kingdoms and ethnic groups",
+    "integral overseas areas",
+    "islamic govermnet",
+    "island area",
+    "overseas collectivity",
+    "political history",
+    "proposed state",
+    "quarters",
+    "special municipality",
+    "states",
+    "subdivision",
+    "tfyr",
+    "the souvereign military order",
+    "trust territory",
+    "climate",
+    "list",
+    "navy",
+    "regions",
+    "collectivity",
+    "districts",
+    "foreign relations",
+    "government",
+    "parishes",
+    "politics",
+    "provinces",
+    "principality",
+    "transnational issues",
+    "people",
+    "bibliography",
+    "culture",
+    "languages",
+    "demographics",
+    "economy",
+    "geography",
+    "etymology",
+    "history",
+    "name",
+    "administrative divisions",
+    "subdivisions",
+    "military",
+}
 
 
-def extraneous(s:str, displaytitle=""):
+def extraneous(s: str, displaytitle=""):
     # some of these are redundant because of dev process and showing working.
-    if re.match(".*\Ws$", s):
+    if re.match(r".*\Ws$", s):
         return True
     if s.startswith(displaytitle + "/"):
         return True
@@ -82,36 +127,57 @@ def extraneous(s:str, displaytitle=""):
     if " in " in s:
         return True
     if " of " in s:
-        #some are needed eg "Kingdom of X" whereas some are not eg "Demographics of X".
+        # some are needed eg "Kingdom of X" whereas some are not eg "Demographics of X".
         before_of = re.sub(" of .*", "", s)
         # we print this then we  $cat x | sort | uniq -c | sort -h | cut -c9-
         if before_of.lower() in UNNEEDED_PREFIXES:
             return True
-    for prefix in ["draft:" , "national office"]:
+    for prefix in ["draft:", "national office"]:
         if s.lower().startswith(prefix):
             return True
 
-    for suffix in ["legends", "cultural practices", "news agency", "facts", "culture", "people", "goods",
-                   "(country)", "(state)", "(song)", "(disambiguation)", "(nation)", "(island)"]:
+    for suffix in [
+        "legends",
+        "cultural practices",
+        "news agency",
+        "facts",
+        "culture",
+        "people",
+        "goods",
+        "(country)",
+        "(state)",
+        "(song)",
+        "(disambiguation)",
+        "(nation)",
+        "(island)",
+    ]:
         if s.lower().endswith(suffix):
             return True
 
-    if re.search("\d+", s): # years, mainly
-            return True
+    if re.search(r"\d+", s):  # years, mainly
+        return True
 
-    if re.search("\(", s): # years, mainly
-            return True
+    if re.search(r"\(", s):  # years, mainly
+        return True
 
     return False
 
 
 #################################
 
-if not os.path.exists("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab"):
-    make_redirects_lexical_resource("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab")
+if not os.path.exists(
+    "src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab"
+):
+    make_redirects_lexical_resource(
+        "src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab"
+    )
 
-with open("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab", "rt") as f_in:
-    with open("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.cleaned.tab", "wt") as f_out:
+with open(
+    "src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.tab") as f_in:
+    with open(
+        "src/pycountry/lexical_resources/existingcountries_wikipedia_redirects.cleaned.tab",
+        "w",
+    ) as f_out:
         for line in f_in:
             [twoletter, displaytitle, alias] = line.strip().split("\t")
             rv = extraneous(alias, displaytitle)
@@ -119,4 +185,3 @@ with open("src/pycountry/lexical_resources/existingcountries_wikipedia_redirects
                 print("ignoring '{}'".format(alias))
             else:
                 f_out.write(line)
-
