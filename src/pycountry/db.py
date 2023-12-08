@@ -69,7 +69,6 @@ def lazy_load(f: Type) -> Type:
 
 
 class Database:
-    data_class = None
     data_class_base: Type = Data
     data_class_name: Optional[str] = None
     root_key: Optional[str] = None
