@@ -1,18 +1,25 @@
 Changes
 =======
 
-22.3.7 (unreleased)
--------------------
+23.12.7 (2023-12-07)
+--------------------
 
-- Nothing changed yet.
+- Dropped support for end-of-life Python 3.6 and 3.7.
 
+- Added support for Python 3.11 and Python 3.12.
 
-22.3.6 (2022-08-03)
--------------------
+- Added dependency on importlib-resources for Python 3.8.
 
-- Update to iso-codes 4.11.0.
-- Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo files
-  for Country and Historic Country Translations respectively.
+- Dropped implicit dependency on setuptools for pkg_resources.
+  (Thanks to D3X!)
+
+- Update to iso-codes 4.15.0. (Thanks to alanorth!)
+
+- Removes iso3166.mo files and opts for newer iso3166-1.mo and iso3166-3.mo
+  files for Country and Historic Country Translations respectively.
+
+  Warning: This requires an update in your application code when you previously
+  used to access the iso3166 gettext data.
 
 
 22.3.5 (2022-03-05)
@@ -32,6 +39,7 @@ Changes
 
 - Fix bug #37: (accidental) unconditional pkg_resources import.
   (thanks, crbunney)
+
 
 20.7.2 (2020-07-02)
 -------------------
