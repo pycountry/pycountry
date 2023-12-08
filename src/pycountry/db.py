@@ -52,7 +52,7 @@ class Country(Data):
                 return self._fields["name"]
         return super().__getattr__(key)
 
-      
+
 def lazy_load(f: Type) -> Type:
     def load_if_needed(self: Type, *args: Type, **kw: Type) -> Type:
         if not self._is_loaded:
