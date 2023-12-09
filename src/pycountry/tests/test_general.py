@@ -75,6 +75,7 @@ def test_germany_has_all_attributes():
     assert germany.name == "Germany"
     assert germany.official_name == "Federal Republic of Germany"
 
+
 def test_missing_common_official_use_same():
     aruba = pycountry.countries.get(alpha_2="AW")
     assert aruba.alpha_2 == "AW"
@@ -284,7 +285,7 @@ def test_has_version_attribute():
 
 
 def test_is_instance_of_language():
-    assert isinstance(pycountry.languages, pycountry.db.Languages)
+    assert isinstance(pycountry.languages, pycountry.Languages)
 
 
 def test_is_instance_of_country():
@@ -293,15 +294,15 @@ def test_is_instance_of_country():
 
 
 def test_is_instance_of_subdivision():
-    assert isinstance(pycountry.subdivisions, pycountry.db.Subdivisions)
+    assert isinstance(pycountry.subdivisions, pycountry.Subdivisions)
 
 
 def test_is_instance_of_script():
-    assert isinstance(pycountry.scripts, pycountry.db.Scripts)
+    assert isinstance(pycountry.scripts, pycountry.Scripts)
 
 
 def test_is_instance_of_currency():
-    assert isinstance(pycountry.currencies, pycountry.db.Currencies)
+    assert isinstance(pycountry.currencies, pycountry.Currencies)
 
 
 def test_add_entry():

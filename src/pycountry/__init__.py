@@ -56,7 +56,7 @@ class ExistingCountries(pycountry.db.Database):
 
     def __init__(self, filename: str) -> None:
         super().__init__(filename, data_class_name="Country")
-        
+
     def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
