@@ -22,6 +22,8 @@ class Data:
                         return name
                     except:
                         raise AttributeError
+                else:
+                    return self._fields
             else:
                 return self._fields[key]
         else:
