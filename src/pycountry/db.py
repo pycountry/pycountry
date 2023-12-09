@@ -1,6 +1,7 @@
 import json
 import logging
 import threading
+import warnings
 from typing import Dict, List, Optional, Type
 
 logger = logging.getLogger("pycountry.db")
@@ -10,7 +11,18 @@ class Data:
     def __init__(self, **fields: str):
         self._fields = fields
 
-    def __getattr__(self, key: str) -> str:
+    def __getattr__(self, key):
+        if key in ("common_name", "official_name"):
+            if key not in self._fields:
+                try:
+                    name = self._fields.get("name")
+                    warning_message = f"Country's {key} not found. Country name provided instead"
+                    warnings.warn(warning_message, UserWarning)
+                    return name
+                except:
+                    raise AttributeError
+            else:
+                return self._fields[key]
         if key not in self._fields:
             raise AttributeError
         return self._fields[key]
@@ -35,11 +47,7 @@ class Data:
 
 
 class Country(Data):
-    def __getattr__(self, key):
-        if key in ("common_name", "official_name"):
-            if key not in self._fields:
-                return self._fields["name"]
-        return super().__getattr__(key)
+    pass
 
 
 def lazy_load(f: Type) -> Type:

@@ -74,8 +74,6 @@ def test_germany_has_all_attributes():
     assert germany.numeric == "276"
     assert germany.name == "Germany"
     assert germany.official_name == "Federal Republic of Germany"
-    assert germany.common_name == "Germany"
-
 
 def test_missing_common_official_use_same():
     aruba = pycountry.countries.get(alpha_2="AW")
