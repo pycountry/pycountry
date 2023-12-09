@@ -51,6 +51,8 @@ def remove_accents(input_str: str) -> str:
 class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
+    data_class = pycountry.db.Country
+
     def __init__(self, filename: str) -> None:
         super().__init__(filename, data_class_name="Country")
         self.root_key = "3166-1"
