@@ -284,8 +284,7 @@ def test_has_version_attribute():
 
 
 def test_is_instance_of_language():
-    english = pycountry.languages.get(alpha_2="en")
-    assert isinstance(english, pycountry.db.Language)
+    assert isinstance(pycountry.languages, pycountry.db.Language)
 
 
 def test_is_instance_of_country():
@@ -294,18 +293,15 @@ def test_is_instance_of_country():
 
 
 def test_is_instance_of_subdivision():
-    de_st = pycountry.subdivisions.get(code="DE-ST")
-    assert isinstance(de_st, pycountry.db.Subdivision)
+    assert isinstance(pycountry.subdivisions, pycountry.db.Subdivision)
 
 
 def test_is_instance_of_script():
-    latin = pycountry.scripts.get(name="Latin")
-    assert isinstance(latin, pycountry.db.Script)
+    assert isinstance(pycountry.scripts, pycountry.db.Script)
 
 
 def test_is_instance_of_currency():
-    argentine_peso = pycountry.currencies.get(alpha_3="ARS")
-    assert isinstance(argentine_peso, pycountry.db.Currency)
+    assert isinstance(pycountry.currencies, pycountry.db.Currency)
 
 
 def test_add_entry():
