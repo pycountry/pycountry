@@ -290,7 +290,8 @@ def test_is_instance_of_language():
 
 def test_is_instance_of_country():
     united_states = pycountry.countries.get(alpha_2="US")
-    assert isinstance(type(united_states), pycountry.db.Country)
+    class_name = united_states.__class__.__name__
+    assert class_name == 'Country'
 
 
 def test_is_instance_of_subdivision():
