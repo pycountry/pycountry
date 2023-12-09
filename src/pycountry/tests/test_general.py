@@ -291,7 +291,7 @@ def test_is_instance_of_language():
 def test_is_instance_of_country():
     united_states = pycountry.countries.get(alpha_2="US")
     class_name = united_states.__class__.__name__
-    assert class_name == 'Country'
+    assert class_name == "Country"
 
 
 def test_is_instance_of_subdivision():
@@ -346,3 +346,21 @@ def test_no_results_lookup_error():
     query = "nonexistent query"
     with pytest.raises(LookupError):
         countries.search_fuzzy(query)
+
+
+def test_subdivision_fuzzy_search():
+    results = pycountry.subdivisions.search_fuzzy("Alabama")
+    assert len(results) == 1
+    assert results[0].name == "Alabama"
+
+
+def test_subdivision_match():
+    results = pycountry.subdivisions.match("Alabama")
+    assert len(results) == 1
+    assert results[0].name == "Alabama"
+
+
+def test_subdivision_partial_match():
+    results = pycountry.subdivisions.partial_match("Massachusett")
+    assert len(results) == 1
+    assert results[0].name == "Massachusetts"
