@@ -23,7 +23,7 @@ class Data:
                     except:
                         raise AttributeError
                 else:
-                    return self._fields
+                    return self._fields[key]
             else:
                 return self._fields[key]
         else:
