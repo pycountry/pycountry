@@ -14,22 +14,28 @@ class Data:
     def __getattr__(self, key):
         if self.__class__.__name__ == "Country":
             if key in ("common_name", "official_name"):
-                if key not in self._fields:
-                    try:
-                        name = self._fields.get("name")
-                        warning_message = f"Country's {key} not found. Country name provided instead"
-                        warnings.warn(warning_message, UserWarning)
-                        return name
-                    except:
-                        raise AttributeError
-                else:
-                    return self._fields[key]
+                # First try to get the common_name or official_name
+                value = self._fields.get(key)
+                if value is not None:
+                    return value
+                # Fall back to name if common_name or official_name is not found
+                name = self._fields.get("name")
+                if name is not None:
+                    warning_message = f"Country's {key} not found. Country name provided instead."
+                    warnings.warn(warning_message, UserWarning)
+                    return name
+                raise AttributeError()
             else:
-                return self._fields[key]
+                # For other keys, simply return the value or raise an error
+                if key in self._fields:
+                    return self._fields[key]
+                raise AttributeError()
+
         else:
-            if key not in self._fields:
-                raise AttributeError
-            return self._fields[key]
+            # For classes other than Country
+            if key in self._fields:
+                return self._fields[key]
+            raise AttributeError()
 
     def __setattr__(self, key: str, value: str) -> None:
         if key != "_fields":
