@@ -364,3 +364,15 @@ def test_subdivision_partial_match():
     results = pycountry.subdivisions.partial_match("Massachusett")
     assert len(results) == 1
     assert results[0].name == "Massachusetts"
+
+
+def non_country_attribute_error(self):
+    with self.assertRaises(AttributeError):
+        english = pycountry.languages.get(name="English")
+        result = english.official_name
+
+
+def country_attribute_error(self):
+    with self.assertRaises(AttributeError):
+        canada = pycountry.countries.get(alpha_2="CA")
+        result = canada.maple_syrup

@@ -12,20 +12,22 @@ class Data:
         self._fields = fields
 
     def __getattr__(self, key):
-        if key in ("common_name", "official_name"):
+        if self.__class__.__name__ == "Country":
+            if key in ("common_name", "official_name"):
+                if key not in self._fields:
+                    try:
+                        name = self._fields.get("name")
+                        warning_message = f"Country's {key} not found. Country name provided instead"
+                        warnings.warn(warning_message, UserWarning)
+                        return name
+                    except:
+                        raise AttributeError
+                else:
+                    return self._fields[key]
+        else:
             if key not in self._fields:
-                try:
-                    name = self._fields.get("name")
-                    warning_message = f"Country's {key} not found. Country name provided instead"
-                    warnings.warn(warning_message, UserWarning)
-                    return name
-                except:
-                    raise AttributeError
-            else:
-                return self._fields[key]
-        if key not in self._fields:
-            raise AttributeError
-        return self._fields[key]
+                raise AttributeError
+            return self._fields[key]
 
     def __setattr__(self, key: str, value: str) -> None:
         if key != "_fields":
