@@ -379,25 +379,25 @@ def country_attribute_error(self):
 
 
 def test_with_accents():
-    assert remove_accents("Café") == "Cafe"
-    assert remove_accents("résumé") == "resume"
-    assert remove_accents("naïve") == "naive"
-    assert remove_accents("São Paulo") == "Sao Paulo"
+    assert pycountry.remove_accents("Café") == "Cafe"
+    assert pycountry.remove_accents("résumé") == "resume"
+    assert pycountry.remove_accents("naïve") == "naive"
+    assert pycountry.remove_accents("São Paulo") == "Sao Paulo"
 
 
 def test_without_accents():
-    assert remove_accents("apple") == "apple"
-    assert remove_accents("banana") == "banana"
+    assert pycountry.remove_accents("apple") == "apple"
+    assert pycountry.remove_accents("banana") == "banana"
 
 
 def test_empty_string():
-    assert remove_accents("") == ""
+    assert pycountry.remove_accents("") == ""
 
 
 def test_special_characters():
-    assert remove_accents("!@#$%^&*()") == "!@#$%^&*()"
+    assert pycountry.remove_accents("!@#$%^&*()") == "!@#$%^&*()"
 
 
 def test_unicode_characters():
-    assert remove_accents("你好") == "你好"  # Chinese characters
-    assert remove_accents("こんにちは") == "こんにちは"  # Japanese characters
+    assert pycountry.remove_accents("你好") == "你好"  # Chinese characters
+    assert pycountry.remove_accents("こんにちは") == "こんにちは"  # Japanese characters
