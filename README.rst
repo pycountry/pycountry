@@ -100,16 +100,20 @@ Attributes for the country class can be accessed using the `__getattr__` method.
   >>> print(aland)
   Country(alpha_2='AX', alpha_3='ALA', flag='🇦🇽', name='Åland Islands', numeric='248')
 
-  >>> aland.__getattr__('common_name')
+  >>> aland.common_name
+  UserWarning: Country's common_name not found. Country name provided instead.
+    warnings.warn(warning_message, UserWarning)
   'Åland Islands'
 
-  >>> aland.__getattr__('official_name')
+  >>> aland.official_name
+  Country's official_name not found. Country name provided instead.
+    warnings.warn(warning_message, UserWarning)
   'Åland Islands'
 
-  >>> aland.__getattr__('flag')
+  >>> aland.flag
   '🇦🇽'
 
-  >>> aland.__getattr__('')  # Raises AttributeError
+  >>> aland.foo  # Raises AttributeError
 
 Historic Countries (ISO 3166-3)
 -------------------------------
