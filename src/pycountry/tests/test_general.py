@@ -417,13 +417,15 @@ def test_subdivision_search_fuzzy_non_existent_subdivision():
 
 
 def test_subdivision_partial_match_non():
-    with pytest.raises(LookupError):
-        pycountry.subdivisions.partial_match("Non Existent Subdivision")
+    result = pycountry.subdivisions.partial_match("Non Existent Subdivision")
+    expected = []
+    assert result == expected
 
 
 def test_subdivision_match_non():
-    with pytest.raises(LookupError):
-        pycountry.subdivisions.match("Non Existent Subdivision")
+    pycountry.subdivisions.match("Non Existent Subdivision")
+    expected = []
+    assert result == expected
 
 
 def test_get_version_with_package_not_found():
