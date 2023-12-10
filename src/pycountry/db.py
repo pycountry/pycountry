@@ -2,7 +2,7 @@ import json
 import logging
 import threading
 import warnings
-from typing import Dict, List, Optional, Type
+from typing import Any, Callable, Dict, Iterator, List, Optional, Type, TypeVar
 
 logger = logging.getLogger("pycountry.db")
 
@@ -60,8 +60,12 @@ class Country(Data):
     pass
 
 
-def lazy_load(f: Type) -> Type:
-    def load_if_needed(self: Type, *args: Type, **kw: Type) -> Type:
+class Subdivision(Data):
+    pass
+
+
+def lazy_load(f):
+    def load_if_needed(self, *args, **kw):
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -83,6 +87,7 @@ class Database:
         self._is_loaded = False
         self._load_lock = threading.Lock()
         self.data_class_name = data_class_name
+        self.data_class: Optional[Type] = None
 
         # create data class if data_class_name is provided
         if data_class_name:
@@ -105,6 +110,9 @@ class Database:
 
         with open(self.filename, encoding="utf-8") as f:
             tree = json.load(f)
+
+        if self.data_class is None:
+            raise ValueError("data_class is not set")
 
         for entry in tree[self.root_key]:
             obj = self.data_class(**entry)
@@ -169,7 +177,7 @@ class Database:
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Type:
+    def __iter__(self) -> Iterator["Database"]:
         return iter(self.objects)
 
     @lazy_load
@@ -177,7 +185,7 @@ class Database:
         return len(self.objects)
 
     @lazy_load
-    def get(self, **kw: str) -> Type:
+    def get(self, **kw: Optional[str]) -> Optional[Any]:
         kw.setdefault("default", None)
         default = kw.pop("default")
         if len(kw) != 1:

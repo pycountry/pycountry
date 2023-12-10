@@ -13,7 +13,7 @@ import pycountry.db
 # We install `importlib_resources` on Python < 3.9.
 # TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
 try:
-    import importlib_resources
+    import importlib_resources  # type: ignore
 except ModuleNotFoundError:
     from importlib import resources as importlib_resources
 
@@ -64,7 +64,7 @@ class ExistingCountries(pycountry.db.Database):
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(country: Type["ExistingCountries"], points: int) -> None:
+        def add_result(country: "pycountry.db.Country", points: int) -> None:
             results.setdefault(country.alpha_2, 0)
             results[country.alpha_2] += points
 
@@ -115,14 +115,14 @@ class ExistingCountries(pycountry.db.Database):
         if not results:
             raise LookupError(query)
 
-        results = [
+        sorted_results = [
             self.get(alpha_2=x[0])
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return results
+        return sorted_results
 
 
 class HistoricCountries(ExistingCountries):
@@ -260,7 +260,9 @@ class Subdivisions(pycountry.db.Database):
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(subdivision: Type["Subdivisions"], points: int) -> None:
+        def add_result(
+            subdivision: "pycountry.db.Subdivision", points: int
+        ) -> None:
             results.setdefault(subdivision.code, 0)
             results[subdivision.code] += points
 
@@ -280,14 +282,14 @@ class Subdivisions(pycountry.db.Database):
         if not results:
             raise LookupError(query)
 
-        results = [
+        sorted_results = [
             self.get(code=x[0])
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return results
+        return sorted_results
 
 
 # Initialize instances with type hints

@@ -331,7 +331,7 @@ def test_remove_entry():
 
 def test_no_results_lookup_error():
     try:
-        import importlib_resources
+        import importlib_resources  # type: ignore
     except ModuleNotFoundError:
         from importlib import resources as importlib_resources
 
