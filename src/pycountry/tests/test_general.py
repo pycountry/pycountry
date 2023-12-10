@@ -1,7 +1,6 @@
 import gettext
 import os.path
 import re
-from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -408,3 +407,8 @@ def test_special_characters():
 def test_unicode_characters():
     assert pycountry.remove_accents("你好") == "你好"  # Chinese characters
     assert pycountry.remove_accents("こんにちは") == "こんにちは"  # Japanese characters
+
+
+def test_search_fuzzy_non_existent_subdivision():
+    with pytest.raises(LookupError):
+        pycountry.subdivisions.search_fuzzy("Non Existent Subdivision")
