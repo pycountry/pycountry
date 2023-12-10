@@ -251,9 +251,8 @@ class Subdivisions(pycountry.db.Database):
         matching_candidates = []
         for candidate in subdivisions:
             v = candidate._fields.get("name")
-            if v is None:
-                continue
-            v = remove_accents(v.lower())
+            if v is not None:
+                v = remove_accents(v.lower())
             if query in v:
                 matching_candidates.append(candidate)
 
