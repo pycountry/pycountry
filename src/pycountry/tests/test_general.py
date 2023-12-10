@@ -1,6 +1,8 @@
 import gettext
 import os.path
 import re
+import importlib_metadata
+from unittest.mock import patch
 
 import pytest
 
@@ -412,3 +414,13 @@ def test_unicode_characters():
 def test_search_fuzzy_non_existent_subdivision():
     with pytest.raises(LookupError):
         pycountry.subdivisions.search_fuzzy("Non Existent Subdivision")
+
+
+def test_get_version_with_package_not_found():
+    # Mock importlib_metadata.version to raise PackageNotFoundError
+    with patch('importlib_metadata.version', side_effect=importlib_metadata.PackageNotFoundError):
+        # Call get_version with a package name that doesn't exist
+        result = pycountry.get_version('non_existent_package')
+
+        # Assert that the result is 'n/a'
+        assert result == 'n/a'
