@@ -91,16 +91,17 @@ class ExistingCountries(pycountry.db.Database):
                 candidate._fields.get("official_name"),
                 candidate._fields.get("comment"),
             ]:
-                if v is None:
-                    continue
-                v = remove_accents(v.lower())
-                if query in v:
-                    # This prefers countries with a match early in their name
-                    # and also balances against countries with a number of
-                    # partial matches and their name containing 'new' in the
-                    # middle
-                    add_result(candidate, max([5, 30 - (2 * v.find(query))]))
-                    break
+                if v is not None:
+                    v = remove_accents(v.lower())
+                    if query in v:
+                        # This prefers countries with a match early in their name
+                        # and also balances against countries with a number of
+                        # partial matches and their name containing 'new' in the
+                        # middle
+                        add_result(
+                            candidate, max([5, 30 - (2 * v.find(query))])
+                        )
+                        break
 
         # Prio 4: partial matches on subdivision names
         partial_match_subdivisions = pycountry.Subdivisions.partial_match(
@@ -109,11 +110,12 @@ class ExistingCountries(pycountry.db.Database):
         if match_subdivions is not None:
             for candidate in partial_match_subdivisions:
                 v = candidate._fields.get("name")
-                if v is None:
-                    continue
-                v = remove_accents(v.lower())
-                if query in v:
-                    add_result(candidate.country, max([1, 5 - v.find(query)]))
+                if v is not None:
+                    v = remove_accents(v.lower())
+                    if query in v:
+                        add_result(
+                            candidate.country, max([1, 5 - v.find(query)])
+                        )
 
         if not results:
             raise LookupError(query)
@@ -234,15 +236,14 @@ class Subdivisions(pycountry.db.Database):
         matching_candidates = []
         for candidate in subdivisions:
             for v in candidate._fields.values():
-                if v is None:
-                    continue
-                v = remove_accents(v.lower())
-                # Some names include alternative versions which we want to
-                # match exactly.
-                for w in v.split(";"):
-                    if w == query:
-                        matching_candidates.append(candidate)
-                        break
+                if v is not None:
+                    v = remove_accents(v.lower())
+                    # Some names include alternative versions which we want to
+                    # match exactly.
+                    for w in v.split(";"):
+                        if w == query:
+                            matching_candidates.append(candidate)
+                            break
 
         return matching_candidates
 
@@ -253,8 +254,8 @@ class Subdivisions(pycountry.db.Database):
             v = candidate._fields.get("name")
             if v is not None:
                 v = remove_accents(v.lower())
-            if query in v:
-                matching_candidates.append(candidate)
+                if query in v:
+                    matching_candidates.append(candidate)
 
         return matching_candidates
 
