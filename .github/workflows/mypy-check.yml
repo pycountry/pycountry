@@ -23,7 +23,7 @@ jobs:
         pip install mypy
     - name: Configure mypy globally
       run: |
-        echo '[mypy]
-ignore_missing_imports = True' > mypy.ini
+        echo -e "[mypy]\nignore_missing_imports = True" > mypy.ini
+
     - name: Run mypy
       run: mypy .
