@@ -78,10 +78,9 @@ class ExistingCountries(pycountry.db.Database):
         match_subdivions = pycountry.Subdivisions.match(
             self=subdivisions, query=query
         )
-        if match_subdivions is not None:
-            for candidate in match_subdivions:
-                print(candidate)
-                add_result(candidate.country, 49)
+        for candidate in match_subdivions:
+            print(candidate)
+            add_result(candidate.country, 49)
 
         # Prio 3: partial matches on country names
         for candidate in self:
@@ -107,15 +106,14 @@ class ExistingCountries(pycountry.db.Database):
         partial_match_subdivisions = pycountry.Subdivisions.partial_match(
             self=subdivisions, query=query
         )
-        if match_subdivions is not None:
-            for candidate in partial_match_subdivisions:
-                v = candidate._fields.get("name")
-                if v is not None:
-                    v = remove_accents(v.lower())
-                    if query in v:
-                        add_result(
-                            candidate.country, max([1, 5 - v.find(query)])
-                        )
+        for candidate in partial_match_subdivisions:
+            v = candidate._fields.get("name")
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(
+                        candidate.country, max([1, 5 - v.find(query)])
+                    )
 
         if not results:
             raise LookupError(query)
@@ -273,23 +271,21 @@ class Subdivisions(pycountry.db.Database):
         # Prio 1: exact matches on subdivision names
         try:
             match_subdivisions = self.match(query)
-            if match_subdivisions is not None:
-                for candidate in match_subdivisions:
-                    add_result(candidate, 50)
+            for candidate in match_subdivisions:
+                add_result(candidate, 50)
         except LookupError:
             pass
 
         # Prio 2: partial matches on subdivision names
         try:
             partial_match_subdivisions = self.partial_match(query)
-            if partial_match_subdivisions is not None:
-                for candidate in partial_match_subdivisions:
-                    v = candidate._fields.get("name")
-                    if v is None:
-                        continue
-                    v = remove_accents(v.lower())
-                    if query in v:
-                        add_result(candidate, max([1, 5 - v.find(query)]))
+            for candidate in partial_match_subdivisions:
+                v = candidate._fields.get("name")
+                if v is None:
+                    continue
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate, max([1, 5 - v.find(query)]))
         except LookupError:
             pass
 
