@@ -273,8 +273,6 @@ class Subdivisions(pycountry.db.Database):
         partial_match_subdivisions = self.partial_match(query)
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            if v is None:
-                continue
             v = remove_accents(v.lower())
             if query in v:
                 add_result(candidate, max([1, 5 - v.find(query)]))
