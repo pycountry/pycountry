@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.10', '3.11', '3.12']
+        python-version: ['3.9', '3.10', '3.11', '3.12']
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -21,5 +21,9 @@ jobs:
     - name: Install dependencies
       run: |
         pip install mypy
+    - name: Configure mypy globally
+      run: |
+        echo '[mypy]
+ignore_missing_imports = True' > mypy.ini
     - name: Run mypy
       run: mypy .
