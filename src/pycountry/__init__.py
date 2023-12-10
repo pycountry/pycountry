@@ -247,10 +247,9 @@ class Subdivisions(pycountry.db.Database):
         matching_candidates = []
         for candidate in subdivisions:
             v = candidate._fields.get("name")
-            if v is not None:
-                v = remove_accents(v.lower())
-                if query in v:
-                    matching_candidates.append(candidate)
+            v = remove_accents(v.lower())
+            if query in v:
+                matching_candidates.append(candidate)
 
         return matching_candidates
 
@@ -266,25 +265,19 @@ class Subdivisions(pycountry.db.Database):
             results[subdivision.code] += points
 
         # Prio 1: exact matches on subdivision names
-        try:
-            match_subdivisions = self.match(query)
-            for candidate in match_subdivisions:
-                add_result(candidate, 50)
-        except LookupError:
-            pass
+        match_subdivisions = self.match(query)
+        for candidate in match_subdivisions:
+            add_result(candidate, 50)
 
         # Prio 2: partial matches on subdivision names
-        try:
-            partial_match_subdivisions = self.partial_match(query)
-            for candidate in partial_match_subdivisions:
-                v = candidate._fields.get("name")
-                if v is None:
-                    continue
-                v = remove_accents(v.lower())
-                if query in v:
-                    add_result(candidate, max([1, 5 - v.find(query)]))
-        except LookupError:
-            pass
+        partial_match_subdivisions = self.partial_match(query)
+        for candidate in partial_match_subdivisions:
+            v = candidate._fields.get("name")
+            if v is None:
+                continue
+            v = remove_accents(v.lower())
+            if query in v:
+                add_result(candidate, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
