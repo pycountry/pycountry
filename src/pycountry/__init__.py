@@ -235,7 +235,7 @@ class Subdivisions(pycountry.db.Database):
         for candidate in subdivisions:
             for v in candidate._fields.values():
                 if v is None:
-                    continue
+                    LookupError(query)
                 v = remove_accents(v.lower())
                 # Some names include alternative versions which we want to
                 # match exactly.
@@ -252,7 +252,7 @@ class Subdivisions(pycountry.db.Database):
         for candidate in subdivisions:
             v = candidate._fields.get("name")
             if v is None:
-                continue
+                LookupError(query)
             v = remove_accents(v.lower())
             if query in v:
                 matching_candidates.append(candidate)
