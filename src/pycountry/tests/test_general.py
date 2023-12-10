@@ -1,6 +1,7 @@
 import gettext
 import os.path
 import re
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -348,10 +349,16 @@ def test_no_results_lookup_error():
         countries.search_fuzzy(query)
 
 
-def test_subdivision_fuzzy_search():
+def test_subdivision_fuzzy_search_match():
     results = pycountry.subdivisions.search_fuzzy("Alabama")
     assert len(results) == 1
     assert results[0].name == "Alabama"
+
+
+def test_subdivision_fuzzy_search_partial_match():
+    results = pycountry.subdivisions.search_fuzzy("Massachusett")
+    assert len(results) == 1
+    assert results[0].name == "Massachusetts"
 
 
 def test_subdivision_match():
