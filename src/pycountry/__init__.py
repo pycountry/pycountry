@@ -108,10 +108,9 @@ class ExistingCountries(pycountry.db.Database):
         )
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            if v is not None:
-                v = remove_accents(v.lower())
-                if query in v:
-                    add_result(candidate.country, max([1, 5 - v.find(query)]))
+            v = remove_accents(v.lower())
+            if query in v:
+                add_result(candidate.country, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)

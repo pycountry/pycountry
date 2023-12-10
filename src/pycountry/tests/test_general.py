@@ -437,3 +437,13 @@ def test_get_version_with_package_not_found():
 
         # Assert that the result is 'n/a'
         assert result == "n/a"
+
+
+def test_all_subdivisions_have_name_attribute():
+    subdivisions = pycountry.subdivisions
+    has_name_attr = [
+        hasattr(subdivision, "name") for subdivision in subdivisions
+    ]
+    all_have_name_attr = all(has_name_attr)
+
+    assert all_have_name_attr
