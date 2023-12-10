@@ -411,9 +411,19 @@ def test_unicode_characters():
     assert pycountry.remove_accents("こんにちは") == "こんにちは"  # Japanese characters
 
 
-def test_search_fuzzy_non_existent_subdivision():
+def test_subdivision_search_fuzzy_non_existent_subdivision():
     with pytest.raises(LookupError):
         pycountry.subdivisions.search_fuzzy("Non Existent Subdivision")
+
+
+def test_subdivision_partial_match_non():
+    with pytest.raises(LookupError):
+        pycountry.subdivisions.partial_match("Non Existent Subdivision")
+
+
+def test_subdivision_match_non():
+    with pytest.raises(LookupError):
+        pycountry.subdivisions.match("Non Existent Subdivision")
 
 
 def test_get_version_with_package_not_found():
