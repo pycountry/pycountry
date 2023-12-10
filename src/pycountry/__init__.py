@@ -111,9 +111,7 @@ class ExistingCountries(pycountry.db.Database):
             if v is not None:
                 v = remove_accents(v.lower())
                 if query in v:
-                    add_result(
-                        candidate.country, max([1, 5 - v.find(query)])
-                    )
+                    add_result(candidate.country, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
