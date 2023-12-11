@@ -1,6 +1,20 @@
 Changes
 =======
 
+23.12.11 (2023-12-11)
+--------------------=
+
+- Added fallback to name when common_name or official_name country attributes are missing
+
+- Added support for adding and removing country records, as well as casting to dict
+
+- Improve performance speed by checking for non-ascii chars before removing accents
+
+- Added search_fuzzy method to subdivisions
+
+- Added type hinting, created py.typed file, and added mypy checks to CI
+
+
 23.12.7 (2023-12-07)
 --------------------
 
