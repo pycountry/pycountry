@@ -54,9 +54,6 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Country")
-
     def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
@@ -130,24 +127,21 @@ class HistoricCountries(ExistingCountries):
     (Countries that have been removed from the standard)."""
 
     data_class = pycountry.db.Country
-    data_class_name = "Country"
     root_key = "3166-3"
 
 
 class Scripts(pycountry.db.Database):
     """Provides access to an ISO 15924 database (Scripts)."""
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Script")
-        self.root_key = "15924"
+    data_class = "Script"
+    root_key = "15924"
 
 
 class Currencies(pycountry.db.Database):
     """Provides access to an ISO 4217 database (Currencies)."""
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Currency")
-        self.root_key = "4217"
+    data_class = "Currency"
+    root_key = "4217"
 
 
 class Languages(pycountry.db.Database):
@@ -155,18 +149,16 @@ class Languages(pycountry.db.Database):
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Language")
-        self.root_key = "639-3"
+    data_class = "Language"
+    root_key = "639-3"
 
 
 class LanguageFamilies(pycountry.db.Database):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="LanguageFamily")
-        self.root_key = "639-5"
+    data_class = "LanguageFamily"
+    root_key = "639-5"
 
 
 class SubdivisionHierarchy(pycountry.db.Data):
@@ -196,13 +188,9 @@ class Subdivisions(pycountry.db.Database):
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
 
-    data_class_base = SubdivisionHierarchy
+    data_class = SubdivisionHierarchy
     no_index = ["name", "parent_code", "parent", "type"]
-
-    def __init__(self, filename: str) -> None:
-        super().__init__(filename, data_class_name="Subdivision")
-        self.root_key = "3166-2"
-        # self.data_class = pycountry.db.Subdivisionx
+    root_key = "3166-2"
 
     def _load(self, *args, **kw):
         super()._load(*args, **kw)

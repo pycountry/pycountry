@@ -2,7 +2,7 @@ import json
 import logging
 import threading
 import warnings
-from typing import Any, Callable, Dict, Iterator, List, Optional, Type, TypeVar
+from typing import Any, Iterator, List, Optional, Type, Union
 
 logger = logging.getLogger("pycountry.db")
 
@@ -12,30 +12,9 @@ class Data:
         self._fields = fields
 
     def __getattr__(self, key):
-        if self.__class__.__name__ == "Country":
-            if key in ("common_name", "official_name"):
-                # First try to get the common_name or official_name
-                value = self._fields.get(key)
-                if value is not None:
-                    return value
-                # Fall back to name if common_name or official_name is not found
-                name = self._fields.get("name")
-                if name is not None:
-                    warning_message = f"Country's {key} not found. Country name provided instead."
-                    warnings.warn(warning_message, UserWarning)
-                    return name
-                raise AttributeError()
-            else:
-                # For other keys, simply return the value or raise an error
-                if key in self._fields:
-                    return self._fields[key]
-                raise AttributeError()
-
-        else:
-            # For classes other than Country
-            if key in self._fields:
-                return self._fields[key]
-            raise AttributeError()
+        if key in self._fields:
+            return self._fields[key]
+        raise AttributeError()
 
     def __setattr__(self, key: str, value: str) -> None:
         if key != "_fields":
@@ -57,7 +36,26 @@ class Data:
 
 
 class Country(Data):
-    pass
+    def __getattr__(self, key):
+        if key in ("common_name", "official_name"):
+            # First try to get the common_name or official_name
+            value = self._fields.get(key)
+            if value is not None:
+                return value
+            # Fall back to name if common_name or official_name is not found
+            name = self._fields.get("name")
+            if name is not None:
+                warning_message = (
+                    f"Country's {key} not found. Country name provided instead."
+                )
+                warnings.warn(warning_message, UserWarning)
+                return name
+            raise AttributeError()
+        else:
+            # For other keys, simply return the value or raise an error
+            if key in self._fields:
+                return self._fields[key]
+            raise AttributeError()
 
 
 class Subdivision(Data):
@@ -75,25 +73,19 @@ def lazy_load(f):
 
 
 class Database:
-    data_class_base: Type = Data
-    data_class_name: Optional[str] = None
+    data_class: Union[Type, str]
     root_key: Optional[str] = None
     no_index: List[str] = []
 
-    def __init__(
-        self, filename: str, data_class_name: Optional[str] = None
-    ) -> None:
+    def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
-        self.data_class_name = data_class_name
-        self.data_class: Optional[Type] = None
 
-        # create data class if data_class_name is provided
-        if data_class_name:
-            self.data_class = type(data_class_name, (self.data_class_base,), {})
+        if isinstance(self.data_class, str):
+            self.factory = type(self.data_class, (Data,), {})
         else:
-            self.data_class = None
+            self.factory = self.data_class
 
     def _clear(self):
         self._is_loaded = False
@@ -111,11 +103,8 @@ class Database:
         with open(self.filename, encoding="utf-8") as f:
             tree = json.load(f)
 
-        if self.data_class is None:
-            raise ValueError("data_class is not set")
-
         for entry in tree[self.root_key]:
-            obj = self.data_class(**entry)
+            obj = self.factory(**entry)
             self.objects.append(obj)
             # Inject into index.
             for key, value in entry.items():
@@ -129,7 +118,7 @@ class Database:
                     logger.debug(
                         "%s %r already taken in index %r and will be "
                         "ignored. This is an error in the databases."
-                        % (self.data_class_name, value, key)
+                        % (self.factory.__name__, value, key)
                     )
                 index[value] = obj
 
@@ -140,7 +129,7 @@ class Database:
     @lazy_load
     def add_entry(self, **kw):
         # create the object with the correct dynamic type
-        obj = self.data_class(**kw)
+        obj = self.factory(**kw)
 
         # append object
         self.objects.append(obj)
@@ -161,7 +150,7 @@ class Database:
         obj = self.get(**kw)
         if not obj:
             raise KeyError(
-                f"{self.data_class_name} not found and cannot be removed: {kw}"
+                f"{self.factory.__name__} not found and cannot be removed: {kw}"
             )
 
         # remove object
