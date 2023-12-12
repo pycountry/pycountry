@@ -11,7 +11,6 @@ Thank you for contributing to pycountry! Before submitting this PR, please ensur
 
 ### Local Testing:
 Please run the following commands to ensure your changes do not introduce any new issues:
-- [ ] `pytest` - Runs all the tests to ensure they pass.
 - [ ] `make test` - Executes the custom test suite.
 - [ ] `mypy` - Checks for type consistency.
 - [ ] `pre-commit run --all-files` - Ensures code adheres to pre-commit checks.
