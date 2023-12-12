@@ -74,8 +74,11 @@ PyInstaller Compatibility
 
 Some users have reported issues using `pycountry` with PyInstaller guidance on how to handle the issues can be found in the `PyInstaller Google Group <https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
 
+Documentation
+-------------
+
 Countries (ISO 3166-1)
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Countries in `pycountry` store comprehensive data on each country per the ISO 3166-1 standard. You can iterate through all countries, look up specific countries using various codes, and perform fuzzy searches.
 
@@ -144,7 +147,7 @@ Attributes for the country class can be accessed using the `__getattr__` method.
   >>> aland.foo  # Raises AttributeError
 
 Historic Countries (ISO 3166-3)
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This section includes former countries as per ISO 3166-3. These are countries that have been dissolved but are still relevant historically.
 
@@ -166,7 +169,7 @@ The `historic_countries` database contains former countries that have been remov
 
 
 Country Subdivisions (ISO 3166-2)
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Subdivisions in `pycountry` provide detailed data about country divisions, such as states, provinces, and other administrative regions as per ISO 3166-2.
 
@@ -236,7 +239,7 @@ This method is especially useful for cases where the exact name or code of the s
     Subdivision(code='US-NY', country_code='US', name='New York', parent_code=None, type='State')]
 
 Scripts (ISO 15924)
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Access script information based on ISO 15924, useful for applications dealing with linguistic and cultural data. Scripts are available from a database similar to the countries:
 
@@ -259,7 +262,7 @@ Access script information based on ISO 15924, useful for applications dealing wi
 
 
 Currencies (ISO 4217)
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Access currency infromation based on ISO 4217, including currency names and codes. The currencies database is, again, similar to the ones before:
 
@@ -281,7 +284,7 @@ Access currency infromation based on ISO 4217, including currency names and code
 
 
 Languages (ISO 639-3)
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 The language database in `pycountry` covers a wide range of languages as per ISO 639-3. This is particularly useful for multilingual applications.
 
@@ -307,7 +310,7 @@ The language database in `pycountry` covers a wide range of languages as per ISO
   'Bangla'
 
 Locales
--------
+^^^^^^^
 
 `pycountry` provides locale support, compatible with Python's gettext module, enabling easy translation of country names and other data.
 
@@ -327,7 +330,7 @@ Here is an example translating language names:
 
 
 Lookups
--------
+^^^^^^^
 
 You can perform case-insensitive lookups for countries, languages, and other data without knowing the exact key to match.
 
@@ -342,7 +345,7 @@ The search ends with the first match, which is returned.
 
 
 Dict Compatibility
-------------------
+^^^^^^^^^^^^^^^^^^
 
 All `pycountry` objects can be cast to dictionaries for ease of use and integration with other Python data structures.
 
@@ -354,7 +357,7 @@ All `pycountry` objects can be cast to dictionaries for ease of use and integrat
 
 
 Custom Countries
-----------------
+^^^^^^^^^^^^^^^^
 
 While `pycountry` adheres to ISO standards, it also allows runtime modifications like adding or removing entries to suit specific needs.
 
