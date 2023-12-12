@@ -1,9 +1,13 @@
 pycountry
 =========
 
-.. image:g: https://travis-ci.org/flyingcircusio/pycountry.svg?branch=master
+.. image:: https://img.shields.io/pypi/v/pycountry.svg
+    :target: https://pypi.org/project/pycountry/
+    :alt: PyPI Version
 
-pycountry provides the ISO databases for the standards:
+pycountry is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, pycountry has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards. These standards are used globally for consistent representation of critical information, such as the standardized names of countries (ISO 3166), languages (ISO 639-3), and currencies (ISO 4217). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
+
+pycountry supports the following ISO databases for their standards:
 
 * `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
 * `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
@@ -13,40 +17,66 @@ pycountry provides the ISO databases for the standards:
 * `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ Currencies
 * `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ Scripts
 
-The package includes a copy from Debian's `pkg-isocodes
-<https://salsa.debian.org/iso-codes-team/iso-codes>`_ and makes the data
-accessible through a Python API.
+The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. This ensures that pycountry's users have access to reliable and regularly updated international standards.
 
-Translation files for the various strings are included as well.
+Additionally, pycountry provides translations for various strings, facilitated by the use of the `gettext` library. This feature enhances the library's utility in multilingual applications and environments.
+
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
 
 Data update policy
 ------------------
 
-No changes to the data will be accepted into pycountry. This is a pure wrapper
-around the ISO standard using the `pkg-isocodes` database from Debian *as is*.
-If you need changes to the political situation in the world, please talk to
-the ISO or Debian people, not me.
+pycountry is a wrapper around the ISO standards, using the Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_ database as is. We do not make changes to the data.
+
+To update data from Debian, run `make` in the base directory. For amendments to the data provided by Debian please reach out to them.
+
+For custom local modifications, see the "Custom Countries" section.
 
 Donations / Monetary Support
 ----------------------------
 
-This is a small project that I maintain in my personal time. I am not
-interested in personal financial gain. However, if you would like to support
-the project then I would love if you would donate to `Feminist Frequency
-<https://feministfrequency.com/donate/>`_ instead. Also, let the world know you
-did so, so that others can follow your path.
+pycountry is maintained by volunteers. We suggest supporting `Feminist Frequency <https://feministfrequency.com/donate/>`_ as a way to contribute to the project's spirit. Share your support to inspire others!
 
 Contributions
 -------------
 
-The code lives in a `git repository on GitHub
-<https://github.com/flyingcircusio/pycountry>`_, and issues must be reported in there as well.
+The code lives in a `git repository on GitHub <https://github.com/pycountry/pycountry>`_, and issues must be reported in there as well. Please follow the provided Pull Request template.
+
+Installation
+------------
+
+Installing pycountry is simple and straightforward. You can install it directly from the Python Package Index (PyPI) using `pip`, a package manager for Python that simplifies the process of installing and managing Python libraries.
+
+To install `pycountry`, open your terminal and run the following command:
+
+.. code:: bash
+  pip install pycountry
+
+This command will download and install the latest version of pycountry along with its dependencies. Ensure that you have pip installed and up to date before running this command.
+
+Requirements
+^^^^^^^^^^^^
+
+* Python 3.8 or newer
+* Internet connection to download the package from PyPI.
+
+After the installation is complete, you can start using `pycountry` in your Python projects to access ISO country, language, currency, and script data.
+
+For more detailed information about `pycountry` and its usage, refer to the subsequent sections of this document.
+
+PyInstaller Compatibility
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some users have reported issues using PyCountry with PyInstaller guidance on how to handle the issues can be found in the `PyInstaller Google Group <https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
 
 Countries (ISO 3166-1)
 ----------------------
 
-Countries are accessible through a database object that is already configured
-upon import of pycountry and works as an iterable:
+Countries in `pycountry` store comprehensive data on each country per the ISO 3166-1 standard. You can iterate through all countries, look up specific countries using various codes, and perform fuzzy searches.
+
+Countries are accessible through a database object that is already configured upon import of pycountry and works as an iterable:
 
 .. code:: pycon
 
@@ -56,8 +86,7 @@ upon import of pycountry and works as an iterable:
   >>> list(pycountry.countries)[0]
   Country(alpha_2='AF', alpha_3='AFG', name='Afghanistan', numeric='004', official_name='Islamic Republic of Afghanistan')
 
-Specific countries can be looked up by their various codes and provide the
-information included in the standard as attributes:
+Specific countries can be looked up by their various codes and provide the information included in the standard as attributes:
 
 .. code:: pycon
 
@@ -75,11 +104,7 @@ information included in the standard as attributes:
   >>> germany.official_name
   'Federal Republic of Germany'
 
-There's also a "fuzzy" search to help people discover "proper" countries for
-names that might only actually be subdivisions. The fuzziness also includes
-normalizing unicode accents. There's also a bit of prioritization included
-to prefer matches on country names before subdivision names and have countries
-with more matches be listed before ones with fewer matches:
+There's also a "fuzzy" search to help people discover "proper" countries for names that might only actually be subdivisions. The fuzziness also includes normalizing unicode accents. There's also a bit of prioritization included to prefer matches on country names before subdivision names and have countries with more matches be listed before ones with fewer matches:
 
 .. code:: pycon
 
@@ -118,9 +143,9 @@ Attributes for the country class can be accessed using the `__getattr__` method.
 Historic Countries (ISO 3166-3)
 -------------------------------
 
-The `historic_countries` database contains former countries that have been
-removed from the standard and are now included in ISO 3166-3, excluding
-existing ones:
+This section includes former countries as per ISO 3166-3. These are countries that have been dissolved but are still relevant historically.
+
+The `historic_countries` database contains former countries that have been removed from the standard and are now included in ISO 3166-3, excluding existing ones:
 
 .. code:: pycon
 
@@ -140,8 +165,9 @@ existing ones:
 Country subdivisions (ISO 3166-2)
 ---------------------------------
 
-The country subdivisions are a little more complex than the countries itself
-because they provide a nested and typed structure.
+Subdivisions in `pycountry` provide detailed data about country divisions, such as states, provinces, and other administrative regions as per ISO 3166-2.
+
+The country `subdivisions` are a little more complex than the `countries` because they are in a nested structure.
 
 All subdivisons can be accessed directly:
 
@@ -152,8 +178,7 @@ All subdivisons can be accessed directly:
   >>> list(pycountry.subdivisions)[0]
   Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
-Subdivisions can be accessed using their unique code. The resulting object will provide at least
-their code, name and type:
+Subdivisions can be accessed using their unique code. The resulting object will provide at least their code, name and type:
 
 .. code:: pycon
 
@@ -210,7 +235,7 @@ This method is especially useful for cases where the exact name or code of the s
 Scripts (ISO 15924)
 -------------------
 
-Scripts are available from a database similar to the countries:
+Access script information based on ISO 15924, useful for applications dealing with linguistic and cultural data. Scripts are available from a database similar to the countries:
 
 .. code:: pycon
 
@@ -233,7 +258,7 @@ Scripts are available from a database similar to the countries:
 Currencies (ISO 4217)
 ---------------------
 
-The currencies database is, again, similar to the ones before:
+Access currency infromation based on ISO 4217, including currency names and codes. The currencies database is, again, similar to the ones before:
 
 .. code:: pycon
 
@@ -255,7 +280,7 @@ The currencies database is, again, similar to the ones before:
 Languages (ISO 639-3)
 ---------------------
 
-The languages database is similar too:
+The language database in `pycountry` covers a wide range of languages as per ISO 639-3. This is particularly useful for multilingual applications.
 
 .. code:: pycon
 
@@ -281,10 +306,10 @@ The languages database is similar too:
 Locales
 -------
 
-Locales are available in the `pycountry.LOCALES_DIR` subdirectory of this
-package. The translation domains are called `isoXXX` according to the standard
-they provide translations for. The directory is structured in a way compatible
-to Python's gettext module.
+`pycountry` provides locale support, compatible with Python's gettext module, enabling easy translation of country names and other data.
+
+
+Locales are available in the `pycountry.LOCALES_DIR` subdirectory of this package. The translation domains are called `isoXXX` according to the standard they provide translations for. The directory is structured in a way compatible to Python's gettext module.
 
 Here is an example translating language names:
 
@@ -301,9 +326,9 @@ Here is an example translating language names:
 Lookups
 -------
 
-For each database (countries, languages, scripts, etc.), you can also look up
-entities case insensitively without knowing which key the value may match.  For
-example:
+You can perform case-insensitive lookups for countries, languages, and other data without knowing the exact key to match.
+
+The search will end once the first match is found, which is returned. This can sometimes result in unexpected or unintuitive returns.
 
 .. code:: pycon
 
@@ -316,7 +341,7 @@ The search ends with the first match, which is returned.
 Dict Compatibility
 ------------------
 
-You can cast each object type into a `dict`:
+All `pycountry` objects can be cast to dictionaries for ease of use and integration with other Python data structures.
 
 .. code:: pycon
 
@@ -328,8 +353,7 @@ You can cast each object type into a `dict`:
 Custom Countries
 ----------------
 
-While pycountry will not be adding non-ISO values to its standard library,
-you can add or remove entries at runtime to fit your needs.
+While `pycountry` adheres to ISO standards, it also allows runtime modifications like adding or removing entries to suit specific needs.
 
 Add a non-ISO country:
 
@@ -343,10 +367,71 @@ Remove a country from a database:
 
  >>> pycountry.countries.remove_entry(alpha_2="XK")
 
+Contributing
+------------
 
-PyInstaller Compatibility
--------------------------
+We welcome contributions to `pycountry`! Whether it's improving documentation, adding new features, or fixing bugs, your contributions are greatly appreciated.
 
-Some users have reported issues using PyCountry with PyInstaller guidance on
-how to handle the issues can be found in the `PyInstaller Google Group
-<https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
+To get started:
+
+#. Fork the repository on GitHub.
+#. Clone your fork locally using `git clone <your-fork-url>`.
+#. Navigate to the cloned directory: `cd pycountry`.
+#. Install the project and its dependencies: `pip install -e .` (This installs the package in editable mode).
+#. Create a new feature branch: `git checkout -b my-new-feature`.
+#. Make your changes and commit them: `git commit -am 'Add some feature'`.
+#. Push the branch to GitHub: `git push origin my-new-feature`.
+#. Submit a pull request through the GitHub website.
+
+Please ensure your code adheres to the project's coding standards and includes appropriate tests. Additionally, update or add documentation as necessary. For more detailed information, refer to our [CONTRIBUTING.md](link-to-CONTRIBUTING.md) file.
+
+Running Tests
+-------------
+
+To maintain the quality of `pycountry`, we encourage contributors to run tests and perform code quality checks before submitting any changes. `pycountry` uses Poetry for dependency management and tools like `mypy`, `pre-commit`, and `make` for testing and linting.
+
+To run the test suite:
+
+#. Install Poetry if you haven't already. Visit the Poetry website for `installation instructions <https://python-poetry.org/docs/#installation>`_.
+#. Install the project dependencies by running ``poetry install`` in the project's root directory. This command also installs necessary tools like `mypy` and `pre-commit` as defined in `pyproject.toml`.
+#. Activate the Poetry shell with ``poetry shell``. This will spawn a new shell subprocess, which is configured to use your project’s virtual environment.
+#. Run the unit tests using ``make test``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
+#. Run type checks using ``mypy .`` to ensure type consistency.
+#. Run linting checks using ``pre-commit run --all-files`` to verify code formatting and style.
+#. Ensure all tests pass successfully.
+
+If you add new features or fix bugs, please include corresponding tests. Follow the project's coding standards and update documentation as needed.
+
+Note: The project's dependencies and the environment needed to run tests are managed by Poetry, using the `pyproject.toml` and `poetry.lock` files.
+
+License
+-------
+
+`pycountry` is made available under the GNU Lesser General Public License Version 2.1 (LGPL 2.1). This license allows you to use, modify, and distribute the library in your own projects.
+
+For more details, see the `LICENSE <https://github.com/pycountry/pycountry/blob/main/LICENSE.txt>`_ file included with the source code.
+
+Credits
+-------
+
+`pycountry` is developed and maintained by a community of developers and contributors. Special thanks to everyone who has contributed their time and effort.
+We gratefully acknowledge the Debian `pkg iso-codes <https://salsa.debian.org/iso-codes-team/iso-codes>`_ team and contributors for their work and for making this resource freely available.
+
+For a complete list of contributors, see the `COPYRIGHT <https://github.com/pycountry/pycountry/blob/main/COPYRIGHT.txt>`_ file.
+
+Acknowledgments
+----------------
+
+We would like to express our gratitude to the authors and maintainers of the following libraries, which have greatly contributed to the functionality and internationalization of `pycountry`:
+
+* `country-info <https://github.com/countryinfo/countryinfo>`
+* `babel <https://github.com/python-babel/babel>`
+
+These libraries provide valuable data and localization support that complement the features of `pycountry`.
+
+Maintainers
+-----------
+
+* `Christian Theune <mailto:ct@flyingcircus.io>`
+* `Nate Schimmoller <mailto:nschimmo@gmail.com>`
+* `Zachary Ware <mailto:zachary.ware@gmail.com>`
