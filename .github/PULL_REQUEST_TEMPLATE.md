@@ -24,9 +24,6 @@ Please run the following commands to ensure your changes do not introduce any ne
 - [ ] Reference related issues or PRs if applicable.
 - [ ] Provide a summary of your changes in the PR description.
 
-### Review Request:
-- [ ] Request a review from maintainers or specific contributors.
-
 **Please add X's within the brackets for each item to confirm completion.**
 
 ---
