@@ -2,7 +2,7 @@
 
 import os.path
 import unicodedata
-from importlib import metadata
+from importlib import metadata as _importlib_metadata
 from typing import Dict, List, Optional, Type
 
 import pycountry.db
@@ -26,8 +26,8 @@ def resource_filename(package_or_requirement: str, resource_name: str) -> str:
 
 def get_version(distribution_name: str) -> Optional[str]:
     try:
-        return metadata.version(distribution_name)
-    except metadata.PackageNotFoundError:
+        return _importlib_metadata.version(distribution_name)
+    except _importlib_metadata.PackageNotFoundError:
         return "n/a"
 
 
