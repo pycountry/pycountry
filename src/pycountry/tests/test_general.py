@@ -1,9 +1,9 @@
 import gettext
 import os.path
 import re
+from importlib import metadata as _importlib_metadata
 from unittest.mock import patch
 
-import importlib_metadata
 import pytest
 
 import pycountry
@@ -427,10 +427,10 @@ def test_subdivision_match_non():
 
 
 def test_get_version_with_package_not_found():
-    # Mock importlib_metadata.version to raise PackageNotFoundError
+    # Mock importlib.metadata.version to raise PackageNotFoundError
     with patch(
-        "importlib_metadata.version",
-        side_effect=importlib_metadata.PackageNotFoundError,
+        "importlib.metadata.version",
+        side_effect=_importlib_metadata.PackageNotFoundError,
     ):
         # Call get_version with a package name that doesn't exist
         result = pycountry.get_version("non_existent_package")

@@ -1,8 +1,14 @@
 Changes
 =======
 
+23.12.11.dev0 (Unreleased)
+--------------------------
+
+- Fixed import of importlib_metadata to importlib.metadata
+
+
 23.12.11 (2023-12-11)
---------------------=
+---------------------
 
 - Added fallback to name when common_name or official_name country attributes are missing
 
