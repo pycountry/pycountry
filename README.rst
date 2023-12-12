@@ -10,7 +10,7 @@ pycountry
 ``pycountry`` supports the following ISO databases for their standards:
 
 * `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ | `Languages (ISO 639-3)`_
-* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
+* `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ | Codes for representation of names of countries and their subdivisions
 * `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ | `Countries (ISO 3166-1)`_
 * `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ | `Historic Countries (ISO 3166-3)`_
 * `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ | `Country Subdivisions (ISO 3166-2)`_
