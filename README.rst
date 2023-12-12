@@ -24,7 +24,7 @@ Additionally, pycountry provides translations for various strings, facilitated b
 Table of Contents
 -----------------
 
-.. contents::
+.. contents:: ""
    :local:
    :depth: 2
 
