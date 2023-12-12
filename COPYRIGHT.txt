@@ -16,12 +16,12 @@ Contributors:
 - Alan Orth (2023)
 - Ashok Argent-Katwala (2020)
 - Bastien Vallet (2020)
-- Chris R Bunney 2020
+- Chris R Bunney (2020)
 - Christian Zagrodnick (2012-2013)
 - Christoph Zwerschke (2013)
 - Jakub Wilk (2020)
 - Janis Kirsteins (2019)
-- Justin Ryan Wagner 2014
+- Justin Ryan Wagner (2014)
 - Kevin Deldycke (2014, 2016)
 - Louis Sautier (2020)
 - Lucas Wiman (2015)
@@ -36,9 +36,11 @@ Contributors:
 - simon klemenc (2016)
 
 Additional Acknowledgements and Licensing Information:
-- Data in the /src/databases/ and /src/locales/ folders is sourced from the Debian iso-codes project, available at: https://salsa.debian.org/iso-codes-team/iso-codes. This data is used under the terms of the GNU Lesser General Public License Version 2.1 (February 1999).
+- Data in the /src/databases/ and /src/locales/ folders is sourced from the Debian iso-codes project, available at: https://salsa.debian.org/iso-codes-team/iso-codes.
+This data is used under the terms of the GNU Lesser General Public License Version 2.1 (February 1999).
 
-The Debian iso-codes project is a collection of code lists for different standards, maintained and made available under the GNU Lesser General Public License Version 2.1. We gratefully acknowledge the Debian iso-codes team and contributors for their work and for making this resource freely available.
+The Debian iso-codes project is a collection of code lists for different standards, maintained and made available under the GNU Lesser General Public License Version 2.1.
+We gratefully acknowledge the Debian iso-codes team and contributors for their work and for making this resource freely available.
 
 The full text of the GNU Lesser General Public License Version 2.1 can be found at: https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/COPYING.
 

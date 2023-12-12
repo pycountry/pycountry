@@ -469,3 +469,12 @@ def test_remove_countries():
         assert (
             False
         ), "Expected KeyError for 'Non Existent Country', but no exception was raised"
+
+
+def test_subdivisions_with_missing_parents():
+    result = [
+        (i.code, i.parent_code)
+        for i in pycountry.subdivisions
+        if i.parent_code and not i.parent
+    ]
+    assert result == []
