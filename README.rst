@@ -55,6 +55,7 @@ Installing ``pycountry`` is simple and straightforward. You can install it direc
 To install ``pycountry``, open your terminal and run the following command:
 
 .. code:: pycon
+
   pip install pycountry
 
 This command will download and install the latest version of ``pycountry`` along with its dependencies. Ensure that you have pip installed and up to date before running this command.
