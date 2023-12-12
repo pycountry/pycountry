@@ -5,17 +5,17 @@ pycountry
     :target: https://pypi.org/project/pycountry/
     :alt: PyPI Version
 
-``pycountry`` is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, ``pycountry`` has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards. These standards are used globally for consistent representation of critical information, such as the standardized names of countries (ISO 3166), languages (ISO 639-3), and currencies (ISO 4217). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
+``pycountry`` is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, ``pycountry`` has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards. These standards are used globally for consistent representation of critical information, such as the standardized names of countries (`3166 <https://en.wikipedia.org/wiki/ISO_3166>`_), languages (`639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_), and currencies (`4217 <https://en.wikipedia.org/wiki/ISO_4217>`_). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
 
 ``pycountry`` supports the following ISO databases for their standards:
 
-* `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
+* `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ | `Languages (ISO 639-3)`_
 * `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
-* `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ Countries
-* `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ Deleted countries
-* `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ Subdivisions of countries
-* `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ Currencies
-* `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ Scripts
+* `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ | `Countries (ISO 3166-1)`_
+* `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_ | `Historic Countries (ISO 3166-3)`_
+* `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_ | `Country Subdivisions (ISO 3166-2)`_
+* `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ | `Currencies (ISO 4217)`_
+* `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ | `Scripts (ISO 15924)`_
 
 The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. This ensures that pycountry's users have access to reliable and regularly updated international standards.
 
@@ -68,7 +68,7 @@ Requirements
 
 After the installation is complete, you can start using ``pycountry`` in your Python projects to access ISO country, language, currency, and script data.
 
-For more detailed information about ``pycountry`` and its usage, refer to the subsequent sections of this document.
+For more detailed information about ``pycountry`` and its usage, refer to the `Documentation`_ section of this document.
 
 PyInstaller Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -81,7 +81,7 @@ Documentation
 Countries (ISO 3166-1)
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Countries in ``pycountry`` store comprehensive data on each country per the ISO 3166-1 standard. You can iterate through all countries, look up specific countries using various codes, and perform fuzzy searches.
+Countries in ``pycountry`` store comprehensive data on each country per the `3166-1 <https://en.wikipedia.org/wiki/ISO_3166-1>`_ standard. You can iterate through all countries, look up specific countries using various codes, and perform fuzzy searches.
 
 Countries are accessible through a database object that is already configured upon import of ``pycountry`` and works as an iterable:
 
@@ -150,7 +150,7 @@ Attributes for the country class can be accessed using the ``__getattr__`` metho
 Historic Countries (ISO 3166-3)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This section includes former countries as per ISO 3166-3. These are countries that have been dissolved but are still relevant historically.
+This section includes former countries as per `3166-3 <https://en.wikipedia.org/wiki/ISO_3166-3>`_. These are countries that have been dissolved but are still relevant historically.
 
 The `historic_countries` database contains former countries that have been removed from the standard and are now included in ISO 3166-3, excluding existing ones:
 
@@ -172,7 +172,7 @@ The `historic_countries` database contains former countries that have been remov
 Country Subdivisions (ISO 3166-2)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Subdivisions in ``pycountry`` provide detailed data about country divisions, such as states, provinces, and other administrative regions as per ISO 3166-2.
+Subdivisions in ``pycountry`` provide detailed data about country divisions, such as states, provinces, and other administrative regions as per `3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2>`_.
 
 The country ``subdivisions`` are a little more complex than the ``countries`` because they are in a nested structure.
 
@@ -242,7 +242,7 @@ This method is especially useful for cases where the exact name or code of the s
 Scripts (ISO 15924)
 ^^^^^^^^^^^^^^^^^^^
 
-Access script information based on ISO 15924, useful for applications dealing with linguistic and cultural data. Scripts are available from a database similar to the countries:
+Access script information based on `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_, useful for applications dealing with linguistic and cultural data. Scripts are available from a database similar to the countries:
 
 .. code:: pycon
 
@@ -265,7 +265,7 @@ Access script information based on ISO 15924, useful for applications dealing wi
 Currencies (ISO 4217)
 ^^^^^^^^^^^^^^^^^^^^^
 
-Access currency infromation based on ISO 4217, including currency names and codes. The currencies database is, again, similar to the ones before:
+Access currency infromation based on `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_, including currency names and codes. The currencies database is, again, similar to the ones before:
 
 .. code:: pycon
 
@@ -287,7 +287,7 @@ Access currency infromation based on ISO 4217, including currency names and code
 Languages (ISO 639-3)
 ^^^^^^^^^^^^^^^^^^^^^
 
-The language database in ``pycountry`` covers a wide range of languages as per ISO 639-3. This is particularly useful for multilingual applications.
+The language database in ``pycountry`` covers a wide range of languages as per `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_. This is particularly useful for multilingual applications.
 
 .. code:: pycon
 
