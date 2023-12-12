@@ -21,8 +21,6 @@ The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.or
 
 Additionally, pycountry provides translations for various strings, facilitated by the use of the `gettext` library. This feature enhances the library's utility in multilingual applications and environments.
 
-.. _table-of-contents:
-
 Table of Contents
 -----------------
 
