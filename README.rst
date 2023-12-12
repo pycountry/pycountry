@@ -5,9 +5,9 @@ pycountry
     :target: https://pypi.org/project/pycountry/
     :alt: PyPI Version
 
-pycountry is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, pycountry has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards. These standards are used globally for consistent representation of critical information, such as the standardized names of countries (ISO 3166), languages (ISO 639-3), and currencies (ISO 4217). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
+`pycountry` is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, `pycountry` has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards. These standards are used globally for consistent representation of critical information, such as the standardized names of countries (ISO 3166), languages (ISO 639-3), and currencies (ISO 4217). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
 
-pycountry supports the following ISO databases for their standards:
+`pycountry` supports the following ISO databases for their standards:
 
 * `639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ Languages
 * `3166 <https://en.wikipedia.org/wiki/ISO_3166>`_ Codes for representation of names of countries and their subdivisions
@@ -19,7 +19,7 @@ pycountry supports the following ISO databases for their standards:
 
 The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. This ensures that pycountry's users have access to reliable and regularly updated international standards.
 
-Additionally, pycountry provides translations for various strings, facilitated by the use of the `gettext` library. This feature enhances the library's utility in multilingual applications and environments.
+Additionally, `pycountry` provides translations for various strings, facilitated by the use of the `gettext` library. This feature enhances the library's utility in multilingual applications and environments.
 
 Table of Contents
 ================
@@ -31,7 +31,7 @@ Table of Contents
 Data update policy
 ------------------
 
-pycountry is a wrapper around the ISO standards, using the Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_ database as is. We do not make changes to the data.
+`pycountry` is a wrapper around the ISO standards, using the Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_ database as is. We do not make changes to the data.
 
 To update data from Debian, run `make` in the base directory. For amendments to the data provided by Debian please reach out to them.
 
@@ -40,7 +40,7 @@ For custom local modifications, see the "Custom Countries" section.
 Donations / Monetary Support
 ----------------------------
 
-pycountry is maintained by volunteers. We suggest supporting `Feminist Frequency <https://feministfrequency.com/donate/>`_ as a way to contribute to the project's spirit. Share your support to inspire others!
+`pycountry` is maintained by volunteers. We suggest supporting `Feminist Frequency <https://feministfrequency.com/donate/>`_ as a way to contribute to the project's spirit. Share your support to inspire others!
 
 Contributions
 -------------
@@ -50,14 +50,14 @@ The code lives in a `git repository on GitHub <https://github.com/pycountry/pyco
 Installation
 ------------
 
-Installing pycountry is simple and straightforward. You can install it directly from the Python Package Index (PyPI) using `pip`, a package manager for Python that simplifies the process of installing and managing Python libraries.
+Installing `pycountry` is simple and straightforward. You can install it directly from the Python Package Index (PyPI) using `pip`, a package manager for Python that simplifies the process of installing and managing Python libraries.
 
 To install `pycountry`, open your terminal and run the following command:
 
 .. code:: bash
   pip install pycountry
 
-This command will download and install the latest version of pycountry along with its dependencies. Ensure that you have pip installed and up to date before running this command.
+This command will download and install the latest version of `pycountry` along with its dependencies. Ensure that you have pip installed and up to date before running this command.
 
 Requirements
 ^^^^^^^^^^^^
@@ -72,14 +72,14 @@ For more detailed information about `pycountry` and its usage, refer to the subs
 PyInstaller Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Some users have reported issues using PyCountry with PyInstaller guidance on how to handle the issues can be found in the `PyInstaller Google Group <https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
+Some users have reported issues using `pycountry` with PyInstaller guidance on how to handle the issues can be found in the `PyInstaller Google Group <https://groups.google.com/g/pyinstaller/c/OYhJdeZ9010/m/vLhYAWUzAQAJ>`_.
 
 Countries (ISO 3166-1)
 ----------------------
 
 Countries in `pycountry` store comprehensive data on each country per the ISO 3166-1 standard. You can iterate through all countries, look up specific countries using various codes, and perform fuzzy searches.
 
-Countries are accessible through a database object that is already configured upon import of pycountry and works as an iterable:
+Countries are accessible through a database object that is already configured upon import of `pycountry` and works as an iterable:
 
 .. code:: pycon
 
@@ -165,7 +165,7 @@ The `historic_countries` database contains former countries that have been remov
  '1992-08-30'
 
 
-Country subdivisions (ISO 3166-2)
+Country Subdivisions (ISO 3166-2)
 ---------------------------------
 
 Subdivisions in `pycountry` provide detailed data about country divisions, such as states, provinces, and other administrative regions as per ISO 3166-2.
