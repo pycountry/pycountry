@@ -15,7 +15,7 @@ assignees: ''
 
 # **Description**
 
-Provide a clear and concise description of your issue or question. For Bug Reports please provide the following: 
+Provide a clear and concise description of your issue or question. For Bug Reports please provide the following:
 
 ## **Code to Reproduce**
 
@@ -47,7 +47,7 @@ Add any other context or information related to your issue or question.
 
 ---
 
-**Note**: Before submitting a bug report, please make sure that you have the latest version of pycountry installed and have checked for any existing similar issues. If you're reporting a security issue, please do not disclose it in a public issue. Instead, follow responsible disclosure practices and contact us privately at 
+**Note**: Before submitting a bug report, please make sure that you have the latest version of pycountry installed and have checked for any existing similar issues. If you're reporting a security issue, please do not disclose it in a public issue. Instead, follow responsible disclosure practices and contact us privately at
 
 - [Christian Theune](mailto:ct@flyingcircus.io)
 - [Nate Schimmoller](mailto:nschimmo@gmail.com)
@@ -56,4 +56,3 @@ Add any other context or information related to your issue or question.
 ---
 
 **By filing this issue, you agree to comply with our Code of Conduct.**
-
