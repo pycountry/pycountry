@@ -35,7 +35,7 @@ Data update policy
 
 To update data from Debian, run ``make`` in the base directory. For amendments to the data provided by Debian please reach out to them.
 
-For custom local modifications, see the :ref:`Custom Countries` section.
+For custom local modifications, see the `Custom Countries`_ section.
 
 Donations / Monetary Support
 ----------------------------
