@@ -45,4 +45,3 @@ Add any other context or information related to your issue or question.
 **Note**: Before submitting a bug report, please make sure that you have the latest version of pycountry installed and have checked for any existing similar issues.
 
 **By filing this issue, you agree to comply with our Code of Conduct.**
-
