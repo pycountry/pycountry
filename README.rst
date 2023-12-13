@@ -404,9 +404,7 @@ To run the test suite:
 #. Install Poetry if you haven't already. Visit the Poetry website for `installation instructions <https://python-poetry.org/docs/#installation>`_.
 #. Install the project dependencies by running ``poetry install`` in the project's root directory. This command also installs necessary tools like ``mypy`` and ``pre-commit`` as defined in ``pyproject.toml``.
 #. Activate the Poetry shell with ``poetry shell``. This will spawn a new shell subprocess, which is configured to use your project’s virtual environment.
-#. Run the unit tests using ``make test``. Ensure you have ``make`` installed on your system (commonly pre-installed on Unix-like systems).
-#. Run type checks using ``mypy .`` to ensure type consistency.
-#. Run linting checks using ``pre-commit run --all-files`` to verify code formatting and style.
+4. Run the unit tests, linting checks, and type checks using ``make check``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
 #. Ensure all tests pass successfully.
 
 If you add new features or fix bugs, please include corresponding tests. Follow the project's coding standards and update documentation as needed.

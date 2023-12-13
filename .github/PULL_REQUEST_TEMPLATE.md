@@ -11,12 +11,12 @@ Thank you for contributing to pycountry! Before submitting this PR, please ensur
 
 ### Local Testing:
 Please run the following commands to ensure your changes do not introduce any new issues:
-- [ ] `make test` - Executes the custom test suite.
-- [ ] `mypy` - Checks for type consistency.
-- [ ] `pre-commit run --all-files` - Ensures code adheres to pre-commit checks.
+- [ ] `make check` - Executes the custom test suite, checks for type consistency, lints code.
 
 ### Documentation and Contributors:
-- [ ] Update documentation if your changes impact the API or user experience.
+- [ ] Update documentation if your changes impact the API or user experience
+	- [HISTORY](https://github.com/pycountry/pycountry/blob/main/HISTORY.txt)
+	- [README](https://github.com/pycountry/pycountry/blob/main/README.rst)
 - [ ] Add your name to the `CONTRIBUTORS.txt` file to acknowledge your contribution to the project.
 
 ### Commit Messages and PR:

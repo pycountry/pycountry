@@ -61,9 +61,7 @@ To run the test suite:
 1. Install Poetry if you haven't already. Visit the Poetry website for [installation instructions](https://python-poetry.org/docs/#installation).
 2. Install the project dependencies by running ``poetry install`` in the project's root directory. This command also installs necessary tools like `mypy` and `pre-commit` as defined in `pyproject.toml`.
 3. Activate the Poetry shell with ``poetry shell``. This will spawn a new shell subprocess, which is configured to use your project’s virtual environment.
-4. Run the unit tests using ``make test``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
-5. Run type checks using ``mypy .`` to ensure type consistency.
-6. Run linting checks using ``pre-commit run --all-files`` to verify code formatting and style.
+4. Run the unit tests, linting checks, and type checks using ``make check``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
 7. Ensure all tests pass successfully.
 
 Note: The project's dependencies and the environment needed to run tests are managed by Poetry, using the `pyproject.toml` and `poetry.lock` files.
@@ -94,7 +92,7 @@ If your contribution requires changes to documentation, please update the docume
 
 ## Community and Communication
 
-Join our community and feel free to ask questions, seek help, or discuss ideas. You can reach out through [GitHub issues](link-to-issues).
+Join our community and feel free to ask questions, seek help, or discuss ideas. You can reach out through [GitHub issues](https://github.com/pycountry/pycountry/issues).
 
 ## License
 
