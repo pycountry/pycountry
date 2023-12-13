@@ -36,28 +36,30 @@ jobs:
       if: matrix.python-version != '3.8'
       run: mypy .
 
-    - name: Install Poetry
-      uses: snok/install-poetry@v1
+    - name: Cache poetry install
+      uses: actions/cache@v2
+      with:
+        path: ~/.local
+        key: poetry-1.7.1-py${{ matrix.python-version }}
+
+    - uses: snok/install-poetry@v1
       with:
         version: 1.7.1
         virtualenvs-create: true
         virtualenvs-in-project: true
 
-    - name: Cache Poetry Install
-      uses: actions/cache@v2
-      with:
-        path: ~/.local
-        key: poetry-1.7.1-py${{ matrix.python-version }}
+    - name: Install dependencies with Poetry
+      run: poetry install --no-interaction --no-root
+      if: steps.cache-deps.outputs.cache-hit != 'true'
+
+    - name: Run poetry install
+      run: poetry install
 
     - name: Cache dependencies
       uses: actions/cache@v2
       with:
         path: .venv
         key: py${{ matrix.python-version }}-deps-${{ hashFiles('**/poetry.lock') }}
-
-    - name: Install dependencies with Poetry
-      run: poetry install --no-interaction --no-root
-      if: steps.cache-deps.outputs.cache-hit != 'true'
 
     - name: Run tests with pytest
       run: poetry run pytest -vv --cov --cov-report=term-missing
