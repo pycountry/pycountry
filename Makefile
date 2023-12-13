@@ -2,6 +2,7 @@ PYTHON ?= python
 POETRY ?= poetry
 PRE_COMMIT ?= pre-commit
 TOX ?= tox
+MYPY ?= mypy
 
 .PHONY: all
 all: data poetry.lock lint test
@@ -35,3 +36,10 @@ test:
 .PHONY: clean
 clean:
 	git clean -fdX
+
+.PHONY: check
+check: lint test mypy-check
+
+.PHONY: mypy-check
+mypy-check:
+	$(MYPY) .
