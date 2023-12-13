@@ -91,6 +91,29 @@ with more matches be listed before ones with fewer matches:
    Country(alpha_2='FR', alpha_3='FRA', name='France', numeric='250', official_name='French Republic'),
    Country(alpha_2='HN', alpha_3='HND', name='Honduras', numeric='340', official_name='Republic of Honduras')]
 
+Attributes for the country class can be accessed using the `__getattr__` method. If the requested attribute is a key for the country class, it will return the corresponding value. In the special cases of missing 'common_name' or 'official_name' attributes, `__getattr__` will return 'name'. Here are some examples:
+
+.. code:: pycon
+
+  >>> aland = pycountry.countries.get(alpha_2='AX')
+
+  >>> print(aland)
+  Country(alpha_2='AX', alpha_3='ALA', flag='🇦🇽', name='Åland Islands', numeric='248')
+
+  >>> aland.common_name
+  UserWarning: Country's common_name not found. Country name provided instead.
+    warnings.warn(warning_message, UserWarning)
+  'Åland Islands'
+
+  >>> aland.official_name
+  Country's official_name not found. Country name provided instead.
+    warnings.warn(warning_message, UserWarning)
+  'Åland Islands'
+
+  >>> aland.flag
+  '🇦🇽'
+
+  >>> aland.foo  # Raises AttributeError
 
 Historic Countries (ISO 3166-3)
 -------------------------------
@@ -129,7 +152,7 @@ All subdivisons can be accessed directly:
   >>> list(pycountry.subdivisions)[0]
   Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
-Subdivisions can be accessed using their unique code and provide at least
+Subdivisions can be accessed using their unique code. The resulting object will provide at least
 their code, name and type:
 
 .. code:: pycon
@@ -172,6 +195,17 @@ The divisions of a single country can be queried using the country_code index:
   >>> len(pycountry.subdivisions.get(country_code='US'))
   57
 
+Similar to countries, the `search_fuzzy` method has been implemented for subdivisions to facilitate finding relevant subdivision entries. This method includes unicode normalization for accents and prioritizes matches on subdivision names. The search algorithm is designed to return more relevant matches first:
+
+This method is especially useful for cases where the exact name or code of the subdivision is not known.
+
+.. code:: pycon
+
+  >>> pycountry.subdivisions.search_fuzzy('York')
+    [Subdivision(code='GB-YOR', country_code='GB', name='York', parent='GB-ENG', parent_code='GB-GB-ENG', type='Unitary authority')
+    Subdivision(code='GB-ERY', country_code='GB', name='East Riding of Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Unitary authority')
+    Subdivision(code='GB-NYK', country_code='GB', name='North Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Two-tier county')
+    Subdivision(code='US-NY', country_code='US', name='New York', parent_code=None, type='State')]
 
 Scripts (ISO 15924)
 -------------------
@@ -276,6 +310,37 @@ example:
   <pycountry.db.Country object at 0x...>
 
 The search ends with the first match, which is returned.
+
+
+Dict Compatibility
+------------------
+
+You can cast each object type into a `dict`:
+
+.. code:: pycon
+
+ >>> country = pycountry.countries.lookup('de')
+ >>> dict(country)
+ {'alpha_2': 'DE', 'name': 'Germany', ...}
+
+
+Custom Countries
+----------------
+
+While pycountry will not be adding non-ISO values to its standard library,
+you can add or remove entries at runtime to fit your needs.
+
+Add a non-ISO country:
+
+.. code:: pycon
+
+ >>> pycountry.countries.add_entry(alpha_2="XK", alpha_3="XXK", name="Kosovo", numeric="926")
+
+Remove a country from a database:
+
+.. code:: pycon
+
+ >>> pycountry.countries.remove_entry(alpha_2="XK")
 
 
 PyInstaller Compatibility
