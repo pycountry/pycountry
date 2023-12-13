@@ -439,6 +439,6 @@ These libraries provide valuable data and localization support that complement t
 Maintainers
 -----------
 
-* `Christian Theune <mailto:ct@flyingcircus.io>`_
-* `Nate Schimmoller <mailto:nschimmo@gmail.com>`_
-* `Zachary Ware <mailto:zachary.ware@gmail.com>`_
+* `Christian Theune <https://github.com/ctheune>`_
+* `Nate Schimmoller <https://github.com/nschimmoller>`_
+* `Zachary Ware <https://github.com/zware>`_

@@ -45,7 +45,7 @@ We take security seriously and encourage responsible disclosure of any vulnerabi
    - Information about the affected versions.
    - Any mitigations or workarounds, if known.
 
-3. **Security Review:** Once you've submitted the security advisory, our security team will review it promptly. We aim to acknowledge your report within one (1) week. 
+3. **Security Review:** Once you've submitted the security advisory, our security team will review it promptly. We aim to acknowledge your report within one (1) week.
 
 4. **Assessment and Communication:** We will assess the reported vulnerability and keep you updated on our progress. You can expect regular communication about the status of your report. If additional information is required, we will request it from you.
 
@@ -56,4 +56,3 @@ We take security seriously and encourage responsible disclosure of any vulnerabi
 We greatly value your contributions to the security of our project and thank you for helping us maintain a safe and secure environment for all users.
 
 **Note:** This process is in line with responsible security disclosure practices. We encourage you to follow this process for the safety and security of all users.
-
