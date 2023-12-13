@@ -10,7 +10,7 @@ assignees: ''
 # **Please select the type of issue you are creating:**
 
 - [ ] Bug Report
-    - If you're reporting a security issue, please do not disclose it in a public issue. Instead, follow responsible disclosure practices and contact us privately at email addresses listed below.
+    - If you're reporting a security issue, please do not disclose it in a public issue. Instead, follow responsible disclosure practices outlined in the [SECURITY](https://github.com/pycountry/pycountry/blob/main/SECURITY.md) file.
 - [ ] Question
 - [ ] Suggestion / Enhancement Request
 
@@ -51,9 +51,3 @@ Add any other context or information related to your issue or question.
 **Note**: Before submitting a bug report, please make sure that you have the latest version of pycountry installed and have checked for any existing similar issues.
 
 **By filing this issue, you agree to comply with our Code of Conduct.**
-
----
-
-- [Christian Theune](mailto:ct@flyingcircus.io)
-- [Nate Schimmoller](mailto:nschimmo@gmail.com)
-- [Zachary Ware](mailto:zachary.ware@gmail.com)
