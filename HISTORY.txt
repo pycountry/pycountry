@@ -6,6 +6,8 @@ Changes
 
 - Fixed import of importlib_metadata to importlib.metadata
 
+- Fixed bug causing parent subdivision codes to be returned with additional country code preceeding (i.e. GB-GB-ENG instead of GB-ENG)
+
 
 23.12.11 (2023-12-11)
 ---------------------
