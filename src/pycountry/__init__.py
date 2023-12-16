@@ -15,7 +15,7 @@ import pycountry.db
 try:
     import importlib_resources  # type: ignore
 except ModuleNotFoundError:
-    from importlib import resources as importlib_resources
+    from importlib import resources as importlib_resources  # type: ignore
 
 
 def resource_filename(package_or_requirement: str, resource_name: str) -> str:
@@ -170,7 +170,10 @@ class SubdivisionHierarchy(pycountry.db.Data):
         super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
         if self.parent_code is not None:
-            self.parent_code = f"{self.country_code}-{self.parent_code}"
+            # Split the parent_code to check if the country_code is already present
+            parts = self.parent_code.split("-")
+            if parts[0] != self.country_code:
+                self.parent_code = f"{self.country_code}-{self.parent_code}"
 
     @property
     def country(self):
