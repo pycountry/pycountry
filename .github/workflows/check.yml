@@ -40,7 +40,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ~/.local
-        key: poetry-1.7.1-py${{ matrix.python-version }}
+        key: poetry-1.7.1-py${{ matrix.python-version }}-20231217
 
     - uses: snok/install-poetry@v1
       with:
@@ -56,7 +56,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: .venv
-        key: py${{ matrix.python-version }}-deps-${{ hashFiles('**/poetry.lock') }}
+        key: py${{ matrix.python-version }}-deps-${{ hashFiles('**/poetry.lock') }}-20231217
 
     - name: Run tests with pytest
       run: poetry run pytest -vv --cov --cov-report=term-missing
