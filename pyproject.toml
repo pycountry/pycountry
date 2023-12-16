@@ -8,7 +8,7 @@ line_length = 80
 
 [tool.poetry]
 name = "pycountry"
-version = "23.12.14"
+version = "23.12.11.dev0"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 authors = ["Christian Theune <ct@flyingcircus.io>"]
 maintainers = [
