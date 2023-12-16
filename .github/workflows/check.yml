@@ -49,7 +49,7 @@ jobs:
         virtualenvs-in-project: true
 
     - name: Install dependencies with Poetry
-      run: poetry install --no-interaction #--no-root
+      run: poetry install --no-interaction
       if: steps.cache-deps.outputs.cache-hit != 'true'
 
     - name: Cache dependencies
