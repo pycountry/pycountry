@@ -2,9 +2,22 @@ import json
 import logging
 import threading
 import warnings
-from typing import Any, Iterator, List, Optional, Type, Union
+from typing import (
+    Any,
+    Dict,
+    Generic,
+    Iterator,
+    List,
+    Optional,
+    Type,
+    TypeVar,
+    Union,
+    cast,
+)
 
 logger = logging.getLogger("pycountry.db")
+D = TypeVar("D", bound="Data")
+F = TypeVar("F")
 
 
 class Data:
@@ -62,30 +75,27 @@ class Subdivision(Data):
     pass
 
 
-def lazy_load(f):
+def lazy_load(f: F) -> F:
     def load_if_needed(self, *args, **kw):
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
         return f(self, *args, **kw)
 
-    return load_if_needed
+    return cast(F, load_if_needed)
 
 
-class Database:
-    data_class: Union[Type, str]
-    root_key: Optional[str] = None
+class Database(Generic[D]):
+    factory: Type[D]
+    indices: Dict[str, Dict[Any, D]]
     no_index: List[str] = []
+    objects: List[D]
+    root_key: Optional[str] = None
 
     def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
-
-        if isinstance(self.data_class, str):
-            self.factory = type(self.data_class, (Data,), {})
-        else:
-            self.factory = self.data_class
 
     def _clear(self):
         self._is_loaded = False
@@ -166,7 +176,7 @@ class Database:
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Iterator["Database"]:
+    def __iter__(self) -> Iterator[D]:
         return iter(self.objects)
 
     @lazy_load
@@ -174,9 +184,7 @@ class Database:
         return len(self.objects)
 
     @lazy_load
-    def get(self, **kw: Optional[str]) -> Optional[Any]:
-        kw.setdefault("default", None)
-        default = kw.pop("default")
+    def get(self, *, default: Optional[D] = None, **kw: str) -> Optional[D]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -194,7 +202,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Type:
+    def lookup(self, value: str) -> D:
         if not isinstance(value, str):
             raise LookupError()
 

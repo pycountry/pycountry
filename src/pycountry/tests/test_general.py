@@ -317,7 +317,7 @@ def test_add_entry():
     )
 
     country = pycountry.countries.get(alpha_2="XK")
-    assert isinstance(country, pycountry.countries.data_class)
+    assert isinstance(country, pycountry.countries.factory)
 
 
 def test_remove_entry():

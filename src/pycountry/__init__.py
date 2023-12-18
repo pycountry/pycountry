@@ -3,9 +3,12 @@
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Type
+from typing import Dict, List, Optional, Type, cast
 
 import pycountry.db
+
+from pycountry.db import Country as Country
+from pycountry.db import Subdivision as Subdivision
 
 # We prioritise importing the backported `importlib_resources`
 # because the function we use (`importlib.resources.files`) is only
@@ -48,13 +51,13 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class ExistingCountries(pycountry.db.Database):
+class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    data_class = pycountry.db.Country
+    factory = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str) -> List[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -113,7 +116,7 @@ class ExistingCountries(pycountry.db.Database):
             raise LookupError(query)
 
         sorted_results = [
-            self.get(alpha_2=x[0])
+            cast(pycountry.db.Country, self.get(alpha_2=x[0]))
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.
@@ -126,38 +129,54 @@ class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    data_class = pycountry.db.Country
+    factory = pycountry.db.Country
     root_key = "3166-3"
 
 
-class Scripts(pycountry.db.Database):
+class Script(pycountry.db.Data):
+    pass
+
+
+class Scripts(pycountry.db.Database[Script]):
     """Provides access to an ISO 15924 database (Scripts)."""
 
-    data_class = "Script"
+    factory = Script
     root_key = "15924"
 
 
-class Currencies(pycountry.db.Database):
+class Currency(pycountry.db.Data):
+    pass
+
+
+class Currencies(pycountry.db.Database[Currency]):
     """Provides access to an ISO 4217 database (Currencies)."""
 
-    data_class = "Currency"
+    factory = Currency
     root_key = "4217"
 
 
-class Languages(pycountry.db.Database):
+class Language(pycountry.db.Data):
+    pass
+
+
+class Languages(pycountry.db.Database[Language]):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
 
-    data_class = "Language"
+    factory = Language
     root_key = "639-3"
 
 
-class LanguageFamilies(pycountry.db.Database):
+class LanguageFamily(pycountry.db.Data):
+    pass
+
+
+class LanguageFamilies(pycountry.db.Database[LanguageFamily]):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
-    data_class = "LanguageFamily"
+    factory = LanguageFamily
     root_key = "639-5"
 
 
@@ -186,12 +205,12 @@ class SubdivisionHierarchy(pycountry.db.Data):
         return subdivisions.get(code=self.parent_code)
 
 
-class Subdivisions(pycountry.db.Database):
+class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
 
-    data_class = SubdivisionHierarchy
+    factory = SubdivisionHierarchy
     no_index = ["name", "parent_code", "parent", "type"]
     root_key = "3166-2"
 
@@ -284,21 +303,17 @@ class Subdivisions(pycountry.db.Database):
 
 
 # Initialize instances with type hints
-countries: ExistingCountries = ExistingCountries(
-    os.path.join(DATABASE_DIR, "iso3166-1.json")
-)
-subdivisions: Subdivisions = Subdivisions(
-    os.path.join(DATABASE_DIR, "iso3166-2.json")
-)
-historic_countries: HistoricCountries = HistoricCountries(
+countries = ExistingCountries(os.path.join(DATABASE_DIR, "iso3166-1.json"))
+subdivisions = Subdivisions(os.path.join(DATABASE_DIR, "iso3166-2.json"))
+historic_countries = HistoricCountries(
     os.path.join(DATABASE_DIR, "iso3166-3.json")
 )
 
-currencies: Currencies = Currencies(os.path.join(DATABASE_DIR, "iso4217.json"))
+currencies = Currencies(os.path.join(DATABASE_DIR, "iso4217.json"))
 
-languages: Languages = Languages(os.path.join(DATABASE_DIR, "iso639-3.json"))
-language_families: LanguageFamilies = LanguageFamilies(
+languages = Languages(os.path.join(DATABASE_DIR, "iso639-3.json"))
+language_families = LanguageFamilies(
     os.path.join(DATABASE_DIR, "iso639-5.json")
 )
 
-scripts: Scripts = Scripts(os.path.join(DATABASE_DIR, "iso15924.json"))
+scripts = Scripts(os.path.join(DATABASE_DIR, "iso15924.json"))
