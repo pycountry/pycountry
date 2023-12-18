@@ -23,11 +23,13 @@ Before you get started, please take a moment to read through this guide to under
 To start contributing to pycountry, follow these steps:
 
 1. Fork the repository on GitHub.
-2. Clone your fork locally.
-3. Create a new feature branch (`git checkout -b my-new-feature`).
-4. Make your changes and commit them (`git commit -am 'Add some feature'`).
-5. Push the branch to GitHub (`git push origin my-new-feature`).
-6. Submit a pull request.
+2. Clone your fork locally using ``git clone <your-fork-url>``.
+3. Navigate to the cloned directory: ``cd pycountry``.
+4. Install the project and its dependencies: ``pip install -e .`` (This installs the package in editable mode).
+5. Create a new feature branch (`git checkout -b my-new-feature`).
+6. Make your changes and commit them (`git commit -am 'Add some feature'`).
+7. Push the branch to GitHub (`git push origin my-new-feature`).
+8. Submit a pull request.
 
 Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
@@ -54,7 +56,7 @@ When making changes to the codebase, keep the following in mind:
 
 ## Testing
 
-To maintain the quality of `pycountry`, we encourage contributors to run tests and perform code quality checks before submitting any changes. `pycountry` uses Poetry for dependency management and tools like `mypy`, `pre-commit`, and `make` for testing and linting.
+To maintain the quality of ``pycountry``, we encourage contributors to run tests and perform code quality checks before submitting any changes. ``pycountry`` uses Poetry for dependency management and tools like ``mypy``, ``pre-commit``, and ``pytest`` for testing and linting.
 
 To run the test suite:
 
@@ -62,11 +64,11 @@ To run the test suite:
 2. Install the project dependencies by running ``poetry install`` in the project's root directory. This command also installs necessary tools like `mypy` and `pre-commit` as defined in `pyproject.toml`.
 3. Activate the Poetry shell with ``poetry shell``. This will spawn a new shell subprocess, which is configured to use your project’s virtual environment.
 4. Run the unit tests, linting checks, and type checks using ``make check``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
-7. Ensure all tests pass successfully.
+5. Ensure all tests pass successfully.
 
 Note: The project's dependencies and the environment needed to run tests are managed by Poetry, using the `pyproject.toml` and `poetry.lock` files.
 
-If you add new features or fix bugs, please include corresponding tests. Follow the project's coding standards and update [documentation](#documentation) as needed.
+If you add new features or fix bugs, please include corresponding tests to ``src/pycountry/tests/test_general.py``. Follow the project's coding standards and update [documentation](#documentation) as needed.
 
 ## Coding Guidelines
 

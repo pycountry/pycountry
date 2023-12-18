@@ -24,9 +24,11 @@ With pycountry, this wealth of information is easily accessible through a simple
 * `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ | `Currencies (ISO 4217)`_
 * `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ | `Scripts (ISO 15924)`_
 
-The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. This ensures that pycountry's users have access to reliable and regularly updated international standards.
+The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. 
+This ensures that pycountry's users have access to reliable and regularly updated international standards.
 
-Additionally, ``pycountry`` provides translations for various strings, facilitated by the use of the `gettext` library. This feature enhances the library's utility in multilingual applications and environments.
+Additionally, ``pycountry`` provides translations for various strings, facilitated by the use of the `gettext` library. 
+This feature enhances the library's utility in multilingual applications and environments.
 
 Table of Contents
 ================
@@ -40,7 +42,7 @@ Data update policy
 
 ``pycountry`` is a wrapper around the ISO standards, using the Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_ database as is. We do not make changes to the data.
 
-To update data from Debian, run ``make`` in the base directory. For amendments to the data provided by Debian please reach out to them.
+To update data from Debian, run ``make data`` in the base directory. For amendments to the data provided by Debian please reach out to them.
 
 For custom local modifications, see the `Custom Countries`_ section.
 
@@ -57,7 +59,7 @@ The code lives in a `git repository on GitHub <https://github.com/pycountry/pyco
 Installation
 ------------
 
-Installing ``pycountry`` is simple and straightforward. You can install it directly from the Python Package Index (PyPI) using `pip`, a package manager for Python that simplifies the process of installing and managing Python libraries.
+Installing ``pycountry`` is simple and straightforward. You can install it directly from the `Python Package Index (PyPI) <https://pypi.org/project/pycountry/>`_ using `pip`, a package manager for Python that simplifies the process of installing and managing Python libraries.
 
 To install ``pycountry``, open your terminal and run the following command:
 
@@ -386,35 +388,7 @@ Contributing
 
 We welcome contributions to ``pycountry``! Whether it's improving documentation, adding new features, or fixing bugs, your contributions are greatly appreciated.
 
-To get started:
-
-#. Fork the repository on GitHub.
-#. Clone your fork locally using ``git clone <your-fork-url>``.
-#. Navigate to the cloned directory: ``cd pycountry``.
-#. Install the project and its dependencies: ``pip install -e .`` (This installs the package in editable mode).
-#. Create a new feature branch: ``git checkout -b my-new-feature``.
-#. Make your changes and commit them: ``git commit -am 'Add some feature'``.
-#. Push the branch to GitHub: ``git push origin my-new-feature``.
-#. Submit a pull request through the GitHub website.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate tests. Additionally, update or add documentation as necessary. For more detailed information, refer to our `CONTRIBUTING <https://github.com/pycountry/pycountry/blob/main/CONTRIBUTING.md>`_ file.
-
-Running Tests
--------------
-
-To maintain the quality of ``pycountry``, we encourage contributors to run tests and perform code quality checks before submitting any changes. ``pycountry`` uses Poetry for dependency management and tools like ``mypy``, ``pre-commit``, and ``make`` for testing and linting.
-
-To run the test suite:
-
-#. Install Poetry if you haven't already. Visit the Poetry website for `installation instructions <https://python-poetry.org/docs/#installation>`_.
-#. Install the project dependencies by running ``poetry install`` in the project's root directory. This command also installs necessary tools like ``mypy`` and ``pre-commit`` as defined in ``pyproject.toml``.
-#. Activate the Poetry shell with ``poetry shell``. This will spawn a new shell subprocess, which is configured to use your project’s virtual environment.
-#. Run the unit tests, linting checks, and type checks using ``make check``. Ensure you have `make` installed on your system (commonly pre-installed on Unix-like systems).
-#. Ensure all tests pass successfully.
-
-If you add new features or fix bugs, please include corresponding tests. Follow the project's coding standards and update documentation as needed.
-
-Note: The project's dependencies and the environment needed to run tests are managed by Poetry, using the ``pyproject.toml`` and ``poetry.lock`` files.
+To get started please refer to our `CONTRIBUTING <https://github.com/pycountry/pycountry/blob/main/CONTRIBUTING.md>`_ file.
 
 License
 -------
