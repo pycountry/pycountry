@@ -23,4 +23,4 @@ Provide any additional context or screenshots about the documentation request he
 
 **Note**: Before submitting this request, please ensure you have checked the existing documentation for the information.
 
-**By requesting this documentation, you agree to comply with our Code of Conduct.**
+**By submitting this issue, you agree to comply with our Code of Conduct.**
