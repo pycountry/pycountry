@@ -27,10 +27,6 @@ We make the process of updating straightforward. To update to the latest version
 pip install pycountry --upgrade
 ```
 
-## End-of-Life Policy
-
-It's important to note that when a version reaches its end-of-life (EOL), it will no longer receive security updates. We provide advance notice of EOL dates for older versions through our release notes and communication channels to give users ample time to plan their upgrade.
-
 ## Reporting a Vulnerability
 
 We take security seriously and encourage responsible disclosure of any vulnerabilities you may discover in our project. To report a security vulnerability, please follow these steps:
