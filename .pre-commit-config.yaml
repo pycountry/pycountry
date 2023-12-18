@@ -19,12 +19,14 @@ repos:
     hooks:
       - id: isort
         name: isort (python)
-        args: ["--profile", "black", "--filter-files"]
+        args: ["--profile", "black", "--filter-files", "--line-length=80"]
 
 -   repo: https://github.com/psf/black
     rev: 23.9.1
     hooks:
     -   id: black
+        args: ["--line-length", "80"]
+
 -   repo: https://github.com/asottile/pyupgrade
     rev: v3.13.0
     hooks:

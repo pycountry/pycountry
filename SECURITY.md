@@ -6,9 +6,8 @@ Security is a top priority for our project. We are committed to providing update
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 23.x    | :white_check_mark: |
-| 22.x    | :white_check_mark: |
-| <20.x   | :x:                |
+| 23.12.11    | :white_check_mark: |
+| <=23.12.07    | :x: |
 
 ## Staying Up to Date
 

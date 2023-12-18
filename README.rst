@@ -5,9 +5,12 @@ pycountry
     :target: https://pypi.org/project/pycountry/
     :alt: PyPI Version
 
-``pycountry`` is a Python library offering a convenient way to access various standardized lists and codes from around the world. Whether you need to work with language names, country codes, currency information, or scripts, ``pycountry`` has you covered. It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards.
+``pycountry`` is a Python library offering a convenient way to access various standardized lists and codes from around the world.
+Whether you need to work with language names, country codes, currency information, or scripts, ``pycountry`` has you covered.
+It's a go-to solution for developers needing to handle international data, as it provides an extensive collection of data sets based on widely recognized International Standards Organization (ISO) standards.
 
-These standards are used globally for consistent representation of critical information, such as the standardized names of countries (`3166 <https://en.wikipedia.org/wiki/ISO_3166>`_), languages (`639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_), and currencies (`4217 <https://en.wikipedia.org/wiki/ISO_4217>`_). With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
+These standards are used globally for consistent representation of critical information, such as the standardized names of countries (`3166 <https://en.wikipedia.org/wiki/ISO_3166>`_), languages (`639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_), and currencies (`4217 <https://en.wikipedia.org/wiki/ISO_4217>`_).
+With pycountry, this wealth of information is easily accessible through a simple Python interface, making it an invaluable tool for internationalization and localization in software development.
 
 ``pycountry`` supports the following ISO databases for their standards:
 

@@ -36,9 +36,11 @@ Contributors:
 - simon klemenc (2016)
 
 Additional Acknowledgements and Licensing Information:
-- Data in the /src/databases/ and /src/locales/ folders is sourced from the Debian iso-codes project, available at: https://salsa.debian.org/iso-codes-team/iso-codes. This data is used under the terms of the GNU Lesser General Public License Version 2.1 (February 1999).
+- Data in the /src/databases/ and /src/locales/ folders is sourced from the Debian iso-codes project, available at: https://salsa.debian.org/iso-codes-team/iso-codes.
+This data is used under the terms of the GNU Lesser General Public License Version 2.1 (February 1999).
 
-The Debian iso-codes project is a collection of code lists for different standards, maintained and made available under the GNU Lesser General Public License Version 2.1. We gratefully acknowledge the Debian iso-codes team and contributors for their work and for making this resource freely available.
+The Debian iso-codes project is a collection of code lists for different standards, maintained and made available under the GNU Lesser General Public License Version 2.1.
+We gratefully acknowledge the Debian iso-codes team and contributors for their work and for making this resource freely available.
 
 The full text of the GNU Lesser General Public License Version 2.1 can be found at: https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/COPYING.
 

@@ -4,10 +4,6 @@ Changes
 23.12.11.dev0 (Unreleased)
 --------------------------
 
-- Released updated Copyright, added files overviewing Security Policy, Contributing to repo, and Code of Conduct
-
-- Released Pull Request and Issue Templates
-
 - Fixed import of importlib_metadata to importlib.metadata
 
 - Fixed bug causing parent subdivision codes to be returned with additional country code preceeding (i.e. GB-GB-ENG instead of GB-ENG)
