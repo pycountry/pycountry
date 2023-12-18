@@ -24,10 +24,10 @@ With pycountry, this wealth of information is easily accessible through a simple
 * `4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ | `Currencies (ISO 4217)`_
 * `15924 <https://en.wikipedia.org/wiki/ISO_15924>`_ | `Scripts (ISO 15924)`_
 
-The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1. 
+The package includes a copy from Debian's `pkg-isocodes <https://salsa.debian.org/iso-codes-team/iso-codes>`_, utilizing this data under the GNU Lesser General Public License Version 2.1.
 This ensures that pycountry's users have access to reliable and regularly updated international standards.
 
-Additionally, ``pycountry`` provides translations for various strings, facilitated by the use of the `gettext` library. 
+Additionally, ``pycountry`` provides translations for various strings, facilitated by the use of the `gettext` library.
 This feature enhances the library's utility in multilingual applications and environments.
 
 Table of Contents
