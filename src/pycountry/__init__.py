@@ -6,7 +6,6 @@ from importlib import metadata as _importlib_metadata
 from typing import Dict, List, Optional, Type, cast
 
 import pycountry.db
-
 from pycountry.db import Country as Country
 from pycountry.db import Subdivision as Subdivision
 
