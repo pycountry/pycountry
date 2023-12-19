@@ -2,6 +2,7 @@ import gettext
 import os.path
 import re
 from importlib import metadata as _importlib_metadata
+from typing import Type
 from unittest.mock import patch
 
 import pytest
@@ -17,9 +18,32 @@ def logging():
     logging.basicConfig(level=logging.DEBUG)
 
 
+@pytest.mark.parametrize(
+    "obj, db_type, db_factory",
+    [
+        (pycountry.countries, pycountry.ExistingCountries, pycountry.Country),
+        (pycountry.currencies, pycountry.Currencies, pycountry.Currency),
+        (pycountry.languages, pycountry.Languages, pycountry.Language),
+        (pycountry.scripts, pycountry.Scripts, pycountry.Script),
+        (
+            pycountry.subdivisions,
+            pycountry.Subdivisions,
+            pycountry.SubdivisionHierarchy,
+        ),
+    ],
+)
+def test_expected_instance_types(
+    obj: pycountry.db.Database,
+    db_type: Type[pycountry.db.Database],
+    db_factory: Type[pycountry.db.Data],
+) -> None:
+    assert isinstance(obj, db_type)
+    assert db_type.factory is db_factory
+    assert isinstance(next(iter(obj)), db_factory)
+
+
 def test_country_list():
     assert len(pycountry.countries) == 249
-    assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
 
 
 def test_country_fuzzy_search():
@@ -102,7 +126,6 @@ def test_country_missing_attribute():
 
 def test_subdivisions_directly_accessible():
     assert len(pycountry.subdivisions) == 5127
-    assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
     assert de_st.code == "DE-ST"
@@ -130,7 +153,6 @@ def test_query_subdivisions_of_country():
 
 def test_scripts():
     assert len(pycountry.scripts) == 182
-    assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
 
     latin = pycountry.scripts.get(name="Latin")
     assert latin.alpha_4 == "Latn"
@@ -140,7 +162,6 @@ def test_scripts():
 
 def test_currencies():
     assert len(pycountry.currencies) == 181
-    assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
     assert argentine_peso.alpha_3 == "ARS"
@@ -150,7 +171,6 @@ def test_currencies():
 
 def test_languages():
     assert len(pycountry.languages) == 7910
-    assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_2="an")
     assert aragonese.alpha_2 == "an"
@@ -168,7 +188,6 @@ def test_languages():
 
 def test_language_families():
     assert len(pycountry.language_families) == 115
-    assert isinstance(list(pycountry.language_families)[0], pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_3="arg")
     assert aragonese.alpha_3 == "arg"
@@ -185,7 +204,6 @@ def test_locales():
 
 def test_removed_countries():
     ussr = pycountry.historic_countries.get(alpha_3="SUN")
-    assert isinstance(ussr, pycountry.db.Data)
     assert ussr.alpha_4 == "SUHH"
     assert ussr.alpha_3 == "SUN"
     assert ussr.name == "USSR, Union of Soviet Socialist Republics"
@@ -284,28 +302,6 @@ def test_has_version_attribute():
     assert pycountry.__version__ != "n/a"
     assert len(pycountry.__version__) >= 5
     assert "." in pycountry.__version__
-
-
-def test_is_instance_of_language():
-    assert isinstance(pycountry.languages, pycountry.Languages)
-
-
-def test_is_instance_of_country():
-    united_states = pycountry.countries.get(alpha_2="US")
-    class_name = united_states.__class__.__name__
-    assert class_name == "Country"
-
-
-def test_is_instance_of_subdivision():
-    assert isinstance(pycountry.subdivisions, pycountry.Subdivisions)
-
-
-def test_is_instance_of_script():
-    assert isinstance(pycountry.scripts, pycountry.Scripts)
-
-
-def test_is_instance_of_currency():
-    assert isinstance(pycountry.currencies, pycountry.Currencies)
 
 
 def test_add_entry():
