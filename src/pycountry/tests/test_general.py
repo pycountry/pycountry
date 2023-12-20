@@ -181,8 +181,7 @@ def test_locales():
     german = gettext.translation(
         "iso3166-1", pycountry.LOCALES_DIR, languages=["de"]
     )
-    german.install()
-    assert _("Germany") == "Deutschland"
+    assert german.gettext("Germany") == "Deutschland"
 
 
 def test_removed_countries():
