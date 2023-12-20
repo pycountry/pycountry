@@ -52,4 +52,4 @@ jobs:
         if: steps.cache-deps.outputs.cache-hit != 'true'
 
       - run: poetry install
-      - run: poetry run pytest -vv --cov --cov-report=term-missing
+      - run: poetry run pytest -vv
