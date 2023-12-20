@@ -10,12 +10,19 @@ import pycountry
 import pycountry.db
 
 
-def test_country_list():
+@pytest.fixture
+def countries():
+    pycountry.countries._clear()
+    yield pycountry.countries
+    pycountry.countries._clear()
+
+
+def test_country_list(countries):
     assert len(pycountry.countries) == 249
     assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
 
 
-def test_country_fuzzy_search():
+def test_country_fuzzy_search(countries):
     results = pycountry.countries.search_fuzzy("England")
     assert len(results) == 1
     assert results[0] == pycountry.countries.get(alpha_2="GB")
@@ -56,13 +63,13 @@ def test_country_fuzzy_search():
     assert results[0] == pycountry.countries.get(alpha_2="US")
 
 
-def test_historic_country_fuzzy_search():
+def test_historic_country_fuzzy_search(countries):
     results = pycountry.historic_countries.search_fuzzy("burma")
     assert len(results) == 1
     assert results[0] == pycountry.historic_countries.get(alpha_4="BUMM")
 
 
-def test_germany_has_all_attributes():
+def test_germany_has_all_attributes(countries):
     germany = pycountry.countries.get(alpha_2="DE")
     assert germany.alpha_2 == "DE"
     assert germany.alpha_3 == "DEU"
@@ -71,7 +78,7 @@ def test_germany_has_all_attributes():
     assert germany.official_name == "Federal Republic of Germany"
 
 
-def test_missing_common_official_use_same():
+def test_missing_common_official_use_same(countries):
     aruba = pycountry.countries.get(alpha_2="AW")
     assert aruba.alpha_2 == "AW"
     assert aruba.name == "Aruba"
@@ -81,7 +88,7 @@ def test_missing_common_official_use_same():
         assert aruba.common_name == "Aruba"
 
 
-def test_missing_common_official_use_different():
+def test_missing_common_official_use_different(countries):
     vietnam = pycountry.countries.get(alpha_2="VN")
     assert vietnam.alpha_2 == "VN"
     assert vietnam.name == "Viet Nam"
@@ -89,13 +96,13 @@ def test_missing_common_official_use_different():
     assert vietnam.common_name == "Vietnam"
 
 
-def test_country_missing_attribute():
+def test_country_missing_attribute(countries):
     germany = pycountry.countries.get(alpha_2="DE")
     with pytest.raises(AttributeError):
         _ = germany.foo
 
 
-def test_subdivisions_directly_accessible():
+def test_subdivisions_directly_accessible(countries):
     assert len(pycountry.subdivisions) == 5127
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
@@ -186,7 +193,7 @@ def test_removed_countries():
     assert ussr.withdrawal_date == "1992-08-30"
 
 
-def test_repr():
+def test_repr(countries):
     assert re.match(
         "Country\\(alpha_2=u?'DE', "
         "alpha_3=u?'DEU', "
@@ -198,7 +205,7 @@ def test_repr():
     )
 
 
-def test_dict():
+def test_dict(countries):
     country = pycountry.countries.get(alpha_2="DE")
     exp = {
         "alpha_2": "DE",
@@ -211,13 +218,13 @@ def test_dict():
     assert dict(country) == exp
 
 
-def test_dir():
+def test_dir(countries):
     germany = pycountry.countries.get(alpha_2="DE")
     for n in "alpha_2", "alpha_3", "name", "numeric", "official_name":
         assert n in dir(germany)
 
 
-def test_get():
+def test_get(countries):
     c = pycountry.countries
     with pytest.raises(TypeError):
         c.get(alpha_2="DE", alpha_3="DEU")
@@ -227,7 +234,7 @@ def test_get():
     assert c.get(alpha_2="Foo", default=tracer) is tracer
 
 
-def test_lookup():
+def test_lookup(countries):
     c = pycountry.countries
     g = c.get(alpha_2="DE")
     assert g == c.get(alpha_2="de")
@@ -284,7 +291,7 @@ def test_is_instance_of_language():
     assert isinstance(pycountry.languages, pycountry.Languages)
 
 
-def test_is_instance_of_country():
+def test_is_instance_of_country(countries):
     united_states = pycountry.countries.get(alpha_2="US")
     class_name = united_states.__class__.__name__
     assert class_name == "Country"
@@ -302,8 +309,7 @@ def test_is_instance_of_currency():
     assert isinstance(pycountry.currencies, pycountry.Currencies)
 
 
-def test_add_entry():
-    pycountry.countries._clear()
+def test_add_entry(countries):
     assert pycountry.countries.get(alpha_2="XK") is None
 
     pycountry.countries.add_entry(
@@ -314,8 +320,7 @@ def test_add_entry():
     assert isinstance(country, pycountry.countries.data_class)
 
 
-def test_remove_entry():
-    pycountry.countries._clear()
+def test_remove_entry(countries):
     assert pycountry.countries.get(alpha_2="DE") is not None
 
     pycountry.countries.remove_entry(alpha_2="DE")
@@ -328,7 +333,7 @@ def test_remove_non_existent_entry():
         pycountry.countries.remove_entry(name="Not A Real Country")
 
 
-def test_no_results_lookup_error():
+def test_no_results_lookup_error(countries):
     try:
         import importlib_resources  # type: ignore
     except ModuleNotFoundError:
@@ -379,7 +384,7 @@ def test_non_country_attribute_error():
         english.official_name
 
 
-def test_country_attribute_error():
+def test_country_attribute_error(countries):
     canada = pycountry.countries.get(alpha_2="CA")
     with pytest.raises(AttributeError):
         canada.maple_syrup
