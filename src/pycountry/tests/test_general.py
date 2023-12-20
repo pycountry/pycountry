@@ -323,6 +323,11 @@ def test_remove_entry():
     assert pycountry.countries.get(alpha_2="DE") is None
 
 
+def test_remove_non_existent_entry():
+    with pytest.raises(KeyError, match="not found"):
+        pycountry.countries.remove_entry(name="Not A Real Country")
+
+
 def test_no_results_lookup_error():
     try:
         import importlib_resources  # type: ignore
@@ -441,28 +446,6 @@ def test_all_subdivisions_have_name_attribute():
     all_have_name_attr = all(has_name_attr)
 
     assert all_have_name_attr
-
-
-def test_remove_countries():
-    # Test case 1: Removing an existing entry
-    kw1 = {"name": "United States"}
-    try:
-        pycountry.countries.remove_entry(**kw1)
-    except KeyError as e:
-        assert False, f"Unexpected KeyError for 'United States': {e}"
-
-    # Test case 2: Removing a non-existing entry
-    kw2 = {"name": "Non Existent Country"}
-    try:
-        pycountry.countries.remove_entry(**kw2)
-    except KeyError as e:
-        assert "not found and cannot be removed" in str(
-            e
-        )  # Check the error message
-    else:
-        assert (
-            False
-        ), "Expected KeyError for 'Non Existent Country', but no exception was raised"
 
 
 def test_subdivisions_with_missing_parents():
