@@ -10,13 +10,6 @@ import pycountry
 import pycountry.db
 
 
-@pytest.fixture(autouse=True, scope="session")
-def logging():
-    import logging
-
-    logging.basicConfig(level=logging.DEBUG)
-
-
 def test_country_list():
     assert len(pycountry.countries) == 249
     assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
