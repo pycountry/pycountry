@@ -82,8 +82,10 @@ def test_missing_common_official_use_same():
     aruba = pycountry.countries.get(alpha_2="AW")
     assert aruba.alpha_2 == "AW"
     assert aruba.name == "Aruba"
-    assert aruba.official_name == "Aruba"
-    assert aruba.common_name == "Aruba"
+    with pytest.warns(UserWarning, match="official_name not found"):
+        assert aruba.official_name == "Aruba"
+    with pytest.warns(UserWarning, match="common_name not found"):
+        assert aruba.common_name == "Aruba"
 
 
 def test_missing_common_official_use_different():
