@@ -48,6 +48,15 @@ repos:
   rev: v6.2.0
   hooks:
     - id: rstcheck
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.2.6
+  hooks:
+    - id: codespell
+      # Don't try to "fix" any spellings in the source data.
+      exclude: "^src/pycountry/databases.*$"
+      # Avoid requiring an extra dependency on `tomli` by requiring Python 3.11
+      # When 3.11 is the lowest version supported, this tag can be dropped.
+      language_version: "3.11"
 - repo: https://github.com/pre-commit/pygrep-hooks
   rev: v1.10.0
   hooks:

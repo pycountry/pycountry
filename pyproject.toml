@@ -2,6 +2,10 @@
 line-length = 80
 target-version = ['py38']
 
+[tool.codespell]
+# Ignore false-positive on 'Nam', found in tests
+ignore-words-list = "nam"
+
 [tool.isort]
 profile = "black"
 line_length = 80
