@@ -29,3 +29,14 @@ repos:
     rev: v3.15.0
     hooks:
     -   id: pyupgrade
+- repo: https://github.com/jackdewinter/pymarkdown
+  rev: v0.9.15
+  hooks:
+    - id: pymarkdown
+      name: pymarkdown-autofix
+      args: ["-x-fix", "scan"]
+- repo: https://github.com/jackdewinter/pymarkdown
+  rev: v0.9.15
+  hooks:
+    - id: pymarkdown
+      name: pymarkdown
