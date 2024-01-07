@@ -57,6 +57,18 @@ repos:
       # Avoid requiring an extra dependency on `tomli` by requiring Python 3.11
       # When 3.11 is the lowest version supported, this tag can be dropped.
       language_version: "3.11"
+- repo: https://github.com/sirosen/texthooks
+  rev: 0.6.3
+  hooks:
+    # Don't try to fix any of the data files.
+    - id: fix-smartquotes
+      exclude: "^src/pycountry/databases.*$"
+    - id: fix-ligatures
+      exclude: "^src/pycountry/databases.*$"
+    - id: fix-spaces
+      exclude: "^src/pycountry/databases.*$"
+    - id: forbid-bidi-controls
+      exclude: "^src/pycountry/databases.*$"
 - repo: https://github.com/pre-commit/pygrep-hooks
   rev: v1.10.0
   hooks:
