@@ -1,82 +1,80 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
-- repo: meta
-  hooks:
-    - id: check-useless-excludes
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: meta
+    hooks:
+      - id: check-useless-excludes
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
-    -   id: check-added-large-files
-    -   id: check-ast
-    -   id: check-case-conflict
-    -   id: check-docstring-first
-    -   id: check-json
-    -   id: check-symlinks
-    -   id: check-toml
-    -   id: check-yaml
-    -   id: detect-private-key
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
-
--   repo: https://github.com/pycqa/isort
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-json
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
       - id: isort
-
--   repo: https://github.com/psf/black
+  - repo: https://github.com/psf/black
     rev: 24.2.0
     hooks:
-    -   id: black
--   repo: https://github.com/asottile/pyupgrade
+      - id: black
+  - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.0
     hooks:
-    -   id: pyupgrade
-- repo: https://github.com/jackdewinter/pymarkdown
-  rev: v0.9.15
-  hooks:
-    - id: pymarkdown
-      name: pymarkdown-autofix
-      args: ["-x-fix", "scan"]
-- repo: https://github.com/jackdewinter/pymarkdown
-  rev: v0.9.15
-  hooks:
-    - id: pymarkdown
-      name: pymarkdown
-- repo: https://github.com/dzhu/rstfmt
-  rev: v0.0.14
-  hooks:
-    - id: rstfmt
-- repo: https://github.com/rstcheck/rstcheck
-  rev: v6.2.0
-  hooks:
-    - id: rstcheck
-- repo: https://github.com/codespell-project/codespell
-  rev: v2.2.6
-  hooks:
-    - id: codespell
-      # Don't try to "fix" any spellings in the source data.
-      exclude: "^src/pycountry/databases.*$"
-      # Avoid requiring an extra dependency on `tomli` by requiring Python 3.11
-      # When 3.11 is the lowest version supported, this tag can be dropped.
-      language_version: "3.11"
-- repo: https://github.com/sirosen/texthooks
-  rev: 0.6.3
-  hooks:
-    # Don't try to fix any of the data files.
-    - id: fix-smartquotes
-      exclude: "^src/pycountry/databases.*$"
-    - id: fix-ligatures
-      exclude: "^src/pycountry/databases.*$"
-    - id: fix-spaces
-      exclude: "^src/pycountry/databases.*$"
-    - id: forbid-bidi-controls
-      exclude: "^src/pycountry/databases.*$"
-- repo: https://github.com/pre-commit/pygrep-hooks
-  rev: v1.10.0
-  hooks:
-    - id: python-check-blanket-noqa
-    - id: python-no-eval
-    - id: rst-backticks
-    - id: rst-directive-colons
-    - id: rst-inline-touching-normal
+      - id: pyupgrade
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: v0.9.15
+    hooks:
+      - id: pymarkdown
+        name: pymarkdown-autofix
+        args: ["-x-fix", "scan"]
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: v0.9.15
+    hooks:
+      - id: pymarkdown
+        name: pymarkdown
+  - repo: https://github.com/dzhu/rstfmt
+    rev: v0.0.14
+    hooks:
+      - id: rstfmt
+  - repo: https://github.com/rstcheck/rstcheck
+    rev: v6.2.0
+    hooks:
+      - id: rstcheck
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        # Don't try to "fix" any spellings in the source data.
+        exclude: "^src/pycountry/databases.*$"
+        # Avoid requiring an extra dependency on `tomli` by requiring Python 3.11
+        # When 3.11 is the lowest version supported, this tag can be dropped.
+        language_version: "3.11"
+  - repo: https://github.com/sirosen/texthooks
+    rev: 0.6.3
+    hooks:
+      # Don't try to fix any of the data files.
+      - id: fix-smartquotes
+        exclude: "^src/pycountry/databases.*$"
+      - id: fix-ligatures
+        exclude: "^src/pycountry/databases.*$"
+      - id: fix-spaces
+        exclude: "^src/pycountry/databases.*$"
+      - id: forbid-bidi-controls
+        exclude: "^src/pycountry/databases.*$"
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+      - id: python-check-blanket-noqa
+      - id: python-no-eval
+      - id: rst-backticks
+      - id: rst-directive-colons
+      - id: rst-inline-touching-normal
