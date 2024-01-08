@@ -101,6 +101,10 @@ test: $(POETRY_READY_MARKER)
 typecheck: $(POETRY_READY_MARKER)
 	$(MYPY)
 
+.PHONY: check
+## Run all checks, including linting, static typing, and unit tests
+check: lint typecheck test
+
 .PHONY: clean
 ## Clean the project directory, removing all existing .gitignore-ed files
 clean:
