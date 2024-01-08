@@ -1,7 +1,15 @@
-PYTHON ?= python
-POETRY ?= poetry
-PRE_COMMIT ?= pre-commit
-TOX ?= tox
+VENV_DIR ?= .venv
+
+SYSTEM_PYTHON ?= python3
+
+# If poetry already exists, use it.  If not, we'll create a local venv for it
+POETRY ?= $(or $(shell command -v poetry 2>/dev/null),$(VENV_DIR)/bin/poetry)
+# Calculate it once
+POETRY := $(POETRY)
+POETRY_READY_MARKER := .cache/poetry_ready
+PYTHON ?= $(POETRY) run python
+PRE_COMMIT ?= $(POETRY) run pre-commit
+TOX ?= $(POETRY) run tox
 
 # Note: any comment that starts with '## ' is taken to be a help string and
 # emitted by the 'help' target, along with the line above it with a leading
@@ -16,6 +24,17 @@ help:
 	| sed \
 	-e 's/^.\(PHONY\|HELP\): \(.\+\)/\n$(_ESCAPE)[36m\2$(_ESCAPE)[0m:/' \
 	-e 's/^## /\t/'
+	@echo
+	@echo "If available, a global installation of \`poetry\` will be used \
+	       to manage this project.  Otherwise, a local virtual \
+	       environment will be created in $(VENV_DIR) using \
+	       \`$(SYSTEM_PYTHON)\`.  Other commands such as \`mypy\` or \
+	       \`tox\` will be run using \`poetry run\`.  There are several \
+	       makefile variables set at the top of Makefile that may be \
+	       defined in your environment or on the command line to affect \
+	       how various targets are run." \
+	       | sed -e 's/\s\s\+/ /g' \
+	       | fmt -w 80
 
 .PHONY: all
 ## Run all commands necessary to ensure that everything is up to date and
@@ -25,35 +44,45 @@ all: data poetry.lock lint test
 
 .PHONY: data
 ## Regenerate all ISO data from the upstream Debian iso-codes project
-data:
+data: $(POETRY_READY_MARKER)
 	rm -rf src/pycountry/databases
 	rm -rf src/pycountry/locales
 	$(PYTHON) generate.py
 
 .PHONY: sdist
 ## Create a source distribution of the project
-sdist: data poetry.lock
+sdist: data
 	$(POETRY) build --format=sdist
 
 .PHONY: wheel
 ## Create a wheel distribution of the project
-wheel: data poetry.lock
+wheel: data
 	$(POETRY) build --format=wheel
 
 .HELP: poetry.lock
-## Ensure that the poetry.lock file is up to date and install all dependencies
-## in the poetry environment
-poetry.lock: pyproject.toml
-	$(POETRY) lock
+## Ensure that the poetry.lock file is up to date
+poetry.lock: pyproject.toml | $(POETRY)
+	$(POETRY) lock --no-update
+
+.cache:
+	@mkdir .cache
+
+$(POETRY_READY_MARKER): poetry.lock | .cache
+	$(POETRY) install
+	@touch $@
+
+$(VENV_DIR)/bin/poetry:
+	$(SYSTEM_PYTHON) -m venv --clear $(VENV_DIR)
+	$(VENV_DIR)/bin/python -m pip install -U poetry
 
 .PHONY: lint
 ## Run automatic formatting checkers and fixers against all files of all types
-lint:
+lint: $(POETRY_READY_MARKER)
 	$(PRE_COMMIT) run --all-files
 
 .PHONY: test
 ## Run unit tests using every supported version of Python
-test:
+test: $(POETRY_READY_MARKER)
 	$(TOX)
 
 .PHONY: clean
