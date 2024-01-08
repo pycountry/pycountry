@@ -76,7 +76,6 @@ class ExistingCountries(pycountry.db.Database):
             self=subdivisions, query=query
         )
         for candidate in match_subdivions:
-            print(candidate)
             add_result(candidate.country, 49)
 
         # Prio 3: partial matches on country names
