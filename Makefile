@@ -40,7 +40,7 @@ help:
 .PHONY: all
 ## Run all commands necessary to ensure that everything is up to date and
 ## passing existing tests, then build distribution artifacts
-all: data poetry.lock lint test
+all: update data check
 	$(POETRY) build
 
 .PHONY: data
