@@ -6,6 +6,10 @@ target-version = ['py38']
 profile = "black"
 line_length = 80
 
+[tool.mypy]
+exclude = "/locales/"
+packages = "pycountry"
+
 [tool.poetry]
 name = "pycountry"
 version = "23.12.11.dev0"
