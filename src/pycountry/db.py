@@ -2,16 +2,31 @@ import json
 import logging
 import threading
 import warnings
-from typing import Any, Iterator, List, Optional, Type, Union
+from typing import (
+    Any,
+    Callable,
+    Dict,
+    Generic,
+    Iterator,
+    List,
+    Optional,
+    Tuple,
+    Type,
+    TypeVar,
+    Union,
+    cast,
+)
 
 logger = logging.getLogger("pycountry.db")
+D = TypeVar("D", bound="Data")
+F = TypeVar("F", bound=Callable)
 
 
 class Data:
-    def __init__(self, **fields: str):
+    def __init__(self, **fields: str) -> None:
         self._fields = fields
 
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key in self._fields:
             return self._fields[key]
         raise AttributeError()
@@ -29,14 +44,13 @@ class Data:
     def __dir__(self) -> List[str]:
         return dir(self.__class__) + list(self._fields)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[Tuple[str, str]]:
         # allow casting into a dict
-        for field in self._fields:
-            yield field, getattr(self, field)
+        return iter(self._fields.items())
 
 
 class Country(Data):
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key in ("common_name", "official_name"):
             # First try to get the common_name or official_name
             value = self._fields.get(key)
@@ -62,35 +76,31 @@ class Subdivision(Data):
     pass
 
 
-def lazy_load(f):
-    def load_if_needed(self, *args, **kw):
+def lazy_load(f: F) -> F:
+    def load_if_needed(self: Any, *args: Any, **kw: Any) -> Any:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
         return f(self, *args, **kw)
 
-    return load_if_needed
+    return cast(F, load_if_needed)
 
 
-class Database:
-    data_class: Union[Type, str]
-    root_key: Optional[str] = None
+class Database(Generic[D]):
+    factory: Type[D]
+    indices: Dict[str, Dict[str, D]]
     no_index: List[str] = []
+    objects: List[D]
+    root_key: Optional[str] = None
 
     def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
 
-        if isinstance(self.data_class, str):
-            self.factory = type(self.data_class, (Data,), {})
-        else:
-            self.factory = self.data_class
-
-    def _clear(self):
+    def _clear(self) -> None:
         self._is_loaded = False
         self.objects = []
-        self.index_names = set()
         self.indices = {}
 
     def _load(self) -> None:
@@ -127,7 +137,7 @@ class Database:
     # Public API
 
     @lazy_load
-    def add_entry(self, **kw):
+    def add_entry(self, **kw: str) -> None:
         # create the object with the correct dynamic type
         obj = self.factory(**kw)
 
@@ -143,11 +153,9 @@ class Database:
             index[value] = obj
 
     @lazy_load
-    def remove_entry(self, **kw):
-        # make sure that we receive None if no entry found
-        if "default" in kw:
-            del kw["default"]
-        obj = self.get(**kw)
+    def remove_entry(self, *, default: Optional[D] = None, **kw: str) -> None:
+        # ignore the default to receive None if no entry found
+        obj = self.get(default=None, **kw)
         if not obj:
             raise KeyError(
                 f"{self.factory.__name__} not found and cannot be removed: {kw}"
@@ -166,7 +174,7 @@ class Database:
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Iterator["Database"]:
+    def __iter__(self) -> Iterator[D]:
         return iter(self.objects)
 
     @lazy_load
@@ -174,9 +182,7 @@ class Database:
         return len(self.objects)
 
     @lazy_load
-    def get(self, **kw: Optional[str]) -> Optional[Any]:
-        kw.setdefault("default", None)
-        default = kw.pop("default")
+    def get(self, *, default: Optional[D] = None, **kw: str) -> Optional[D]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -194,7 +200,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Type:
+    def lookup(self, value: str) -> D:
         if not isinstance(value, str):
             raise LookupError()
 
