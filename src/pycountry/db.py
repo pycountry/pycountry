@@ -4,11 +4,13 @@ import threading
 import warnings
 from typing import (
     Any,
+    Callable,
     Dict,
     Generic,
     Iterator,
     List,
     Optional,
+    Tuple,
     Type,
     TypeVar,
     Union,
@@ -17,14 +19,14 @@ from typing import (
 
 logger = logging.getLogger("pycountry.db")
 D = TypeVar("D", bound="Data")
-F = TypeVar("F")
+F = TypeVar("F", bound=Callable)
 
 
 class Data:
-    def __init__(self, **fields: str):
+    def __init__(self, **fields: str) -> None:
         self._fields = fields
 
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key in self._fields:
             return self._fields[key]
         raise AttributeError()
@@ -42,14 +44,13 @@ class Data:
     def __dir__(self) -> List[str]:
         return dir(self.__class__) + list(self._fields)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[Tuple[str, str]]:
         # allow casting into a dict
-        for field in self._fields:
-            yield field, getattr(self, field)
+        return iter(self._fields.items())
 
 
 class Country(Data):
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key in ("common_name", "official_name"):
             # First try to get the common_name or official_name
             value = self._fields.get(key)
@@ -76,7 +77,7 @@ class Subdivision(Data):
 
 
 def lazy_load(f: F) -> F:
-    def load_if_needed(self, *args, **kw):
+    def load_if_needed(self: Any, *args: Any, **kw: Any) -> Any:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -87,7 +88,7 @@ def lazy_load(f: F) -> F:
 
 class Database(Generic[D]):
     factory: Type[D]
-    indices: Dict[str, Dict[Any, D]]
+    indices: Dict[str, Dict[str, D]]
     no_index: List[str] = []
     objects: List[D]
     root_key: Optional[str] = None
@@ -97,10 +98,9 @@ class Database(Generic[D]):
         self._is_loaded = False
         self._load_lock = threading.Lock()
 
-    def _clear(self):
+    def _clear(self) -> None:
         self._is_loaded = False
         self.objects = []
-        self.index_names = set()
         self.indices = {}
 
     def _load(self) -> None:
@@ -137,7 +137,7 @@ class Database(Generic[D]):
     # Public API
 
     @lazy_load
-    def add_entry(self, **kw):
+    def add_entry(self, **kw: str) -> None:
         # create the object with the correct dynamic type
         obj = self.factory(**kw)
 
@@ -153,11 +153,9 @@ class Database(Generic[D]):
             index[value] = obj
 
     @lazy_load
-    def remove_entry(self, **kw):
-        # make sure that we receive None if no entry found
-        if "default" in kw:
-            del kw["default"]
-        obj = self.get(**kw)
+    def remove_entry(self, *, default: Optional[D] = None, **kw: str) -> None:
+        # ignore the default to receive None if no entry found
+        obj = self.get(default=None, **kw)
         if not obj:
             raise KeyError(
                 f"{self.factory.__name__} not found and cannot be removed: {kw}"
