@@ -3,7 +3,7 @@
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Type
+from typing import List, Optional
 
 import pycountry.db
 
@@ -54,7 +54,7 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str) -> List[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -243,7 +243,7 @@ class Subdivisions(pycountry.db.Database):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> List[Type["Subdivisions"]]:
+    def search_fuzzy(self, query: str) -> List["SubdivisionHierarchy"]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
@@ -251,7 +251,7 @@ class Subdivisions(pycountry.db.Database):
         results: dict[str, int] = {}
 
         def add_result(
-            subdivision: "pycountry.db.Subdivision", points: int
+            subdivision: "SubdivisionHierarchy", points: int
         ) -> None:
             results.setdefault(subdivision.code, 0)
             results[subdivision.code] += points

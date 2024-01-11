@@ -194,7 +194,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Type:
+    def lookup(self, value: str) -> Any:
         if not isinstance(value, str):
             raise LookupError()
 
