@@ -3,7 +3,7 @@
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Type
+from typing import List, Optional, Sequence, Type
 
 import pycountry.db
 
@@ -54,7 +54,7 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str, *, languages: Optional[Sequence[str]] = None) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -67,7 +67,7 @@ class ExistingCountries(pycountry.db.Database):
 
         # Prio 1: exact matches on country names
         try:
-            add_result(self.lookup(query), 50)
+            add_result(self.lookup(query, languages=languages), 50)
         except LookupError:
             pass
 
@@ -80,23 +80,30 @@ class ExistingCountries(pycountry.db.Database):
 
         # Prio 3: partial matches on country names
         for candidate in self:
+            # Collect possible names
+            names = [candidate._fields.get("name"),
+                     candidate._fields.get("official_name"),
+                     candidate._fields.get("comment")]
+            # Skip empty values
+            names = [v for v in names if v is not None]
+            # Add translations
+            trans_names = []
+            for language in languages or ():
+                trans = self._get_trans(language)
+                trans_names += [trans.gettext(v) for v in names]
+
             # Higher priority for a match on the common name
-            for v in [
-                candidate._fields.get("name"),
-                candidate._fields.get("official_name"),
-                candidate._fields.get("comment"),
-            ]:
-                if v is not None:
-                    v = remove_accents(v.lower())
-                    if query in v:
-                        # This prefers countries with a match early in their name
-                        # and also balances against countries with a number of
-                        # partial matches and their name containing 'new' in the
-                        # middle
-                        add_result(
-                            candidate, max([5, 30 - (2 * v.find(query))])
-                        )
-                        break
+            for v in names + trans_names:
+                v = remove_accents(v.lower())
+                if query in v:
+                    # This prefers countries with a match early in their name
+                    # and also balances against countries with a number of
+                    # partial matches and their name containing 'new' in the
+                    # middle
+                    add_result(
+                        candidate, max([5, 30 - (2 * v.find(query))])
+                    )
+                    break
 
         # Prio 4: partial matches on subdivision names
         partial_match_subdivisions = pycountry.Subdivisions.partial_match(
