@@ -174,9 +174,7 @@ class Database:
         return len(self.objects)
 
     @lazy_load
-    def get(self, **kw: Optional[str]) -> Optional[Any]:
-        kw.setdefault("default", None)
-        default = kw.pop("default")
+    def get(self, *, default: Optional[Any] = None, **kw: Optional[str]) -> Optional[Any]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
