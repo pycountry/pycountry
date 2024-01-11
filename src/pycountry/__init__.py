@@ -54,7 +54,9 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str, *, languages: Optional[Sequence[str]] = None) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(
+        self, query: str, *, languages: Optional[Sequence[str]] = None
+    ) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -81,9 +83,11 @@ class ExistingCountries(pycountry.db.Database):
         # Prio 3: partial matches on country names
         for candidate in self:
             # Collect possible names
-            names = [candidate._fields.get("name"),
-                     candidate._fields.get("official_name"),
-                     candidate._fields.get("comment")]
+            names = [
+                candidate._fields.get("name"),
+                candidate._fields.get("official_name"),
+                candidate._fields.get("comment"),
+            ]
             # Skip empty values
             names = [v for v in names if v is not None]
             # Add translations
@@ -100,9 +104,7 @@ class ExistingCountries(pycountry.db.Database):
                     # and also balances against countries with a number of
                     # partial matches and their name containing 'new' in the
                     # middle
-                    add_result(
-                        candidate, max([5, 30 - (2 * v.find(query))])
-                    )
+                    add_result(candidate, max([5, 30 - (2 * v.find(query))]))
                     break
 
         # Prio 4: partial matches on subdivision names

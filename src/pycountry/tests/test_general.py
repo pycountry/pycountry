@@ -64,14 +64,18 @@ def test_country_fuzzy_search():
 
 
 def test_country_fuzzy_search_translations():
-    results = pycountry.countries.search_fuzzy("Česká republika", languages=['cs'])
+    results = pycountry.countries.search_fuzzy(
+        "Česká republika", languages=["cs"]
+    )
     assert len(results) == 1
     assert results[0] == pycountry.countries.get(alpha_2="CZ")
 
 
 def test_country_fuzzy_search_translations_multiple():
     # Test input matches the same country in multiple languages.
-    results = pycountry.countries.search_fuzzy("Česká republika", languages=['cs', 'sk'])
+    results = pycountry.countries.search_fuzzy(
+        "Česká republika", languages=["cs", "sk"]
+    )
     assert len(results) == 1
     assert results[0] == pycountry.countries.get(alpha_2="CZ")
 
@@ -247,13 +251,13 @@ def test_get():
 
 
 def test_get_translations():
-    result = pycountry.countries.get(name="Česko", languages=['cs'])
+    result = pycountry.countries.get(name="Česko", languages=["cs"])
     assert result == pycountry.countries.get(alpha_2="CZ")
 
 
 def test_get_translations_multiple():
     # Test input matches the same country in multiple languages.
-    result = pycountry.countries.get(name="Česko", languages=['cs', 'sk'])
+    result = pycountry.countries.get(name="Česko", languages=["cs", "sk"])
     assert result == pycountry.countries.get(alpha_2="CZ")
 
 
@@ -286,13 +290,15 @@ def test_lookup():
 
 
 def test_lookup_translations():
-    result = pycountry.countries.lookup("Česká republika", languages=['cs'])
+    result = pycountry.countries.lookup("Česká republika", languages=["cs"])
     assert result == pycountry.countries.get(alpha_2="CZ")
 
 
 def test_lookup_translations_multiple():
     # Test input matches the same country in multiple languages.
-    result = pycountry.countries.lookup("Česká republika", languages=['cs', 'sk'])
+    result = pycountry.countries.lookup(
+        "Česká republika", languages=["cs", "sk"]
+    )
     assert result == pycountry.countries.get(alpha_2="CZ")
 
 

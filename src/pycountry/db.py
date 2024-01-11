@@ -137,7 +137,9 @@ class Database:
         from . import LOCALES_DIR
 
         # Ignore missing gettext languages.
-        return gettext.translation("iso3166-1", LOCALES_DIR, languages=[language], fallback=True)
+        return gettext.translation(
+            "iso3166-1", LOCALES_DIR, languages=[language], fallback=True
+        )
 
     def _load_translations(self, languages: Sequence[str]) -> None:
         """Load translations for provided languages."""
@@ -211,7 +213,13 @@ class Database:
         return len(self.objects)
 
     @lazy_load
-    def get(self, *, default: Optional[Any] = None, languages: Optional[Sequence[str]] = None, **kw: Optional[str]) -> Optional[Any]:
+    def get(
+        self,
+        *,
+        default: Optional[Any] = None,
+        languages: Optional[Sequence[str]] = None,
+        **kw: Optional[str],
+    ) -> Optional[Any]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -223,7 +231,9 @@ class Database:
 
         # Normalize for case-insensitivity
         value = value.lower()
-        for index in [self.indices[field]] + [self.translations[lang][field] for lang in languages]:
+        for index in [self.indices[field]] + [
+            self.translations[lang][field] for lang in languages
+        ]:
             try:
                 return index[value]
             except KeyError:
@@ -235,7 +245,9 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str, *, languages: Optional[Sequence[str]] = None) -> Type:
+    def lookup(
+        self, value: str, *, languages: Optional[Sequence[str]] = None
+    ) -> Type:
         if not isinstance(value, str):
             raise LookupError()
 
@@ -246,7 +258,9 @@ class Database:
         value = value.lower()
 
         # Use indexes first
-        for indices in [self.indices] + [self.translations[lang] for lang in languages]:
+        for indices in [self.indices] + [
+            self.translations[lang] for lang in languages
+        ]:
             for key in indices:
                 try:
                     return indices[key][value]
