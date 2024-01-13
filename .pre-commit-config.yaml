@@ -30,6 +30,8 @@ repos:
     rev: v3.15.0
     hooks:
       - id: pyupgrade
+        args:
+          - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
     rev: v0.9.15
     hooks:
