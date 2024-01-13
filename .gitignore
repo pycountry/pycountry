@@ -1,25 +1,25 @@
-dist
-report.xml
-htmlcov
+# coverage artifacts
+htmlcov/
 .coverage
-.tox
-*.egg-info
-*.pyc
+
+# build artifacts
+dist/
+
+# test artifacts
+.tox/
+__pycache__/
+
+# iso-codes checkout
+parts/
+
+# development artifacts
 *.swp
-.Python
-.installed.cfg
-bin
-develop-eggs
-eggs
-include
-lib
-parts
 *.sublime-workspace
 pycountry.xcodeproj
-pip-selfcheck.json
-index.html
-.cache
-.pytest_cache
+.cache/
+.pytest_cache/
 .venv/
-.idea
+.idea/
+
+# other cruft
 .DS_Store
