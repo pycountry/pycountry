@@ -416,7 +416,9 @@ def test_special_characters():
 
 def test_unicode_characters():
     assert pycountry.remove_accents("你好") == "你好"  # Chinese characters
-    assert pycountry.remove_accents("こんにちは") == "こんにちは"  # Japanese characters
+    assert (
+        pycountry.remove_accents("こんにちは") == "こんにちは"
+    )  # Japanese characters
 
 
 def test_subdivision_search_fuzzy_non_existent_subdivision():
