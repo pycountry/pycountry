@@ -103,7 +103,7 @@ def test_country_missing_attribute(countries):
 
 
 def test_subdivisions_directly_accessible(countries):
-    assert len(pycountry.subdivisions) == 5127
+    assert len(pycountry.subdivisions) == 5046
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
