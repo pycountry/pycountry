@@ -62,6 +62,9 @@ def test_country_fuzzy_search(countries):
     assert len(results) == 1
     assert results[0] == pycountry.countries.get(alpha_2="US")
 
+    results = pycountry.countries.search_fuzzy("Cote", return_first=True)
+    assert len(results) == 1
+
 
 def test_historic_country_fuzzy_search(countries):
     results = pycountry.historic_countries.search_fuzzy("burma")
