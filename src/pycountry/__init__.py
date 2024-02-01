@@ -251,7 +251,7 @@ class Subdivisions(pycountry.db.Database):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> List[Type["Subdivisions"]]:
+    def search_fuzzy(self, query: str, return_first: bool = False) -> List[Type["Subdivisions"]]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
@@ -268,6 +268,8 @@ class Subdivisions(pycountry.db.Database):
         match_subdivisions = self.match(query)
         for candidate in match_subdivisions:
             add_result(candidate, 50)
+            if return_first:
+                return [self.get(code=list(results.keys())[0])]
 
         # Prio 2: partial matches on subdivision names
         partial_match_subdivisions = self.partial_match(query)
@@ -276,6 +278,8 @@ class Subdivisions(pycountry.db.Database):
             v = remove_accents(v.lower())
             if query in v:
                 add_result(candidate, max([1, 5 - v.find(query)]))
+                if return_first:
+                    return [self.get(code=list(results.keys())[0])]
 
         if not results:
             raise LookupError(query)
