@@ -366,6 +366,9 @@ def test_subdivision_fuzzy_search_match():
     assert len(results) == 1
     assert results[0].name == "Alabama"
 
+    results = pycountry.subdivisions.search_fuzzy("e", return_first=True)
+    assert len(results) == 1
+
 
 def test_subdivision_fuzzy_search_partial_match():
     results = pycountry.subdivisions.search_fuzzy("Massachusett")
