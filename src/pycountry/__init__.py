@@ -54,7 +54,7 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str, return_first: bool = False) -> List[Type["ExistingCountries"]]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -68,6 +68,8 @@ class ExistingCountries(pycountry.db.Database):
         # Prio 1: exact matches on country names
         try:
             add_result(self.lookup(query), 50)
+            if return_first:
+                return [self.get(alpha_2=list(results.keys())[0])]
         except LookupError:
             pass
 
@@ -77,6 +79,8 @@ class ExistingCountries(pycountry.db.Database):
         )
         for candidate in match_subdivions:
             add_result(candidate.country, 49)
+            if return_first:
+                return [self.get(alpha_2=list(results.keys())[0])]
 
         # Prio 3: partial matches on country names
         for candidate in self:
@@ -96,6 +100,8 @@ class ExistingCountries(pycountry.db.Database):
                         add_result(
                             candidate, max([5, 30 - (2 * v.find(query))])
                         )
+                        if return_first:
+                            return [self.get(alpha_2=list(results.keys())[0])]
                         break
 
         # Prio 4: partial matches on subdivision names
@@ -107,6 +113,8 @@ class ExistingCountries(pycountry.db.Database):
             v = remove_accents(v.lower())
             if query in v:
                 add_result(candidate.country, max([1, 5 - v.find(query)]))
+                if return_first:
+                    return [self.get(alpha_2=list(results.keys())[0])]
 
         if not results:
             raise LookupError(query)
