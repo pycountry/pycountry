@@ -27,19 +27,19 @@ repos:
     hooks:
       - id: black
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.0
+    rev: v3.15.1
     hooks:
       - id: pyupgrade
         args:
           - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.15
+    rev: v0.9.17
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.15
+    rev: v0.9.17
     hooks:
       - id: pymarkdown
         name: pymarkdown
@@ -61,7 +61,7 @@ repos:
         # When 3.11 is the lowest version supported, this tag can be dropped.
         language_version: "3.11"
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.6.3
+    rev: 0.6.4
     hooks:
       # Don't try to fix any of the data files.
       - id: fix-smartquotes
