@@ -23,7 +23,7 @@ maintainers = [
 	"Nate Schimmoller <nschimmo@gmail.com>",
 	"Zachary Ware <zachary.ware@gmail.com>",
 	]
-license = "LGPL 2.1"
+license = "LGPL-2.1-only"
 readme = "README.rst"
 repository = "https://github.com/flyingcircusio/pycountry"
 keywords = [ "country", "subdivision", "language", "currency", "iso", "3166", "639", "4217", "15924", "3166-1","3166-2", "3166-3"]
