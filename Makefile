@@ -7,6 +7,7 @@ POETRY ?= $(or $(shell command -v poetry 2>/dev/null),$(VENV_DIR)/bin/poetry)
 # Calculate it once
 POETRY := $(POETRY)
 POETRY_READY_MARKER := .cache/poetry_ready
+DATA_UP_TO_DATE_MARKER := .cache/data_ready
 MYPY ?= $(POETRY) run mypy
 PYTHON ?= $(POETRY) run python
 PRE_COMMIT ?= $(POETRY) run pre-commit
@@ -72,6 +73,12 @@ $(POETRY_READY_MARKER): poetry.lock | .cache
 	$(POETRY) install
 	@touch $@
 
+$(DATA_UP_TO_DATE_MARKER): $(POETRY_READY_MARKER) generate.py
+	rm -rf src/pycountry/databases
+	rm -rf src/pycountry/locales
+	$(PYTHON) generate.py
+	@touch $@
+
 $(VENV_DIR)/bin/poetry:
 	$(SYSTEM_PYTHON) -m venv --clear $(VENV_DIR)
 	$(VENV_DIR)/bin/python3 -m pip install -U poetry
@@ -93,7 +100,7 @@ lint: $(POETRY_READY_MARKER)
 
 .PHONY: test
 ## Run unit tests using every supported version of Python
-test: $(POETRY_READY_MARKER)
+test: $(POETRY_READY_MARKER) $(DATA_UP_TO_DATE_MARKER)
 	$(TOX)
 
 .PHONY: typecheck
