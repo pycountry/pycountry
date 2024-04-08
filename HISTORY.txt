@@ -9,6 +9,8 @@ Changes
 - Fixed bug causing parent subdivision codes to be returned with additional
   country code preceding (i.e. GB-GB-ENG instead of GB-ENG)
 
+- Update to iso-codes 4.16.0. (Thanks to musicinmybrain!)
+
 
 23.12.11 (2023-12-11)
 ---------------------
