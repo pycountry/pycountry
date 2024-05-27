@@ -23,7 +23,7 @@ repos:
     hooks:
       - id: isort
   - repo: https://github.com/psf/black
-    rev: 24.4.0
+    rev: 24.4.2
     hooks:
       - id: black
   - repo: https://github.com/asottile/pyupgrade
@@ -33,13 +33,13 @@ repos:
         args:
           - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.18
+    rev: v0.9.19
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.18
+    rev: v0.9.19
     hooks:
       - id: pymarkdown
         name: pymarkdown
@@ -52,7 +52,7 @@ repos:
     hooks:
       - id: rstcheck
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
+    rev: v2.3.0
     hooks:
       - id: codespell
         # Don't try to "fix" any spellings in the source data.
