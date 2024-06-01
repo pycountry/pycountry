@@ -1,8 +1,11 @@
 Changes
 =======
 
-23.12.11.dev0 (Unreleased)
---------------------------
+24.6.1.dev0 (Unreleased)
+------------------------
+
+- **Breaking change**: Reverted the fallback to name when country common_name
+  or official_name attributes not available, which was added in 23.12.11.
 
 - Fixed import of importlib_metadata to importlib.metadata
 
@@ -15,8 +18,8 @@ Changes
 23.12.11 (2023-12-11)
 ---------------------
 
-- Added fallback to name when common_name or official_name country attributes
-  are missing
+- ~~Added fallback to name when common_name or official_name country attributes
+  are missing~~ Reverted in v24.6.1.
 
 - Added support for adding and removing country records, as well as casting to
   dict

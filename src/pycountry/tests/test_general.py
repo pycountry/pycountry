@@ -78,14 +78,14 @@ def test_germany_has_all_attributes(countries):
     assert germany.official_name == "Federal Republic of Germany"
 
 
-def test_missing_common_official_use_same(countries):
+def test_missing_common_official(countries):
     aruba = pycountry.countries.get(alpha_2="AW")
     assert aruba.alpha_2 == "AW"
     assert aruba.name == "Aruba"
-    with pytest.warns(UserWarning, match="official_name not found"):
-        assert aruba.official_name == "Aruba"
-    with pytest.warns(UserWarning, match="common_name not found"):
-        assert aruba.common_name == "Aruba"
+    with pytest.raises(AttributeError, match="official_name"):
+        aruba.official_name
+    with pytest.raises(AttributeError, match="common_name"):
+        aruba.common_name
 
 
 def test_missing_common_official_use_different(countries):
