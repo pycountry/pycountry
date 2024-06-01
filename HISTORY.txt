@@ -1,8 +1,8 @@
 Changes
 =======
 
-24.6.1.dev0 (Unreleased)
-------------------------
+24.6.1 (2024-06-01)
+-------------------
 
 - **Breaking change**: Reverted the fallback to name when country common_name
   or official_name attributes not available, which was added in 23.12.11.
