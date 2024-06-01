@@ -16,7 +16,7 @@ packages = "pycountry"
 
 [tool.poetry]
 name = "pycountry"
-version = "24.6.1"
+version = "24.6.2.dev0"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 authors = ["Christian Theune <ct@flyingcircus.io>"]
 maintainers = [
