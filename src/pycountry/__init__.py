@@ -216,10 +216,14 @@ class Subdivisions(pycountry.db.Database):
                 return []
         return subdivisions
 
-    def match(self, query):
+    def match(self, query, country_code: str = ""):
         query = remove_accents(query.strip().lower())
+        country_code = country_code.upper()
         matching_candidates = []
         for candidate in subdivisions:
+            if country_code and country_code != candidate.country_code:
+                continue
+
             for v in candidate._fields.values():
                 if v is not None:
                     v = remove_accents(v.lower())
@@ -232,10 +236,14 @@ class Subdivisions(pycountry.db.Database):
 
         return matching_candidates
 
-    def partial_match(self, query):
+    def partial_match(self, query, country_code: str = ""):
         query = remove_accents(query.strip().lower())
         matching_candidates = []
+        country_code = country_code.upper()
         for candidate in subdivisions:
+            if country_code and country_code != candidate.country_code:
+                continue
+
             v = candidate._fields.get("name")
             v = remove_accents(v.lower())
             if query in v:
@@ -243,7 +251,9 @@ class Subdivisions(pycountry.db.Database):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> List[Type["Subdivisions"]]:
+    def search_fuzzy(
+        self, query: str, country_code: str = ""
+    ) -> List[Type["Subdivisions"]]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
@@ -257,12 +267,14 @@ class Subdivisions(pycountry.db.Database):
             results[subdivision.code] += points
 
         # Prio 1: exact matches on subdivision names
-        match_subdivisions = self.match(query)
+        match_subdivisions = self.match(query, country_code=country_code)
         for candidate in match_subdivisions:
             add_result(candidate, 50)
 
         # Prio 2: partial matches on subdivision names
-        partial_match_subdivisions = self.partial_match(query)
+        partial_match_subdivisions = self.partial_match(
+            query, country_code=country_code
+        )
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
             v = remove_accents(v.lower())

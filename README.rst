@@ -213,10 +213,11 @@ index:
    57
 
 Similar to countries, the ``search_fuzzy`` method has been implemented
-for subdivisions to facilitate finding relevant subdivision entries.
-This method includes unicode normalization for accents and prioritizes
-matches on subdivision names. The search algorithm is designed to return
-more relevant matches first:
+for subdivisions to facilitate finding relevant subdivision entries. It
+accepts an optional argument with a ``country_code``. This method
+includes unicode normalization for accents and prioritizes matches on
+subdivision names. The search algorithm is designed to return more
+relevant matches first:
 
 This method is especially useful for cases where the exact name or code
 of the subdivision is not known.
@@ -228,6 +229,11 @@ of the subdivision is not known.
      Subdivision(code='GB-ERY', country_code='GB', name='East Riding of Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Unitary authority')
      Subdivision(code='GB-NYK', country_code='GB', name='North Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Two-tier county')
      Subdivision(code='US-NY', country_code='US', name='New York', parent_code=None, type='State')]
+
+   >>> pycountry.subdivisions.search_fuzzy('York', country_code='GB')
+     [Subdivision(code='GB-YOR', country_code='GB', name='York', parent='GB-ENG', parent_code='GB-GB-ENG', type='Unitary authority')
+     Subdivision(code='GB-ERY', country_code='GB', name='East Riding of Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Unitary authority')
+     Subdivision(code='GB-NYK', country_code='GB', name='North Yorkshire', parent='GB-ENG', parent_code='GB-GB-ENG', type='Two-tier county')]
 
 *********************
  Scripts (ISO 15924)
