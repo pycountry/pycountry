@@ -1,6 +1,7 @@
 """pycountry"""
 
 import os.path
+import random
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from typing import Dict, List, Optional, Type
@@ -119,6 +120,25 @@ class ExistingCountries(pycountry.db.Database):
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
         return sorted_results
+
+    def random(self, type: str) -> str:
+        if type not in [
+            "alpha_2",
+            "alpha_3",
+            "name",
+            "official_name",
+            "numeric",
+        ]:
+            raise ValueError("Invalid type")
+        country = random.choice(list(countries))
+
+        if type == "official_name":
+            try:
+                return getattr(country, "official_name")
+            except AttributeError:
+                return getattr(country, "name")
+
+        return getattr(country, type)
 
 
 class HistoricCountries(ExistingCountries):
