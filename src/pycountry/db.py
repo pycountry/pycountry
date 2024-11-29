@@ -155,7 +155,7 @@ class Database:
 
     @lazy_load
     def get(
-        self, *, default: Optional[Any] = None, **kw: Optional[str]
+        self, *, default: Optional[Any] = [], **kw: Optional[str]
     ) -> Optional[Any]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")

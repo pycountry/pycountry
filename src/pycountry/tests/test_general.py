@@ -229,7 +229,7 @@ def test_get(countries):
     with pytest.raises(TypeError):
         c.get(alpha_2="DE", alpha_3="DEU")
     assert c.get(alpha_2="DE") == c.get(alpha_3="DEU")
-    assert c.get(alpha_2="Foo") is None
+    assert c.get(alpha_2="Foo") == []
     tracer = object()
     assert c.get(alpha_2="Foo", default=tracer) is tracer
 
@@ -278,7 +278,7 @@ def test_subdivision_empty_list():
     s = pycountry.subdivisions
     assert len(s.get(country_code="DE")) == 16
     assert len(s.get(country_code="JE")) == 0
-    assert s.get(country_code="FOOBAR") is None
+    assert s.get(country_code="FOOBAR") == []
 
 
 def test_has_version_attribute():
@@ -314,7 +314,7 @@ def test_is_instance_of_currency():
 
 
 def test_add_entry(countries):
-    assert pycountry.countries.get(alpha_2="XK") is None
+    assert pycountry.countries.get(alpha_2="XK") == []
 
     pycountry.countries.add_entry(
         alpha_2="XK", alpha_3="XXK", name="Kosovo", numeric="926"
@@ -325,11 +325,11 @@ def test_add_entry(countries):
 
 
 def test_remove_entry(countries):
-    assert pycountry.countries.get(alpha_2="DE") is not None
+    assert pycountry.countries.get(alpha_2="DE") != []
 
     pycountry.countries.remove_entry(alpha_2="DE")
 
-    assert pycountry.countries.get(alpha_2="DE") is None
+    assert pycountry.countries.get(alpha_2="DE") == []
 
 
 def test_remove_non_existent_entry():
