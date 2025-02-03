@@ -5,7 +5,7 @@ repos:
     hooks:
       - id: check-useless-excludes
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -19,27 +19,27 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: 6.0.0
     hooks:
       - id: isort
   - repo: https://github.com/psf/black
-    rev: 24.4.2
+    rev: 25.1.0
     hooks:
       - id: black
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.2
+    rev: v3.19.1
     hooks:
       - id: pyupgrade
         args:
           - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.20
+    rev: v0.9.27
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.20
+    rev: v0.9.27
     hooks:
       - id: pymarkdown
         name: pymarkdown
@@ -48,11 +48,11 @@ repos:
     hooks:
       - id: rstfmt
   - repo: https://github.com/rstcheck/rstcheck
-    rev: v6.2.0
+    rev: v6.2.4
     hooks:
       - id: rstcheck
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.1
     hooks:
       - id: codespell
         # Don't try to "fix" any spellings in the source data.
@@ -61,7 +61,7 @@ repos:
         # When 3.11 is the lowest version supported, this tag can be dropped.
         language_version: "3.11"
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.6.6
+    rev: 0.6.8
     hooks:
       # Don't try to fix any of the data files.
       - id: fix-smartquotes
