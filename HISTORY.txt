@@ -4,7 +4,11 @@ Changes
 24.6.2.dev0 (Unreleased)
 ------------------------
 
-None, yet.
+- Dropped support for end-of-life Python 3.8.
+
+- Added explicit support for Python 3.13.
+
+- Updated to iso-codes 4.17.0.
 
 
 24.6.1 (2024-06-01)

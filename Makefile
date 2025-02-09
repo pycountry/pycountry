@@ -91,7 +91,7 @@ venv: $(VENV_DIR)/bin/poetry
 ## Update all dependencies
 update: poetry.lock
 	$(POETRY) update
-	$(PRE_COMMIT) autoupdate
+	$(PRE_COMMIT) autoupdate --freeze
 
 .PHONY: lint
 ## Run automatic formatting checkers and fixers against all files of all types
