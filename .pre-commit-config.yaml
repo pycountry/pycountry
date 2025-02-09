@@ -5,7 +5,7 @@ repos:
     hooks:
       - id: check-useless-excludes
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b  # frozen: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -19,40 +19,40 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: 0a0b7a830386ba6a31c2ec8316849ae4d1b8240d  # frozen: 6.0.0
     hooks:
       - id: isort
   - repo: https://github.com/psf/black
-    rev: 24.4.2
+    rev: 8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b  # frozen: 25.1.0
     hooks:
       - id: black
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.2
+    rev: ce40a160603ab0e7d9c627ae33d7ef3906e2d2b2  # frozen: v3.19.1
     hooks:
       - id: pyupgrade
         args:
           - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.20
+    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.20
+    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
     hooks:
       - id: pymarkdown
         name: pymarkdown
   - repo: https://github.com/dzhu/rstfmt
-    rev: v0.0.14
+    rev: 81e5b5eafe45c61b9d1e2410aa16ae39390ad43d  # frozen: v0.0.14
     hooks:
       - id: rstfmt
   - repo: https://github.com/rstcheck/rstcheck
-    rev: v6.2.0
+    rev: f30c4d170a36ea3812bceb5f33004afc213bd797  # frozen: v6.2.4
     hooks:
       - id: rstcheck
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: 63c8f8312b7559622c0d82815639671ae42132ac  # frozen: v2.4.1
     hooks:
       - id: codespell
         # Don't try to "fix" any spellings in the source data.
@@ -61,7 +61,7 @@ repos:
         # When 3.11 is the lowest version supported, this tag can be dropped.
         language_version: "3.11"
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.6.6
+    rev: 13a42592dd28b6b688bb1c23fa769234984d4ca7  # frozen: 0.6.8
     hooks:
       # Don't try to fix any of the data files.
       - id: fix-smartquotes
@@ -73,7 +73,7 @@ repos:
       - id: forbid-bidi-controls
         exclude: "^src/pycountry/databases.*$"
   - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.10.0
+    rev: 3a6eb0fadf60b3cccfd80bad9dbb6fae7e47b316  # frozen: v1.10.0
     hooks:
       - id: python-check-blanket-noqa
       - id: python-no-eval
