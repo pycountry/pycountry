@@ -1,7 +1,9 @@
+import gettext
 import json
 import logging
 import threading
-from typing import Any, Iterator, List, Optional, Type, Union
+from functools import lru_cache
+from typing import Any, Dict, Iterator, List, Optional, Sequence, Type, Union
 
 logger = logging.getLogger("pycountry.db")
 
@@ -66,12 +68,17 @@ class Database:
             self.factory = type(self.data_class, (Data,), {})
         else:
             self.factory = self.data_class
+        # Language specific indices.
+        self.translations: Dict[str, dict] = {}
+        # Cached gettext objects.
+        self._trans_objs: Dict[str, gettext.NullTranslations] = {}
 
     def _clear(self):
         self._is_loaded = False
         self.objects = []
         self.index_names = set()
         self.indices = {}
+        self.translations = {}
 
     def _load(self) -> None:
         if self._is_loaded:
@@ -103,6 +110,38 @@ class Database:
                 index[value] = obj
 
         self._is_loaded = True
+
+    @lru_cache
+    def _get_trans(self, language: str) -> gettext.NullTranslations:
+        """Return gettext translation object for the language."""
+        from . import LOCALES_DIR
+
+        # Ignore missing gettext languages.
+        return gettext.translation(
+            "iso3166-1", LOCALES_DIR, languages=[language], fallback=True
+        )
+
+    def _load_translations(self, languages: Sequence[str]) -> None:
+        """Load translations for provided languages."""
+        with self._load_lock:
+            for language in languages:
+                if language in self.translations:
+                    # Skip languages that are already loaded.
+                    continue
+                trans = self._get_trans(language)
+                indices = self.translations.setdefault(language, {})
+                for obj in self.objects:
+                    # Inject into language index.
+                    for key in self.indices:
+                        index = indices.setdefault(key, {})
+                        value = trans.gettext(getattr(obj, key)).lower()
+                        if value in index:
+                            logger.debug(
+                                "%s %r already taken in index %r and will be "
+                                "ignored. This is an error in the databases."
+                                % (self.factory.__name__, value, key)
+                            )
+                        index[value] = obj
 
     # Public API
 
@@ -155,38 +194,58 @@ class Database:
 
     @lazy_load
     def get(
-        self, *, default: Optional[Any] = None, **kw: Optional[str]
+        self,
+        *,
+        default: Optional[Any] = None,
+        languages: Optional[Sequence[str]] = None,
+        **kw: Optional[str],
     ) -> Optional[Any]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
         if not isinstance(value, str):
             raise LookupError()
+
+        languages = languages or ()
+        self._load_translations(languages)
+
         # Normalize for case-insensitivity
         value = value.lower()
-        index = self.indices[field]
-        try:
-            return index[value]
-        except KeyError:
+        for index in [self.indices[field]] + [
+            self.translations[lang][field] for lang in languages
+        ]:
+            try:
+                return index[value]
+            except KeyError:
+                pass
+        else:
             # Pythonic APIs implementing     get() shouldn't raise KeyErrors.
             # Those are a bit unexpected and they should rather support
             # returning `None` by default and allow customization.
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Type:
+    def lookup(
+        self, value: str, *, languages: Optional[Sequence[str]] = None
+    ) -> Type:
         if not isinstance(value, str):
             raise LookupError()
+
+        languages = languages or ()
+        self._load_translations(languages)
 
         # Normalize for case-insensitivity
         value = value.lower()
 
         # Use indexes first
-        for key in self.indices:
-            try:
-                return self.indices[key][value]
-            except LookupError:
-                pass
+        for indices in [self.indices] + [
+            self.translations[lang] for lang in languages
+        ]:
+            for key in indices:
+                try:
+                    return indices[key][value]
+                except LookupError:
+                    pass
 
         # Use non-indexed values now. Avoid going through indexed values.
         for candidate in self:
