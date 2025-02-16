@@ -1,22 +1,41 @@
 Changes
 =======
 
-23.12.11.dev0 (Unreleased)
---------------------------
+24.6.2.dev0 (Unreleased)
+------------------------
+
+- Dropped support for end-of-life Python 3.8.
+
+- Added explicit support for Python 3.13.
+
+- Updated to iso-codes 4.17.0.
+
+
+24.6.1 (2024-06-01)
+-------------------
+
+- **Breaking change**: Reverted the fallback to name when country common_name
+  or official_name attributes not available, which was added in 23.12.11.
 
 - Fixed import of importlib_metadata to importlib.metadata
 
-- Fixed bug causing parent subdivision codes to be returned with additional country code preceeding (i.e. GB-GB-ENG instead of GB-ENG)
+- Fixed bug causing parent subdivision codes to be returned with additional
+  country code preceding (i.e. GB-GB-ENG instead of GB-ENG)
+
+- Update to iso-codes 4.16.0. (Thanks to musicinmybrain!)
 
 
 23.12.11 (2023-12-11)
 ---------------------
 
-- Added fallback to name when common_name or official_name country attributes are missing
+- ~~Added fallback to name when common_name or official_name country attributes
+  are missing~~ Reverted in v24.6.1.
 
-- Added support for adding and removing country records, as well as casting to dict
+- Added support for adding and removing country records, as well as casting to
+  dict
 
-- Improve performance speed by checking for non-ascii chars before removing accents
+- Improve performance speed by checking for non-ascii chars before removing
+  accents
 
 - Added search_fuzzy method to subdivisions
 
@@ -69,13 +88,13 @@ Changes
 - Add (auto-generated) __version__ attribute to the main module.
   (Fixes issue #4)
 
-- Add fuzzy search to historic countries. (Fixe issue #26)
+- Add fuzzy search to historic countries. (Fixes issue #26)
 
 - Update to iso-codes 4.5.0.
 
-- PR 9: Clean up the normalization (lower casing) of values in indexes and searches.
-  See PR https://github.com/flyingcircusio/pycountry/pull/9 for detailed
-  discussion. This also fixed issue #8.
+- PR 9: Clean up the normalization (lower casing) of values in indexes and
+  searches.  See PR https://github.com/flyingcircusio/pycountry/pull/9 for
+  detailed discussion. This also fixed issue #8.
 
 - Smaller cleanups and build environment version bumps.
 
@@ -250,7 +269,8 @@ I overlooked in the last releases and a few enhancements.
 16.10.23rc3 (2016-10-23)
 ------------------------
 
-- Incorporate some typos and suggested README improvements from @Pander in #13375.
+- Incorporate some typos and suggested README improvements from @Pander in
+  #13375.
 
 
 16.10.23rc2 (2016-10-23)
@@ -266,7 +286,7 @@ This is a major change. The upstream packages have been revamped from the
 former XML databases to use JSON. They adapted their schemata a bit and thus
 made some of the structures in pycountry superfluous (yay!). Memory usage went
 down when all databases are loaded (32.7 MiB down from 83.6 MiB) and
-performance has gone up (not measured scientifically, but it's noticable when
+performance has gone up (not measured scientifically, but it's noticeable when
 loading the DBs in an interactive session).
 
 To mark this major change, I'm also switch from the existing (not useful)

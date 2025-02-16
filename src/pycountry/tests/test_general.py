@@ -95,14 +95,14 @@ def test_germany_has_all_attributes(countries):
     assert germany.official_name == "Federal Republic of Germany"
 
 
-def test_missing_common_official_use_same(countries):
+def test_missing_common_official(countries):
     aruba = pycountry.countries.get(alpha_2="AW")
     assert aruba.alpha_2 == "AW"
     assert aruba.name == "Aruba"
-    with pytest.warns(UserWarning, match="official_name not found"):
-        assert aruba.official_name == "Aruba"
-    with pytest.warns(UserWarning, match="common_name not found"):
-        assert aruba.common_name == "Aruba"
+    with pytest.raises(AttributeError, match="official_name"):
+        aruba.official_name
+    with pytest.raises(AttributeError, match="common_name"):
+        aruba.common_name
 
 
 def test_missing_common_official_use_different(countries):
@@ -120,7 +120,7 @@ def test_country_missing_attribute(countries):
 
 
 def test_subdivisions_directly_accessible(countries):
-    assert len(pycountry.subdivisions) == 5127
+    assert len(pycountry.subdivisions) == 5046
     assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
@@ -457,7 +457,9 @@ def test_special_characters():
 
 def test_unicode_characters():
     assert pycountry.remove_accents("你好") == "你好"  # Chinese characters
-    assert pycountry.remove_accents("こんにちは") == "こんにちは"  # Japanese characters
+    assert (
+        pycountry.remove_accents("こんにちは") == "こんにちは"
+    )  # Japanese characters
 
 
 def test_subdivision_search_fuzzy_non_existent_subdivision():
