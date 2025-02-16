@@ -10,6 +10,10 @@ Changes
 
 - Updated to iso-codes 4.17.0.
 
+- Added support for matching initials in ``countries.search_fuzzy``.  For
+  example, results for ``countries.search_fuzzy("UK")`` will now include
+  GB (United Kingdom).
+
 
 24.6.1 (2024-06-01)
 -------------------
