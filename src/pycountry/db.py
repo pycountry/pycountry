@@ -111,7 +111,7 @@ class Database:
 
         self._is_loaded = True
 
-    @lru_cache()
+    @lru_cache
     def _get_trans(self, language: str) -> gettext.NullTranslations:
         """Return gettext translation object for the language."""
         from . import LOCALES_DIR
