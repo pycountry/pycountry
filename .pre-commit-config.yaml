@@ -33,13 +33,13 @@ repos:
         args:
           - --py38-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
+    rev: 8f3c81106818f347006af0993a71e6cf7ab2e96b  # frozen: v0.9.28
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
+    rev: 8f3c81106818f347006af0993a71e6cf7ab2e96b  # frozen: v0.9.28
     hooks:
       - id: pymarkdown
         name: pymarkdown
