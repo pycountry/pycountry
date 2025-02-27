@@ -359,21 +359,51 @@ def test_no_results_lookup_error(countries):
 
 
 def test_subdivision_fuzzy_search_match():
+    # without country
     results = pycountry.subdivisions.search_fuzzy("Alabama")
     assert len(results) == 1
     assert results[0].name == "Alabama"
 
+    # with country and a match
+    results = pycountry.subdivisions.search_fuzzy(
+        "Centre-Nord", country_code="BF"
+    )
+    assert len(results) == 1
+    assert results[0].name == "Centre-Nord"
+
 
 def test_subdivision_fuzzy_search_partial_match():
+    # without country
     results = pycountry.subdivisions.search_fuzzy("Massachusett")
     assert len(results) == 1
     assert results[0].name == "Massachusetts"
 
+    # with country and a match
+    results = pycountry.subdivisions.partial_match(
+        "Centre-Nord", country_code="BF"
+    )
+    assert len(results) == 1
+    assert results[0].name == "Centre-Nord"
+
+    # with country and no match
+    results = pycountry.subdivisions.partial_match("Alabama", country_code="BF")
+    assert not results
+
 
 def test_subdivision_match():
+    # without country
     results = pycountry.subdivisions.match("Alabama")
     assert len(results) == 1
     assert results[0].name == "Alabama"
+
+    # with country and a match
+    results = pycountry.subdivisions.match("Centre", country_code="BF")
+    assert len(results) == 1
+    assert results[0].name == "Centre"
+
+    # with country and no match
+    results = pycountry.subdivisions.match("Alabama", country_code="BF")
+    assert not results
 
 
 def test_subdivision_partial_match():
