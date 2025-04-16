@@ -31,7 +31,7 @@ repos:
     hooks:
       - id: pyupgrade
         args:
-          - --py38-plus
+          - --py39-plus
   - repo: https://github.com/jackdewinter/pymarkdown
     rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
     hooks:
