@@ -62,6 +62,12 @@ def test_country_fuzzy_search(countries):
     assert len(results) == 1
     assert results[0] == pycountry.countries.get(alpha_2="US")
 
+    # bug #231, try initials
+    results = pycountry.countries.search_fuzzy("UK")
+    # There are a lot of matches, but United Kingdom should be one of the top
+    assert len(results) >= 4
+    assert pycountry.countries.get(alpha_2="GB") in results[:4]
+
 
 def test_historic_country_fuzzy_search(countries):
     results = pycountry.historic_countries.search_fuzzy("burma")
