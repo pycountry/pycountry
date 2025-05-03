@@ -38,9 +38,6 @@ repos:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
-  - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
-    hooks:
       - id: pymarkdown
         name: pymarkdown
   - repo: https://github.com/dzhu/rstfmt
