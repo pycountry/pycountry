@@ -13,23 +13,14 @@ Lesser General Public License for more details.
 
 - See pyhscodes contributors since 2025
 
-- David Sigley - david@coolset.com
-
 Pyhscodes is built on the foundation of the pycountry package, which
 provided the original codebase structure and API design. We gratefully
 acknowledge the pycountry contributors for their work.
 
-Original pycountry package:
-- See Pycountry contributors until 2025
-
-The pycountry package is also licensed under the GNU Lesser General
-Public License. You may obtain a copy of the pycountry license at
-https://github.com/pycountry/pycountry/blob/main/LICENSE.txt.
-
 HS Codes Data:
-- Data in the /src/pyhscodes/databases/ folder contains Harmonized System (HS) 
-  codes from the World Customs Organization (WCO). The HS codes are an 
-  international standard for classifying traded products, maintained by the WCO.
+- Data in the /databases/ folder contains Harmonized System (HS) codes from 
+  the World Customs Organization (WCO). The HS codes are an international 
+  standard for classifying traded products, maintained by the WCO.
 
 - The HS code data is provided for informational purposes. Users should verify 
   current codes with official WCO publications or national customs authorities 
@@ -40,6 +31,3 @@ https://www.gnu.org/licenses/lgpl-2.1.html.
 
 The complete corresponding source code for pyhscodes is available at:
 https://github.com/yourusername/pyhscodes
-
-For the original pycountry package, see:
-https://github.com/pycountry/pycountry/blob/main/LICENSE.txt.

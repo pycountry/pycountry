@@ -4,10 +4,16 @@ source =
    */site-packages
 
 [run]
-branch = true
-source = pycountry
+branch = True
+omit = 
+    */tests/*
+    */test_*
+
+source = pyhscodes
 
 [report]
-show_missing = true
-precision = 2
-fail_under = 95
+exclude_lines = 
+    pragma: no cover
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError

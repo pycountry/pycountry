@@ -7,7 +7,6 @@ POETRY ?= $(or $(shell command -v poetry 2>/dev/null),$(VENV_DIR)/bin/poetry)
 # Calculate it once
 POETRY := $(POETRY)
 POETRY_READY_MARKER := .cache/poetry_ready
-DATA_UP_TO_DATE_MARKER := .cache/data_ready
 MYPY ?= $(POETRY) run mypy
 PYTHON ?= $(POETRY) run python
 PRE_COMMIT ?= $(POETRY) run pre-commit
@@ -41,24 +40,17 @@ help:
 .PHONY: all
 ## Run all commands necessary to ensure that everything is up to date and
 ## passing existing tests, then build distribution artifacts
-all: update data check
+all: update check
 	$(POETRY) build
-
-.PHONY: data
-## Regenerate all ISO data from the upstream Debian iso-codes project
-data: $(POETRY_READY_MARKER)
-	rm -rf src/pycountry/databases
-	rm -rf src/pycountry/locales
-	$(PYTHON) generate.py
 
 .PHONY: sdist
 ## Create a source distribution of the project
-sdist: data
+sdist:
 	$(POETRY) build --format=sdist
 
 .PHONY: wheel
 ## Create a wheel distribution of the project
-wheel: data
+wheel:
 	$(POETRY) build --format=wheel
 
 .HELP: poetry.lock
@@ -71,12 +63,6 @@ poetry.lock: pyproject.toml | $(POETRY)
 
 $(POETRY_READY_MARKER): poetry.lock | .cache
 	$(POETRY) install
-	@touch $@
-
-$(DATA_UP_TO_DATE_MARKER): $(POETRY_READY_MARKER) generate.py
-	rm -rf src/pycountry/databases
-	rm -rf src/pycountry/locales
-	$(PYTHON) generate.py
 	@touch $@
 
 $(VENV_DIR)/bin/poetry:
@@ -100,7 +86,7 @@ lint: $(POETRY_READY_MARKER)
 
 .PHONY: test
 ## Run unit tests using every supported version of Python
-test: $(POETRY_READY_MARKER) $(DATA_UP_TO_DATE_MARKER)
+test: $(POETRY_READY_MARKER)
 	$(TOX)
 
 .PHONY: typecheck

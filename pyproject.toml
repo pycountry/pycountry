@@ -12,23 +12,30 @@ line_length = 80
 
 [tool.mypy]
 exclude = "/locales/"
-packages = "pycountry"
+packages = "pyhscodes"
 
 [tool.poetry]
-name = "pycountry"
-version = "24.6.2.dev0"
-description = "ISO country, subdivision, language, currency and script definitions and their translations"
-authors = ["Christian Theune <ct@flyingcircus.io>"]
+name = "pyhscodes"
+version = "1.0.0"
+description = "Harmonized System (HS) codes from the World Customs Organization with hierarchical structure and search capabilities"
+authors = ["David Sigley <david@coolset.com>"]
 maintainers = [
-	"Nate Schimmoller <nschimmo@gmail.com>",
-	"Zachary Ware <zachary.ware@gmail.com>",
+	"David Sigley <david@coolset.com>",
 	]
 license = "LGPL-2.1-only"
-readme = "README.rst"
-repository = "https://github.com/flyingcircusio/pycountry"
-keywords = [ "country", "subdivision", "language", "currency", "iso", "3166", "639", "4217", "15924", "3166-1","3166-2", "3166-3"]
+readme = "README.md"
+repository = "https://github.com/sigularusrex/pyhscodes"
+homepage = "https://github.com/sigularusrex/pyhscodes"
+documentation = "https://github.com/sigularusrex/pyhscodes#readme"
+keywords = [ "hs codes", "harmonized system", "customs", "trade", "tariff", "classification", "wco", "world customs organization", "EUDR", "CBAM"]
+packages = [{include = "pyhscodes", from = "src"}]
+include = [
+    "src/pyhscodes/databases/*.json",
+    "LICENSE.txt",
+    "COPYRIGHT.txt",
+]
 classifiers = [
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",
         "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
@@ -40,8 +47,9 @@ classifiers = [
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
-        "Topic :: Software Development :: Internationalization",
-        "Topic :: Software Development :: Localization"
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Office/Business :: Financial",
+        "Topic :: Scientific/Engineering :: Information Analysis"
         ]
 
 [tool.poetry.dependencies]
