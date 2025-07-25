@@ -11,7 +11,7 @@ class Data:
     def __init__(self, **fields: str):
         self._fields = fields
 
-    def __getattr__(self, key):
+    def __getattr__(self, key: str) -> str:
         if key in self._fields:
             return self._fields[key]
         raise AttributeError(key)
