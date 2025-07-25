@@ -19,7 +19,7 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/pycqa/isort
-    rev: 0a0b7a830386ba6a31c2ec8316849ae4d1b8240d  # frozen: 6.0.0
+    rev: c8ab4a5b21bac924d106e3103dd7c979fdd0f9bc  # frozen: 6.0.1
     hooks:
       - id: isort
   - repo: https://github.com/psf/black
@@ -27,13 +27,13 @@ repos:
     hooks:
       - id: black
   - repo: https://github.com/asottile/pyupgrade
-    rev: ce40a160603ab0e7d9c627ae33d7ef3906e2d2b2  # frozen: v3.19.1
+    rev: 37bfa06d791fd38fb4e54910b36a2ff57641b074  # frozen: v3.20.0
     hooks:
       - id: pyupgrade
         args:
           - --py39-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 9e5b364978ea69ef4512c10e81f0495945de2bca  # frozen: v0.9.27
+    rev: 64f75ae7f8a6b1372c684abbe3301ed95aca267b  # frozen: v0.9.31
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
@@ -45,7 +45,7 @@ repos:
     hooks:
       - id: rstfmt
   - repo: https://github.com/rstcheck/rstcheck
-    rev: f30c4d170a36ea3812bceb5f33004afc213bd797  # frozen: v6.2.4
+    rev: 27258fde1ee7d3b1e6a7bbc58f4c7b1dd0e719e5  # frozen: v6.2.5
     hooks:
       - id: rstcheck
   - repo: https://github.com/codespell-project/codespell
@@ -58,7 +58,7 @@ repos:
         # When 3.11 is the lowest version supported, this tag can be dropped.
         language_version: "3.11"
   - repo: https://github.com/sirosen/texthooks
-    rev: 13a42592dd28b6b688bb1c23fa769234984d4ca7  # frozen: 0.6.8
+    rev: 815307a61a62d48c84412f34f3e6789a2cd9179a  # frozen: 0.7.1
     hooks:
       # Don't try to fix any of the data files.
       - id: fix-smartquotes
