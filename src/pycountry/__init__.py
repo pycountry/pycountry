@@ -54,7 +54,7 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str) -> List[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
