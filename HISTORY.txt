@@ -8,7 +8,7 @@ Changes
 
 - Added explicit support for Python 3.13.
 
-- Updated to iso-codes 4.17.0.
+- Updated to iso-codes 4.18.0.
 
 - Added support for matching initials in ``countries.search_fuzzy``.  For
   example, results for ``countries.search_fuzzy("UK")`` will now include
