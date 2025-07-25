@@ -4,7 +4,7 @@ import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import Optional
+from typing import List, Optional, cast
 
 import pycountry.db
 
@@ -114,7 +114,7 @@ class ExistingCountries(pycountry.db.Database):
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return sorted_results
+        return cast(List[pycountry.db.Country], sorted_results)
 
 
 class HistoricCountries(ExistingCountries):
