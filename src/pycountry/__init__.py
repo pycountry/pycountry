@@ -3,7 +3,7 @@
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Type
+from typing import List, Optional, Type
 
 import pycountry.db
 
@@ -87,6 +87,11 @@ class ExistingCountries(pycountry.db.Database):
                 candidate._fields.get("comment"),
             ]:
                 if v is not None:
+                    # Check for initials match
+                    initials = "".join([c for c in v if c.isupper()])
+                    if query == remove_accents(initials.lower()):
+                        add_result(candidate, 40)
+                        break
                     v = remove_accents(v.lower())
                     if query in v:
                         # This prefers countries with a match early in their name
