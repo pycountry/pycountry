@@ -2,7 +2,7 @@ import json
 import logging
 import threading
 from collections.abc import Iterator
-from typing import Any, Callable, Optional, TypeVar, Union, cast
+from typing import Any, Callable, Generic, Optional, TypeVar, Union, cast
 
 logger = logging.getLogger("pycountry.db")
 
@@ -56,7 +56,10 @@ def lazy_load(f: F) -> F:
     return cast(F, load_if_needed)
 
 
-class Database:
+T = TypeVar("T", bound=Data)
+
+
+class Database(Generic[T]):
     data_class: Union[type, str]
     root_key: Optional[str] = None
     no_index: list[str] = []
@@ -150,7 +153,7 @@ class Database:
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Iterator[Any]:
+    def __iter__(self) -> Iterator[T]:
         return iter(self.objects)
 
     @lazy_load
@@ -159,8 +162,8 @@ class Database:
 
     @lazy_load
     def get(
-        self, *, default: Optional[Any] = None, **kw: Optional[str]
-    ) -> Optional[Any]:
+        self, *, default: Optional[T] = None, **kw: Optional[str]
+    ) -> Optional[T]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -178,7 +181,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Any:
+    def lookup(self, value: str) -> T:
         if not isinstance(value, str):
             raise LookupError()
 
