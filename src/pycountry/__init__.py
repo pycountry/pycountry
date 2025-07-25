@@ -114,7 +114,7 @@ class ExistingCountries(pycountry.db.Database):
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return cast(List[pycountry.db.Country], sorted_results)
+        return cast(list[pycountry.db.Country], sorted_results)
 
 
 class HistoricCountries(ExistingCountries):
