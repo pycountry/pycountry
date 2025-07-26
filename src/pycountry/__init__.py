@@ -4,7 +4,7 @@ import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import List, Optional, cast
+from typing import Optional, cast
 
 import pycountry.db
 
