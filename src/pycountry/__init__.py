@@ -3,24 +3,15 @@
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Type
+from importlib import resources as _importlib_resources
+from typing import Optional
 
 import pycountry.db
-
-# We prioritise importing the backported `importlib_resources`
-# because the function we use (`importlib.resources.files`) is only
-# available from Python 3.9, but the module itself exists since 3.7.
-# We install `importlib_resources` on Python < 3.9.
-# TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
-try:
-    import importlib_resources  # type: ignore
-except ModuleNotFoundError:
-    from importlib import resources as importlib_resources  # type: ignore
 
 
 def resource_filename(package_or_requirement: str, resource_name: str) -> str:
     return str(
-        importlib_resources.files(package_or_requirement) / resource_name
+        _importlib_resources.files(package_or_requirement) / resource_name
     )
 
 
@@ -54,7 +45,7 @@ class ExistingCountries(pycountry.db.Database):
     data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[Type["ExistingCountries"]]:
+    def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -87,6 +78,11 @@ class ExistingCountries(pycountry.db.Database):
                 candidate._fields.get("comment"),
             ]:
                 if v is not None:
+                    # Check for initials match
+                    initials = "".join([c for c in v if c.isupper()])
+                    if query == remove_accents(initials.lower()):
+                        add_result(candidate, 40)
+                        break
                     v = remove_accents(v.lower())
                     if query in v:
                         # This prefers countries with a match early in their name
@@ -243,7 +239,7 @@ class Subdivisions(pycountry.db.Database):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> List[Type["Subdivisions"]]:
+    def search_fuzzy(self, query: str) -> list[type["Subdivisions"]]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions

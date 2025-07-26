@@ -1,7 +1,8 @@
 import json
 import logging
 import threading
-from typing import Any, Iterator, List, Optional, Type, Union
+from collections.abc import Iterator
+from typing import Any, Optional, Union
 
 logger = logging.getLogger("pycountry.db")
 
@@ -25,7 +26,7 @@ class Data:
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
-    def __dir__(self) -> List[str]:
+    def __dir__(self) -> list[str]:
         return dir(self.__class__) + list(self._fields)
 
     def __iter__(self):
@@ -53,9 +54,9 @@ def lazy_load(f):
 
 
 class Database:
-    data_class: Union[Type, str]
+    data_class: Union[type, str]
     root_key: Optional[str] = None
-    no_index: List[str] = []
+    no_index: list[str] = []
 
     def __init__(self, filename: str) -> None:
         self.filename = filename
@@ -174,7 +175,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> Type:
+    def lookup(self, value: str) -> type:
         if not isinstance(value, str):
             raise LookupError()
 

@@ -31,16 +31,13 @@ repos:
     hooks:
       - id: pyupgrade
         args:
-          - --py38-plus
+          - --py39-plus
   - repo: https://github.com/jackdewinter/pymarkdown
     rev: 64f75ae7f8a6b1372c684abbe3301ed95aca267b  # frozen: v0.9.31
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
         args: ["-x-fix", "scan"]
-  - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 64f75ae7f8a6b1372c684abbe3301ed95aca267b  # frozen: v0.9.31
-    hooks:
       - id: pymarkdown
         name: pymarkdown
   - repo: https://github.com/dzhu/rstfmt
@@ -61,7 +58,7 @@ repos:
         # When 3.11 is the lowest version supported, this tag can be dropped.
         language_version: "3.11"
   - repo: https://github.com/sirosen/texthooks
-    rev: 13a42592dd28b6b688bb1c23fa769234984d4ca7  # frozen: 0.6.8
+    rev: 815307a61a62d48c84412f34f3e6789a2cd9179a  # frozen: 0.7.1
     hooks:
       # Don't try to fix any of the data files.
       - id: fix-smartquotes
