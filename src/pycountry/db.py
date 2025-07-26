@@ -2,7 +2,7 @@ import json
 import logging
 import threading
 from collections.abc import Iterator
-from typing import Any, Optional, Union
+from typing import Any, Callable, Optional, TypeVar, Union, cast
 
 logger = logging.getLogger("pycountry.db")
 
@@ -43,14 +43,17 @@ class Subdivision(Data):
     pass
 
 
-def lazy_load(f):
+F = TypeVar("F", bound=Callable[..., Any])
+
+
+def lazy_load(f: F) -> F:
     def load_if_needed(self, *args, **kw):
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
         return f(self, *args, **kw)
 
-    return load_if_needed
+    return cast(F, load_if_needed)
 
 
 class Database:
@@ -147,7 +150,7 @@ class Database:
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Iterator["Database"]:
+    def __iter__(self) -> Iterator[Any]:
         return iter(self.objects)
 
     @lazy_load
@@ -175,7 +178,7 @@ class Database:
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> type:
+    def lookup(self, value: str) -> Any:
         if not isinstance(value, str):
             raise LookupError()
 
