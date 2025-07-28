@@ -39,7 +39,7 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class ExistingCountries(pycountry.db.Database):
+class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
     """Provides access to an ISO 3166 database (Countries)."""
 
     data_class = pycountry.db.Country
