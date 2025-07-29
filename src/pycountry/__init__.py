@@ -8,8 +8,6 @@ from importlib import resources as _importlib_resources
 from typing import Optional, cast
 
 import pycountry.db
-from pycountry.db import Country as Country
-from pycountry.db import Subdivision as Subdivision
 
 
 def resource_filename(package_or_requirement: str, resource_name: str) -> str:
@@ -42,20 +40,24 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
+class Country(Data):
+    pass
+
+
+class ExistingCountries(pycountry.db.Database[Country]):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    data_class = pycountry.db.Country
+    data_class = Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
+    def search_fuzzy(self, query: str) -> list[Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(country: "pycountry.db.Country", points: int) -> None:
+        def add_result(country: Country, points: int) -> None:
             results.setdefault(country.alpha_2, 0)
             results[country.alpha_2] += points
 
@@ -106,20 +108,20 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             raise LookupError(query)
 
         sorted_results = [
-            cast(pycountry.db.Country, self.get(alpha_2=x[0]))
+            cast(Country, self.get(alpha_2=x[0]))
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return cast(list[pycountry.db.Country], sorted_results)
+        return cast(list[Country], sorted_results)
 
 
 class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    data_class = pycountry.db.Country
+    data_class = Country
     root_key = "3166-3"
 
 
@@ -170,19 +172,17 @@ class LanguageFamilies(pycountry.db.Database[LanguageFamily]):
     root_key = "639-5"
 
 
-class SubdivisionHierarchy(pycountry.db.Data):
+class Subdivision(pycountry.db.Data):
     @property
-    def country(self) -> pycountry.db.Country:
-        return cast(
-            pycountry.db.Country, countries.get(alpha_2=self.country_code)
-        )
+    def country(self) -> Country:
+        return cast(Country, countries.get(alpha_2=self.country_code))
 
     @cached_property
     def country_code(self) -> str:
         return self.code.split("-")[0]
 
     @property
-    def parent(self) -> Optional["SubdivisionHierarchy"]:
+    def parent(self) -> Optional["Subdivision"]:
         if not self.parent_code:
             return None
         return subdivisions.get(code=self.parent_code)
@@ -199,12 +199,16 @@ class SubdivisionHierarchy(pycountry.db.Data):
         return parent
 
 
-class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
+# alias for backwards compatibility
+SubdivisionHierarchy = Subdivision
+
+
+class Subdivisions(pycountry.db.Database[Subdivision]):
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
 
-    data_class = SubdivisionHierarchy
+    data_class = Subdivision
     no_index = ["name", "parent_code", "parent", "type"]
     root_key = "3166-2"
 
@@ -215,7 +219,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
         self.indices["country_code"] = {}
         for subdivision in self:
             divs = cast(
-                Set[SubdivisionHierarchy],
+                Set[Subdivision],
                 self.indices["country_code"].setdefault(
                     subdivision.country_code.lower(), set()  # type: ignore[arg-type]
                 ),
@@ -223,8 +227,8 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
             divs.add(subdivision)
 
     def get(
-        self, *, default: Optional[SubdivisionHierarchy] = None, **kw: str
-    ) -> Optional[SubdivisionHierarchy]:
+        self, *, default: Optional[Subdivision] = None, **kw: str
+    ) -> Optional[Subdivision]:
         result = super().get(default=default, **kw)
         if result is default and "country_code" in kw:
             # This handles the case where we know about a country but there
@@ -234,7 +238,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
                 return []  # type: ignore[return-value]
         return result
 
-    def match(self, query: str) -> list[SubdivisionHierarchy]:
+    def match(self, query: str) -> list[Subdivision]:
         query = remove_accents(query.strip().lower())
         matching_candidates = []
         for candidate in self:
@@ -250,7 +254,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
 
         return matching_candidates
 
-    def partial_match(self, query: str) -> list[SubdivisionHierarchy]:
+    def partial_match(self, query: str) -> list[Subdivision]:
         query = remove_accents(query.strip().lower())
         matching_candidates = []
         for candidate in self:
@@ -262,16 +266,14 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> list[SubdivisionHierarchy]:
+    def search_fuzzy(self, query: str) -> list[Subdivision]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(
-            subdivision: "pycountry.SubdivisionHierarchy", points: int
-        ) -> None:
+        def add_result(subdivision: Subdivision, points: int) -> None:
             results.setdefault(subdivision.code, 0)
             results[subdivision.code] += points
 
@@ -293,7 +295,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
             raise LookupError(query)
 
         sorted_results = [
-            cast(SubdivisionHierarchy, self.get(code=x[0]))
+            cast(Subdivision, self.get(code=x[0]))
             # sort by points first, by alpha2 code second, and to ensure stable
             # results the negative value allows us to sort reversely on the
             # points but ascending on the country code.

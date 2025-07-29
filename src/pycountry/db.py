@@ -4,7 +4,7 @@ import threading
 from collections.abc import Callable, Iterator
 from typing import Any, Generic, Optional, TypeVar, Union, cast
 
-logger = logging.getLogger("pycountry.db")
+logger = logging.getLogger(__name__)
 
 
 class Data:
@@ -32,14 +32,6 @@ class Data:
     def __iter__(self) -> Iterator[tuple[str, str]]:
         # allow casting into a dict
         return iter(self._fields.items())
-
-
-class Country(Data):
-    pass
-
-
-class Subdivision(Data):
-    pass
 
 
 F = TypeVar("F", bound=Callable[..., Any])
