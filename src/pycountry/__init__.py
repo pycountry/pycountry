@@ -4,26 +4,17 @@ import os.path
 import unicodedata
 from functools import cached_property
 from importlib import metadata as _importlib_metadata
-from typing import Dict, List, Optional, Set, Type, cast
+from importlib import resources as _importlib_resources
+from typing import Optional, cast
 
 import pycountry.db
 from pycountry.db import Country as Country
 from pycountry.db import Subdivision as Subdivision
 
-# We prioritise importing the backported `importlib_resources`
-# because the function we use (`importlib.resources.files`) is only
-# available from Python 3.9, but the module itself exists since 3.7.
-# We install `importlib_resources` on Python < 3.9.
-# TODO: Remove usage of importlib_resources once support for Python 3.8 is dropped
-try:
-    import importlib_resources  # type: ignore
-except ModuleNotFoundError:
-    from importlib import resources as importlib_resources  # type: ignore
-
 
 def resource_filename(package_or_requirement: str, resource_name: str) -> str:
     return str(
-        importlib_resources.files(package_or_requirement) / resource_name
+        _importlib_resources.files(package_or_requirement) / resource_name
     )
 
 
@@ -54,10 +45,10 @@ def remove_accents(input_str: str) -> str:
 class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    factory = pycountry.db.Country
+    data_class = pycountry.db.Country
     root_key = "3166-1"
 
-    def search_fuzzy(self, query: str) -> List[pycountry.db.Country]:
+    def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -88,6 +79,11 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
                 country._fields.get("comment"),
             ]:
                 if v is not None:
+                    # Check for initials match
+                    initials = "".join([c for c in v if c.isupper()])
+                    if query == remove_accents(initials.lower()):
+                        add_result(candidate, 40)
+                        break
                     v = remove_accents(v.lower())
                     if query in v:
                         # This prefers countries with a match early in their name
@@ -116,14 +112,14 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return sorted_results
+        return cast(list[pycountry.db.Country], sorted_results)
 
 
 class HistoricCountries(ExistingCountries):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    factory = pycountry.db.Country
+    data_class = pycountry.db.Country
     root_key = "3166-3"
 
 
@@ -134,7 +130,7 @@ class Script(pycountry.db.Data):
 class Scripts(pycountry.db.Database[Script]):
     """Provides access to an ISO 15924 database (Scripts)."""
 
-    factory = Script
+    data_class = Script
     root_key = "15924"
 
 
@@ -145,7 +141,7 @@ class Currency(pycountry.db.Data):
 class Currencies(pycountry.db.Database[Currency]):
     """Provides access to an ISO 4217 database (Currencies)."""
 
-    factory = Currency
+    data_class = Currency
     root_key = "4217"
 
 
@@ -158,7 +154,7 @@ class Languages(pycountry.db.Database[Language]):
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
 
-    factory = Language
+    data_class = Language
     root_key = "639-3"
 
 
@@ -170,7 +166,7 @@ class LanguageFamilies(pycountry.db.Database[LanguageFamily]):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
-    factory = LanguageFamily
+    data_class = LanguageFamily
     root_key = "639-5"
 
 
@@ -208,7 +204,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
 
-    factory = SubdivisionHierarchy
+    data_class = SubdivisionHierarchy
     no_index = ["name", "parent_code", "parent", "type"]
     root_key = "3166-2"
 
@@ -238,7 +234,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
                 return []  # type: ignore[return-value]
         return result
 
-    def match(self, query: str) -> List[SubdivisionHierarchy]:
+    def match(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
         matching_candidates = []
         for candidate in self:
@@ -254,7 +250,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
 
         return matching_candidates
 
-    def partial_match(self, query: str) -> List[SubdivisionHierarchy]:
+    def partial_match(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
         matching_candidates = []
         for candidate in self:
@@ -266,7 +262,7 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> List[SubdivisionHierarchy]:
+    def search_fuzzy(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions

@@ -1,25 +1,10 @@
 import json
 import logging
 import threading
-import warnings
-from typing import (
-    Any,
-    Callable,
-    Dict,
-    Generic,
-    Iterator,
-    List,
-    Optional,
-    Tuple,
-    Type,
-    TypeVar,
-    Union,
-    cast,
-)
+from collections.abc import Callable, Iterator
+from typing import Any, Generic, Optional, TypeVar, Union, cast
 
 logger = logging.getLogger("pycountry.db")
-D = TypeVar("D", bound="Data")
-F = TypeVar("F", bound=Callable)
 
 
 class Data:
@@ -29,7 +14,7 @@ class Data:
     def __getattr__(self, key: str) -> str:
         if key in self._fields:
             return self._fields[key]
-        raise AttributeError()
+        raise AttributeError(key)
 
     def __setattr__(self, key: str, value: str) -> None:
         if key != "_fields":
@@ -41,43 +26,27 @@ class Data:
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
-    def __dir__(self) -> List[str]:
+    def __dir__(self) -> list[str]:
         return dir(self.__class__) + list(self._fields)
 
-    def __iter__(self) -> Iterator[Tuple[str, str]]:
+    def __iter__(self) -> Iterator[tuple[str, str]]:
         # allow casting into a dict
         return iter(self._fields.items())
 
 
 class Country(Data):
-    def __getattr__(self, key: str) -> str:
-        if key in ("common_name", "official_name"):
-            # First try to get the common_name or official_name
-            value = self._fields.get(key)
-            if value is not None:
-                return value
-            # Fall back to name if common_name or official_name is not found
-            name = self._fields.get("name")
-            if name is not None:
-                warning_message = (
-                    f"Country's {key} not found. Country name provided instead."
-                )
-                warnings.warn(warning_message, UserWarning)
-                return name
-            raise AttributeError()
-        else:
-            # For other keys, simply return the value or raise an error
-            if key in self._fields:
-                return self._fields[key]
-            raise AttributeError()
+    pass
 
 
 class Subdivision(Data):
     pass
 
 
+F = TypeVar("F", bound=Callable[..., Any])
+
+
 def lazy_load(f: F) -> F:
-    def load_if_needed(self: Any, *args: Any, **kw: Any) -> Any:
+    def load_if_needed(self: "Database", *args: Any, **kw: Any) -> Any:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -86,17 +55,26 @@ def lazy_load(f: F) -> F:
     return cast(F, load_if_needed)
 
 
-class Database(Generic[D]):
-    factory: Type[D]
-    indices: Dict[str, Dict[str, D]]
-    no_index: List[str] = []
-    objects: List[D]
+T = TypeVar("T", bound=Data)
+
+
+class Database(Generic[T]):
+    data_class: Union[type, str]
+    factory: type[T]
+    indices: dict[str, dict[str, T]]
+    no_index: list[str] = []
+    objects: list[T]
     root_key: Optional[str] = None
 
     def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
+
+        if isinstance(self.data_class, str):
+            self.factory = type(self.data_class, (Data,), {})
+        else:
+            self.factory = self.data_class
 
     def _clear(self) -> None:
         self._is_loaded = False
@@ -153,7 +131,7 @@ class Database(Generic[D]):
             index[value] = obj
 
     @lazy_load
-    def remove_entry(self, *, default: Optional[D] = None, **kw: str) -> None:
+    def remove_entry(self, *, default: Optional[T] = None, **kw: str) -> None:
         # ignore the default to receive None if no entry found
         obj = self.get(default=None, **kw)
         if not obj:
@@ -174,7 +152,7 @@ class Database(Generic[D]):
                 del index[value]
 
     @lazy_load
-    def __iter__(self) -> Iterator[D]:
+    def __iter__(self) -> Iterator[T]:
         return iter(self.objects)
 
     @lazy_load
@@ -182,7 +160,9 @@ class Database(Generic[D]):
         return len(self.objects)
 
     @lazy_load
-    def get(self, *, default: Optional[D] = None, **kw: str) -> Optional[D]:
+    def get(
+        self, *, default: Optional[T] = None, **kw: Optional[str]
+    ) -> Optional[T]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -200,7 +180,7 @@ class Database(Generic[D]):
             return default
 
     @lazy_load
-    def lookup(self, value: str) -> D:
+    def lookup(self, value: str) -> T:
         if not isinstance(value, str):
             raise LookupError()
 

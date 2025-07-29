@@ -1,21 +1,29 @@
 [tool.black]
 line-length = 80
-target-version = ['py38']
+target-version = ['py39']
+
+[tool.codespell]
+# Ignore false-positive on 'Nam', found in tests
+ignore-words-list = "nam"
 
 [tool.isort]
 profile = "black"
 line_length = 80
 
+[tool.mypy]
+exclude = "/locales/"
+packages = "pycountry"
+
 [tool.poetry]
 name = "pycountry"
-version = "23.12.11.dev0"
+version = "24.6.2.dev0"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 authors = ["Christian Theune <ct@flyingcircus.io>"]
 maintainers = [
 	"Nate Schimmoller <nschimmo@gmail.com>",
 	"Zachary Ware <zachary.ware@gmail.com>",
 	]
-license = "LGPL 2.1"
+license = "LGPL-2.1-only"
 readme = "README.rst"
 repository = "https://github.com/flyingcircusio/pycountry"
 keywords = [ "country", "subdivision", "language", "currency", "iso", "3166", "639", "4217", "15924", "3166-1","3166-2", "3166-3"]
@@ -27,22 +35,35 @@ classifiers = [
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Topic :: Software Development :: Internationalization",
         "Topic :: Software Development :: Localization"
         ]
 
 [tool.poetry.dependencies]
-python = ">=3.8"
-importlib-resources = {version = "^5.12.0", python = "<3.9"}
+python = ">=3.9"
 
-[tool.poetry.dev-dependencies]
-pytest = "^7.1.3"
-pytest-cov = "^4.0.0"
+[tool.poetry.group.dev.dependencies]
+# Note: black and isort are not listed here, as they don't need to be installed
+# separately.  pre-commit will take care of running them, and tracking the
+# version in use.
+mypy = ">1.7.1"
+pre-commit = ">3.4.0"
+pytest = ">7.1.3"
+pytest-cov = ">4.0.0"
+tox = ">4.11.4"
+zest-releaser = "^9.1.3"
+# For zest-releaser
+docutils = "<0.21"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = "--cov --cov-report=html --cov-report=term-missing"
+required_plugins = "pytest-cov>=4.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
