@@ -17,9 +17,32 @@ def countries():
     pycountry.countries._clear()
 
 
+@pytest.mark.parametrize(
+    "obj, db_type, db_data_class",
+    [
+        (pycountry.countries, pycountry.ExistingCountries, pycountry.Country),
+        (pycountry.currencies, pycountry.Currencies, pycountry.Currency),
+        (pycountry.languages, pycountry.Languages, pycountry.Language),
+        (pycountry.scripts, pycountry.Scripts, pycountry.Script),
+        (
+            pycountry.subdivisions,
+            pycountry.Subdivisions,
+            pycountry.SubdivisionHierarchy,
+        ),
+    ],
+)
+def test_expected_instance_types(
+    obj: pycountry.db.Database,
+    db_type: type[pycountry.db.Database],
+    db_data_class: type[pycountry.db.Data],
+) -> None:
+    assert isinstance(obj, db_type)
+    assert db_type.data_class is db_data_class
+    assert isinstance(next(iter(obj)), db_data_class)
+
+
 def test_country_list(countries):
     assert len(pycountry.countries) == 249
-    assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
 
 
 def test_country_fuzzy_search(countries):
@@ -138,7 +161,6 @@ def test_query_subdivisions_of_country():
 
 def test_scripts():
     assert len(pycountry.scripts) == 182
-    assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
 
     latin = pycountry.scripts.get(name="Latin")
     assert latin.alpha_4 == "Latn"
@@ -148,7 +170,6 @@ def test_scripts():
 
 def test_currencies():
     assert len(pycountry.currencies) == 181
-    assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
     assert argentine_peso.alpha_3 == "ARS"
@@ -158,7 +179,6 @@ def test_currencies():
 
 def test_languages():
     assert len(pycountry.languages) == 7910
-    assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_2="an")
     assert aragonese.alpha_2 == "an"
@@ -176,7 +196,6 @@ def test_languages():
 
 def test_language_families():
     assert len(pycountry.language_families) == 115
-    assert isinstance(list(pycountry.language_families)[0], pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_3="arg")
     assert aragonese.alpha_3 == "arg"
@@ -192,7 +211,6 @@ def test_locales():
 
 def test_removed_countries():
     ussr = pycountry.historic_countries.get(alpha_3="SUN")
-    assert isinstance(ussr, pycountry.db.Data)
     assert ussr.alpha_4 == "SUHH"
     assert ussr.alpha_3 == "SUN"
     assert ussr.name == "USSR, Union of Soviet Socialist Republics"
