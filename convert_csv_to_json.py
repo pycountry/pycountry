@@ -16,7 +16,7 @@ import json
 import os
 from pathlib import Path
 
-
+# TODO: ensure script finds and updates entries rather than overwriting them so that we don't lose standards and commodity information
 def convert_hscodes_csv_to_json(csv_file: str, json_file: str):
     """Convert HS codes CSV to JSON format."""
     hscodes = []
