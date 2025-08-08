@@ -37,8 +37,6 @@ class Data:
             yield field, getattr(self, field)
 
 
-
-
 class Country(Data):
     def __repr__(self) -> str:
         return self.__repr_common__("Country")
