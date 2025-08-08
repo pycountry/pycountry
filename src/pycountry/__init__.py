@@ -49,7 +49,7 @@ class Countries(Generic[pycountry.db.T], pycountry.db.Database[pycountry.db.T]):
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(country: "pycountry.db.Country", points: int) -> None:
+        def add_result(country: pycountry.db.T, points: int) -> None:
             results.setdefault(country.alpha_2, 0)
             results[country.alpha_2] += points
 
