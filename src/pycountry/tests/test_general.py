@@ -201,7 +201,7 @@ def test_removed_countries():
 
 def test_repr(countries):
     assert re.match(
-        "Country\\(alpha_2=u?'DE', "
+        "ExistingCountry\\(alpha_2=u?'DE', "
         "alpha_3=u?'DEU', "
         "flag='..', "
         "name=u?'Germany', "

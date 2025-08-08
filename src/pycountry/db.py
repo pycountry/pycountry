@@ -22,9 +22,7 @@ class Data:
         super().__setattr__(key, value)
 
     def __repr__(self) -> str:
-        return self.__repr_common__(self.__class__.__name__)
-
-    def __repr_common__(self, cls_name: str) -> str:
+        cls_name = self.__class__.__name__
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
@@ -38,8 +36,7 @@ class Data:
 
 
 class Country(Data):
-    def __repr__(self) -> str:
-        return self.__repr_common__("Country")
+    pass
 
 
 class ExistingCountry(Country):
