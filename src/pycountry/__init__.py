@@ -4,7 +4,7 @@ import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import Optional, cast
+from typing import Generic, Optional, cast
 
 import pycountry.db
 
@@ -39,20 +39,17 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
+class Countries(Generic[pycountry.db.T], pycountry.db.Database[pycountry.db.T]):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    data_class = pycountry.db.Country
-    root_key = "3166-1"
-
-    def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
+    def search_fuzzy(self, query: str) -> list[pycountry.db.T]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(country: "pycountry.db.Country", points: int) -> None:
+        def add_result(country: pycountry.db.T, points: int) -> None:
             results.setdefault(country.alpha_2, 0)
             results[country.alpha_2] += points
 
@@ -114,14 +111,21 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return cast(list[pycountry.db.Country], sorted_results)
+        return cast(list[pycountry.db.T], sorted_results)
 
 
-class HistoricCountries(ExistingCountries):
+class ExistingCountries(Countries[pycountry.db.ExistingCountry]):
+    """Provides access to an ISO 3166 database (Countries)."""
+
+    data_class = pycountry.db.ExistingCountry
+    root_key = "3166-1"
+
+
+class HistoricCountries(Countries[pycountry.db.HistoricCountry]):
     """Provides access to an ISO 3166-3 database
     (Countries that have been removed from the standard)."""
 
-    data_class = pycountry.db.Country
+    data_class = pycountry.db.HistoricCountry
     root_key = "3166-3"
 
 

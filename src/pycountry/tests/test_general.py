@@ -201,7 +201,7 @@ def test_removed_countries():
 
 def test_repr(countries):
     assert re.match(
-        "Country\\(alpha_2=u?'DE', "
+        "ExistingCountry\\(alpha_2=u?'DE', "
         "alpha_3=u?'DEU', "
         "flag='..', "
         "name=u?'Germany', "
@@ -303,8 +303,9 @@ def test_is_instance_of_language():
 
 def test_is_instance_of_country(countries):
     united_states = pycountry.countries.get(alpha_2="US")
+    assert isinstance(united_states, pycountry.db.Country)
     class_name = united_states.__class__.__name__
-    assert class_name == "Country"
+    assert class_name == "ExistingCountry"
 
 
 def test_is_instance_of_subdivision():

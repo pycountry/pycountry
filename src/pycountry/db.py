@@ -39,6 +39,26 @@ class Country(Data):
     pass
 
 
+class ExistingCountry(Country):
+    alpha_2: str
+    alpha_3: str
+    flag: str
+    name: str
+    numeric: str
+    official_name: Optional[str]
+    common_name: Optional[str]
+
+
+class HistoricCountry(Country):
+    alpha_2: str
+    alpha_3: str
+    alpha_4: str
+    name: str
+    withdrawal_date: str
+    numeric: Optional[str]
+    comment: Optional[str]
+
+
 class Subdivision(Data):
     pass
 
