@@ -39,10 +39,10 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class Countries(Generic[pycountry.db.F], pycountry.db.Database[pycountry.db.F]):
+class Countries(Generic[pycountry.db.T], pycountry.db.Database[pycountry.db.T]):
     """Provides access to an ISO 3166 database (Countries)."""
 
-    def search_fuzzy(self, query: str) -> list[pycountry.db.F]:
+    def search_fuzzy(self, query: str) -> list[pycountry.db.T]:
         query = remove_accents(query.strip().lower())
 
         # A country-code to points mapping for later sorting countries
@@ -111,7 +111,7 @@ class Countries(Generic[pycountry.db.F], pycountry.db.Database[pycountry.db.F]):
             # points but ascending on the country code.
             for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
         ]
-        return cast(list[pycountry.db.F], sorted_results)
+        return cast(list[pycountry.db.T], sorted_results)
 
 
 class ExistingCountries(Countries[pycountry.db.ExistingCountry]):
