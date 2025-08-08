@@ -22,7 +22,9 @@ class Data:
         super().__setattr__(key, value)
 
     def __repr__(self) -> str:
-        cls_name = self.__class__.__name__
+        return self.__repr_common__(self.__class__.__name__)
+
+    def __repr_common__(self, cls_name: str) -> str:
         fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
@@ -35,8 +37,31 @@ class Data:
             yield field, getattr(self, field)
 
 
+
+
 class Country(Data):
-    pass
+    def __repr__(self) -> str:
+        return self.__repr_common__("Country")
+
+
+class ExistingCountry(Country):
+    alpha_2: str
+    alpha_3: str
+    flag: str
+    name: str
+    numeric: str
+    official_name: Optional[str]
+    common_name: Optional[str]
+
+
+class HistoricCountry(Country):
+    alpha_2: str
+    alpha_3: str
+    alpha_4: str
+    name: str
+    withdrawal_date: str
+    numeric: Optional[str]
+    comment: Optional[str]
 
 
 class Subdivision(Data):
