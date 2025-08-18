@@ -5,7 +5,7 @@ repos:
     hooks:
       - id: check-useless-excludes
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b  # frozen: v5.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c  # frozen: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -33,7 +33,7 @@ repos:
         args:
           - --py39-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 64f75ae7f8a6b1372c684abbe3301ed95aca267b  # frozen: v0.9.31
+    rev: e5c469050200cb90c1d3be8041bab39d69f0c9bb  # frozen: v0.9.32
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
