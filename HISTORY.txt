@@ -1,6 +1,20 @@
 Changes
 =======
 
+24.6.3.dev0 (Unreleased)
+------------------------
+
+- Added type hints throughout the codebase with strict mypy checking.
+
+- Improved type safety by adding type parameters to generic Database classes
+
+- Refined the lazy_load decorator using a Protocol for better type safety.
+
+- Improved test coverage to 98.94% (db.py at 100% coverage).
+
+- Added explicit support for Python 3.14.
+
+
 24.6.2.dev0 (Unreleased)
 ------------------------
 
