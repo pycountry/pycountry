@@ -4,7 +4,7 @@ import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import Optional, cast
+from typing import Any, Optional, Union
 
 import pycountry.db
 
@@ -39,7 +39,7 @@ def remove_accents(input_str: str) -> str:
     return output_str
 
 
-class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
+class ExistingCountries(pycountry.db.Database):
     """Provides access to an ISO 3166 database (Countries)."""
 
     data_class = pycountry.db.Country
@@ -58,63 +58,74 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
 
         # Prio 1: exact matches on country names
         try:
-            add_result(self.lookup(query), 50)
+            country = self.lookup(query)
+            if isinstance(country, pycountry.db.Country):
+                add_result(country, 50)
         except LookupError:
             pass
 
         # Prio 2: exact matches on subdivision names
-        match_subdivions = pycountry.Subdivisions.match(
-            self=subdivisions, query=query
-        )
+        match_subdivions = subdivisions.match(query)
         for candidate in match_subdivions:
-            add_result(candidate.country, 49)
+            country_result = candidate.country
+            if isinstance(country_result, pycountry.db.Country):
+                add_result(country_result, 49)
 
         # Prio 3: partial matches on country names
-        for candidate in self:
-            # Higher priority for a match on the common name
-            for v in [
-                candidate._fields.get("name"),
-                candidate._fields.get("official_name"),
-                candidate._fields.get("comment"),
-            ]:
-                if v is not None:
-                    # Check for initials match
-                    initials = "".join([c for c in v if c.isupper()])
-                    if query == remove_accents(initials.lower()):
-                        add_result(candidate, 40)
-                        break
-                    v = remove_accents(v.lower())
-                    if query in v:
-                        # This prefers countries with a match early in their name
-                        # and also balances against countries with a number of
-                        # partial matches and their name containing 'new' in the
-                        # middle
-                        add_result(
-                            candidate, max([5, 30 - (2 * v.find(query))])
-                        )
-                        break
+        for candidate_data in self:
+            if isinstance(candidate_data, pycountry.db.Country):
+                # Higher priority for a match on the common name
+                for v in [
+                    candidate_data._fields.get("name"),
+                    candidate_data._fields.get("official_name"),
+                    candidate_data._fields.get("comment"),
+                ]:
+                    if v is not None:
+                        # Check for initials match
+                        initials = "".join([c for c in v if c.isupper()])
+                        if query == remove_accents(initials.lower()):
+                            add_result(candidate_data, 40)
+                            break
+                        v_normalized = remove_accents(v.lower())
+                        if query in v_normalized:
+                            # This prefers countries with a match early in
+                            # their name and also balances against countries
+                            # with a number of partial matches and their name
+                            # containing 'new' in the middle
+                            add_result(
+                                candidate_data,
+                                max(
+                                    [
+                                        5,
+                                        30 - (2 * v_normalized.find(query)),
+                                    ]
+                                ),
+                            )
+                            break
 
         # Prio 4: partial matches on subdivision names
-        partial_match_subdivisions = pycountry.Subdivisions.partial_match(
-            self=subdivisions, query=query
-        )
+        partial_match_subdivisions = subdivisions.partial_match(query)
         for candidate in partial_match_subdivisions:
-            v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate.country, max([1, 5 - v.find(query)]))
+            name = candidate._fields.get("name")
+            if name is not None:
+                name_normalized = remove_accents(name.lower())
+                if query in name_normalized:
+                    country_result = candidate.country
+                    if isinstance(country_result, pycountry.db.Country):
+                        add_result(
+                            country_result,
+                            max([1, 5 - name_normalized.find(query)]),
+                        )
 
         if not results:
             raise LookupError(query)
 
-        sorted_results = [
-            self.get(alpha_2=x[0])
-            # sort by points first, by alpha2 code second, and to ensure stable
-            # results the negative value allows us to sort reversely on the
-            # points but ascending on the country code.
-            for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
-        ]
-        return cast(list[pycountry.db.Country], sorted_results)
+        sorted_results: list[pycountry.db.Country] = []
+        for x in sorted(results.items(), key=lambda x: (-x[1], x[0])):
+            country_data: Optional[pycountry.db.Data] = self.get(alpha_2=x[0])
+            if isinstance(country_data, pycountry.db.Country):
+                sorted_results.append(country_data)
+        return sorted_results
 
 
 class HistoricCountries(ExistingCountries):
@@ -157,28 +168,41 @@ class LanguageFamilies(pycountry.db.Database):
 
 
 class SubdivisionHierarchy(pycountry.db.Data):
-    def __init__(self, **kw):
+    def __init__(self, **kw: str) -> None:
+        parent_code: Optional[str] = None
         if "parent" in kw:
+            parent_code = kw["parent"]
             kw["parent_code"] = kw["parent"]
         else:
-            kw["parent_code"] = None
+            # Don't set parent_code if not provided - let it be None
+            if "parent_code" not in kw:
+                kw["parent_code"] = None  # type: ignore[assignment]
         super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
-        if self.parent_code is not None:
-            # Split the parent_code to check if the country_code is already present
-            parts = self.parent_code.split("-")
+        if parent_code is not None:
+            # Split the parent_code to check if the country_code is already
+            # present
+            parts = parent_code.split("-")
             if parts[0] != self.country_code:
-                self.parent_code = f"{self.country_code}-{self.parent_code}"
+                self.parent_code = f"{self.country_code}-{parent_code}"
 
     @property
-    def country(self):
-        return countries.get(alpha_2=self.country_code)
+    def country(self) -> Optional[pycountry.db.Country]:
+        result: Optional[pycountry.db.Data] = countries.get(
+            alpha_2=self.country_code
+        )
+        if isinstance(result, pycountry.db.Country):
+            return result
+        return None
 
     @property
-    def parent(self):
+    def parent(self) -> Optional["SubdivisionHierarchy"]:
         if not self.parent_code:
             return None
-        return subdivisions.get(code=self.parent_code)
+        result = subdivisions.get(code=self.parent_code)
+        if isinstance(result, SubdivisionHierarchy):
+            return result
+        return None
 
 
 class Subdivisions(pycountry.db.Database):
@@ -190,65 +214,96 @@ class Subdivisions(pycountry.db.Database):
     no_index = ["name", "parent_code", "parent", "type"]
     root_key = "3166-2"
 
-    def _load(self, *args, **kw):
+    def _load(self, *args: Any, **kw: Any) -> None:
         super()._load(*args, **kw)
 
         # Add index for the country code.
-        self.indices["country_code"] = {}
+        country_code_index: dict[str, set[SubdivisionHierarchy]] = {}
         for subdivision in self:
-            divs = self.indices["country_code"].setdefault(
-                subdivision.country_code.lower(), set()
-            )
-            divs.add(subdivision)
+            if isinstance(subdivision, SubdivisionHierarchy):
+                divs = country_code_index.setdefault(
+                    subdivision.country_code.lower(),
+                    set(),
+                )
+                divs.add(subdivision)
+        # Type ignore needed because indices is typed as dict[str, Data]
+        # but we're storing sets here
+        self.indices["country_code"] = (  # type: ignore[assignment]
+            country_code_index
+        )
 
-    def get(self, **kw):
-        default = kw.setdefault("default", None)
-        subdivisions = super().get(**kw)
-        if subdivisions is default and "country_code" in kw:
+    def get(  # type: ignore[override]
+        self, *, default: Optional[SubdivisionHierarchy] = None, **kw: str
+    ) -> Union[Optional[SubdivisionHierarchy], list[SubdivisionHierarchy]]:
+        popped_default = kw.pop("default", None)
+        if popped_default is None:
+            default_val: Optional[SubdivisionHierarchy] = default
+        elif isinstance(popped_default, SubdivisionHierarchy):
+            default_val = popped_default
+        else:
+            default_val = default
+        result: Optional[pycountry.db.Data] = super().get(**kw)
+        if result is None and "country_code" in kw:
             # This handles the case where we know about a country but there
             # are no subdivisions: we return an empty list in this case
             # (sticking to the expected type here) instead of None.
-            if countries.get(alpha_2=kw["country_code"]) is not None:
+            country_code = kw["country_code"]
+            country_result: Optional[pycountry.db.Data] = countries.get(
+                alpha_2=country_code
+            )
+            if country_result is not None:
                 return []
-        return subdivisions
+        # Convert set to list for consistency when querying by country_code
+        if "country_code" in kw:
+            country_code_index = self.indices.get("country_code", {})
+            if isinstance(country_code_index, dict):
+                country_code_lower = kw["country_code"].lower()
+                if country_code_lower in country_code_index:
+                    divs = country_code_index[country_code_lower]
+                    if isinstance(divs, set):
+                        return list(divs)
+        if isinstance(result, SubdivisionHierarchy):
+            return result
+        return default_val
 
-    def match(self, query):
+    def match(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
-        matching_candidates = []
-        for candidate in subdivisions:
-            for v in candidate._fields.values():
-                if v is not None:
-                    v = remove_accents(v.lower())
-                    # Some names include alternative versions which we want to
-                    # match exactly.
-                    for w in v.split(";"):
-                        if w == query:
-                            matching_candidates.append(candidate)
-                            break
+        matching_candidates: list[SubdivisionHierarchy] = []
+        for candidate in self:
+            if isinstance(candidate, SubdivisionHierarchy):
+                for v in candidate._fields.values():
+                    if v is not None:
+                        v_normalized = remove_accents(v.lower())
+                        # Some names include alternative versions which we want to
+                        # match exactly.
+                        for w in v_normalized.split(";"):
+                            if w == query:
+                                matching_candidates.append(candidate)
+                                break
 
         return matching_candidates
 
-    def partial_match(self, query):
+    def partial_match(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
-        matching_candidates = []
-        for candidate in subdivisions:
-            v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                matching_candidates.append(candidate)
+        matching_candidates: list[SubdivisionHierarchy] = []
+        for candidate in self:
+            if isinstance(candidate, SubdivisionHierarchy):
+                name = candidate._fields.get("name")
+                if name is not None:
+                    name_normalized = remove_accents(name.lower())
+                    if query in name_normalized:
+                        matching_candidates.append(candidate)
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> list[type["Subdivisions"]]:
+    def search_fuzzy(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
         # based on the query's matching incidence.
         results: dict[str, int] = {}
 
-        def add_result(
-            subdivision: "pycountry.db.Subdivision", points: int
-        ) -> None:
+        def add_result(subdivision: SubdivisionHierarchy, points: int) -> None:
             results.setdefault(subdivision.code, 0)
             results[subdivision.code] += points
 
@@ -260,21 +315,23 @@ class Subdivisions(pycountry.db.Database):
         # Prio 2: partial matches on subdivision names
         partial_match_subdivisions = self.partial_match(query)
         for candidate in partial_match_subdivisions:
-            v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate, max([1, 5 - v.find(query)]))
+            name = candidate._fields.get("name")
+            if name is not None:
+                name_normalized = remove_accents(name.lower())
+                if query in name_normalized:
+                    add_result(
+                        candidate,
+                        max([1, 5 - name_normalized.find(query)]),
+                    )
 
         if not results:
             raise LookupError(query)
 
-        sorted_results = [
-            self.get(code=x[0])
-            # sort by points first, by alpha2 code second, and to ensure stable
-            # results the negative value allows us to sort reversely on the
-            # points but ascending on the country code.
-            for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
-        ]
+        sorted_results: list[SubdivisionHierarchy] = []
+        for x in sorted(results.items(), key=lambda x: (-x[1], x[0])):
+            result = self.get(code=x[0])
+            if isinstance(result, SubdivisionHierarchy):
+                sorted_results.append(result)
         return sorted_results
 
 
