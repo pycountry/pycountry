@@ -2,7 +2,7 @@ import json
 import logging
 import threading
 from collections.abc import Callable, Iterator
-from typing import Any, Optional, TypeVar, Union
+from typing import Any, Optional, TypeVar, Union, cast
 
 logger = logging.getLogger("pycountry.db")
 
@@ -130,7 +130,8 @@ class Database:
         # make sure that we receive None if no entry found
         if "default" in kw:
             del kw["default"]
-        obj: Optional[Data] = self.get(**kw)
+        # Cast to dict[str, Any] for get() which validates at runtime
+        obj: Optional[Data] = self.get(**cast(dict[str, Any], kw))
         if not obj:
             raise KeyError(
                 f"{self.factory.__name__} not found and cannot be "
