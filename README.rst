@@ -245,7 +245,7 @@ Scripts are available from a database similar to the countries:
    >>> latin = pycountry.scripts.get(name='Latin')
    >>> latin
    Script(alpha_4='Latn', name='Latin', numeric='215')
-   >>> latin.alpha4
+   >>> latin.alpha_4
    'Latn'
    >>> latin.name
    'Latin'
