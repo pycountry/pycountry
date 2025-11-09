@@ -63,7 +63,7 @@ configured upon import of pycountry and works as an iterable:
    >>> import pycountry
    >>> len(pycountry.countries)
    249
-   >>> list(pycountry.countries)[0]
+   >>> pycountry.countries.get(alpha_2='AF')
    Country(alpha_2='AF', alpha_3='AFG', name='Afghanistan', numeric='004', official_name='Islamic Republic of Afghanistan')
 
 Specific countries can be looked up by their various codes and provide
@@ -164,7 +164,7 @@ All subdivisons can be accessed directly:
 .. code:: pycon
 
    >>> len(pycountry.subdivisions)
-   4847
+   5046
    >>> list(pycountry.subdivisions)[0]
    Subdivision(code='AD-07', country_code='AD', name='Andorra la Vella', parent_code=None, type='Parish')
 
@@ -179,7 +179,7 @@ object will provide at least their code, name and type:
    >>> de_st.name
    'Sachsen-Anhalt'
    >>> de_st.type
-   'State'
+   'Land'
    >>> de_st.country
    Country(alpha_2='DE', alpha_3='DEU', name='Germany', numeric='276', official_name='Federal Republic of Germany')
 
@@ -187,19 +187,19 @@ Some subdivisions specify another subdivision as a parent:
 
 .. code:: pycon
 
-   >>> al_br = pycountry.subdivisions.get(code='AL-BU')
-   >>> al_br.code
-   'AL-BU'
-   >>> al_br.name
-   'Bulqiz\xeb'
-   >>> al_br.type
-   'District'
-   >>> al_br.parent_code
-   'AL-09'
-   >>> al_br.parent
-   Subdivision(code='AL-09', country_code='AL', name='Dib\xebr', parent_code=None, type='County')
-   >>> al_br.parent.name
-   'Dib\xebr'
+   >>> gb_gre = pycountry.subdivisions.get(code='GB-GRE')
+   >>> gb_gre.code
+   'GB-GRE'
+   >>> gb_gre.name
+   'Greenwich'
+   >>> gb_gre.type
+   'London borough'
+   >>> gb_gre.parent_code
+   'GB-ENG'
+   >>> gb_gre.parent
+   Subdivision(code='GB-ENG', country_code='GB', name='England', parent_code=None, type='Country')
+   >>> gb_gre.parent.name
+   'England'
 
 The divisions of a single country can be queried using the country_code
 index:
