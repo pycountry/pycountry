@@ -2,11 +2,14 @@ import json
 import logging
 import threading
 from collections.abc import Callable, Iterator
-from typing import Any, Optional, TypeVar, Union, cast
+from typing import Any, Optional, TypeVar, Union
+
+from typing_extensions import ParamSpec
 
 logger = logging.getLogger("pycountry.db")
 
-F = TypeVar("F", bound=Callable[..., Any])
+_P = ParamSpec("_P")
+_R = TypeVar("_R")
 
 
 class Data:
@@ -45,8 +48,8 @@ class Subdivision(Data):
     pass
 
 
-def lazy_load(f: F) -> F:
-    def load_if_needed(self: Any, *args: Any, **kw: Any) -> Any:
+def lazy_load(f: Callable[_P, _R]) -> Callable[_P, _R]:
+    def load_if_needed(self: Any, *args: _P.args, **kw: _P.kwargs) -> _R:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -130,8 +133,8 @@ class Database:
         # make sure that we receive None if no entry found
         if "default" in kw:
             del kw["default"]
-        # Cast to dict[str, Any] for get() which validates at runtime
-        obj: Optional[Data] = self.get(**cast(dict[str, Any], kw))
+        # get() validates at runtime that kw values are str
+        obj: Optional[Data] = self.get(**kw)  # type: ignore[arg-type]
         if not obj:
             raise KeyError(
                 f"{self.factory.__name__} not found and cannot be "
@@ -160,7 +163,7 @@ class Database:
 
     @lazy_load
     def get(
-        self, *, default: Optional[Data] = None, **kw: Any
+        self, *, default: Optional[Data] = None, **kw: str
     ) -> Optional[Data]:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")

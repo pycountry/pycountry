@@ -4,7 +4,7 @@ import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import Any, Optional, Union, cast
+from typing import Any, Optional, Union
 
 import pycountry.db
 
@@ -240,10 +240,7 @@ class Subdivisions(pycountry.db.Database):
             default_val = popped_default
         else:
             default_val = default
-        # Cast to dict[str, Any] for super().get() which validates at runtime
-        result: Optional[pycountry.db.Data] = super().get(
-            **cast(dict[str, Any], kw)
-        )
+        result: Optional[pycountry.db.Data] = super().get(**kw)  # type: ignore[arg-type]
         if result is None and "country_code" in kw:
             # This handles the case where we know about a country but there
             # are no subdivisions: we return an empty list in this case

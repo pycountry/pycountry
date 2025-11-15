@@ -60,6 +60,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9"
+typing_extensions = ">=4.6.0"
 
 [tool.poetry.group.dev.dependencies]
 # Note: black and isort are not listed here, as they don't need to be installed
