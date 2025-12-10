@@ -104,31 +104,41 @@ ones with fewer matches:
 
 Attributes for the country class can be accessed using the
 ``__getattr__`` method. If the requested attribute is a key for the
-country class, it will return the corresponding value. In the special
-cases of missing 'common_name' or 'official_name' attributes,
-``__getattr__`` will return 'name'. Here are some examples:
+country class, it will return the corresponding value. Otherwise,
+``AttributeError`` is raised. Here are some examples:
 
 .. code:: pycon
 
    >>> aland = pycountry.countries.get(alpha_2='AX')
 
+   >>> bolivia = pycountry.countries.get(alpha_2='BO')
+
    >>> print(aland)
    Country(alpha_2='AX', alpha_3='ALA', flag='🇦🇽', name='Åland Islands', numeric='248')
 
+   >>> print(bolivia)
+   Country(alpha_2='BO', alpha_3='BOL', common_name='Bolivia', flag='🇧🇴', name='Bolivia, Plurinational State of', numeric='068', official_name='Plurinational State of Bolivia')
+
    >>> aland.common_name
-   UserWarning: Country's common_name not found. Country name provided instead.
-     warnings.warn(warning_message, UserWarning)
-   'Åland Islands'
+   ...
+   AttributeError: common_name
+
+   >>> bolivia.common_name
+   'Bolivia'
 
    >>> aland.official_name
-   Country's official_name not found. Country name provided instead.
-     warnings.warn(warning_message, UserWarning)
-   'Åland Islands'
+   ...
+   AttributeError: official_name
+
+   >>> bolivia.official_name
+   'Plurinational State of Bolivia'
 
    >>> aland.flag
    '🇦🇽'
 
-   >>> aland.foo  # Raises AttributeError
+   >>> aland.foo
+   ...
+   AttributeError: foo
 
 *********************************
  Historic Countries (ISO 3166-3)
