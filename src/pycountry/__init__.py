@@ -67,7 +67,9 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             self=subdivisions, query=query
         )
         for candidate in match_subdivions:
-            add_result(candidate.country, 49)
+            country_result = candidate.country
+            if country_result is not None:
+                add_result(country_result, 49)
 
         # Prio 3: partial matches on country names
         for candidate in self:
@@ -100,9 +102,14 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
         )
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate.country, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    country_result = candidate.country
+                    if country_result is not None:
+                        add_result(
+                            country_result, max([1, 5 - v.find(query)])
+                        )
 
         if not results:
             raise LookupError(query)
@@ -160,7 +167,7 @@ class SubdivisionHierarchy(pycountry.db.Data):
     def __init__(self, **kw):
         if "parent" in kw:
             kw["parent_code"] = kw["parent"]
-        else:
+        elif "parent_code" not in kw:
             kw["parent_code"] = None
         super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
@@ -232,7 +239,8 @@ class Subdivisions(pycountry.db.Database):
         query = remove_accents(query.strip().lower())
         matching_candidates = []
         for candidate in subdivisions:
-            v = candidate._fields.get("name")
+        v = candidate._fields.get("name")
+        if v is not None:
             v = remove_accents(v.lower())
             if query in v:
                 matching_candidates.append(candidate)
@@ -261,9 +269,10 @@ class Subdivisions(pycountry.db.Database):
         partial_match_subdivisions = self.partial_match(query)
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
