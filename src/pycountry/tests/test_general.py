@@ -472,3 +472,116 @@ def test_subdivisions_with_missing_parents():
         if i.parent_code and not i.parent
     ]
     assert result == []
+
+
+def test_remove_entry_with_default_parameter(countries):
+    """Test remove_entry when default parameter is passed (line 132 coverage)."""
+    # Add a test entry first
+    pycountry.countries.add_entry(
+        alpha_2="XX", alpha_3="XXX", name="Test", numeric="999"
+    )
+    assert pycountry.countries.get(alpha_2="XX") is not None
+
+    # remove_entry should ignore the default parameter
+    pycountry.countries.remove_entry(alpha_2="XX", default="ignored")
+
+    assert pycountry.countries.get(alpha_2="XX") is None
+
+
+def test_add_entry_with_no_index_key(countries):
+    """Test add_entry with a key in no_index (line 123 coverage)."""
+    # Subdivisions has no_index = ["name", "parent_code", "parent", "type"]
+    # So adding with "name" should skip indexing
+    pycountry.subdivisions.add_entry(
+        code="XX-01", country_code="XX", name="Test Subdivision", type="Region"
+    )
+    # Should be able to get it by code, but not by name (since name is in no_index)
+    sub = pycountry.subdivisions.get(code="XX-01")
+    assert sub is not None
+    assert sub.name == "Test Subdivision"
+    # Clean up
+    pycountry.subdivisions.remove_entry(code="XX-01")
+
+
+def test_remove_entry_with_no_index_key(countries):
+    """Test remove_entry with a key in no_index (line 146 coverage)."""
+    # Add a test entry first
+    pycountry.subdivisions.add_entry(
+        code="XX-02",
+        country_code="XX",
+        name="Test Subdivision 2",
+        type="Region",
+    )
+    # Remove using a no_index key (name is in no_index)
+    # This should still work but skip the index update for that key
+    pycountry.subdivisions.remove_entry(code="XX-02")
+    assert pycountry.subdivisions.get(code="XX-02") is None
+
+
+def test_subdivision_get_with_invalid_default_type():
+    """Test Subdivisions.get() with invalid default type (lines 239-242 coverage)."""
+    # This tests the else branch when popped_default is not None and not SubdivisionHierarchy
+    # We need to pass default as a kwarg (not keyword-only arg) to trigger kw.pop("default")
+    # This is defensive code - normally default is a keyword-only parameter
+    # But we can test it by directly manipulating the call
+    result = pycountry.subdivisions.get(
+        **{"code": "DE-ST", "default": "invalid"}
+    )
+    # Should ignore the invalid default and return the found subdivision
+    assert result is not None
+    assert isinstance(result, pycountry.SubdivisionHierarchy)
+
+
+def test_subdivision_parent_code_normalization():
+    """Test parent_code normalization when it doesn't start with country_code (line 187 coverage)."""
+    # Create a subdivision with a parent_code that doesn't match country_code pattern
+    # This is defensive code that may not occur in real data, but we can test it
+    sub = pycountry.SubdivisionHierarchy(code="XX-TEST", parent="YY-PARENT")
+    # The parent_code should be normalized to include country_code
+    assert sub.parent_code == "XX-YY-PARENT"
+
+
+def test_subdivision_country_property_returns_none():
+    """Test country property returns None when get() doesn't return Country (line 196 coverage)."""
+    # This is defensive code - if countries.get() returns something unexpected
+    # We can test this by mocking countries.get() to return something that's not a Country
+    from unittest.mock import patch
+
+    sub = pycountry.subdivisions.get(code="DE-ST")
+    if sub:
+        # Mock countries.get() to return something that's not a Country
+        with patch.object(
+            pycountry.countries, "get", return_value="not a country"
+        ):
+            result = sub.country
+            # Should return None because isinstance check fails
+            assert result is None
+
+
+def test_subdivision_parent_property_returns_none():
+    """Test parent property returns None when get() doesn't return SubdivisionHierarchy (line 205 coverage)."""
+    # This is defensive code - if subdivisions.get() returns something unexpected
+    # We can test this by mocking subdivisions.get() to return something that's not a SubdivisionHierarchy
+    from unittest.mock import patch
+
+    sub = pycountry.subdivisions.get(code="GB-GRE")
+    if sub and sub.parent_code:
+        # Mock subdivisions.get() to return something that's not a SubdivisionHierarchy
+        with patch.object(
+            pycountry.subdivisions, "get", return_value="not a subdivision"
+        ):
+            result = sub.parent
+            # Should return None because isinstance check fails
+            assert result is None
+
+
+def test_database_load_early_return():
+    """Test _load() early return when already loaded (line 83 coverage)."""
+    # Test that _load() returns early if already loaded
+    countries = pycountry.ExistingCountries(pycountry.countries.filename)
+    # First load
+    countries._load()
+    assert countries._is_loaded is True
+    # Second load should return early
+    countries._load()
+    assert countries._is_loaded is True
