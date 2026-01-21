@@ -50,8 +50,8 @@ configured upon import of pycountry and works as an iterable:
    >>> import pycountry
    >>> len(pycountry.countries)
    249
-   >>> list(pycountry.countries)[0]
-   Country(alpha_2='AW', alpha_3='ABW', flag='🇦🇼', name='Aruba', numeric='533')
+   >>> pycountry.countries.get(alpha_2='AF')
+   Country(alpha_2='AF', alpha_3='AFG', name='Afghanistan', numeric='004', official_name='Islamic Republic of Afghanistan')
 
 Specific countries can be looked up by their various codes and provide
 the information included in the standard as attributes:
@@ -165,19 +165,19 @@ Some subdivisions specify another subdivision as a parent:
 
 .. code:: pycon
 
-   >>> fr_01 = pycountry.subdivisions.get(code='FR-01')
-   >>> fr_01.code
-   'FR-01'
-   >>> fr_01.name
-   'Ain'
-   >>> fr_01.type
-   'Metropolitan department'
-   >>> fr_01.parent_code
-   'FR-ARA'
-   >>> fr_01.parent
-   SubdivisionHierarchy(code='FR-ARA', country_code='FR', name='Auvergne-Rhône-Alpes', parent_code=None, type='Metropolitan region')
-   >>> fr_01.parent.name
-   'Auvergne-Rhône-Alpes'
+   >>> gb_gre = pycountry.subdivisions.get(code='GB-GRE')
+   >>> gb_gre.code
+   'GB-GRE'
+   >>> gb_gre.name
+   'Greenwich'
+   >>> gb_gre.type
+   'London borough'
+   >>> gb_gre.parent_code
+   'GB-ENG'
+   >>> gb_gre.parent
+   SubdivisionHierarchy(code='GB-ENG', country_code='GB', name='England', parent_code=None, type='Country')
+   >>> gb_gre.parent.name
+   'England'
 
 The divisions of a single country can be queried using the country_code
 index:
