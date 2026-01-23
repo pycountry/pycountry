@@ -2,9 +2,12 @@ import json
 import logging
 import threading
 from collections.abc import Callable, Iterator
-from typing import Any, Generic, TypeVar, cast
+from typing import Any, Generic, ParamSpec, TypeVar, cast
 
 logger = logging.getLogger("pycountry.db")
+
+_P = ParamSpec("_P")
+_R = TypeVar("_R")
 
 
 class Data:
@@ -29,7 +32,7 @@ class Data:
     def __dir__(self) -> list[str]:
         return dir(self.__class__) + list(self._fields)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[tuple[str, str]]:
         # allow casting into a dict
         for field in self._fields:
             yield field, getattr(self, field)
@@ -43,17 +46,14 @@ class Subdivision(Data):
     pass
 
 
-F = TypeVar("F", bound=Callable[..., Any])
-
-
-def lazy_load(f: F) -> F:
-    def load_if_needed(self, *args, **kw):
+def lazy_load(f: Callable[_P, _R]) -> Callable[_P, _R]:
+    def load_if_needed(self: Any, *args: _P.args, **kw: _P.kwargs) -> _R:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
         return f(self, *args, **kw)
 
-    return cast(F, load_if_needed)
+    return cast(Callable[_P, _R], load_if_needed)
 
 
 T = TypeVar("T", bound=Data)
@@ -74,11 +74,11 @@ class Database(Generic[T]):
         else:
             self.factory = self.data_class
 
-    def _clear(self):
+    def _clear(self) -> None:
         self._is_loaded = False
-        self.objects = []
-        self.index_names = set()
-        self.indices = {}
+        self.objects: list[T] = []
+        self.index_names: set[str] = set()
+        self.indices: dict[str, dict[str, T]] = {}
 
     def _load(self) -> None:
         if self._is_loaded:
@@ -114,7 +114,7 @@ class Database(Generic[T]):
     # Public API
 
     @lazy_load
-    def add_entry(self, **kw):
+    def add_entry(self, **kw: str) -> None:
         # create the object with the correct dynamic type
         obj = self.factory(**kw)
 
@@ -130,7 +130,7 @@ class Database(Generic[T]):
             index[value] = obj
 
     @lazy_load
-    def remove_entry(self, **kw):
+    def remove_entry(self, **kw: str) -> None:
         # make sure that we receive None if no entry found
         if "default" in kw:
             del kw["default"]
