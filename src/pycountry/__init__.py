@@ -107,9 +107,7 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
                 if query in v:
                     country_result = candidate.country
                     if country_result is not None:
-                        add_result(
-                            country_result, max([1, 5 - v.find(query)])
-                        )
+                        add_result(country_result, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
