@@ -50,8 +50,8 @@ configured upon import of pycountry and works as an iterable:
    >>> import pycountry
    >>> len(pycountry.countries)
    249
-   >>> pycountry.countries.get(alpha_2='AF')
-   Country(alpha_2='AF', alpha_3='AFG', flag='🇦🇫', name='Afghanistan', numeric='004', official_name='Islamic Republic of Afghanistan')
+   >>> list(pycountry.countries)[0]
+   Country(alpha_2='AW', alpha_3='ABW', flag='🇦🇼', name='Aruba', numeric='533')
 
 Specific countries can be looked up by their various codes and provide
 the information included in the standard as attributes:
