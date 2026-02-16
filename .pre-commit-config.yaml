@@ -19,7 +19,7 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 45ef068da5f21267bb2a7ec4a623092959f09ce5  # frozen: v0.14.14
+    rev: fa93bc3224c614a0e9786d3e2d3d48edcca246eb  # frozen: v0.15.1
     hooks:
       - id: ruff-check
         args: [--fix]
@@ -76,6 +76,6 @@ repos:
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
   - repo: https://github.com/henryiii/validate-pyproject-schema-store
-    rev: e108f61bae1a8c397143d8b451fde38d531c2721  # frozen: 2026.01.22
+    rev: 5e6f0fbc775cf099208a6aaece4e3d22b76f3e3c  # frozen: 2026.02.15
     hooks:
       - id: validate-pyproject
