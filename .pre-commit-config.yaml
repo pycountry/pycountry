@@ -35,9 +35,13 @@ repos:
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
-        args: ["-x-fix", "scan"]
+        args: ["fix"]
+        # Exclude GitHub templates with YAML frontmatter (triggers MD041)
+        exclude: "^.github/(ISSUE_TEMPLATE|PULL_REQUEST_TEMPLATE).*$"
       - id: pymarkdown
         name: pymarkdown
+        # Exclude GitHub templates with YAML frontmatter (triggers MD041)
+        exclude: "^.github/(ISSUE_TEMPLATE|PULL_REQUEST_TEMPLATE).*$"
   - repo: https://github.com/dzhu/rstfmt
     rev: 81e5b5eafe45c61b9d1e2410aa16ae39390ad43d  # frozen: v0.0.14
     hooks:
