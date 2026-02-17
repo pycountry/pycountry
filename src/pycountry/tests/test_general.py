@@ -88,6 +88,11 @@ def test_historic_country_fuzzy_search(countries):
     assert len(results) == 1
     assert results[0] == pycountry.historic_countries.get(alpha_4="BUMM")
 
+    # issue #242: Czechoslovakia should return Czechoslovakia, not Serbia.
+    # Both share alpha_2='CS', but searching by name should find the right one.
+    results = pycountry.historic_countries.search_fuzzy("Czechoslovakia")
+    assert results[0] == pycountry.historic_countries.get(alpha_4="CSHH")
+
 
 def test_germany_has_all_attributes(countries):
     germany = pycountry.countries.get(alpha_2="DE")

@@ -49,13 +49,17 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
     def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
-        # A country-code to points mapping for later sorting countries
-        # based on the query's matching incidence.
-        results: dict[str, int] = {}
+        # Map country objects to points for sorting. We use id() as the key
+        # because alpha_2 codes can be reused (e.g., historic countries
+        # Czechoslovakia and Serbia both have alpha_2='CS').
+        results: dict[int, int] = {}
+        country_by_id: dict[int, pycountry.db.Country] = {}
 
         def add_result(country: "pycountry.db.Country", points: int) -> None:
-            results.setdefault(country.alpha_2, 0)
-            results[country.alpha_2] += points
+            key = id(country)
+            results.setdefault(key, 0)
+            results[key] += points
+            country_by_id[key] = country
 
         # Prio 1: exact matches on country names
         with contextlib.suppress(LookupError):
@@ -107,12 +111,15 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
         if not results:
             raise LookupError(query)
 
+        # Sort by points (descending), then by alpha_2 code (ascending) for
+        # stable results. Use the stored country objects directly instead of
+        # looking up by alpha_2, which can be ambiguous for historic countries.
         sorted_results = [
-            self.get(alpha_2=x[0])
-            # sort by points first, by alpha2 code second, and to ensure stable
-            # results the negative value allows us to sort reversely on the
-            # points but ascending on the country code.
-            for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
+            country_by_id[key]
+            for key, _ in sorted(
+                results.items(),
+                key=lambda x: (-x[1], country_by_id[x[0]].alpha_2),
+            )
         ]
         return cast(list[pycountry.db.Country], sorted_results)
 
