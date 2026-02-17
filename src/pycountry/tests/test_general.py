@@ -527,3 +527,47 @@ def test_subdivisions_with_missing_parents(subdivisions):
         if i.parent_code and not i.parent
     ]
     assert result == []
+
+
+def test_deepcopy_country(countries):
+    """Test that deepcopy works on country objects (fixes issue #222)."""
+    from copy import deepcopy
+
+    usa = pycountry.countries.get(alpha_2="US")
+    usa_copy = deepcopy(usa)
+
+    # Verify it's a different object
+    assert usa_copy is not usa
+    # Verify attributes are preserved
+    assert usa_copy.alpha_2 == usa.alpha_2
+    assert usa_copy.alpha_3 == usa.alpha_3
+    assert usa_copy.name == usa.name
+
+
+def test_shallow_copy_country(countries):
+    """Test that shallow copy works on country objects."""
+    from copy import copy
+
+    germany = pycountry.countries.get(alpha_2="DE")
+    germany_copy = copy(germany)
+
+    # Verify it's a different object
+    assert germany_copy is not germany
+    # Verify attributes are preserved
+    assert germany_copy.alpha_2 == germany.alpha_2
+    assert germany_copy.name == germany.name
+
+
+def test_deepcopy_subdivision(subdivisions):
+    """Test that deepcopy works on subdivision objects."""
+    from copy import deepcopy
+
+    california = pycountry.subdivisions.get(code="US-CA")
+    california_copy = deepcopy(california)
+
+    # Verify it's a different object
+    assert california_copy is not california
+    # Verify attributes are preserved
+    assert california_copy.code == california.code
+    assert california_copy.name == california.name
+    assert california_copy.country_code == california.country_code

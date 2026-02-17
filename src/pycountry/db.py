@@ -35,6 +35,19 @@ class Data:
         for field in self._fields:
             yield field, getattr(self, field)
 
+    def __copy__(self):
+        """Support for copy.copy() - creates a shallow copy."""
+        return self.__class__(**self._fields.copy())
+
+    def __deepcopy__(self, memo):
+        """Support for copy.deepcopy() - creates a deep copy."""
+        from copy import deepcopy
+
+        new_fields = deepcopy(self._fields, memo)
+        result = self.__class__(**new_fields)
+        memo[id(self)] = result
+        return result
+
 
 class Country(Data):
     pass
