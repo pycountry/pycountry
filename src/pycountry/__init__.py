@@ -92,8 +92,12 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
                         break
 
         # Prio 4: partial matches on subdivision names
+        # Exclude subdivisions already counted in Prio 2 to avoid double-counting
+        matched_subdivision_codes = {s.code for s in matching_subdivisions}
         partial_match_subdivisions = subdivisions.partial_match(query)
         for candidate in partial_match_subdivisions:
+            if candidate.code in matched_subdivision_codes:
+                continue
             v = candidate._fields.get("name")
             if v is not None:
                 v = remove_accents(v.lower())

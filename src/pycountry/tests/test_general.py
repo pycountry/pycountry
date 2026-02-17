@@ -75,6 +75,13 @@ def test_country_fuzzy_search(countries):
     assert len(results) >= 4
     assert pycountry.countries.get(alpha_2="GB") in results[:4]
 
+    # issue #115, Niger should rank above Nigeria when searching for "niger"
+    # because "Niger" is a more precise match (exact length) than "Nigeria"
+    # which just happens to have a subdivision called "Niger State"
+    results = pycountry.countries.search_fuzzy("niger")
+    assert results[0] == pycountry.countries.get(alpha_2="NE")  # Niger
+    assert pycountry.countries.get(alpha_2="NG") in results  # Nigeria also matches
+
 
 def test_historic_country_fuzzy_search(countries):
     results = pycountry.historic_countries.search_fuzzy("burma")
