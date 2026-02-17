@@ -1,24 +1,31 @@
-## Pull Request Template for pycountry
+# Pull Request Template for pycountry
 
-Thank you for contributing to pycountry! Before submitting this PR, please ensure you've completed the following steps:
+Thank you for contributing to pycountry!
+Before submitting this PR, please ensure you've completed the following steps.
 
-### Pre-Submission Checklist:
+## Pre-Submission Checklist
+
 - [ ] Code is properly formatted and adheres to the project's coding guidelines.
 - [ ] Changes have been tested with the latest version of the codebase.
 - [ ] Code changes do not decrease the current test coverage.
 - [ ] All existing tests pass successfully.
 - [ ] New tests (if applicable) are added to cover your changes.
 
-### Local Testing:
-Please run the following commands to ensure your changes do not introduce any new issues:
-- [ ] `make check` - Executes the custom test suite, checks for type consistency, lints code.
+## Local Testing
 
-### Documentation:
+Please run the following commands to ensure your changes do not introduce
+any new issues:
+
+- [ ] `make check` - Executes the test suite, checks types, lints code.
+
+## Documentation
+
 - [ ] Update documentation if your changes impact the API or user experience
-	- [HISTORY](https://github.com/pycountry/pycountry/blob/main/HISTORY.txt)
-	- [README](https://github.com/pycountry/pycountry/blob/main/README.rst)
+  - [HISTORY](https://github.com/pycountry/pycountry/blob/main/HISTORY.txt)
+  - [README](https://github.com/pycountry/pycountry/blob/main/README.rst)
 
-### Commit Messages and PR:
+## Commit Messages and PR
+
 - [ ] Use descriptive commit messages that explain your changes.
 - [ ] Reference related issues or PRs if applicable.
 - [ ] Provide a summary of your changes in the PR description.
@@ -27,12 +34,13 @@ Please run the following commands to ensure your changes do not introduce any ne
 
 ---
 
-### PR Description
-*Provide a brief description of your pull request and any relevant issues it resolves.*
+## PR Description
+
+*Provide a brief description of your pull request and any relevant issues
+it resolves.*
 
 ---
 
-### Additional Information
+## Additional Information
+
 *Include any additional information or context for the reviewers.*
-
----

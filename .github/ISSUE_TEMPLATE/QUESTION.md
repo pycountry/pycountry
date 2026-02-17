@@ -17,6 +17,7 @@ Provide a detailed description of your question.
 
 Add any other context or screenshots about the question here.
 
-**Note**: Before submitting this question, please check the documentation and existing issues for possible answers.
+**Note**: Before submitting this question, please check the documentation
+and existing issues for possible answers.
 
 **By submitting this question, you agree to comply with our Code of Conduct.**
