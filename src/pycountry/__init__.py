@@ -1,10 +1,11 @@
 """pycountry"""
 
+import contextlib
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import cast
+from typing import ClassVar, cast
 
 import pycountry.db
 
@@ -57,10 +58,8 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             results[country.alpha_2] += points
 
         # Prio 1: exact matches on country names
-        try:
+        with contextlib.suppress(LookupError):
             add_result(self.lookup(query), 50)
-        except LookupError:
-            pass
 
         # Prio 2: exact matches on subdivision names
         matching_subdivisions = subdivisions.match(query)
@@ -139,7 +138,9 @@ class Currencies(pycountry.db.Database[pycountry.db.Data]):
 class Languages(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
-    no_index = ["status", "scope", "type", "inverted_name", "common_name"]
+    no_index: ClassVar[list[str]] = [
+        "status", "scope", "type", "inverted_name", "common_name"
+    ]
 
     data_class = "Language"
     root_key = "639-3"
@@ -155,10 +156,7 @@ class LanguageFamilies(pycountry.db.Database[pycountry.db.Data]):
 
 class SubdivisionHierarchy(pycountry.db.Data):
     def __init__(self, **kw):
-        if "parent" in kw:
-            kw["parent_code"] = kw["parent"]
-        else:
-            kw["parent_code"] = None
+        kw["parent_code"] = kw.get("parent")
         super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
         if self.parent_code is not None:
@@ -184,8 +182,8 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     # the country!
 
     data_class = SubdivisionHierarchy
-    no_index = ["name", "parent_code", "parent", "type"]
-    special_index = ["country_code"]
+    no_index: ClassVar[list[str]] = ["name", "parent_code", "parent", "type"]
+    special_index: ClassVar[list[str]] = ["country_code"]
     root_key = "3166-2"
 
     def _special_index(self, obj, key):
@@ -201,12 +199,15 @@ class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     def get(self, **kw):
         default = kw.setdefault("default", None)
         subdivisions = super().get(**kw)
-        if subdivisions is default and "country_code" in kw:
-            # This handles the case where we know about a country but there
-            # are no subdivisions: we return an empty list in this case
-            # (sticking to the expected type here) instead of None.
-            if countries.get(alpha_2=kw["country_code"]) is not None:
-                return []
+        # This handles the case where we know about a country but there
+        # are no subdivisions: we return an empty list in this case
+        # (sticking to the expected type here) instead of None.
+        if (
+            subdivisions is default
+            and "country_code" in kw
+            and countries.get(alpha_2=kw["country_code"]) is not None
+        ):
+            return []
         return subdivisions
 
     def match(self, query):

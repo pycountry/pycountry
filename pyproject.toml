@@ -61,11 +61,20 @@ line-length = 80
 
 [tool.ruff.lint]
 select = [
-  "E4",
-  "E7",
-  "E9",
-  "F",
-  "I",
+  "E",      # pycodestyle errors
+  "W",      # pycodestyle warnings
+  "F",      # Pyflakes
+  "I",      # isort
+  "UP",     # pyupgrade
+  "B",      # flake8-bugbear
+  "C4",     # flake8-comprehensions
+  "SIM",    # flake8-simplify
+  "RUF",    # Ruff-specific rules
+]
+ignore = [
+  "E501",   # line too long (handled by formatter)
+  "B018",   # "useless expression" - false positive for pytest.raises() assertions
+            # where we intentionally access attributes to trigger exceptions
 ]
 
 [tool.codespell]

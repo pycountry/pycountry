@@ -26,7 +26,7 @@ def subdivisions():
 
 def test_country_list(countries):
     assert len(pycountry.countries) == 249
-    assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.countries)), pycountry.db.Data)
 
 
 def test_country_fuzzy_search(countries):
@@ -117,7 +117,7 @@ def test_country_missing_attribute(countries):
 
 def test_subdivisions_directly_accessible(countries):
     assert len(pycountry.subdivisions) == 5046
-    assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.subdivisions)), pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
     assert de_st.code == "DE-ST"
@@ -145,7 +145,7 @@ def test_query_subdivisions_of_country():
 
 def test_scripts():
     assert len(pycountry.scripts) == 226
-    assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.scripts)), pycountry.db.Data)
 
     latin = pycountry.scripts.get(name="Latin")
     assert latin.alpha_4 == "Latn"
@@ -155,7 +155,7 @@ def test_scripts():
 
 def test_currencies():
     assert len(pycountry.currencies) == 178
-    assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.currencies)), pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
     assert argentine_peso.alpha_3 == "ARS"
@@ -165,7 +165,7 @@ def test_currencies():
 
 def test_languages():
     assert len(pycountry.languages) == 7923
-    assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.languages)), pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_2="an")
     assert aragonese.alpha_2 == "an"
@@ -183,7 +183,7 @@ def test_languages():
 
 def test_language_families():
     assert len(pycountry.language_families) == 115
-    assert isinstance(list(pycountry.language_families)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.language_families)), pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_3="arg")
     assert aragonese.alpha_3 == "arg"
