@@ -191,6 +191,16 @@ def test_language_families():
 
 
 def test_locales():
+    # Skip if locale files aren't available (e.g., in RPM builds where
+    # LOCALES_DIR may point to system locales with different naming)
+    locale_file = os.path.join(
+        pycountry.LOCALES_DIR, "de", "LC_MESSAGES", "iso3166-1.mo"
+    )
+    if not os.path.exists(locale_file):
+        pytest.skip(
+            f"Locale file not found: {locale_file}. "
+            "LOCALES_DIR may point to system locales."
+        )
     german = gettext.translation(
         "iso3166-1", pycountry.LOCALES_DIR, languages=["de"]
     )
