@@ -63,10 +63,8 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
             pass
 
         # Prio 2: exact matches on subdivision names
-        match_subdivions = pycountry.Subdivisions.match(
-            self=subdivisions, query=query
-        )
-        for candidate in match_subdivions:
+        matching_subdivisions = subdivisions.match(query)
+        for candidate in matching_subdivisions:
             add_result(candidate.country, 49)
 
         # Prio 3: partial matches on country names
@@ -95,14 +93,13 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
                         break
 
         # Prio 4: partial matches on subdivision names
-        partial_match_subdivisions = pycountry.Subdivisions.partial_match(
-            self=subdivisions, query=query
-        )
+        partial_match_subdivisions = subdivisions.partial_match(query)
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate.country, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate.country, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
@@ -125,21 +122,21 @@ class HistoricCountries(ExistingCountries):
     root_key = "3166-3"
 
 
-class Scripts(pycountry.db.Database):
+class Scripts(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 15924 database (Scripts)."""
 
     data_class = "Script"
     root_key = "15924"
 
 
-class Currencies(pycountry.db.Database):
+class Currencies(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 4217 database (Currencies)."""
 
     data_class = "Currency"
     root_key = "4217"
 
 
-class Languages(pycountry.db.Database):
+class Languages(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index = ["status", "scope", "type", "inverted_name", "common_name"]
@@ -148,7 +145,7 @@ class Languages(pycountry.db.Database):
     root_key = "639-3"
 
 
-class LanguageFamilies(pycountry.db.Database):
+class LanguageFamilies(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
@@ -181,7 +178,7 @@ class SubdivisionHierarchy(pycountry.db.Data):
         return subdivisions.get(code=self.parent_code)
 
 
-class Subdivisions(pycountry.db.Database):
+class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
@@ -231,15 +228,16 @@ class Subdivisions(pycountry.db.Database):
     def partial_match(self, query):
         query = remove_accents(query.strip().lower())
         matching_candidates = []
-        for candidate in subdivisions:
+        for candidate in self:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                matching_candidates.append(candidate)
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    matching_candidates.append(candidate)
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> list[type["Subdivisions"]]:
+    def search_fuzzy(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
@@ -261,9 +259,10 @@ class Subdivisions(pycountry.db.Database):
         partial_match_subdivisions = self.partial_match(query)
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)

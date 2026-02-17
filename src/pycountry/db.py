@@ -1,8 +1,9 @@
+import functools
 import json
 import logging
 import threading
 from collections.abc import Callable, Iterator
-from typing import Any, Generic, TypeVar, cast
+from typing import Any, ClassVar, Generic, TypeVar, cast
 
 logger = logging.getLogger("pycountry.db")
 
@@ -23,7 +24,7 @@ class Data:
 
     def __repr__(self) -> str:
         cls_name = self.__class__.__name__
-        fields = ", ".join("%s=%r" % i for i in sorted(self._fields.items()))
+        fields = ", ".join(f"{k}={v!r}" for k, v in sorted(self._fields.items()))
         return f"{cls_name}({fields})"
 
     def __dir__(self) -> list[str]:
@@ -47,6 +48,7 @@ F = TypeVar("F", bound=Callable[..., Any])
 
 
 def lazy_load(f: F) -> F:
+    @functools.wraps(f)
     def load_if_needed(self, *args, **kw):
         if not self._is_loaded:
             with self._load_lock:
@@ -60,15 +62,17 @@ T = TypeVar("T", bound=Data)
 
 
 class Database(Generic[T]):
-    data_class: type | str
-    root_key: str | None = None
-    no_index: list[str] = []
-    special_index: list[str] = []
+    data_class: ClassVar[type | str]
+    root_key: ClassVar[str | None] = None
+    no_index: ClassVar[list[str]] = []
+    special_index: ClassVar[list[str]] = []
 
     def __init__(self, filename: str) -> None:
         self.filename = filename
         self._is_loaded = False
         self._load_lock = threading.Lock()
+        self.objects: list[T] = []
+        self.indices: dict[str, dict[str, T]] = {}
 
         if isinstance(self.data_class, str):
             self.factory = type(self.data_class, (Data,), {})
@@ -99,9 +103,9 @@ class Database(Generic[T]):
             value = value.lower()
             if value in index:
                 logger.debug(
-                    "%s %r already taken in index %r and will be "
-                    "ignored. This is an error in the databases."
-                    % (self.factory.__name__, value, key)
+                    f"{self.factory.__name__} {value!r} already taken in "
+                    f"index {key!r} and will be ignored. "
+                    "This is an error in the databases."
                 )
             index[value] = obj
 
@@ -213,4 +217,4 @@ class Database(Generic[T]):
                 if v.lower() == value:
                     return candidate
 
-        raise LookupError("Could not find a record for %r" % value)
+        raise LookupError(f"Could not find a record for {value!r}")
