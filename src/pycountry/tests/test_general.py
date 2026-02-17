@@ -80,7 +80,9 @@ def test_country_fuzzy_search(countries):
     # which just happens to have a subdivision called "Niger State"
     results = pycountry.countries.search_fuzzy("niger")
     assert results[0] == pycountry.countries.get(alpha_2="NE")  # Niger
-    assert pycountry.countries.get(alpha_2="NG") in results  # Nigeria also matches
+    assert (
+        pycountry.countries.get(alpha_2="NG") in results
+    )  # Nigeria also matches
 
 
 def test_historic_country_fuzzy_search(countries):
@@ -195,7 +197,9 @@ def test_languages():
 
 def test_language_families():
     assert len(pycountry.language_families) == 115
-    assert isinstance(next(iter(pycountry.language_families)), pycountry.db.Data)
+    assert isinstance(
+        next(iter(pycountry.language_families)), pycountry.db.Data
+    )
 
     aragonese = pycountry.languages.get(alpha_3="arg")
     assert aragonese.alpha_3 == "arg"

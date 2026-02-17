@@ -150,7 +150,11 @@ class Languages(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
     no_index: ClassVar[list[str]] = [
-        "status", "scope", "type", "inverted_name", "common_name"
+        "status",
+        "scope",
+        "type",
+        "inverted_name",
+        "common_name",
     ]
 
     data_class = "Language"

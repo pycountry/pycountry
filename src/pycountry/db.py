@@ -24,7 +24,9 @@ class Data:
 
     def __repr__(self) -> str:
         cls_name = self.__class__.__name__
-        fields = ", ".join(f"{k}={v!r}" for k, v in sorted(self._fields.items()))
+        fields = ", ".join(
+            f"{k}={v!r}" for k, v in sorted(self._fields.items())
+        )
         return f"{cls_name}({fields})"
 
     def __dir__(self) -> list[str]:
