@@ -26,7 +26,7 @@ def subdivisions():
 
 def test_country_list(countries):
     assert len(pycountry.countries) == 249
-    assert isinstance(list(pycountry.countries)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.countries)), pycountry.db.Data)
 
 
 def test_country_fuzzy_search(countries):
@@ -75,11 +75,25 @@ def test_country_fuzzy_search(countries):
     assert len(results) >= 4
     assert pycountry.countries.get(alpha_2="GB") in results[:4]
 
+    # issue #115, Niger should rank above Nigeria when searching for "niger"
+    # because "Niger" is a more precise match (exact length) than "Nigeria"
+    # which just happens to have a subdivision called "Niger State"
+    results = pycountry.countries.search_fuzzy("niger")
+    assert results[0] == pycountry.countries.get(alpha_2="NE")  # Niger
+    assert (
+        pycountry.countries.get(alpha_2="NG") in results
+    )  # Nigeria also matches
+
 
 def test_historic_country_fuzzy_search(countries):
     results = pycountry.historic_countries.search_fuzzy("burma")
     assert len(results) == 1
     assert results[0] == pycountry.historic_countries.get(alpha_4="BUMM")
+
+    # issue #242: Czechoslovakia should return Czechoslovakia, not Serbia.
+    # Both share alpha_2='CS', but searching by name should find the right one.
+    results = pycountry.historic_countries.search_fuzzy("Czechoslovakia")
+    assert results[0] == pycountry.historic_countries.get(alpha_4="CSHH")
 
 
 def test_germany_has_all_attributes(countries):
@@ -117,7 +131,7 @@ def test_country_missing_attribute(countries):
 
 def test_subdivisions_directly_accessible(countries):
     assert len(pycountry.subdivisions) == 5046
-    assert isinstance(list(pycountry.subdivisions)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.subdivisions)), pycountry.db.Data)
 
     de_st = pycountry.subdivisions.get(code="DE-ST")
     assert de_st.code == "DE-ST"
@@ -145,7 +159,7 @@ def test_query_subdivisions_of_country():
 
 def test_scripts():
     assert len(pycountry.scripts) == 226
-    assert isinstance(list(pycountry.scripts)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.scripts)), pycountry.db.Data)
 
     latin = pycountry.scripts.get(name="Latin")
     assert latin.alpha_4 == "Latn"
@@ -155,7 +169,7 @@ def test_scripts():
 
 def test_currencies():
     assert len(pycountry.currencies) == 178
-    assert isinstance(list(pycountry.currencies)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.currencies)), pycountry.db.Data)
 
     argentine_peso = pycountry.currencies.get(alpha_3="ARS")
     assert argentine_peso.alpha_3 == "ARS"
@@ -165,7 +179,7 @@ def test_currencies():
 
 def test_languages():
     assert len(pycountry.languages) == 7923
-    assert isinstance(list(pycountry.languages)[0], pycountry.db.Data)
+    assert isinstance(next(iter(pycountry.languages)), pycountry.db.Data)
 
     aragonese = pycountry.languages.get(alpha_2="an")
     assert aragonese.alpha_2 == "an"
@@ -183,7 +197,9 @@ def test_languages():
 
 def test_language_families():
     assert len(pycountry.language_families) == 115
-    assert isinstance(list(pycountry.language_families)[0], pycountry.db.Data)
+    assert isinstance(
+        next(iter(pycountry.language_families)), pycountry.db.Data
+    )
 
     aragonese = pycountry.languages.get(alpha_3="arg")
     assert aragonese.alpha_3 == "arg"
@@ -191,6 +207,16 @@ def test_language_families():
 
 
 def test_locales():
+    # Skip if locale files aren't available (e.g., in RPM builds where
+    # LOCALES_DIR may point to system locales with different naming)
+    locale_file = os.path.join(
+        pycountry.LOCALES_DIR, "de", "LC_MESSAGES", "iso3166-1.mo"
+    )
+    if not os.path.exists(locale_file):
+        pytest.skip(
+            f"Locale file not found: {locale_file}. "
+            "LOCALES_DIR may point to system locales."
+        )
     german = gettext.translation(
         "iso3166-1", pycountry.LOCALES_DIR, languages=["de"]
     )
@@ -527,3 +553,47 @@ def test_subdivisions_with_missing_parents(subdivisions):
         if i.parent_code and not i.parent
     ]
     assert result == []
+
+
+def test_deepcopy_country(countries):
+    """Test that deepcopy works on country objects (fixes issue #222)."""
+    from copy import deepcopy
+
+    usa = pycountry.countries.get(alpha_2="US")
+    usa_copy = deepcopy(usa)
+
+    # Verify it's a different object
+    assert usa_copy is not usa
+    # Verify attributes are preserved
+    assert usa_copy.alpha_2 == usa.alpha_2
+    assert usa_copy.alpha_3 == usa.alpha_3
+    assert usa_copy.name == usa.name
+
+
+def test_shallow_copy_country(countries):
+    """Test that shallow copy works on country objects."""
+    from copy import copy
+
+    germany = pycountry.countries.get(alpha_2="DE")
+    germany_copy = copy(germany)
+
+    # Verify it's a different object
+    assert germany_copy is not germany
+    # Verify attributes are preserved
+    assert germany_copy.alpha_2 == germany.alpha_2
+    assert germany_copy.name == germany.name
+
+
+def test_deepcopy_subdivision(subdivisions):
+    """Test that deepcopy works on subdivision objects."""
+    from copy import deepcopy
+
+    california = pycountry.subdivisions.get(code="US-CA")
+    california_copy = deepcopy(california)
+
+    # Verify it's a different object
+    assert california_copy is not california
+    # Verify attributes are preserved
+    assert california_copy.code == california.code
+    assert california_copy.name == california.name
+    assert california_copy.country_code == california.country_code

@@ -1,10 +1,11 @@
 """pycountry"""
 
+import contextlib
 import os.path
 import unicodedata
 from importlib import metadata as _importlib_metadata
 from importlib import resources as _importlib_resources
-from typing import cast
+from typing import ClassVar, cast
 
 import pycountry.db
 
@@ -48,25 +49,25 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
     def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
 
-        # A country-code to points mapping for later sorting countries
-        # based on the query's matching incidence.
-        results: dict[str, int] = {}
+        # Map country objects to points for sorting. We use id() as the key
+        # because alpha_2 codes can be reused (e.g., historic countries
+        # Czechoslovakia and Serbia both have alpha_2='CS').
+        results: dict[int, int] = {}
+        country_by_id: dict[int, pycountry.db.Country] = {}
 
         def add_result(country: "pycountry.db.Country", points: int) -> None:
-            results.setdefault(country.alpha_2, 0)
-            results[country.alpha_2] += points
+            key = id(country)
+            results.setdefault(key, 0)
+            results[key] += points
+            country_by_id[key] = country
 
         # Prio 1: exact matches on country names
-        try:
+        with contextlib.suppress(LookupError):
             add_result(self.lookup(query), 50)
-        except LookupError:
-            pass
 
         # Prio 2: exact matches on subdivision names
-        match_subdivions = pycountry.Subdivisions.match(
-            self=subdivisions, query=query
-        )
-        for candidate in match_subdivions:
+        matching_subdivisions = subdivisions.match(query)
+        for candidate in matching_subdivisions:
             add_result(candidate.country, 49)
 
         # Prio 3: partial matches on country names
@@ -95,24 +96,30 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
                         break
 
         # Prio 4: partial matches on subdivision names
-        partial_match_subdivisions = pycountry.Subdivisions.partial_match(
-            self=subdivisions, query=query
-        )
+        # Exclude subdivisions already counted in Prio 2 to avoid double-counting
+        matched_subdivision_codes = {s.code for s in matching_subdivisions}
+        partial_match_subdivisions = subdivisions.partial_match(query)
         for candidate in partial_match_subdivisions:
+            if candidate.code in matched_subdivision_codes:
+                continue
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate.country, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate.country, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
 
+        # Sort by points (descending), then by alpha_2 code (ascending) for
+        # stable results. Use the stored country objects directly instead of
+        # looking up by alpha_2, which can be ambiguous for historic countries.
         sorted_results = [
-            self.get(alpha_2=x[0])
-            # sort by points first, by alpha2 code second, and to ensure stable
-            # results the negative value allows us to sort reversely on the
-            # points but ascending on the country code.
-            for x in sorted(results.items(), key=lambda x: (-x[1], x[0]))
+            country_by_id[key]
+            for key, _ in sorted(
+                results.items(),
+                key=lambda x: (-x[1], country_by_id[x[0]].alpha_2),
+            )
         ]
         return cast(list[pycountry.db.Country], sorted_results)
 
@@ -125,30 +132,36 @@ class HistoricCountries(ExistingCountries):
     root_key = "3166-3"
 
 
-class Scripts(pycountry.db.Database):
+class Scripts(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 15924 database (Scripts)."""
 
     data_class = "Script"
     root_key = "15924"
 
 
-class Currencies(pycountry.db.Database):
+class Currencies(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 4217 database (Currencies)."""
 
     data_class = "Currency"
     root_key = "4217"
 
 
-class Languages(pycountry.db.Database):
+class Languages(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-1/2T/3 database (Languages)."""
 
-    no_index = ["status", "scope", "type", "inverted_name", "common_name"]
+    no_index: ClassVar[list[str]] = [
+        "status",
+        "scope",
+        "type",
+        "inverted_name",
+        "common_name",
+    ]
 
     data_class = "Language"
     root_key = "639-3"
 
 
-class LanguageFamilies(pycountry.db.Database):
+class LanguageFamilies(pycountry.db.Database[pycountry.db.Data]):
     """Provides access to an ISO 639-5 database
     (Language Families and Groups)."""
 
@@ -158,10 +171,7 @@ class LanguageFamilies(pycountry.db.Database):
 
 class SubdivisionHierarchy(pycountry.db.Data):
     def __init__(self, **kw):
-        if "parent" in kw:
-            kw["parent_code"] = kw["parent"]
-        else:
-            kw["parent_code"] = None
+        kw["parent_code"] = kw.get("parent")
         super().__init__(**kw)
         self.country_code = self.code.split("-")[0]
         if self.parent_code is not None:
@@ -181,14 +191,14 @@ class SubdivisionHierarchy(pycountry.db.Data):
         return subdivisions.get(code=self.parent_code)
 
 
-class Subdivisions(pycountry.db.Database):
+class Subdivisions(pycountry.db.Database[SubdivisionHierarchy]):
     # Note: subdivisions can be hierarchical to other subdivisions. The
     # parent_code attribute is related to other subdivisions, *not*
     # the country!
 
     data_class = SubdivisionHierarchy
-    no_index = ["name", "parent_code", "parent", "type"]
-    special_index = ["country_code"]
+    no_index: ClassVar[list[str]] = ["name", "parent_code", "parent", "type"]
+    special_index: ClassVar[list[str]] = ["country_code"]
     root_key = "3166-2"
 
     def _special_index(self, obj, key):
@@ -204,12 +214,15 @@ class Subdivisions(pycountry.db.Database):
     def get(self, **kw):
         default = kw.setdefault("default", None)
         subdivisions = super().get(**kw)
-        if subdivisions is default and "country_code" in kw:
-            # This handles the case where we know about a country but there
-            # are no subdivisions: we return an empty list in this case
-            # (sticking to the expected type here) instead of None.
-            if countries.get(alpha_2=kw["country_code"]) is not None:
-                return []
+        # This handles the case where we know about a country but there
+        # are no subdivisions: we return an empty list in this case
+        # (sticking to the expected type here) instead of None.
+        if (
+            subdivisions is default
+            and "country_code" in kw
+            and countries.get(alpha_2=kw["country_code"]) is not None
+        ):
+            return []
         return subdivisions
 
     def match(self, query):
@@ -231,15 +244,16 @@ class Subdivisions(pycountry.db.Database):
     def partial_match(self, query):
         query = remove_accents(query.strip().lower())
         matching_candidates = []
-        for candidate in subdivisions:
+        for candidate in self:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                matching_candidates.append(candidate)
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    matching_candidates.append(candidate)
 
         return matching_candidates
 
-    def search_fuzzy(self, query: str) -> list[type["Subdivisions"]]:
+    def search_fuzzy(self, query: str) -> list[SubdivisionHierarchy]:
         query = remove_accents(query.strip().lower())
 
         # A Subdivision's code to points mapping for later sorting subdivisions
@@ -261,9 +275,10 @@ class Subdivisions(pycountry.db.Database):
         partial_match_subdivisions = self.partial_match(query)
         for candidate in partial_match_subdivisions:
             v = candidate._fields.get("name")
-            v = remove_accents(v.lower())
-            if query in v:
-                add_result(candidate, max([1, 5 - v.find(query)]))
+            if v is not None:
+                v = remove_accents(v.lower())
+                if query in v:
+                    add_result(candidate, max([1, 5 - v.find(query)]))
 
         if not results:
             raise LookupError(query)
