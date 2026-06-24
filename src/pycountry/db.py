@@ -12,8 +12,14 @@ class Data:
         self._fields = fields
 
     def __getattr__(self, key: str) -> str:
-        if key in self._fields:
-            return self._fields[key]
+        # Use object.__getattribute__ to avoid infinite recursion when _fields
+        # is not yet set (e.g. during copy/pickle reconstruction).
+        try:
+            fields = object.__getattribute__(self, "_fields")
+        except AttributeError:
+            raise AttributeError(key)
+        if key in fields:
+            return fields[key]
         raise AttributeError(key)
 
     def __setattr__(self, key: str, value: str) -> None:
