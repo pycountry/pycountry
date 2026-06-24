@@ -47,6 +47,8 @@ class ExistingCountries(pycountry.db.Database[pycountry.db.Country]):
 
     def search_fuzzy(self, query: str) -> list[pycountry.db.Country]:
         query = remove_accents(query.strip().lower())
+        if not query:
+            raise LookupError(query)
 
         # A country-code to points mapping for later sorting countries
         # based on the query's matching incidence.
@@ -241,6 +243,8 @@ class Subdivisions(pycountry.db.Database):
 
     def search_fuzzy(self, query: str) -> list[type["Subdivisions"]]:
         query = remove_accents(query.strip().lower())
+        if not query:
+            raise LookupError(query)
 
         # A Subdivision's code to points mapping for later sorting subdivisions
         # based on the query's matching incidence.

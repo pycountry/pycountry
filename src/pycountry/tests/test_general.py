@@ -527,3 +527,32 @@ def test_subdivisions_with_missing_parents(subdivisions):
         if i.parent_code and not i.parent
     ]
     assert result == []
+
+
+def test_country_deepcopy(countries):
+    """Data objects must survive copy.deepcopy without RecursionError (#222)."""
+    from copy import copy, deepcopy
+
+    us = pycountry.countries.get(alpha_2="US")
+    us_deep = deepcopy(us)
+    assert us_deep.alpha_2 == "US"
+    assert us_deep.name == "United States"
+
+    us_shallow = copy(us)
+    assert us_shallow.alpha_2 == "US"
+
+
+def test_country_search_fuzzy_empty_query_raises(countries):
+    """search_fuzzy on a blank query must raise LookupError, not return all (#206)."""
+    with pytest.raises(LookupError):
+        pycountry.countries.search_fuzzy("")
+    with pytest.raises(LookupError):
+        pycountry.countries.search_fuzzy("   ")
+
+
+def test_subdivision_search_fuzzy_empty_query_raises(subdivisions):
+    """search_fuzzy on a blank query must raise LookupError, not return all (#206)."""
+    with pytest.raises(LookupError):
+        pycountry.subdivisions.search_fuzzy("")
+    with pytest.raises(LookupError):
+        pycountry.subdivisions.search_fuzzy("   ")
