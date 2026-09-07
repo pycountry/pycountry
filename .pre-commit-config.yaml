@@ -19,7 +19,7 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: fa93bc3224c614a0e9786d3e2d3d48edcca246eb  # frozen: v0.15.1
+    rev: 321478e58f4938179c6b86e4ddfa923d1547a49b  # frozen: v0.16.6
     hooks:
       - id: ruff-check
         args: [--fix]
@@ -31,7 +31,7 @@ repos:
         args:
           - --py310-plus
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: c5755e272a13da06be38d74052658af46c1ee447  # frozen: v0.9.35
+    rev: b7c6d5936ef699bcf5af0b0c2558118d3eba24d6  # frozen: v0.9.39
     hooks:
       - id: pymarkdown
         name: pymarkdown-autofix
@@ -43,11 +43,11 @@ repos:
     hooks:
       - id: rstfmt
   - repo: https://github.com/rstcheck/rstcheck
-    rev: 27258fde1ee7d3b1e6a7bbc58f4c7b1dd0e719e5  # frozen: v6.2.5
+    rev: 27a8027d6c6df787891a01b76e8298bac493fb58  # frozen: v6.3.0
     hooks:
       - id: rstcheck
   - repo: https://github.com/codespell-project/codespell
-    rev: 63c8f8312b7559622c0d82815639671ae42132ac  # frozen: v2.4.1
+    rev: 57b21406f092110c18776e39b0bda50d37c945c8  # frozen: v2.4.3
     hooks:
       - id: codespell
         # Don't try to "fix" any spellings in the source data.
@@ -76,6 +76,6 @@ repos:
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
   - repo: https://github.com/henryiii/validate-pyproject-schema-store
-    rev: 5e6f0fbc775cf099208a6aaece4e3d22b76f3e3c  # frozen: 2026.02.15
+    rev: 0cee1769d7b9f642b7545be04c079f94277d6833  # frozen: 2026.09.04
     hooks:
       - id: validate-pyproject
