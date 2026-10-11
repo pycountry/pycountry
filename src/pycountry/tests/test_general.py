@@ -1,4 +1,5 @@
 import gettext
+import json
 import os.path
 import re
 from importlib import metadata as _importlib_metadata
@@ -348,6 +349,38 @@ def test_country_remove_entry(countries):
 def test_country_remove_non_existent_entry(countries):
     with pytest.raises(KeyError, match="not found"):
         pycountry.countries.remove_entry(name="Not A Real Country")
+
+
+@pytest.mark.parametrize("removed, remaining", [("AA", "BB"), ("BB", "AA")])
+def test_remove_entry_preserves_duplicate_index(tmp_path, removed, remaining):
+    path = tmp_path / "countries.json"
+    path.write_text(
+        json.dumps(
+            {
+                "3166-1": [
+                    {"alpha_2": "AA", "name": "Shared"},
+                    {"alpha_2": "BB", "name": "SHARED"},
+                    {"alpha_2": "CC", "name": "Other"},
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    database = pycountry.ExistingCountries(str(path))
+    survivor = database.get(alpha_2=remaining)
+    other = database.get(alpha_2="CC")
+
+    database.remove_entry(alpha_2=removed)
+
+    assert database.get(alpha_2=removed) is None
+    assert database.get(name="shared") is survivor
+    assert database.lookup("shared") is survivor
+    assert database.get(name="Other") is other
+
+    database.remove_entry(alpha_2=remaining)
+
+    assert database.get(name="shared") is None
+    assert database.get(name="Other") is other
 
 
 def test_subdivision_add_entry(subdivisions):
