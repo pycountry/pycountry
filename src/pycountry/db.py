@@ -114,7 +114,19 @@ class Database(Generic[T]):
                 continue
             value = value.lower()
             index = self.indices.setdefault(key, {})
-            if value in index:
+            if index.get(value) is not obj:
+                continue
+            for candidate in reversed(self.objects):
+                if candidate is obj:
+                    continue
+                candidate_value = candidate._fields.get(key)
+                if (
+                    candidate_value is not None
+                    and candidate_value.lower() == value
+                ):
+                    index[value] = candidate
+                    break
+            else:
                 del index[value]
 
     def _load(self) -> None:

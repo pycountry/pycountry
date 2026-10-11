@@ -4,7 +4,8 @@ Changes
 26.2.17.dev0 (Unreleased
 ------------------------
 
-None yet!
+- Preserve lookups for remaining entries with duplicate indexed values when
+  removing an entry at runtime.
 
 
 26.2.16 (2026-02-16)
