@@ -67,7 +67,8 @@ both record and country-code indices, so it can also return a set.
 
 To check the annotations and consumer examples locally, install the
 development dependencies and run ``poetry run mypy``. The existing CI
-type check runs these checks as well.
+type check runs these checks as well. The mypy pre-commit hook runs the
+same check in an isolated environment on every commit.
 
 ************************
  Countries (ISO 3166-1)
