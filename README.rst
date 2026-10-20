@@ -38,6 +38,38 @@ The code lives in a `git repository on GitHub
 <https://github.com/pycountry/pycountry>`_, and issues must be reported
 in there as well.
 
+************
+ Type hints
+************
+
+pycountry includes type hints for its database methods and records. For
+example, ``countries.get(alpha_2="DE")`` returns
+``pycountry.db.Country`` or ``None``; ``countries.lookup("DE")`` returns
+a ``Country`` or raises ``LookupError``. Check a ``get`` result for
+``None`` before accessing its attributes. Passing a custom ``default``
+includes that value's type in the return type.
+
+Record fields contain strings when present. Some fields, such as
+``Country.official_name`` and ``Language.alpha_2``, are absent from some
+records and raise ``AttributeError`` when accessed. Use
+``getattr(record, "official_name", None)`` when a field may be absent.
+An annotation does not supply a default value for a missing field.
+Subdivision ``parent_code``, ``parent``, and ``country`` can return
+``None``.
+
+Subdivision queries have two forms: ``subdivisions.get(code="DE-ST")``
+returns a ``pycountry.SubdivisionHierarchy`` or the default, while
+``subdivisions.get(country_code="DE")`` returns a set of subdivisions.
+For a known country with no subdivisions, the latter returns an empty
+list; for an unknown country it returns the default. The annotations
+preserve these existing differences. ``subdivisions.lookup`` searches
+both record and country-code indices, so it can also return a set.
+
+To check the annotations and consumer examples locally, install the
+development dependencies and run ``poetry run mypy``. The existing CI
+type check runs these checks as well. The mypy pre-commit hook runs the
+same check in an isolated environment on every commit.
+
 ************************
  Countries (ISO 3166-1)
 ************************

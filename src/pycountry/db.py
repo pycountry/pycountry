@@ -2,23 +2,23 @@ import json
 import logging
 import threading
 from collections.abc import Callable, Iterator
-from typing import Any, Generic, TypeVar, cast
+from typing import Any, Generic, TypeVar, cast, overload
 
 logger = logging.getLogger("pycountry.db")
 
 
 class Data:
-    def __init__(self, **fields: str):
+    def __init__(self, **fields: str | None) -> None:
         self._fields = fields
 
-    def __getattr__(self, key: str) -> str:
+    def __getattr__(self, key: str) -> str | None:
         if key in self._fields:
             return self._fields[key]
         raise AttributeError(key)
 
-    def __setattr__(self, key: str, value: str) -> None:
+    def __setattr__(self, key: str, value: object) -> None:
         if key != "_fields":
-            self._fields[key] = value
+            self._fields[key] = cast(str | None, value)
         super().__setattr__(key, value)
 
     def __repr__(self) -> str:
@@ -29,25 +29,65 @@ class Data:
     def __dir__(self) -> list[str]:
         return dir(self.__class__) + list(self._fields)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[tuple[str, "str | Data | None"]]:
         # allow casting into a dict
         for field in self._fields:
             yield field, getattr(self, field)
 
 
 class Country(Data):
-    pass
+    # Some fields only occur on current or historic countries. Missing fields
+    # raise AttributeError; they do not return None.
+    alpha_2: str
+    alpha_3: str
+    name: str
+    numeric: str
+    flag: str
+    official_name: str
+    common_name: str
+    alpha_4: str
+    withdrawal_date: str
+    comment: str
 
 
 class Subdivision(Data):
     pass
 
 
+class Script(Data):
+    alpha_4: str
+    name: str
+    numeric: str
+
+
+class Currency(Data):
+    alpha_3: str
+    name: str
+    numeric: str
+
+
+class Language(Data):
+    alpha_3: str
+    name: str
+    scope: str
+    type: str
+    # These attributes may be absent (raising AttributeError).
+    alpha_2: str
+    bibliographic: str
+    common_name: str
+    inverted_name: str
+
+
+class LanguageFamily(Data):
+    alpha_3: str
+    name: str
+
+
 F = TypeVar("F", bound=Callable[..., Any])
 
 
 def lazy_load(f: F) -> F:
-    def load_if_needed(self, *args, **kw):
+    def load_if_needed(self: "Database[Any]", *args: Any, **kw: Any) -> Any:
         if not self._is_loaded:
             with self._load_lock:
                 self._load()
@@ -57,10 +97,12 @@ def lazy_load(f: F) -> F:
 
 
 T = TypeVar("T", bound=Data)
+D = TypeVar("D")
 
 
 class Database(Generic[T]):
-    data_class: type | str
+    data_class: type[T] | str
+    factory: type[T]
     root_key: str | None = None
     no_index: list[str] = []
     special_index: list[str] = []
@@ -71,22 +113,22 @@ class Database(Generic[T]):
         self._load_lock = threading.Lock()
 
         if isinstance(self.data_class, str):
-            self.factory = type(self.data_class, (Data,), {})
+            self.factory = cast(type[T], type(self.data_class, (Data,), {}))
         else:
             self.factory = self.data_class
 
-    def _clear(self):
+    def _clear(self) -> None:
         self._is_loaded = False
-        self.objects = []
-        self.indices = {}
+        self.objects: list[T] = []
+        self.indices: dict[str, dict[str, T | set[T]]] = {}
 
-    def _special_index(self, obj, key) -> None:
+    def _special_index(self, obj: T, key: str) -> None:
         raise NotImplementedError("Must be implemented in subclass")
 
-    def _special_deindex(self, obj, key) -> None:
+    def _special_deindex(self, obj: T, key: str) -> None:
         raise NotImplementedError("Must be implemented in subclass")
 
-    def _index_object(self, obj) -> None:
+    def _index_object(self, obj: T) -> None:
         for key, value in obj._fields.items():
             if key in self.no_index:
                 continue
@@ -96,7 +138,7 @@ class Database(Generic[T]):
             # Lookups and searches are case insensitive. Normalize
             # here.
             index = self.indices.setdefault(key, {})
-            value = value.lower()
+            value = cast(str, value).lower()
             if value in index:
                 logger.debug(
                     "%s %r already taken in index %r and will be "
@@ -105,14 +147,14 @@ class Database(Generic[T]):
                 )
             index[value] = obj
 
-    def _deindex_object(self, obj) -> None:
+    def _deindex_object(self, obj: T) -> None:
         for key, value in obj._fields.items():
             if key in self.no_index:
                 continue
             if key in self.special_index:
                 self._special_deindex(obj, key)
                 continue
-            value = value.lower()
+            value = cast(str, value).lower()
             index = self.indices.setdefault(key, {})
             if value in index:
                 del index[value]
@@ -137,7 +179,7 @@ class Database(Generic[T]):
     # Public API
 
     @lazy_load
-    def add_entry(self, **kw):
+    def add_entry(self, **kw: str | None) -> None:
         # create the object with the correct dynamic type
         obj = self.factory(**kw)
 
@@ -148,10 +190,9 @@ class Database(Generic[T]):
         self._index_object(obj)
 
     @lazy_load
-    def remove_entry(self, **kw):
-        # make sure that we receive None if no entry found
-        kw.pop("default", None)
-        obj = self.get(**kw)
+    def remove_entry(self, *, default: object = None, **kw: str | None) -> None:
+        # Ignore a caller's default so a missing record always raises KeyError.
+        obj = self.get(default=None, **kw)
         if not obj:
             raise KeyError(
                 f"{self.factory.__name__} not found and cannot be removed: {kw}"
@@ -171,8 +212,16 @@ class Database(Generic[T]):
     def __len__(self) -> int:
         return len(self.objects)
 
+    @overload
+    def get(self, *, default: None = None, **kw: str | None) -> T | None: ...
+
+    @overload
+    def get(self, *, default: D, **kw: str | None) -> T | D: ...
+
     @lazy_load
-    def get(self, *, default: T | None = None, **kw: str | None) -> T | None:
+    def get(
+        self, *, default: D | None = None, **kw: str | None
+    ) -> T | D | None:
         if len(kw) != 1:
             raise TypeError("Only one criteria may be given")
         field, value = kw.popitem()
@@ -182,7 +231,9 @@ class Database(Generic[T]):
         value = value.lower()
         index = self.indices[field]
         try:
-            return index[value]
+            # Ordinary indices contain records; subclasses expose the different
+            # return types of their special indices in their public APIs.
+            return cast(T, index[value])
         except KeyError:
             # Pythonic APIs implementing     get() shouldn't raise KeyErrors.
             # Those are a bit unexpected and they should rather support
@@ -200,7 +251,7 @@ class Database(Generic[T]):
         # Use indexes first
         for key in self.indices:
             try:
-                return self.indices[key][value]
+                return cast(T, self.indices[key][value])
             except LookupError:
                 pass
 

@@ -24,6 +24,15 @@ repos:
       - id: ruff-check
         args: [--fix]
       - id: ruff-format
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: a66e98df7b4aeeb3724184b332785976d062b92e  # frozen: v1.19.1
+    hooks:
+      - id: mypy
+        additional_dependencies: ["typing-extensions>=4.2"]
+        # Use the strict project configuration, including consumer checks.
+        args: []
+        pass_filenames: false
+        always_run: true
   - repo: https://github.com/asottile/pyupgrade
     rev: 75992aaa40730136014f34227e0135f63fc951b4  # frozen: v3.21.2
     hooks:
