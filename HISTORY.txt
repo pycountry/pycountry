@@ -4,7 +4,9 @@ Changes
 26.2.17.dev0 (Unreleased
 ------------------------
 
-None yet!
+- Fixed ``lookup`` to check ``alpha_*`` codes before names, so that
+  ``languages.lookup("en")`` returns English rather than the "En" language.
+  Fixes issue #41.
 
 
 26.2.16 (2026-02-16)

@@ -275,6 +275,24 @@ def test_lookup(countries):
         pycountry.countries.get(alpha_2=12345)
 
 
+@pytest.mark.parametrize(
+    "code, name",
+    [
+        ("en", "English"),
+        ("EN", "English"),
+        ("ko", "Korean"),
+        ("ga", "Irish"),
+        ("hu", "Hungarian"),
+    ],
+)
+def test_lookup_prefers_codes_over_names(code, name):
+    # Some languages have a name that is also another language's alpha_2
+    # code (e.g. "En", "Ko", "Ga", "Hu").  The code should win.
+    assert pycountry.languages.lookup(code).name == name
+    # The other language is still reachable by its name through get().
+    assert pycountry.languages.get(name=code).name.lower() == code.lower()
+
+
 def test_subdivision_parent():
     s = pycountry.subdivisions
     sd = s.get(code="CV-BV")

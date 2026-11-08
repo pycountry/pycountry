@@ -197,8 +197,11 @@ class Database(Generic[T]):
         # Normalize for case-insensitivity
         value = value.lower()
 
-        # Use indexes first
-        for key in self.indices:
+        # Use indexes first, starting with the alpha_* codes so that e.g.
+        # languages.lookup("en") finds English and not the "En" language.
+        for key in sorted(
+            self.indices, key=lambda k: not k.startswith("alpha_")
+        ):
             try:
                 return self.indices[key][value]
             except LookupError:
