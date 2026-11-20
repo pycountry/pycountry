@@ -4,7 +4,9 @@ Changes
 26.2.17.dev0 (Unreleased
 ------------------------
 
-None yet!
+- Completed type hints for record fields, database iteration, lookups,
+  custom defaults, and subdivision hierarchy and search methods. Enabled
+  strict mypy checks with consumer typing examples.
 
 
 26.2.16 (2026-02-16)

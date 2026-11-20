@@ -41,6 +41,7 @@ changelog = "https://github.com/pycountry/pycountry/blob/main/HISTORY.txt"
 
 [tool.poetry.group.dev.dependencies]
 mypy = ">1.7.1"
+typing-extensions = ">=4.2"
 pre-commit = ">3.4.0"
 pytest = ">7.1.3"
 pytest-cov = ">4.0.0"
@@ -73,5 +74,7 @@ select = [
 ignore-words-list = "nam"
 
 [tool.mypy]
-exclude = "/locales/"
-packages = "pycountry"
+exclude = ["/locales/", "/tests/"]
+files = ["src/pycountry", "tests/typing/check_pycountry.py"]
+strict = true
+python_version = "3.10"
